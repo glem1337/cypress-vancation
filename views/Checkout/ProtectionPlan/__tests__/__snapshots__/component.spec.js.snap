@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProtectionPlan component tests matches snapshot 1`] = `
+<CheckoutLayout
+  btnText={
+    Object {
+      "id": "shared.continue",
+    }
+  }
+  currentStep={2}
+  header={
+    <Header
+      currentStep={2}
+    />
+  }
+  onBack={[Function]}
+  price={375}
+  showBackBtn={true}
+>
+  Foo
+</CheckoutLayout>
+`;

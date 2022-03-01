@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopLocations container tests checks \`componentData\` getter 1`] = `
+Object {
+  "locations": undefined,
+  "stateSlug": undefined,
+  "title": undefined,
+}
+`;
+
+exports[`TopLocations container tests matches snapshot 1`] = `
+<TopLocations
+  componentData={
+    Object {
+      "locations": undefined,
+      "stateSlug": undefined,
+      "title": undefined,
+    }
+  }
+  dispatch={[MockFunction]}
+  isMobileOptions={false}
+  location={Object {}}
+  locations={
+    Array [
+      Object {
+        "id": "32fb2587-2dfb-40b9-9c81-584822b0ac7f",
+        "landingName": "New York",
+        "landingSlug": "new-york",
+        "landingType": "state_landing",
+        "latitude": 40.73061,
+        "longitude": -73.935242,
+        "mainPhotoUrl": "https://vancation-api-staging-assets.s3.us-west-1.amazonaws.com/store/statelanding/32fb2587-2dfb-40b9-9c81-584822b0ac7f/main_photo/61fd9bccd8fb04fe0dfb15688f474e6b.jpg",
+        "mainPhotoUrl360": "https://vancation-api-staging-assets.s3.us-west-1.amazonaws.com/store/statelanding/32fb2587-2dfb-40b9-9c81-584822b0ac7f/main_photo/61fd9bccd8fb04fe0dfb15688f474e6b.jpg",
+        "searchRadius": 4,
+        "stateName": null,
+        "stateSlug": null,
+      },
+    ]
+  }
+  moveLeft={[Function]}
+  moveRight={[Function]}
+  showPagination={false}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  swiperLayoutKey="uuid/v4"
+  swiperOptions={
+    Object {
+      "loop": false,
+      "loopFillGroupWithBlank": true,
+      "pagination": Object {
+        "type": "fraction",
+      },
+      "slidesPerGroup": 3,
+      "slidesPerView": 3,
+      "spaceBetween": 24,
+      "watchOverflow": true,
+    }
+  }
+  swiperRef={
+    Object {
+      "current": null,
+    }
+  }
+/>
+`;

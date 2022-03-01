@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListingDetails component tests matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="main-listing-container"
+  >
+    <div
+      className="mb-16 mb-md-24"
+    >
+      <ProgressBar
+        content={
+          <Memo(FormattedMessage)
+            id="addNewCamper.ProgressBar"
+          />
+        }
+        percent={2}
+      />
+    </div>
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <Row>
+        <Col
+          span={24}
+        >
+          <h1
+            className="text-headline mb-8"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.form.listingName.title"
+            />
+          </h1>
+          <p
+            className="mb-16"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.form.listingName.subTitle"
+            />
+          </p>
+        </Col>
+        <Col
+          span={24}
+        >
+          <Row>
+            <Col
+              lg={16}
+            >
+              <Field
+                className="main-input__field"
+                component={[Function]}
+                id="listingName"
+                label={
+                  Object {
+                    "id": "addNewCamper.form.listingName.label",
+                  }
+                }
+                name="listingName"
+                placeholder={
+                  Object {
+                    "id": "shared.name",
+                  }
+                }
+                tooltip={
+                  Object {
+                    "id": "validations.characterCurrentMax",
+                    "values": Object {
+                      "current": 9,
+                      "max": 74,
+                    },
+                  }
+                }
+              />
+            </Col>
+            <Col
+              lg={16}
+            >
+              <Field
+                asComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  }
+                }
+                component={[Function]}
+                id="listingDescription"
+                label={
+                  Object {
+                    "id": "addNewCamper.form.listingDescription.label",
+                  }
+                }
+                name="listingDescription"
+                placeholder={
+                  Object {
+                    "id": "addNewCamper.form.listingDescription.placeholder",
+                  }
+                }
+                rows={4}
+                tooltip={
+                  Object {
+                    "id": "validations.characterCurrentMax",
+                    "values": Object {
+                      "current": 16,
+                      "max": 2000,
+                    },
+                  }
+                }
+              />
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+    </ForwardRef(InternalForm)>
+    <withRouter(Connect(EstimatedEarningCard))
+      isSlim={true}
+    />
+  </div>
+  <AddNewCamperBtnForm
+    canSave={true}
+    isSubmitting={false}
+    onBackClick={[MockFunction]}
+    onSaveClick={[MockFunction]}
+    showGradientButton={true}
+    withBackBtn={true}
+  />
+</Fragment>
+`;
+
+exports[`ListingDetails component tests matches snapshot when camper does not exist 1`] = `
+<div
+  className="main-listing-container"
+>
+  <div
+    className="mb-16 mb-md-24"
+  >
+    <ProgressBar
+      content={
+        <Memo(FormattedMessage)
+          id="addNewCamper.ProgressBar"
+        />
+      }
+      percent={2}
+    />
+  </div>
+  <Row>
+    <Col
+      span={24}
+    >
+      <Skeleton
+        active={true}
+        avatar={false}
+        paragraph={true}
+        title={true}
+      />
+    </Col>
+  </Row>
+</div>
+`;

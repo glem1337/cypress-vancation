@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhotosModal component tests matches snapshot 1`] = `
+<Modal
+  className="main-modal main-modal--van-gallery"
+  closable={false}
+  confirmLoading={false}
+  footer={false}
+  okType="primary"
+  visible={true}
+  width={520}
+>
+  <div
+    className="main-modal__container"
+  >
+    <div
+      className="main-modal__header"
+    >
+      <Button
+        icon={
+          <i
+            className="icon icon-cross"
+          />
+        }
+        onClick={[MockFunction]}
+        shape="circle"
+        size="large"
+        type="secondary"
+      />
+    </div>
+    <div
+      className="main-modal__body"
+    >
+      <div
+        className="van-details__modal-gallery"
+      >
+        <Swiper
+          loop={true}
+          pagination={
+            Object {
+              "type": "fraction",
+            }
+          }
+        >
+          <SwiperSlide
+            key="1"
+          >
+            <Image
+              alt=""
+              preview={false}
+              src="photoUrl1100"
+            />
+          </SwiperSlide>
+        </Swiper>
+        <Button
+          className="swiper-nav-prev"
+          icon={
+            <i
+              className="icon icon-left font-14"
+            />
+          }
+          onClick={[MockFunction]}
+          shape="circle"
+          size="large"
+          type="secondary"
+        />
+        <Button
+          className="swiper-nav-next"
+          icon={
+            <i
+              className="icon icon-right font-14"
+            />
+          }
+          onClick={[MockFunction]}
+          shape="circle"
+          size="large"
+          type="secondary"
+        />
+      </div>
+    </div>
+  </div>
+</Modal>
+`;
+
+exports[`PhotosModal component tests matches snapshot when isDesktop equals false 1`] = `
+<Modal
+  className="main-modal main-modal--van-gallery"
+  closable={false}
+  confirmLoading={false}
+  footer={false}
+  okType="primary"
+  visible={true}
+  width={520}
+>
+  <div
+    className="main-modal__container"
+  >
+    <div
+      className="main-modal__header"
+    >
+      <Button
+        icon={
+          <i
+            className="icon icon-cross"
+          />
+        }
+        onClick={[MockFunction]}
+        shape="circle"
+        size="large"
+        type="secondary"
+      />
+    </div>
+    <div
+      className="main-modal__body"
+    >
+      <div
+        className="van-details__modal-gallery"
+      >
+        <Image
+          alt=""
+          data-index={0}
+          key="1"
+          preview={false}
+          src="photoUrl1100"
+        />
+      </div>
+    </div>
+  </div>
+</Modal>
+`;

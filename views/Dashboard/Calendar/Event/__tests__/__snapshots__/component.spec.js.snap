@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Event component tests matches snapshot 1`] = `
+<div
+  className="dashboard-calendar__event dashboard-calendar__event--active"
+>
+  <span
+    className="calendar__body-cell-booking-info"
+  >
+    <i
+      className="icon icon-seats font-14"
+    />
+     
+    12
+     
+    <i
+      className="icon icon-moon font-14"
+    />
+     
+    13
+     
+    $2334
+  </span>
+</div>
+`;
+
+exports[`Event component tests matches snapshot for external event 1`] = `
+<div
+  className="dashboard-calendar__event dashboard-calendar__event--blocked"
+>
+  <Memo(FormattedMessage)
+    id="shared.blockedBy"
+    values={
+      Object {
+        "name": "test",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Event component tests matches snapshot with another event type 1`] = `
+<div
+  className="dashboard-calendar__event dashboard-calendar__event--blocked"
+>
+  <Memo(FormattedMessage)
+    id="shared.blocked"
+  />
+</div>
+`;

@@ -1,0 +1,40 @@
+.main-input-numeric {
+  position: relative;
+  width: 140px;
+
+  &:hover,
+  &:focus-within {
+    .ant-input {
+      border-color: @blue1000;
+    }
+  }
+
+  .ant-input {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.main-input-numeric__control {
+  .make-centered-y();
+  .flex-center();
+  width: 24px;
+  height: 24px;
+}
+
+.main-input-numeric__control--minus {
+  left: 12px;
+}
+
+.main-input-numeric__control--plus {
+  right: 12px;
+}
+
+.main-input-numeric--checkout {
+  width: 100%;
+
+  .ant-input {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}

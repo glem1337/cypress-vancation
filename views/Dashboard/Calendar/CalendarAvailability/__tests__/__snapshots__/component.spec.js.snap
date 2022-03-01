@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalendarAvailabilityComponent component tests matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="btns-group mb-8"
+  >
+    <Popover
+      content={
+        <div>
+          <div
+            className="d-flex align-items-center"
+          >
+            <i
+              className="icon icon-alert font-18 in-yellow-1000 mr-4"
+            />
+            <span
+              className="text-caption"
+            >
+              <Memo(FormattedMessage)
+                id="calendar.unblockDates.question"
+              />
+            </span>
+          </div>
+          <div
+            className="d-flex justify-content-flex-end mt-16"
+          >
+            <Button
+              className="mr-8"
+              onClick={[MockFunction]}
+              size="small"
+              type="text"
+            >
+              <Memo(FormattedMessage)
+                id="shared.no"
+              />
+            </Button>
+            <BtnGradient
+              className=""
+              isLoading={false}
+              onClick={[MockFunction]}
+              size="small"
+              text={
+                <Memo(FormattedMessage)
+                  id="shared.yes"
+                />
+              }
+            />
+          </div>
+        </div>
+      }
+      mouseEnterDelay={0.1}
+      mouseLeaveDelay={0.1}
+      overlayStyle={Object {}}
+      placement="bottom"
+      trigger="click"
+      visible={true}
+    >
+      <Button
+        className="dashboard-calendar__availability-button btns-group-active"
+        loading={true}
+        onClick={[MockFunction]}
+        size="small"
+      >
+        <Memo(FormattedMessage)
+          id="shared.available"
+        />
+      </Button>
+    </Popover>
+    <Popover
+      content={
+        <div>
+          <div
+            className="d-flex align-items-center"
+          >
+            <i
+              className="icon icon-alert font-18 in-yellow-1000 mr-4"
+            />
+            <span
+              className="text-caption"
+            >
+              <Memo(FormattedMessage)
+                id="calendar.blockDates.question"
+              />
+            </span>
+          </div>
+          <div
+            className="d-flex justify-content-flex-end mt-16"
+          >
+            <Button
+              className="mr-8"
+              onClick={[MockFunction]}
+              size="small"
+              type="text"
+            >
+              <Memo(FormattedMessage)
+                id="shared.no"
+              />
+            </Button>
+            <BtnGradient
+              className=""
+              isLoading={false}
+              onClick={[MockFunction]}
+              size="small"
+              text={
+                <Memo(FormattedMessage)
+                  id="shared.yes"
+                />
+              }
+            />
+          </div>
+        </div>
+      }
+      mouseEnterDelay={0.1}
+      mouseLeaveDelay={0.1}
+      overlayStyle={Object {}}
+      placement="bottom"
+      trigger="click"
+      visible={true}
+    >
+      <Button
+        className="dashboard-calendar__availability-button"
+        loading={true}
+        onClick={[MockFunction]}
+        size="small"
+      >
+        <Memo(FormattedMessage)
+          id="shared.blocked"
+        />
+      </Button>
+    </Popover>
+  </div>
+  <withPopovers((Connect(WithFormik(NightlyRate)))
+    camperId="721d7ab2-849a-400d-8ffc-bd1814bea694"
+  />
+  <withPopovers((Connect(WithFormik(NightlyRateSingle)))
+    camperId="721d7ab2-849a-400d-8ffc-bd1814bea694"
+  />
+  <withPopovers((Connect(WithFormik(BaseDiscount)))
+    camperId="721d7ab2-849a-400d-8ffc-bd1814bea694"
+  />
+  <withPopovers((Connect(WithFormik(BaseDiscountSingle)))
+    camperId="721d7ab2-849a-400d-8ffc-bd1814bea694"
+  />
+  <withPopovers((Connect(WithFormik(MinNightStay)))
+    camperId="721d7ab2-849a-400d-8ffc-bd1814bea694"
+  />
+</Fragment>
+`;
+
+exports[`CalendarAvailabilityComponent component tests matches snapshot for blocked mode 1`] = `
+<Fragment>
+  <div
+    className="btns-group mb-8"
+  >
+    <Popover
+      content={
+        <div>
+          <div
+            className="d-flex align-items-center"
+          >
+            <i
+              className="icon icon-alert font-18 in-yellow-1000 mr-4"
+            />
+            <span
+              className="text-caption"
+            >
+              <Memo(FormattedMessage)
+                id="calendar.unblockDates.question"
+              />
+            </span>
+          </div>
+          <div
+            className="d-flex justify-content-flex-end mt-16"
+          >
+            <Button
+              className="mr-8"
+              onClick={[MockFunction]}
+              size="small"
+              type="text"
+            >
+              <Memo(FormattedMessage)
+                id="shared.no"
+              />
+            </Button>
+            <BtnGradient
+              className=""
+              isLoading={false}
+              onClick={[MockFunction]}
+              size="small"
+              text={
+                <Memo(FormattedMessage)
+                  id="shared.yes"
+                />
+              }
+            />
+          </div>
+        </div>
+      }
+      mouseEnterDelay={0.1}
+      mouseLeaveDelay={0.1}
+      overlayStyle={Object {}}
+      placement="bottom"
+      trigger="click"
+      visible={true}
+    >
+      <Button
+        className="dashboard-calendar__availability-button"
+        loading={true}
+        onClick={[MockFunction]}
+        size="small"
+      >
+        <Memo(FormattedMessage)
+          id="shared.available"
+        />
+      </Button>
+    </Popover>
+    <Popover
+      content={
+        <div>
+          <div
+            className="d-flex align-items-center"
+          >
+            <i
+              className="icon icon-alert font-18 in-yellow-1000 mr-4"
+            />
+            <span
+              className="text-caption"
+            >
+              <Memo(FormattedMessage)
+                id="calendar.blockDates.question"
+              />
+            </span>
+          </div>
+          <div
+            className="d-flex justify-content-flex-end mt-16"
+          >
+            <Button
+              className="mr-8"
+              onClick={[MockFunction]}
+              size="small"
+              type="text"
+            >
+              <Memo(FormattedMessage)
+                id="shared.no"
+              />
+            </Button>
+            <BtnGradient
+              className=""
+              isLoading={false}
+              onClick={[MockFunction]}
+              size="small"
+              text={
+                <Memo(FormattedMessage)
+                  id="shared.yes"
+                />
+              }
+            />
+          </div>
+        </div>
+      }
+      mouseEnterDelay={0.1}
+      mouseLeaveDelay={0.1}
+      overlayStyle={Object {}}
+      placement="bottom"
+      trigger="click"
+      visible={true}
+    >
+      <Button
+        className="dashboard-calendar__availability-button btns-group-active"
+        loading={true}
+        onClick={[MockFunction]}
+        size="small"
+      >
+        <Memo(FormattedMessage)
+          id="shared.blocked"
+        />
+      </Button>
+    </Popover>
+  </div>
+  <withPopovers((Connect(WithFormik(NightlyRate)))
+    camperId="721d7ab2-849a-400d-8ffc-bd1814bea694"
+  />
+  <withPopovers((Connect(WithFormik(NightlyRateSingle)))
+    camperId="721d7ab2-849a-400d-8ffc-bd1814bea694"
+  />
+  <withPopovers((Connect(WithFormik(BaseDiscount)))
+    camperId="721d7ab2-849a-400d-8ffc-bd1814bea694"
+  />
+  <withPopovers((Connect(WithFormik(BaseDiscountSingle)))
+    camperId="721d7ab2-849a-400d-8ffc-bd1814bea694"
+  />
+  <withPopovers((Connect(WithFormik(MinNightStay)))
+    camperId="721d7ab2-849a-400d-8ffc-bd1814bea694"
+  />
+</Fragment>
+`;

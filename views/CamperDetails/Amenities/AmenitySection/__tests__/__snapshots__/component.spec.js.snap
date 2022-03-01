@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AmenitySection component tests matches snapshot 1`] = `
+<Collapse
+  activeKey={
+    Array [
+      "2",
+    ]
+  }
+  className="van-details__amenities"
+  expandIcon={[Function]}
+  expandIconPosition="right"
+  onChange={[MockFunction]}
+>
+  <CollapsePanel
+    header={
+      <React.Fragment>
+        <img
+          alt=""
+          src="/path/to/some/icon"
+        />
+        <p
+          className="text-subtitle font-700"
+        >
+          title
+        </p>
+      </React.Fragment>
+    }
+    key="4"
+  >
+    <Row
+      gutter={24}
+    >
+      <SubAmenities
+        customAmenities={
+          Array [
+            Object {
+              "id": "5",
+            },
+          ]
+        }
+        items={
+          Array [
+            Object {
+              "id": "1",
+            },
+          ]
+        }
+      />
+      <Options
+        items={
+          Array [
+            Object {
+              "id": "3",
+            },
+          ]
+        }
+      />
+      <Col
+        span={24}
+      >
+        <button
+          className="main-link mb-24 in-blue-1000 font-600"
+          onClick={[MockFunction]}
+          type="button"
+        >
+          <Memo(FormattedMessage)
+            id="shared.showUnavailable"
+          />
+        </button>
+      </Col>
+    </Row>
+  </CollapsePanel>
+</Collapse>
+`;

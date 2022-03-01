@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExportModal container tests matches snapshot 1`] = `
+<ExportModal
+  onClose={[MockFunction]}
+  onCopy={[Function]}
+  showMessage={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  url="test/url"
+/>
+`;

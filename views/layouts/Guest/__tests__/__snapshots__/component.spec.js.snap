@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GuestLayout component matches snapshot 1`] = `
+<div
+  className="main-wrap"
+>
+  <div
+    className="auth-main justify-content-flex-start flex-column"
+  >
+    <GuestHeader />
+    <TestComponent />
+  </div>
+</div>
+`;

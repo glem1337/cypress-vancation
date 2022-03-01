@@ -1,0 +1,11 @@
+export const INSURANCE_VALIDATION = {
+  MIN_ACTUAL_CASH_VALUE: 1,
+  MAX_ACTUAL_CASH_VALUE: 200000,
+  MAX_VIN_NUMBER: 20,
+  MAX_LICENSE_PLATE: 10,
+};
+
+export const INSURANCE_STATUS = {
+  APPROVED: 'approved',
+  PENDING: 'pending',
+};

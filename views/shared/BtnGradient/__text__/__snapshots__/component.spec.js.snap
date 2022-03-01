@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BtnGradient Component matches snapshot 1`] = `
+<Button
+  className="main-btn--gradient test classname"
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+>
+  <span
+    className="main-btn__gradient-content"
+  >
+    Label
+  </span>
+  <span
+    className="main-btn__gradient-inner"
+  />
+</Button>
+`;
+
+exports[`BtnGradient Component matches snapshot when text is object 1`] = `
+<Button
+  className="main-btn--gradient test classname"
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+>
+  <span
+    className="main-btn__gradient-content"
+  >
+    shared.ok
+  </span>
+  <span
+    className="main-btn__gradient-inner"
+  />
+</Button>
+`;

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalendarAvailability container tests matches snapshot 1`] = `
+<CalendarAvailabilityComponent
+  availabilityMode="available"
+  blockConfirm={[Function]}
+  blockPrepare={[Function]}
+  blockReject={[Function]}
+  camperId="camperId"
+  changeAvailabilityMode={[Function]}
+  createBlockedPeriods={[Function]}
+  deleteBlockedPeriods={[Function]}
+  isBlockedLoading={false}
+  isBlockedPopoverVisible={false}
+  isUnBlockedLoading={false}
+  isUnBlockedPopoverVisible={false}
+  selectedSlots={
+    Object {
+      "end": 2000-02-20T00:00:00.000Z,
+      "slots": Array [
+        2000-02-20T00:00:00.000Z,
+      ],
+      "start": 2000-02-20T00:00:00.000Z,
+      "uuid": "uuid",
+    }
+  }
+  setAvailabilityMode={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  unBlockConfirm={[Function]}
+  unBlockPrepare={[Function]}
+  unBlockReject={[Function]}
+/>
+`;

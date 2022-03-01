@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExportModal component tests matches snapshot 1`] = `
+<Modal
+  className="main-modal"
+  closable={false}
+  closeIcon={
+    <i
+      className="icon icon-cross main-close-btn"
+    />
+  }
+  footer={null}
+  maskClosable={true}
+  visible={true}
+>
+  <div
+    className="main-modal__container"
+  >
+    <div
+      className="main-modal__header"
+    >
+      <h2
+        className="main-modal__title"
+      >
+        <Memo(FormattedMessage)
+          id="calendar.export.modalTitle"
+        />
+      </h2>
+    </div>
+    <div
+      className="main-modal__body"
+    >
+      <span
+        className="main-input__label mb-4"
+      >
+        <Memo(FormattedMessage)
+          id="calendar.export.modalLabel"
+        />
+      </span>
+      <div
+        className="d-flex"
+      >
+        <Input
+          className="main-input-group--left flex-1 mb-0"
+          type="text"
+          value="test url"
+        />
+        <BtnGradient
+          className="main-input-group--right"
+          isLoading={false}
+          onClick={[MockFunction]}
+          size="large"
+          text={
+            Object {
+              "id": "shared.copy",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="main-modal__footer justify-content-flex-end"
+    >
+      <Button
+        onClick={[MockFunction]}
+        size="large"
+        type="text"
+      >
+        <Memo(FormattedMessage)
+          id="shared.cancel"
+        />
+      </Button>
+      <BtnGradient
+        className="min-w-140 ml-16"
+        download="test url"
+        href="test url"
+        icon={
+          <i
+            className="icon icon-download font-18"
+          />
+        }
+        isLoading={false}
+        size="large"
+        text={
+          Object {
+            "id": "shared.download",
+          }
+        }
+      />
+    </div>
+  </div>
+</Modal>
+`;

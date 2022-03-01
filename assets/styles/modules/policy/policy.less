@@ -1,0 +1,65 @@
+.policy {
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  @media (min-width: @screen-md) {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+.policy-img {
+  .img-back-gradient-overlay();
+  height: 120px;
+  margin-bottom: 24px;
+  border-radius: 16px;
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media (min-width: @screen-md) {
+    height: 200px;
+    margin-bottom: 40px;
+  }
+}
+
+.policy-item + .policy-item {
+  margin-top: 24px;
+}
+
+.policy-content {
+  p {
+    &:extend(.text-subheader);
+    color: @text-color-gray;
+    font-weight: 400;
+  }
+
+  p + p {
+    margin-top: 16px;
+  }
+
+  a {
+    .main-link;
+  }
+}
+
+.policy-content-title {
+  &:extend(.text-title);
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.policy-content-list {
+  &:extend(.text-subheader);
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-left: 32px;
+  list-style-type: disc;
+  color: @text-color-gray;
+  font-weight: 400;
+}

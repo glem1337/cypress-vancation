@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResetPassword container tests container snapshot 1`] = `
+<ResetPassword
+  dirty={false}
+  errors={Object {}}
+  getFieldHelpers={[Function]}
+  getFieldMeta={[Function]}
+  getFieldProps={[Function]}
+  handleBlur={[Function]}
+  handleChange={[Function]}
+  handleReset={[Function]}
+  handleSubmit={[Function]}
+  initialErrors={Object {}}
+  initialTouched={Object {}}
+  initialValues={
+    Object {
+      "email": "",
+    }
+  }
+  isFormValid={false}
+  isSubmitting={false}
+  isValid={true}
+  isValidating={false}
+  onSubmit={[Function]}
+  registerField={[Function]}
+  resetForm={[Function]}
+  setErrors={[Function]}
+  setFieldError={[Function]}
+  setFieldTouched={[Function]}
+  setFieldValue={[Function]}
+  setFormikState={[Function]}
+  setStatus={[Function]}
+  setSubmitting={[Function]}
+  setTouched={[Function]}
+  setValues={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  submitCount={0}
+  submitForm={[Function]}
+  touched={Object {}}
+  unregisterField={[Function]}
+  validateField={[Function]}
+  validateForm={[Function]}
+  validateOnBlur={true}
+  validateOnChange={true}
+  validateOnMount={false}
+  values={
+    Object {
+      "email": "",
+    }
+  }
+/>
+`;
+
+exports[`ResetPassword container tests has validation schema 1`] = `
+Object {
+  "fields": Object {
+    "email": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "email",
+          "params": Object {
+            "regex": /\\^\\(\\(\\(\\[a-z\\]\\|\\\\d\\|\\[!#\\\\\\$%&'\\\\\\*\\\\\\+\\\\-\\\\/=\\\\\\?\\\\\\^_\`\\{\\\\\\|\\}~\\]\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\+\\(\\\\\\.\\(\\[a-z\\]\\|\\\\d\\|\\[!#\\\\\\$%&'\\\\\\*\\\\\\+\\\\-\\\\/=\\\\\\?\\\\\\^_\`\\{\\\\\\|\\}~\\]\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\+\\)\\*\\)\\|\\(\\(\\\\x22\\)\\(\\(\\(\\(\\\\x20\\|\\\\x09\\)\\*\\(\\\\x0d\\\\x0a\\)\\)\\?\\(\\\\x20\\|\\\\x09\\)\\+\\)\\?\\(\\(\\[\\\\x01-\\\\x08\\\\x0b\\\\x0c\\\\x0e-\\\\x1f\\\\x7f\\]\\|\\\\x21\\|\\[\\\\x23-\\\\x5b\\]\\|\\[\\\\x5d-\\\\x7e\\]\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\|\\(\\\\\\\\\\(\\[\\\\x01-\\\\x09\\\\x0b\\\\x0c\\\\x0d-\\\\x7f\\]\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\)\\)\\)\\*\\(\\(\\(\\\\x20\\|\\\\x09\\)\\*\\(\\\\x0d\\\\x0a\\)\\)\\?\\(\\\\x20\\|\\\\x09\\)\\+\\)\\?\\(\\\\x22\\)\\)\\)@\\(\\(\\(\\[a-z\\]\\|\\\\d\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\|\\(\\(\\[a-z\\]\\|\\\\d\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\(\\[a-z\\]\\|\\\\d\\|-\\|\\\\\\.\\|_\\|~\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\*\\(\\[a-z\\]\\|\\\\d\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\)\\)\\\\\\.\\)\\+\\(\\(\\[a-z\\]\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\|\\(\\(\\[a-z\\]\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\(\\[a-z\\]\\|\\\\d\\|-\\|\\\\\\.\\|_\\|~\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\*\\(\\[a-z\\]\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\)\\)\\$/i,
+          },
+        },
+        Object {
+          "name": "max",
+          "params": Object {
+            "max": 255,
+          },
+        },
+        Object {
+          "name": "required",
+          "params": undefined,
+        },
+      ],
+      "type": "string",
+    },
+  },
+  "label": undefined,
+  "meta": undefined,
+  "notOneOf": Array [],
+  "oneOf": Array [],
+  "tests": Array [],
+  "type": "object",
+}
+`;

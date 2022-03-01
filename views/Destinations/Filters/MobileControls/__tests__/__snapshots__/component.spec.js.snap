@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MobileControls component tests matches snapshot 1`] = `
+<div
+  className="d-flex d-lg-none align-items-center h-100 flex-1"
+>
+  <div
+    className="d-flex align-items-center flex-1"
+  >
+    <div>
+      <Link
+        href="/campervan-rental/undefined"
+      >
+        <a>
+          <span
+            className="font-600 in-black"
+          />
+        </a>
+      </Link>
+    </div>
+    <div
+      className="ml-auto"
+    >
+      <Memo(FormattedMessage)
+        id="campervan-rental.campersFound"
+        values={
+          Object {
+            "count": 44,
+          }
+        }
+      />
+    </div>
+  </div>
+  <Divider
+    className="d-lg-none"
+    type="vertical"
+  />
+  <Button
+    icon={
+      <i
+        className="icon icon-filter in-gray-500"
+      />
+    }
+    onClick={[Function]}
+    size="large"
+    type="link"
+  />
+</div>
+`;

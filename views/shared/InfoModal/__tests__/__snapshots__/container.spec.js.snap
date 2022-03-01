@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoModal container tests checks \`iconData\` instance getter for 'error' icon type 1`] = `
+Object {
+  "color": "in-red-1000",
+  "view": "icon-alert",
+}
+`;
+
+exports[`InfoModal container tests checks \`iconData\` instance getter for 'info' icon type 1`] = `
+Object {
+  "color": "in-gray-500",
+  "view": "icon-alert",
+}
+`;
+
+exports[`InfoModal container tests checks \`iconData\` instance getter for 'success' icon type 1`] = `
+Object {
+  "color": "in-green-1000",
+  "view": "icon-checked",
+}
+`;
+
+exports[`InfoModal container tests checks \`iconData\` instance getter for 'warning' icon type 1`] = `
+Object {
+  "color": "in-yellow-1000",
+  "view": "icon-alert",
+}
+`;
+
+exports[`InfoModal container tests matches snapshot 1`] = `
+<InfoModal
+  hideModal={[Function]}
+  iconData={
+    Object {
+      "color": "in-gray-500",
+      "view": "icon-alert",
+    }
+  }
+  iconType="info"
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  subTitle="test subTitle"
+  title="test title"
+/>
+`;

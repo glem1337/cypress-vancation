@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SeoInfo component tests matches snapshot 1`] = `
+<Head>
+  <title>
+    metaTitle
+  </title>
+  <meta
+    content="metaDescription"
+    name="description"
+  />
+  <meta
+    content="metaKeywords"
+    name="keywords"
+  />
+</Head>
+`;
+
+exports[`SeoInfo component tests matches snapshot when \`seoInfo\` is not defined 1`] = `""`;

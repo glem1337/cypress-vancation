@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserHeader component matches snapshot when currentUser is null 1`] = `
+<header
+  className="main-home-header main-account-header-extended"
+>
+  <button
+    className="main-account-header-burger"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    <i
+      className="icon icon-menu"
+    />
+  </button>
+  <div
+    className="flex-shrink-0"
+  >
+    <Logo
+      bigLogoClassName="mr-24"
+      isLink={true}
+      isWhite={false}
+      smallLogoClassName="mr-16"
+    />
+  </div>
+  <div
+    className="flex-1"
+  />
+  <DestinationSection
+    isVisible={false}
+  />
+  <HelpCenterSection
+    isVisible={false}
+  />
+  <LinksSection
+    isVisible={false}
+  />
+  <MessagesSection
+    isVisible={false}
+  />
+  <GroupedMenu
+    showOwnersDashboard={true}
+  />
+  <ListYouCamperButton
+    isVisible={false}
+  />
+  <UserDropdown
+    active="account"
+    currentUser={null}
+    handlerSignOut={[MockFunction]}
+    onVisibleChange={[MockFunction]}
+    visible={false}
+  />
+  <UserHeaderMenuMobile
+    currentUser={null}
+    menuToggle={[MockFunction]}
+    onClose={[MockFunction]}
+    visible={false}
+  />
+  <UserHeaderMenuMobile
+    active="account"
+    currentUser={null}
+    handlerSignOut={[MockFunction]}
+    onClose={[MockFunction]}
+    showOwnersDashboardBtn={true}
+    visible={false}
+  />
+</header>
+`;
+
+exports[`UserHeader component matches snapshot when isMobileHeaderExpanded is true 1`] = `<MobileHeaderExpanded />`;
+
+exports[`UserHeader component with default props 1`] = `
+<header
+  className="main-home-header main-account-header-extended"
+>
+  <button
+    className="main-account-header-burger"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    <i
+      className="icon icon-menu"
+    />
+  </button>
+  <div
+    className="flex-shrink-0"
+  >
+    <Logo
+      bigLogoClassName="mr-24"
+      isLink={true}
+      isWhite={false}
+      smallLogoClassName="mr-16"
+    />
+  </div>
+  <div
+    className="flex-1"
+  />
+  <DestinationSection
+    isVisible={false}
+  />
+  <HelpCenterSection
+    isVisible={false}
+  />
+  <LinksSection
+    isVisible={false}
+  />
+  <MessagesSection
+    isVisible={false}
+  />
+  <GroupedMenu
+    showOwnersDashboard={true}
+  />
+  <ListYouCamperButton
+    isVisible={false}
+  />
+  <UserDropdown
+    active="account"
+    currentUser={
+      Object {
+        "email": "test-email",
+        "user": Object {
+          "avatarUrl": "test_url",
+          "firstName": "firstName",
+          "lastName": "lastName",
+        },
+      }
+    }
+    handlerSignOut={[MockFunction]}
+    onVisibleChange={[MockFunction]}
+    visible={false}
+  />
+  <UserHeaderMenuMobile
+    currentUser={
+      Object {
+        "email": "test-email",
+        "user": Object {
+          "avatarUrl": "test_url",
+          "firstName": "firstName",
+          "lastName": "lastName",
+        },
+      }
+    }
+    menuToggle={[MockFunction]}
+    onClose={[MockFunction]}
+    visible={false}
+  />
+  <UserHeaderMenuMobile
+    active="account"
+    currentUser={
+      Object {
+        "email": "test-email",
+        "user": Object {
+          "avatarUrl": "test_url",
+          "firstName": "firstName",
+          "lastName": "lastName",
+        },
+      }
+    }
+    handlerSignOut={[MockFunction]}
+    onClose={[MockFunction]}
+    showOwnersDashboardBtn={true}
+    visible={false}
+  />
+</header>
+`;

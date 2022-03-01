@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchDestinations container tests checks \`destinations\` instance getter when destinationsFromMapBox does not present 1`] = `
+Array [
+  Object {
+    "id": "shared.exploreCampervansNearYour",
+    "latitude": 1,
+    "longitude": 2,
+    "placeId": undefined,
+    "placeName": "{Translation id: shared.exploreCampervansNearYour}",
+    "searchRadius": 120,
+    "type": "mapbox_feature",
+  },
+  Object {
+    "id": "shared.explorePopularDestinations",
+    "type": "shared.explorePopularDestinations",
+  },
+  Object {
+    "id": 1,
+  },
+]
+`;
+
+exports[`SearchDestinations container tests checks \`destinations\` instance getter when destinationsFromMapBox present 1`] = `
+Array [
+  Object {
+    "id": 2,
+  },
+  Object {
+    "id": "mapbox",
+  },
+]
+`;
+
+exports[`SearchDestinations container tests checks \`destinations\` instance getter when is loading 1`] = `
+Array [
+  Object {
+    "id": "loader",
+    "type": "loader",
+  },
+]
+`;
+
+exports[`SearchDestinations container tests matches snapshot 1`] = `
+<SearchDestinationsComponent
+  currentCoordinates={
+    Object {
+      "isLocationRequested": false,
+      "latitude": 1,
+      "longitude": 2,
+    }
+  }
+  currentLocation={
+    Object {
+      "id": 1,
+      "latitude": 1,
+      "longitude": 2,
+    }
+  }
+  destinationName={null}
+  destinations={
+    Array [
+      Object {
+        "id": "loader",
+        "type": "loader",
+      },
+    ]
+  }
+  destinationsByCoords={
+    Array [
+      Object {
+        "id": 1,
+      },
+    ]
+  }
+  destinationsByQuery={
+    Array [
+      Object {
+        "id": 2,
+      },
+    ]
+  }
+  destinationsFromMapBox={
+    Array [
+      Object {
+        "id": 3,
+      },
+    ]
+  }
+  focusOnMount={false}
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+  isFetchingByCoords={true}
+  isFetchingByQuery={true}
+  onClose={[Function]}
+  onDestinationSelect={[Function]}
+  onDestinationsClear={[Function]}
+  onDestinationsSearch={[Function]}
+  router={
+    Object {
+      "back": [MockFunction],
+      "push": [MockFunction],
+      "replace": [MockFunction],
+    }
+  }
+  searchDestination={[Function]}
+  searchDestinationParams={
+    Object {
+      "dateRange": null,
+      "location": null,
+    }
+  }
+  searchDestinationsByCoordinates={[Function]}
+  searchDestinationsByQuery={[Function]}
+  setDestinationsMapBoxIds={[Function]}
+  setSearchDestinationLocationIntent={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;

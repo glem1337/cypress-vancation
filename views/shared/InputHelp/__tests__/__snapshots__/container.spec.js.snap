@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputHelp container renders InputHelp component 1`] = `
+<p
+  className="main-input__message"
+>
+  <i
+    className="main-input__message-icon icon icon-alert in-red-1000"
+  />
+  Foo
+</p>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Description component tests matches snapshot 1`] = `
+<Fragment>
+  <InnerHtmlField
+    WrapperTag="span"
+    html="test description"
+  />
+</Fragment>
+`;
+
+exports[`Description component tests matches snapshot when campers exist 1`] = `""`;
+
+exports[`Description component tests matches snapshot when description is not provided 1`] = `""`;

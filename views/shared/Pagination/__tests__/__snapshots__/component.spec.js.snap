@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination component matches snapshot when pageCount less than 2 1`] = `""`;
+
+exports[`Pagination component matches snapshot with default props 1`] = `
+<ul
+  className="main-pagination"
+>
+  <li>
+    <a
+      className="main-pagination__item"
+      onClick={[Function]}
+      role="button"
+    >
+      <Memo(FormattedMessage)
+        id="pagination.first"
+      />
+    </a>
+  </li>
+  <s
+    activeClassName="selected"
+    activeLinkClassName="main-pagination__item--active"
+    breakLabel="..."
+    containerClassName="main-pagination"
+    disableInitialCallback={false}
+    disabledClassName="disabled"
+    eventListener="onClick"
+    forcePage={1}
+    marginPagesDisplayed={0}
+    nextAriaLabel="Next page"
+    nextClassName="next"
+    nextLabel={
+      <ActionButton
+        disabled={false}
+        extraClasses=""
+        icon="icon-arrow-right"
+        onClick={null}
+        secondary={true}
+      />
+    }
+    nextRel="next"
+    onPageChange={[MockFunction]}
+    pageCount={10}
+    pageLabelBuilder={[Function]}
+    pageLinkClassName="main-pagination__item"
+    pageRangeDisplayed={3}
+    prevRel="prev"
+    previousAriaLabel="Previous page"
+    previousClassName="previous"
+    previousLabel={
+      <ActionButton
+        disabled={false}
+        extraClasses=""
+        icon="icon-arrow-left"
+        onClick={null}
+        secondary={true}
+      />
+    }
+  />
+  <li>
+    <a
+      className="main-pagination__item"
+      onClick={[Function]}
+      role="button"
+    >
+      <Memo(FormattedMessage)
+        id="pagination.last"
+      />
+    </a>
+  </li>
+</ul>
+`;

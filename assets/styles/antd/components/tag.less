@@ -1,0 +1,81 @@
+.ant-tag {
+  .text-caption() !important;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 0;
+  padding: 3px 8px;
+  background-color: white;
+  color: @black;
+  border: unset;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &[class*='ant-tag-'] {
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .anticon-close {
+    margin-left: 4px;
+  }
+
+  .anticon-plus {
+    margin-right: 4px;
+  }
+
+  .icon {
+    margin-right: 4px;
+    font-size: 16px;
+  }
+
+  span {
+    font-size: inherit !important;
+    line-height: inherit !important;
+  }
+}
+
+.ant-tag__input.ant-input {
+  height: 24px;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 3px 8px;
+}
+
+.ant-tag-default {
+  background-color: @gray200;
+  color: @text-color-gray;
+}
+
+.ant-tag-success {
+  margin-left: 8px;
+  background-color: @green200;
+  color: @green300;
+}
+
+.ant-tag-processing {
+  background-color: @gray400;
+  color: @black;
+}
+
+.ant-tag-warning {
+  background-color: @yellow200;
+  color: @yellow-accent;
+}
+
+.ant-tag-error {
+  background-color: @red100;
+  color: @red1000;
+}
+
+.ant-tag-cyan {
+  background-color: @blue100;
+  color: @blue1000;
+}
+
+.ant-tag-blue {
+  background-color: @azure100;
+  color: @azure1000;
+}

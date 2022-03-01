@@ -1,0 +1,74 @@
+.main-account-wrap--listing {
+  &:extend(.main-account-wrap);
+  display: flex;
+  padding-bottom: 24px;
+
+  @media (min-width: @screen-lg) {
+    min-height: calc(100vh - (@main-header-height * 2));
+  }
+}
+
+.master-view-wrap {
+  padding: 16px;
+  background-color: @white;
+  border-radius: @main-border-radius;
+  box-shadow: @shadow2;
+}
+
+.master-view-search-btn {
+  .flex-center();
+  width: @btn-size;
+  height: @btn-size;
+  border-radius: @main-border-radius;
+  border: @main-input-border;
+
+  @media (min-width: @screen-md) {
+    display: none;
+  }
+
+  .icon {
+    color: @gray500;
+  }
+}
+
+.master-view-search-btn__inner {
+  .flex-center-y();
+  position: absolute;
+  z-index: @listing-filters-z-index;
+  top: 0;
+  left: 0;
+  width: @btn-size;
+  height: 100%;
+  opacity: 0;
+  background-color: @white;
+  user-select: none;
+  transition: opacity 0.3s, width 0.3s;
+}
+
+.master-view-search-btn--open .master-view-search-btn__inner {
+  width: 100%;
+  opacity: 1;
+  user-select: auto;
+}
+
+.master-view-city-filter {
+  flex-shrink: 0;
+  width: 184px;
+  margin-right: 16px;
+  margin-left: 16px;
+
+  @media (min-width: @screen-md) {
+    width: 260px;
+  }
+}
+
+.master-view-filter-wrap {
+  &.ant-dropdown-open {
+    .ant-btn {
+      &:focus:not(:disabled),
+      &:active:not(:disabled) {
+        &:extend(.ant-btn-secondary);
+      }
+    }
+  }
+}

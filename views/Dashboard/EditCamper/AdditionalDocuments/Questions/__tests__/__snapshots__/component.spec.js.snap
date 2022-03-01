@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Questions component tests matches snapshot 1`] = `
+<Fragment>
+  <h2
+    className="text-headline mb-8"
+  >
+    <Memo(FormattedMessage)
+      id="dashboard.editCamper.questions.title"
+    />
+  </h2>
+  <p
+    className="mb-24"
+  >
+    <Memo(FormattedMessage)
+      id="dashboard.editCamper.questions.description"
+    />
+  </p>
+  <div>
+    <div
+      className="custom-add-wrap custom-add-wrap--question"
+      key="1"
+    >
+      <Field
+        component={[Function]}
+        formItemClasses="w-100 mb-8"
+        id="questions[0].text"
+        label={
+          Object {
+            "id": "dashboard.editCamper.questions.label",
+          }
+        }
+        name="questions[0].text"
+      />
+      <Field
+        component={[Function]}
+        id="questions[0].required"
+        label={
+          Object {
+            "id": "dashboard.editCamper.questions.required",
+          }
+        }
+        name="questions[0].required"
+      />
+      <div
+        className="custom-acc-wrap__close"
+      >
+        <Button
+          icon={
+            <i
+              className="icon icon-cross"
+            />
+          }
+          type="secondary"
+        />
+      </div>
+    </div>
+  </div>
+  <Button
+    disabled={false}
+    onClick={[MockFunction]}
+    type="secondary"
+  >
+    <Memo(FormattedMessage)
+      id="dashboard.editCamper.questions.add.btn"
+    />
+  </Button>
+</Fragment>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SeoInfo useContainer hook matches snapshot 1`] = `
+Object {
+  "seoInfo": Object {
+    "pageHeaderTitle": "pageHeaderTitle",
+  },
+}
+`;

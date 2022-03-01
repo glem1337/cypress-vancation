@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CamperStatusModal component tests matches snapshot 1`] = `
+<Modal
+  className="main-modal"
+  closable={false}
+  closeIcon={null}
+  footer={null}
+  maskClosable={true}
+  visible={true}
+>
+  <div
+    className="main-modal__container"
+  >
+    <div
+      className="main-modal__header"
+    >
+      <h2
+        className="main-modal__title"
+      >
+        <Memo(FormattedMessage)
+          id="dashboard.allCampers.camperStatusModal.published.title"
+        />
+      </h2>
+    </div>
+    <div
+      className="main-modal__body"
+    >
+      <p>
+        <Memo(FormattedMessage)
+          id="dashboard.allCampers.camperStatusModal.published.description"
+        />
+      </p>
+    </div>
+    <div
+      className="main-modal__footer justify-content-flex-end"
+    >
+      <Button
+        disabled={false}
+        onClick={[MockFunction]}
+        size="large"
+        text={
+          Object {
+            "id": "shared.cancel",
+          }
+        }
+        type="text"
+      />
+      <GradientButton
+        className="min-w-140 ml-16"
+        disabled={false}
+        loading={false}
+        onClick={[MockFunction]}
+        size="large"
+        text={
+          Object {
+            "id": "shared.publish",
+          }
+        }
+      />
+    </div>
+  </div>
+</Modal>
+`;
+
+exports[`CamperStatusModal component tests when status === removed 1`] = `
+<Modal
+  className="main-modal"
+  closable={false}
+  closeIcon={null}
+  footer={null}
+  maskClosable={true}
+  visible={true}
+>
+  <div
+    className="main-modal__container"
+  >
+    <div
+      className="main-modal__header"
+    >
+      <h2
+        className="main-modal__title"
+      >
+        <Memo(FormattedMessage)
+          id="dashboard.allCampers.camperStatusModal.removed.title"
+        />
+      </h2>
+    </div>
+    <div
+      className="main-modal__body"
+    >
+      <p>
+        <Memo(FormattedMessage)
+          id="dashboard.allCampers.camperStatusModal.removed.description"
+        />
+      </p>
+    </div>
+    <div
+      className="main-modal__footer justify-content-flex-end"
+    >
+      <Button
+        disabled={false}
+        onClick={[MockFunction]}
+        size="large"
+        text={
+          Object {
+            "id": "shared.cancel",
+          }
+        }
+        type="text"
+      />
+      <Button
+        className="min-w-140 ml-16"
+        danger={true}
+        disabled={false}
+        loading={false}
+        onClick={[MockFunction]}
+        size="large"
+        text={
+          Object {
+            "id": "shared.remove",
+          }
+        }
+      />
+    </div>
+  </div>
+</Modal>
+`;

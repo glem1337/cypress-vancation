@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PersonalInformation component tests matches snapshot 1`] = `
+<CheckoutLayout
+  btnText={
+    Object {
+      "id": "shared.agreeAndContinue",
+    }
+  }
+  currentStep={0}
+  header={
+    <Header
+      currentStep={0}
+    />
+  }
+  price={375}
+  showBackBtn={false}
+>
+  Foo
+</CheckoutLayout>
+`;

@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchDatesComponent component tests matches snapshot 1`] = `
+<div
+  className="search-destinations"
+  id="search-destinations"
+>
+  <div
+    className="search-destinations__header"
+  >
+    <button
+      className="search-destinations__header-button"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <ForwardRef(LeftOutlined)
+        className="search-destinations__icon"
+      />
+    </button>
+    <span
+      className="search-destinations__title"
+    >
+      <Memo(FormattedMessage)
+        id="shared.whenIsYourTrip"
+      />
+    </span>
+    <button
+      className="search-destinations__header-clear"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <Memo(FormattedMessage)
+        id="shared.clear"
+      />
+    </button>
+  </div>
+  <div
+    className="search-destinations__calendar-wrapper"
+  >
+    <Calendar
+      activeStartDate={2000-02-20T00:00:00.000Z}
+      formatShortWeekday={[MockFunction]}
+      maxDate={+275760-09-13T00:00:00.000Z}
+      maxDetail="month"
+      minDate={0001-01-01T00:00:00.000Z}
+      minDetail="century"
+      onChange={[MockFunction]}
+      returnValue="start"
+      selectRange={true}
+      showDoubleView={true}
+      showNavigation={true}
+      showNeighboringMonth={true}
+      tileContent={[MockFunction]}
+      tileDisabled={[MockFunction]}
+      value={null}
+    />
+    <MonthManager
+      loadNextMonth={[MockFunction]}
+      loadPrevMonth={[MockFunction]}
+    />
+    <Footer
+      search={[MockFunction]}
+    />
+  </div>
+</div>
+`;

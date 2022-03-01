@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`breakpoints constants matches snapshot 1`] = `
+Object {
+  "BREAK_POINTS": Object {
+    "MOBILE": 320,
+    "TABLET": 768,
+    "WEB": 992,
+  },
+}
+`;

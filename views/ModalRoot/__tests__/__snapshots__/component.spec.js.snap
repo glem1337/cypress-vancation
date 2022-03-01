@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalRoot component renders ModalRoot when modalType is present 1`] = `
+<mockConstructor
+  customProp="customProp"
+  onClose={[MockFunction]}
+/>
+`;
+
+exports[`ModalRoot component return null unless modalType present 1`] = `""`;

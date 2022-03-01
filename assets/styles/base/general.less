@@ -1,0 +1,142 @@
+.ant-col {
+  flex-basis: 100%;
+}
+
+.container {
+  max-width: calc(1280px + 2 * @gap-lg);
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: @gap-xs;
+  padding-left: @gap-xs;
+
+  @media (min-width: @screen-md) {
+    padding-right: @gap-md;
+    padding-left: @gap-md;
+  }
+
+  @media (min-width: @screen-lg) {
+    padding-right: @gap-lg;
+    padding-left: @gap-lg;
+  }
+}
+
+.container-fluid {
+  &:extend(.container);
+  max-width: 100%;
+}
+
+.main-link {
+  text-align: left;
+
+  &:hover {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  i {
+    display: inline-block;
+    text-decoration: none;
+  }
+}
+
+.main-link--big {
+  .text-subheader();
+  color: @blue1000;
+  font-weight: 400;
+
+  &:hover {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  i {
+    display: inline-block;
+    text-decoration: none;
+  }
+}
+
+.main-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  @media (min-width: @screen-lg) {
+    flex-direction: row;
+  }
+}
+
+.anticon-close-circle {
+  color: @blue1000;
+  transition: color @main-transition-duration;
+
+  &:hover {
+    color: @blue-accent;
+  }
+}
+
+.simple-list li::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin-bottom: 1px;
+  margin-right: 4px;
+  border-radius: 50%;
+  background-color: @text-color-gray;
+  vertical-align: middle;
+}
+
+.img-scale-hover {
+  @media (min-width: @screen-lg) {
+    cursor: pointer;
+
+    img {
+      transition: transform @main-transition-props;
+    }
+
+    &:hover {
+      img {
+        transform: scale(1.02);
+      }
+    }
+  }
+}
+
+.tag-glamper {
+  display: inline-block;
+  padding: 4px 8px;
+  background: @gradient3;
+  color: white;
+  border-radius: @main-border-radius;
+  text-transform: uppercase;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.light-background--green {
+  background-color: @green100;
+}
+
+.light-background--yellow {
+  background-color: @yellow200;
+}
+
+.light-background--red {
+  background-color: @red100;
+}
+
+#mobile-detector {
+  display: none;
+
+  @media (max-width: @screen-md - 1) {
+    display: flex;
+  }
+}
+
+#tablet-detector {
+  display: none;
+
+  @media (min-width: @screen-md) and (max-width: @screen-lg) {
+    display: flex;
+  }
+}

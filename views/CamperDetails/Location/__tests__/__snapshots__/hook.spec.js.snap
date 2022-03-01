@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Location useContainer hook checks \`createCircle\` method should return null 1`] = `
+Object {
+  "addResizeObserver": [Function],
+  "adjustMapComponent": [Function],
+  "circle": null,
+  "containerRef": Object {
+    "current": Object {},
+  },
+  "createCircle": [Function],
+  "deliveryDistance": 0,
+  "fitMapToBounds": [Function],
+  "handlers": Object {
+    "current": Object {
+      "resizeHandler": [MockFunction],
+    },
+  },
+  "latitude": undefined,
+  "longitude": undefined,
+  "mapRef": Object {
+    "current": Object {
+      "getMap": [MockFunction],
+    },
+  },
+  "place": "N/A",
+  "removeResizeObserver": [Function],
+  "resizeUUID": null,
+  "vehicleTypeIconUrl": "/images/camper-default.jpg",
+  "vehicleTypeName": "Vehicle Type Name",
+}
+`;
+
+exports[`Location useContainer hook matches snapshot 1`] = `
+Object {
+  "addResizeObserver": [Function],
+  "adjustMapComponent": [Function],
+  "circle": Object {
+    "geometry": Object {
+      "coordinates": Array [
+        Array [
+          Array [
+            23.23124,
+            23.23124,
+          ],
+        ],
+      ],
+    },
+  },
+  "containerRef": Object {
+    "current": undefined,
+  },
+  "createCircle": [Function],
+  "deliveryDistance": 22,
+  "fitMapToBounds": [Function],
+  "handlers": Object {
+    "current": Object {
+      "resizeHandler": [Function],
+    },
+  },
+  "latitude": 1,
+  "longitude": 2,
+  "mapRef": Object {
+    "current": undefined,
+  },
+  "place": "N/A",
+  "removeResizeObserver": [Function],
+  "resizeUUID": null,
+  "vehicleTypeIconUrl": "/images/camper-default.jpg",
+  "vehicleTypeName": "Vehicle Type Name",
+}
+`;

@@ -1,0 +1,172 @@
+@footer-with-btn-height: 96px;
+@header-height-sm: 160px;
+@header-height-md: 96px;
+@header-edit-agreement-height: 146px;
+
+.main-listing {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  padding-top: 16px;
+  padding-bottom: @footer-with-btn-height;
+
+  @media (min-width: @screen-md) {
+    .main-input--last {
+      margin-bottom: 140px;
+    }
+  }
+
+  @media (min-width: @screen-xl) {
+    max-width: 1020px;
+
+    .main-input--last {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.main-listing--key {
+  .pdf-wrap {
+    height: calc(100% - 108px);
+  }
+}
+
+.main-listing--edit-agree {
+  .media-down(lg, {
+    max-height: calc(100vh - @footer-with-btn-height - @header-edit-agreement-height);
+  });
+}
+
+.main-listing-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.main-listing__footer {
+  .flex-center-y();
+  position: fixed;
+  z-index: @main-listing-footer-z-index;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: @footer-with-btn-height;
+  padding: 0 @gap-xs;
+  background-color: white;
+  box-shadow: @shadow3;
+  box-sizing: border-box;
+
+  @media (min-width: @screen-md) {
+    padding-left: @gap-md;
+    padding-right: @gap-md;
+  }
+
+  @media (min-width: @screen-lg) {
+    width: calc(100% - @sidebar-width);
+  }
+}
+
+.main-listing__footer-container {
+  .flex-center-y();
+  max-width: 1020px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.main-listing-support-icon {
+  .flex-center();
+  position: relative;
+  flex: none;
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+
+  &:hover {
+    background-color: @blue100;
+  }
+
+  &:focus,
+  &:active {
+    background-color: @blue200;
+  }
+
+  .icon {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.main-help-btn-fixed--listing {
+  bottom: 112px;
+
+  @media (min-width: @screen-md) {
+    right: 16px;
+  }
+}
+
+.main-listing-map-wrap {
+  width: 100%;
+  height: 400px;
+  margin-top: 40px;
+
+  @media (min-width: @screen-md) {
+    margin-top: 80px;
+  }
+
+  @media (min-width: @screen-xl) {
+    margin-top: 84px;
+  }
+}
+
+.main-listing__personal-header {
+  margin-bottom: 16px;
+
+  @media (min-width: @screen-md) {
+    display: flex;
+  }
+}
+
+.main-listing__insurance {
+  position: relative;
+  padding: 16px;
+  border: 1px solid @gray350;
+  border-radius: @main-border-radius;
+
+  @media (min-width: @screen-md) {
+    padding: 24px;
+  }
+}
+
+.main-listing__insurance-item {
+  display: flex;
+  align-items: flex-start;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  img {
+    width: 20px;
+  }
+}
+
+.main-listing__insurance-badge {
+  .flex-center-y;
+  position: absolute;
+  top: 17px;
+  right: 16px;
+  .media-up(md; {
+    top: 25px;
+    right: 24px;
+  });
+}
+
+.asd {
+  width: 100%;
+  height: 100%;
+}

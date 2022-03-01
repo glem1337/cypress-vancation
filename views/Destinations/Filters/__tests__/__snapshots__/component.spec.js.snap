@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filters component tests matches snapshot 1`] = `
+<div
+  className="search-page__filters-wrap"
+>
+  <div
+    className="container-fluid"
+  >
+    <div
+      className="search-page__filters"
+    >
+      <MobileControls />
+      <div
+        className="d-none d-lg-flex h-100 flex-1"
+      >
+        <div
+          className="d-flex align-items-center flex-1"
+        >
+          <Guests
+            openedFilterName="test"
+            toggleOpenedState={[MockFunction]}
+          />
+          <Price
+            openedFilterName="test"
+            toggleOpenedState={[MockFunction]}
+          />
+          <Vehicle
+            openedFilterName="test"
+            toggleOpenedState={[MockFunction]}
+          />
+          <Delivery
+            openedFilterName="test"
+            toggleOpenedState={[MockFunction]}
+          />
+          <MoreFilters
+            openedFilterName="test"
+            toggleOpenedState={[MockFunction]}
+          />
+          <GlampersOnly />
+          <ClearFilters
+            toggleOpenedState={[MockFunction]}
+          />
+          <ToggleMap />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

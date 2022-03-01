@@ -1,0 +1,42 @@
+.ant-badge {
+  .flex-center();
+  width: @main-avatar-size;
+  height: @main-avatar-size;
+  margin-right: 24px;
+  background-color: @gray100;
+  border-radius: @main-input-border-radius;
+  cursor: pointer;
+}
+
+.ant-badge--user {
+  background: none;
+}
+
+.ant-badge-dot {
+  transform: none;
+  transform-origin: unset;
+}
+
+.ant-avatar + .ant-badge-dot {
+  top: auto;
+  right: 2px;
+  bottom: 2px;
+  width: 8px;
+  height: 8px;
+  box-shadow: 0 0 0 2px white;
+  background-color: @gray500;
+}
+
+.user-online .ant-badge-dot {
+  background-color: @green1000;
+}
+
+.badge-size {
+  width: @btn-size;
+  height: @btn-size;
+}
+
+.badge-size-sm {
+  width: @btn-size-sm;
+  height: @btn-size-sm;
+}

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FanFacts component tests matches snapshot 1`] = `
+<Fragment>
+  <Divider
+    className="mt-24 mb-24"
+  />
+  <h2
+    className="text-headline mb-24"
+  >
+    test description
+  </h2>
+  <Fact
+    className="mb-24"
+    key="1"
+  >
+    <InnerHtmlField
+      WrapperTag="span"
+      html="test fun fact"
+    />
+  </Fact>
+</Fragment>
+`;
+
+exports[`FanFacts component tests matches with incorrect data 1`] = `""`;

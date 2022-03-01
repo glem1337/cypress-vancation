@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StickyCardBottom component tests matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="van-details__sticky-card-sticky"
+  >
+    <div
+      className="d-flex align-items-center"
+    >
+      <i
+        className="icon icon-flash-f mr-8 in-yellow-1000"
+      />
+      <p
+        className="text-title"
+      >
+        $223
+        <span
+          className="font-12 text-lowercase font-400"
+        >
+          /
+           
+          <Memo(FormattedMessage)
+            id="shared.night"
+          />
+        </span>
+      </p>
+    </div>
+    <BtnGradient
+      className="min-w-140"
+      isLoading={false}
+      onClick={[MockFunction]}
+      size="large"
+      text={
+        Object {
+          "id": "shared.instantBook",
+        }
+      }
+    />
+  </div>
+  <CamperPricesModal
+    closeCard={[MockFunction]}
+    isVisible={true}
+  />
+</Fragment>
+`;
+
+exports[`StickyCardBottom component tests matches snapshot when camper doesn't exist 1`] = `
+<Fragment>
+  <div
+    className="van-details__sticky-card-sticky"
+  >
+    <div
+      className="skeleton__title w-100"
+    />
+  </div>
+  <CamperPricesModal
+    closeCard={[MockFunction]}
+    isVisible={true}
+  />
+</Fragment>
+`;

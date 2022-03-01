@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RightSidebar component tests matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="calendar-listing__side"
+  >
+    <div
+      className="calendar-listing__side-head"
+    >
+      <div
+        className="text-title"
+      >
+        Jan 10
+        <Memo(FormattedMessage)
+          id="shared.defaultSettings"
+        />
+      </div>
+      <Button
+        className="align-self-start ml-16"
+        icon={
+          <i
+            className="icon icon-cross"
+          />
+        }
+        onClick={[MockFunction]}
+        shape="circle"
+        size="large"
+        type="secondary"
+      />
+    </div>
+    <div
+      className="calendar-listing__side-main"
+    >
+      <Connect(CalendarAvailability)
+        camperId="camperId"
+      />
+      <CalendarSettingsComponent
+        camperId="camperId"
+      />
+    </div>
+  </div>
+  <div
+    className="calendar-listing__side-overlay"
+    role="button"
+  />
+</Fragment>
+`;

@@ -1,0 +1,29 @@
+.ant-time-picker-panel-select {
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    width: 4px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: @grey-200;
+  }
+
+  li {
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+
+    &:hover,
+    &:focus {
+      background-color: @grey-100;
+    }
+
+    &.ant-time-picker-panel-select-option-selected {
+      background-color: @blue-1000;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterPopoverFooter component tests matches snapshot 1`] = `
+<div
+  className="search-page__filters-popover__footer"
+>
+  <Button
+    onClick={[MockFunction]}
+    size="large"
+    type="link"
+  >
+    <Memo(FormattedMessage)
+      id="shared.clear"
+    />
+  </Button>
+  <GradientButton
+    className="min-w-140 ml-16"
+    disabled={false}
+    loading={false}
+    onClick={[MockFunction]}
+    size="large"
+    text={
+      Object {
+        "id": "shared.apply",
+      }
+    }
+  />
+</div>
+`;

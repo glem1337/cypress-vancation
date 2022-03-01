@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxGroupField container renders CheckboxGroupField component 1`] = `
+<CheckboxGroupFieldComponent
+  checkboxClassName={null}
+  className={null}
+  field={
+    Object {
+      "name": "name",
+      "onChange": [MockFunction],
+      "value": Array [
+        "value1",
+        "value2",
+      ],
+    }
+  }
+  form={
+    Object {
+      "setFieldValue": [MockFunction],
+    }
+  }
+  isChecked={[Function]}
+  onChange={[Function]}
+  options={
+    Array [
+      Object {
+        "text": "text1",
+        "value": "value1",
+      },
+      Object {
+        "text": "text2",
+        "value": "value2",
+      },
+      Object {
+        "text": "text3",
+        "value": "value3",
+      },
+    ]
+  }
+  title={
+    Object {
+      "id": "fake.title",
+    }
+  }
+  titleClassName={null}
+/>
+`;

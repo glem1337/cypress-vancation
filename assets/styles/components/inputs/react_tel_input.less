@@ -1,0 +1,65 @@
+div.react-tel-input {
+  .flex-center-y();
+  flex-direction: row-reverse;
+  height: @main-input-height;
+
+  .flag-dropdown {
+    position: static;
+    height: @main-input-height;
+    margin-right: 8px;
+    background-color: transparent;
+    border-radius: @main-border-radius;
+    border-color: @main-input-border-color;
+  }
+
+  .selected-flag {
+    width: 68px;
+    padding-left: @main-input-padding-x;
+    border-radius: @main-border-radius;
+    border-color: @main-input-border-color;
+
+    .arrow {
+      &:extend(.icon);
+      &:extend(.icon-down);
+      left: 24px;
+      transform: translateY(-50%);
+      transition: transform @main-transition-duration;
+      margin-top: 0;
+      width: 20px;
+      height: 20px;
+      color: @gray500;
+      border-top: unset;
+      font-size: 20px;
+
+      &::before {
+        content: '\e900';
+      }
+
+      &.up {
+        border-bottom: unset;
+        transform: translateY(-50%) scaleY(-1);
+      }
+    }
+  }
+
+  .form-control {
+    width: 100%;
+    height: 100%;
+    padding-left: @main-input-padding-x;
+    border-radius: @main-border-radius;
+    border-color: @main-input-border-color;
+  }
+
+  .country-list .country {
+    &:extend(.main-dropdown__item);
+
+    &:hover,
+    &.highlight {
+      background-color: @blue50;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

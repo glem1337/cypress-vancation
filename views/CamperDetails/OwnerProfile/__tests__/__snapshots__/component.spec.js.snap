@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OwnerProfile component tests matches snapshot default 1`] = `
+<div
+  className="mb-40 mb-md-60"
+>
+  <Row
+    align="bottom"
+    gutter={24}
+  >
+    <Col
+      className="mb-24 mb-md-0"
+      md={16}
+      xl={10}
+    >
+      <div
+        className="d-flex mb-16"
+      >
+        <Avatar
+          alt=""
+          className="mr-16 flex-shrink-0"
+          shape="circle"
+          size={64}
+          src="/path/to/some/avatar/url"
+        >
+          FL
+        </Avatar>
+        <div>
+          <div
+            className="d-flex flex-wrap mb-8"
+          >
+            <p
+              className="mr-4 text-headline font-700"
+            >
+              <Memo(FormattedMessage)
+                id="shared.ownedBy"
+              />
+            </p>
+            <p
+              className="text-headline in-blue-1000 font-700"
+            >
+              businessTitle
+            </p>
+          </div>
+          <p
+            className=""
+          >
+            createdAt
+          </p>
+        </div>
+      </div>
+      <div
+        className="d-flex align-items-center flex-wrap mb-16"
+      >
+        <Rating
+          isHigh={false}
+          isLow={false}
+          isMiddle={false}
+          isNormal={true}
+          rating={40}
+        />
+        <p
+          className="mr-16 text-subheader font-400 text-lowercase"
+        >
+          <i
+            className="icon icon-camper-f mr-8"
+          />
+          5
+           
+          <Memo(FormattedMessage)
+            id="shared.campers"
+          />
+        </p>
+        <p
+          className="mt-16 mt-md-0 text-subheader font-400"
+        >
+          <i
+            className="icon icon-activate-f mr-8 in-azure-1000"
+          />
+          <Memo(FormattedMessage)
+            id="shared.idVerified"
+          />
+        </p>
+      </div>
+      <p
+        className="text-color-gray text-subheader font-400"
+      >
+        description
+      </p>
+    </Col>
+    <Col
+      md={8}
+      xl={
+        Object {
+          "offset": 4,
+          "span": 6,
+        }
+      }
+    >
+      <BtnGradient
+        className="min-w-180 main-btn--sm-100"
+        isLoading={false}
+        onClick={[MockFunction]}
+        size="large"
+        text={
+          Object {
+            "id": "shared.askQuestion",
+          }
+        }
+      />
+    </Col>
+  </Row>
+</div>
+`;
+
+exports[`OwnerProfile component tests matches snapshot when camper doesnt exist 1`] = `
+<div
+  className="mb-40 mb-md-60"
+>
+  <Row
+    align="bottom"
+    gutter={24}
+  >
+    <Col
+      className="mb-24 mb-md-0"
+      md={16}
+      xl={10}
+    >
+      <div
+        className="skeleton__title w-100"
+      />
+      <SkeletonText
+        rows={2}
+      />
+    </Col>
+    <Col
+      md={8}
+      xl={
+        Object {
+          "offset": 4,
+          "span": 6,
+        }
+      }
+    >
+      <div
+        className="skeleton__title w-100"
+      />
+    </Col>
+  </Row>
+</div>
+`;

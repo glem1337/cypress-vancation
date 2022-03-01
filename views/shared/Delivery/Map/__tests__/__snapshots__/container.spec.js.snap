@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Map Container snapshot 1`] = `
+<Map
+  camper={
+    Object {
+      "latitude": 0.2,
+      "longitude": 0.1,
+      "vehicleTypeIconUrl": "test.svg",
+    }
+  }
+  camperCoordinate={
+    Object {
+      "latitude": 0.2,
+      "longitude": 0.1,
+    }
+  }
+  circle={
+    Object {
+      "geometry": Object {
+        "coordinates": Array [
+          Array [
+            Array [
+              0,
+              0.01,
+            ],
+            Array [
+              0,
+              0.02,
+            ],
+            Array [
+              0,
+              0.03,
+            ],
+          ],
+        ],
+      },
+      "properties": Object {
+        "foo": "bar",
+      },
+      "type": "Feature",
+    }
+  }
+  handlerViewport={[Function]}
+  hide={false}
+  popup={
+    Object {
+      "latitude": 0.034999999999999996,
+      "longitude": 0,
+    }
+  }
+  radius="20"
+  viewport={
+    Object {
+      "bearing": 0,
+      "height": 400,
+      "latitude": 0.2,
+      "longitude": 0.1,
+      "pitch": 0,
+      "zoom": 10,
+    }
+  }
+/>
+`;

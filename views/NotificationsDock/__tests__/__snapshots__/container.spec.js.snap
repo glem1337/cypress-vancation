@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationsDock container renders NotificationsDock component 1`] = `
+<NotificationsDock
+  className=""
+  context="general"
+  hideNotification={[Function]}
+  notifications={
+    Object {
+      "general_123": Object {
+        "context": "general",
+        "id": "general_123",
+        "isCloseable": true,
+        "kind": "info",
+        "messageObject": Object {
+          "id": "some.value",
+        },
+        "notificationType": "PLAIN_NOTIFICATION",
+      },
+    }
+  }
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;

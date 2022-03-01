@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CamperCard component tests matches snapshot 1`] = `
+<div
+  className="master-view-card"
+>
+  <div
+    className="master-view-card__header"
+  >
+    <div
+      className="d-flex align-items-center flex-wrap"
+    >
+      <p
+        className="mr-16 text-color-gray"
+      >
+        <Memo(FormattedMessage)
+          id="shared.id"
+        />
+        :
+        publicId
+      </p>
+      <div
+        className="d-flex align-items-center mr-16"
+      >
+        <span
+          className="mr-4 in-black"
+        >
+          <Memo(FormattedMessage)
+            id="shared.status"
+          />
+          :
+        </span>
+        <Tag
+          className="mr-0 ml-0"
+          color="success"
+        >
+          <Memo(FormattedMessage)
+            id="shared.published"
+          />
+        </Tag>
+      </div>
+      <div
+        className="d-flex align-items-center mt-16 mt-md-0"
+      />
+    </div>
+    <div
+      className="mr-8 ml-auto"
+    >
+      <ActionsDropdown
+        onPreview={[MockFunction]}
+        onPublish={[MockFunction]}
+        onRemove={[MockFunction]}
+        onUnpublish={[MockFunction]}
+        status="published"
+      />
+    </div>
+  </div>
+  <div
+    className="d-flex align-items-center overflow-hidden mr-auto"
+  >
+    <div
+      className="master-view-card__img c-pointer"
+      onClick={[MockFunction]}
+      role="button"
+    >
+      <img
+        alt=""
+        src="img"
+      />
+    </div>
+    <div
+      className="master-view-card__info"
+    >
+      <div
+        className="master-view-card__info-title c-pointer"
+        onClick={[MockFunction]}
+        role="button"
+        title="title"
+      >
+        title
+      </div>
+      <div
+        className="master-view-card__info-txt c-pointer text-truncate"
+        onClick={[MockFunction]}
+        role="button"
+        title="place"
+      >
+        place
+      </div>
+      <div
+        className="master-view-card__info-txt c-pointer text-truncate"
+        onClick={[MockFunction]}
+        role="button"
+        title="description"
+      >
+        description
+      </div>
+      <div
+        className="master-view-card__info-percent"
+      >
+        <span
+          className="master-view-card__info-percent-numb"
+        >
+          <img
+            alt=""
+            src="/images/listing/Like-Green.svg"
+          />
+          100
+          %
+        </span>
+        <span
+          className="master-view-card__info-percent-count"
+        >
+          (26)
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="master-view-card__id"
+  >
+    <p>
+      publicId
+    </p>
+  </div>
+  <div
+    className="master-view-card__status"
+  >
+    <Tag
+      className="mr-0 ml-0"
+      color="success"
+    >
+      <Memo(FormattedMessage)
+        id="shared.published"
+      />
+    </Tag>
+  </div>
+  <div
+    className="master-view-card__insurance"
+  />
+  <div
+    className="master-view-card__options"
+  >
+    <ActionsDropdown
+      onPreview={[MockFunction]}
+      onPublish={[MockFunction]}
+      onRemove={[MockFunction]}
+      onUnpublish={[MockFunction]}
+      status="published"
+    />
+  </div>
+</div>
+`;
+
+exports[`CamperCard component tests when insurance status === approved 1`] = `
+<div
+  className="master-view-card"
+>
+  <div
+    className="master-view-card__header"
+  >
+    <div
+      className="d-flex align-items-center flex-wrap"
+    >
+      <p
+        className="mr-16 text-color-gray"
+      >
+        <Memo(FormattedMessage)
+          id="shared.id"
+        />
+        :
+        publicId
+      </p>
+      <div
+        className="d-flex align-items-center mr-16"
+      >
+        <span
+          className="mr-4 in-black"
+        >
+          <Memo(FormattedMessage)
+            id="shared.status"
+          />
+          :
+        </span>
+        <Tag
+          className="mr-0 ml-0"
+          color="success"
+        >
+          <Memo(FormattedMessage)
+            id="shared.published"
+          />
+        </Tag>
+      </div>
+      <div
+        className="d-flex align-items-center mt-16 mt-md-0"
+      >
+        <span
+          className="mr-8 in-black"
+        >
+          <Memo(FormattedMessage)
+            id="shared.insurance"
+          />
+          :
+        </span>
+        <p
+          className="in-black"
+        >
+          <i
+            className="icon icon-checked mr-8 in-green-1000"
+          />
+          <Memo(FormattedMessage)
+            id="addNewCamper.insurance.package.status.approved"
+          />
+        </p>
+      </div>
+    </div>
+    <div
+      className="mr-8 ml-auto"
+    >
+      <ActionsDropdown
+        onPreview={[MockFunction]}
+        onPublish={[MockFunction]}
+        onRemove={[MockFunction]}
+        onUnpublish={[MockFunction]}
+        status="published"
+      />
+    </div>
+  </div>
+  <div
+    className="d-flex align-items-center overflow-hidden mr-auto"
+  >
+    <div
+      className="master-view-card__img c-pointer"
+      onClick={[MockFunction]}
+      role="button"
+    >
+      <img
+        alt=""
+        src="img"
+      />
+    </div>
+    <div
+      className="master-view-card__info"
+    >
+      <div
+        className="master-view-card__info-title c-pointer"
+        onClick={[MockFunction]}
+        role="button"
+        title="title"
+      >
+        title
+      </div>
+      <div
+        className="master-view-card__info-txt c-pointer text-truncate"
+        onClick={[MockFunction]}
+        role="button"
+        title="place"
+      >
+        place
+      </div>
+      <div
+        className="master-view-card__info-txt c-pointer text-truncate"
+        onClick={[MockFunction]}
+        role="button"
+        title="description"
+      >
+        description
+      </div>
+      <div
+        className="master-view-card__info-percent"
+      >
+        <span
+          className="master-view-card__info-percent-numb"
+        >
+          <img
+            alt=""
+            src="/images/listing/Like-Green.svg"
+          />
+          100
+          %
+        </span>
+        <span
+          className="master-view-card__info-percent-count"
+        >
+          (26)
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="master-view-card__id"
+  >
+    <p>
+      publicId
+    </p>
+  </div>
+  <div
+    className="master-view-card__status"
+  >
+    <Tag
+      className="mr-0 ml-0"
+      color="success"
+    >
+      <Memo(FormattedMessage)
+        id="shared.published"
+      />
+    </Tag>
+  </div>
+  <div
+    className="master-view-card__insurance"
+  >
+    <p
+      className="in-black"
+    >
+      <i
+        className="icon icon-checked mr-8 in-green-1000"
+      />
+      <Memo(FormattedMessage)
+        id="addNewCamper.insurance.package.status.approved"
+      />
+    </p>
+  </div>
+  <div
+    className="master-view-card__options"
+  >
+    <ActionsDropdown
+      onPreview={[MockFunction]}
+      onPublish={[MockFunction]}
+      onRemove={[MockFunction]}
+      onUnpublish={[MockFunction]}
+      status="published"
+    />
+  </div>
+</div>
+`;

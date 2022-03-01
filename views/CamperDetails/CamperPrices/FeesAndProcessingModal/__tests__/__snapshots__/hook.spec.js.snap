@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeesAndProcessingModal useContainer hook matches snapshot 1`] = `
+Object {
+  "cleaningFee": "$0.00",
+  "closeModal": [Function],
+  "customFees": Array [
+    Object {
+      "id": "uuid/v4",
+      "name": "Test fee",
+      "price": "$10.00",
+    },
+    Object {
+      "id": "uuid/v4",
+      "name": "Test fee",
+      "price": "$20.00",
+    },
+  ],
+  "estTotal": "$0.00",
+  "generator": Object {
+    "generatorHours": 0,
+    "generatorOverage": "$0.00",
+    "isUnlimited": true,
+  },
+  "mileage": Object {
+    "isUnlimited": false,
+    "milesOverage": "$0.50",
+    "milesPerDay": 150,
+  },
+  "serviceFee": "$0.00",
+}
+`;

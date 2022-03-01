@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Photos useContainer hook matches snapshot 1`] = `
+Object {
+  "addResizeObserver": [Function],
+  "containerRef": Object {
+    "current": undefined,
+  },
+  "countNotDisplayedPhotos": 2,
+  "handleResize": [Function],
+  "isCamperFetching": false,
+  "onImageClick": [Function],
+  "photos": Object {
+    "main": Object {
+      "id": 1,
+    },
+    "other": Array [
+      Object {
+        "id": 2,
+      },
+      Object {
+        "id": 3,
+      },
+    ],
+  },
+  "photosString": "{translation id: shared.photos}",
+  "removeResizeObserver": [Function],
+}
+`;

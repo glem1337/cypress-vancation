@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SlideSkeleton component snapshot 1`] = `
+<div
+  className="home__favorite-dest-slider-wrap"
+>
+  <div
+    className="home__favorite-dest-slider-item home__favorite-dest-slider-item--skeleton"
+    key="0"
+  >
+    <div
+      className="home__favorite-dest-slider-img"
+    />
+    <p
+      className="text-subtitle mb-4"
+    />
+    <p
+      className="text-caption text-color-gray"
+    />
+  </div>
+  <div
+    className="home__favorite-dest-slider-item home__favorite-dest-slider-item--skeleton"
+    key="1"
+  >
+    <div
+      className="home__favorite-dest-slider-img"
+    />
+    <p
+      className="text-subtitle mb-4"
+    />
+    <p
+      className="text-caption text-color-gray"
+    />
+  </div>
+  <div
+    className="home__favorite-dest-slider-item home__favorite-dest-slider-item--skeleton"
+    key="2"
+  >
+    <div
+      className="home__favorite-dest-slider-img"
+    />
+    <p
+      className="text-subtitle mb-4"
+    />
+    <p
+      className="text-caption text-color-gray"
+    />
+  </div>
+  <div
+    className="home__favorite-dest-slider-item home__favorite-dest-slider-item--skeleton"
+    key="3"
+  >
+    <div
+      className="home__favorite-dest-slider-img"
+    />
+    <p
+      className="text-subtitle mb-4"
+    />
+    <p
+      className="text-caption text-color-gray"
+    />
+  </div>
+</div>
+`;

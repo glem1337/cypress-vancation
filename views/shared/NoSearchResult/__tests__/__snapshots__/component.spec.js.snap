@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoSearchResult component matches snapshot 1`] = `
+<div
+  className="main-page__empty"
+>
+  <div
+    className="main-page__empty-content"
+  >
+    <img
+      alt=""
+      className="main-page__empty-image"
+      src="/images/auth/empty_search.svg"
+    />
+    <p
+      className="main-page__empty-text"
+    >
+      <Memo(FormattedMessage)
+        id="shared.noSearchResult"
+      />
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwitchField container tests matches snapshot 1`] = `
+<SwitchField
+  asComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "__ANT_SWITCH": true,
+      "render": [Function],
+    }
+  }
+  componentProps={null}
+  field={
+    Object {
+      "name": "name",
+    }
+  }
+  form={
+    Object {
+      "setFieldValue": [MockFunction],
+    }
+  }
+  handleChange={[Function]}
+  onToggle={null}
+/>
+`;

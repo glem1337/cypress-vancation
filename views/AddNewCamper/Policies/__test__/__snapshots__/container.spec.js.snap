@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Policies container tests checks mapPropsToValues configs 1`] = `
+Object {
+  "booking_approval_policy": undefined,
+  "cancellation_policy": undefined,
+}
+`;
+
+exports[`Policies container tests matches snapshot 1`] = `
+<Policies
+  camperCompleteness={44}
+  camperId="camperId"
+  camperPolicy={
+    Object {
+      "booking_approval_policy": "instant_book",
+      "camper_id": "f7445371-9f19-4c52-b0a4-711785cb55f1",
+      "cancellation_policy": "easy_going",
+    }
+  }
+  dirty={true}
+  enableReinitialize={true}
+  handleSubmit={[MockFunction]}
+  hideModal={[Function]}
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+  isCamperExist={true}
+  isSubmitting={false}
+  isValid={true}
+  mapPropsToValues={[Function]}
+  onBackButtonClick={[Function]}
+  onSubmit={[Function]}
+  router={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  setFieldValue={[MockFunction]}
+  setLeavePageMethod={[Function]}
+  showModal={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "logicMiddleware": Object {
+        "whenComplete": [MockFunction],
+      },
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  validateForm={[MockFunction]}
+  validationSchema={[Function]}
+  values={
+    Object {
+      "booking_approval_policy": "",
+      "cancellation_policy": "",
+    }
+  }
+/>
+`;

@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhoneInputField component matches snapshot with default props 1`] = `
+<FormItem
+  className="w-100"
+  label={
+    <span
+      className="main-input__label"
+    >
+      <Memo(FormattedMessage)
+        id="fake.label"
+      />
+    </span>
+  }
+  name="fieldName"
+>
+  <t
+    alwaysDefaultMask={false}
+    areaCodes={null}
+    autoFormat={true}
+    autocompleteSearch={false}
+    buttonClass=""
+    buttonStyle={Object {}}
+    containerClass=""
+    containerStyle={Object {}}
+    copyNumbersOnly={true}
+    country="us"
+    countryCodeEditable={true}
+    defaultErrorMessage=""
+    defaultMask="... ... ... ... .."
+    disableCountryCode={false}
+    disableCountryGuess={false}
+    disableDropdown={false}
+    disableInitialCountryGuess={false}
+    disableSearchIcon={false}
+    disabled={false}
+    dropdownClass=""
+    dropdownStyle={Object {}}
+    enableAreaCodeStretch={false}
+    enableAreaCodes={false}
+    enableClickOutside={true}
+    enableLongNumbers={false}
+    enableSearch={false}
+    enableTerritories={false}
+    excludeCountries={Array []}
+    flagsImagePath="./flags.png"
+    inputClass=""
+    inputProps={Object {}}
+    inputStyle={Object {}}
+    isValid={true}
+    jumpCursorToEnd={true}
+    keys={
+      Object {
+        "A": 65,
+        "DOWN": 40,
+        "ENTER": 13,
+        "ESC": 27,
+        "LEFT": 37,
+        "PLUS": 43,
+        "RIGHT": 39,
+        "SPACE": 32,
+        "TAB": 9,
+        "UP": 38,
+        "Z": 90,
+      }
+    }
+    localization={Object {}}
+    masks={null}
+    name="fieldName"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onEnterKeyPress={null}
+    onlyCountries={Array []}
+    placeholder="1234567890"
+    preferredCountries={Array []}
+    prefix="+"
+    preserveOrder={Array []}
+    priority={null}
+    regions=""
+    renderStringAsFlag=""
+    searchClass=""
+    searchNotFound="No entries to show"
+    searchPlaceholder="search"
+    searchStyle={Object {}}
+    showDropdown={false}
+    specialLabel="Phone"
+    value={true}
+  />
+</FormItem>
+`;
+
+exports[`PhoneInputField component matches snapshot with error 1`] = `
+<FormItem
+  className="w-100"
+  help={
+    <InputHelp
+      icon={null}
+      text={
+        Object {
+          "id": "validations.phoneNumberIsRequired",
+        }
+      }
+      type="danger"
+    />
+  }
+  label={
+    <span
+      className="main-input__label"
+    >
+      <Memo(FormattedMessage)
+        id="fake.label"
+      />
+    </span>
+  }
+  name="fieldName"
+  validateStatus="error"
+>
+  <t
+    alwaysDefaultMask={false}
+    areaCodes={null}
+    autoFormat={true}
+    autocompleteSearch={false}
+    buttonClass=""
+    buttonStyle={Object {}}
+    containerClass=""
+    containerStyle={Object {}}
+    copyNumbersOnly={true}
+    country="us"
+    countryCodeEditable={true}
+    defaultErrorMessage=""
+    defaultMask="... ... ... ... .."
+    disableCountryCode={false}
+    disableCountryGuess={false}
+    disableDropdown={false}
+    disableInitialCountryGuess={false}
+    disableSearchIcon={false}
+    disabled={false}
+    dropdownClass=""
+    dropdownStyle={Object {}}
+    enableAreaCodeStretch={false}
+    enableAreaCodes={false}
+    enableClickOutside={true}
+    enableLongNumbers={false}
+    enableSearch={false}
+    enableTerritories={false}
+    excludeCountries={Array []}
+    flagsImagePath="./flags.png"
+    inputClass=""
+    inputProps={Object {}}
+    inputStyle={Object {}}
+    isValid={true}
+    jumpCursorToEnd={true}
+    keys={
+      Object {
+        "A": 65,
+        "DOWN": 40,
+        "ENTER": 13,
+        "ESC": 27,
+        "LEFT": 37,
+        "PLUS": 43,
+        "RIGHT": 39,
+        "SPACE": 32,
+        "TAB": 9,
+        "UP": 38,
+        "Z": 90,
+      }
+    }
+    localization={Object {}}
+    masks={null}
+    name="fieldName"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onEnterKeyPress={null}
+    onlyCountries={Array []}
+    placeholder="1234567890"
+    preferredCountries={Array []}
+    prefix="+"
+    preserveOrder={Array []}
+    priority={null}
+    regions=""
+    renderStringAsFlag=""
+    searchClass=""
+    searchNotFound="No entries to show"
+    searchPlaceholder="search"
+    searchStyle={Object {}}
+    showDropdown={false}
+    specialLabel="Phone"
+    value={true}
+  />
+</FormItem>
+`;

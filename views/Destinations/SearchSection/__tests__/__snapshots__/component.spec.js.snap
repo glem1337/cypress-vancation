@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchSection component tests matches snapshot 1`] = `
+<div
+  className="choose-destination__search-section"
+>
+  <div
+    className="search-page__search-section-mobile"
+    onClick={[MockFunction]}
+    role="button"
+  >
+    <div
+      className="search-page__search-control"
+    >
+      <div
+        className="search-page__search-control-location-wrapper"
+      >
+        <p
+          className="search-page__search-control-location"
+        >
+          Test location
+        </p>
+      </div>
+      <div
+        className="search-page__search-control-dates-wrapper"
+      >
+        <p
+          className="search-page__search-control-dates search-page__search-control-location--inactive"
+        >
+          Aug 12 - Aug 14
+        </p>
+      </div>
+      <div
+        className="search-page__search-control-hr"
+      />
+      <div
+        className="search-page__search-control-button"
+      >
+        <button
+          className="main-input--right"
+          type="button"
+        >
+          <i
+            className="icon icon-filter in-gray-500"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="search-page__search-section-not-mobile"
+  >
+    <withGeolocationRequest(Connect(injectIntl(withRouter(ChooseDestinationWidget))))
+      size="small"
+    />
+  </div>
+</div>
+`;

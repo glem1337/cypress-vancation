@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterComponent component tests checks popup container 1`] = `""`;
+
+exports[`FooterComponent component tests checks popup container 2`] = `""`;
+
+exports[`FooterComponent component tests matches snapshot 1`] = `
+<div
+  className="calendar-listing__side-slideout__footer"
+>
+  <Popover
+    content={
+      <div>
+        <div
+          className="d-flex align-items-center"
+        >
+          <i
+            className="icon icon-alert font-18 in-yellow-1000 mr-4"
+          />
+          <span
+            className="text-caption"
+          >
+            <Memo(FormattedMessage)
+              id="calendar.discard.question"
+            />
+          </span>
+        </div>
+        <div
+          className="d-flex justify-content-flex-end mt-16"
+        >
+          <Button
+            className="mr-8"
+            onClick={[MockFunction]}
+            size="small"
+            type="text"
+          >
+            <Memo(FormattedMessage)
+              id="shared.no"
+            />
+          </Button>
+          <BtnGradient
+            className=""
+            isLoading={false}
+            onClick={[MockFunction]}
+            size="small"
+            text={
+              <Memo(FormattedMessage)
+                id="shared.yes"
+              />
+            }
+          />
+        </div>
+      </div>
+    }
+    getPopupContainer={[Function]}
+    mouseEnterDelay={0.1}
+    mouseLeaveDelay={0.1}
+    overlayStyle={Object {}}
+    placement="top"
+    trigger="click"
+    visible={true}
+  >
+    <Button
+      onClick={[MockFunction]}
+      size="large"
+      type="text"
+    >
+      <Memo(FormattedMessage)
+        id="shared.discard"
+      />
+    </Button>
+  </Popover>
+  <BtnGradient
+    className="min-w-140 ml-16"
+    disabled={true}
+    isLoading={true}
+    onClick={[MockFunction]}
+    size="large"
+    text={
+      <Memo(FormattedMessage)
+        id="shared.ok"
+      />
+    }
+  />
+</div>
+`;
+
+exports[`FooterComponent component tests matches snapshot with save popover 1`] = `
+<div
+  className="calendar-listing__side-slideout__footer"
+>
+  <Popover
+    content={
+      <div>
+        <div
+          className="d-flex align-items-center"
+        >
+          <i
+            className="icon icon-alert font-18 in-yellow-1000 mr-4"
+          />
+          <span
+            className="text-caption"
+          >
+            <Memo(FormattedMessage)
+              id="calendar.discard.question"
+            />
+          </span>
+        </div>
+        <div
+          className="d-flex justify-content-flex-end mt-16"
+        >
+          <Button
+            className="mr-8"
+            onClick={[MockFunction]}
+            size="small"
+            type="text"
+          >
+            <Memo(FormattedMessage)
+              id="shared.no"
+            />
+          </Button>
+          <BtnGradient
+            className=""
+            isLoading={false}
+            onClick={[MockFunction]}
+            size="small"
+            text={
+              <Memo(FormattedMessage)
+                id="shared.yes"
+              />
+            }
+          />
+        </div>
+      </div>
+    }
+    getPopupContainer={[Function]}
+    mouseEnterDelay={0.1}
+    mouseLeaveDelay={0.1}
+    overlayStyle={Object {}}
+    placement="top"
+    trigger="click"
+    visible={true}
+  >
+    <Button
+      onClick={[MockFunction]}
+      size="large"
+      type="text"
+    >
+      <Memo(FormattedMessage)
+        id="shared.discard"
+      />
+    </Button>
+  </Popover>
+  <Popover
+    content={
+      <React.Fragment>
+        <div
+          className="d-flex align-items-center"
+        >
+          <i
+            className="icon icon-alert font-18 in-yellow-1000 mr-4"
+          />
+          <span
+            className="text-caption"
+          >
+            <Memo(FormattedMessage)
+              id="calendar.defaultSettingsSavePopover"
+            />
+          </span>
+        </div>
+        <div
+          className="d-flex align-items-center mt-20"
+        >
+          <span
+            className="text-caption"
+          >
+            <Memo(FormattedMessage)
+              id="calendar.defaultSettingsSavePopoverWarn"
+            />
+          </span>
+        </div>
+        <div
+          className="d-flex justify-content-flex-end mt-16"
+        >
+          <Button
+            className="mr-8"
+            onClick={[MockFunction]}
+            size="small"
+            type="text"
+          >
+            <Memo(FormattedMessage)
+              id="shared.no"
+            />
+          </Button>
+          <BtnGradient
+            className=""
+            isLoading={false}
+            onClick={[MockFunction]}
+            size="small"
+            text={
+              <Memo(FormattedMessage)
+                id="shared.yes"
+              />
+            }
+          />
+        </div>
+      </React.Fragment>
+    }
+    getPopupContainer={[Function]}
+    mouseEnterDelay={0.1}
+    mouseLeaveDelay={0.1}
+    overlayStyle={Object {}}
+    placement="top"
+    trigger="click"
+    visible={true}
+  >
+    <BtnGradient
+      className="min-w-140 ml-16"
+      disabled={true}
+      isLoading={true}
+      onClick={[MockFunction]}
+      size="large"
+      text={
+        <Memo(FormattedMessage)
+          id="shared.ok"
+        />
+      }
+    />
+  </Popover>
+</div>
+`;

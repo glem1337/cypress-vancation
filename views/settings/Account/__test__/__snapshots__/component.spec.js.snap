@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Account setting Component snapshot with showAlertNewPassword false 1`] = `
+<Fragment>
+  <div
+    className="mb-24 text-headline"
+  >
+    <Memo(FormattedMessage)
+      id="settingAccount.title"
+    />
+  </div>
+  <div
+    className="main-account-card"
+  >
+    <div
+      className="text-subheader mb-8"
+    >
+      <Memo(FormattedMessage)
+        id="settingAccount.email"
+      />
+    </div>
+    <p>
+      <Memo(FormattedMessage)
+        id="settingAccount.currentEmail"
+      />
+      <span
+        className="in-black font-600"
+      >
+        test@gmail.com
+      </span>
+    </p>
+    <AlertEmail>
+      <div
+        className="mb-8"
+      >
+        <Memo(FormattedMessage)
+          id="settingAccount.emailIsNotConfirmed"
+        />
+      </div>
+      <Button
+        className="border-none"
+        size="small"
+      >
+        <Memo(FormattedMessage)
+          id="settingAccount.ResendEmail"
+        />
+      </Button>
+    </AlertEmail>
+    <MainBtnGradient
+      className="min-w-160 mt-24"
+      size="large"
+      text="Change email"
+    />
+  </div>
+  <div
+    className="main-account-card"
+  >
+    <div
+      className="text-subheader mb-8"
+    >
+      <Memo(FormattedMessage)
+        id="settingAccount.password"
+      />
+    </div>
+    <p
+      className="mb-24"
+    >
+      <Memo(FormattedMessage)
+        id="settingAccount.changeThePassword"
+      />
+    </p>
+    <div>
+      <MainBtnGradient
+        className="min-w-160 mr-16 mb-16 mb-md-0"
+        size="large"
+        text="Change password"
+      />
+      <Button
+        className="min-w-160"
+        size="large"
+        type="secondary"
+      >
+        <Memo(FormattedMessage)
+          id="settingAccount.restorePassword"
+        />
+      </Button>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Account setting Component snapshot with showAlertNewPassword true 1`] = `
+<Fragment>
+  <div
+    className="mb-24 text-headline"
+  >
+    <Memo(FormattedMessage)
+      id="settingAccount.title"
+    />
+  </div>
+  <div
+    className="main-account-card"
+  >
+    <div
+      className="text-subheader mb-8"
+    >
+      <Memo(FormattedMessage)
+        id="settingAccount.email"
+      />
+    </div>
+    <p>
+      <Memo(FormattedMessage)
+        id="settingAccount.currentEmail"
+      />
+      <span
+        className="in-black font-600"
+      >
+        test@gmail.com
+      </span>
+    </p>
+    <AlertEmail>
+      <div
+        className="mb-8"
+      >
+        <Memo(FormattedMessage)
+          id="settingAccount.emailIsNotConfirmed"
+        />
+      </div>
+      <Button
+        className="border-none"
+        size="small"
+      >
+        <Memo(FormattedMessage)
+          id="settingAccount.ResendEmail"
+        />
+      </Button>
+    </AlertEmail>
+    <AlertEmail>
+      <div
+        className="mb-8"
+      >
+        <Memo(FormattedMessage)
+          id="settingAccount.newEmailAddress"
+        />
+        <span
+          className="in-black"
+        >
+          rodney_harmon@gmail.com
+        </span>
+        <Memo(FormattedMessage)
+          id="settingAccount.yourOldAddress"
+        />
+        <span
+          className="in-black"
+        >
+          test@gmail.com
+        </span>
+        <Memo(FormattedMessage)
+          id="settingAccount.confirmTheChanges"
+        />
+      </div>
+      <Button
+        className="border-none"
+        size="small"
+      >
+        <Memo(FormattedMessage)
+          id="settingAccount.ResendEmail"
+        />
+      </Button>
+    </AlertEmail>
+    <MainBtnGradient
+      className="min-w-160 mt-24"
+      size="large"
+      text="Change email"
+    />
+  </div>
+  <div
+    className="main-account-card"
+  >
+    <div
+      className="text-subheader mb-8"
+    >
+      <Memo(FormattedMessage)
+        id="settingAccount.password"
+      />
+    </div>
+    <p
+      className="mb-24"
+    >
+      <Memo(FormattedMessage)
+        id="settingAccount.changeThePassword"
+      />
+    </p>
+    <div>
+      <MainBtnGradient
+        className="min-w-160 mr-16 mb-16 mb-md-0"
+        size="large"
+        text="Change password"
+      />
+      <Button
+        className="min-w-160"
+        size="large"
+        type="secondary"
+      >
+        <Memo(FormattedMessage)
+          id="settingAccount.restorePassword"
+        />
+      </Button>
+    </div>
+  </div>
+</Fragment>
+`;

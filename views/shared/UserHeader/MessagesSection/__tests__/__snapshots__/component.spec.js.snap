@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessagesSection component tests matches snapshot 1`] = `
+<div
+  className="main-account-header__item "
+>
+  <Link
+    href="/account/bookings"
+  >
+    <span
+      className="main-account-header__item-txt"
+    >
+      <Memo(FormattedMessage)
+        id="headerHeader.messages"
+      />
+    </span>
+  </Link>
+  <span
+    className="main-account-header__item-counter"
+  >
+    2
+  </span>
+</div>
+`;
+
+exports[`MessagesSection component tests matches snapshot when is not visible 1`] = `""`;

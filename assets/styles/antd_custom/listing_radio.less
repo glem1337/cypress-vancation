@@ -1,0 +1,50 @@
+@radio-offset-xs: 16px;
+
+.main-listing-radio {
+  position: relative;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: @radio-offset-xs;
+  border: @main-input-border;
+  border-radius: @main-border-radius;
+  transition: border-color @main-transition-props, box-shadow @main-transition-props !important;
+
+  &:hover,
+  &:focus {
+    border-color: @blue1000;
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .ant-radio {
+    position: absolute;
+    top: @radio-offset-xs;
+    right: @radio-offset-xs;
+
+    @media (min-width: @screen-md) {
+      top: 28px;
+    }
+  }
+
+  &.ant-radio-wrapper-checked {
+    box-shadow: 0 0 0 4px @box-shadow-color;
+    border-color: @blue1000;
+  }
+
+  @media (min-width: @screen-md) {
+    padding: 28px 24px 24px;
+  }
+}
+
+.main-listing-radio__title {
+  display: flex;
+  .text-subheader();
+  margin-bottom: 16px;
+  font-weight: 400;
+
+  @media (min-width: @screen-md) {
+    align-items: center;
+  }
+}

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImportList component tests matches snapshot 1`] = `
+<ul
+  className="mb-24"
+>
+  <li
+    className="calendar-listing__footer-item"
+    key="id"
+  >
+    <span
+      className="text-subheader font-400"
+    >
+      name
+    </span>
+    <div
+      className="d-flex align-self-start ml-16"
+    >
+      <Button
+        className="mr-8"
+        icon={
+          <i
+            className="icon icon-edit-pencil"
+          />
+        }
+        type="secondary"
+      />
+      <Button
+        icon={
+          <i
+            className="icon icon-delete"
+          />
+        }
+        type="delete"
+      />
+    </div>
+  </li>
+</ul>
+`;

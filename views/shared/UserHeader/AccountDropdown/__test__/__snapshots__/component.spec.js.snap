@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDropdownComponent UserDropdownComponent currentUser empty snapshot 1`] = `""`;
+
+exports[`UserDropdownComponent UserDropdownComponent default props snapshot 1`] = `
+<Dropdown
+  className={null}
+  disabled={false}
+  getPopupContainer={[MockFunction]}
+  icon={
+    <div
+      className="relative"
+      id="main-account-header__user"
+    >
+      <Avatar
+        className="d-none d-lg-block c-pointer"
+        shape="circle"
+        size="default"
+        src="test_url"
+      >
+        FL
+      </Avatar>
+    </div>
+  }
+  on={
+    Array [
+      "click",
+    ]
+  }
+  onVisibleChange={[MockFunction]}
+  overlayClassName="main-account-header__user-dropdown"
+  placement="bottomRight"
+  visible={false}
+>
+  <div
+    className="main-dropdown-wrap"
+  >
+    <div
+      className="main-dropdown__body"
+    >
+      <div
+        className="main-dropdown__item pt-8 pb-16"
+      >
+        <Avatar
+          className="mr-12"
+          shape="circle"
+          size="large"
+          src="test_url"
+        >
+          FL
+        </Avatar>
+        <div
+          className="flex-1 overflow-hidden"
+        >
+          <div
+            className="text-subheader text-truncate"
+            title="firstName lastName"
+          >
+            firstName lastName
+          </div>
+          <div
+            className="text-caption text-color-gray text-truncate"
+            title="test-email"
+          >
+            test-email
+          </div>
+        </div>
+      </div>
+      <UserHeaderMenuItem
+        active="account"
+        contentId="headerHeader.itemAccount"
+        itMenu={false}
+        key="ACCOUNT"
+        keyPage="ACCOUNT"
+        path="/settings/account"
+        targetBlankItems={
+          Array [
+            "SPECIFICATIONS",
+          ]
+        }
+      />
+      <UserHeaderMenuItem
+        active="account"
+        contentId="headerHeader.itemTrips"
+        itMenu={false}
+        key="trips"
+        keyPage="trips"
+        path="/trips"
+        targetBlankItems={
+          Array [
+            "SPECIFICATIONS",
+          ]
+        }
+      />
+      <UserHeaderMenuItem
+        active="account"
+        contentId="headerHeader.itemFavorites"
+        itMenu={false}
+        key="favorites"
+        keyPage="favorites"
+        path="/favorites"
+        targetBlankItems={
+          Array [
+            "SPECIFICATIONS",
+          ]
+        }
+      />
+      <UserHeaderMenuItem
+        active="account"
+        contentId="headerHeader.itemHelpFaq"
+        itMenu={false}
+        key="help"
+        keyPage="help"
+        path="/help"
+        targetBlankItems={
+          Array [
+            "SPECIFICATIONS",
+          ]
+        }
+      />
+      <UserHeaderMenuItem
+        active="account"
+        contentId="shared.listYourCamper"
+        itMenu={false}
+        key="SPECIFICATIONS"
+        keyPage="SPECIFICATIONS"
+        path="/add-new-camper/id/specifications"
+        targetBlankItems={
+          Array [
+            "SPECIFICATIONS",
+          ]
+        }
+      />
+      <button
+        className="main-dropdown__item in-gray-700"
+        onClick={[MockFunction]}
+        type="button"
+      >
+        <i
+          className="icon icon-log-out in-gray-500 mr-8"
+        />
+        <Memo(FormattedMessage)
+          id="headerHeader.logout"
+        />
+      </button>
+    </div>
+  </div>
+</Dropdown>
+`;
+
+exports[`UserDropdownComponent UserDropdownComponent visible true snapshot 1`] = `
+<Dropdown
+  className={null}
+  disabled={false}
+  getPopupContainer={[MockFunction]}
+  icon={
+    <div
+      className="relative"
+      id="main-account-header__user"
+    >
+      <Avatar
+        className="d-none d-lg-block c-pointer"
+        shape="circle"
+        size="default"
+        src="test_url"
+      >
+        FL
+      </Avatar>
+    </div>
+  }
+  on={
+    Array [
+      "click",
+    ]
+  }
+  onVisibleChange={[MockFunction]}
+  overlayClassName="main-account-header__user-dropdown"
+  placement="bottomRight"
+  visible={true}
+>
+  <div
+    className="main-dropdown-wrap"
+  >
+    <div
+      className="main-dropdown__body"
+    >
+      <div
+        className="main-dropdown__item pt-8 pb-16"
+      >
+        <Avatar
+          className="mr-12"
+          shape="circle"
+          size="large"
+          src="test_url"
+        >
+          FL
+        </Avatar>
+        <div
+          className="flex-1 overflow-hidden"
+        >
+          <div
+            className="text-subheader text-truncate"
+            title="firstName lastName"
+          >
+            firstName lastName
+          </div>
+          <div
+            className="text-caption text-color-gray text-truncate"
+            title="test-email"
+          >
+            test-email
+          </div>
+        </div>
+      </div>
+      <UserHeaderMenuItem
+        active="account"
+        contentId="headerHeader.itemAccount"
+        itMenu={false}
+        key="ACCOUNT"
+        keyPage="ACCOUNT"
+        path="/settings/account"
+        targetBlankItems={
+          Array [
+            "SPECIFICATIONS",
+          ]
+        }
+      />
+      <UserHeaderMenuItem
+        active="account"
+        contentId="headerHeader.itemTrips"
+        itMenu={false}
+        key="trips"
+        keyPage="trips"
+        path="/trips"
+        targetBlankItems={
+          Array [
+            "SPECIFICATIONS",
+          ]
+        }
+      />
+      <UserHeaderMenuItem
+        active="account"
+        contentId="headerHeader.itemFavorites"
+        itMenu={false}
+        key="favorites"
+        keyPage="favorites"
+        path="/favorites"
+        targetBlankItems={
+          Array [
+            "SPECIFICATIONS",
+          ]
+        }
+      />
+      <UserHeaderMenuItem
+        active="account"
+        contentId="headerHeader.itemHelpFaq"
+        itMenu={false}
+        key="help"
+        keyPage="help"
+        path="/help"
+        targetBlankItems={
+          Array [
+            "SPECIFICATIONS",
+          ]
+        }
+      />
+      <UserHeaderMenuItem
+        active="account"
+        contentId="shared.listYourCamper"
+        itMenu={false}
+        key="SPECIFICATIONS"
+        keyPage="SPECIFICATIONS"
+        path="/add-new-camper/id/specifications"
+        targetBlankItems={
+          Array [
+            "SPECIFICATIONS",
+          ]
+        }
+      />
+      <button
+        className="main-dropdown__item in-gray-700"
+        onClick={[MockFunction]}
+        type="button"
+      >
+        <i
+          className="icon icon-log-out in-gray-500 mr-8"
+        />
+        <Memo(FormattedMessage)
+          id="headerHeader.logout"
+        />
+      </button>
+    </div>
+  </div>
+</Dropdown>
+`;

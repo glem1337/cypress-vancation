@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MobileHeaderExpanded useContainer hook matches snapshot 1`] = `
+Object {
+  "collapseMobileHeader": [Function],
+  "query": Object {
+    "shouldGoBack": true,
+  },
+}
+`;

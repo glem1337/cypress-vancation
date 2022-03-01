@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Option component tests matches snapshot 1`] = `
+<Option
+  key="test.id"
+  label={
+    <FormattedOrRawMessage
+      message="test.label"
+    />
+  }
+  value="test.id"
+>
+  <li
+    className="main-dropdown__item p-0"
+  >
+    <div
+      className="main-dropdown__item-pic-listing"
+      style={
+        Object {
+          "backgroundImage": "url(\\"test.jpg\\")",
+        }
+      }
+    />
+    <div
+      className="d-flex justify-content-center flex-column line-height-base overflow-hidden"
+    >
+      <span
+        className="overflow-hidden text-overflow-ellipsis"
+      >
+        <FormattedOrRawMessage
+          message="test.label"
+        />
+      </span>
+      <span
+        className="font-style-italic"
+      >
+        test.subtitle
+      </span>
+    </div>
+  </li>
+</Option>
+`;

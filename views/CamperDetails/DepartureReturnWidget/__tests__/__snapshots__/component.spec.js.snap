@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DepartureReturnWidget component tests matches snapshot 1`] = `
+<div
+  className="departure-return__wrapper "
+>
+  <div
+    className="departure-return__widget"
+    onClick={[MockFunction]}
+    role="button"
+  >
+    <div
+      className="departure-return__side"
+    >
+      <span
+        className="departure-return__title"
+      >
+        <Memo(FormattedMessage)
+          id="shared.departure"
+        />
+      </span>
+      <span
+        className="departure-return__date"
+      >
+        departure
+      </span>
+    </div>
+    <div
+      className="departure-return__vr"
+    />
+    <div
+      className="departure-return__side"
+    >
+      <span
+        className="departure-return__title"
+      >
+        <Memo(FormattedMessage)
+          id="shared.return"
+        />
+      </span>
+      <span
+        className="departure-return__date"
+      >
+        return
+      </span>
+    </div>
+  </div>
+  <div
+    className="departure-return__calendar-wrapper departure-return__calendar-wrapper--invisible "
+  >
+    <div
+      className="campervan-availability__calendar-wrapper"
+    >
+      <Calendar
+        calendarType="US"
+        formatShortWeekday={[MockFunction]}
+        maxDate={+275760-09-13T00:00:00.000Z}
+        maxDetail="month"
+        minDate={0001-01-01T00:00:00.000Z}
+        minDetail="century"
+        onActiveStartDateChange={[MockFunction]}
+        onChange={[MockFunction]}
+        returnValue="start"
+        selectRange={true}
+        showDoubleView={true}
+        showNavigation={true}
+        showNeighboringMonth={true}
+        tileContent={[MockFunction]}
+        tileDisabled={[MockFunction]}
+        value={null}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DepartureReturnWidget component tests matches snapshot when camper is fetching 1`] = `<Skeleton />`;

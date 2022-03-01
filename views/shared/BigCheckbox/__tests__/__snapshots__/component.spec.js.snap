@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BigCheckbox component tests matches snapshot 1`] = `
+<div
+  className="main-checkbox-big-wrap"
+>
+  <input
+    type="checkbox"
+  />
+  <div
+    className="main-checkbox-big"
+  >
+    <img
+      alt=""
+      className="mr-12"
+      src="/path/to/icon"
+    />
+    <span
+      className="main-checkbox-big__txt"
+    >
+      title
+    </span>
+    Foo
+  </div>
+</div>
+`;
+
+exports[`BigCheckbox component tests when tooltip is present 1`] = `
+<div
+  className="main-checkbox-big-wrap"
+>
+  <input
+    type="checkbox"
+  />
+  <div
+    className="main-checkbox-big"
+  >
+    <img
+      alt=""
+      className="mr-12"
+      src="/path/to/icon"
+    />
+    <span
+      className="main-checkbox-big__txt"
+    >
+      title
+    </span>
+    <TooltipIcon
+      iconClass="icon-info"
+      phrase="tooltip"
+    />
+    Foo
+  </div>
+</div>
+`;

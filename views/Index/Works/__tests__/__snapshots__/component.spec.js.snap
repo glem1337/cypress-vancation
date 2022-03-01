@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Works component snapshot 1`] = `
+<div
+  className="container home-inner-wrap"
+>
+  <div
+    className="mb-40 mb-md-60"
+  >
+    <h2
+      className="home__how-works-title"
+    >
+      {Translation id: homePage.heroPageCard.title}
+    </h2>
+  </div>
+  <Row
+    justify="center"
+  >
+    <Col
+      className="home__how-works-card"
+      key="homePage.works.findThePerfect"
+      xl={6}
+    >
+      <div
+        className="home__how-works-card-inner"
+      >
+        <div
+          className="home__how-works-card-icon"
+        >
+          <img
+            alt=""
+            src="/images/home/Search.svg"
+          />
+        </div>
+        <div
+          className="home__how-works-card-desc"
+        >
+          <p
+            className="mb-16 text-title"
+          >
+            <Memo(FormattedMessage)
+              id="homePage.works.findThePerfect"
+            />
+          </p>
+          <p>
+            <Memo(FormattedMessage)
+              id="homePage.works.enterLocationAndDate"
+            />
+          </p>
+        </div>
+      </div>
+    </Col>
+    <Col
+      className="home__how-works-card"
+      key="homePage.works.bookYourTrip"
+      xl={6}
+    >
+      <div
+        className="home__how-works-card-inner"
+      >
+        <div
+          className="home__how-works-card-icon"
+        >
+          <img
+            alt=""
+            src="/images/home/Calendar.svg"
+          />
+        </div>
+        <div
+          className="home__how-works-card-desc"
+        >
+          <p
+            className="mb-16 text-title"
+          >
+            <Memo(FormattedMessage)
+              id="homePage.works.bookYourTrip"
+            />
+          </p>
+          <p>
+            <Memo(FormattedMessage)
+              id="homePage.works.bookOnlineSecurely"
+            />
+          </p>
+        </div>
+      </div>
+    </Col>
+    <Col
+      className="home__how-works-card"
+      key="homePage.works.hitTheRoad"
+      xl={6}
+    >
+      <div
+        className="home__how-works-card-inner"
+      >
+        <div
+          className="home__how-works-card-icon"
+        >
+          <img
+            alt=""
+            src="/images/home/Road.svg"
+          />
+        </div>
+        <div
+          className="home__how-works-card-desc"
+        >
+          <p
+            className="mb-16 text-title"
+          >
+            <Memo(FormattedMessage)
+              id="homePage.works.hitTheRoad"
+            />
+          </p>
+          <p>
+            <Memo(FormattedMessage)
+              id="homePage.works.haveYourDreamCampervan"
+            />
+          </p>
+        </div>
+      </div>
+    </Col>
+  </Row>
+</div>
+`;

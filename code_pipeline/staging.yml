@@ -1,0 +1,35 @@
+version: 0.2
+env:
+  git-credential-helper: yes
+  variables:
+    AWS_DOMAIN: 400235718670.dkr.ecr.us-west-1.amazonaws.com
+    NEXT_PUBLIC_API_HOST: https://staging-api.vancation.com
+    NEXT_PUBLIC_APP_HOST: https://staging-front.vancation.com
+    NEXT_PUBLIC_FACEBOOK_KEY: 798583204395633
+    NEXT_PUBLIC_GOOGLE_KEY: 353666849813-ggsrbrlnv7700sn907mft2kkmbmt651r.apps.googleusercontent.com
+    NEXT_PUBLIC_ACCESS_TOKEN_MAPBOX: pk.eyJ1IjoidmFuY2F0aW9uIiwiYSI6ImNrbm5xbzN4cTExMGsydm1vc3lxaTg0cGMifQ.GHSVrnhy1-hRTmapC2M8lw
+    NEXT_PUBLIC_SUPPORT_EMAIL: support@vancation.com
+    NEXT_PUBLIC_SUPPORT_PHONE: 1-555-555-5555
+    NEXT_PUBLIC_APP_PHONE: '+1 766-732-6732'
+phases:
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR...
+      - aws ecr get-login-password --region us-west-1 | docker login --username AWS --password-stdin $AWS_DOMAIN
+      - REPOSITORY_URI=$AWS_DOMAIN/vancation-front/staging/server-app
+      - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
+  build:
+    commands:
+      - echo Building the Docker image...
+      - docker build -t $REPOSITORY_URI:$COMMIT_HASH --build-arg NEXT_PUBLIC_API_HOST=$NEXT_PUBLIC_API_HOST --build-arg NEXT_PUBLIC_FACEBOOK_KEY=$NEXT_PUBLIC_FACEBOOK_KEY --build-arg NEXT_PUBLIC_GOOGLE_KEY=$NEXT_PUBLIC_GOOGLE_KEY --build-arg NEXT_PUBLIC_SUPPORT_EMAIL=$NEXT_PUBLIC_SUPPORT_EMAIL --build-arg NEXT_PUBLIC_SUPPORT_PHONE=$NEXT_PUBLIC_SUPPORT_PHONE --build-arg NEXT_PUBLIC_ACCESS_TOKEN_MAPBOX=$NEXT_PUBLIC_ACCESS_TOKEN_MAPBOX --build-arg NEXT_PUBLIC_APP_PHONE='+1 766-732-6732' -f Dockerfile .
+      - docker tag $REPOSITORY_URI:$COMMIT_HASH $REPOSITORY_URI:$COMMIT_HASH
+      - docker tag $REPOSITORY_URI:$COMMIT_HASH $REPOSITORY_URI:staging
+  post_build:
+    commands:
+      - echo Pushing the Docker images...
+      - docker push $REPOSITORY_URI:$COMMIT_HASH
+      - docker push $REPOSITORY_URI:staging
+      - echo Writing image definitions file...
+      - printf '[{"name":"app","imageUri":"%s"}]' $REPOSITORY_URI:staging > imagedefinitions.json
+artifacts:
+    files: imagedefinitions.json

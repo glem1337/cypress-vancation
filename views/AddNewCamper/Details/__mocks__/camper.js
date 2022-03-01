@@ -1,0 +1,21 @@
+export default {
+  id: 'a18f7338-c2b3-4cee-be4d-579c0a726c1a',
+  name: 'test',
+  description: 'desc',
+  status: 'draft',
+  insurance: 'pending',
+  place: null,
+  publicId: '111',
+  owner: {
+    id: '74a9c587-7b78-4aa5-ba93-ba3d310be127',
+    type: 'owner',
+  },
+  specificationDetail: null,
+  pricingInfo: null,
+  camperPolicy: null,
+  deliveryInformation: null,
+  camperPhotos: [],
+  blockedPeriods: [],
+  pricingPeriods: [],
+  externalCalendars: [],
+};

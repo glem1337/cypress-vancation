@@ -1,0 +1,120 @@
+defaults: &defaults
+  working_directory: ~/nextjs-boilerplate
+  docker:
+    - image: circleci/node
+
+deploy_image: &deploy_image
+  docker:
+    - image: circleci/python:3.7
+
+caches:
+  - &deploy_dependencies_cache nextjs-boilerplate-{{ checksum "deploy/dependencies.txt" }}
+  - &yarn_cache nextjs-boilerplate-{{ checksum "yarn.lock" }}
+
+references:
+  restore_yarn_cache: &restore_yarn_cache
+    restore_cache:
+      keys:
+        - *yarn_cache
+
+  yarn_install: &yarn_install
+    run:
+        name: Installing packages
+        command: yarn install
+
+  save_yarn_cache: &save_yarn_cache
+    save_cache:
+      name: Save Yarn Package Cache
+      key: *yarn_cache
+      paths:
+        - ~/.cache
+
+  deploy: &deploy
+    run:
+      name: Deploy
+      command: deploy/staging.sh
+
+  restore_deploy_dependencies_cache: &restore_deploy_dependencies_cache
+    restore_cache:
+        name: Restore deploy dependencies
+        keys:
+          - *deploy_dependencies_cache
+
+  store_deploy_dependencies_cache: &store_deploy_dependencies_cache
+    save_cache:
+      name: Store deploy dependencies
+      key: *deploy_dependencies_cache
+      paths:
+        - venv
+
+  install_ecs_cli: &install_ecs_cli
+    run:
+      name: Install ECS CLI
+      command: |
+        curl -o ~/ecs-cli https://s3.amazonaws.com/amazon-ecs-cli/ecs-cli-linux-amd64-latest
+        chmod +x ~/ecs-cli
+        sudo mv ~/ecs-cli /usr/local/bin/ecs-cli
+
+version: 2
+
+jobs:
+  linters:
+    <<: *defaults
+
+    steps:
+      - checkout
+
+      - <<: *restore_yarn_cache
+      - <<: *yarn_install
+      - <<: *save_yarn_cache
+
+      - run:
+          name: Running linters
+          command: yarn lint
+
+  tests:
+    <<: *defaults
+
+    steps:
+      - checkout
+
+      - <<: *restore_yarn_cache
+      - <<: *yarn_install
+      - <<: *save_yarn_cache
+
+      - run:
+          name: Running tests
+          command: yarn test:circle
+
+      - store_artifacts:
+          name: Saving Jest coverage
+          path: ~/nextjs-boilerplate/coverage/lcov-report
+          destination: /jest-coverage
+
+  deploy:
+    <<: *deploy_image
+    steps:
+      - checkout
+      - setup_remote_docker
+
+      - *restore_deploy_dependencies_cache
+      - *install_ecs_cli
+      - run:
+          name: Copy github ssh key
+          command: cp ~/.ssh/id_rsa id_rsa
+      - *deploy
+      - *store_deploy_dependencies_cache
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - linters
+      - tests
+      - deploy:
+          requires:
+            - tests
+            - linters
+          filters:
+            branches:
+              only: develop

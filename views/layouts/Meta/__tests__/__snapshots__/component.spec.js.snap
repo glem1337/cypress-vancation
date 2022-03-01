@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Meta component matches snapshot 1`] = `
+<Head>
+  <meta
+    content="width=device-width, initial-scale=1, shrink-to-fit=no maximum-scale=1.0 user-scalable=no"
+    name="viewport"
+  />
+  <meta
+    content="ie=edge"
+    httpEquiv="x-ua-compatible"
+  />
+  <meta
+    charSet="utf-8"
+  />
+  <meta
+    content={null}
+    property="og:url"
+  />
+  <meta
+    content={null}
+    property="og:title"
+  />
+  <meta
+    content={null}
+    property="og:type"
+  />
+  <meta
+    content={null}
+    property="og:image"
+  />
+  <meta
+    content={null}
+    property="og:site_name"
+  />
+  <meta
+    content={null}
+    property="og:description"
+  />
+  <meta
+    content="test-key-facebook"
+    property="fb:app_id"
+  />
+  <meta
+    content={null}
+    property="twitter:card"
+  />
+  <meta
+    content={null}
+    name="twitter:image"
+  />
+  <link
+    href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+    rel="stylesheet"
+  />
+</Head>
+`;

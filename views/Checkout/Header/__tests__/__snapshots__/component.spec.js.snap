@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutLayout layout Header component tests matches snapshot 1`] = `
+<header
+  className="checkout__header"
+>
+  <div
+    className="container checkout__header-container"
+  >
+    <div
+      className="d-flex align-items-center"
+    >
+      <img
+        alt=""
+        src="/images/logo/logo-circle.svg"
+      />
+      <div
+        className="ml-16"
+      >
+        <div
+          className="text-title"
+        >
+          <Memo(FormattedMessage)
+            id="shared.secureCheckout"
+          />
+        </div>
+        <div
+          className="d-lg-none in-black"
+        >
+          <span
+            className="font-700"
+          >
+            <Memo(FormattedMessage)
+              id="shared.stepRange"
+              values={
+                Object {
+                  "end": 4,
+                  "start": 2,
+                }
+              }
+            />
+             - 
+          </span>
+          <Memo(FormattedMessage)
+            id="shared.tripInfoAndExtras"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="d-none d-lg-block"
+    >
+      <Space
+        direction="horizontal"
+        size={32}
+      >
+        <div
+          className="checkout__header-item checkout__header-item--passed"
+          key="shared.personalInformation"
+        >
+          <div
+            className="checkout__header-item-numb"
+          >
+            <i
+              className="icon icon-checked"
+            />
+          </div>
+          <Memo(FormattedMessage)
+            id="shared.personalInformation"
+          />
+        </div>
+        <div
+          className="checkout__header-item"
+          key="shared.tripInfoAndExtras"
+        >
+          <div
+            className="checkout__header-item-numb"
+          >
+            2
+          </div>
+          <Memo(FormattedMessage)
+            id="shared.tripInfoAndExtras"
+          />
+        </div>
+        <div
+          className="checkout__header-item checkout__header-item--inactive"
+          key="shared.protectionPlan"
+        >
+          <div
+            className="checkout__header-item-numb"
+          >
+            3
+          </div>
+          <Memo(FormattedMessage)
+            id="shared.protectionPlan"
+          />
+        </div>
+        <div
+          className="checkout__header-item checkout__header-item--inactive"
+          key="shared.payment"
+        >
+          <div
+            className="checkout__header-item-numb"
+          >
+            4
+          </div>
+          <Memo(FormattedMessage)
+            id="shared.payment"
+          />
+        </div>
+      </Space>
+    </div>
+    <div
+      className="checkout__header-support"
+    >
+      <div
+        className="main-listing-support-icon"
+      >
+        <i
+          className="icon icon-question-f in-blue-1000 font-20"
+        />
+      </div>
+      <div>
+        <p
+          className="text-caption mb-4"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.HelperTitle"
+          />
+        </p>
+        <a
+          className="font-600 in-black"
+          href="tel:+1 766-732-6732"
+        >
+          +1 766-732-6732
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+`;

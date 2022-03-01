@@ -1,0 +1,184 @@
+.campervan-availability__calendar-wrapper--loading {
+  position: relative;
+  pointer-events: none;
+}
+
+.campervan-availability__calendar-wrapper {
+  width: 100%;
+  max-width: 846px;
+
+  .react-calendar__viewContainer {
+    display: flex;
+    flex: 1;
+
+    @media (min-width: @screen-md) {
+      padding: 18px;
+    }
+  }
+
+  .react-calendar__navigation {
+    height: 52px;
+
+    @media (max-width: @screen-md) {
+      margin-bottom: 16px;
+    }
+  }
+
+  .react-calendar__navigation__prev-button, .react-calendar__navigation__next-button {
+    position: relative;
+    width: 40px;
+    font-size: 22px;
+  }
+
+  .react-calendar__navigation__prev-button {
+    @media (min-width: @screen-md) {
+      left: 10px;
+    }
+  }
+
+  .react-calendar__navigation__next-button {
+    @media (min-width: @screen-md) {
+      left: -10px;
+    }
+  }
+
+  .react-calendar__month-view:first-child {
+    @media (min-width: @screen-md) {
+      margin-right: 64px;
+    }
+    
+    @media (min-width: @screen-lg) {
+      margin-right: 86px;
+    }
+  }
+
+  .react-calendar__navigation__label {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    pointer-events: none;
+  }
+
+  .react-calendar__navigation__label__labelText {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    color: #13284C;
+    font-size: 14px;
+
+    @media (min-width: @screen-md) {
+      border-bottom: 1px solid #f1f2f4;
+    }
+  }
+
+  .react-calendar__navigation__label__divider {
+    visibility: hidden;
+    width: 60px;
+  }
+
+  .react-calendar__month-view__weekdays__weekday {
+    height: 36px;
+    color: #a3acbd;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    abbr {
+      text-decoration: none !important;
+    }
+  }
+
+  .react-calendar__month-view__days__day {
+    abbr {
+      display: none;
+    }
+  }
+
+  .campervan-availability__calendar-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 52px;
+  }
+
+  .campervan-availability__calendar-inner-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 36px;
+    border-radius: 4px;
+    color: #13284c;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .campervan-availability__calendar-inner-cell:hover {
+    background-color: #00A5B5;
+    color: #fff
+  }
+  
+  .react-calendar__tile--range {
+    .campervan-availability__calendar-inner-cell {
+      background-color: #eafcfe;
+    }
+  }
+
+  .react-calendar__tile--rangeStart, .react-calendar__tile--rangeEnd {
+    .campervan-availability__calendar-inner-cell {
+      background-color: #00A5B5;
+      color: #fff;
+    }
+  }
+
+  .react-calendar__month-view__days__day--neighboringMonth {
+    opacity: 0.5;
+    pointer-events: none;
+
+    .campervan-availability__calendar-inner-cell {
+      background-color: transparent;
+      color: #13284C;
+      text-decoration: line-through;
+      text-decoration-color: #a3acbd;
+    }
+  }
+
+  .react-calendar__navigation__next2-button, .react-calendar__navigation__prev2-button {
+    display: none;
+  }
+
+  .campervan-availability__clear-section {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+    span {
+      color: #a3acbd;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+
+  button:disabled,
+  button[disabled]{
+    opacity: 0.5;
+
+    .campervan-availability__calendar-inner-cell {
+      text-decoration: line-through;
+      text-decoration-color: #a3acbd;
+    }
+  }
+}
+
+.campervan-availability__calendar-loader-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

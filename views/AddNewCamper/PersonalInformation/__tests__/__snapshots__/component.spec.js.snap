@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PersonalInformation Component matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="main-listing-container"
+  >
+    <div
+      className="mb-16 mb-md-24"
+    >
+      <ProgressBar
+        content={
+          <Memo(FormattedMessage)
+            id="addNewCamper.ProgressBar"
+          />
+        }
+        percent={0}
+      />
+    </div>
+    <div
+      className="d-md-flex align-items-flex-start mb-16"
+    >
+      <div
+        className="mb-16 mb-md-0"
+      >
+        <h1
+          className="text-headline mb-8"
+        >
+          <Memo(FormattedMessage)
+            id="shared.letsGetStarted"
+          />
+        </h1>
+        <p>
+          <Memo(FormattedMessage)
+            id="addNewCamper.personal.fillIn"
+          />
+        </p>
+      </div>
+      <div
+        className="d-flex align-items-center ml-md-auto"
+      >
+        <p
+          className="mr-8"
+        >
+          <Memo(FormattedMessage)
+            id="signUp.alreadyHaveAccount"
+          />
+        </p>
+        <Link
+          href={
+            Object {
+              "pathname": "/log_in",
+              "query": Object {
+                "redirectRoute": "/add-new-camper/id/specifications",
+              },
+            }
+          }
+        >
+          <Button
+            size="small"
+            type="secondary"
+          >
+            <Memo(FormattedMessage)
+              id="shared.logIn"
+            />
+          </Button>
+        </Link>
+      </div>
+    </div>
+    <Row>
+      <Col
+        lg={16}
+      >
+        <ForwardRef(InternalForm)
+          layout="vertical"
+        >
+          <Row
+            gutter={24}
+          >
+            <Col
+              md={12}
+            >
+              <Field
+                autoComplete="given-name"
+                component={[Function]}
+                label={
+                  Object {
+                    "id": "signUp.firstName",
+                  }
+                }
+                name="firstName"
+                placeholder="Cory"
+              />
+            </Col>
+            <Col
+              md={12}
+            >
+              <Field
+                autoComplete="family-name"
+                component={[Function]}
+                label={
+                  Object {
+                    "id": "signUp.lastName",
+                  }
+                }
+                name="lastName"
+                placeholder="Hubbard"
+              />
+            </Col>
+            <Col
+              md={12}
+            >
+              <Field
+                autoComplete="email"
+                component={[Function]}
+                label={
+                  Object {
+                    "id": "shared.email",
+                  }
+                }
+                name="email"
+                placeholder={
+                  Object {
+                    "id": "shared.emailPlaceholder",
+                  }
+                }
+                type="email"
+              />
+            </Col>
+            <Col
+              md={12}
+            >
+              <div
+                className="d-flex align-items-center"
+              >
+                <Field
+                  component={[Function]}
+                  label={
+                    Object {
+                      "id": "signUp.phoneNumber",
+                    }
+                  }
+                  name="phoneNumber"
+                />
+              </div>
+            </Col>
+            <Col
+              md={12}
+            >
+              <Field
+                autoComplete="new-password"
+                component={[Function]}
+                label={
+                  Object {
+                    "id": "shared.password",
+                  }
+                }
+                name="password"
+                withPasswordStrength={true}
+              />
+            </Col>
+            <Col
+              span={24}
+            >
+              <Divider
+                className="mt-0"
+                plain={true}
+              >
+                <Memo(FormattedMessage)
+                  id="auth.or"
+                />
+              </Divider>
+            </Col>
+            <Connect(AuthSocial)
+              redirectRoute="/add-new-camper/id/specifications"
+            />
+            <Col
+              span={24}
+            >
+              <div
+                className="mt-20 mb-20 text-align-left"
+              >
+                <p>
+                  <Memo(FormattedMessage)
+                    id="signUp.bySigningUpAgree"
+                  />
+                   
+                  <Link
+                    href="/terms-of-service"
+                  >
+                    <a
+                      className="main-link"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <Memo(FormattedMessage)
+                        id="signUp.vancationTermsOfService"
+                      />
+                    </a>
+                  </Link>
+                   
+                  <Memo(FormattedMessage)
+                    id="signUp.and"
+                  />
+                   
+                  <Link
+                    href="/privacy-policy"
+                  >
+                    <a
+                      className="main-link"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <Memo(FormattedMessage)
+                        id="signUp.privacyPolicy"
+                      />
+                    </a>
+                  </Link>
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </ForwardRef(InternalForm)>
+      </Col>
+    </Row>
+  </div>
+  <AddNewCamperBtnForm
+    canSave={true}
+    isSubmitting={false}
+    onSaveClick={[MockFunction]}
+    showGradientButton={true}
+    withBackBtn={false}
+  />
+</Fragment>
+`;

@@ -1,0 +1,44 @@
+.antd-img-crop-modal .ant-modal {
+  @media (min-width: @screen-md) {
+    max-width: none !important;
+    width: 528px !important;
+  }
+
+  .ant-modal-header {
+    border-bottom: none;
+  }
+
+  .ant-modal-title {
+    .text-title();
+  }
+
+  .ant-modal-body {
+    padding: @modal-paddind-x-md @modal-paddind-x-xs;
+
+    @media (min-width: @screen-md) {
+      padding-right: @modal-paddind-x-md;
+      padding-left: @modal-paddind-x-md;
+    }
+  }
+
+  .ant-modal-footer {
+    border-top: none;
+  }
+
+  .reactEasyCrop_CropArea {
+    width: 328px !important;
+    height: 328px !important;
+    border-style: dashed;
+    border-color: @blue1000;
+  }
+
+  .antd-img-crop-container {
+    width: 480px;
+    height: 360px;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-radius: @main-border-radius;
+    overflow: hidden;
+    background-color: @colored-overlay;
+  }
+}

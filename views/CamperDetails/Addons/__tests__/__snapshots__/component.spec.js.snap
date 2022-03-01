@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Addons component tests matches snapshot default 1`] = `
+<div>
+  <p
+    className="text-headline mb-24"
+  >
+    <Memo(FormattedMessage)
+      id="shared.addons"
+    />
+  </p>
+  <Row
+    gutter={24}
+  >
+    <Col
+      key="1"
+      md={8}
+      xl={6}
+    >
+      <AddonCard
+        description="description"
+        iconUrl="url"
+        name="name"
+        price="50"
+        priceUnit="per day"
+      />
+    </Col>
+  </Row>
+  <a
+    className="main-link in-blue-1000 font-600"
+    onClick={[MockFunction]}
+    role="button"
+  >
+    <Memo(FormattedMessage)
+      id="shared.showAllCount"
+      values={
+        Object {
+          "count": 2,
+        }
+      }
+    />
+  </a>
+  <Divider
+    className="mt-24 mt-md-40 mb-24 mb-md-40"
+  />
+</div>
+`;
+
+exports[`Addons component tests matches snapshot when items aren\`t present 1`] = `""`;
+
+exports[`Addons component tests matches snapshot when loading 1`] = `
+<div>
+  <div
+    className="skeleton__title w-100"
+  />
+  <Row
+    gutter={24}
+  >
+    <Col
+      md={8}
+      xl={6}
+    >
+      <SkeletonText
+        rows={2}
+      />
+    </Col>
+    <Col
+      md={8}
+      xl={6}
+    >
+      <SkeletonText
+        rows={2}
+      />
+    </Col>
+    <Col
+      md={8}
+      xl={6}
+    >
+      <SkeletonText
+        rows={2}
+      />
+    </Col>
+  </Row>
+  <Divider
+    className="mt-24 mt-md-40 mb-24 mb-md-40"
+  />
+</div>
+`;

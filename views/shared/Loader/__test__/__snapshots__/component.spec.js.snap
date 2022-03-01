@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader component matches snapshot 1`] = `
+<Spin
+  indicator={
+    <ForwardRef(LoadingOutlined)
+      spin={true}
+      style={
+        Object {
+          "fontSize": 24,
+        }
+      }
+    />
+  }
+  size="default"
+  spinning={true}
+  wrapperClassName=""
+/>
+`;

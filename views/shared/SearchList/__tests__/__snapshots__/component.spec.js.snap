@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchList component matches snapshot with className 1`] = `
+<div
+  className="flex-grow-1 relative className"
+>
+  <span
+    className="main-page__search-icon icon icon-search"
+  />
+  <injectIntl(Input)
+    className="mb-0"
+    kind="search"
+    onChange={[MockFunction]}
+    placeholder={
+      Object {
+        "id": "shared.search",
+      }
+    }
+    size="small"
+    value="value"
+  />
+  <button
+    className="main-page__search-icon main-page__search-icon--clear icon icon-cross"
+    onClick={[MockFunction]}
+    type="button"
+  />
+</div>
+`;
+
+exports[`SearchList component matches snapshot with default props 1`] = `
+<div
+  className="flex-grow-1 relative"
+>
+  <span
+    className="main-page__search-icon icon icon-search"
+  />
+  <injectIntl(Input)
+    className="mb-0"
+    kind="search"
+    onChange={[MockFunction]}
+    placeholder={
+      Object {
+        "id": "shared.search",
+      }
+    }
+    size="small"
+    value="value"
+  />
+  <button
+    className="main-page__search-icon main-page__search-icon--clear icon icon-cross"
+    onClick={[MockFunction]}
+    type="button"
+  />
+</div>
+`;

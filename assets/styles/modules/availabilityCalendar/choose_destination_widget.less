@@ -1,0 +1,329 @@
+.choose-destination-home-wrapper {
+  display: flex;
+  width: 100%;
+  padding: 0 32px;
+  justify-content: center;
+  z-index: 1;
+}
+
+.choose-destination-home-wrapper--hidden {
+  visibility: hidden;
+}
+
+.choose-destination {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  background-color: white;
+  border-radius: 48px;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 100%;
+  padding: 16px;
+
+  @media (min-width: @screen-md) {
+    max-width: auto;
+    min-width: auto;
+  }
+}
+
+.choose-destination__location--big {
+  min-width: 296px;
+  max-width: 296px;
+
+  @media (min-width: @screen-xl) {
+    min-width: 473px;
+    max-width: 473px;
+  }
+}
+
+.choose-destination__location--small {
+  min-width: 206px;
+  max-width: 206px;
+
+  @media (min-width: @screen-xl) {
+    min-width: 320px;
+    max-width: 320px;
+  }
+}
+
+.choose-destination__dates--big {
+  min-width: 280px;
+  max-width: 280px;
+}
+
+.choose-destination__dates--small {
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.choose-destination--small {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  background-color: #f5f7fa;
+}
+
+.choose-destination__select-wrapper {
+  position: relative;  
+
+  .ant-select,
+  .ant-select-selector {
+    border-radius: 48px !important;
+  }
+
+  .ant-select-selector {
+    padding-left: 40px !important;
+  }
+
+  input {
+    padding-left: 30px !important;
+  }
+
+  .ant-select-arrow,
+  .ant-picker-range-separator {
+    display: none;
+  }
+
+  i {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-size: 24px;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  i.location {
+    top: 16px;
+    left: 16px;
+  }
+}
+
+.choose-destination__range_input-wrapper {
+  position: relative;
+  margin-left: 16px;
+  margin-right: 16px;
+
+  .ant-select,
+  .ant-select-selector {
+    border-radius: 48px !important;
+  }
+
+  .ant-select-selector {
+    padding-left: 40px !important;
+  }
+
+  .ant-select-arrow,
+  .ant-picker-range-separator {
+    display: none;
+  }
+
+  .ant-select-dropdown {
+    display: none;
+  }
+
+  i {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    z-index: 3;
+    pointer-events: none;
+  }
+
+  @media (max-width: 768px - 1px) {
+    display: none;
+  }
+}
+
+.choose-destination__range_input {
+  margin: 0;
+  border-radius: 48px;
+  padding-left: 40px;
+}
+
+.choose-destination__calendar-wrapper--invisible {
+  transition: max-height 0.25s;
+  max-height: 0 !important;
+  overflow: hidden;
+}
+
+.choose-destination__calendar-wrapper {
+  position: absolute;
+  top: 110%;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 2px 2px 0 rgba(82, 97, 115, 0.1);
+  z-index: 5;
+  transition: max-height 0.25s;
+  max-height: 2000px;
+
+  .react-calendar__viewContainer {
+    display: flex;
+    flex: 1;
+    padding: 18px;
+  }
+
+  .react-calendar__navigation {
+    height: 52px;
+  }
+
+  .react-calendar__navigation__prev-button, .react-calendar__navigation__next-button {
+    width: 40px;
+    font-size: 22px;
+  }
+
+  .react-calendar__month-view:first-child {
+    margin-right: 20px;
+
+    @media (min-width: 768) {
+      margin-right: 60px;
+    }
+  }
+
+  .react-calendar__navigation__label {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    pointer-events: none;
+  }
+
+  .react-calendar__navigation__label__labelText {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    color: #13284C;
+    font-size: 14px;
+    border-bottom: 1px solid #f1f2f4;
+  }
+
+  .react-calendar__navigation__label__divider {
+    visibility: hidden;
+    width: 60px
+  }
+
+  .react-calendar__month-view__weekdays__weekday {
+    height: 36px;
+    color: #A3ACBD;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    abbr {
+      text-decoration: none !important;
+    }
+  }
+
+  .react-calendar__month-view__days__day {
+    abbr {
+      display: none;
+    }
+  }
+
+  .choose-destination__calendar-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 52px;
+  }
+
+  .choose-destination__calendar-inner-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 36px;
+    border-radius: 4px;
+    color: #13284C;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .choose-destination__calendar-inner-cell:hover {
+    background-color: #00A5B5;
+    color: #fff
+  }
+  
+  .react-calendar__tile--range {
+    .choose-destination__calendar-inner-cell {
+      background-color: #eafcfe;
+    }
+  }
+
+  .react-calendar__tile--rangeStart, .react-calendar__tile--rangeEnd {
+    .choose-destination__calendar-inner-cell {
+      background-color: #00A5B5;
+      color: #fff;
+    }
+  }
+
+  .react-calendar__month-view__days__day--neighboringMonth {
+    opacity: 0.5;
+    pointer-events: none;
+
+    .choose-destination__calendar-inner-cell {
+      background-color: transparent;
+      color: #13284C;
+    }
+  }
+
+  .react-calendar__navigation__next2-button, .react-calendar__navigation__prev2-button {
+    display: none;
+  }
+
+  button:disabled,
+  button[disabled]{
+    opacity: 0.5;
+  }
+
+  @media only screen and (max-width: 992px) {
+    right: 0;
+    width: 70%;
+  }
+
+  @media only screen and (min-width: 991px) {
+    right: 0;
+    width: 100%;
+  }
+}
+
+.choose-destination__calendar-wrapper--small {
+  @media only screen and (min-width: 991px) {
+    right: 0;
+    width: 120% !important;
+  }
+}
+
+.choose-destination__start-search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.choose-destination__start-search {
+  margin: 0;
+  border-radius: 48px;
+  width: 320px;
+}
+
+.choose-destination__start-search-button {
+  position: absolute;
+  right: 9px;
+  top: 6px;
+  margin: 0;
+  border-radius: 48px;
+  width: 320px;
+}
+
+.choose-destination__search-section {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.choose-destination__search_btn:active {
+  opacity: 0.8
+}

@@ -1,0 +1,91 @@
+@sans-serif: sans-serif;
+@main-font-family: Open Sans, @sans-serif;
+@alt-font-family: Poppins, @sans-serif;
+@body-color: @text-color-gray;
+
+@main-header-height: 65px;
+@small-dev-width-mobile: 360px;
+@main-border-radius: 6px;
+@small-border-radius: 4px;
+@main-account-header-listing-height: 126px;
+
+/* Shadow */
+@shadow1: 0 4px 4px 0 rgba(82, 97, 115, 0.12);
+@shadow2: 0 4px 8px 0 rgba(82, 97, 115, 0.1);
+@shadow3: 0 8px 16px 0 rgba(82, 97, 115, 0.18);
+@shadow4: 0 16px 24px 0 rgba(82, 97, 115, 0.14);
+@shadow5: 0 24px 32px 0 rgba(82, 97, 115, 0.1);
+@shadow6: 0 2px 2px 0 rgba(82, 97, 115, 0.1);
+
+/* Gradient */
+@gradient1: linear-gradient(225.01deg, #5fd4cf 0%, #009fb5 100%);
+@gradient2: linear-gradient(270deg, #21c1d0 0%, @blue1000 100%);
+@gradient3: linear-gradient(224.97deg, #0092aa 0%, #37cbda 83.04%, #22bdcd 100%);
+@gradient4: linear-gradient(225.01deg, #63dfda 0%, #00b2cb 100%);
+
+/* Skeleton */
+@skeleton-linear-gradient: linear-gradient(90deg, #f1f2f4 25%, #d7dde8 37%, #f1f2f4 56%);
+@skeleton-animation: ant-skeleton-loading 2s ease infinite;
+
+/* Backgrounds */
+@calendar-cell-bg: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTYwcHgiIGhlaWdodD0iMTAwcHgiIHZpZXdCb3g9IjAgMCAxNjAgMTAwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPHRpdGxlPkJhc2U8L3RpdGxlPgogICAgPGRlZnM+CiAgICAgICAgPHBhdHRlcm4gaWQ9InBhdHRlcm4tMSIgd2lkdGg9IjkuNzUiIGhlaWdodD0iOS43NSIgeD0iLTkuNzUiIHk9Ii05Ljc1IiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgICAgICAgPHVzZSB4bGluazpocmVmPSIjaW1hZ2UtMiIgdHJhbnNmb3JtPSJzY2FsZSgwLjIwMzEyNSwwLjIwMzEyNSkiPjwvdXNlPgogICAgICAgIDwvcGF0dGVybj4KICAgICAgICA8aW1hZ2UgaWQ9ImltYWdlLTIiIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFEQUFBQUF3Q0FZQUFBQlhBdm1IQUFBQUFYTlNSMElBcnM0YzZRQUFBRVJsV0VsbVRVMEFLZ0FBQUFnQUFZZHBBQVFBQUFBQkFBQUFHZ0FBQUFBQUE2QUJBQU1BQUFBQkFBRUFBS0FDQUFRQUFBQUJBQUFBTUtBREFBUUFBQUFCQUFBQU1BQUFBQURiTjJ3TUFBQUJYMGxFUVZSb0JlM1k3UTJDTUJBR1lHdTNnT2dPSnJBUWNSQUhVWGN3cnNFY3JGSDdhZ3BCK2V4NWNKZlFIOUlTdmZPNXhralA1SG51ZG40NDUrNWxXWjR4eFpvNFRKWmxWMk5NRWVKd3hiZHBtbDZReENjN0pVbHlxS3JxR1pKU3JvaURlSWpMR2QvNkpFZnVKSnp4N1ZLVjRrSlliSzlteEJ1Z0dWRUR0Q0phQUkySUg0QTJSQ2RBRTZJWG9BVXhDTkNBR0FWSVIwd0NTRVpNQmtoRnpBSklSTXdHU0VORUFTUWhvZ0ZTRUNTQUJBUVpzRFlDQUlNdlFSMXJIWXFzN3g3Y2tKd0t3T2ZYUUtBcjhkRFlqUWhuN0QwcTV4Y0YramlZWWswY0R2MGw5SUZDSE03NFcxOG9WTG5ydXNSdll1c0xkVlgrK3g3blR0Ui9aSnhKQU9LS1h3TTRrNFFkNFVDMEFCb1JQd0J0aUU2QUprUXZRQXRpRUtBQk1RcVFqcGdFa0l5WURKQ0ttQVdRaUpnTmtJYUlBa2hDUkFPa0lFZ0FDUWd5WUcwRUFQODR5TE05NzZOQUdIMlA0bHRmNkZPZjVyV3ZVcmpmdkN0KzloMy9CWDVTQnVVUDlzWVdBQUFBQUVsRlRrU3VRbUNDIj48L2ltYWdlPgogICAgPC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZmlsbC1vcGFjaXR5PSIwLjEiPgogICAgICAgIDxnIGlkPSJDYWxlbmRhci0vLU1hc3Rlci0vLUVsZW1lbnRzLS8tRGF5cy0vLUJsb2NrZWQtLy1Ob3JtYWwiIGZpbGw9InVybCgjcGF0dGVybi0xKSIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPHJlY3QgaWQ9IkJhc2UiIHg9IjAiIHk9IjAiIHdpZHRoPSIxNjAiIGhlaWdodD0iMTAwIj48L3JlY3Q+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=');
+@black-overlay: rgba(black, 0.5);
+@white-overlay: rgba(white, 0.5);
+@whit20-overlay: rgba(white, 0.2);
+@colored-overlay: rgba(@scrims-colored, 0.6);
+
+/* Input variables */
+@main-input-height: 48px;
+@main-input-mb: 16px;
+@main-input-padding-x: 12px;
+@main-input-search-padding-x: 40px;
+@main-input-password-right-padding: 36px;
+@main-input-select-right-padding: 28px;
+@main-input-border-radius: @main-border-radius;
+@main-input-border-width: 1px;
+@main-input-border-color: @gray350;
+@main-input-border: @main-input-border-width solid @main-input-border-color;
+@main-input-focus-border-color: @blue1000;
+@main-input-textarea-padding-y: 8px;
+
+@input-numeric-button-padding: 6px;
+
+@main-checkbox-active-color: @blue1000;
+@main-radio-active-color: @blue1000;
+
+// Avatar sizes
+@main-avatar-size: 32px;
+@main-avatar-size-xs: 40px;
+@main-avatar-size-sm: 60px;
+@main-avatar-size-lg: 120px;
+
+// Btn vars
+@btn-size: 48px;
+@btn-size-sm: 40px;
+@btn-size-xs: 32px;
+
+//Z-INDEX
+@chat-details-sidebar-z-index: 2;
+@main-listing-footer-z-index: 2;
+@calendar-cell-z-index: -1;
+@calendar-booking-z-index: 1;
+@calendar-listing-side-z-index: 5;
+@calendar-listing-side-z-index: 5;
+@calendar-listing-side-lg-z-index: 5;
+@calendar-listing-side-overlay-z-index: 4;
+@calendar-side-z-index: 2;
+@edit-list-left-sidebar-z-index: 3;
+@header-z-index: 6;
+@menu-z-index: 7;
+@edit-list-header-z-index: 4;
+@listing-filters-z-index: 4;
+@map-mobile-z-index: 5;
+
+//GAPs
+@gap-xs: 16px;
+@gap-md: 32px;
+@gap-lg: 24px;
+@gap-columns: 12px;
+
+@main-transition-duration: 0.3s;
+@main-transition-props: @main-transition-duration cubic-bezier(0.4, 0, 0.6, 1);

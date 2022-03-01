@@ -1,0 +1,34 @@
+.ant-anchor {
+  .flex-center-y();
+}
+
+.ant-anchor-ink {
+  display: none;
+}
+
+.ant-anchor-link {
+  margin-right: 24px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color @main-transition-duration;
+
+  &:hover {
+    border-bottom-color: @blue1000;
+  }
+}
+
+.ant-anchor-link-active {
+  border-bottom-color: @blue1000;
+
+  .ant-anchor-link-title-active {
+    color: @black;
+  }
+}
+
+.ant-anchor-link-title {
+  color: @gray700;
+  transition: color @main-transition-duration;
+
+  &:hover {
+    color: @black;
+  }
+}

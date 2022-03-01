@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar Component snapshot default props 1`] = `
+<div
+  className="main-progress-wrap"
+>
+  <Progress
+    percent={0}
+    showInfo={true}
+    size="default"
+    strokeLinecap="round"
+    trailColor={null}
+    type="line"
+  />
+  <span
+    className="main-progress-txt"
+  />
+</div>
+`;
+
+exports[`ProgressBar Component snapshot with props 1`] = `
+<div
+  className="main-progress-wrap"
+>
+  <Progress
+    percent={100}
+    showInfo={true}
+    size="default"
+    strokeLinecap="round"
+    trailColor={null}
+    type="line"
+  />
+  <span
+    className="main-progress-txt"
+  >
+    test content
+  </span>
+</div>
+`;

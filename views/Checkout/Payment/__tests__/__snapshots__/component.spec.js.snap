@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Payment component tests matches snapshot 1`] = `
+<CheckoutLayout
+  btnText={
+    Object {
+      "id": "shared.requestBooking",
+    }
+  }
+  currentStep={3}
+  header={
+    <Header
+      currentStep={3}
+    />
+  }
+  onBack={[Function]}
+  price={375}
+  showBackBtn={true}
+>
+  Foo
+</CheckoutLayout>
+`;

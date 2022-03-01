@@ -1,0 +1,77 @@
+@text-align: center, justify, left, right, inherit;
+@text-overflow: clip, ellipsis;
+@font-style: italic, normal, oblique, revert, unset;
+
+each(@text-align, {
+  .text-align-@{value} {
+    text-align: @value;
+  }
+});
+
+each(@text-overflow, {
+  .text-overflow-@{value} {
+    text-overflow: @value;
+  }
+});
+
+each(@font-style, {
+  .font-style-@{value} {
+    font-style: @value;
+  }
+});
+
+.font-700 {
+  font-weight: 700;
+}
+
+.font-600 {
+  font-weight: 600;
+}
+
+.font-400 {
+  font-weight: 400;
+}
+
+.main-title {
+  .text-headline();
+  margin-bottom: 8px;
+
+  @media (min-width: @screen-md) {
+    .text-display();
+  }
+}
+
+.text-title-headline {
+  .text-title-headline();
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.text-clamp {
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.line-height-base {
+  line-height: @line-height-base;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}

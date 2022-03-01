@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateRangeField container tests checks \`formatShortWeekday\` instance method 1`] = `"Su"`;
+
+exports[`DateRangeField container tests checks \`tileContent\` instance method 1`] = `
+<div
+  className="react-calendar__cell"
+>
+  <div
+    className="react-calendar__inner-cell"
+  >
+    20
+  </div>
+</div>
+`;
+
+exports[`DateRangeField container tests matches snapshot 1`] = `
+<DateRangeField
+  blockedPeriods={
+    Object {
+      "2021-01-29": true,
+    }
+  }
+  calendarOpen={[Function]}
+  calendarVisible={false}
+  clearDateRange={[Function]}
+  dateRange={
+    Object {
+      "endDate": "Feb 20 2000",
+      "startDate": "Feb 20 2000",
+    }
+  }
+  field={
+    Object {
+      "name": "fieldName",
+      "onBlur": [MockFunction],
+      "value": Array [
+        2000-02-20T00:00:00.000Z,
+        2000-02-20T00:00:00.000Z,
+      ],
+    }
+  }
+  form={
+    Object {
+      "errors": Object {},
+      "setFieldTouched": [MockFunction],
+      "setFieldValue": [MockFunction],
+      "touched": Object {},
+    }
+  }
+  formatShortWeekday={[Function]}
+  onActiveStartDateChange={[MockFunction]}
+  onDateRangeChange={[Function]}
+  tileContent={[Function]}
+  tileDisabled={[Function]}
+/>
+`;

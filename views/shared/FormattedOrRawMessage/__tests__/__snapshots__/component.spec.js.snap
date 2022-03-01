@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputField component when message is intl message description object 1`] = `
+<Memo(FormattedMessage)
+  id="message.id"
+  values={
+    Object {
+      "some": "value",
+    }
+  }
+/>
+`;
+
+exports[`InputField component when message is missing 1`] = `"Error: Unexpeceted empty message"`;
+
+exports[`InputField component when message is string 1`] = `"string message"`;

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VerificationModal component tests matches snapshot 1`] = `
+<Modal
+  className="main-modal main-modal--big"
+  closable={true}
+  closeIcon={
+    <i
+      className="icon icon-cross main-close-btn"
+    />
+  }
+  footer={null}
+  maskClosable={true}
+  onClose={[MockFunction]}
+  visible={true}
+>
+  <div
+    className="main-modal__container"
+  >
+    <div
+      className="d-flex pt-48 mb-48"
+    >
+      <i
+        className="font-32 mr-16 icon icon-info in-yellow-1000"
+      />
+      <div
+        className="mb-16 text-headline font-20 font-700"
+      >
+        <Memo(FormattedMessage)
+          id="dashboard.editCamper.noticeDays.warning"
+        />
+      </div>
+    </div>
+    <div
+      className="d-flex align-items-center justify-content-center"
+    >
+      <BtnGradient
+        className="min-w-140 mr-16"
+        isLoading={false}
+        size="large"
+        text={
+          Object {
+            "id": "shared.verifyMyLicence",
+          }
+        }
+      />
+      <Button
+        onClick={[MockFunction]}
+        size="large"
+        type="link"
+      >
+        <Memo(FormattedMessage)
+          id="dashboard.editCamper.verifyModal.verify.btn"
+        />
+      </Button>
+    </div>
+  </div>
+</Modal>
+`;

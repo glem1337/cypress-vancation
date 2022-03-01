@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListingDetails component tests matches snapshot 1`] = `
+<withRouter(EditCamper)
+  canSave={true}
+  hasFooter={true}
+  isLoading={false}
+  leavePageMethod={[MockFunction]}
+  onSave={[MockFunction]}
+>
+  <div
+    className="container"
+  >
+    <Row
+      gutter={24}
+    >
+      <Col
+        span={24}
+      >
+        <h1
+          className="text-headline mb-8"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.form.listingName.title"
+          />
+        </h1>
+        <p
+          className="mb-16"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.form.listingName.subTitle"
+          />
+        </p>
+      </Col>
+      <Col
+        span={24}
+      >
+        <ForwardRef(InternalForm)
+          layout="vertical"
+        >
+          <Row
+            gutter={24}
+          >
+            <Col
+              lg={16}
+            >
+              <Field
+                className="main-input__field"
+                component={[Function]}
+                id="listingName"
+                label={
+                  Object {
+                    "id": "addNewCamper.form.listingName.label",
+                  }
+                }
+                name="listingName"
+                placeholder={
+                  Object {
+                    "id": "shared.name",
+                  }
+                }
+                tooltip={
+                  Object {
+                    "id": "validations.characterCurrentMax",
+                    "values": Object {
+                      "current": 9,
+                      "max": 74,
+                    },
+                  }
+                }
+              />
+            </Col>
+            <Col
+              lg={16}
+            >
+              <Field
+                asComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  }
+                }
+                component={[Function]}
+                id="listingDescription"
+                label={
+                  Object {
+                    "id": "addNewCamper.form.listingDescription.label",
+                  }
+                }
+                name="listingDescription"
+                placeholder={
+                  Object {
+                    "id": "addNewCamper.form.listingDescription.placeholder",
+                  }
+                }
+                rows={4}
+                tooltip={
+                  Object {
+                    "id": "validations.characterCurrentMax",
+                    "values": Object {
+                      "current": 16,
+                      "max": 2000,
+                    },
+                  }
+                }
+              />
+            </Col>
+          </Row>
+        </ForwardRef(InternalForm)>
+      </Col>
+    </Row>
+  </div>
+</withRouter(EditCamper)>
+`;
+
+exports[`ListingDetails component tests matches snapshot when camper does not exist 1`] = `
+<withRouter(EditCamper)
+  canSave={true}
+  hasFooter={true}
+  isLoading={false}
+  leavePageMethod={[MockFunction]}
+  onSave={[MockFunction]}
+>
+  <div
+    className="container"
+  >
+    <Row
+      gutter={24}
+    >
+      <Col
+        span={24}
+      >
+        <h1
+          className="text-headline mb-8"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.form.listingName.title"
+          />
+        </h1>
+        <p
+          className="mb-16"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.form.listingName.subTitle"
+          />
+        </p>
+      </Col>
+      <Col
+        span={24}
+      >
+        <Skeleton
+          active={true}
+          avatar={false}
+          paragraph={true}
+          title={true}
+        />
+      </Col>
+    </Row>
+  </div>
+</withRouter(EditCamper)>
+`;

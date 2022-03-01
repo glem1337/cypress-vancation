@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinksSection component tests matches snapshot 1`] = `
+<Fragment>
+  <Link
+    href="/sign_up"
+  >
+    <div
+      className="main-account-header__item"
+    >
+      <span
+        className="mr-4 main-account-header__item-txt"
+      >
+        <Memo(FormattedMessage)
+          id="shared.signUp"
+        />
+      </span>
+    </div>
+  </Link>
+  <Link
+    href="/log_in"
+  >
+    <div
+      className="main-account-header__item"
+    >
+      <span
+        className="mr-4 main-account-header__item-txt"
+      >
+        <Memo(FormattedMessage)
+          id="shared.logIn"
+        />
+      </span>
+    </div>
+  </Link>
+</Fragment>
+`;
+
+exports[`LinksSection component tests matches snapshot when is not visible 1`] = `""`;

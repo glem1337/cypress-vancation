@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useButtonGradient hook checks \`mouseEnterHandler\` method should create gradient 1`] = `
+Object {
+  "current": <div
+    style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background-size: 200% 200%;"
+  />,
+}
+`;
+
+exports[`useButtonGradient hook matches snapshot 1`] = `
+Object {
+  "containerRef": Object {
+    "current": undefined,
+  },
+  "gradientRef": Object {
+    "current": undefined,
+  },
+  "handlers": Object {
+    "current": Object {
+      "mouseEnterHandler": [Function],
+      "mouseLeaveHandler": [Function],
+      "mouseMoveHandler": [Function],
+    },
+  },
+}
+`;

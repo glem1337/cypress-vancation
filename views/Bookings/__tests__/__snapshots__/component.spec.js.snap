@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bookings component tests matches snapshot 1`] = `
+<Fragment>
+  <Connect(UserHeader)
+    SearchSection={
+      <injectIntl(SearchSectionComponent)
+        isChooseDestinationVisible={true}
+        isStartInputVisible={true}
+        onStartInputFocus={true}
+      />
+    }
+  />
+  <div
+    className="chat-wrap--empty"
+  >
+    <img
+      alt=""
+      className="mb-24"
+      src="/images/Empty.svg"
+    />
+    <p
+      className="mb-24"
+    >
+      <Memo(FormattedMessage)
+        id="bookings.youDontHaveAnyBookingsYet"
+      />
+    </p>
+  </div>
+</Fragment>
+`;
+
+exports[`Bookings component tests matches snapshot with empty state 1`] = `
+<Fragment>
+  <Connect(UserHeader)
+    SearchSection={
+      <injectIntl(SearchSectionComponent)
+        isChooseDestinationVisible={true}
+        isStartInputVisible={true}
+        onStartInputFocus={true}
+      />
+    }
+  />
+  <div
+    className="chat-wrap chat-wrap--side-open chat-wrap--chat-open"
+  >
+    <BookingsList />
+    <Messages />
+    <BookingDetails />
+  </div>
+</Fragment>
+`;

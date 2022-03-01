@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionButton component matches snapshot when secondary is true 1`] = `
+<button
+  className="action-btn action-btn--secondary"
+  disabled={false}
+  onClick={[MockFunction]}
+  type="button"
+>
+  <i
+    className="icon icon-info"
+  />
+</button>
+`;
+
+exports[`ActionButton component matches snapshot with default props 1`] = `
+<button
+  className="action-btn"
+  disabled={false}
+  onClick={[MockFunction]}
+  type="button"
+>
+  <i
+    className="icon icon-info"
+  />
+</button>
+`;
+
+exports[`ActionButton component matches snapshot with extraClasses 1`] = `
+<button
+  className="extraClasses action-btn"
+  disabled={false}
+  onClick={[MockFunction]}
+  type="button"
+>
+  <i
+    className="icon icon-info"
+  />
+</button>
+`;

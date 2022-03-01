@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderComponent component tests matches snapshot 1`] = `
+<header
+  className="main-account-header main-account-header--listing"
+>
+  <div
+    className="d-flex align-items-center"
+  >
+    <button
+      className="main-account-header-burger"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <i
+        className="icon icon-menu"
+      />
+    </button>
+    <a
+      href="/"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <img
+        alt=""
+        src="/images/logo/logo-circle.svg"
+      />
+    </a>
+    <div
+      className="main-account-header__title"
+    >
+      <Memo(FormattedMessage)
+        id="shared.ownerDashboard"
+      />
+    </div>
+    <withRouter(Connect(DropdownCampers)) />
+    <div
+      className="main-account-header-notif--listing ml-lg-40"
+    >
+      <Badge
+        dot={true}
+      >
+        <i
+          className="icon icon-notification-f in-black font-20"
+        />
+      </Badge>
+    </div>
+    <UserDropdown
+      currentUser={null}
+      signOut={[MockFunction]}
+    />
+  </div>
+  <withRouter(Tabs)
+    activeKey="activeTabKey"
+  />
+  <withRouter(MobileMenu)
+    activeKey="activeTabKey"
+    closeMobileMenu={[MockFunction]}
+    currentUser={null}
+    isCampersListVisible={true}
+    isVisible={true}
+    signOut={[MockFunction]}
+  />
+</header>
+`;
+
+exports[`HeaderComponent component tests when total is 0 1`] = `
+<header
+  className="main-account-header main-account-header--listing"
+>
+  <div
+    className="d-flex align-items-center"
+  >
+    <button
+      className="main-account-header-burger"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <i
+        className="icon icon-menu"
+      />
+    </button>
+    <a
+      href="/"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <img
+        alt=""
+        src="/images/logo/logo-circle.svg"
+      />
+    </a>
+    <div
+      className="main-account-header__title"
+    >
+      <Memo(FormattedMessage)
+        id="shared.ownerDashboard"
+      />
+    </div>
+    <div
+      className="main-account-header-notif--listing ml-auto"
+    >
+      <Badge
+        dot={true}
+      >
+        <i
+          className="icon icon-notification-f in-black font-20"
+        />
+      </Badge>
+    </div>
+    <UserDropdown
+      currentUser={null}
+      signOut={[MockFunction]}
+    />
+  </div>
+  <withRouter(Tabs)
+    activeKey="activeTabKey"
+  />
+  <withRouter(MobileMenu)
+    activeKey="activeTabKey"
+    closeMobileMenu={[MockFunction]}
+    currentUser={null}
+    isCampersListVisible={false}
+    isVisible={true}
+    signOut={[MockFunction]}
+  />
+</header>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GlampersOnly component tests matches snapshot 1`] = `
+<div
+  className="search-page__filters-toggle search-page__filters-toggle--inactive"
+>
+  <div
+    className="search-page__filters-toggle-inner"
+  >
+    renderGlamperOnlyWidget
+  </div>
+</div>
+`;

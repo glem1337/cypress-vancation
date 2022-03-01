@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateCellWrapper container tests checks \`cellData\` instance getter 1`] = `
+Object {
+  "day": "20",
+  "isActual": true,
+  "isToday": true,
+  "isWeekend": true,
+}
+`;
+
+exports[`DateCellWrapper container tests matches snapshot 1`] = `
+<DateCellWrapperComponent
+  camperCalendarData={
+    Object {
+      "costPerNight": 0,
+      "customDiscountPeriods": Object {
+        "2021-07-27": Object {
+          "monthlyDiscountPercent": 23,
+          "weeklyDiscountPercent": 15,
+        },
+        "2021-07-28": Object {
+          "monthlyDiscountPercent": 44,
+          "weeklyDiscountPercent": 44,
+        },
+        "2021-07-29": Object {
+          "monthlyDiscountPercent": 33,
+          "weeklyDiscountPercent": 15,
+        },
+      },
+      "customPricingPeriod": Object {
+        "2021-07-28": 33,
+        "2021-07-29": 33,
+      },
+      "fridayPrice": 5,
+      "mondayPrice": 1,
+      "saturdayPrice": 6,
+      "sundayPrice": 7,
+      "thursdayPrice": 4,
+      "tuesdayPrice": 2,
+      "wednesdayPrice": 3,
+    }
+  }
+  cellData={
+    Object {
+      "day": "20",
+      "isActual": true,
+      "isToday": true,
+      "isWeekend": true,
+    }
+  }
+  customNightRates={
+    Object {
+      "2000-02-21": 123,
+    }
+  }
+  dayPrice="$280"
+  dispatch={[MockFunction]}
+  isSelected={true}
+  pricingInfo={
+    Object {
+      "costPerNight": 280,
+      "costomizialeNightCost": false,
+      "minimalNightStay": "2",
+      "monthlyDiscount": false,
+      "monthlyDiscountPercent": 33,
+      "weekNightPrice": Object {
+        "friday_price": "320",
+        "monday_price": "250",
+        "saturday_price": "320",
+        "sunday_price": "250",
+        "thursday_price": "250",
+        "tuesday_price": "250",
+        "wednesday_price": "250",
+      },
+      "weeklyDiscount": false,
+      "weeklyDiscountPercent": 15,
+    }
+  }
+  selectedSlots={
+    Object {
+      "end": 2000-02-20T00:00:00.000Z,
+      "slots": Array [
+        2000-02-20T00:00:00.000Z,
+      ],
+      "start": 2000-02-20T00:00:00.000Z,
+      "uuid": "uuid",
+    }
+  }
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  value={2000-02-20T00:00:00.000Z}
+>
+  <div />
+</DateCellWrapperComponent>
+`;

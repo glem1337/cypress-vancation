@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AmenitySection component tests matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="d-flex align-items-center mb-24"
+  >
+    <img
+      alt=""
+      className="mr-12"
+      src="/path/to/icon"
+    />
+    <span
+      className="text-subheader font-700"
+    >
+      title
+    </span>
+  </div>
+  <Row
+    gutter={24}
+  >
+    <SubAmenities
+      amenityIndex={1}
+      items={
+        Array [
+          Object {
+            "icon": "/path/to/icon",
+            "id": "1",
+            "title": "title",
+          },
+        ]
+      }
+      onMaxAccommodationQuantityCallback={[MockFunction]}
+    />
+    <Options
+      amenityIndex={1}
+      handleSwitchChange={[MockFunction]}
+      items={
+        Array [
+          Object {
+            "configurationSubAmenities": Object {
+              "1": Object {
+                "icon": "/path/to/icon",
+                "id": "1",
+                "title": "title",
+                "tooltip": "tooltip",
+              },
+            },
+            "icon": "/path/to/icon",
+            "id": "1",
+            "state": true,
+            "title": "title",
+            "tooltip": "tooltip",
+            "type": "checkbox",
+          },
+        ]
+      }
+    />
+  </Row>
+  <Divider />
+</Fragment>
+`;
+
+exports[`AmenitySection component tests when withDivider === false 1`] = `
+<Fragment>
+  <div
+    className="d-flex align-items-center mb-24"
+  >
+    <img
+      alt=""
+      className="mr-12"
+      src="/path/to/icon"
+    />
+    <span
+      className="text-subheader font-700"
+    >
+      title
+    </span>
+  </div>
+  <Row
+    gutter={24}
+  >
+    <SubAmenities
+      amenityIndex={1}
+      items={
+        Array [
+          Object {
+            "icon": "/path/to/icon",
+            "id": "1",
+            "title": "title",
+          },
+        ]
+      }
+      onMaxAccommodationQuantityCallback={[MockFunction]}
+    />
+    <Options
+      amenityIndex={1}
+      handleSwitchChange={[MockFunction]}
+      items={
+        Array [
+          Object {
+            "configurationSubAmenities": Object {
+              "1": Object {
+                "icon": "/path/to/icon",
+                "id": "1",
+                "title": "title",
+                "tooltip": "tooltip",
+              },
+            },
+            "icon": "/path/to/icon",
+            "id": "1",
+            "state": true,
+            "title": "title",
+            "tooltip": "tooltip",
+            "type": "checkbox",
+          },
+        ]
+      }
+    />
+  </Row>
+</Fragment>
+`;

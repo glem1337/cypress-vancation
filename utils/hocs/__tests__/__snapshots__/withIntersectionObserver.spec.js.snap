@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withIntersectionObserver HOC tests matches snapshot 1`] = `
+<Target
+  onRef={[Function]}
+/>
+`;
+
+exports[`withIntersectionObserver HOC tests should map observer state to boolean props 1`] = `
+<Target
+  bar={false}
+  foo={true}
+  onRef={[Function]}
+/>
+`;

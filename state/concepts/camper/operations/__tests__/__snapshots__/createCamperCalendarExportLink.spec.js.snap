@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createCamperCalendarExportLink has valid attributes 1`] = `
+Object {
+  "endpoint": "camper/CREATE_CAMPER_CALENDAR_EXPORT_LINK POST /camper/calendar/export_calendar",
+  "url": "/camper/calendar/export_calendar",
+}
+`;

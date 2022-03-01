@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MobileHeaderExpanded component tests matches snapshot 1`] = `
+<header
+  className="main-home-header main-home-header--expanded"
+>
+  <div
+    className="d-flex flex-1 align-items-center w-100"
+  >
+    <button
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <i
+        className="icon icon-cross search-destinations__close-icon"
+      />
+    </button>
+    <div
+      className="d-flex flex-1 justify-content-center align-items-center main-home-header-edit-search"
+    >
+      <Memo(FormattedMessage)
+        id="shared.editYourSearch"
+      />
+    </div>
+    <button
+      className="main-input--right"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <i
+        className="icon icon-filter in-gray-500"
+      />
+    </button>
+  </div>
+  <div
+    className="main-home-header-search-items mb-20"
+  >
+    <Link
+      href={
+        Object {
+          "pathname": "/search-destinations/destinations",
+          "query": Object {},
+        }
+      }
+    >
+      <div
+        className="main-home-header-search-item"
+      >
+        <i
+          className="icon icon-search in-gray-500 font-20 mr-10"
+        />
+        locationString
+      </div>
+    </Link>
+    <Link
+      href={
+        Object {
+          "pathname": "/search-destinations/dates",
+          "query": Object {},
+        }
+      }
+    >
+      <div
+        className="main-home-header-search-item"
+      >
+        <i
+          className="icon icon-calendar in-gray-500 font-20 mr-10"
+        />
+        datesString
+      </div>
+    </Link>
+  </div>
+</header>
+`;

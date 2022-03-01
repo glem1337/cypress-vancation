@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Campers useContainer hook checks \`prepareCampersLayout\` method for 0 1`] = `Array []`;
+
+exports[`Campers useContainer hook checks \`prepareCampersLayout\` method for lees than 4 1`] = `
+Array [
+  Object {
+    "campers": Array [
+      Object {
+        "id": 111,
+      },
+      Object {
+        "id": 222,
+      },
+    ],
+    "id": "uuid/v4",
+    "type": "CampersChunk",
+  },
+  Object {
+    "campers": Array [
+      Object {
+        "id": 333,
+      },
+    ],
+    "id": "uuid/v4",
+    "type": "CampersChunk",
+  },
+  Object {
+    "description": "description",
+    "id": "uuid/v4",
+    "type": "Description",
+  },
+  Object {
+    "facts": Array [
+      Object {
+        "id": 1,
+        "text": "fact 1",
+      },
+      Object {
+        "id": 2,
+        "text": "fact 2",
+      },
+    ],
+    "factsTitle": "test facts title",
+    "id": "uuid/v4",
+    "type": "FunFacts",
+  },
+]
+`;
+
+exports[`Campers useContainer hook checks \`prepareCampersLayout\` method for more or equal 4 1`] = `
+Array [
+  Object {
+    "campers": Array [
+      Object {
+        "id": 111,
+      },
+      Object {
+        "id": 222,
+      },
+    ],
+    "id": "uuid/v4",
+    "type": "CampersChunk",
+  },
+  Object {
+    "description": "description",
+    "id": "uuid/v4",
+    "type": "Description",
+  },
+  Object {
+    "campers": Array [
+      Object {
+        "id": 333,
+      },
+      Object {
+        "id": 444,
+      },
+    ],
+    "id": "uuid/v4",
+    "type": "CampersChunk",
+  },
+  Object {
+    "id": 1,
+    "text": "fact 1",
+    "type": "SingleFact",
+  },
+  Object {
+    "id": 2,
+    "text": "fact 2",
+    "type": "SingleFact",
+  },
+]
+`;
+
+exports[`Campers useContainer hook matches snapshot 1`] = `
+Object {
+  "campers": Array [
+    Object {
+      "id": 1,
+    },
+  ],
+  "campersData": Array [
+    Object {
+      "campers": Array [
+        Object {
+          "id": 1,
+        },
+      ],
+      "id": "uuid/v4",
+      "type": "CampersChunk",
+    },
+    Object {
+      "description": "description",
+      "id": "uuid/v4",
+      "type": "Description",
+    },
+    Object {
+      "facts": Array [
+        Object {
+          "id": 1,
+          "text": "fact 1",
+        },
+        Object {
+          "id": 2,
+          "text": "fact 2",
+        },
+      ],
+      "factsTitle": "test facts title",
+      "id": "uuid/v4",
+      "type": "FunFacts",
+    },
+  ],
+  "onMouseLeave": [Function],
+  "onPaginationChange": [Function],
+  "page": 1,
+  "perPage": 20,
+  "prepareCampersLayout": [Function],
+  "total": 30,
+}
+`;

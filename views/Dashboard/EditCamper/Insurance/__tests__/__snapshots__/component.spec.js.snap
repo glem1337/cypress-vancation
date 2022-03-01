@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Insurance component tests matches snapshot 1`] = `
+<withRouter(EditCamper)
+  canSave={true}
+  hasFooter={true}
+  isLoading={false}
+  leavePageMethod={[MockFunction]}
+  onSave={[MockFunction]}
+  showGradientButton={true}
+>
+  <div
+    className="container"
+  >
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <Row
+        gutter={24}
+      >
+        <Col
+          lg={16}
+        >
+          <h1
+            className="text-headline mb-16"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.insurance.title"
+            />
+          </h1>
+          <Alert
+            className="mb-24"
+            icon={
+              <i
+                className="icon icon-info"
+              />
+            }
+            message={
+              <Memo(FormattedMessage)
+                id="addNewCamper.insurance.subTitle"
+              />
+            }
+            showIcon={true}
+            type="info"
+          />
+        </Col>
+        <Col
+          lg={12}
+        >
+          <div
+            className="main-listing__insurance mb-16"
+          >
+            <div
+              className="main-listing__insurance-badge"
+            >
+              <i
+                className="icon in-green-1000 mr-8 icon-checked"
+              />
+              <span
+                className="in-black"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.insurance.package.status.approved"
+                />
+              </span>
+            </div>
+            <h2
+              className="text-subheader font-400 mb-16"
+            >
+              <Memo(FormattedMessage)
+                id="addNewCamper.insurance.package.title"
+              />
+            </h2>
+            <InsuranceList />
+          </div>
+        </Col>
+        <Col
+          lg={16}
+        >
+          <Alert
+            className="mb-24"
+            icon={
+              <i
+                className="icon icon-idea"
+              />
+            }
+            message={
+              <Memo(FormattedMessage)
+                id="addNewCamper.insurance.verification"
+              />
+            }
+            showIcon={true}
+            type="warning"
+          />
+        </Col>
+        <Divider
+          className="mt-24 mb-24"
+        />
+        <ActualCashValueSection
+          actualCashValue={null}
+        />
+        <Divider
+          className="mt-24 mb-24"
+        />
+        <VehicleInfoSection
+          isLoading={false}
+        />
+      </Row>
+    </ForwardRef(InternalForm)>
+  </div>
+</withRouter(EditCamper)>
+`;
+
+exports[`Insurance component tests matches snapshot when camper does not exist 1`] = `
+<withRouter(EditCamper)
+  canSave={true}
+  hasFooter={true}
+  isLoading={false}
+  leavePageMethod={[MockFunction]}
+  onSave={[MockFunction]}
+  showGradientButton={true}
+>
+  <div
+    className="container"
+  >
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <Row
+        gutter={24}
+      >
+        <Col
+          lg={16}
+        >
+          <h1
+            className="text-headline mb-16"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.insurance.title"
+            />
+          </h1>
+          <Alert
+            className="mb-24"
+            icon={
+              <i
+                className="icon icon-info"
+              />
+            }
+            message={
+              <Memo(FormattedMessage)
+                id="addNewCamper.insurance.subTitle"
+              />
+            }
+            showIcon={true}
+            type="info"
+          />
+        </Col>
+        <Skeleton
+          active={true}
+          avatar={false}
+          paragraph={true}
+          title={true}
+        />
+      </Row>
+    </ForwardRef(InternalForm)>
+  </div>
+</withRouter(EditCamper)>
+`;

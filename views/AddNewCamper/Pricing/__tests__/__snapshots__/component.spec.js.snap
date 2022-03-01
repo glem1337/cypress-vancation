@@ -1,0 +1,1598 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pricing component tests matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="main-listing-container"
+  >
+    <div
+      className="mb-16 mb-md-24"
+    >
+      <ProgressBar
+        content={
+          <Memo(FormattedMessage)
+            id="addNewCamper.ProgressBar"
+          />
+        }
+        percent={34}
+      />
+    </div>
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <Row>
+        <Col
+          lg={16}
+        >
+          <h1
+            className="text-headline mb-8"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.pricing.title"
+            />
+          </h1>
+          <p
+            className="mb-24"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.pricing.subTitle"
+            />
+          </p>
+          <Alert
+            className="mb-24"
+            icon={
+              <i
+                className="icon icon-idea"
+              />
+            }
+            message={
+              <Memo(FormattedMessage)
+                id="addNewCamper.pricing.alert"
+              />
+            }
+            showIcon={true}
+            type="warning"
+          />
+        </Col>
+        <Col
+          span={24}
+        >
+          <Row>
+            <Col
+              lg={8}
+              md={12}
+            >
+              <div
+                className="mb-16 text-subheader font-700"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.nightlyRateTitle"
+                />
+              </div>
+              <div
+                className="main-input-wrap-addtxt"
+              >
+                <Field
+                  component={[Function]}
+                  disabled={false}
+                  id="costPerNight"
+                  label={
+                    Object {
+                      "id": "addNewCamper.pricing.costPerNight",
+                    }
+                  }
+                  name="costPerNight"
+                  prefix="$"
+                  type="number"
+                >
+                  <span
+                    className="main-input__add-txt"
+                  >
+                    <Memo(FormattedMessage)
+                      id="addNewCamper.pricing.perNight"
+                    />
+                  </span>
+                </Field>
+              </div>
+              <div
+                className="d-flex align-items-center mb-16"
+              >
+                <Switch
+                  checked={false}
+                  onChange={[MockFunction]}
+                />
+                <span
+                  className="ml-8"
+                >
+                  <Memo(FormattedMessage)
+                    id="addNewCamper.pricing.customizeByNightOfTheWeek"
+                  />
+                </span>
+              </div>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+      <Divider />
+      <Row>
+        <Col
+          span={24}
+        >
+          <Row>
+            <Col
+              lg={8}
+              md={12}
+            >
+              <div
+                className="mb-8 text-subheader font-700"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.baseDiscountsTitle"
+                />
+              </div>
+              <p
+                className="mb-24"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.baseDiscountsSubTitle"
+                />
+              </p>
+              <div
+                className="d-flex align-items-center mb-8"
+              >
+                <Switch
+                  checked={false}
+                  onChange={[MockFunction]}
+                />
+                <span
+                  className="ml-8"
+                >
+                  <Memo(FormattedMessage)
+                    id="addNewCamper.pricing.offerWeeklyTitle"
+                  />
+                </span>
+              </div>
+              <p
+                className="text-caption mb-24"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.offerWeeklySubTitle"
+                />
+              </p>
+              <div
+                className="d-flex align-items-center mb-8"
+              >
+                <Switch
+                  checked={false}
+                  onChange={[MockFunction]}
+                />
+                <span
+                  className="ml-8"
+                >
+                  <Memo(FormattedMessage)
+                    id="addNewCamper.pricing.offerMonthlyTitle"
+                  />
+                </span>
+              </div>
+              <p
+                className="text-caption mb-24"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.offerMonthlySubTitle"
+                />
+              </p>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+      <Divider />
+      <div
+        className="mb-8 text-subheader font-700"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.pricing.nightStayTitle"
+        />
+      </div>
+      <p
+        className="mb-16"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.pricing.nightStaySubTitle"
+        />
+      </p>
+      <div
+        className="mb-36"
+      >
+        <Row>
+          <Col
+            lg={8}
+            md={12}
+          >
+            <Field
+              className="main-input__field"
+              component={[Function]}
+              id="minimalNightStay"
+              items={
+                Array [
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 1,
+                      },
+                    },
+                    "value": 1,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 2,
+                      },
+                    },
+                    "value": 2,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 3,
+                      },
+                    },
+                    "value": 3,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 4,
+                      },
+                    },
+                    "value": 4,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 5,
+                      },
+                    },
+                    "value": 5,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 6,
+                      },
+                    },
+                    "value": 6,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 7,
+                      },
+                    },
+                    "value": 7,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 8,
+                      },
+                    },
+                    "value": 8,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 9,
+                      },
+                    },
+                    "value": 9,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 10,
+                      },
+                    },
+                    "value": 10,
+                  },
+                ]
+              }
+              label={
+                Object {
+                  "id": "addNewCamper.pricing.nights",
+                }
+              }
+              name="minimalNightStay"
+              optionLabelProp="label"
+            />
+          </Col>
+        </Row>
+      </div>
+    </ForwardRef(InternalForm)>
+    <withRouter(Connect(EstimatedEarningCard))
+      isSlim={true}
+    />
+  </div>
+  <AddNewCamperBtnForm
+    canSave={false}
+    isSubmitting={false}
+    onBackClick={[MockFunction]}
+    onSaveClick={[MockFunction]}
+    showGradientButton={false}
+    withBackBtn={true}
+  />
+</Fragment>
+`;
+
+exports[`Pricing component tests matches snapshot when camper does not exist 1`] = `
+<div
+  className="main-listing-container"
+>
+  <div
+    className="mb-16 mb-md-24"
+  >
+    <ProgressBar
+      content={
+        <Memo(FormattedMessage)
+          id="addNewCamper.ProgressBar"
+        />
+      }
+      percent={34}
+    />
+  </div>
+  <Row>
+    <Col
+      lg={16}
+    >
+      <h1
+        className="text-headline mb-8"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.pricing.title"
+        />
+      </h1>
+    </Col>
+  </Row>
+  <Row
+    gutter={24}
+  >
+    <Skeleton
+      active={true}
+      avatar={false}
+      paragraph={true}
+      title={true}
+    />
+  </Row>
+</div>
+`;
+
+exports[`Pricing component tests when costomizialeNightCost === true 1`] = `
+<Fragment>
+  <div
+    className="main-listing-container"
+  >
+    <div
+      className="mb-16 mb-md-24"
+    >
+      <ProgressBar
+        content={
+          <Memo(FormattedMessage)
+            id="addNewCamper.ProgressBar"
+          />
+        }
+        percent={34}
+      />
+    </div>
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <Row>
+        <Col
+          lg={16}
+        >
+          <h1
+            className="text-headline mb-8"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.pricing.title"
+            />
+          </h1>
+          <p
+            className="mb-24"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.pricing.subTitle"
+            />
+          </p>
+          <Alert
+            className="mb-24"
+            icon={
+              <i
+                className="icon icon-idea"
+              />
+            }
+            message={
+              <Memo(FormattedMessage)
+                id="addNewCamper.pricing.alert"
+              />
+            }
+            showIcon={true}
+            type="warning"
+          />
+        </Col>
+        <Col
+          span={24}
+        >
+          <Row>
+            <Col
+              lg={8}
+              md={12}
+            >
+              <div
+                className="mb-16 text-subheader font-700"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.nightlyRateTitle"
+                />
+              </div>
+              <div
+                className="main-input-wrap-addtxt"
+              >
+                <Field
+                  component={[Function]}
+                  disabled={true}
+                  id="costPerNight"
+                  label={
+                    Object {
+                      "id": "addNewCamper.pricing.costPerNight",
+                    }
+                  }
+                  name="costPerNight"
+                  prefix="$"
+                  type="number"
+                >
+                  <span
+                    className="main-input__add-txt"
+                  >
+                    <Memo(FormattedMessage)
+                      id="addNewCamper.pricing.perNight"
+                    />
+                  </span>
+                </Field>
+              </div>
+              <div
+                className="d-flex align-items-center mb-16"
+              >
+                <Switch
+                  checked={true}
+                  onChange={[MockFunction]}
+                />
+                <span
+                  className="ml-8"
+                >
+                  <Memo(FormattedMessage)
+                    id="addNewCamper.pricing.customizeByNightOfTheWeek"
+                  />
+                </span>
+              </div>
+              <div
+                className="main-input-wrap-addtxt"
+                key="monday_price"
+              >
+                <Field
+                  component={[Function]}
+                  id="weekNightPrice.monday_price"
+                  label={
+                    Object {
+                      "id": "days.monday",
+                    }
+                  }
+                  name="weekNightPrice.monday_price"
+                  prefix="$"
+                  type="number"
+                >
+                  <span
+                    className="main-input__add-txt"
+                  >
+                    <Memo(FormattedMessage)
+                      id="addNewCamper.pricing.perNight"
+                    />
+                  </span>
+                </Field>
+              </div>
+              <div
+                className="main-input-wrap-addtxt"
+                key="tuesday_price"
+              >
+                <Field
+                  component={[Function]}
+                  id="weekNightPrice.tuesday_price"
+                  label={
+                    Object {
+                      "id": "days.tuesday",
+                    }
+                  }
+                  name="weekNightPrice.tuesday_price"
+                  prefix="$"
+                  type="number"
+                >
+                  <span
+                    className="main-input__add-txt"
+                  >
+                    <Memo(FormattedMessage)
+                      id="addNewCamper.pricing.perNight"
+                    />
+                  </span>
+                </Field>
+              </div>
+              <div
+                className="main-input-wrap-addtxt"
+                key="wednesday_price"
+              >
+                <Field
+                  component={[Function]}
+                  id="weekNightPrice.wednesday_price"
+                  label={
+                    Object {
+                      "id": "days.wednesday",
+                    }
+                  }
+                  name="weekNightPrice.wednesday_price"
+                  prefix="$"
+                  type="number"
+                >
+                  <span
+                    className="main-input__add-txt"
+                  >
+                    <Memo(FormattedMessage)
+                      id="addNewCamper.pricing.perNight"
+                    />
+                  </span>
+                </Field>
+              </div>
+              <div
+                className="main-input-wrap-addtxt"
+                key="thursday_price"
+              >
+                <Field
+                  component={[Function]}
+                  id="weekNightPrice.thursday_price"
+                  label={
+                    Object {
+                      "id": "days.thursday",
+                    }
+                  }
+                  name="weekNightPrice.thursday_price"
+                  prefix="$"
+                  type="number"
+                >
+                  <span
+                    className="main-input__add-txt"
+                  >
+                    <Memo(FormattedMessage)
+                      id="addNewCamper.pricing.perNight"
+                    />
+                  </span>
+                </Field>
+              </div>
+              <div
+                className="main-input-wrap-addtxt"
+                key="friday_price"
+              >
+                <Field
+                  component={[Function]}
+                  id="weekNightPrice.friday_price"
+                  label={
+                    Object {
+                      "id": "days.friday",
+                    }
+                  }
+                  name="weekNightPrice.friday_price"
+                  prefix="$"
+                  type="number"
+                >
+                  <span
+                    className="main-input__add-txt"
+                  >
+                    <Memo(FormattedMessage)
+                      id="addNewCamper.pricing.perNight"
+                    />
+                  </span>
+                </Field>
+              </div>
+              <div
+                className="main-input-wrap-addtxt"
+                key="saturday_price"
+              >
+                <Field
+                  component={[Function]}
+                  id="weekNightPrice.saturday_price"
+                  label={
+                    Object {
+                      "id": "days.saturday",
+                    }
+                  }
+                  name="weekNightPrice.saturday_price"
+                  prefix="$"
+                  type="number"
+                >
+                  <span
+                    className="main-input__add-txt"
+                  >
+                    <Memo(FormattedMessage)
+                      id="addNewCamper.pricing.perNight"
+                    />
+                  </span>
+                </Field>
+              </div>
+              <div
+                className="main-input-wrap-addtxt"
+                key="sunday_price"
+              >
+                <Field
+                  component={[Function]}
+                  id="weekNightPrice.sunday_price"
+                  label={
+                    Object {
+                      "id": "days.sunday",
+                    }
+                  }
+                  name="weekNightPrice.sunday_price"
+                  prefix="$"
+                  type="number"
+                >
+                  <span
+                    className="main-input__add-txt"
+                  >
+                    <Memo(FormattedMessage)
+                      id="addNewCamper.pricing.perNight"
+                    />
+                  </span>
+                </Field>
+              </div>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+      <Divider />
+      <Row>
+        <Col
+          span={24}
+        >
+          <Row>
+            <Col
+              lg={8}
+              md={12}
+            >
+              <div
+                className="mb-8 text-subheader font-700"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.baseDiscountsTitle"
+                />
+              </div>
+              <p
+                className="mb-24"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.baseDiscountsSubTitle"
+                />
+              </p>
+              <div
+                className="d-flex align-items-center mb-8"
+              >
+                <Switch
+                  checked={false}
+                  onChange={[MockFunction]}
+                />
+                <span
+                  className="ml-8"
+                >
+                  <Memo(FormattedMessage)
+                    id="addNewCamper.pricing.offerWeeklyTitle"
+                  />
+                </span>
+              </div>
+              <p
+                className="text-caption mb-24"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.offerWeeklySubTitle"
+                />
+              </p>
+              <div
+                className="d-flex align-items-center mb-8"
+              >
+                <Switch
+                  checked={false}
+                  onChange={[MockFunction]}
+                />
+                <span
+                  className="ml-8"
+                >
+                  <Memo(FormattedMessage)
+                    id="addNewCamper.pricing.offerMonthlyTitle"
+                  />
+                </span>
+              </div>
+              <p
+                className="text-caption mb-24"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.offerMonthlySubTitle"
+                />
+              </p>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+      <Divider />
+      <div
+        className="mb-8 text-subheader font-700"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.pricing.nightStayTitle"
+        />
+      </div>
+      <p
+        className="mb-16"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.pricing.nightStaySubTitle"
+        />
+      </p>
+      <div
+        className="mb-36"
+      >
+        <Row>
+          <Col
+            lg={8}
+            md={12}
+          >
+            <Field
+              className="main-input__field"
+              component={[Function]}
+              id="minimalNightStay"
+              items={
+                Array [
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 1,
+                      },
+                    },
+                    "value": 1,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 2,
+                      },
+                    },
+                    "value": 2,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 3,
+                      },
+                    },
+                    "value": 3,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 4,
+                      },
+                    },
+                    "value": 4,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 5,
+                      },
+                    },
+                    "value": 5,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 6,
+                      },
+                    },
+                    "value": 6,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 7,
+                      },
+                    },
+                    "value": 7,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 8,
+                      },
+                    },
+                    "value": 8,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 9,
+                      },
+                    },
+                    "value": 9,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 10,
+                      },
+                    },
+                    "value": 10,
+                  },
+                ]
+              }
+              label={
+                Object {
+                  "id": "addNewCamper.pricing.nights",
+                }
+              }
+              name="minimalNightStay"
+              optionLabelProp="label"
+            />
+          </Col>
+        </Row>
+      </div>
+    </ForwardRef(InternalForm)>
+    <withRouter(Connect(EstimatedEarningCard))
+      isSlim={true}
+    />
+  </div>
+  <AddNewCamperBtnForm
+    canSave={false}
+    isSubmitting={false}
+    onBackClick={[MockFunction]}
+    onSaveClick={[MockFunction]}
+    showGradientButton={false}
+    withBackBtn={true}
+  />
+</Fragment>
+`;
+
+exports[`Pricing component tests when monthlyDiscount === true 1`] = `
+<Fragment>
+  <div
+    className="main-listing-container"
+  >
+    <div
+      className="mb-16 mb-md-24"
+    >
+      <ProgressBar
+        content={
+          <Memo(FormattedMessage)
+            id="addNewCamper.ProgressBar"
+          />
+        }
+        percent={34}
+      />
+    </div>
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <Row>
+        <Col
+          lg={16}
+        >
+          <h1
+            className="text-headline mb-8"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.pricing.title"
+            />
+          </h1>
+          <p
+            className="mb-24"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.pricing.subTitle"
+            />
+          </p>
+          <Alert
+            className="mb-24"
+            icon={
+              <i
+                className="icon icon-idea"
+              />
+            }
+            message={
+              <Memo(FormattedMessage)
+                id="addNewCamper.pricing.alert"
+              />
+            }
+            showIcon={true}
+            type="warning"
+          />
+        </Col>
+        <Col
+          span={24}
+        >
+          <Row>
+            <Col
+              lg={8}
+              md={12}
+            >
+              <div
+                className="mb-16 text-subheader font-700"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.nightlyRateTitle"
+                />
+              </div>
+              <div
+                className="main-input-wrap-addtxt"
+              >
+                <Field
+                  component={[Function]}
+                  disabled={false}
+                  id="costPerNight"
+                  label={
+                    Object {
+                      "id": "addNewCamper.pricing.costPerNight",
+                    }
+                  }
+                  name="costPerNight"
+                  prefix="$"
+                  type="number"
+                >
+                  <span
+                    className="main-input__add-txt"
+                  >
+                    <Memo(FormattedMessage)
+                      id="addNewCamper.pricing.perNight"
+                    />
+                  </span>
+                </Field>
+              </div>
+              <div
+                className="d-flex align-items-center mb-16"
+              >
+                <Switch
+                  checked={false}
+                  onChange={[MockFunction]}
+                />
+                <span
+                  className="ml-8"
+                >
+                  <Memo(FormattedMessage)
+                    id="addNewCamper.pricing.customizeByNightOfTheWeek"
+                  />
+                </span>
+              </div>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+      <Divider />
+      <Row>
+        <Col
+          span={24}
+        >
+          <Row>
+            <Col
+              lg={8}
+              md={12}
+            >
+              <div
+                className="mb-8 text-subheader font-700"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.baseDiscountsTitle"
+                />
+              </div>
+              <p
+                className="mb-24"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.baseDiscountsSubTitle"
+                />
+              </p>
+              <div
+                className="d-flex align-items-center mb-8"
+              >
+                <Switch
+                  checked={false}
+                  onChange={[MockFunction]}
+                />
+                <span
+                  className="ml-8"
+                >
+                  <Memo(FormattedMessage)
+                    id="addNewCamper.pricing.offerWeeklyTitle"
+                  />
+                </span>
+              </div>
+              <p
+                className="text-caption mb-24"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.offerWeeklySubTitle"
+                />
+              </p>
+              <div
+                className="d-flex align-items-center mb-8"
+              >
+                <Switch
+                  checked={true}
+                  onChange={[MockFunction]}
+                />
+                <span
+                  className="ml-8"
+                >
+                  <Memo(FormattedMessage)
+                    id="addNewCamper.pricing.offerMonthlyTitle"
+                  />
+                </span>
+              </div>
+              <p
+                className="text-caption mb-16"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.offerMonthlySubTitle"
+                />
+              </p>
+              <div
+                className="main-input-wrap-addtxt main-input--has-message mb-20"
+              >
+                <Field
+                  component={[Function]}
+                  id="monthlyDiscountPercent"
+                  name="monthlyDiscountPercent"
+                  tooltip={
+                    Object {
+                      "id": "addNewCamper.pricing.pricePerMonth",
+                      "values": Object {
+                        "price": "$100",
+                      },
+                    }
+                  }
+                  type="number"
+                >
+                  <span
+                    className="main-input__add-txt"
+                  >
+                    %
+                  </span>
+                </Field>
+              </div>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+      <Divider />
+      <div
+        className="mb-8 text-subheader font-700"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.pricing.nightStayTitle"
+        />
+      </div>
+      <p
+        className="mb-16"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.pricing.nightStaySubTitle"
+        />
+      </p>
+      <div
+        className="mb-36"
+      >
+        <Row>
+          <Col
+            lg={8}
+            md={12}
+          >
+            <Field
+              className="main-input__field"
+              component={[Function]}
+              id="minimalNightStay"
+              items={
+                Array [
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 1,
+                      },
+                    },
+                    "value": 1,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 2,
+                      },
+                    },
+                    "value": 2,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 3,
+                      },
+                    },
+                    "value": 3,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 4,
+                      },
+                    },
+                    "value": 4,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 5,
+                      },
+                    },
+                    "value": 5,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 6,
+                      },
+                    },
+                    "value": 6,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 7,
+                      },
+                    },
+                    "value": 7,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 8,
+                      },
+                    },
+                    "value": 8,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 9,
+                      },
+                    },
+                    "value": 9,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 10,
+                      },
+                    },
+                    "value": 10,
+                  },
+                ]
+              }
+              label={
+                Object {
+                  "id": "addNewCamper.pricing.nights",
+                }
+              }
+              name="minimalNightStay"
+              optionLabelProp="label"
+            />
+          </Col>
+        </Row>
+      </div>
+    </ForwardRef(InternalForm)>
+    <withRouter(Connect(EstimatedEarningCard))
+      isSlim={true}
+    />
+  </div>
+  <AddNewCamperBtnForm
+    canSave={false}
+    isSubmitting={false}
+    onBackClick={[MockFunction]}
+    onSaveClick={[MockFunction]}
+    showGradientButton={false}
+    withBackBtn={true}
+  />
+</Fragment>
+`;
+
+exports[`Pricing component tests when weeklyDiscount === true 1`] = `
+<Fragment>
+  <div
+    className="main-listing-container"
+  >
+    <div
+      className="mb-16 mb-md-24"
+    >
+      <ProgressBar
+        content={
+          <Memo(FormattedMessage)
+            id="addNewCamper.ProgressBar"
+          />
+        }
+        percent={34}
+      />
+    </div>
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <Row>
+        <Col
+          lg={16}
+        >
+          <h1
+            className="text-headline mb-8"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.pricing.title"
+            />
+          </h1>
+          <p
+            className="mb-24"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.pricing.subTitle"
+            />
+          </p>
+          <Alert
+            className="mb-24"
+            icon={
+              <i
+                className="icon icon-idea"
+              />
+            }
+            message={
+              <Memo(FormattedMessage)
+                id="addNewCamper.pricing.alert"
+              />
+            }
+            showIcon={true}
+            type="warning"
+          />
+        </Col>
+        <Col
+          span={24}
+        >
+          <Row>
+            <Col
+              lg={8}
+              md={12}
+            >
+              <div
+                className="mb-16 text-subheader font-700"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.nightlyRateTitle"
+                />
+              </div>
+              <div
+                className="main-input-wrap-addtxt"
+              >
+                <Field
+                  component={[Function]}
+                  disabled={false}
+                  id="costPerNight"
+                  label={
+                    Object {
+                      "id": "addNewCamper.pricing.costPerNight",
+                    }
+                  }
+                  name="costPerNight"
+                  prefix="$"
+                  type="number"
+                >
+                  <span
+                    className="main-input__add-txt"
+                  >
+                    <Memo(FormattedMessage)
+                      id="addNewCamper.pricing.perNight"
+                    />
+                  </span>
+                </Field>
+              </div>
+              <div
+                className="d-flex align-items-center mb-16"
+              >
+                <Switch
+                  checked={false}
+                  onChange={[MockFunction]}
+                />
+                <span
+                  className="ml-8"
+                >
+                  <Memo(FormattedMessage)
+                    id="addNewCamper.pricing.customizeByNightOfTheWeek"
+                  />
+                </span>
+              </div>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+      <Divider />
+      <Row>
+        <Col
+          span={24}
+        >
+          <Row>
+            <Col
+              lg={8}
+              md={12}
+            >
+              <div
+                className="mb-8 text-subheader font-700"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.baseDiscountsTitle"
+                />
+              </div>
+              <p
+                className="mb-24"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.baseDiscountsSubTitle"
+                />
+              </p>
+              <div
+                className="d-flex align-items-center mb-8"
+              >
+                <Switch
+                  checked={true}
+                  onChange={[MockFunction]}
+                />
+                <span
+                  className="ml-8"
+                >
+                  <Memo(FormattedMessage)
+                    id="addNewCamper.pricing.offerWeeklyTitle"
+                  />
+                </span>
+              </div>
+              <p
+                className="text-caption mb-16"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.offerWeeklySubTitle"
+                />
+              </p>
+              <div
+                className="main-input-wrap-addtxt main-input--has-message mb-20"
+              >
+                <Field
+                  component={[Function]}
+                  id="weeklyDiscountPercent"
+                  name="weeklyDiscountPercent"
+                  tooltip={
+                    Object {
+                      "id": "addNewCamper.pricing.pricePerWeek",
+                      "values": Object {
+                        "price": "$100",
+                      },
+                    }
+                  }
+                  type="number"
+                >
+                  <span
+                    className="main-input__add-txt"
+                  >
+                    %
+                  </span>
+                </Field>
+              </div>
+              <div
+                className="d-flex align-items-center mb-8"
+              >
+                <Switch
+                  checked={false}
+                  onChange={[MockFunction]}
+                />
+                <span
+                  className="ml-8"
+                >
+                  <Memo(FormattedMessage)
+                    id="addNewCamper.pricing.offerMonthlyTitle"
+                  />
+                </span>
+              </div>
+              <p
+                className="text-caption mb-24"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.pricing.offerMonthlySubTitle"
+                />
+              </p>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+      <Divider />
+      <div
+        className="mb-8 text-subheader font-700"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.pricing.nightStayTitle"
+        />
+      </div>
+      <p
+        className="mb-16"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.pricing.nightStaySubTitle"
+        />
+      </p>
+      <div
+        className="mb-36"
+      >
+        <Row>
+          <Col
+            lg={8}
+            md={12}
+          >
+            <Field
+              className="main-input__field"
+              component={[Function]}
+              id="minimalNightStay"
+              items={
+                Array [
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 1,
+                      },
+                    },
+                    "value": 1,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 2,
+                      },
+                    },
+                    "value": 2,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 3,
+                      },
+                    },
+                    "value": 3,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 4,
+                      },
+                    },
+                    "value": 4,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 5,
+                      },
+                    },
+                    "value": 5,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 6,
+                      },
+                    },
+                    "value": 6,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 7,
+                      },
+                    },
+                    "value": 7,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 8,
+                      },
+                    },
+                    "value": 8,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 9,
+                      },
+                    },
+                    "value": 9,
+                  },
+                  Object {
+                    "label": Object {
+                      "id": "addNewCamper.pricing.countOfNights",
+                      "values": Object {
+                        "count": 10,
+                      },
+                    },
+                    "value": 10,
+                  },
+                ]
+              }
+              label={
+                Object {
+                  "id": "addNewCamper.pricing.nights",
+                }
+              }
+              name="minimalNightStay"
+              optionLabelProp="label"
+            />
+          </Col>
+        </Row>
+      </div>
+    </ForwardRef(InternalForm)>
+    <withRouter(Connect(EstimatedEarningCard))
+      isSlim={true}
+    />
+  </div>
+  <AddNewCamperBtnForm
+    canSave={false}
+    isSubmitting={false}
+    onBackClick={[MockFunction]}
+    onSaveClick={[MockFunction]}
+    showGradientButton={false}
+    withBackBtn={true}
+  />
+</Fragment>
+`;

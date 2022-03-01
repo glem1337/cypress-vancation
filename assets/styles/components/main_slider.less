@@ -1,0 +1,93 @@
+.main-slider-container {
+  position: relative;
+  z-index: 1;
+
+  .main-slider-wrap {
+    position: static;
+
+    .swiper-pagination-fraction {
+      top: 8px;
+      right: 0;
+      bottom: auto;
+      .media-up(lg; {
+        right: calc((2 * @btn-size-sm) + @gap-md);
+      });
+    }
+  }
+
+  .search-page__slider-nav {
+    top: -2px;
+    right: 0;
+    bottom: auto;
+  }
+}
+
+.main-slider-wrap {
+  position: relative;
+  z-index: @calendar-booking-z-index;
+  margin-left: -@gap-xs;
+  margin-right: -@gap-xs;
+  margin-bottom: -10px;
+
+  @media (min-width: @screen-md) {
+    margin-left: -@gap-md;
+    margin-right: -@gap-md;
+  }
+
+  @media (min-width: @screen-lg) {
+    margin: -10px;
+  }
+
+  > .swiper-container {
+    position: static;
+    padding-bottom: 10px;
+    .media-up(lg; {
+      padding: 10px;
+    });
+  }
+
+  .swiper-pagination-fraction {
+    position: absolute;
+    top: auto;
+    right: 16px;
+    bottom: calc(100% + @gap-md);
+    left: auto;
+    width: auto;
+
+    @media (min-width: @screen-lg) {
+      right: calc((2 * @btn-size-sm) + @gap-md + 10px);
+    }
+  }
+
+  .swiper-pagination-fraction-custom {
+    right: 86px;
+    top: 9px;
+    width: 100%;
+  }
+
+  > .swiper-container > .swiper-wrapper > .swiper-slide {
+    width: 346px;
+    padding-left: 16px;
+
+    @media (min-width: @screen-md) {
+      width: 364px;
+      padding-left: 24px;
+    }
+
+    @media (min-width: @screen-lg) {
+      width: auto;
+      padding-left: 0;
+    }
+  }
+
+  &.main-slider-wrap--one > .swiper-container > .swiper-wrapper > .swiper-slide {
+    .media-up(md; {
+      width: 728px;
+    });
+  }
+}
+
+.instagram_slider_wrapper--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useGeoLocation hook matches snapshot 1`] = `
+Object {
+  "coords": Object {},
+  "currentPositionError": [Function],
+  "currentPositionSuccess": [Function],
+  "location": "location",
+  "state": "state",
+}
+`;

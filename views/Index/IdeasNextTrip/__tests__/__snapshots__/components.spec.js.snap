@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IdeasNextTrip component snapshot 1`] = `
+<div
+  className="home-inner-wrap"
+>
+  <div
+    className="container"
+  >
+    <h2
+      className="home-title-sec mb-16 mb-md-8"
+    >
+      <Memo(FormattedMessage)
+        id="homePage.ideasNextTrip.title"
+      />
+    </h2>
+    <p
+      className="mb-32 mb-md-48 text-title font-400"
+    >
+      <Memo(FormattedMessage)
+        id="homePage.ideasNextTrip.subtitle"
+      />
+    </p>
+    <Tabs
+      defaultActiveKey="1"
+    >
+      <TabPane
+        className="home__campervan-epicenters"
+        disabled={true}
+        key="epicenters"
+        tab={
+          <React.Fragment>
+            <Loader
+              fontSize={24}
+            />
+            <Memo(FormattedMessage)
+              id="homePage.ideasNextTrip.tab.campervanEpicenters.title"
+            />
+          </React.Fragment>
+        }
+      >
+        <Loader
+          fontSize={24}
+        />
+      </TabPane>
+      <TabPane
+        className="home__campervan-nearest-destinations"
+        disabled={true}
+        key="nearest-destinations"
+        tab={
+          <React.Fragment>
+            <Loader
+              fontSize={24}
+            />
+            <Memo(FormattedMessage)
+              id="homePage.ideasNextTrip.tab.roadtripDestinations.title"
+            />
+          </React.Fragment>
+        }
+      >
+        <Loader
+          fontSize={24}
+        />
+      </TabPane>
+      <TabPane
+        className="home__campervan-state"
+        disabled={true}
+        key="state"
+        tab={
+          <React.Fragment>
+            <Loader
+              fontSize={24}
+            />
+            <Memo(FormattedMessage)
+              id="homePage.ideasNextTrip.tab.campervanRentals.title"
+            />
+          </React.Fragment>
+        }
+      >
+        <Loader
+          fontSize={24}
+        />
+      </TabPane>
+    </Tabs>
+  </div>
+</div>
+`;

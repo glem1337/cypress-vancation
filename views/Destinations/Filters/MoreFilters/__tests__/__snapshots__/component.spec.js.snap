@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoreFilters component tests matches snapshot 1`] = `
+<Popover
+  content={
+    <div
+      className="search-page__filters-popover--more"
+    >
+      <div
+        className="search-page__filters-popover__main"
+      >
+        <div
+          className="search-page__filters-popover__grid search-page__filters-popover__grid--more"
+        >
+          <div
+            className="search-page__filters-popover__column"
+          >
+            <div
+              className="in-black font-600"
+            >
+              <Memo(FormattedMessage)
+                id="shared.standardAmenities"
+              />
+            </div>
+            renderStandardAmenities
+          </div>
+          <div
+            className="search-page__filters-popover__column"
+          >
+            <div
+              className="in-black font-600"
+            >
+              <Memo(FormattedMessage)
+                id="shared.luxuryAmenities"
+              />
+            </div>
+            renderLuxuryAmenities
+          </div>
+          <div>
+            <div
+              className="in-black font-600 mb-24"
+            >
+              <Memo(FormattedMessage)
+                id="shared.insideHeight"
+              />
+              <Tooltip
+                arrowPointAtCenter={false}
+                autoAdjustOverflow={true}
+                mouseEnterDelay={0.1}
+                mouseLeaveDelay={0.1}
+                placement="top"
+                title={
+                  <Memo(FormattedMessage)
+                    id="shared.ok"
+                  />
+                }
+              >
+                <i
+                  className="icon icon-info-f main-tooltip-icon font-18"
+                />
+              </Tooltip>
+            </div>
+            renderInsideHeight
+          </div>
+          <div
+            className="search-page__filters-popover__column"
+          >
+            <div
+              className="in-black font-600"
+            >
+              <Memo(FormattedMessage)
+                id="shared.rules"
+              />
+            </div>
+            renderRules
+          </div>
+          <div>
+            <div
+              className="in-black font-600 mb-24"
+            >
+              <Memo(FormattedMessage)
+                id="shared.minimumRating"
+              />
+            </div>
+            renderRating
+          </div>
+        </div>
+      </div>
+      <FilterPopoverFooter
+        applyFilters={[MockFunction]}
+        clearFilters={[MockFunction]}
+      />
+    </div>
+  }
+  getPopupContainer={[MockFunction]}
+  mouseEnterDelay={0.1}
+  mouseLeaveDelay={0.1}
+  overlayClassName="ant-popover-filters ant-popover-filters--fluid"
+  overlayStyle={Object {}}
+  placement="bottom"
+  trigger="click"
+  visible={true}
+>
+  <Button
+    className="ant-btn-outline-gray search-page__filters-btn search-page__filters-btn--active"
+    icon={
+      <i
+        className="icon icon-filter mr-8"
+      />
+    }
+  >
+    <Memo(FormattedMessage)
+      id="shared.moreFilters"
+    />
+  </Button>
+</Popover>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthLayout container tests matches snapshot 1`] = `
+<AuthLayout
+  className={null}
+  withSidebar={false}
+>
+  Foo
+</AuthLayout>
+`;

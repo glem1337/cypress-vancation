@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PasswordInputField component matches snapshot when field has error but untouched 1`] = `
+<FormItem
+  className="main-input"
+  help={false}
+  label={null}
+  validateStatus={false}
+>
+  <Password
+    action="click"
+    iconRender={[MockFunction]}
+    name="fieldName"
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="{Translation id: fake.placeholder}"
+    value="password"
+    visibilityToggle={true}
+  />
+</FormItem>
+`;
+
+exports[`PasswordInputField component matches snapshot when field is touched and has error 1`] = `
+<FormItem
+  className="main-input"
+  help={
+    <InputHelp
+      icon={null}
+      text={
+        Object {
+          "id": "test.error",
+        }
+      }
+      type="danger"
+    />
+  }
+  label={null}
+  validateStatus="error"
+>
+  <Password
+    action="click"
+    iconRender={[MockFunction]}
+    name="fieldName"
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="{Translation id: fake.placeholder}"
+    value="password"
+    visibilityToggle={true}
+  />
+</FormItem>
+`;
+
+exports[`PasswordInputField component matches snapshot when field is touched but has no error 1`] = `
+<FormItem
+  className="main-input"
+  help={false}
+  label={null}
+>
+  <Password
+    action="click"
+    iconRender={[MockFunction]}
+    name="fieldName"
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="{Translation id: fake.placeholder}"
+    value="password"
+    visibilityToggle={true}
+  />
+</FormItem>
+`;
+
+exports[`PasswordInputField component matches snapshot with \`label\` 1`] = `
+<FormItem
+  className="main-input"
+  help={false}
+  label={
+    <React.Fragment>
+      <span
+        className="main-input__label"
+      >
+        <Memo(FormattedMessage)
+          id="test.fieldLabel"
+        />
+      </span>
+    </React.Fragment>
+  }
+>
+  <Password
+    action="click"
+    iconRender={[MockFunction]}
+    name="fieldName"
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="{Translation id: fake.placeholder}"
+    value="password"
+    visibilityToggle={true}
+  />
+</FormItem>
+`;
+
+exports[`PasswordInputField component matches snapshot with PasswordStrength 1`] = `
+<FormItem
+  className="main-input"
+  help={
+    <PasswordStrength
+      value="password"
+    />
+  }
+  label={null}
+>
+  <Password
+    action="click"
+    iconRender={[MockFunction]}
+    name="fieldName"
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="{Translation id: fake.placeholder}"
+    value="password"
+    visibilityToggle={true}
+  />
+</FormItem>
+`;
+
+exports[`PasswordInputField component matches snapshot with additional label content 1`] = `
+<FormItem
+  className="main-input main-input--with-additional-label-content"
+  help={false}
+  label={
+    <React.Fragment>
+      <div />
+    </React.Fragment>
+  }
+>
+  <Password
+    action="click"
+    iconRender={[MockFunction]}
+    name="fieldName"
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="{Translation id: fake.placeholder}"
+    value="password"
+    visibilityToggle={true}
+  />
+</FormItem>
+`;
+
+exports[`PasswordInputField component matches snapshot with default props 1`] = `
+<FormItem
+  className="main-input"
+  help={false}
+  label={null}
+>
+  <Password
+    action="click"
+    iconRender={[MockFunction]}
+    name="fieldName"
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="{Translation id: fake.placeholder}"
+    value="password"
+    visibilityToggle={true}
+  />
+</FormItem>
+`;
+
+exports[`PasswordInputField component matches snapshot with text placeholder 1`] = `
+<FormItem
+  className="main-input"
+  help={false}
+  label={null}
+>
+  <Password
+    action="click"
+    iconRender={[MockFunction]}
+    name="fieldName"
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="foo"
+    value="password"
+    visibilityToggle={true}
+  />
+</FormItem>
+`;

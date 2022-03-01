@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rating component tests matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="profile-user-card__photo-rating-icon"
+  >
+    <img
+      alt=""
+      src="/images/Like - White.svg"
+    />
+  </div>
+  <p
+    className="mr-16 text-subheader font-700 in-green-1000"
+  >
+    80
+    %
+  </p>
+</Fragment>
+`;

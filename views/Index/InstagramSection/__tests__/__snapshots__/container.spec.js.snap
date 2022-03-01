@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InstagramSection container tests matches snapshot 1`] = `
+<InstagramSectionComponent
+  allowTouchMove={true}
+  arePhotosFetching={false}
+  canMoveLeft={false}
+  containerRef={
+    Object {
+      "current": null,
+    }
+  }
+  dataDeleteEntity={[Function]}
+  fetchInstagramPhotos={[Function]}
+  moveLeft={[Function]}
+  moveRight={[Function]}
+  onReachEnd={[Function]}
+  onSwiperInit={[Function]}
+  page={2}
+  photos={
+    Array [
+      Object {
+        "id": 1,
+        "imageUrl": "imageUrl",
+        "postUrl": "postUrl",
+      },
+      Object {
+        "id": 2,
+        "imageUrl": "imageUrl",
+        "postUrl": "postUrl",
+      },
+      Object {
+        "id": 3,
+        "imageUrl": "imageUrl",
+        "postUrl": "postUrl",
+      },
+      Object {
+        "id": 4,
+        "imageUrl": "imageUrl",
+        "postUrl": "postUrl",
+      },
+      Object {
+        "id": 5,
+        "imageUrl": "imageUrl",
+        "postUrl": "postUrl",
+      },
+    ]
+  }
+  showPagination={true}
+  sliderWrapperRef={
+    Object {
+      "current": null,
+    }
+  }
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  swiperLayoutKey="uuid/v4"
+  swiperProps={
+    Object {
+      "lazy": Object {
+        "loadPrevNext": true,
+      },
+      "loop": false,
+      "loopFillGroupWithBlank": true,
+      "pagination": Object {
+        "type": "fraction",
+      },
+      "slidesPerGroup": 4,
+      "slidesPerView": 4,
+      "spaceBetween": 24,
+      "watchOverflow": true,
+    }
+  }
+  swiperRef={
+    Object {
+      "current": null,
+    }
+  }
+  total={20}
+/>
+`;

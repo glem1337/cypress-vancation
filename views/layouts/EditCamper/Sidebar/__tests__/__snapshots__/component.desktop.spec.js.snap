@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SidebarDesktop component tests matches snapshot 1`] = `
+<div
+  className="edit-list-left-sidebar"
+>
+  <div
+    className="text-subtitle mb-24 pl-20"
+  >
+    <Memo(FormattedMessage)
+      id="dashboard.editCamper.sidebar.title"
+    />
+  </div>
+  <ul>
+    <li
+      className="edit-list-left-sidebar__item active"
+      key="test"
+    >
+      <a
+        className="edit-list-left-sidebar__item-link"
+        role="button"
+      >
+        <Memo(FormattedMessage)
+          id="test"
+        />
+      </a>
+    </li>
+  </ul>
+</div>
+`;

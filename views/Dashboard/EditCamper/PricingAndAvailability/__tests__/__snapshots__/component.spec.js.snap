@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PricingAndAvailability component tests matches snapshot 1`] = `
+<withRouter(EditCamper)
+  hasFooter={false}
+>
+  <div
+    className="calendar-listing__wrap calendar-listing__wrap--side-open"
+  >
+    <div
+      className="calendar-listing__inner"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="calendar-listing calendar-listing--narrow"
+        >
+          <h1
+            className="text-headline mb-8"
+          >
+            <Memo(FormattedMessage)
+              id="shared.pricingAndAvailability"
+            />
+          </h1>
+          <p
+            className="mb-24"
+          >
+            <Memo(FormattedMessage)
+              id="dashboard.editCamper.managePricing"
+            />
+          </p>
+          <ForwardRef
+            className="dashboard-calendar"
+            components={
+              Object {
+                "dateCellWrapper": [Function],
+                "event": [Function],
+                "eventWrapper": [Function],
+                "toolbar": Object {
+                  "$$typeof": Symbol(react.memo),
+                  "WrappedComponent": [Function],
+                  "compare": null,
+                  "type": [Function],
+                },
+              }
+            }
+            date={2000-02-20T00:00:00.000Z}
+            events={Array []}
+            localizer={
+              DateLocalizer {
+                "format": [Function],
+                "formats": Object {
+                  "agendaDateFormat": "ddd MMM DD",
+                  "agendaHeaderFormat": [Function],
+                  "agendaTimeFormat": "LT",
+                  "agendaTimeRangeFormat": [Function],
+                  "dateFormat": "DD",
+                  "dayFormat": "DD ddd",
+                  "dayHeaderFormat": "dddd MMM DD",
+                  "dayRangeHeaderFormat": [Function],
+                  "eventTimeRangeEndFormat": [Function],
+                  "eventTimeRangeFormat": [Function],
+                  "eventTimeRangeStartFormat": [Function],
+                  "monthHeaderFormat": "MMMM YYYY",
+                  "selectRangeFormat": [Function],
+                  "timeGutterFormat": "LT",
+                  "weekdayFormat": "ddd",
+                },
+                "propType": [Function],
+                "startOfWeek": [Function],
+              }
+            }
+            max={2003-03-01T00:00:00.000Z}
+            min={1999-02-01T00:00:00.000Z}
+            onNavigate={[MockFunction]}
+            onSelectSlot={[MockFunction]}
+            selectable={true}
+            showAllEvents={true}
+            style={Object {}}
+          />
+        </div>
+        <Divider
+          className="d-none d-lg-block mt-24"
+        />
+        <Connect(ExternalCalendarsFooter)
+          camperId="camperId"
+        />
+      </div>
+    </div>
+    <Connect(RightSidebar)
+      camperId="camperId"
+    />
+  </div>
+</withRouter(EditCamper)>
+`;
+
+exports[`PricingAndAvailability component tests matches snapshot without camper 1`] = `
+<withRouter(EditCamper)
+  hasFooter={false}
+>
+  <div
+    className="container"
+  >
+    <Row
+      gutter={24}
+    >
+      <Col
+        span={24}
+      >
+        <h1
+          className="text-headline mb-8"
+        >
+          <Memo(FormattedMessage)
+            id="shared.pricingAndAvailability"
+          />
+        </h1>
+        <p
+          className="mb-16"
+        >
+          <Memo(FormattedMessage)
+            id="dashboard.editCamper.managePricing"
+          />
+        </p>
+      </Col>
+      <Col
+        span={24}
+      >
+        <Skeleton
+          active={true}
+          avatar={false}
+          paragraph={true}
+          title={true}
+        />
+      </Col>
+    </Row>
+  </div>
+</withRouter(EditCamper)>
+`;

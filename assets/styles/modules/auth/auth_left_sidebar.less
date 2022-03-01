@@ -1,0 +1,52 @@
+.auth-left {
+  display: none;
+
+  @media (min-width: @screen-lg) {
+    .flex-center-y();
+    flex-direction: column;
+    width: 460px;
+    padding: 40px 40px 24px;
+    background: @primary-dark url('/images/auth/auth-left-img.png') no-repeat center bottom;
+  }
+}
+
+.auth-left__logo {
+  align-self: baseline;
+}
+
+.auth-left__txt-wrap {
+  margin-top: 300px;
+  text-align: center;
+}
+
+.auth-left-title {
+  .text-headline();
+  margin-bottom: 16px;
+  color: white;
+  font-family: @alt-font-family;
+}
+
+.auth-left-txt {
+  color: rgba(white, 0.75);
+}
+
+.auth-left__bottom-txt {
+  .text-caption();
+  margin-bottom: 16px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.auth-left__bottom-icon-wrap {
+  .flex-center();
+
+  .icon {
+    color: rgba(white, 0.6);
+    transition: color 0.3s;
+    font-size: 28px;
+
+    &:hover {
+      color: white;
+    }
+  }
+}

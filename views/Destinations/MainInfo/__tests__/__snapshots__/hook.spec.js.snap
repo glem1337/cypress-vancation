@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainInfo useContainer hook matches snapshot 1`] = `
+Object {
+  "subTitle": "subtitle",
+  "title": "pageHeaderTitle",
+}
+`;

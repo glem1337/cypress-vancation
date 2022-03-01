@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pickup Component snapshot default props 1`] = `
+<Row
+  className="mt-16"
+  gutter={24}
+>
+  <Col
+    className="d-block"
+    lg={8}
+    md={12}
+  >
+    <Field
+      component={[Function]}
+      disabled={false}
+      label={
+        Object {
+          "id": "addNewCamper.delivery.form.costPerMile",
+        }
+      }
+      name="costPerMile"
+      placeholder={
+        Object {
+          "id": "addNewCamper.delivery.form.costPerMile",
+        }
+      }
+      prefix={
+        <span
+          className="in-black"
+        >
+          $
+        </span>
+      }
+      suffix={
+        <span
+          className="in-gray-700"
+        >
+          <Memo(FormattedMessage)
+            id="shared.perMile"
+          />
+        </span>
+      }
+      type="number"
+    />
+  </Col>
+  <Col
+    className="d-block"
+    lg={8}
+    md={12}
+  >
+    <Field
+      component={[Function]}
+      disabled={false}
+      label={
+        Object {
+          "id": "addNewCamper.delivery.form.minimumDeliveryFee",
+        }
+      }
+      name="minFee"
+      placeholder={
+        Object {
+          "id": "addNewCamper.delivery.form.minimumDeliveryFee",
+        }
+      }
+      prefix={
+        <span
+          className="in-black"
+        >
+          $
+        </span>
+      }
+      type="number"
+    />
+  </Col>
+</Row>
+`;

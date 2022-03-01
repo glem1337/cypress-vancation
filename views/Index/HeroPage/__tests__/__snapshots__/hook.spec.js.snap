@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeroPage useContainer hook matches snapshot 1`] = `
+Object {
+  "chooseDestinationRef": Object {
+    "current": Object {
+      "closeAllPickers": [MockFunction],
+    },
+  },
+  "closeAllPickers": [Function],
+  "intl": Object {
+    "formatMessage": [Function],
+  },
+}
+`;

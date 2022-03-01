@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header container tests matches snapshot 1`] = `
+<HeaderComponent
+  activeTabKey="activeTabKey"
+  currentUser={
+    Object {
+      "session": Object {
+        "currentUser": Object {
+          "email": "test@gmail.com",
+          "user": Object {
+            "avatarUrl": "test_url",
+            "firstName": "firstName_test",
+            "lastName": "lastName_test",
+          },
+        },
+      },
+    }
+  }
+  isMobileMenuVisible={true}
+  ownerCampersPagination={
+    Object {
+      "number": 1,
+      "size": 10,
+      "total": 6,
+    }
+  }
+  setMobileMenuVisibility={[Function]}
+  signOut={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;

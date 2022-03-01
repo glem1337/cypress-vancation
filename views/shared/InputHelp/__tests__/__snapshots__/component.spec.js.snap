@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputHelp component matches snapshot with danger type 1`] = `
+<p
+  className="main-input__message"
+>
+  <i
+    className="main-input__message-icon icon icon-alert in-red-1000"
+  />
+  foo
+</p>
+`;
+
+exports[`InputHelp component matches snapshot with intl object text message 1`] = `
+<p
+  className="main-input__message"
+>
+  <i
+    className="main-input__message-icon icon icon-alert in-red-1000"
+  />
+  <Memo(FormattedMessage)
+    id="fake.text"
+  />
+</p>
+`;
+
+exports[`InputHelp component matches snapshot with plain text message 1`] = `
+<p
+  className="main-input__message"
+>
+  <i
+    className="main-input__message-icon icon icon-alert in-red-1000"
+  />
+  Fake text
+</p>
+`;

@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calendar constants matches snapshot 1`] = `
+Object {
+  "AVAILABILITY_MODE": Object {
+    "AVAILABLE": "available",
+    "BLOCKED": "blocked",
+  },
+  "CALENDAR_AVAILABILITY_DEFAULT_VALUE": Object {
+    "label": Object {
+      "id": "shared.countMonth",
+      "values": Object {
+        "count": 6,
+      },
+    },
+    "value": 6,
+  },
+  "CALENDAR_AVAILABILITY_OPTIONS": Array [
+    Object {
+      "label": Object {
+        "id": "shared.countMonth",
+        "values": Object {
+          "count": 3,
+        },
+      },
+      "value": 3,
+    },
+    Object {
+      "label": Object {
+        "id": "shared.countMonth",
+        "values": Object {
+          "count": 6,
+        },
+      },
+      "value": 6,
+    },
+    Object {
+      "label": Object {
+        "id": "shared.countMonth",
+        "values": Object {
+          "count": 12,
+        },
+      },
+      "value": 12,
+    },
+    Object {
+      "label": Object {
+        "id": "shared.countMonth",
+        "values": Object {
+          "count": 24,
+        },
+      },
+      "value": 24,
+    },
+    Object {
+      "label": Object {
+        "id": "shared.countMonth",
+        "values": Object {
+          "count": 36,
+        },
+      },
+      "value": 36,
+    },
+  ],
+  "CALENDAR_BOUNDARIES": Object {
+    "MAX": "2003-03-01T00:00:00.000Z",
+    "MIN": "1999-02-01T00:00:00.000Z",
+  },
+  "CALENDAR_EVENT_TYPE": Object {
+    "BLOCKED": "blocked",
+    "BOOKED": "booked",
+    "EXTERNAL": "external",
+  },
+  "CALENDAR_PREPARATION_TIME_DEFAULT_VALUE": Object {
+    "label": Object {
+      "id": "shared.countMonth",
+      "values": Object {
+        "count": 0,
+      },
+    },
+    "value": 0.1,
+  },
+  "CALENDAR_PREPARATION_TIME_OPTIONS": Array [
+    Object {
+      "label": Object {
+        "id": "shared.countDays",
+        "values": Object {
+          "count": 0,
+        },
+      },
+      "value": 0.1,
+    },
+    Object {
+      "label": Object {
+        "id": "shared.countDays",
+        "values": Object {
+          "count": 1,
+        },
+      },
+      "value": 1,
+    },
+    Object {
+      "label": Object {
+        "id": "shared.countDays",
+        "values": Object {
+          "count": 2,
+        },
+      },
+      "value": 2,
+    },
+    Object {
+      "label": Object {
+        "id": "shared.countDays",
+        "values": Object {
+          "count": 3,
+        },
+      },
+      "value": 3,
+    },
+    Object {
+      "label": Object {
+        "id": "shared.countDays",
+        "values": Object {
+          "count": 4,
+        },
+      },
+      "value": 4,
+    },
+    Object {
+      "label": Object {
+        "id": "shared.countDays",
+        "values": Object {
+          "count": 5,
+        },
+      },
+      "value": 5,
+    },
+  ],
+  "FETCH_CAMPER_CALENDAR_BOUNDARIES": [Function],
+}
+`;

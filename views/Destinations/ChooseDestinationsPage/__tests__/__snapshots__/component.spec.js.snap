@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchDestinationsComponent component tests matches snapshot 1`] = `
+<div
+  className="search-destinations"
+>
+  <div
+    className="search-destinations__header"
+  >
+    <button
+      className="search-destinations__header-button"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <i
+        className="icon icon-cross search-destinations__close-icon"
+      />
+    </button>
+    <div
+      className="search-destinations__input-wrapper"
+    >
+      <i
+        className="icon icon-search in-gray-500"
+      />
+      <ForwardRef(InternalSelect)
+        allowClear={true}
+        autoComplete="off"
+        autoFocus={true}
+        className="main-input__field"
+        dropdownClassName="d-none"
+        listHeight={0}
+        onClear={[MockFunction]}
+        onSearch={[MockFunction]}
+        placeholder="{Translation id: shared.whereAreYouGoing}"
+        showSearch={true}
+        value={null}
+      />
+    </div>
+  </div>
+  <div
+    className="search-destinations__result-item"
+    key="loader"
+  >
+    <div
+      className="d-flex align-items-center"
+    >
+      <div
+        className="main-dropdown__item-home-search"
+      >
+        <img
+          alt=""
+          src="/images/home/LocationBack.svg"
+        />
+        <div
+          className="main-dropdown__item-home-search-icon"
+        >
+          <i
+            className="icon icon-location-f in-black font-16"
+          />
+        </div>
+      </div>
+      <span>
+        <Spin
+          indicator={
+            <ForwardRef(LoadingOutlined)
+              spin={true}
+              style={
+                Object {
+                  "fontSize": 24,
+                }
+              }
+            />
+          }
+          size="default"
+          spinning={true}
+          wrapperClassName=""
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    className="search-destinations__result-item"
+    key="shared.exploreCampervansNearYour"
+  >
+    <div
+      className="d-flex align-items-center"
+      role="button"
+    >
+      <div
+        className="main-dropdown__item-home-search"
+      >
+        <img
+          alt=""
+          src="/images/home/LocationBack.svg"
+        />
+        <div
+          className="main-dropdown__item-home-search-icon"
+        >
+          <i
+            className="icon icon-location-f in-black font-16"
+          />
+        </div>
+      </div>
+      <span>
+        <Memo(FormattedMessage)
+          id="shared.exploreCampervansNearYour"
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    className="search-destinations__result-item"
+    key="shared.explorePopularDestinations"
+  >
+    <div
+      className="d-flex align-items-center"
+      role="button"
+    >
+      <div
+        className="main-dropdown__item-home-search"
+      >
+        <img
+          alt=""
+          src="/images/home/LocationBack.svg"
+        />
+        <div
+          className="main-dropdown__item-home-search-icon"
+        >
+          <i
+            className="icon icon-location-f in-black font-16"
+          />
+        </div>
+      </div>
+      <span>
+        <Memo(FormattedMessage)
+          id="shared.explorePopularDestinations"
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    className="search-destinations__result-item"
+    key="4"
+  >
+    <div
+      className="d-flex align-items-center"
+      role="button"
+    >
+      <div
+        className="main-dropdown__item-home-search"
+      >
+        <img
+          alt=""
+          src="mainPhotoUrl360"
+        />
+      </div>
+      <span>
+        test
+      </span>
+    </div>
+  </div>
+  <div
+    className="search-destinations__result-item"
+    key="5"
+  >
+    <div
+      className="d-flex align-items-center"
+      role="button"
+    >
+      <div
+        className="main-dropdown__item-home-search"
+      >
+        <i
+          className="icon icon-city in-black"
+        />
+      </div>
+      <span>
+        test
+      </span>
+    </div>
+  </div>
+</div>
+`;

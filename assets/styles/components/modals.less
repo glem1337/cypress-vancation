@@ -1,0 +1,377 @@
+@modal-paddind-x-xs: 16px;
+@modal-paddind-x-md: 24px;
+@modal-title-height-mob: 80px;
+
+.main-modal {
+  top: auto;
+  width: 100% !important;
+  max-width: 100%;
+  margin: auto 0 0;
+  padding: 16px 0 0;
+  .media-up(md; {
+    width: 460px !important;
+    margin-bottom: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  });
+}
+
+.main-modal--big {
+  @media (min-width: @screen-md) {
+    width: 704px !important;
+  }
+
+  @media (min-width: @screen-lg) {
+    width: 788px !important;
+  }
+
+  .ant-modal-content {
+    padding: 40px 16px 24px;
+
+    @media (min-width: @screen-md) {
+      padding-right: 60px;
+      padding-bottom: 80px;
+      padding-left: 60px;
+    }
+    .media-up(lg; {
+      padding-right: 80px;
+      padding-left: 80px;
+    });
+  }
+
+  .main-modal__body {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+.main-modal--full-screen {
+  max-width: unset;
+  width: 100% !important;
+  height: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: white;
+
+  .ant-modal-body {
+    height: 100%;
+  }
+
+  .ant-modal-content {
+    height: 100%;
+    border-radius: unset;
+    box-shadow: unset;
+  }
+
+  .main-modal__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .main-modal__body {
+    flex-grow: 1;
+  }
+}
+
+.main-modal--mob-full {
+  .media-down(md; {
+    height: 100vh;
+    padding-top: 0;
+    .ant-modal-content {
+      height: 100%;
+      border-radius: unset;
+    }
+
+    .ant-form,
+    .ant-modal-body {
+      height: 100%;
+    }
+
+    .main-modal__container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      overflow-y: auto;
+    }
+
+    .main-modal__header {
+      position: sticky;
+      top: 0;
+      z-index: 9;
+      padding-bottom: @modal-paddind-x-xs;
+      background-color: white;
+    }
+
+    .main-modal__footer {
+      margin-top: auto;
+    }
+  });
+}
+
+.main-modal__header {
+  padding: @modal-paddind-x-xs;
+  .media-up(md; {
+    padding-right: @modal-paddind-x-md;
+    padding-left: @modal-paddind-x-md;
+  });
+}
+
+.main-modal__header-extended {
+  display: flex;
+  align-items: center;
+}
+
+.main-modal__header-icon {
+  margin-right: 12px;
+}
+
+.main-modal__title {
+  .text-title();
+
+  @media (max-width: @screen-md - 1px) {
+    padding-right: 40px;
+  }
+}
+
+.main-modal__body {
+  padding: @modal-paddind-x-md @modal-paddind-x-xs;
+
+  @media (min-width: @screen-md) {
+    padding-right: @modal-paddind-x-md;
+    padding-left: @modal-paddind-x-md;
+  }
+}
+
+.main-modal__footer {
+  .flex-center-y();
+  padding: @modal-paddind-x-md @modal-paddind-x-xs;
+
+  @media (min-width: @screen-md) {
+    padding-right: @modal-paddind-x-md;
+    padding-left: @modal-paddind-x-md;
+  }
+}
+
+.main-modal__inner-gray {
+  margin-bottom: 48px;
+  padding: 16px 24px;
+  background-color: @gray100;
+  border-radius: @main-border-radius;
+  color: @black;
+  text-align: left;
+  .media-up(md, {
+    margin-bottom: 24px;
+  });
+  .media-up(xl, {
+    margin-right: 10px;
+    margin-left: 10px;
+  });
+}
+
+.main-modal--sign-rental {
+  .container {
+    .media-down(lg; {
+      padding-right: 0;
+      padding-left: 0;
+    });
+  }
+
+  .main-modal__header {
+    padding: 8px 16px;
+    border-bottom: 1px solid @gray300;
+    .media-up(md; {
+      padding-right: 32px;
+      padding-left: 32px;
+    });
+  }
+
+  .main-modal__body {
+    padding: 16px 16px 0;
+    .media-up(md; {
+      padding: 32px 32px 0;
+    });
+  }
+
+  .main-modal__footer {
+    box-shadow: @shadow3;
+    .media-up(md; {
+      padding-right: 32px;
+      padding-left: 32px;
+    });
+  }
+}
+
+.main-modal--search {
+  .main-modal__header {
+    padding-left: 56px;
+  }
+
+  .ant-modal-close {
+    top: 12px;
+    left: 0;
+    right: auto;
+  }
+
+  .main-modal__body {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+.main-modal-date {
+  .main-modal__header {
+    min-height: 82px;
+    padding: 16px 56px;
+    text-align: center;
+  }
+
+  .main-modal__body {
+    padding-top: 0;
+  }
+
+  .ant-modal-close {
+    width: 24px;
+    height: 24px;
+    top: 20px;
+    left: 24px;
+    right: auto;
+
+    .ant-modal-close-x {
+      width: 100%;
+      height: 100%;
+      line-height: 1;
+    }
+  }
+
+  .ant-picker-panels {
+    flex-direction: column;
+  }
+}
+
+.main-modal-date-clear {
+  position: absolute;
+  top: 20px;
+  right: 16px;
+}
+
+.main-modal--full-screen--mandatory {
+  width: 100vw !important;
+}
+
+.main-modal--trip-details {
+  display: flex;
+  flex-direction: column;
+  width: 100% !important;
+  min-height: 100%;
+  padding: 0;
+
+  .ant-modal-content {
+    flex: 1;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .ant-modal-body {
+    height: 100%;
+  }
+
+  .main-modal__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .main-modal__header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 8px 16px;
+    background-color: white;
+    border-bottom: 1px solid @gray300;
+    .media-up(md; {
+      padding-right: 32px;
+      padding-left: 32px;
+    });
+  }
+
+  .main-modal__body {
+    padding: 16px;
+    .media-up(md; {
+      padding: 24px 32px;
+    });
+  }
+
+  .main-modal__footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    margin-top: auto;
+    background-color: white;
+    .media-up(md; {
+      padding: 24px 32px;
+    });
+  }
+
+  .van-details__sticky-card {
+    display: block;
+  }
+
+  .van-details__sticky-card-header {
+    border-radius: @main-border-radius;
+  }
+
+  .van-details__sticky-card-body {
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+}
+
+.camper-fees-processing-modal__close-icon {
+  font-size: 17px;
+  color: #c8ced8;
+}
+
+.camper-fees-processing-modal__close-icon-wrapper {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.camper-fees-processing-modal__row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.camper-fees-processing-modal__row-bold {
+  color: #13284c;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  line-height: 24px;
+}
+
+.camper-fees-processing-modal__row:last-child {
+  margin-bottom: 0;
+}
+
+.camper-fees-processing-modal__fee {
+  display: flex;
+  flex: 1;
+}
+
+.camper-fees-processing-modal__price {
+  color: #13284c;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  text-align: right;
+}

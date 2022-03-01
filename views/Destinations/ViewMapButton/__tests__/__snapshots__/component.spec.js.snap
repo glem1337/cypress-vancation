@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewMapButton component tests matches snapshot 1`] = `
+<GradientButton
+  className="search-page__map-btn d-lg-none search-page__map-btn--show"
+  icon={
+    <i
+      className="icon icon-map"
+    />
+  }
+  id="search-page__map-btn"
+  onClick={[MockFunction]}
+  text={
+    Object {
+      "id": "shared.viewMap",
+    }
+  }
+/>
+`;

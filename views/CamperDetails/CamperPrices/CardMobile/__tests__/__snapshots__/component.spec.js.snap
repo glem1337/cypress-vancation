@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CamperPricesModal component tests matches snapshot 1`] = `
+<aside
+  className="van-details__trip-details van-details__trip-details--open"
+>
+  <div
+    className="van-details__trip-details-header"
+  >
+    <div
+      className="d-flex align-items-center justify-content-space-between"
+    >
+      <div
+        className="text-title"
+      >
+        <Memo(FormattedMessage)
+          id="shared.yourTrip"
+        />
+      </div>
+      <Button
+        icon={
+          <i
+            className="icon icon-cross"
+          />
+        }
+        onClick={[MockFunction]}
+        shape="circle"
+        size="large"
+        type="secondary"
+      />
+    </div>
+  </div>
+  <div
+    className="van-details__trip-details-body"
+  >
+    <div
+      className="van-details__sticky-card"
+    >
+      <div
+        className="van-details__sticky-card-header"
+      >
+        <div>
+          <p
+            className="text-title in-white mb-2"
+          >
+            campervanMake
+          </p>
+          <p
+            className="van-details__sticky-card-header-txt mb-2"
+          >
+            campervanModel
+          </p>
+          <div
+            className="d-flex align-items-center"
+          >
+            <i
+              className="icon icon-flash-f mr-8 in-yellow-1000"
+            />
+            <p
+              className="text-title in-white"
+            >
+              $566
+              <span
+                className="van-details__sticky-card-header-txt font-12 font-400"
+              >
+                 / night
+              </span>
+            </p>
+          </div>
+        </div>
+        <div
+          className="van-details__sticky-card-header-img"
+        >
+          <img
+            alt=""
+            src="mainPhotoUrl"
+          />
+        </div>
+      </div>
+      <div
+        className="van-details__sticky-card-body"
+      >
+        <DepartureReturnWidget
+          popupClasses="departure-return__calendar-modal"
+          showClearButton={true}
+          showPairMonth={true}
+          wrapperClasses="mb-16"
+        />
+        <div
+          className="d-flex align-items-center justify-content-space-between mb-16"
+        >
+          <div
+            className="d-flex align-items-center"
+          >
+            $222 x 2 night
+            <TooltipIcon
+              iconClass="icon-info-f"
+              phrase="some text"
+            />
+          </div>
+          <span>
+            $222
+          </span>
+        </div>
+        <div
+          className="d-flex align-items-center justify-content-space-between"
+        >
+          <a
+            className="main-link"
+            href=""
+            onClick={[MockFunction]}
+          >
+            <Memo(FormattedMessage)
+              id="shared.ownerFeesAndProcessing"
+            />
+          </a>
+          <span>
+            $222
+          </span>
+        </div>
+        <Divider
+          className="mt-16 mb-16"
+        />
+        <div
+          className="d-flex align-items-center justify-content-space-between text-title"
+        >
+          0
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="van-details__trip-details-footer"
+  >
+    <BtnGradient
+      className="w-100"
+      isLoading={false}
+      size="large"
+      text={
+        <Memo(FormattedMessage)
+          id="shared.instantBook"
+        />
+      }
+    />
+  </div>
+</aside>
+`;
+
+exports[`CamperPricesModal component tests matches snapshot when is fetching 1`] = `
+<aside
+  className="van-details__trip-details van-details__trip-details--open"
+>
+  <div
+    className="van-details__trip-details-header"
+  >
+    <div
+      className="d-flex align-items-center justify-content-space-between"
+    >
+      <div
+        className="text-title"
+      >
+        <Memo(FormattedMessage)
+          id="shared.yourTrip"
+        />
+      </div>
+      <Button
+        icon={
+          <i
+            className="icon icon-cross"
+          />
+        }
+        onClick={[MockFunction]}
+        shape="circle"
+        size="large"
+        type="secondary"
+      />
+    </div>
+  </div>
+  <div
+    className="van-details__trip-details-body"
+  >
+    <div
+      className="van-details__sticky-card"
+    >
+      <div
+        className="van-details__sticky-card-header"
+      >
+        <div>
+          <p
+            className="text-title in-white mb-2"
+          >
+            campervanMake
+          </p>
+          <p
+            className="van-details__sticky-card-header-txt mb-2"
+          >
+            campervanModel
+          </p>
+          <div
+            className="d-flex align-items-center"
+          >
+            <i
+              className="icon icon-flash-f mr-8 in-yellow-1000"
+            />
+            <p
+              className="text-title in-white"
+            >
+              $566
+              <span
+                className="van-details__sticky-card-header-txt font-12 font-400"
+              >
+                 / night
+              </span>
+            </p>
+          </div>
+        </div>
+        <div
+          className="van-details__sticky-card-header-img"
+        >
+          <img
+            alt=""
+            src="mainPhotoUrl"
+          />
+        </div>
+      </div>
+      <div
+        className="van-details__sticky-card-body"
+      >
+        <DepartureReturnWidget
+          popupClasses="departure-return__calendar-modal"
+          showClearButton={true}
+          showPairMonth={true}
+          wrapperClasses="mb-16"
+        />
+        <SkeletonText
+          rows={2}
+        />
+        <Divider
+          className="mt-16 mb-16"
+        />
+        <SkeletonTitle
+          className="h-20"
+          width={100}
+        />
+        <SkeletonTitle
+          className="mb-0"
+          width={100}
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="van-details__trip-details-footer"
+  >
+    <BtnGradient
+      className="w-100"
+      isLoading={false}
+      size="large"
+      text={
+        <Memo(FormattedMessage)
+          id="shared.instantBook"
+        />
+      }
+    />
+  </div>
+</aside>
+`;

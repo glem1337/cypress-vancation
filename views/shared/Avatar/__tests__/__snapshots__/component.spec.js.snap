@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar component matches snapshot with \`avatarUrls: {}\` 1`] = `
+<div
+  className="main-userpic main-userpic--initials d-flex justify-content-center align-items-center relative"
+>
+  <p
+    className="main-userpic__initials"
+  >
+    BD
+  </p>
+</div>
+`;
+
+exports[`Avatar component matches snapshot with default props 1`] = `
+<div
+  className="main-userpic"
+  style={
+    Object {
+      "backgroundImage": "url(http://example.com/avatar_original)",
+    }
+  }
+/>
+`;

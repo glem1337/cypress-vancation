@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IdeasNextTrip container snapshot 1`] = `
+<IdeasNextTrip
+  containerRef={
+    Object {
+      "current": null,
+    }
+  }
+  currentLocation={
+    Object {
+      "isLocationRequested": true,
+      "latitude": 1,
+      "longitude": 2,
+    }
+  }
+  dataDeleteEntity={[Function]}
+  epicenterLocations={
+    Array [
+      Object {
+        "id": "d6474150-554e-4454-b1f1-6335a6b89fc7",
+        "locationName": "test city 4",
+        "slug": "test-city-4",
+        "stateLandingName": "New York",
+        "stateLandingSlug": "new-york",
+      },
+    ]
+  }
+  epicenterLocationsItems={
+    Array [
+      Object {
+        "id": "d6474150-554e-4454-b1f1-6335a6b89fc7",
+        "link": "/campervan-rental/new-york/test-city-4",
+        "subtitle": "New York",
+        "title": "test city 4",
+      },
+    ]
+  }
+  fetchEpicenterLocations={[Function]}
+  fetchHomeStates={[Function]}
+  fetchNearestDestinations={[Function]}
+  handlerShowAllStates={[Function]}
+  homeStates={
+    Array [
+      Object {
+        "id": "cfe698ba-8345-49ba-80b7-aef3a522276a",
+        "slug": "kansas",
+        "state": "Kansas",
+      },
+    ]
+  }
+  homeStatesItems={
+    Array [
+      Object {
+        "id": "cfe698ba-8345-49ba-80b7-aef3a522276a",
+        "link": "/campervan-rental/kansas",
+        "title": "Kansas",
+      },
+    ]
+  }
+  isLoadingEpicenterLocations={false}
+  isLoadingHomeStates={false}
+  isLoadingNearestDestinations={false}
+  isVisible={true}
+  nearestDestinations={
+    Array [
+      Object {
+        "id": "32fb2587-2dfb-40b9-9c81-584822b0ac7f",
+        "landingName": "New York",
+        "landingSlug": "new-york",
+        "landingType": "state_landing",
+        "latitude": 40.73061,
+        "longitude": -73.935242,
+        "mainPhotoUrl": "https://vancation-api-staging-assets.s3.us-west-1.amazonaws.com/store/statelanding/32fb2587-2dfb-40b9-9c81-584822b0ac7f/main_photo/61fd9bccd8fb04fe0dfb15688f474e6b.jpg",
+        "searchRadius": 4,
+        "stateName": null,
+        "stateSlug": null,
+      },
+      Object {
+        "id": "32fb2587-2dfb-40b9-9c81-584822b0ac7f",
+        "landingName": "My Place",
+        "landingSlug": "my-place",
+        "landingType": "location_landing",
+        "latitude": 40.73061,
+        "longitude": -73.935242,
+        "mainPhotoUrl": "https://vancation-api-staging-assets.s3.us-west-1.amazonaws.com/store/statelanding/32fb2587-2dfb-40b9-9c81-584822b0ac7f/main_photo/61fd9bccd8fb04fe0dfb15688f474e6b.jpg",
+        "searchRadius": 4,
+        "stateName": "New York",
+        "stateSlug": "new-york",
+      },
+    ]
+  }
+  nearestDestinationsItems={
+    Array [
+      Object {
+        "id": "32fb2587-2dfb-40b9-9c81-584822b0ac7f",
+        "link": "/campervan-rental/new-york",
+        "title": "New York",
+      },
+      Object {
+        "id": "32fb2587-2dfb-40b9-9c81-584822b0ac7f",
+        "link": "/campervan-rental/new-york/my-place",
+        "subtitle": "New York",
+        "title": "My Place",
+      },
+    ]
+  }
+  setShowAllStates={[Function]}
+  showAllState={false}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;

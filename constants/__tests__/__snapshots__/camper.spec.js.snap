@@ -1,0 +1,386 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`camper constants matches snapshot 1`] = `
+Object {
+  "CAMPER_INCLUSION": Object {
+    "AMENITIES": Object {
+      "AMENITY_OPTIONS": Object {
+        "INDEX": "amenities.amenity_options",
+        "SUB_AMENITIES": "amenities.amenity_options.sub_amenities",
+      },
+      "CONFIGURATION_AMENITY": Object {
+        "CONFIGURATION_AMENITY_OPTIONS": Object {
+          "CONFIGURATION_SUB_AMENITIES": "amenities.configuration_amenity.configuration_amenity_options.configuration_sub_amenities",
+          "INDEX": "amenities.configuration_amenity.configuration_amenity_options",
+        },
+        "CONFIGURATION_SUB_AMENITIES": "amenities.configuration_amenity.configuration_sub_amenities",
+        "INDEX": "amenities.configuration_amenity",
+      },
+      "CUSTOM_AMENITIES": "amenities.custom_amenities",
+      "INDEX": "amenities",
+      "SUB_AMENITIES": "amenities.sub_amenities",
+    },
+    "CAMPER_ADDITION": Object {
+      "AMENITY_HEALTH_SAFETY_ITEMS": "camper_addition.amenity_health_safety_items",
+      "CAMPER_DOCUMENTS": "camper_addition.camper_documents",
+      "CAMPER_QUESTIONS": "camper_addition.camper_questions",
+      "CAMPER_TRAVEL_ACCESSORIES": "camper_addition.camper_travel_accessories",
+      "CUSTOM_RESTRICTION_ROADS": "camper_addition.custom_restriction_roads",
+      "CUSTOM_RESTRICTION_RULES": "camper_addition.custom_restriction_rules",
+      "CUSTOM_TRAVEL_ACCESSORIES": "camper_addition.custom_travel_accessories",
+      "CUSTOM_TRAVEL_RESTRICTIONS": "camper_addition.custom_travel_restrictions",
+      "INDEX": "camper_addition",
+      "RESTRICTION_ROAD": "camper_addition.restriction_road",
+      "RESTRICTION_RULE": "camper_addition.restriction_rule",
+      "TRAVEL_RESTRICTION": "camper_addition.travel_restriction",
+    },
+    "CAMPER_CALENDAR": Object {
+      "BLOCKED_PERIODS": "camper_calendar.blocked_periods",
+      "DISCOUNT_PERIODS": "camper_calendar.custom_discount_periods",
+      "EXTERNAL_CALENDARS": Object {
+        "EVENTS": "camper_calendar.external_calendars.events",
+        "INDEX": "camper_calendar.external_calendars",
+      },
+      "INDEX": "camper_calendar",
+      "PRICING_PERIODS": "camper_calendar.pricing_periods",
+    },
+    "CAMPER_PHOTOS": "camper_photos",
+    "CAMPER_RULE": "camper_rule",
+    "DELIVERY_INFORMATION": "delivery_information",
+    "INSURANCE_INFO": "insurance_info",
+    "OWNER": "owner",
+    "PRICING_INFO": Object {
+      "INDEX": "camper_calendar.pricing_info",
+      "WEEK_NIGHT_PRICE": "camper_calendar.pricing_info.week_night_price",
+    },
+    "SPECIFICATIONS_DETAILS": "specification_detail",
+    "TRIP_FEE": Object {
+      "CUSTOM_FEES": "trip_fee.custom_fees",
+      "INDEX": "trip_fee",
+      "TRIP_FEE_GENERATOR": "trip_fee.trip_fee_generator",
+      "TRIP_FEE_MILEAGE": "trip_fee.trip_fee_mileage",
+    },
+    "VEHICLE": Object {
+      "MAKES": "vehicle_makes",
+      "MODELS": "vehicle_makes.vehicle_models",
+    },
+  },
+  "CAMPER_PHOTO_DEFAULT": "/images/camper-default.jpg",
+  "CAMPER_STATUS": Object {
+    "ALL": "all",
+    "DEACTIVATED": "deactivated",
+    "DRAFT": "draft",
+    "ON_MODERATION": "on_moderation",
+    "PUBLISHED": "published",
+    "REMOVED": "removed",
+    "UNPUBLISHED": "unpublished",
+  },
+  "CANCELLATION_POLICY_DESCRIPTION_BY_VALUE": Object {
+    "by_the_book": Object {
+      "description": Object {
+        "id": "addNewCamper.policies.bookDescription",
+      },
+      "title": Object {
+        "id": "addNewCamper.policies.bookTitle",
+      },
+    },
+    "easy_going": Object {
+      "description": Object {
+        "id": "addNewCamper.policies.easyDescription",
+      },
+      "title": Object {
+        "id": "addNewCamper.policies.easyTitle",
+      },
+    },
+    "firm_but_fair": Object {
+      "description": Object {
+        "id": "addNewCamper.policies.firmDescription",
+      },
+      "title": Object {
+        "id": "addNewCamper.policies.firmTitle",
+      },
+    },
+  },
+  "CURRENT_MILEAGE": Array [
+    Object {
+      "label": "Under 50,000",
+      "value": "Under 50,000",
+    },
+    Object {
+      "label": "50,001 - 90,000",
+      "value": "50,001 - 90,000",
+    },
+    Object {
+      "label": "90,001 - 130,000",
+      "value": "90,001 - 130,000",
+    },
+    Object {
+      "label": "130,001 - 200,000",
+      "value": "130,001 - 200,000",
+    },
+    Object {
+      "label": "200,001+",
+      "value": "200,001+",
+    },
+  ],
+  "DEFAULT_MIN_NIGHT_STAY": 2,
+  "DRIVETRAIN": Array [
+    Object {
+      "label": Object {
+        "id": "shared.RWD",
+      },
+      "value": "rwd",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.FWD",
+      },
+      "value": "fwd",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.4X4",
+      },
+      "value": "4x4",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.WD",
+      },
+      "value": "wd",
+    },
+  ],
+  "FINISH_RANGE_LENGTH_CAMPER": 40,
+  "FINISH_RANGE_LENGTH_CAMPER_FLOAT": 30,
+  "FORM_VALIDATION": Object {
+    "IMAGE_TYPES": "image/jpeg, image/png, image/jpg",
+    "MAX_CUSTOM_FEES_COUNT": 5,
+    "MAX_LISTING_DESCRIPTION": 2000,
+    "MAX_LISTING_NAME": 74,
+    "MAX_PHOTOS_COUNT": 30,
+    "MAX_PHOTOS_SIZE": 10485760,
+  },
+  "FUEL_TYPE": Array [
+    Object {
+      "label": Object {
+        "id": "shared.diesel",
+      },
+      "value": "diesel",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.gas",
+      },
+      "value": "gas",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.electric",
+      },
+      "value": "electric",
+    },
+  ],
+  "INSIDE_HEIGHT": Array [
+    Object {
+      "description": Object {
+        "id": "addNewCamper.camperDetails.from.insideStandingHeight",
+      },
+      "img": "/images/listing/High-Top.svg",
+      "label": Object {
+        "id": "addNewCamper.camperDetails.from.highTop",
+      },
+      "value": "hight_top",
+    },
+    Object {
+      "description": Object {
+        "id": "addNewCamper.camperDetails.from.lowInsideStandingHeightPoppedUp",
+      },
+      "img": "/images/listing/Pop-Top.svg",
+      "label": Object {
+        "id": "addNewCamper.camperDetails.from.popTop",
+      },
+      "value": "pop_top",
+    },
+    Object {
+      "description": Object {
+        "id": "addNewCamper.camperDetails.from.lowInsideStandingHeight",
+      },
+      "img": "/images/listing/Low-Top.svg",
+      "label": Object {
+        "id": "addNewCamper.camperDetails.from.lowTop",
+      },
+      "value": "low_top",
+    },
+    Object {
+      "description": Object {
+        "id": "addNewCamper.camperDetails.from.typicallyLowTopVehicle",
+      },
+      "img": "/images/listing/Roof-Top-Tent.svg",
+      "label": Object {
+        "id": "addNewCamper.camperDetails.from.roofTopTent",
+      },
+      "value": "roof_top",
+    },
+  ],
+  "MAX_SEAT_SLEEP_PLACE": 20,
+  "MIN_SEAT_SLEEP_PLACE": 1,
+  "POLICIES_FORM_DEFAULT_VALUES": Object {
+    "AUTO_BLOCKED_DAYS": 1,
+    "BOOKING_APPROVAL_POLICY": "instant_book",
+    "CANCELLATION_POLICY": "easy_going",
+    "DEPOSIT": 2500,
+    "REQUEST_NOTICE": false,
+  },
+  "POLICIES_FORM_NOTICE_OPTIONS": Array [
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 1,
+        },
+      },
+      "value": 1,
+    },
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 2,
+        },
+      },
+      "value": 2,
+    },
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 3,
+        },
+      },
+      "value": 3,
+    },
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 4,
+        },
+      },
+      "value": 4,
+    },
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 5,
+        },
+      },
+      "value": 5,
+    },
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 6,
+        },
+      },
+      "value": 6,
+    },
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 7,
+        },
+      },
+      "value": 7,
+    },
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 8,
+        },
+      },
+      "value": 8,
+    },
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 9,
+        },
+      },
+      "value": 9,
+    },
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 10,
+        },
+      },
+      "value": 10,
+    },
+  ],
+  "POLICIES_FORM_VALUES": Object {
+    "BY_THE_BOOK": "by_the_book",
+    "EASY_GOING": "easy_going",
+    "FIRM_BUT_FAIR": "firm_but_fair",
+    "INSTANT_BOOK": "instant_book",
+    "REVIEW": "review",
+  },
+  "START_RANGE_AGE_CAMPER": 1970,
+  "START_RANGE_LENGTH_CAMPER": 10,
+  "START_RANGE_LENGTH_CAMPER_FLOAT": 16,
+  "TRANSMISSION": Array [
+    Object {
+      "label": Object {
+        "id": "shared.automatic",
+      },
+      "value": "automatic",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.manual",
+      },
+      "value": "manual",
+    },
+  ],
+  "TRIP_FEES": Object {
+    "DUMPING_VALUES": Object {
+      "DUMPING": 0,
+      "FLUE": 20,
+      "LATE_DROP_OFF": 20,
+    },
+    "FREQUENCY_OPTIONS": Object {
+      "PER_DAY": Object {
+        "LABEL": Object {
+          "id": "addNewCamper.tripFees.perDay",
+        },
+        "VALUE": "per_day",
+      },
+      "PER_EACH": Object {
+        "LABEL": Object {
+          "id": "addNewCamper.tripFees.perEach",
+        },
+        "VALUE": "per_each",
+      },
+      "PER_HOUR": Object {
+        "LABEL": Object {
+          "id": "addNewCamper.tripFees.perHour",
+        },
+        "VALUE": "per_hour",
+      },
+    },
+    "GENERATOR_VALUES": Object {
+      "LIMITED": "limited",
+      "UNLIMITED": "unlimited",
+    },
+    "MILEAGE_VALUES": Object {
+      "LIMITED": "limited",
+      "UNLIMITED": "unlimited",
+    },
+  },
+}
+`;

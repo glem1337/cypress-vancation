@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Amenities component tests matches snapshot 1`] = `
+<withRouter(EditCamper)
+  canSave={true}
+  hasFooter={true}
+  isLoading={false}
+  leavePageMethod={[MockFunction]}
+  onSave={[MockFunction]}
+>
+  <div
+    className="container"
+  >
+    <ForwardRef(InternalForm)>
+      <Row
+        gutter={24}
+      >
+        <Col
+          span={24}
+        >
+          <h1
+            className="text-headline mb-8"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.amenities.title"
+            />
+          </h1>
+          <AmenitySection
+            handleSwitchChange={[MockFunction]}
+            icon={null}
+            index={0}
+            items={
+              Array [
+                Object {
+                  "icon": "/images/listing/amenities-svg/climate_control/ceiling-fan.svg",
+                  "id": "1",
+                  "state": false,
+                  "title": "Сeiling fan",
+                },
+              ]
+            }
+            onMaxAccommodationQuantityCallback={[MockFunction]}
+            options={
+              Array [
+                Object {
+                  "configurationSubAmenities": Array [
+                    Object {
+                      "icon": "/images/listing/amenities-svg/climate_control/ceiling-fan.svg",
+                      "id": "1",
+                      "state": false,
+                      "title": "Сeiling fan",
+                    },
+                  ],
+                  "icon": "/images/listing/amenities-svg/climate_control/ceiling-fan.svg",
+                  "id": "1",
+                  "state": false,
+                  "title": "Сeiling fan",
+                },
+              ]
+            }
+            title="Climate control"
+            withDivider={false}
+          />
+          <Divider />
+          <HealthAndSafetySection
+            items={
+              Array [
+                Object {
+                  "icon": "some icon",
+                  "id": "some id",
+                  "title": "some title",
+                },
+              ]
+            }
+          />
+        </Col>
+      </Row>
+    </ForwardRef(InternalForm)>
+  </div>
+</withRouter(EditCamper)>
+`;
+
+exports[`Amenities component tests matches snapshot when camper amenities does not exist 1`] = `
+<withRouter(EditCamper)
+  canSave={true}
+  hasFooter={true}
+  isLoading={false}
+  leavePageMethod={[MockFunction]}
+  onSave={[MockFunction]}
+>
+  <div
+    className="container"
+  >
+    <ForwardRef(InternalForm)>
+      <Row
+        gutter={24}
+      >
+        <Col
+          span={24}
+        >
+          <h1
+            className="text-headline mb-8"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.amenities.title"
+            />
+          </h1>
+          <Skeleton
+            active={true}
+            avatar={false}
+            paragraph={true}
+            title={true}
+          />
+        </Col>
+      </Row>
+    </ForwardRef(InternalForm)>
+  </div>
+</withRouter(EditCamper)>
+`;

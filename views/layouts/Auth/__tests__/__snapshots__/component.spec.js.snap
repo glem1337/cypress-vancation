@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthLayout component tests matches snapshot 1`] = `
+<div
+  className="main-wrap"
+>
+  <div
+    className="auth-main justify-content-flex-start flex-column"
+  >
+    <GuestHeader />
+    Foo
+  </div>
+</div>
+`;
+
+exports[`AuthLayout component tests when className 1`] = `
+<div
+  className="main-wrap class-test"
+>
+  <div
+    className="auth-main justify-content-flex-start flex-column"
+  >
+    <GuestHeader />
+    Foo
+  </div>
+</div>
+`;
+
+exports[`AuthLayout component tests when withSidebar 1`] = `
+<div
+  className="main-wrap"
+>
+  <WelcomeSidebarComponent />
+  <div
+    className="auth-main"
+  >
+    <div
+      className="auth-main__container"
+    >
+      Foo
+    </div>
+  </div>
+</div>
+`;

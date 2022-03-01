@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component tests matches snapshot 1`] = `
+<div
+  className="search-destinations__footer"
+>
+  <GradientButton
+    className="min-w-140"
+    icon={
+      <ForwardRef(SearchOutlined)
+        style={
+          Object {
+            "fontSize": 22,
+          }
+        }
+      />
+    }
+    onClick={[MockFunction]}
+    size="large"
+    text={
+      Object {
+        "id": "shared.search",
+      }
+    }
+  />
+</div>
+`;

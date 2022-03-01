@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupedMenu component tests component prop getPopupContainer snapshot 1`] = `""`;
+
+exports[`GroupedMenu component tests matches snapshot 1`] = `
+<div
+  className="main-account-header__grouped-menu"
+  id="main-account-header__grouped-menu"
+>
+  <Dropdown
+    getPopupContainer={[Function]}
+    mouseEnterDelay={0.15}
+    mouseLeaveDelay={0.1}
+    overlay={
+      <MenuContent
+        isUserLoggedIn={true}
+        showOwnersDashboard={true}
+      />
+    }
+    overlayClassName="main-account-header__grouped-overlay"
+    placement="bottomRight"
+  >
+    <div>
+      <span
+        className="main-account-header__item-txt"
+      >
+        <Memo(FormattedMessage)
+          id="shared.groupedMenu"
+        />
+      </span>
+      <i
+        className="icon icon-down in-black font-16"
+      />
+    </div>
+  </Dropdown>
+</div>
+`;

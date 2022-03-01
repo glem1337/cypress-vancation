@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FanFacts useContainer hook matches snapshot 1`] = `
+Object {
+  "areCampersExist": true,
+  "description": "test title",
+  "facts": Array [
+    Object {
+      "id": 1,
+    },
+  ],
+}
+`;

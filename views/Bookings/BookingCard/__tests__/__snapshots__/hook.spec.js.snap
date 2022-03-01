@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookingCard useContainer hook matches snapshot 1`] = `
+Object {
+  "camperName": undefined,
+  "constructDatesString": [Function],
+  "datesString": "Feb 20 - Feb 20, 2000",
+  "detectStatus": [Function],
+  "id": 33,
+  "isFirst": true,
+  "lastMessage": "lastMessageText",
+  "lastMessageDate": "2 days ago",
+  "ownerInfo": Object {
+    "avatar": "https://randomuser.me/api/portraits/women/87.jpg",
+    "isOnline": false,
+    "name": "Dean Joseph",
+  },
+  "setActiveBookingId": [Function],
+  "status": Object {
+    "color": "blue",
+    "id": "shared.inquiry",
+  },
+  "unreadMessagesAmount": 3,
+}
+`;

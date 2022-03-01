@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dashboard constants matches snapshot 1`] = `
+Object {
+  "CAMPERS_FILTER_MAX_ITEMS": 5,
+  "DASHBOARD_CAMPER_MASTER_VIEW_ITEM": Object {
+    "id": "master-view",
+    "label": Object {
+      "id": "shared.masterView",
+    },
+  },
+  "DASHBOARD_TABS": Object {
+    "ALL_CAMPERS": Object {
+      "id": "shared.viewAllCampers",
+      "key": "VIEW_ALL_CAMPERS",
+      "route": "/dashboard/campers",
+    },
+    "CALENDAR": Object {
+      "id": "shared.calendar",
+      "key": "CALENDAR",
+      "route": "/dashboard/calendar",
+    },
+    "MESSAGES": Object {
+      "count": 2,
+      "id": "headerHeader.messages",
+      "key": "MESSAGES",
+      "route": "/dashboard/messages",
+    },
+    "PRICING_AND_AVAILABILITY": Object {
+      "id": "shared.editCamper",
+      "key": "VIEW_EDIT_CAMPER",
+      "route": "/dashboard/edit-camper/pricing-and-availability",
+    },
+    "REPORTING": Object {
+      "id": "shared.reporting",
+      "key": "REPORTING",
+      "route": "/dashboard/reporting",
+    },
+    "RESERVATIONS": Object {
+      "count": 2,
+      "id": "shared.reservations",
+      "key": "RESERVATIONS",
+      "route": "/dashboard/reservations",
+    },
+  },
+  "MOBILE_DROPDOWN_CAMPERS_ID": "uuid/v4",
+  "OWNER_CAMPER_PAGINATION_DEFAULT": Object {
+    "NUMBER": 1,
+    "SIZE": 10,
+    "TOTAL": 1,
+  },
+  "USER_DROPDOWN_ITEMS": Array [
+    Object {
+      "id": "shared.listYourCamper",
+      "route": "/add-new-camper/id/specifications",
+      "selected": true,
+    },
+    Object {
+      "id": "headerHeader.itemHelpFaq",
+      "selected": false,
+    },
+    Object {
+      "id": "headerHeader.viewBusinessProfile",
+      "selected": false,
+    },
+    Object {
+      "id": "settingLayout.itemNotifications",
+      "selected": false,
+    },
+    Object {
+      "id": "headerHeader.payoutPreferences",
+      "selected": false,
+    },
+  ],
+}
+`;

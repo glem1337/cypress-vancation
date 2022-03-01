@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyCamper component tests matches snapshot 1`] = `
+<div
+  className="master-view__empty"
+>
+  <img
+    alt=""
+    className="mb-24"
+    src="/images/Empty.svg"
+  />
+  <p
+    className="mb-24"
+  >
+    <Memo(FormattedMessage)
+      id="shared.youDoNotHaveAnyCampersYet"
+    />
+  </p>
+  <a
+    href="/add-new-camper/id/specifications"
+    rel="noreferrer"
+    target="_blank"
+  >
+    <BtnGradient
+      className="min-w-160"
+      isLoading={false}
+      size="large"
+      text={
+        Object {
+          "id": "shared.listYourCamper",
+        }
+      }
+    />
+  </a>
+</div>
+`;

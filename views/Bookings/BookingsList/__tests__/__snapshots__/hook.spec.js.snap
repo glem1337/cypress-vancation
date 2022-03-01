@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookingsList useContainer hook matches snapshot 1`] = `
+Object {
+  "camperInquiries": Array [
+    Object {
+      "id": 1,
+    },
+  ],
+  "camperInquiriesPage": 1,
+  "camperInquiriesTotal": 22,
+  "containerRef": Object {
+    "current": null,
+  },
+  "isContainerScrolled": false,
+  "isSearchExpanded": false,
+  "onPaginationChange": [Function],
+  "removeScrollListeners": [Function],
+  "scrollHandler": [Function],
+  "setFiltersMenuVisibility": [Function],
+  "setScrollListeners": [Function],
+  "toggleSearchExpandCondition": [Function],
+}
+`;

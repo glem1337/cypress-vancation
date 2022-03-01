@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`amenities camper details constants matches snapshot 1`] = `
+Object {
+  "GLAMPER_CONFIG_ITEM_ID": "glamper-config-item-id",
+  "GLAMPER_DEFAULT_VISIBLE_ITEMS": 6,
+  "GLAMPER_ITEM_CONFIG": Object {
+    "iconUrl": "/images/profile/Diamond.svg",
+    "id": "glamper-config-item-id",
+    "title": Object {
+      "id": "shared.glamperAmenities",
+    },
+  },
+}
+`;

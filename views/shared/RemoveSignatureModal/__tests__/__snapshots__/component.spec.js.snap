@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RemoveSignatureComponent component tests matches snapshot 1`] = `
+<Modal
+  className="main-modal"
+  closeIcon={null}
+  confirmLoading={false}
+  footer={null}
+  maskClosable={false}
+  okType="primary"
+  visible={true}
+  width={520}
+>
+  <div
+    className="main-modal__container"
+  >
+    <div
+      className="main-modal__header"
+    >
+      <h2
+        className="main-modal__title"
+      >
+        Title
+      </h2>
+    </div>
+    <div
+      className="main-modal__body"
+    >
+      <p>
+        Sub Title
+      </p>
+    </div>
+    <div
+      className="main-modal__footer"
+    >
+      <div
+        className="ml-auto"
+      >
+        <Button
+          onClick={[MockFunction]}
+          size="large"
+          type="text"
+        >
+          <Memo(FormattedMessage)
+            id="shared.cancel"
+          />
+        </Button>
+        <Button
+          className="min-w-140 ml-16"
+          disabled={false}
+          loading={false}
+          onClick={[MockFunction]}
+          size="large"
+          type="danger"
+        >
+          <Memo(FormattedMessage)
+            id="shared.remove"
+          />
+        </Button>
+      </div>
+    </div>
+  </div>
+</Modal>
+`;

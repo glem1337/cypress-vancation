@@ -1,0 +1,89 @@
+.ant-notification {
+  position: fixed;
+  top: 16px !important;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  margin-right: 0;
+
+  @media (min-width: @screen-md) {
+    width: auto;
+    margin-right: 32px;
+    transform: none;
+  }
+
+  @media (min-width: @screen-lg) {
+    margin-right: 16px;
+  }
+}
+
+.ant-notification-notice {
+  box-shadow: none;
+
+  @media (max-width: @screen-md - 1px) {
+    margin-right: auto;
+  }
+
+  &.notification--success {
+    background-color: @green200;
+
+    .ant-notification-close-icon {
+      color: @green1000;
+    }
+  }
+}
+
+.ant-notification-notice-message {
+  margin-bottom: 0;
+  color: @green300;
+  font-weight: 600;
+}
+
+.ant-notification-close-icon {
+  &:extend(.icon);
+  &:extend(.icon-cross);
+
+  &::after {
+    content: '\e911';
+  }
+
+  svg {
+    display: none;
+  }
+}
+
+.notification-with-btn {
+  box-shadow: @shadow3;
+
+  .ant-notification-notice-message {
+    .text-title();
+    margin-bottom: 24px;
+    margin-left: 40px;
+  }
+
+  .ant-notification-notice-description {
+    margin-left: 8px;
+  }
+
+  .ant-notification-close-icon {
+    display: none;
+  }
+
+  .ant-notification-notice-btn {
+    margin-top: 24px;
+  }
+}
+
+.notification-without-btn {
+  box-shadow: @shadow3;
+
+  .ant-notification-notice-message {
+    .text-title();
+    margin-bottom: 24px;
+    margin-left: 40px;
+  }
+
+  .ant-notification-notice-description {
+    margin-left: 8px;
+  }
+}

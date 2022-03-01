@@ -1,0 +1,37 @@
+.main-listing-small-card {
+  .flex-center-y();
+  margin-bottom: 16px;
+  padding: 8px;
+  border-radius: @main-border-radius;
+  box-shadow: @shadow6;
+  cursor: pointer;
+  transition: background-color @main-transition-duration;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: @screen-md) {
+    &:hover:not(:disabled) {
+      background-color: @blue100;
+    }
+
+    &:focus:not(:disabled),
+    &:active:not(:disabled) {
+      background-color: @blue200;
+    }
+  }
+}
+
+.main-listing-small-card__img {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  margin-right: 16px;
+  border-radius: 2px;
+  overflow: hidden;
+
+  img {
+    .img-fit();
+  }
+}

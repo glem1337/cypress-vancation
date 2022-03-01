@@ -1,0 +1,107 @@
+@sticky-car-z-index: 4;
+
+.van-details__sticky-card {
+  display: none;
+  .media-up(xl; {
+    display: block;
+    position: sticky;
+    z-index: @sticky-car-z-index;
+    top: 16px;
+    width: 360px;
+    margin-top: -100px;
+    margin-left: auto;
+    border-radius: @main-border-radius;
+    box-shadow: @shadow4;
+    transition: opacity 0.2s, transform 0.4s;
+  });
+}
+
+.van-details__sticky-card--hidden {
+  transform: translateY(-50px);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.van-details__sticky-card-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px 10px;
+  border-top-right-radius: @main-border-radius;
+  border-top-left-radius: @main-border-radius;
+  background: @blue-accent url('/images/details_camp/sticky-card-back.svg') no-repeat center/cover;
+}
+
+.van-details__sticky-card-header-img {
+  position: relative;
+  width: 82px;
+  height: 82px;
+  border-radius: @main-border-radius;
+  overflow: hidden;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: @skeleton-linear-gradient;
+    background-size: 400% 100%;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity @main-transition-props;
+    animation: @skeleton-animation;
+  }
+
+  img {
+    .img-fit();
+  }
+}
+
+.van-details__sticky-card-header-txt {
+  .text-body();
+  color: rgba(white, 0.75);
+}
+
+.van-details__sticky-card-body {
+  padding: 24px;
+  background-color: white;
+  border-bottom-right-radius: @main-border-radius;
+  border-bottom-left-radius: @main-border-radius;
+  color: @black;
+}
+
+.van-details__sticky-card--skeleton {
+  .van-details__sticky-card-header-img {
+    &::after {
+      opacity: 1;
+    }
+
+    img {
+      display: none;
+    }
+  }
+}
+
+.van-details__sticky-card-sticky {
+  .flex-center-y();
+  justify-content: space-between;
+  position: fixed;
+  z-index: @sticky-car-z-index;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 24px @gap-xs;
+  background-color: white;
+  box-shadow: @shadow3;
+
+  @media (min-width: @screen-md) {
+    padding-right: @gap-md;
+    padding-left: @gap-md;
+  }
+
+  @media (min-width: @screen-xl) {
+    display: none;
+  }
+}

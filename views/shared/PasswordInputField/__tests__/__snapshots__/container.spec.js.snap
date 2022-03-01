@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PasswordInputField container renderVisibilityIcon(false) 1`] = `
+<span>
+  <span
+    className="icon icon-eye"
+  />
+</span>
+`;
+
+exports[`PasswordInputField container renderVisibilityIcon(true) 1`] = `
+<span>
+  <span
+    className="icon icon-eye-crossed"
+  />
+</span>
+`;

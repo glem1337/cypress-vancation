@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GuestHeader component matches snapshot 1`] = `
+<header>
+  <Row
+    justify="center"
+  >
+    <Link
+      href="/"
+    >
+      <a>
+        <ForwardRef(FundProjectionScreenOutlined)
+          style={
+            Object {
+              "fontSize": "36px",
+            }
+          }
+        />
+      </a>
+    </Link>
+  </Row>
+</header>
+`;

@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IdVerificationModal component tests matches snapshot 1`] = `
+<Modal
+  className="main-modal main-modal--big"
+  closeIcon={null}
+  confirmLoading={false}
+  footer={null}
+  maskClosable={false}
+  okType="primary"
+  visible={true}
+  width={520}
+>
+  <div
+    className="main-modal__container"
+  >
+    <div
+      className="main-modal__body"
+    >
+      <img
+        alt=""
+        className="mb-md-24"
+        src="/images/listing/Success.svg"
+      />
+      <div
+        className="mb-16 text-headline font-700"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.idModal.title"
+        />
+      </div>
+      <p
+        className="mb-16"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.idModal.description1"
+        />
+      </p>
+      <div
+        className="d-flex align-items-center justify-content-center"
+      >
+        <BtnGradient
+          className="min-w-140 mr-16"
+          isLoading={false}
+          onClick={[MockFunction]}
+          size="large"
+          text={
+            Object {
+              "id": "shared.continue",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</Modal>
+`;
+
+exports[`IdVerificationModal component tests matches snapshot when user is not verified 1`] = `
+<Modal
+  className="main-modal main-modal--big"
+  closeIcon={null}
+  confirmLoading={false}
+  footer={null}
+  maskClosable={false}
+  okType="primary"
+  visible={true}
+  width={520}
+>
+  <div
+    className="main-modal__container"
+  >
+    <div
+      className="main-modal__body"
+    >
+      <img
+        alt=""
+        className="mb-md-24"
+        src="/images/listing/Success.svg"
+      />
+      <div
+        className="mb-16 text-headline font-700"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.idModal.title"
+        />
+      </div>
+      <p
+        className="mb-16"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.idModal.description1"
+        />
+      </p>
+      <p
+        className="mb-48 mb-md-24"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.idModal.description2"
+        />
+      </p>
+      <div
+        className="d-flex align-items-center justify-content-center"
+      >
+        <BtnGradient
+          className="min-w-140 mr-16"
+          isLoading={false}
+          size="large"
+          text={
+            Object {
+              "id": "shared.verifyMyLicence",
+            }
+          }
+        />
+        <Button
+          onClick={[MockFunction]}
+          size="large"
+          type="link"
+        >
+          <Memo(FormattedMessage)
+            id="shared.skipForNow"
+          />
+        </Button>
+      </div>
+    </div>
+  </div>
+</Modal>
+`;

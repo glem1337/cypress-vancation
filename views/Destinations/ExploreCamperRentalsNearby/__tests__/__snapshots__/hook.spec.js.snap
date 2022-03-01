@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExploreCamperRentalsNearby useContainer hook matches snapshot 1`] = `
+Object {
+  "campers": Array [
+    Object {
+      "id": 1,
+      "type": "camper",
+    },
+  ],
+  "constructDestinationLink": [Function],
+  "destinations": Array [
+    Object {
+      "id": 1,
+      "type": "destination",
+    },
+  ],
+  "fetchNearYouDestinations": [Function],
+}
+`;

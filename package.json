@@ -1,0 +1,179 @@
+{
+  "name": "cypress-vancation",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next -- -p 4000",
+    "build": "next build",
+    "start": "next start -p 4000",
+    "lint": "eslint --format codeframe ./",
+    "test": "jest",
+    "test:circle": "jest --coverage --maxWorkers=3",
+    "cypress:open": "cypress open",
+    "cypress:all": "cypress run",
+    "styleguidist": "styleguidist server"
+  },
+  "browserslist": [
+    ">0.3%",
+    "not ie 11",
+    "not dead",
+    "not op_mini all"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.less": [
+      "prettier --write",
+      "stylelint --fix"
+    ]
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/testConfig.js"
+    ],
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/coverage/**",
+      "!cypress/**",
+      "!**/views/stubs/**",
+      "!client/polyfills.js",
+      "!postcss.config.js",
+      "!next.config.js",
+      "!ecosystem.config.js",
+      "!pages/_app.js",
+      "!pages/_document.js",
+      "!views/Gradients/**",
+      "!lib/vendor/**",
+      "!styleguide.config.js",
+      "!styleguidist/**",
+      "!.next/**"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 100
+      }
+    },
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/.*/__mocks__"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less|scss)$": "identity-obj-proxy"
+    },
+    "globalSetup": "<rootDir>/globalTestSetup.js",
+    "testEnvironment": "jsdom"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.6.3",
+    "@babel/core": "^7.15.4",
+    "@babel/plugin-proposal-export-namespace-from": "^7.12.1",
+    "@babel/plugin-proposal-optional-chaining": "^7.12.7",
+    "@testing-library/react-hooks": "^7.0.2",
+    "@turf/turf": "^6.5.0",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-less": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "antd": "^4.16.13",
+    "antd-img-crop": "^3.16.0",
+    "autoprefixer": "^10.3.1",
+    "axios": "^0.21.4",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-dynamic-import-node": "^2.3.3",
+    "babel-plugin-import": "^1.13.3",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-plugin-ramda": "^2.0.0",
+    "classnames": "^2.3.1",
+    "component-cookie": "^1.1.5",
+    "cookie": "^0.4.1",
+    "core-js": "^3.18.1",
+    "fast-deep-equal": "^3.1.3",
+    "formik": "^2.2.6",
+    "intersection-observer": "^0.12.0",
+    "ismobilejs": "^1.1.1",
+    "json-api-normalizer": "^1.0.1",
+    "less": "^4.1.1",
+    "lodash": "^4.17.20",
+    "mapbox-gl": "^2.3.1",
+    "moment": "^2.29.1",
+    "moment-locales-webpack-plugin": "^1.2.0",
+    "next": "10.0.4",
+    "next-compose-plugins": "^2.2.0",
+    "next-cookies": "^2.0.3",
+    "next-env": "^1.1.1",
+    "next-fonts": "^1.4.0",
+    "next-redux-wrapper": "^6.0.2",
+    "null-loader": "^4.0.1",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "postcss": "^8.3.9",
+    "postcss-preset-env": "^6.7.0",
+    "prop-types": "^15.7.2",
+    "purched-antd-icons": "^0.2.2",
+    "qs": "^6.10.1",
+    "ramda": "^0.27.1",
+    "react": "17.0.2",
+    "react-big-calendar": "^0.35.0",
+    "react-calendar": "^3.4.0",
+    "react-dom": "17.0.2",
+    "react-dropzone": "^11.3.4",
+    "react-dynamic-swiper": "^2.0.2",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.2.2",
+    "react-intersection-observer": "^8.32.1",
+    "react-intl": "^5.20.12",
+    "react-intl-redux": "^2.2.0",
+    "react-is-visible": "^1.1.2",
+    "react-map-gl": "^6.1.17",
+    "react-media-match": "^1.14.0",
+    "react-paginate": "^7.0.0",
+    "react-phone-input-2": "^2.14.0",
+    "react-redux": "^7.2.5",
+    "react-remove-scroll": "^2.4.3",
+    "react-share": "^4.4.0",
+    "react-signature-pad": "^0.0.6",
+    "react-styleguidist": "^11.1.5",
+    "redux": "^4.1.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-logic": "^3.0.2",
+    "redux-object": "^1.0.0",
+    "redux-persist": "^6.0.0",
+    "reselect": "^4.0.0",
+    "simple-react-lightbox": "^3.6.8",
+    "sortablejs": "^1.14.0",
+    "swiper": "^6.8.4",
+    "uuid": "^8.3.2",
+    "yup": "^0.32.8"
+  },
+  "devDependencies": {
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
+    "babel-eslint": "^10.1.0",
+    "cypress": "^8.5.0",
+    "cypress-social-logins": "^1.11.3",
+    "enzyme": "^3.11.0",
+    "enzyme-to-json": "^3.6.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-chai-friendly": "^0.7.2",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^7.0.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.1.0",
+    "lint-staged": "^11.1.2",
+    "mockdate": "^3.0.5",
+    "prettier": "^2.4.1",
+    "redux-mock-store": "^1.5.4",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0"
+  }
+}

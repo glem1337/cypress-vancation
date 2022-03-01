@@ -1,0 +1,80 @@
+.ant-tabs-bar {
+  border: none !important;
+  box-shadow: 0 4px 6px 0 rgba(61, 65, 133, 0.08);
+
+  .ant-tabs-tab {
+    font-weight: 600;
+    color: @black-secondary-text;
+
+    &.ant-tabs-tab-active {
+      color: @black-primary-text;
+    }
+
+    &.ant-tabs-tab-disabled {
+      color: @black-disabled-text;
+    }
+
+    &:not(.ant-tabs-tab-disabled):hover,
+    &:not(.ant-tabs-tab-disabled):focus {
+      background-color: @blue-100;
+      transition: all 0s;
+    }
+  }
+
+  &.ant-tabs-top-bar {
+    margin: 0 4px 20px 3px;
+
+    .ant-tabs-tab {
+      margin-right: 0;
+    }
+  }
+
+  &.ant-tabs-left-bar {
+    min-width: 220px;
+    margin: 0 0 8px 4px;
+
+    .ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+      width: 4px;
+      left: 1px;
+    }
+
+    .ant-tabs-tab {
+      text-align: left;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.ant-tabs-tab {
+  font-weight: 600;
+  color: @gray700;
+
+  &:hover {
+    color: @black;
+  }
+
+  &.ant-tabs-tab-active {
+    color: @black;
+  }
+
+  &.ant-tabs-tab-disabled {
+    color: @gray500;
+  }
+
+  .ant-tabs-tab-btn {
+    color: inherit;
+  }
+}
+
+.ant-tabs-content {
+  border: none !important;
+}
+
+.ant-tabs-tab-btn {
+  .text-subheader();
+  color: @gray700;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  .text-subheader();
+}

@@ -1,0 +1,60 @@
+.ant-switch {
+  background-color: @gray500;
+
+  .ant-click-animating-node {
+    display: none !important;
+  }
+
+  &::after {
+    width: 16px;
+    height: 16px;
+    top: 3px;
+  }
+
+  &:focus {
+    box-shadow: unset;
+  }
+}
+
+.ant-switch-disabled {
+  background-color: @disable-back-color;
+
+  .ant-switch-handle::before {
+    box-shadow: @shadow1;
+  }
+}
+
+.ant-switch-small {
+  min-width: 32px;
+  height: 18px;
+
+  .ant-switch-handle {
+    width: 10px;
+    height: 10px;
+  }
+
+  &.ant-switch-checked .ant-switch-handle {
+    left: calc(100% - 10px - @switch-padding);
+  }
+}
+
+.ant-switch-handle {
+  width: 16px;
+  height: 16px;
+
+  &::before {
+    box-shadow: @shadow2;
+  }
+}
+
+.ant-switch-checked {
+  background-color: @blue1000;
+
+  &:focus {
+    box-shadow: unset;
+  }
+
+  .ant-switch-handle {
+    left: calc(100% - @switch-sm-height - @switch-padding);
+  }
+}

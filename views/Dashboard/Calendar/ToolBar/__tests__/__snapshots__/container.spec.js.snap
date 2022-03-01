@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomToolbar container tests checks \`toolbarData\` instance getter 1`] = `
+Object {
+  "canNext": true,
+  "canPrev": true,
+  "month": "February",
+  "year": "2000",
+}
+`;
+
+exports[`CustomToolbar container tests matches snapshot 1`] = `
+<CustomToolbarComponent
+  clearSelectedSlots={[Function]}
+  date={2000-02-20T00:00:00.000Z}
+  label="label"
+  navigate={[Function]}
+  onNavigate={[MockFunction]}
+  setCalendarSettingsVisibility={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  toggleCalendarFooter={[Function]}
+  toggleCalendarSettings={[MockFunction]}
+  toggleFooter={[Function]}
+  toggleSettings={[Function]}
+  toolbarData={
+    Object {
+      "canNext": true,
+      "canPrev": true,
+      "month": "February",
+      "year": "2000",
+    }
+  }
+/>
+`;

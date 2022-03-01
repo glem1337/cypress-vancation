@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`social links constants matches snapshot 1`] = `
+Object {
+  "FACEBOOK": "https://www.facebook.com/govancation/",
+  "INSTAGRAM": "https://www.instagram.com/govancation/",
+  "INSTAGRAM_USER_NAME": "@GoVancation",
+  "PINTEREST": "https://www.pinterest.com/Govancation/",
+}
+`;

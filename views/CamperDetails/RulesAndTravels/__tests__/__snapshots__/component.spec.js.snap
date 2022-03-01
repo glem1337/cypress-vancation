@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RulesAndTravels component tests matches snapshots default 1`] = `
+<Row
+  gutter={24}
+>
+  <Col
+    className="mb-24 mb-md-0"
+    md={12}
+  >
+    <p
+      className="text-headline mb-24"
+    >
+      <Memo(FormattedMessage)
+        id="shared.rules"
+      />
+    </p>
+    <Rules
+      allItemsVisible={true}
+      defaultVisibleCount={4}
+      onToggle={[MockFunction]}
+      totalItems={3}
+      visibleItems={
+        Array [
+          Object {
+            "available": false,
+            "icon": "/path/to/icon",
+            "title": Object {
+              "id": "titleId",
+            },
+          },
+        ]
+      }
+    />
+  </Col>
+  <Col
+    md={12}
+  >
+    <p
+      className="text-headline mb-24"
+    >
+      <Memo(FormattedMessage)
+        id="dashboard.editCamper.rulesAndTravels.travels.title"
+      />
+    </p>
+    <Row
+      gutter={24}
+    >
+      <Col
+        span={12}
+      >
+        <p
+          className="mb-16"
+        >
+          <Memo(FormattedMessage)
+            id="shared.location"
+          />
+        </p>
+        <Rules
+          allItemsVisible={true}
+          defaultVisibleCount={3}
+          onToggle={[MockFunction]}
+          totalItems={4}
+          visibleItems={
+            Array [
+              Object {
+                "available": false,
+                "icon": "/path/to/icon",
+                "title": Object {
+                  "id": "titleId",
+                },
+              },
+            ]
+          }
+        />
+      </Col>
+      <Col
+        span={12}
+      >
+        <p
+          className="mb-16"
+        >
+          <Memo(FormattedMessage)
+            id="dashboard.editCamper.rulesAndTravels.roads.title"
+          />
+        </p>
+        <Rules
+          allItemsVisible={true}
+          defaultVisibleCount={3}
+          onToggle={[MockFunction]}
+          totalItems={5}
+          visibleItems={
+            Array [
+              Object {
+                "available": false,
+                "icon": "/path/to/icon",
+                "title": Object {
+                  "id": "titleId",
+                },
+              },
+            ]
+          }
+        />
+      </Col>
+    </Row>
+  </Col>
+</Row>
+`;
+
+exports[`RulesAndTravels component tests matches snapshots when camper doesnt exist 1`] = `
+<Row
+  gutter={24}
+>
+  <Col
+    className="mb-24 mb-md-0"
+    md={12}
+  >
+    <div
+      className="skeleton__title w-100"
+    />
+    <SkeletonText
+      rows={2}
+    />
+  </Col>
+  <Col
+    md={12}
+  >
+    <Row
+      gutter={24}
+    >
+      <Col
+        span={12}
+      >
+        <div
+          className="skeleton__title w-100"
+        />
+        <SkeletonText
+          rows={2}
+        />
+      </Col>
+      <Col
+        span={12}
+      >
+        <div
+          className="skeleton__title w-100"
+        />
+        <SkeletonText
+          rows={2}
+        />
+      </Col>
+    </Row>
+  </Col>
+</Row>
+`;
+
+exports[`RulesAndTravels component tests matches snapshots when doesnt initialized 1`] = `
+<Row
+  gutter={24}
+/>
+`;
+
+exports[`RulesAndTravels component tests matches snapshots when loading 1`] = `
+<Row
+  gutter={24}
+>
+  <Col
+    className="mb-24 mb-md-0"
+    md={12}
+  >
+    <div
+      className="skeleton__title w-100"
+    />
+    <SkeletonText
+      rows={2}
+    />
+  </Col>
+  <Col
+    md={12}
+  >
+    <Row
+      gutter={24}
+    >
+      <Col
+        span={12}
+      >
+        <div
+          className="skeleton__title w-100"
+        />
+        <SkeletonText
+          rows={2}
+        />
+      </Col>
+      <Col
+        span={12}
+      >
+        <div
+          className="skeleton__title w-100"
+        />
+        <SkeletonText
+          rows={2}
+        />
+      </Col>
+    </Row>
+  </Col>
+</Row>
+`;

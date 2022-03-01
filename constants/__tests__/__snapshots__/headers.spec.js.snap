@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`users constants matches snapshot 1`] = `
+Object {
+  "HEADER_USER_ITEMS": Array [
+    Object {
+      "contentId": "headerHeader.itemAccount",
+      "key": "ACCOUNT",
+      "path": "/settings/account",
+    },
+    Object {
+      "contentId": "headerHeader.itemTrips",
+      "key": "trips",
+      "path": "/trips",
+    },
+    Object {
+      "contentId": "headerHeader.itemFavorites",
+      "key": "favorites",
+      "path": "/favorites",
+    },
+    Object {
+      "contentId": "headerHeader.itemHelpFaq",
+      "key": "help",
+      "path": "/help",
+    },
+    Object {
+      "contentId": "shared.listYourCamper",
+      "key": "SPECIFICATIONS",
+      "path": "/add-new-camper/id/specifications",
+    },
+  ],
+}
+`;

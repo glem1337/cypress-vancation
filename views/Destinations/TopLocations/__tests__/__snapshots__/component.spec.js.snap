@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BestCampers component tests matches snapshot 1`] = `
+<Fragment>
+  <Divider
+    className="mt-16 mb-16"
+  />
+  <div
+    className="main-slider-container"
+  >
+    <h2
+      className="text-subheader mr-32 mr-lg-148 mb-16"
+    >
+      <InnerHtmlField
+        WrapperTag="span"
+        html="title"
+      />
+    </h2>
+    <div
+      className="main-slider-wrap"
+    >
+      <Swiper
+        className="search-page__results-slider"
+        key="uuid"
+      >
+        <SwiperSlide
+          key="1"
+        >
+          <Link
+            href="/campervan-rental/stateSlug/slug"
+          >
+            <a
+              className="search-page__card"
+              target="_blank"
+            >
+              <img
+                alt=""
+                src="mainPhotoUrl360"
+              />
+              <h3
+                className="search-page__card-title"
+              >
+                locationName
+              </h3>
+            </a>
+          </Link>
+        </SwiperSlide>
+      </Swiper>
+      <div
+        className="search-page__slider-nav"
+      >
+        <Button
+          icon={
+            <i
+              className="icon icon-left font-14"
+            />
+          }
+          onClick={[MockFunction]}
+          shape="circle"
+          type="secondary"
+        />
+        <Button
+          className="ml-16"
+          icon={
+            <i
+              className="icon icon-right font-14"
+            />
+          }
+          onClick={[MockFunction]}
+          shape="circle"
+          type="secondary"
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`BestCampers component tests matches snapshot when data does not exist 1`] = `""`;

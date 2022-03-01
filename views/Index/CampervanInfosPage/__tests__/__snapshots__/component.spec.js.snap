@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CampervanRentalsPage component tests matches snapshot 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+      "minHeight": "100vh",
+    }
+  }
+>
+  <Connect(UserHeader) />
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "flex": 1,
+        "padding": "20px",
+      }
+    }
+  >
+    Campervan Rentals Page
+  </div>
+  <Footer />
+</div>
+`;

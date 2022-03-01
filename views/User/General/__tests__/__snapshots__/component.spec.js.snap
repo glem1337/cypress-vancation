@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserGeneral component matches snapshot with avatar url 1`] = `
+<div
+  className="employee-profile__card-section"
+  data-cy="profile-general"
+>
+  <p
+    className="employee-profile__card-section-title"
+  >
+    <span
+      className="mr-8"
+    >
+      <Memo(FormattedMessage)
+        id="user.generalInfo"
+      />
+    </span>
+  </p>
+  <div
+    className="employee-profile__main-info"
+  >
+    <AvatarComponent
+      avatarClassName="employee-profile__userpic"
+      imageSize="original"
+      sizeClassName="main-userpic--lg"
+      user={
+        Object {
+          "about": "Manager",
+          "city": "Dnepr",
+          "country": "Ukraine",
+          "email": "test@example.com",
+          "firstName": "Johnie",
+          "lastName": "Doe",
+        }
+      }
+    />
+    <div>
+      <p
+        className="employee-profile__subtitle mb-4"
+      >
+        Johnie Doe
+      </p>
+      <p
+        className="employee-profile__text in-blue-gray-300 mb-0"
+      >
+        test@example.com
+      </p>
+    </div>
+  </div>
+  <p
+    className="employee-profile__subtitle in-blue-gray-300"
+  />
+  <p
+    className="employee-profile__text max-w-500 white-space-pre-line"
+  >
+    Manager
+  </p>
+</div>
+`;
+
+exports[`UserGeneral component matches snapshot with default props 1`] = `
+<div
+  className="employee-profile__card-section"
+  data-cy="profile-general"
+>
+  <p
+    className="employee-profile__card-section-title"
+  >
+    <span
+      className="mr-8"
+    >
+      <Memo(FormattedMessage)
+        id="user.generalInfo"
+      />
+    </span>
+  </p>
+  <div
+    className="employee-profile__main-info"
+  >
+    <AvatarComponent
+      avatarClassName="employee-profile__userpic"
+      imageSize="original"
+      sizeClassName="main-userpic--lg"
+      user={
+        Object {
+          "about": "Manager",
+          "city": "Dnepr",
+          "country": "Ukraine",
+          "email": "test@example.com",
+          "firstName": "Johnie",
+          "lastName": "Doe",
+        }
+      }
+    />
+    <div>
+      <p
+        className="employee-profile__subtitle mb-4"
+      >
+        Johnie Doe
+      </p>
+      <p
+        className="employee-profile__text in-blue-gray-300 mb-0"
+      >
+        test@example.com
+      </p>
+    </div>
+  </div>
+  <p
+    className="employee-profile__subtitle in-blue-gray-300"
+  />
+  <p
+    className="employee-profile__text max-w-500 white-space-pre-line"
+  >
+    Manager
+  </p>
+</div>
+`;
+
+exports[`UserGeneral component matches snapshot with editLink 1`] = `
+<div
+  className="employee-profile__card-section"
+  data-cy="profile-general"
+>
+  <p
+    className="employee-profile__card-section-title"
+  >
+    <span
+      className="mr-8"
+    >
+      <Memo(FormattedMessage)
+        id="user.generalInfo"
+      />
+    </span>
+    <a>
+      Edit Link
+    </a>
+  </p>
+  <div
+    className="employee-profile__main-info"
+  >
+    <AvatarComponent
+      avatarClassName="employee-profile__userpic"
+      imageSize="original"
+      sizeClassName="main-userpic--lg"
+      user={
+        Object {
+          "about": "Manager",
+          "city": "Dnepr",
+          "country": "Ukraine",
+          "email": "test@example.com",
+          "firstName": "Johnie",
+          "lastName": "Doe",
+        }
+      }
+    />
+    <div>
+      <p
+        className="employee-profile__subtitle mb-4"
+      >
+        Johnie Doe
+      </p>
+      <p
+        className="employee-profile__text in-blue-gray-300 mb-0"
+      >
+        test@example.com
+      </p>
+    </div>
+  </div>
+  <p
+    className="employee-profile__subtitle in-blue-gray-300"
+  />
+  <p
+    className="employee-profile__text max-w-500 white-space-pre-line"
+  >
+    Manager
+  </p>
+</div>
+`;

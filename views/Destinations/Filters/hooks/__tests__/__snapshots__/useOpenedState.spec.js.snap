@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useOpenedState hook matches snapshot 1`] = `
+Object {
+  "handleClickOutside": [Function],
+  "openedFilterName": null,
+  "toggleOpenedState": [Function],
+}
+`;

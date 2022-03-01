@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListYouCamperButton component tests matches snapshot 1`] = `
+<Link
+  href="/add-new-camper/id/specifications"
+>
+  <div
+    className="main-account-header__item mr-0"
+  >
+    <GradientButton
+      className={null}
+      text={
+        Object {
+          "id": "shared.listYourCamper",
+        }
+      }
+    />
+  </div>
+</Link>
+`;
+
+exports[`ListYouCamperButton component tests matches snapshot when is not visible 1`] = `""`;

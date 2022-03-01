@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rate Component snapshot default props 1`] = `
+<Fragment>
+  <Col
+    span={24}
+  >
+    <div
+      className="d-flex align-items-center mb-16"
+    >
+      <Switch
+        checked={true}
+        disabled={false}
+        name="pickup"
+        onChange={[MockFunction]}
+      />
+      <span
+        className="ml-8"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.delivery.iWantToOfferDelivery"
+        />
+      </span>
+    </div>
+  </Col>
+  <Col
+    className="d-bloc"
+    span={24}
+  >
+    <FormItem>
+      <Memo(ForwardRef)
+        disabled={false}
+        name="rate"
+        onChange={[MockFunction]}
+        size="large"
+        value="free"
+      >
+        <div
+          className="mb-20"
+        >
+          <Radio
+            type="radio"
+            value="free"
+          >
+            <span
+              className="ml-12"
+            >
+              <Memo(FormattedMessage)
+                id="addNewCamper.delivery.freeDelivery"
+              />
+            </span>
+          </Radio>
+        </div>
+        <div>
+          <Radio
+            type="radio"
+            value="rates"
+          >
+            <span
+              className="ml-12"
+            >
+              <Memo(FormattedMessage)
+                id="addNewCamper.delivery.setDeliveryRates"
+              />
+            </span>
+          </Radio>
+        </div>
+      </Memo(ForwardRef)>
+    </FormItem>
+  </Col>
+  <Col
+    className="d-bloc"
+    span={24}
+  >
+    <Row
+      gutter={24}
+    >
+      <Col
+        lg={8}
+        md={12}
+      >
+        <Field
+          component={[Function]}
+          disabled={false}
+          formItemClasses="mb-0"
+          label={
+            Object {
+              "id": "addNewCamper.delivery.form.distance",
+            }
+          }
+          name="distance"
+          placeholder={
+            Object {
+              "id": "addNewCamper.delivery.form.distance",
+            }
+          }
+          suffix={
+            <span
+              className="in-gray-700"
+            >
+              <Memo(FormattedMessage)
+                id="shared.miles"
+              />
+            </span>
+          }
+          type="number"
+        />
+      </Col>
+    </Row>
+  </Col>
+</Fragment>
+`;

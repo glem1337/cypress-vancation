@@ -1,0 +1,51 @@
+@upload-inner-card-offset: 4px;
+
+.ant-upload-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  .ant-upload-list-item-thumbnail {
+    opacity: 1;
+
+    img {
+      object-fit: cover;
+    }
+  }
+}
+
+.ant-upload.ant-upload-select-picture-card {
+  position: relative;
+  border: unset;
+  background-color: transparent;
+
+  > .ant-upload {
+    background-color: @blue100;
+    transition: background-color @main-transition-props;
+
+    &::after {
+      content: '';
+      .make-centered-both();
+      width: 100%;
+      height: 100%;
+      border: 1px dashed @blue1000;
+    }
+
+    @media (min-width: @screen-lg) {
+
+      &:hover {
+        background-color: @blue200;
+      }
+    }
+
+    .icon {
+      color: @blue1000;
+      font-size: 20px;
+    }
+
+    .ant-upload-txt {
+      .text-caption();
+      color: @blue1000;
+      margin-top: 8px;
+    }
+  }
+}

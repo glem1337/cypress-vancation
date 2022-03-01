@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersTableActions container renders UsersTableActions component 1`] = `
+<UsersTableActionsComponent
+  currentUser={
+    Object {
+      "roleName": "user",
+    }
+  }
+  onEdit={[Function]}
+  showModal={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  user={
+    Object {
+      "id": "id",
+    }
+  }
+/>
+`;

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Guests component tests matches snapshot 1`] = `
+<Popover
+  content={
+    <div
+      className="search-page__filters-popover--guests"
+    >
+      <div
+        className="search-page__filters-popover__main"
+      >
+        renderQuestsWidget
+      </div>
+      <FilterPopoverFooter
+        applyFilters={[MockFunction]}
+        clearFilters={[MockFunction]}
+      />
+    </div>
+  }
+  getPopupContainer={[MockFunction]}
+  mouseEnterDelay={0.1}
+  mouseLeaveDelay={0.1}
+  overlayClassName="ant-popover-filters"
+  overlayStyle={Object {}}
+  placement="bottomLeft"
+  trigger="click"
+  visible={true}
+>
+  <Button
+    className="ant-btn-outline-gray search-page__filters-btn search-page__filters-btn--active"
+    icon={
+      <i
+        className="icon icon-group mr-8"
+      />
+    }
+  >
+    <Memo(FormattedMessage)
+      id="shared.guests"
+    />
+    <span
+      className="main-account-header__item-counter--blue"
+    >
+      22
+    </span>
+  </Button>
+</Popover>
+`;

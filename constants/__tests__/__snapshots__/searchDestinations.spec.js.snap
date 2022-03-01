@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`searchDestinations constants matches snapshot 1`] = `
+Object {
+  "CHOOSE_DESTINATION_WIDGET_SIZE": Object {
+    "LARGE": "large",
+    "SMALL": "small",
+  },
+  "FILTERS": Object {
+    "DEBOUNCE_TIME": 500,
+    "DELIVERY": Object {
+      "DELIVERY": Object {
+        "description": Object {
+          "id": "campervan-rental.filter.onlyShowCampervans",
+        },
+        "message": Object {
+          "id": "shared.delivery",
+        },
+        "name": "delivery",
+      },
+      "PICKUP": Object {
+        "description": Object {
+          "id": "campervan-rental.filter.youWillPickupVeh",
+        },
+        "message": Object {
+          "id": "shared.pickup",
+        },
+        "name": "pickup",
+      },
+    },
+    "GUESTS": Object {
+      "SEATS": Object {
+        "name": "seats",
+        "title": Object {
+          "id": "addNewCamper.camperDetails.form.seats",
+        },
+        "tooltip": Object {
+          "id": "campervan-rental.filter.seats.tooltip",
+        },
+      },
+      "SLEEPS": Object {
+        "name": "sleeps",
+        "title": Object {
+          "id": "addNewCamper.camperDetails.form.sleeps",
+        },
+        "tooltip": Object {
+          "id": "campervan-rental.filter.sleeps.tooltip",
+        },
+      },
+    },
+    "INSIDE_HEIGHT": Object {
+      "HIGHT_TOP": Object {
+        "image": "/images/listing/High-Top.svg",
+        "message": Object {
+          "id": "shared.insideHeightHightTop",
+        },
+        "name": "hight_top",
+      },
+      "LOW_TOP": Object {
+        "image": "/images/listing/Low-Top.svg",
+        "message": Object {
+          "id": "shared.insideHeightLowTop",
+        },
+        "name": "low_top",
+      },
+      "POP_TOP": Object {
+        "image": "/images/listing/Pop-Top.svg",
+        "message": Object {
+          "id": "shared.insideHeightPopTop",
+        },
+        "name": "pop_top",
+      },
+      "ROOF_TOP": Object {
+        "image": "/images/listing/Roof-Top-Tent.svg",
+        "message": Object {
+          "id": "shared.roofTopTent",
+        },
+        "name": "roof_top",
+      },
+    },
+    "INSIDE_HEIGHT_TOOLTIP": Object {
+      "id": "shared.ok",
+    },
+    "LUXURY_AMENITY": Object {
+      "INDOOR_SHOWER": Object {
+        "apiFilterName": "filter[configuration_sub_amenities_title-in][]",
+        "image": "/images/listing/amenities-svg/bathroom/indoor_shower.svg",
+        "message": Object {
+          "id": "shared.indoorShower",
+        },
+        "name": "Indoor Shower",
+      },
+      "OFF_GRID_CAPABLE_SYSTEM": Object {
+        "apiFilterName": "filter[configuration_amenity_options_title-in][]",
+        "image": "/images/listing/amenities-svg/power_system/solar-panels.svg",
+        "message": Object {
+          "id": "shared.offGridCapableSystem",
+        },
+        "name": "Off Grid Capable System",
+      },
+      "SHORE_POWER_HOOKUPS": Object {
+        "apiFilterName": "filter[configuration_amenity_options_title-in][]",
+        "image": "/images/listing/amenities-svg/power_system/shore-power-hookups.svg",
+        "message": Object {
+          "id": "shared.shorePowerHookups",
+        },
+        "name": "Shore Power Hookups",
+      },
+      "TOILET": Object {
+        "apiFilterName": "filter[configuration_sub_amenities_title-in][]",
+        "image": "/images/listing/amenities-svg/bathroom/toilet_full_use.svg",
+        "message": Object {
+          "id": "shared.toiletFullUse",
+        },
+        "name": "Toilet (Full Use)",
+      },
+    },
+    "PRICE_BOUNDARIES": Object {
+      "MAX": 500,
+      "MIN": 0,
+    },
+    "RATING": Object {
+      "ALL": "all",
+      "PERCENTS_80": "80",
+      "PERCENTS_90": "90",
+    },
+    "RULES": Object {
+      "ALLOW_PETS": Object {
+        "image": "/images/edit_listing/rules/Pets-Allowed.svg",
+        "message": Object {
+          "id": "shared.petsAllowed",
+        },
+        "name": "allowPets",
+      },
+      "ALLOW_SMOKING": Object {
+        "image": "/images/edit_listing/rules/Smoking-Allowed.svg",
+        "message": Object {
+          "id": "shared.smokingAllowed",
+        },
+        "name": "allowSmoking",
+      },
+      "ALLOW_UNLIMITED_MILES": Object {
+        "image": "/images/edit_listing/rules/Allow-Unlimited-Miles.svg",
+        "message": Object {
+          "id": "shared.allowUnlimitedMiles",
+        },
+        "name": "allowUnlimitedMiles",
+      },
+      "FESTIVAL_APPROVED": Object {
+        "image": "/images/edit_listing/rules/Festival-Approved.svg",
+        "message": Object {
+          "id": "shared.festivalApproved",
+        },
+        "name": "festivalApproved",
+      },
+    },
+    "STANDARD_AMENITY": Object {
+      "FRIDGE": Object {
+        "apiFilterName": "filter[configuration_sub_amenities_title-in][]",
+        "image": "/images/listing/amenities-svg/kitchen/fridge.svg",
+        "message": Object {
+          "id": "shared.fridge",
+        },
+        "name": "Fridge",
+      },
+      "HEATING": Object {
+        "apiFilterName": "filter[configuration_amenity_options_title-in][]",
+        "image": "/images/listing/amenities-svg/climate_control/heating.svg",
+        "message": Object {
+          "id": "shared.heating",
+        },
+        "name": "Heating",
+      },
+      "OUTDOOR_SHOWER": Object {
+        "apiFilterName": "filter[configuration_sub_amenities_title-in][]",
+        "image": "/images/listing/amenities-svg/bathroom/outdoor_shower.svg",
+        "message": Object {
+          "id": "shared.outdoorShower",
+        },
+        "name": "Outdoor Shower",
+      },
+      "STOVETOP": Object {
+        "apiFilterName": "filter[configuration_sub_amenities_title-in][]",
+        "image": "/images/listing/amenities-svg/kitchen/stovetop.svg",
+        "message": Object {
+          "id": "shared.stovetop",
+        },
+        "name": "Stovetop",
+      },
+    },
+  },
+  "MAPBOX_FEATURE_TYPE": "mapbox_feature",
+  "SEARCH_DESTINATIONS_BY_COORDINATES_COUNT": 3,
+  "SEARCH_DESTINATIONS_BY_QUERY_COUNT": 2,
+  "SEARCH_DESTINATIONS_BY_QUERY_DEBOUNCE": 600,
+  "SEARCH_DESTINATIONS_BY_QUERY_MAPBOX_COUNT": 3,
+  "SEARCH_RESULTS_RADIUS": 120,
+}
+`;

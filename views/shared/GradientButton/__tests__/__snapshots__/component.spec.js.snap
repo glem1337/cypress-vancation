@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GradientButton component matches snapshot with default props 1`] = `
+<Button
+  className="main-btn--gradient testClassName"
+>
+  <span>
+    <Memo(FormattedMessage)
+      id="test.GradientButton"
+    />
+  </span>
+  <span
+    className="main-btn__gradient-inner"
+  />
+</Button>
+`;
+
+exports[`GradientButton component matches snapshot with string \`text\` 1`] = `
+<Button
+  className="main-btn--gradient testClassName"
+>
+  <span>
+    Fake text
+  </span>
+  <span
+    className="main-btn__gradient-inner"
+  />
+</Button>
+`;

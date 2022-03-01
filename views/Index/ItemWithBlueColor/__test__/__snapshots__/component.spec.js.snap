@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemWithBlueColor component default props snapshot 1`] = `
+<Fragment
+  key="test_id"
+>
+  <span
+    className="in-blue-1000"
+  >
+    test content
+  </span>
+</Fragment>
+`;
+
+exports[`ItemWithBlueColor component state = false 1`] = `
+<Fragment
+  key="test_id"
+>
+  test content
+</Fragment>
+`;

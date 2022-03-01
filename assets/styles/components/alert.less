@@ -1,0 +1,44 @@
+.main-alert {
+  .text-body();
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.main-alert--error {
+  background-color: @red100;
+  color: @red1000;
+}
+
+.main-alert--success {
+  background-color: @green200;
+  color: @green300;
+}
+
+.main-alert--warning {
+  background-color: @gray100;
+
+  .main-btn {
+    margin-top: 8px;
+    border: unset;
+  }
+
+  .main-alert__icon {
+    color: @yellow1000;
+  }
+}
+
+.main-alert__icon {
+  margin-right: 12px;
+}
+
+.main-alert__close {
+  display: flex;
+  margin-left: auto;
+
+  .icon {
+    margin-left: 16px;
+  }
+}

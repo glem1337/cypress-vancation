@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Google btn snapshot 1`] = `
+<button
+  className="auth-main-social-btn"
+  onClick={[MockFunction]}
+  type="button"
+>
+  <img
+    alt="logo google"
+    className="mr-12"
+    src="/images/Google.svg"
+  />
+  <Memo(FormattedMessage)
+    id="auth.continueWithGoogle"
+  />
+</button>
+`;

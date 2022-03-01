@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dashboard all campers constants matches snapshot 1`] = `
+Object {
+  "FILTER_TITLE_BY_STATUS": Object {
+    "all": Object {
+      "id": "dashboard.allCampers.filterByStatus.all",
+    },
+    "deactivated": Object {
+      "id": "shared.deactivated",
+    },
+    "draft": Object {
+      "id": "shared.draft",
+    },
+    "on_moderation": Object {
+      "id": "shared.onModeration",
+    },
+    "published": Object {
+      "id": "shared.published",
+    },
+    "unpublished": Object {
+      "id": "shared.unpublished",
+    },
+  },
+  "MODAL_CONFIG_BY_STATUS": Object {
+    "published": Object {
+      "BUTTON": Object {
+        "id": "shared.publish",
+      },
+      "DESCRIPTION": Object {
+        "id": "dashboard.allCampers.camperStatusModal.published.description",
+      },
+      "TITLE": Object {
+        "id": "dashboard.allCampers.camperStatusModal.published.title",
+      },
+    },
+    "removed": Object {
+      "BUTTON": Object {
+        "id": "shared.remove",
+      },
+      "DESCRIPTION": Object {
+        "id": "dashboard.allCampers.camperStatusModal.removed.description",
+      },
+      "TITLE": Object {
+        "id": "dashboard.allCampers.camperStatusModal.removed.title",
+      },
+    },
+    "unpublished": Object {
+      "BUTTON": Object {
+        "id": "shared.unpublish",
+      },
+      "DESCRIPTION": Object {
+        "id": "dashboard.allCampers.camperStatusModal.unpublished.description",
+      },
+      "TITLE": Object {
+        "id": "dashboard.allCampers.camperStatusModal.unpublished.title",
+      },
+    },
+  },
+  "SUCCESS_MESSAGE_BY_STATUS": Object {
+    "published": Object {
+      "id": "dashboard.allCampers.camperStatusModal.published.successMsg",
+    },
+    "removed": Object {
+      "id": "dashboard.allCampers.camperStatusModal.removed.successMsg",
+    },
+    "unpublished": Object {
+      "id": "dashboard.allCampers.camperStatusModal.unpublished.successMsg",
+    },
+  },
+  "TAG_BY_STATUS": Object {
+    "deactivated": Object {
+      "COLOR": "error",
+      "TITLE": Object {
+        "id": "shared.deactivated",
+      },
+    },
+    "draft": Object {
+      "COLOR": "default",
+      "TITLE": Object {
+        "id": "shared.draft",
+      },
+    },
+    "on_moderation": Object {
+      "COLOR": "warning",
+      "TITLE": Object {
+        "id": "shared.onModeration",
+      },
+    },
+    "published": Object {
+      "COLOR": "success",
+      "TITLE": Object {
+        "id": "shared.published",
+      },
+    },
+    "unpublished": Object {
+      "COLOR": "processing",
+      "TITLE": Object {
+        "id": "shared.unpublished",
+      },
+    },
+  },
+}
+`;

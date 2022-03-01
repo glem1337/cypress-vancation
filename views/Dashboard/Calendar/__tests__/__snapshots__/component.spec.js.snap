@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardCalendarComponent component tests matches snapshot 1`] = `
+<Fragment>
+  <Connect(Header)
+    activeTabKey="CALENDAR"
+  />
+  <div
+    className="calendar-listing__wrap calendar-listing__wrap--side-open"
+  >
+    <div
+      className="calendar-listing__inner"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="calendar-listing"
+        >
+          <div
+            className="calendar-listing__main"
+          >
+            <ForwardRef
+              className="dashboard-calendar"
+              components={
+                Object {
+                  "dateCellWrapper": [Function],
+                  "event": [Function],
+                  "eventWrapper": [Function],
+                  "toolbar": Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "type": [Function],
+                  },
+                }
+              }
+              date={2000-02-20T00:00:00.000Z}
+              events={Array []}
+              localizer={
+                DateLocalizer {
+                  "format": [Function],
+                  "formats": Object {
+                    "agendaDateFormat": "ddd MMM DD",
+                    "agendaHeaderFormat": [Function],
+                    "agendaTimeFormat": "LT",
+                    "agendaTimeRangeFormat": [Function],
+                    "dateFormat": "DD",
+                    "dayFormat": "DD ddd",
+                    "dayHeaderFormat": "dddd MMM DD",
+                    "dayRangeHeaderFormat": [Function],
+                    "eventTimeRangeEndFormat": [Function],
+                    "eventTimeRangeFormat": [Function],
+                    "eventTimeRangeStartFormat": [Function],
+                    "monthHeaderFormat": "MMMM YYYY",
+                    "selectRangeFormat": [Function],
+                    "timeGutterFormat": "LT",
+                    "weekdayFormat": "ddd",
+                  },
+                  "propType": [Function],
+                  "startOfWeek": [Function],
+                }
+              }
+              max={2003-03-01T00:00:00.000Z}
+              min={1999-02-01T00:00:00.000Z}
+              onNavigate={[MockFunction]}
+              onSelectSlot={[MockFunction]}
+              selectable={true}
+              showAllEvents={true}
+              style={Object {}}
+            />
+          </div>
+        </div>
+        <Divider
+          className="d-none d-lg-block mt-24"
+        />
+        <Connect(ExternalCalendarsFooter)
+          camperId="test camper id"
+        />
+      </div>
+      <Connect(RightSidebar)
+        camperId="test camper id"
+      />
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`DashboardCalendarComponent component tests matches snapshot without camperId 1`] = `
+<Fragment>
+  <Connect(Header)
+    activeTabKey="CALENDAR"
+  />
+  <div
+    className="dashboard-calendar__skeleton-wrapper"
+  >
+    <Skeleton
+      active={true}
+      avatar={false}
+      paragraph={true}
+      title={true}
+    />
+  </div>
+</Fragment>
+`;

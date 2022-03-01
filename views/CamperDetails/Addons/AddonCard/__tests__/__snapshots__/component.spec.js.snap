@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddonCard component tests matches snapshot 1`] = `
+<div
+  className="van-details__adds-card"
+>
+  <div
+    className="d-flex align-items-center justify-content-between mb-20"
+  >
+    <img
+      alt=""
+      src="url"
+    />
+    <Tag
+      color="default"
+    >
+      $50 per day
+    </Tag>
+  </div>
+  <p
+    className="text-subtitle font-700 mb-8"
+  >
+    name
+  </p>
+  <p>
+    descr...
+  </p>
+  <Button
+    onClick={[MockFunction]}
+    type="simple-text"
+  >
+    <Memo(FormattedMessage)
+      id="shared.readMore"
+    />
+  </Button>
+</div>
+`;

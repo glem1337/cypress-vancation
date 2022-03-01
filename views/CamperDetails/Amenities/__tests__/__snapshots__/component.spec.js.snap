@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Amenities component tests matches snapshots default 1`] = `
+<Fragment>
+  <div
+    className="d-flex align-items-center justify-content-space-between mb-24"
+  >
+    <p
+      className="text-headline"
+    >
+      <Memo(FormattedMessage)
+        id="shared.amenities"
+      />
+    </p>
+    <Button
+      onClick={[MockFunction]}
+      size="small"
+      type="secondary"
+    >
+      <Memo(FormattedMessage)
+        id="shared.hideAll"
+      />
+    </Button>
+  </div>
+  <Space
+    className="w-100"
+    direction="vertical"
+    size={16}
+  >
+    <GlamperSection
+      activeKey={
+        Array [
+          "2",
+        ]
+      }
+      amenity={
+        Object {
+          "subAmenities": Array [
+            Object {
+              "id": "3",
+            },
+          ],
+        }
+      }
+      onCollapse={[MockFunction]}
+    />
+    <AmenitySection
+      activeKey={
+        Array [
+          "2",
+        ]
+      }
+      amenity={
+        Object {
+          "id": "1",
+        }
+      }
+      key="1"
+      onCollapse={[MockFunction]}
+    />
+  </Space>
+</Fragment>
+`;
+
+exports[`Amenities component tests matches snapshots when camper doesnt exist 1`] = `
+<div
+  className="mb-24"
+>
+  <div
+    className="skeleton__title w-100"
+  />
+  <SkeletonText
+    rows={2}
+  />
+</div>
+`;
+
+exports[`Amenities component tests matches snapshots when items aren\`t present 1`] = `""`;
+
+exports[`Amenities component tests matches snapshots when loading 1`] = `
+<div
+  className="mb-24"
+>
+  <div
+    className="skeleton__title w-100"
+  />
+  <SkeletonText
+    rows={2}
+  />
+</div>
+`;

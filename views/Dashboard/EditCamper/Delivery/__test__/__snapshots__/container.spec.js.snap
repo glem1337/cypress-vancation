@@ -1,0 +1,616 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Map Container checks mapPropsToValues configs 1`] = `
+Object {
+  "costPerMile": 1,
+  "distance": 1,
+  "minFee": 1,
+  "pickup": true,
+  "rate": "free",
+  "redirectRoute": "/dashboard/edit-camper/rules-and-travels?camper=a18f7338-c2b3-4cee-be4d-579c0a726c1a",
+}
+`;
+
+exports[`Map Container checks validationSchema configs 1`] = `
+ObjectSchema {
+  "_blacklist": ReferenceSet {
+    "list": Set {},
+    "refs": Map {},
+  },
+  "_blacklistError": undefined,
+  "_excludedEdges": Array [],
+  "_nodes": Array [
+    "minFee",
+    "costPerMile",
+    "distance",
+  ],
+  "_sortErrors": [Function],
+  "_typeError": [Function],
+  "_whitelist": ReferenceSet {
+    "list": Set {},
+    "refs": Map {},
+  },
+  "_whitelistError": undefined,
+  "conditions": Array [],
+  "deps": Array [],
+  "exclusiveTests": Object {},
+  "fields": Object {
+    "costPerMile": NumberSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {
+        "max": true,
+        "min": true,
+        "required": true,
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "required",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [
+        [Function],
+        [Function],
+        [Function],
+      ],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "number",
+    },
+    "distance": NumberSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {
+        "max": true,
+        "min": true,
+        "required": true,
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "required",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [
+        [Function],
+        [Function],
+        [Function],
+      ],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "number",
+    },
+    "minFee": NumberSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {
+        "max": true,
+        "min": true,
+        "required": true,
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "required",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [
+        [Function],
+        [Function],
+        [Function],
+      ],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "number",
+    },
+  },
+  "spec": Object {
+    "abortEarly": true,
+    "nullable": false,
+    "presence": "optional",
+    "recursive": true,
+    "strict": false,
+    "strip": false,
+  },
+  "tests": Array [],
+  "transforms": Array [
+    [Function],
+  ],
+  "type": "object",
+}
+`;
+
+exports[`Map Container snapshot 1`] = `
+<Delivery
+  camper={
+    Object {
+      "blockedPeriods": Array [],
+      "camperAddition": Object {
+        "amenityHealthSafetyItems": Array [
+          Object {
+            "healthSafety": Object {
+              "iconUrl": "path/to/icon/url",
+              "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+              "name": "name",
+            },
+          },
+        ],
+        "camperQuestions": Array [
+          Object {
+            "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+            "required": true,
+            "text": "test",
+          },
+        ],
+        "customRestrictionRoads": Array [
+          Object {
+            "active": true,
+            "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+            "name": "name",
+          },
+        ],
+        "customRestrictionRules": Array [
+          Object {
+            "active": true,
+            "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+            "name": "name",
+          },
+        ],
+        "customTravelAccessories": Array [
+          Object {
+            "active": true,
+            "description": "",
+            "id": "dd477886-ec22-4da9-ba4c-08627f35fb1a",
+            "maxAmount": "2.0",
+            "name": "Bike Rack",
+            "price": "1.0",
+            "priceUnit": "each",
+          },
+        ],
+        "customTravelRestrictions": Array [
+          Object {
+            "active": true,
+            "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+            "name": "name",
+          },
+        ],
+        "restrictionRoad": Object {
+          "dirtryRoad": true,
+          "fourWheelRoad": false,
+          "offRoad": false,
+          "snowAndIceRoad": false,
+        },
+        "restrictionRule": Object {
+          "allowPets": false,
+          "festivalApproved": false,
+          "smoking": false,
+        },
+        "travelRestriction": Object {
+          "burningMan": false,
+          "canada": true,
+          "mexico": false,
+        },
+      },
+      "camperCalendar": Object {
+        "blockedPeriods": Array [
+          Object {
+            "endDate": "2021-08-06",
+            "id": "56ceb535-322f-42c6-8dcd-a88ad59000f3",
+            "startDate": "2021-08-05",
+          },
+          Object {
+            "endDate": "2021-08-25",
+            "id": "17a32ec0-a486-4247-910c-6c0c57ba6ec3",
+            "startDate": "2021-08-25",
+          },
+          Object {
+            "endDate": "2021-07-28",
+            "id": "2c7bbaef-6b00-494f-b005-6a762e90c785",
+            "startDate": "2021-07-28",
+          },
+        ],
+        "customDiscountPeriods": Array [
+          Object {
+            "endDate": "2021-07-28",
+            "id": "ffb3f0cc-4513-4fdc-81d0-03587232d9ee",
+            "monthlyDiscountPercent": 23,
+            "startDate": "2021-07-27",
+            "weeklyDiscountPercent": 15,
+          },
+          Object {
+            "endDate": "2021-07-28",
+            "id": "a070339d-7058-4769-8e16-814084c6bfe3",
+            "monthlyDiscountPercent": 23,
+            "startDate": "2021-07-28",
+            "weeklyDiscountPercent": 15,
+          },
+          Object {
+            "endDate": "2021-07-28",
+            "id": "aba16cba-5873-4273-8172-816b276a2db7",
+            "monthlyDiscountPercent": 44,
+            "startDate": "2021-07-28",
+            "weeklyDiscountPercent": 44,
+          },
+          Object {
+            "endDate": "2021-07-29",
+            "id": "586016b9-d351-4ca1-ac8a-373e7e3b8832",
+            "monthlyDiscountPercent": 33,
+            "startDate": "2021-07-29",
+            "weeklyDiscountPercent": 15,
+          },
+        ],
+        "externalCalendars": Array [],
+        "id": "e1db81b1-8ad5-4e88-9c99-f5c9020148eb",
+        "pricingPeriods": Array [
+          Object {
+            "endDate": "2021-07-28",
+            "id": "8aa92a51-ef00-4dc6-8b84-2820869b9278",
+            "price": "33.0",
+            "startDate": "2021-07-28",
+          },
+          Object {
+            "endDate": "2021-07-30",
+            "id": "248ba38e-e18a-467c-996b-36aa4bd73e85",
+            "price": "320.0",
+            "startDate": "2021-07-29",
+          },
+        ],
+      },
+      "camperPhotos": Array [
+        Object {
+          "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+          "photoUrl1100": "photoUrl1100",
+        },
+      ],
+      "camperRule": Object {
+        "bookingApprovalPolicy": "instant_book",
+        "cancellationPolicy": "easy_going",
+        "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+      },
+      "deliveryInformation": Object {
+        "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+        "pickup": true,
+      },
+      "description": "desc",
+      "estimatedEarning": 1200,
+      "externalCalendars": Array [],
+      "glamper": true,
+      "id": "a18f7338-c2b3-4cee-be4d-579c0a726c1a",
+      "insurance": "pending",
+      "insuranceInfo": Object {
+        "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+      },
+      "latitude": 40.772,
+      "longitude": -73.93030000000002,
+      "name": "test",
+      "owner": Object {
+        "account": Object {
+          "createdAt": "2021-07-09T13:39:26.587Z",
+          "drivingLicenceVerified": false,
+          "email": "kateryna.sessa+owner@rubygarage.org",
+          "emailVerified": false,
+          "id": "12563773-6e8f-4861-8abd-82a78632c6ac",
+          "user": Object {
+            "avatarUrl": null,
+            "createdAt": "2021-07-09T13:39:26.590Z",
+            "firstName": "Kat",
+            "id": "77015afb-71e3-4b94-a9cb-69a97dc6b358",
+            "lastName": "Kat",
+            "updatedAt": "2021-07-09T13:39:26.590Z",
+          },
+        },
+        "avatarUrl": null,
+        "averageRating": null,
+        "businessTitle": null,
+        "campersCount": 25,
+        "createdAt": "Member since July 2021",
+        "description": "description",
+        "email": null,
+        "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+        "idVerified": false,
+        "type": "owner",
+      },
+      "place": "Astoria, New York, New York 11102, United States",
+      "placeId": "neighborhood.290416",
+      "pricingInfo": Object {
+        "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+      },
+      "pricingPeriods": Array [],
+      "publicId": "111",
+      "specificationDetail": Object {
+        "drivetrain": "4x4",
+        "fuelType": "electric",
+        "insideHeight": "low_top",
+        "length": "67.89",
+        "mileage": "Under 50,000",
+        "modelNaming": "Clair Weimann",
+        "name": "Katelyn Lowe",
+        "seats": 1,
+        "sleeps": 1,
+        "stateRegistred": "Arkansas",
+        "transmission": "automatice",
+        "whoBuiltCamper": "Vasya",
+        "year": 1585,
+      },
+      "status": "draft",
+      "tripFee": Object {
+        "cleaning": 1,
+        "customFees": Array [
+          Object {
+            "frequency": "per_day",
+            "id": "id",
+            "name": "name",
+            "price": 5,
+          },
+        ],
+        "dumpingFee": 2,
+        "flue": 3,
+        "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+        "lateDropOff": 4,
+        "tripFeeGenerator": Object {
+          "available": 8,
+          "limit": true,
+          "overage": 9,
+        },
+        "tripFeeMileage": Object {
+          "available": 6,
+          "limit": true,
+          "overage": 7,
+        },
+      },
+      "vehicleTypeIconUrl": "test.svg",
+      "vehicleTypeName": "Modern Van",
+    }
+  }
+  camperId="a18f7338-c2b3-4cee-be4d-579c0a726c1a"
+  createCamperDelivery={[MockFunction]}
+  dirty={true}
+  enableReinitialize={true}
+  handleSubmit={[Function]}
+  handlerPickup={[Function]}
+  handlerRate={[Function]}
+  hideModal={[Function]}
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+  isCamperExist={true}
+  isFormValid={true}
+  isLoading={false}
+  isValid={true}
+  leavePagePrepare={[Function]}
+  mapPropsToValues={[Function]}
+  onSubmit={[Function]}
+  resetForm={[MockFunction]}
+  router={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  setErrors={[MockFunction]}
+  setFieldValue={[MockFunction]}
+  setStatus={[MockFunction]}
+  setSubmitting={[MockFunction]}
+  setValues={[MockFunction]}
+  showModal={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "logicMiddleware": Object {
+        "whenComplete": [MockFunction],
+      },
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  updateCamperDelivery={[MockFunction]}
+  validateForm={[MockFunction]}
+  validationSchema={
+    ObjectSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_excludedEdges": Array [],
+      "_nodes": Array [
+        "minFee",
+        "costPerMile",
+        "distance",
+      ],
+      "_sortErrors": [Function],
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {},
+      "fields": Object {
+        "costPerMile": NumberSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [],
+          "deps": Array [],
+          "exclusiveTests": Object {
+            "max": true,
+            "min": true,
+            "required": true,
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": false,
+            "presence": "required",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "number",
+        },
+        "distance": NumberSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [],
+          "deps": Array [],
+          "exclusiveTests": Object {
+            "max": true,
+            "min": true,
+            "required": true,
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": false,
+            "presence": "required",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "number",
+        },
+        "minFee": NumberSchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [],
+          "deps": Array [],
+          "exclusiveTests": Object {
+            "max": true,
+            "min": true,
+            "required": true,
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": false,
+            "presence": "required",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [
+            [Function],
+            [Function],
+            [Function],
+          ],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "number",
+        },
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "optional",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "object",
+    }
+  }
+  values={
+    Object {
+      "costPerMile": 1,
+      "distance": 1,
+      "minFee": 1,
+      "pickup": false,
+      "rate": "free",
+    }
+  }
+/>
+`;

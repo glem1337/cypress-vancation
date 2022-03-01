@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`redux persist constants matches snapshot 1`] = `
+Object {
+  "dataPersistConfig": Object {
+    "key": "data",
+    "storage": Object {
+      "getItem": [Function],
+      "removeItem": [Function],
+      "setItem": [Function],
+    },
+    "whitelist": Array [
+      "camper",
+      "insuranceInfo",
+    ],
+  },
+  "persistConfig": Object {
+    "key": "next_js",
+    "storage": Object {
+      "getItem": [Function],
+      "removeItem": [Function],
+      "setItem": [Function],
+    },
+    "whitelist": Array [
+      "session",
+      "camper",
+    ],
+  },
+  "searchDestinationsPersistConfig": Object {
+    "key": "searchDestinations",
+    "storage": Object {
+      "getItem": [Function],
+      "removeItem": [Function],
+      "setItem": [Function],
+    },
+    "whitelist": Array [
+      "searchDestinationParams",
+    ],
+  },
+}
+`;

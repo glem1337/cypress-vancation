@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withPopovers HOC tests matches snapshot 1`] = `
+<MockComponent
+  checkOpenedState={[Function]}
+  closeAllPopovers={[Function]}
+  closePopover={[Function]}
+  closePopoversAndBack={[Function]}
+  closePopoversAndSave={[Function]}
+  isBackPopoverVisible={false}
+  isDiscardPopoverVisible={false}
+  isOpened={false}
+  isSavePopoverVisible={false}
+  showPopover={[Function]}
+  showPopoverOrBack={[Function]}
+  toggleOpenedState={[Function]}
+/>
+`;

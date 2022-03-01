@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OwnerFees component tests matches snapshot 1`] = `
+<Col
+  md={12}
+>
+  <p
+    className="text-headline mb-24"
+  >
+    <Memo(FormattedMessage)
+      id="camperDetails.tripFees.ownerFees.title"
+    />
+  </p>
+  <ul
+    className="van-details__dotted-list pt-4"
+  >
+    <li
+      className="in-black"
+    >
+      <Memo(FormattedMessage)
+        id="camperDetails.tripFees.ownerFees.cleaning.cost"
+        values={
+          Object {
+            "cost": "$1",
+          }
+        }
+      />
+    </li>
+    <li
+      className="in-black"
+    >
+      <Memo(FormattedMessage)
+        id="camperDetails.tripFees.ownerFees.dumping.cost"
+        values={
+          Object {
+            "cost": "$2",
+          }
+        }
+      />
+    </li>
+    <li
+      className="in-black"
+    >
+      <Memo(FormattedMessage)
+        id="camperDetails.tripFees.ownerFees.fuel.cost"
+        values={
+          Object {
+            "cost": "$3",
+          }
+        }
+      />
+    </li>
+    <li
+      className="in-black"
+    >
+      <Memo(FormattedMessage)
+        id="camperDetails.tripFees.ownerFees.lateDropOff.cost"
+        values={
+          Object {
+            "cost": "$4",
+          }
+        }
+      />
+    </li>
+    <li
+      className="in-black"
+      key="id"
+    >
+      name
+       
+      - $
+      20
+       
+      <Memo(FormattedMessage)
+        id="addNewCamper.tripFees.perDay"
+      />
+    </li>
+  </ul>
+</Col>
+`;

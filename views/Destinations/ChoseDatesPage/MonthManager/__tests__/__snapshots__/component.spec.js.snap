@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MonthManager component tests matches snapshot 1`] = `
+<div
+  className="search-destinations__month-manager"
+>
+  <div
+    className="search-destinations__month-manager-side"
+  >
+    <button
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <ForwardRef(UpOutlined)
+        className="search-destinations__icon"
+      />
+    </button>
+  </div>
+  <div
+    className="search-destinations__month-manager-side"
+  >
+    <button
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <ForwardRef(DownOutlined)
+        className="search-destinations__icon"
+      />
+    </button>
+  </div>
+</div>
+`;

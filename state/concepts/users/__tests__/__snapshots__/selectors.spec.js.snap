@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Users selectors usersSelector() returns fetched users 1`] = `
+Array [
+  Object {
+    "active": true,
+    "avatar": null,
+    "email": "eleonora@streichwilkinson.info",
+    "firstName": "Elouise",
+    "id": "364",
+    "lastName": "Collier",
+    "roleName": "user",
+  },
+]
+`;

@@ -1,0 +1,242 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersFilters component matches snapshot when hasAppliedFilters has value greater than 0 1`] = `
+<Dropdown
+  className="main-popup"
+  disabled={false}
+  icon={
+    <Button
+      className="min-w-96 ml-16 main-page__filter-btn"
+      icon="filter"
+      size="medium"
+      text={
+        Object {
+          "id": "shared.filters.appliedFilters",
+          "values": Object {
+            "count": 2,
+          },
+        }
+      }
+      type="submit"
+    />
+  }
+  on={
+    Array [
+      "click",
+    ]
+  }
+  onVisibleChange={[MockFunction]}
+  overlayClassName=""
+  placement="bottomRight"
+  visible={true}
+>
+  <div
+    className="main-dropdown main-page__filter-dropdown"
+  >
+    <div
+      className="main-dropdown__body"
+    >
+      <Field
+        checkboxClassName="main-dropdown__item"
+        className="main-dropdown__section"
+        component={[Function]}
+        name="roles"
+        options={
+          Array [
+            Object {
+              "label": Object {
+                "id": "usersFilters.roles.administrator",
+              },
+              "value": "administrator",
+            },
+            Object {
+              "label": Object {
+                "id": "usersFilters.roles.user",
+              },
+              "value": "user",
+            },
+          ]
+        }
+        title={
+          Object {
+            "id": "shared.filters.statuses.title",
+          }
+        }
+        titleClassName="main-dropdown__title"
+      />
+      <div
+        className="main-separator"
+      />
+      <Field
+        checkboxClassName="main-dropdown__item"
+        className="main-dropdown__section"
+        component={[Function]}
+        name="statuses"
+        options={
+          Array [
+            Object {
+              "label": Object {
+                "id": "shared.filters.statuses.active",
+              },
+              "value": "active",
+            },
+            Object {
+              "label": Object {
+                "id": "shared.filters.statuses.inactive",
+              },
+              "value": "inactive",
+            },
+          ]
+        }
+        title={
+          Object {
+            "id": "usersFilters.roles.title",
+          }
+        }
+        titleClassName="main-dropdown__title"
+      />
+    </div>
+    <div
+      className="main-dropdown__footer"
+    >
+      <Button
+        className="main-dropdown__action min-w-96"
+        kind="flat"
+        onClick={[MockFunction]}
+        size="small"
+        text={
+          Object {
+            "id": "shared.resetAll",
+          }
+        }
+      />
+      <Button
+        className="main-dropdown__action min-w-96"
+        onClick={[MockFunction]}
+        size="small"
+        text={
+          Object {
+            "id": "shared.apply",
+          }
+        }
+        type="submit"
+      />
+    </div>
+  </div>
+</Dropdown>
+`;
+
+exports[`UsersFilters component matches snapshot with default props 1`] = `
+<Dropdown
+  className="main-popup"
+  disabled={false}
+  icon={
+    <Button
+      className="min-w-96 ml-16 main-page__filter-btn"
+      icon="filter"
+      size="medium"
+      text={
+        Object {
+          "id": "shared.filters.defaultLabel",
+          "values": Object {
+            "namespace": "users",
+          },
+        }
+      }
+      type="submit"
+    />
+  }
+  on={
+    Array [
+      "click",
+    ]
+  }
+  onVisibleChange={[MockFunction]}
+  overlayClassName=""
+  placement="bottomRight"
+  visible={true}
+>
+  <div
+    className="main-dropdown main-page__filter-dropdown"
+  >
+    <div
+      className="main-dropdown__body"
+    >
+      <Field
+        checkboxClassName="main-dropdown__item"
+        className="main-dropdown__section"
+        component={[Function]}
+        name="roles"
+        options={
+          Array [
+            Object {
+              "label": Object {
+                "id": "usersFilters.roles.administrator",
+              },
+              "value": "administrator",
+            },
+            Object {
+              "label": Object {
+                "id": "usersFilters.roles.user",
+              },
+              "value": "user",
+            },
+          ]
+        }
+        title={
+          Object {
+            "id": "shared.filters.statuses.title",
+          }
+        }
+        titleClassName="main-dropdown__title"
+      />
+      <div
+        className="main-separator"
+      />
+      <Field
+        checkboxClassName="main-dropdown__item"
+        className="main-dropdown__section"
+        component={[Function]}
+        name="statuses"
+        options={
+          Array [
+            Object {
+              "label": Object {
+                "id": "shared.filters.statuses.active",
+              },
+              "value": "active",
+            },
+            Object {
+              "label": Object {
+                "id": "shared.filters.statuses.inactive",
+              },
+              "value": "inactive",
+            },
+          ]
+        }
+        title={
+          Object {
+            "id": "usersFilters.roles.title",
+          }
+        }
+        titleClassName="main-dropdown__title"
+      />
+    </div>
+    <div
+      className="main-dropdown__footer"
+    >
+      <Button
+        className="main-dropdown__action min-w-96"
+        onClick={[MockFunction]}
+        size="small"
+        text={
+          Object {
+            "id": "shared.apply",
+          }
+        }
+        type="submit"
+      />
+    </div>
+  </div>
+</Dropdown>
+`;

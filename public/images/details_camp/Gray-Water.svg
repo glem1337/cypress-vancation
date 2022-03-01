@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icn - Gray water</title>
+    <g id="------↵-Renter-/-Campervan-Details" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-8.000000, -6.000000)" fill="#13284C">
+            <g id="medicine-bottle-line" transform="translate(8.000000, 6.000000)">
+                <path d="M15,0 L15,2 L13,2 L13,5 C14.657,5 16,6.343 16,8 L16,19 C16,19.552 15.552,20 15,20 L1,20 C0.448,20 0,19.552 0,19 L0,8 C0,6.343 1.343,5 3,5 L3,2 L1,2 L1,0 L15,0 Z M13,7 L3,7 C2.448,7 2,7.448 2,8 L2,18 L14,18 L14,8 C14,7.448 13.552,7 13,7 Z M11,2 L5,2 L5,5 L11,5 L11,2 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

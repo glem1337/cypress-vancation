@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useDelivery hook checks \`renderDeliveryWidget\` method 1`] = `
+<div
+  className="search-page__filters-popover__grid"
+>
+  <Checkbox
+    checked={false}
+    className="main-checkbox-card"
+    onChange={[Function]}
+  >
+    <i
+      className="icon icon-activate-f main-checkbox-card__icon"
+    />
+    <div
+      className="d-flex flex-column flex-1"
+    >
+      <div
+        className="d-flex align-items-center mb-16"
+      >
+        <img
+          alt=""
+          src="/images/listing/Modern-Van.svg"
+        />
+        <span
+          className="text-subheader font-400 ml-8"
+        >
+          <Memo(FormattedMessage)
+            id="shared.delivery"
+          />
+        </span>
+      </div>
+      <div
+        className="mr-40"
+      >
+        <Memo(FormattedMessage)
+          id="campervan-rental.filter.onlyShowCampervans"
+        />
+      </div>
+    </div>
+  </Checkbox>
+  <Checkbox
+    checked={false}
+    className="main-checkbox-card"
+    onChange={[Function]}
+  >
+    <i
+      className="icon icon-activate-f main-checkbox-card__icon"
+    />
+    <div
+      className="d-flex flex-column flex-1"
+    >
+      <div
+        className="d-flex align-items-center mb-16"
+      >
+        <img
+          alt=""
+          src="/images/listing/Modern-Van.svg"
+        />
+        <span
+          className="text-subheader font-400 ml-8"
+        >
+          <Memo(FormattedMessage)
+            id="shared.pickup"
+          />
+        </span>
+      </div>
+      <div
+        className="mr-40"
+      >
+        <Memo(FormattedMessage)
+          id="campervan-rental.filter.youWillPickupVeh"
+        />
+      </div>
+    </div>
+  </Checkbox>
+</div>
+`;
+
+exports[`useDelivery hook matches snapshot 1`] = `
+Object {
+  "applyFilters": [Function],
+  "checkFilterUpdates": [Function],
+  "clearFilters": [Function],
+  "filter": null,
+  "isFilterApplied": false,
+  "onChangeHandler": [Function],
+  "renderDeliveryWidget": [Function],
+}
+`;

@@ -1,0 +1,14 @@
+{
+  "baseUrl": "http://localhost:4000",
+  "viewportWidth": 1280,
+  "viewportHeight": 800,
+  "env": {
+    "baseUrl": "http://localhost:4000",
+    "backendUrl": "https://staging-api.vancation.com",
+    "RETRIES": 1,
+    "googleSocialLoginUsername": "grigorieffevgeniy@gmail.com",
+    "googleSocialLoginPassword": "sukasterva234589a",
+    "loginUrl": "http://localhost:4000/log_in",
+    "cookieName": "google_auth_data"
+  }
+}

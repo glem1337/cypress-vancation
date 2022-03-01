@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Specifications component tests matches snapshot default 1`] = `
+<Fragment>
+  <div
+    className="van-details__info"
+    id="details-overview"
+  >
+    <div
+      className="text-headline mr-16"
+    >
+      <Memo(FormattedMessage)
+        id="shared.camperInfo"
+      />
+    </div>
+    <div
+      className="van-details__info-tag-wrap"
+    >
+      <Tag
+        className="mr-8"
+        color="default"
+      >
+        <span
+          className="font-14"
+        >
+          <span
+            className="in-black"
+          >
+            <Memo(FormattedMessage)
+              id="shared.builtBy"
+            />
+            :
+          </span>
+           
+          <span
+            className="in-blue-1000 font-600"
+          >
+            Sybil Turner
+          </span>
+        </span>
+      </Tag>
+    </div>
+    <p
+      className="van-details__info-numb"
+    >
+      <Memo(FormattedMessage)
+        id="shared.rental"
+      />
+       
+      #
+      123
+    </p>
+  </div>
+  <div
+    className="mb-24"
+  >
+    <p
+      className="text-subheader font-400 text-color-gray"
+    >
+      description
+    </p>
+  </div>
+  <div
+    className="mb-24 mb-md-40"
+  >
+    <p
+      className="text-subheader mb-16 font-700"
+    >
+      <Memo(FormattedMessage)
+        id="shared.details"
+      />
+    </p>
+    <Row
+      gutter={24}
+    >
+      <Col
+        key="sleeps"
+        md={8}
+        xl={6}
+      >
+        <div
+          className="van-details__details-card"
+        >
+          <div
+            className="van-details__details-card-img"
+          >
+            <img
+              alt=""
+              src="/images/details_camp/Sleeps.svg"
+            />
+          </div>
+          <div
+            className="mr-auto"
+          >
+            <p>
+              <Memo(FormattedMessage)
+                id="addNewCamper.camperDetails.form.sleeps"
+              />
+            </p>
+            <p
+              className="text-subheader font-700"
+            >
+              <FormattedOrRawMessage
+                message={12}
+              />
+            </p>
+          </div>
+        </div>
+      </Col>
+      <Col
+        key="insideHeight"
+        md={8}
+        xl={6}
+      >
+        <div
+          className="van-details__details-card"
+        >
+          <div
+            className="van-details__details-card-img"
+          >
+            <img
+              alt=""
+              src="/images/listing/High-Top.svg"
+            />
+          </div>
+          <div
+            className="mr-auto"
+          >
+            <p>
+              <Memo(FormattedMessage)
+                id="addNewCamper.camperDetails.form.insideHeight"
+              />
+            </p>
+            <p
+              className="text-subheader font-700"
+            >
+              <FormattedOrRawMessage
+                message={
+                  Object {
+                    "id": "addNewCamper.camperDetails.from.highTop",
+                  }
+                }
+              />
+            </p>
+          </div>
+        </div>
+      </Col>
+    </Row>
+    <button
+      className="in-blue-1000 main-link font-600"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <Memo(FormattedMessage)
+        id="shared.hide"
+      />
+    </button>
+  </div>
+</Fragment>
+`;
+
+exports[`Specifications component tests matches snapshot when camper doesnt exist 1`] = `
+<Fragment>
+  <div
+    className="skeleton__title w-100"
+  />
+  <SkeletonText
+    rows={4}
+  />
+</Fragment>
+`;

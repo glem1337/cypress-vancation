@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`campervan rentals constants matches snapshot 1`] = `
+Object {
+  "LANDING_TYPE": Object {
+    "LOCATION_LANDING": "location_landing",
+    "SEARCH_RESULT": "search_result",
+    "STATE_LANDING": "state_landing",
+  },
+  "SCROLL_DEBOUNCE": 100,
+  "SCROLL_DELTA": 105,
+  "SLIDES_COUNT": Object {
+    "NEAR_BY_YOU": 4,
+    "TOP_CAMPERVAN": 3,
+  },
+}
+`;

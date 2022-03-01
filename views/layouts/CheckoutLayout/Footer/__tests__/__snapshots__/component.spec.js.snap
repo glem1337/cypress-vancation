@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutLayout layout Footer component tests matches snapshot default 1`] = `
+<footer
+  className="checkout__footer"
+>
+  <div
+    className="checkout__footer-top"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="d-flex align-items-center justify-content-space-between"
+      >
+        <span
+          className="text-title"
+        >
+          <Memo(FormattedMessage)
+            id="shared.estTotal"
+          />
+          : $375
+        </span>
+        <Button
+          className="ant-btn-main-link"
+        >
+          <Memo(FormattedMessage)
+            id="shared.viewDetails"
+          />
+        </Button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="checkout__footer-bottom"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <Button
+          className="ant-btn-link ant-btn-flat pl-0 pr-0"
+          icon={
+            <i
+              className="icon icon-left-edge"
+            />
+          }
+          onClick={[MockFunction]}
+        >
+          <Memo(FormattedMessage)
+            id="shared.back"
+          />
+        </Button>
+        <BtnGradient
+          className="min-w-140 ml-auto"
+          isLoading={false}
+          size="large"
+          text={
+            Object {
+              "id": "shared.continue",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</footer>
+`;
+
+exports[`CheckoutLayout layout Footer component tests matches snapshot when showBackBtn is equal false 1`] = `
+<footer
+  className="checkout__footer"
+>
+  <div
+    className="checkout__footer-top"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="d-flex align-items-center justify-content-space-between"
+      >
+        <span
+          className="text-title"
+        >
+          <Memo(FormattedMessage)
+            id="shared.estTotal"
+          />
+          : $375
+        </span>
+        <Button
+          className="ant-btn-main-link"
+        >
+          <Memo(FormattedMessage)
+            id="shared.viewDetails"
+          />
+        </Button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="checkout__footer-bottom"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <BtnGradient
+          className="min-w-140 ml-auto"
+          isLoading={false}
+          size="large"
+          text={
+            Object {
+              "id": "shared.continue",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</footer>
+`;

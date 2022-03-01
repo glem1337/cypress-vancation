@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadButton component tests matches snapshot 1`] = `
+<div
+  className="camper-photo__upload-button"
+  id="camper-photo__upload-button"
+  onClick={[MockFunction]}
+  role="button"
+>
+  <div
+    className="camper-photo__upload-inner-wrapper"
+  >
+    <i
+      className="icon icon-upload"
+    />
+    <div
+      className="camper-photo__upload-text"
+    >
+      <Memo(FormattedMessage)
+        id="addNewCamper.form.photos.uploadImage"
+      />
+    </div>
+  </div>
+</div>
+`;

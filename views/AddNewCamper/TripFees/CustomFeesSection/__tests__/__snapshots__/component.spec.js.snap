@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomFeesSection component tests matches snapshot 1`] = `
+<Row
+  gutter={24}
+>
+  <Col
+    lg={16}
+  >
+    <div
+      className="mb-8 text-subheader font-400"
+    >
+      <Memo(FormattedMessage)
+        id="addNewCamper.tripFees.custom.title"
+      />
+    </div>
+    <p
+      className="mb-24"
+    >
+      <Memo(FormattedMessage)
+        id="addNewCamper.tripFees.custom.subTitle"
+      />
+    </p>
+    <CustomFee
+      frequency="frequency"
+      id="1"
+      key="1"
+      name="name"
+      onFrequencyChanged={[MockFunction]}
+      price="price"
+      removeFee={[MockFunction]}
+    />
+    <Button
+      className="mb-24"
+      disabled={false}
+      onClick={[MockFunction]}
+      type="secondary"
+    >
+      <Memo(FormattedMessage)
+        id="addNewCamper.tripFees.custom.buttonLabel"
+      />
+    </Button>
+  </Col>
+</Row>
+`;

@@ -1,0 +1,39 @@
+.main-avatar-upload {
+  .ant-upload-list-item-actions {
+    display: none;
+  }
+
+  .ant-upload-list-picture-card-container {
+    border-radius: 50%;
+    overflow: hidden;
+    + .ant-upload {
+      display: none;
+    }
+  }
+
+  .ant-upload-list-item {
+    padding: 0;
+  }
+
+  .ant-upload-list,
+  .ant-upload.ant-upload-select-picture-card {
+    width: @main-avatar-size-lg;
+    height: @main-avatar-size-lg;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    .ant-upload-list-item,
+    > .ant-upload {
+      height: 100%;
+      border-radius: 50%;
+
+      &::after {
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .ant-upload-list-picture-card .ant-upload-list-item-info::before {
+    content: none !important;
+  }
+}

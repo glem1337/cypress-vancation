@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`camperInsurance constants matches snapshot 1`] = `
+Object {
+  "INSURANCE_STATUS": Object {
+    "APPROVED": "approved",
+    "PENDING": "pending",
+  },
+  "INSURANCE_VALIDATION": Object {
+    "MAX_ACTUAL_CASH_VALUE": 200000,
+    "MAX_LICENSE_PLATE": 10,
+    "MAX_VIN_NUMBER": 20,
+    "MIN_ACTUAL_CASH_VALUE": 1,
+  },
+}
+`;

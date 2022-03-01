@@ -1,0 +1,6 @@
+export const MAX_DESCRIPTION_VISIBLE_SYMBOLS = 50;
+
+export const DEFAULT_VISIBLE_ADDONS = {
+  MOBILE: 3,
+  DESKTOP: 4,
+};

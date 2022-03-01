@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component matches snapshot with default props 1`] = `
+<Modal
+  additionalProps="additionalProps"
+  bodyStyle={
+    Object {
+      "padding": 0,
+    }
+  }
+  className={null}
+  closable={false}
+  closeIcon={
+    <i
+      className="icon icon-cross main-close-btn"
+    />
+  }
+  confirmLoading={false}
+  footer={null}
+  maskClosable={true}
+  okType="primary"
+  onCancel={[MockFunction]}
+  style={
+    Object {
+      "width": "100px",
+    }
+  }
+  visible={true}
+  width={520}
+>
+  <div>
+    Content
+  </div>
+</Modal>
+`;

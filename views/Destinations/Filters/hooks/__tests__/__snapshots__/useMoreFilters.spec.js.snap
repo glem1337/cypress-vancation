@@ -1,0 +1,711 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useMoreFilters hook checks \`applyFilters\` method 1`] = `
+Array [
+  Object {
+    "name": "rating",
+    "value": null,
+  },
+  Object {
+    "name": "allowPets",
+    "value": null,
+  },
+  Object {
+    "name": "allowSmoking",
+    "value": null,
+  },
+  Object {
+    "name": "festivalApproved",
+    "value": null,
+  },
+  Object {
+    "name": "allowUnlimitedMiles",
+    "value": null,
+  },
+  Object {
+    "name": "insideHeight",
+    "value": Array [],
+  },
+  Object {
+    "name": "standardAmenities",
+    "value": Array [],
+  },
+  Object {
+    "name": "luxuryAmenities",
+    "value": Array [],
+  },
+]
+`;
+
+exports[`useMoreFilters hook checks \`clearFilters\` method 1`] = `
+Array [
+  Object {
+    "name": "rating",
+    "value": null,
+  },
+  Object {
+    "name": "allowPets",
+    "value": null,
+  },
+  Object {
+    "name": "allowSmoking",
+    "value": null,
+  },
+  Object {
+    "name": "festivalApproved",
+    "value": null,
+  },
+  Object {
+    "name": "allowUnlimitedMiles",
+    "value": null,
+  },
+  Object {
+    "name": "insideHeight",
+    "value": null,
+  },
+  Object {
+    "name": "standardAmenities",
+    "value": null,
+  },
+  Object {
+    "name": "luxuryAmenities",
+    "value": null,
+  },
+]
+`;
+
+exports[`useMoreFilters hook checks \`detectInitialValues\` method 1`] = `
+Array [
+  Object {
+    "name": "rating",
+    "value": null,
+  },
+  Object {
+    "name": "allowPets",
+    "value": null,
+  },
+  Object {
+    "name": "allowSmoking",
+    "value": null,
+  },
+  Object {
+    "name": "festivalApproved",
+    "value": null,
+  },
+  Object {
+    "name": "allowUnlimitedMiles",
+    "value": null,
+  },
+  Object {
+    "name": "insideHeight",
+    "value": null,
+  },
+  Object {
+    "name": "standardAmenities",
+    "value": null,
+  },
+  Object {
+    "name": "luxuryAmenities",
+    "value": null,
+  },
+]
+`;
+
+exports[`useMoreFilters hook checks \`renderInsideHeight\` method 1`] = `
+<React.Fragment>
+  <div
+    className="search-page__filters-mob__input-row__item"
+  >
+    <img
+      alt=""
+      className="mr-12"
+      src="/images/listing/High-Top.svg"
+    />
+    <Checkbox
+      checked={false}
+      onChange={[Function]}
+    >
+      <Memo(FormattedMessage)
+        id="shared.insideHeightHightTop"
+      />
+    </Checkbox>
+  </div>
+  <div
+    className="search-page__filters-mob__input-row__item"
+  >
+    <img
+      alt=""
+      className="mr-12"
+      src="/images/listing/Pop-Top.svg"
+    />
+    <Checkbox
+      checked={false}
+      onChange={[Function]}
+    >
+      <Memo(FormattedMessage)
+        id="shared.insideHeightPopTop"
+      />
+    </Checkbox>
+  </div>
+  <div
+    className="search-page__filters-mob__input-row__item"
+  >
+    <img
+      alt=""
+      className="mr-12"
+      src="/images/listing/Low-Top.svg"
+    />
+    <Checkbox
+      checked={false}
+      onChange={[Function]}
+    >
+      <Memo(FormattedMessage)
+        id="shared.insideHeightLowTop"
+      />
+    </Checkbox>
+  </div>
+  <div
+    className="search-page__filters-mob__input-row__item"
+  >
+    <img
+      alt=""
+      className="mr-12"
+      src="/images/listing/Roof-Top-Tent.svg"
+    />
+    <Checkbox
+      checked={false}
+      onChange={[Function]}
+    >
+      <Memo(FormattedMessage)
+        id="shared.roofTopTent"
+      />
+    </Checkbox>
+  </div>
+</React.Fragment>
+`;
+
+exports[`useMoreFilters hook checks \`renderLuxuryAmenities\` method 1`] = `
+<React.Fragment>
+  <Checkbox
+    checked={false}
+    className="main-checkbox-card"
+    onChange={[Function]}
+  >
+    <div
+      className="d-flex flex-column flex-1"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <img
+          alt=""
+          className="mr-12"
+          src="/images/listing/amenities-svg/bathroom/indoor_shower.svg"
+        />
+        <span
+          className="in-black"
+        >
+          <Memo(FormattedMessage)
+            id="shared.indoorShower"
+          />
+        </span>
+      </div>
+    </div>
+  </Checkbox>
+  <Checkbox
+    checked={false}
+    className="main-checkbox-card"
+    onChange={[Function]}
+  >
+    <div
+      className="d-flex flex-column flex-1"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <img
+          alt=""
+          className="mr-12"
+          src="/images/listing/amenities-svg/bathroom/toilet_full_use.svg"
+        />
+        <span
+          className="in-black"
+        >
+          <Memo(FormattedMessage)
+            id="shared.toiletFullUse"
+          />
+        </span>
+      </div>
+    </div>
+  </Checkbox>
+  <Checkbox
+    checked={false}
+    className="main-checkbox-card"
+    onChange={[Function]}
+  >
+    <div
+      className="d-flex flex-column flex-1"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <img
+          alt=""
+          className="mr-12"
+          src="/images/listing/amenities-svg/power_system/shore-power-hookups.svg"
+        />
+        <span
+          className="in-black"
+        >
+          <Memo(FormattedMessage)
+            id="shared.shorePowerHookups"
+          />
+        </span>
+      </div>
+    </div>
+  </Checkbox>
+  <Checkbox
+    checked={false}
+    className="main-checkbox-card"
+    onChange={[Function]}
+  >
+    <div
+      className="d-flex flex-column flex-1"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <img
+          alt=""
+          className="mr-12"
+          src="/images/listing/amenities-svg/power_system/solar-panels.svg"
+        />
+        <span
+          className="in-black"
+        >
+          <Memo(FormattedMessage)
+            id="shared.offGridCapableSystem"
+          />
+        </span>
+      </div>
+    </div>
+  </Checkbox>
+</React.Fragment>
+`;
+
+exports[`useMoreFilters hook checks \`renderRating\` method for desktop 1`] = `
+<Memo
+  className="mb-0"
+  onChange={[Function]}
+  value="all"
+>
+  <div
+    className="mb-16"
+  >
+    <Radio
+      checked={true}
+      type="radio"
+      value="all"
+    >
+      <span
+        className="ml-12"
+      >
+        <Memo(FormattedMessage)
+          id="shared.all"
+        />
+      </span>
+    </Radio>
+  </div>
+  <div
+    className="mb-8"
+  >
+    <Radio
+      checked={false}
+      className="ant-radio-centered"
+      type="radio"
+      value="90"
+    >
+      <div
+        className="search-page__filters-rating"
+      >
+        <div
+          className="search-page__filters-rating-icon-90"
+        >
+          <img
+            alt=""
+            src="/images/Like - White.svg"
+          />
+        </div>
+        <span
+          className="font-600 ml-8"
+        >
+          90%
+        </span>
+      </div>
+    </Radio>
+  </div>
+  <div
+    className="mb-8"
+  >
+    <Radio
+      checked={false}
+      className="ant-radio-centered"
+      type="radio"
+      value="80"
+    >
+      <div
+        className="search-page__filters-rating"
+      >
+        <div
+          className="search-page__filters-rating-icon-90"
+        >
+          <img
+            alt=""
+            src="/images/Like - White.svg"
+          />
+        </div>
+        <span
+          className="font-600 ml-8"
+        >
+          80%
+        </span>
+      </div>
+    </Radio>
+  </div>
+</Memo>
+`;
+
+exports[`useMoreFilters hook checks \`renderRating\` method for mobile 1`] = `
+<Memo
+  className="search-page__filters-mob__input-row"
+  onChange={[Function]}
+  value="all"
+>
+  <div
+    className="search-page__filters-mob__input-row__item"
+  >
+    <Radio
+      checked={true}
+      type="radio"
+      value="all"
+    >
+      <span
+        className="ml-12"
+      >
+        <Memo(FormattedMessage)
+          id="shared.all"
+        />
+      </span>
+    </Radio>
+  </div>
+  <div
+    className="search-page__filters-mob__input-row__item"
+  >
+    <Radio
+      checked={false}
+      className="ant-radio-centered"
+      type="radio"
+      value="90"
+    >
+      <div
+        className="search-page__filters-rating"
+      >
+        <div
+          className="search-page__filters-rating-icon-90"
+        >
+          <img
+            alt=""
+            src="/images/Like - White.svg"
+          />
+        </div>
+        <span
+          className="font-600 ml-8"
+        >
+          90%
+        </span>
+      </div>
+    </Radio>
+  </div>
+  <div
+    className="search-page__filters-mob__input-row__item"
+  >
+    <Radio
+      checked={false}
+      className="ant-radio-centered"
+      type="radio"
+      value="80"
+    >
+      <div
+        className="search-page__filters-rating"
+      >
+        <div
+          className="search-page__filters-rating-icon-90"
+        >
+          <img
+            alt=""
+            src="/images/Like - White.svg"
+          />
+        </div>
+        <span
+          className="font-600 ml-8"
+        >
+          80%
+        </span>
+      </div>
+    </Radio>
+  </div>
+</Memo>
+`;
+
+exports[`useMoreFilters hook checks \`renderRules\` method 1`] = `
+<React.Fragment>
+  <Checkbox
+    checked={false}
+    className="main-checkbox-card"
+    onChange={[Function]}
+  >
+    <div
+      className="d-flex flex-column flex-1"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <img
+          alt=""
+          className="mr-12"
+          src="/images/edit_listing/rules/Pets-Allowed.svg"
+        />
+        <span
+          className="in-black"
+        >
+          <Memo(FormattedMessage)
+            id="shared.petsAllowed"
+          />
+        </span>
+      </div>
+    </div>
+  </Checkbox>
+  <Checkbox
+    checked={false}
+    className="main-checkbox-card"
+    onChange={[Function]}
+  >
+    <div
+      className="d-flex flex-column flex-1"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <img
+          alt=""
+          className="mr-12"
+          src="/images/edit_listing/rules/Smoking-Allowed.svg"
+        />
+        <span
+          className="in-black"
+        >
+          <Memo(FormattedMessage)
+            id="shared.smokingAllowed"
+          />
+        </span>
+      </div>
+    </div>
+  </Checkbox>
+  <Checkbox
+    checked={false}
+    className="main-checkbox-card"
+    onChange={[Function]}
+  >
+    <div
+      className="d-flex flex-column flex-1"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <img
+          alt=""
+          className="mr-12"
+          src="/images/edit_listing/rules/Festival-Approved.svg"
+        />
+        <span
+          className="in-black"
+        >
+          <Memo(FormattedMessage)
+            id="shared.festivalApproved"
+          />
+        </span>
+      </div>
+    </div>
+  </Checkbox>
+  <Checkbox
+    checked={false}
+    className="main-checkbox-card"
+    onChange={[Function]}
+  >
+    <div
+      className="d-flex flex-column flex-1"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <img
+          alt=""
+          className="mr-12"
+          src="/images/edit_listing/rules/Allow-Unlimited-Miles.svg"
+        />
+        <span
+          className="in-black"
+        >
+          <Memo(FormattedMessage)
+            id="shared.allowUnlimitedMiles"
+          />
+        </span>
+      </div>
+    </div>
+  </Checkbox>
+</React.Fragment>
+`;
+
+exports[`useMoreFilters hook checks \`renderStandardAmenities\` method 1`] = `
+<React.Fragment>
+  <Checkbox
+    checked={false}
+    className="main-checkbox-card"
+    onChange={[Function]}
+  >
+    <div
+      className="d-flex flex-column flex-1"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <img
+          alt=""
+          className="mr-12"
+          src="/images/listing/amenities-svg/kitchen/stovetop.svg"
+        />
+        <span
+          className="in-black"
+        >
+          <Memo(FormattedMessage)
+            id="shared.stovetop"
+          />
+        </span>
+      </div>
+    </div>
+  </Checkbox>
+  <Checkbox
+    checked={false}
+    className="main-checkbox-card"
+    onChange={[Function]}
+  >
+    <div
+      className="d-flex flex-column flex-1"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <img
+          alt=""
+          className="mr-12"
+          src="/images/listing/amenities-svg/kitchen/fridge.svg"
+        />
+        <span
+          className="in-black"
+        >
+          <Memo(FormattedMessage)
+            id="shared.fridge"
+          />
+        </span>
+      </div>
+    </div>
+  </Checkbox>
+  <Checkbox
+    checked={false}
+    className="main-checkbox-card"
+    onChange={[Function]}
+  >
+    <div
+      className="d-flex flex-column flex-1"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <img
+          alt=""
+          className="mr-12"
+          src="/images/listing/amenities-svg/climate_control/heating.svg"
+        />
+        <span
+          className="in-black"
+        >
+          <Memo(FormattedMessage)
+            id="shared.heating"
+          />
+        </span>
+      </div>
+    </div>
+  </Checkbox>
+  <Checkbox
+    checked={false}
+    className="main-checkbox-card"
+    onChange={[Function]}
+  >
+    <div
+      className="d-flex flex-column flex-1"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <img
+          alt=""
+          className="mr-12"
+          src="/images/listing/amenities-svg/bathroom/outdoor_shower.svg"
+        />
+        <span
+          className="in-black"
+        >
+          <Memo(FormattedMessage)
+            id="shared.outdoorShower"
+          />
+        </span>
+      </div>
+    </div>
+  </Checkbox>
+</React.Fragment>
+`;
+
+exports[`useMoreFilters hook matches snapshot 1`] = `
+Object {
+  "applyFilters": [Function],
+  "checkFilterUpdates": [Function],
+  "clearFilters": [Function],
+  "countFilterApplied": 0,
+  "detectInitialValues": [Function],
+  "filters": Object {
+    "allowPets": false,
+    "allowSmoking": false,
+    "allowUnlimitedMiles": false,
+    "festivalApproved": false,
+    "insideHeight": Array [],
+    "luxuryAmenities": Array [],
+    "rating": "all",
+    "standardAmenities": Array [],
+  },
+  "isAnyFilterApplied": false,
+  "isInsideHeightChecked": [Function],
+  "isLuxuryAmenityChecked": [Function],
+  "isStandardAmenityChecked": [Function],
+  "onChangeRating": [Function],
+  "onChangeRules": [Function],
+  "onInsideHeightChange": [Function],
+  "onLuxuryAmenityChange": [Function],
+  "onStandardAmenityChange": [Function],
+  "renderInsideHeight": [Function],
+  "renderLuxuryAmenities": [Function],
+  "renderRating": [Function],
+  "renderRules": [Function],
+  "renderStandardAmenities": [Function],
+  "setFilters": [Function],
+}
+`;

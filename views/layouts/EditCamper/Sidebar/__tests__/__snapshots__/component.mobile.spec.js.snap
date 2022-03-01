@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SidebarMobile component tests matches snapshot 1`] = `
+<div
+  className="edit-list-left-sidebar-tab"
+>
+  <Row>
+    <Col
+      md={12}
+    >
+      <ForwardRef(InternalSelect)
+        className="main-input__field"
+        onChange={[MockFunction]}
+        optionLabelProp="label"
+        value="details"
+      >
+        <Option
+          className="p-0"
+          key="test"
+          label={
+            <Memo(FormattedMessage)
+              id="test"
+            />
+          }
+          value="details"
+        >
+          <li
+            className="main-dropdown__item"
+          >
+            <Memo(FormattedMessage)
+              id="test"
+            />
+          </li>
+        </Option>
+      </ForwardRef(InternalSelect)>
+    </Col>
+  </Row>
+</div>
+`;

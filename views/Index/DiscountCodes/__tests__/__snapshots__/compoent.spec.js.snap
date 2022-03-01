@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DiscountCodes component snapshot 1`] = `
+<div
+  className="home-discount-code-wrap"
+>
+  <div
+    className="container"
+  >
+    <h2
+      className="home-title-sec"
+    >
+      <Memo(FormattedMessage)
+        id="homePage.discountCodes.title"
+      />
+    </h2>
+    <div
+      className="mb-20"
+    >
+      <Row
+        justify="center"
+      >
+        <Col
+          xl={12}
+        >
+          <Group>
+            <Row>
+              <Col
+                md={19}
+                span={17}
+                xl={17}
+              >
+                <Field
+                  autoComplete="email"
+                  className="main-input-group--left"
+                  component={[Function]}
+                  name="email"
+                  placeholder={
+                    Object {
+                      "id": "shared.emailPlaceholder",
+                    }
+                  }
+                  type="email"
+                />
+              </Col>
+              <Col
+                md={5}
+                span={7}
+                xl={7}
+              >
+                <BtnGradient
+                  className="w-100 main-input-group--right pl-0 pr-0"
+                  disabled={false}
+                  isLoading={false}
+                  loading={false}
+                  onClick={[MockFunction]}
+                  size="large"
+                  text={
+                    <Memo(FormattedMessage)
+                      id="shared.getStarted"
+                    />
+                  }
+                />
+              </Col>
+            </Row>
+          </Group>
+        </Col>
+      </Row>
+    </div>
+    <Row
+      justify="center"
+    >
+      <Col
+        xl={14}
+      >
+        <p
+          className="home-discount-code__txt"
+        >
+          <Memo(FormattedMessage)
+            id="homePage.discountCodes.footer"
+          />
+           
+          <Link
+            href="/privacy-policy"
+          >
+            <a>
+              <Memo(FormattedMessage)
+                id="shared.privacyPolicy"
+              />
+            </a>
+          </Link>
+        </p>
+      </Col>
+    </Row>
+  </div>
+</div>
+`;

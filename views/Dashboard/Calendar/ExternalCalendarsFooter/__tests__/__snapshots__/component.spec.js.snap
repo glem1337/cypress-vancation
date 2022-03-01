@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExternalCalendarsFooter component tests matches snapshot 1`] = `
+<div
+  className="calenadr-listing__footer"
+>
+  <div
+    className="calendar-listing__footer-head"
+  >
+    <Memo(FormattedMessage)
+      id="calendar.footer.title"
+    />
+    <Button
+      className="d-lg-none align-self-start ml-16"
+      icon={
+        <i
+          className="icon icon-cross"
+        />
+      }
+      onClick={[MockFunction]}
+      shape="circle"
+      size="large"
+      type="secondary"
+    />
+  </div>
+  <div
+    className="calendar-listing__footer-main"
+  >
+    <Connect(ExportCalendarSection)
+      camperId="camperId"
+    />
+    <Connect(ImportCalendarSection)
+      camperId="camperId"
+    />
+  </div>
+</div>
+`;

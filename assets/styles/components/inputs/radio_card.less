@@ -1,0 +1,50 @@
+.main-radio-card {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 16px;
+  border: 1px solid @gray400;
+  border-radius: @main-border-radius;
+  transition: border-color @main-transition-props, box-shadow @main-transition-props;
+
+  &::after {
+    display: none;
+  }
+
+  .ant-radio {
+    display: none;
+  }
+
+  &:hover,
+  &:focus {
+    border-color: @blue1000;
+  }
+
+  &.ant-radio-wrapper-checked {
+    border-color: @blue1000;
+    box-shadow: 0 0 0 4px @blue300;
+
+    .main-radio-card__icon {
+      opacity: 1;
+    }
+  }
+
+  .ant-radio + span {
+    display: flex;
+    padding: 0;
+  }
+
+  & + & {
+    margin: 0;
+  }
+}
+
+.main-radio-card__icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: @blue1000;
+  font-size: 22px;
+  opacity: 0;
+  transition: opacity @main-transition-props;
+}

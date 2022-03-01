@@ -1,0 +1,375 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdditionalDocuments container tests checks mapPropsToValues configs 1`] = `
+Object {
+  "documents": Array [
+    Object {
+      "id": "7a5130eb-f6d6-493a-afa6-ab900ad8dc86",
+      "name": "4RDHCZ.pdf",
+      "size": 0,
+      "type": "application/pdf",
+      "uid": "__AUTO__1630416292886_0__",
+    },
+  ],
+  "questions": Array [
+    Object {
+      "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+      "required": true,
+      "text": "test",
+    },
+  ],
+}
+`;
+
+exports[`AdditionalDocuments container tests container snapshot 1`] = `
+<AdditionalDocuments
+  camper={
+    Object {
+      "blockedPeriods": Array [],
+      "camperAddition": Object {
+        "amenityHealthSafetyItems": Array [
+          Object {
+            "healthSafety": Object {
+              "iconUrl": "path/to/icon/url",
+              "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+              "name": "name",
+            },
+          },
+        ],
+        "camperQuestions": Array [
+          Object {
+            "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+            "required": true,
+            "text": "test",
+          },
+        ],
+        "customRestrictionRoads": Array [
+          Object {
+            "active": true,
+            "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+            "name": "name",
+          },
+        ],
+        "customRestrictionRules": Array [
+          Object {
+            "active": true,
+            "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+            "name": "name",
+          },
+        ],
+        "customTravelAccessories": Array [
+          Object {
+            "active": true,
+            "description": "",
+            "id": "dd477886-ec22-4da9-ba4c-08627f35fb1a",
+            "maxAmount": "2.0",
+            "name": "Bike Rack",
+            "price": "1.0",
+            "priceUnit": "each",
+          },
+        ],
+        "customTravelRestrictions": Array [
+          Object {
+            "active": true,
+            "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+            "name": "name",
+          },
+        ],
+        "restrictionRoad": Object {
+          "dirtryRoad": true,
+          "fourWheelRoad": false,
+          "offRoad": false,
+          "snowAndIceRoad": false,
+        },
+        "restrictionRule": Object {
+          "allowPets": false,
+          "festivalApproved": false,
+          "smoking": false,
+        },
+        "travelRestriction": Object {
+          "burningMan": false,
+          "canada": true,
+          "mexico": false,
+        },
+      },
+      "camperCalendar": Object {
+        "blockedPeriods": Array [
+          Object {
+            "endDate": "2021-08-06",
+            "id": "56ceb535-322f-42c6-8dcd-a88ad59000f3",
+            "startDate": "2021-08-05",
+          },
+          Object {
+            "endDate": "2021-08-25",
+            "id": "17a32ec0-a486-4247-910c-6c0c57ba6ec3",
+            "startDate": "2021-08-25",
+          },
+          Object {
+            "endDate": "2021-07-28",
+            "id": "2c7bbaef-6b00-494f-b005-6a762e90c785",
+            "startDate": "2021-07-28",
+          },
+        ],
+        "customDiscountPeriods": Array [
+          Object {
+            "endDate": "2021-07-28",
+            "id": "ffb3f0cc-4513-4fdc-81d0-03587232d9ee",
+            "monthlyDiscountPercent": 23,
+            "startDate": "2021-07-27",
+            "weeklyDiscountPercent": 15,
+          },
+          Object {
+            "endDate": "2021-07-28",
+            "id": "a070339d-7058-4769-8e16-814084c6bfe3",
+            "monthlyDiscountPercent": 23,
+            "startDate": "2021-07-28",
+            "weeklyDiscountPercent": 15,
+          },
+          Object {
+            "endDate": "2021-07-28",
+            "id": "aba16cba-5873-4273-8172-816b276a2db7",
+            "monthlyDiscountPercent": 44,
+            "startDate": "2021-07-28",
+            "weeklyDiscountPercent": 44,
+          },
+          Object {
+            "endDate": "2021-07-29",
+            "id": "586016b9-d351-4ca1-ac8a-373e7e3b8832",
+            "monthlyDiscountPercent": 33,
+            "startDate": "2021-07-29",
+            "weeklyDiscountPercent": 15,
+          },
+        ],
+        "externalCalendars": Array [],
+        "id": "e1db81b1-8ad5-4e88-9c99-f5c9020148eb",
+        "pricingPeriods": Array [
+          Object {
+            "endDate": "2021-07-28",
+            "id": "8aa92a51-ef00-4dc6-8b84-2820869b9278",
+            "price": "33.0",
+            "startDate": "2021-07-28",
+          },
+          Object {
+            "endDate": "2021-07-30",
+            "id": "248ba38e-e18a-467c-996b-36aa4bd73e85",
+            "price": "320.0",
+            "startDate": "2021-07-29",
+          },
+        ],
+      },
+      "camperPhotos": Array [
+        Object {
+          "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+          "photoUrl1100": "photoUrl1100",
+        },
+      ],
+      "camperRule": Object {
+        "bookingApprovalPolicy": "instant_book",
+        "cancellationPolicy": "easy_going",
+        "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+      },
+      "deliveryInformation": Object {
+        "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+        "pickup": true,
+      },
+      "description": "desc",
+      "estimatedEarning": 1200,
+      "externalCalendars": Array [],
+      "glamper": true,
+      "id": "a18f7338-c2b3-4cee-be4d-579c0a726c1a",
+      "insurance": "pending",
+      "insuranceInfo": Object {
+        "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+      },
+      "latitude": 40.772,
+      "longitude": -73.93030000000002,
+      "name": "test",
+      "owner": Object {
+        "account": Object {
+          "createdAt": "2021-07-09T13:39:26.587Z",
+          "drivingLicenceVerified": false,
+          "email": "kateryna.sessa+owner@rubygarage.org",
+          "emailVerified": false,
+          "id": "12563773-6e8f-4861-8abd-82a78632c6ac",
+          "user": Object {
+            "avatarUrl": null,
+            "createdAt": "2021-07-09T13:39:26.590Z",
+            "firstName": "Kat",
+            "id": "77015afb-71e3-4b94-a9cb-69a97dc6b358",
+            "lastName": "Kat",
+            "updatedAt": "2021-07-09T13:39:26.590Z",
+          },
+        },
+        "avatarUrl": null,
+        "averageRating": null,
+        "businessTitle": null,
+        "campersCount": 25,
+        "createdAt": "Member since July 2021",
+        "description": "description",
+        "email": null,
+        "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+        "idVerified": false,
+        "type": "owner",
+      },
+      "place": "Astoria, New York, New York 11102, United States",
+      "placeId": "neighborhood.290416",
+      "pricingInfo": Object {
+        "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+      },
+      "pricingPeriods": Array [],
+      "publicId": "111",
+      "specificationDetail": Object {
+        "drivetrain": "4x4",
+        "fuelType": "electric",
+        "insideHeight": "low_top",
+        "length": "67.89",
+        "mileage": "Under 50,000",
+        "modelNaming": "Clair Weimann",
+        "name": "Katelyn Lowe",
+        "seats": 1,
+        "sleeps": 1,
+        "stateRegistred": "Arkansas",
+        "transmission": "automatice",
+        "whoBuiltCamper": "Vasya",
+        "year": 1585,
+      },
+      "status": "draft",
+      "tripFee": Object {
+        "cleaning": 1,
+        "customFees": Array [
+          Object {
+            "frequency": "per_day",
+            "id": "id",
+            "name": "name",
+            "price": 5,
+          },
+        ],
+        "dumpingFee": 2,
+        "flue": 3,
+        "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+        "lateDropOff": 4,
+        "tripFeeGenerator": Object {
+          "available": 8,
+          "limit": true,
+          "overage": 9,
+        },
+        "tripFeeMileage": Object {
+          "available": 6,
+          "limit": true,
+          "overage": 7,
+        },
+      },
+      "vehicleTypeIconUrl": "test.svg",
+      "vehicleTypeName": "Modern Van",
+    }
+  }
+  camperId="test"
+  documents={
+    Array [
+      Object {
+        "id": "7a5130eb-f6d6-493a-afa6-ab900ad8dc86",
+        "name": "4RDHCZ.pdf",
+        "size": 0,
+        "type": "application/pdf",
+        "uid": "__AUTO__1630416292886_0__",
+      },
+    ]
+  }
+  handleSubmit={[MockFunction]}
+  hideModal={[Function]}
+  isCamperExist={true}
+  isLoading={false}
+  isValid={true}
+  leavePagePrepare={[Function]}
+  mapPropsToValues={[Function]}
+  onAddQuestion={[Function]}
+  onRemoveDocuments={[Function]}
+  onRemoveQuestion={[Function]}
+  onSubmit={[Function]}
+  router={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  setFieldValue={[MockFunction]}
+  showMessage={[Function]}
+  showModal={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  validateDocuments={[Function]}
+  validationSchema={[Function]}
+  values={
+    Object {
+      "documents": Array [
+        Object {
+          "uid": "id",
+        },
+      ],
+      "questions": Array [
+        Object {
+          "required": false,
+          "text": "some phrase",
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`AdditionalDocuments container tests has validation schema 1`] = `
+Object {
+  "fields": Object {
+    "questions": Object {
+      "innerType": Object {
+        "fields": Object {
+          "text": Object {
+            "label": undefined,
+            "meta": undefined,
+            "notOneOf": Array [],
+            "oneOf": Array [],
+            "tests": Array [
+              Object {
+                "name": "max",
+                "params": Object {
+                  "max": 255,
+                },
+              },
+              Object {
+                "name": "required",
+                "params": undefined,
+              },
+            ],
+            "type": "string",
+          },
+        },
+        "label": undefined,
+        "meta": undefined,
+        "notOneOf": Array [],
+        "oneOf": Array [],
+        "tests": Array [],
+        "type": "object",
+      },
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [],
+      "type": "array",
+    },
+  },
+  "label": undefined,
+  "meta": undefined,
+  "notOneOf": Array [],
+  "oneOf": Array [],
+  "tests": Array [],
+  "type": "object",
+}
+`;

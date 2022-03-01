@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropdownMenu container renders DropdownMenu component 1`] = `
+<span
+  onClick={[Function]}
+  role="button"
+>
+  <Dropdown
+    className={null}
+    disabled={false}
+    icon={
+      <div>
+        Icon
+      </div>
+    }
+    on={
+      Array [
+        "click",
+      ]
+    }
+    onVisibleChange={[Function]}
+    overlayClassName=""
+    visible={false}
+  >
+    <Menu
+      className="menuClassName"
+    >
+      <ForwardRef
+        enabled={false}
+      >
+        <div
+          key=".0"
+          onClick={[Function]}
+        />
+      </ForwardRef>
+    </Menu>
+  </Dropdown>
+</span>
+`;

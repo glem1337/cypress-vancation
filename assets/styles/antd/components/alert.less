@@ -1,0 +1,78 @@
+.ant-alert {
+  align-items: flex-start;
+  margin-bottom: 16px;
+  padding: 12px;
+  border: unset;
+  font-weight: 600;
+  box-shadow: @shadow6;
+
+  .anticon-close {
+    &:extend(.icon);
+    &:extend(.icon-cross);
+
+    &::after {
+      content: '\e911';
+      color: @green300;
+    }
+
+    svg {
+      display: none;
+    }
+  }
+}
+
+.ant-alert-icon {
+  margin-right: 12px;
+}
+
+.ant-alert-error .ant-alert-message {
+  color: @red1000;
+}
+
+.ant-alert-success .ant-alert-message {
+  color: @green300;
+}
+
+.ant-alert-warning .ant-alert-message {
+  color: @text-color-gray;
+}
+
+.ant-alert-info {
+  background-color: @blue100;
+
+  .ant-alert-message {
+    color: @blue1000;
+  }
+
+  .icon {
+    color: @blue1000;
+  }
+}
+
+.ant-alert-upcoming {
+  background-color: @yellow200;
+
+  .ant-alert-message {
+    color: @yellow-accent;
+  }
+
+  .icon {
+    color: @yellow1000;
+  }
+}
+
+.alert--big {
+  .media-down(sm, {
+    flex-wrap: wrap;
+    .ant-alert-action {
+      width: 100%;
+      margin-top: 8px;
+      margin-left: 36px;
+    }
+  });
+
+  .media-up(xl, {
+    align-items: center;
+    padding: 8px;
+  });
+}

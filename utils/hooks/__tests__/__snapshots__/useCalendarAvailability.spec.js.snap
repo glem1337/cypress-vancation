@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useCalendarAvailability hook checks \`formatShortWeekday\` method 1`] = `"Su"`;
+
+exports[`useCalendarAvailability hook checks \`tileContent\` method 1`] = `
+<div
+  className="campervan-availability__calendar-cell"
+>
+  <div
+    className="campervan-availability__calendar-inner-cell"
+  >
+    20
+  </div>
+</div>
+`;
+
+exports[`useCalendarAvailability hook matches snapshot 1`] = `
+Object {
+  "clearDateRange": [Function],
+  "formatShortWeekday": [Function],
+  "isCalendarFetching": false,
+  "onActiveStartDateChange": [Function],
+  "onDateRangeChange": [Function],
+  "tileContent": [Function],
+  "tileDisabled": [Function],
+}
+`;

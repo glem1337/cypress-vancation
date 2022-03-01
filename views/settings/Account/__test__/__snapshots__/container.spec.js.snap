@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Account settings container Account settings container snapshot 1`] = `
+<AccountComponent
+  currentUser={
+    Object {
+      "currentUser": Object {
+        "email": "test@gmail.com",
+        "user": Object {
+          "avatarUrl": "test_url",
+          "firstName": "firstName_test",
+          "lastName": "lastName_test",
+        },
+      },
+    }
+  }
+  router={
+    Object {
+      "query": Object {
+        "email_token": "email_token",
+      },
+    }
+  }
+  showAlertNewPassword={false}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "token": "email_token",
+              "type": "session/USER_CHECK_EMAIL_VERIFICATION_TOKEN",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  userCheckEmailVerificationToken={[Function]}
+/>
+`;

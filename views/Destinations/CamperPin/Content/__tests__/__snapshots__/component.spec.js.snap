@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content component tests matches snapshot 1`] = `
+<div
+  className="camper-card-preview camper-card-preview--map-pin"
+  onClick={[MockFunction]}
+  onDoubleClick={[MockFunction]}
+  role="button"
+>
+  <div
+    className="camper-card-preview__image-wrap"
+  >
+    <div
+      className="camper-card-preview__img"
+    >
+      <Swiper
+        loop={true}
+        pagination={
+          Object {
+            "clickable": true,
+            "type": "bullets",
+          }
+        }
+        watchOverflow={true}
+      >
+        <SwiperSlide
+          key="1"
+        >
+          <img
+            alt=""
+            src="test photoUrl274"
+          />
+        </SwiperSlide>
+      </Swiper>
+      <Button
+        className="swiper-nav-btn swiper-nav-btn-prev"
+        icon={
+          <i
+            className="icon icon-left font-12"
+          />
+        }
+        onClick={[MockFunction]}
+        shape="circle"
+        size="small"
+      />
+      <Button
+        className="swiper-nav-btn swiper-nav-btn-next"
+        icon={
+          <i
+            className="icon icon-right font-12"
+          />
+        }
+        onClick={[MockFunction]}
+        shape="circle"
+        size="small"
+      />
+    </div>
+    <div
+      className="camper-card-preview__card-tags"
+    >
+      <div>
+        <Tag
+          icon={
+            <i
+              className="icon icon-star-f in-red-1000"
+            />
+          }
+        />
+        <Tag
+          icon={
+            <i
+              className="icon icon-flash-f in-yellow-1000"
+            />
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="camper-card-preview__card-tag-glamper tag-glamper"
+    >
+      <img
+        alt=""
+        src="/images/profile/Diamond-White.svg"
+      />
+    </div>
+    <Tag
+      className="camper-card-preview__card-tag-delivery"
+      icon={
+        <i
+          className="icon icon-delivery-f in-black"
+        />
+      }
+    />
+  </div>
+  <a
+    className="camper-card-preview__bottom"
+    href="#"
+  >
+    <div
+      className="mb-8 text-subtitle font-700 text-truncate"
+    >
+      name
+    </div>
+    <div>
+      <p
+        className="text-uppercase"
+      >
+        vehicleTypeName
+      </p>
+      <p
+        className="text-uppercase"
+      >
+        makeModel
+      </p>
+    </div>
+    <div
+      className="d-flex justify-content-space-between mt-auto"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <img
+          alt=""
+          src="/images/listing/Like-Green.svg"
+        />
+        <span
+          className="text-subheader font-700 in-green-300 mr-4"
+        >
+          rating
+        </span>
+      </div>
+      <div
+        className="in-black"
+      >
+        <span
+          className="mr-4 text-title"
+        >
+          cost
+        </span>
+        <span>
+          costPeriod
+        </span>
+      </div>
+    </div>
+  </a>
+</div>
+`;
+
+exports[`Content component tests matches snapshot when isLoading equals true 1`] = `
+<div
+  className="camper-card-preview camper-card-preview--map-pin"
+  onClick={[MockFunction]}
+  onDoubleClick={[MockFunction]}
+  role="button"
+>
+  <div
+    className="camper-card-preview__image-wrap"
+  >
+    <div
+      className="camper-card-preview__img"
+    >
+      <div
+        className="camper-card-preview__skeleton-wrapper"
+      >
+        <Skeleton
+          active={true}
+          avatar={false}
+          paragraph={true}
+          title={true}
+        />
+      </div>
+      <Button
+        className="swiper-nav-btn swiper-nav-btn-prev"
+        icon={
+          <i
+            className="icon icon-left font-12"
+          />
+        }
+        onClick={[MockFunction]}
+        shape="circle"
+        size="small"
+      />
+      <Button
+        className="swiper-nav-btn swiper-nav-btn-next"
+        icon={
+          <i
+            className="icon icon-right font-12"
+          />
+        }
+        onClick={[MockFunction]}
+        shape="circle"
+        size="small"
+      />
+    </div>
+    <div
+      className="camper-card-preview__card-tags"
+    >
+      <div>
+        <Tag
+          icon={
+            <i
+              className="icon icon-star-f in-red-1000"
+            />
+          }
+        />
+        <Tag
+          icon={
+            <i
+              className="icon icon-flash-f in-yellow-1000"
+            />
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="camper-card-preview__card-tag-glamper tag-glamper"
+    >
+      <img
+        alt=""
+        src="/images/profile/Diamond-White.svg"
+      />
+    </div>
+    <Tag
+      className="camper-card-preview__card-tag-delivery"
+      icon={
+        <i
+          className="icon icon-delivery-f in-black"
+        />
+      }
+    />
+  </div>
+  <a
+    className="camper-card-preview__bottom"
+    href="#"
+  >
+    <div
+      className="mb-8 text-subtitle font-700 text-truncate"
+    >
+      name
+    </div>
+    <div>
+      <p
+        className="text-uppercase"
+      >
+        vehicleTypeName
+      </p>
+      <p
+        className="text-uppercase"
+      >
+        makeModel
+      </p>
+    </div>
+    <div
+      className="d-flex justify-content-space-between mt-auto"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <img
+          alt=""
+          src="/images/listing/Like-Green.svg"
+        />
+        <span
+          className="text-subheader font-700 in-green-300 mr-4"
+        >
+          rating
+        </span>
+      </div>
+      <div
+        className="in-black"
+      >
+        <span
+          className="mr-4 text-title"
+        >
+          cost
+        </span>
+        <span>
+          costPeriod
+        </span>
+      </div>
+    </div>
+  </a>
+</div>
+`;

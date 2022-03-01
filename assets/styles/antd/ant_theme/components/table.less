@@ -1,0 +1,26 @@
+// Table
+@table-bg: @component-background;
+@table-header-bg: @grey-50;
+@table-header-color: @black-secondary-text;
+@table-header-sort-bg: @background-color-base;
+@table-body-sort-bg: @table-body-sort-bg-color;
+@table-row-hover-bg: @grey-50;
+@table-selected-row-color: inherit;
+@table-selected-row-bg: white;
+@table-body-selected-sort-bg: @table-selected-row-bg;
+@table-selected-row-hover-bg: @table-selected-row-bg;
+@table-expanded-row-bg: @table-expanded-row-bg-color;
+@table-padding-vertical: 12px;
+@table-padding-horizontal: 12px;
+@table-border-radius-base: @border-radius-base;
+@table-footer-bg: @background-color-light;
+@table-footer-color: @heading-color;
+@table-header-bg-sm: @table-bg;
+// Sorter
+// Legacy: `table-header-sort-active-bg` is used for hover not real active
+@table-header-sort-active-bg: darken(@table-header-bg, 3%);
+// Filter
+@table-header-filter-active-bg: darken(@table-header-sort-active-bg, 5%);
+@table-filter-btns-bg: inherit;
+@table-filter-dropdown-bg: @component-background;
+@table-expand-icon-bg: @component-background;

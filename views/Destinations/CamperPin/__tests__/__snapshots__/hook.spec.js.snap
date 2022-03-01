@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CamperPin useContainer hook matches snapshot 1`] = `
+Object {
+  "camperData": Object {
+    "cost": "$0",
+    "costPeriod": "/ night",
+    "id": "a18f7338-c2b3-4cee-be4d-579c0a726c1a",
+    "isBooked": false,
+    "isGlamper": true,
+    "isHighDemand": false,
+    "isInstantBook": true,
+    "isNew": true,
+    "makeModel": "Vasya Clair Weimann",
+    "model": "Clair Weimann",
+    "modelNaming": "Clair Weimann",
+    "name": "test",
+    "rating": "100%",
+    "seats": 1,
+    "sleeps": 1,
+    "vehicleTypeName": "Modern Van in Arkansas",
+  },
+  "camperPhotos": Array [
+    Object {
+      "id": "74a9c587-7b78-4aa5-ba93-ba3d310be127",
+      "photoUrl1100": "photoUrl1100",
+    },
+  ],
+  "getPopupContainer": [Function],
+  "isActive": false,
+  "isLoading": false,
+  "onDoubleClick": [Function],
+  "onVisibleChange": [Function],
+  "showDetails": [Function],
+  "slideNext": [Function],
+  "slidePrev": [Function],
+  "swiperRef": Object {
+    "current": Object {
+      "swiper": Object {
+        "slideNext": [MockFunction],
+        "slidePrev": [MockFunction],
+      },
+    },
+  },
+}
+`;

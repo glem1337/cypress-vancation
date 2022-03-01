@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GuestHeader component matches snapshot 1`] = `
+<header>
+  <Row
+    justify="center"
+  >
+    <Col
+      lg={24}
+      md={23}
+    >
+      <div
+        className="auth-main__header-reset"
+      >
+        <Logo
+          bigLogoClassName=""
+          isLink={true}
+          isWhite={false}
+          smallLogoClassName=""
+        />
+      </div>
+    </Col>
+  </Row>
+</header>
+`;

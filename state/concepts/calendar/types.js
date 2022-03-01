@@ -1,0 +1,18 @@
+const namespace = 'camper-calendar';
+
+export const SET_CURRENT_DATE = `${namespace}/SET_CURRENT_DATE`;
+export const SET_SETTINGS_VISIBILITY = `${namespace}/SET_SETTINGS_VISIBILITY`;
+export const SET_AVAILABILITY_VISIBILITY = `${namespace}/SET_AVAILABILITY_VISIBILITY`;
+export const SET_AVAILABILITY_MODE = `${namespace}/SET_AVAILABILITY_MODE`;
+export const SET_SELECTED_SLOTS = `${namespace}/SET_SELECTED_SLOTS`;
+export const CLEAR_SELECTED_SLOTS = `${namespace}/CLEAR_SELECTED_SLOTS`;
+export const CLOSE_RIGHT_SIDEBAR = `${namespace}/CLOSE_RIGHT_SIDEBAR`;
+export const TOGGLE_CALENDAR_FOOTER = `${namespace}/TOGGLE_CALENDAR_FOOTER`;
+export const FIND_EXTERNAL_CALENDAR_IDS = `${namespace}/FIND_EXTERNAL_CALENDAR_IDS`;
+export const SET_EXTERNAL_CALENDAR_IDS = `${namespace}/SET_EXTERNAL_CALENDAR_IDS`;
+export const REMOVE_EXTERNAL_CALENDAR = `${namespace}/REMOVE_EXTERNAL_CALENDAR`;
+export const SET_CUSTOM_DISCOUNT_PERIODS_IDS = `${namespace}/SET_CUSTOM_DISCOUNT_PERIODS_IDS`;
+export const SET_CUSTOM_NIGHT_RATES_IDS = `${namespace}/SET_CUSTOM_NIGHT_RATES_IDS`;
+export const SET_CUSTOM_MIN_NIGHT_STAY_IDS = `${namespace}/SET_CUSTOM_MIN_NIGHT_STAY_IDS`;
+export const SET_BLOCKED_PERIODS_IDS = `${namespace}/SET_BLOCKED_PERIODS_IDS`;
+export const SET_EXTERNAL_EVENT_IDS = `${namespace}/SET_EXTERNAL_EVENT_IDS`;

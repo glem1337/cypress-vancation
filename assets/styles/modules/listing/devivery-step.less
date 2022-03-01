@@ -1,0 +1,133 @@
+.main-listing-delivery {
+  .media-up(md; {
+    display: flex;
+    flex-direction: column;
+  });
+
+  .mapboxgl-ctrl-bottom-right,
+  .mapboxgl-ctrl-bottom-left {
+    z-index: 1;
+  }
+
+  .car-card-wrap--float {
+    position: fixed;
+    left: 16px;
+    z-index: 1;
+    .media-up(md; {
+      left: 32px;
+    });
+    .media-up(lg; {
+      position: absolute;
+      left: 24px;
+      max-width: calc(100% - 104px);
+    });
+    .media-up(xl; {
+      max-width: calc(100% - 48px);
+    });
+
+    .car-card {
+      flex-wrap: nowrap;
+    }
+
+    .car-card__img {
+      flex: none;
+    }
+
+    .car-card__txt {
+      text-align: left;
+    }
+  }
+
+  &__wrapper {
+    .media-up(md; {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex: 1;
+    });
+  }
+
+  &__container {
+    @media (min-width: 320px) {
+      max-width: calc(100vw - 32px);
+    }
+
+    @media (min-width: @screen-md) {
+      max-width: calc(100vw - 64px);
+    }
+
+    @media (min-width: @screen-xl) {
+      max-width: 1020px;
+    }
+  }
+
+  &__mapbox {
+    &__wrapper {
+      margin-top: 68px;
+
+      & > div {
+        width: calc(100vw - 260px) !important;
+        height: 400px !important;
+
+        @media (max-width: @screen-lg) {
+          width: 100vw !important;
+        }
+
+        @media (max-width: @screen-md) {
+          height: 300px !important;
+        }
+
+        @media (max-width: @screen-sm) {
+          height: 250px !important;
+        }
+      }
+    }
+
+    &__marker {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 64px;
+      height: 64px;
+      background-color: white;
+      border-radius: 50%;
+    }
+
+    &__popup {
+      color: white;
+
+      .mapboxgl-popup-content {
+        background-color: @black;
+        border-radius: 6px;
+      }
+
+      .mapboxgl-popup-tip {
+        border-top-color: @black !important;
+        border-bottom-color: @black !important;
+      }
+    }
+  }
+}
+
+.main-listing-delivery__mapbox__wrapper-extended {
+  position: relative;
+  left: 50%;
+  width: 100vw;
+  height: 400px;
+  margin-top: 24px;
+  margin-left: -50vw;
+  .media-up(lg; {
+    width: calc(100vw - 260px);
+    margin-top: 0;
+    margin-left: calc(-50vw + 130px);
+  });
+
+  & > div {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+.main-listing-delivery__mapbox__wrapper-extended--hidden {
+  display: none;
+}

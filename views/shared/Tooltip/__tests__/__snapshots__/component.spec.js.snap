@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip component tests matches snapshot 1`] = `
+<Tooltip
+  arrowPointAtCenter={false}
+  autoAdjustOverflow={true}
+  className={null}
+  mouseEnterDelay={0.1}
+  mouseLeaveDelay={0.1}
+  placement="bottom"
+  title="Foo"
+  transitionName=""
+  trigger={
+    Array [
+      "hover",
+      "click",
+    ]
+  }
+>
+  <i />
+</Tooltip>
+`;
+
+exports[`Tooltip component tests matches snapshot when isShown === false 1`] = `<i />`;

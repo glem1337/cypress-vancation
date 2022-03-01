@@ -1,0 +1,352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`routes constants matches snapshot 1`] = `
+Object {
+  "AUTH_ROUTES": Array [
+    "/log_in",
+    "/sign_up",
+    "/reset-password",
+    "/create-new-password",
+  ],
+  "EDIT_CAMPER_PATH_PREFIX": "/dashboard/edit-camper",
+  "default": Object {
+    "ADD_NEW_CAMPER": Object {
+      "AMENITIES": Object {
+        "KEY": "AMENITIES",
+        "META": Object {
+          "CAMPER_FIELD": "amenities",
+          "MOBILE_NAME": Object {
+            "id": "addNewCamper.sidebarItemCamperAmenities",
+          },
+          "ORDER": 2,
+          "SLUG": "amenities",
+          "STEP": 1,
+        },
+        "PATH": "/add-new-camper/[id]/amenities",
+      },
+      "DELIVERY": Object {
+        "KEY": "DELIVERY",
+        "META": Object {
+          "CAMPER_FIELD": "deliveryInformation",
+          "MOBILE_NAME": Object {
+            "id": "addNewCamper.sidebarItemListingDelivery",
+          },
+          "ORDER": 6,
+          "SLUG": "delivery",
+          "STEP": 3,
+        },
+        "PATH": "/add-new-camper/[id]/delivery",
+      },
+      "INSURANCE": Object {
+        "KEY": "INSURANCE",
+        "META": Object {
+          "CAMPER_FIELD": "insuranceInfo",
+          "MOBILE_NAME": Object {
+            "id": "addNewCamper.sidebarItemInsuranceProtection",
+          },
+          "ORDER": 3,
+          "SLUG": "insurance",
+          "STEP": 2,
+        },
+        "PATH": "/add-new-camper/[id]/insurance",
+      },
+      "LISTING_DETAILS": Object {
+        "KEY": "LISTING_DETAILS",
+        "META": Object {
+          "CAMPER_FIELD": "name",
+          "MOBILE_NAME": Object {
+            "id": "addNewCamper.sidebarItemListingDetails",
+          },
+          "ORDER": 4,
+          "SLUG": "details",
+          "STEP": 3,
+        },
+        "PATH": "/add-new-camper/[id]/details",
+      },
+      "LISTING_FEES": Object {
+        "KEY": "LISTING_FEES",
+        "META": Object {
+          "CAMPER_FIELD": "tripFee",
+          "MOBILE_NAME": Object {
+            "id": "addNewCamper.sidebarItemFees",
+          },
+          "ORDER": 8,
+          "SLUG": "fees",
+          "STEP": 4,
+        },
+        "PATH": "/add-new-camper/[id]/fees",
+      },
+      "LISTING_PHOTOS": Object {
+        "KEY": "LISTING_PHOTOS",
+        "META": Object {
+          "CAMPER_FIELD": "name",
+          "MOBILE_NAME": Object {
+            "id": "addNewCamper.sidebarItemListingPhotos",
+          },
+          "ORDER": 5,
+          "SLUG": "photos",
+          "STEP": 3,
+        },
+        "PATH": "/add-new-camper/[id]/photos",
+      },
+      "PERSONAL_INFORMATION": Object {
+        "KEY": "PERSONAL_INFORMATION",
+        "META": Object {
+          "MOBILE_NAME": Object {
+            "id": "addNewCamper.sidebarItemPersonalInformation",
+          },
+          "ORDER": 0,
+          "SLUG": "personal-information",
+          "STEP": 1,
+        },
+        "PATH": "/add-new-camper/personal-information",
+      },
+      "POLICIES": Object {
+        "KEY": "POLICIES",
+        "META": Object {
+          "CAMPER_FIELD": "camperRule",
+          "MOBILE_NAME": Object {
+            "id": "addNewCamper.sidebarItemBookingPolicies",
+          },
+          "ORDER": 9,
+          "SLUG": "policies",
+          "STEP": 4,
+        },
+        "PATH": "/add-new-camper/[id]/policies",
+      },
+      "PRICING": Object {
+        "KEY": "PRICING",
+        "META": Object {
+          "CAMPER_FIELD": "camperCalendar.pricingInfo",
+          "MOBILE_NAME": Object {
+            "id": "addNewCamper.sidebarItemPricingPolicies",
+          },
+          "ORDER": 7,
+          "SLUG": "pricing",
+          "STEP": 4,
+        },
+        "PATH": "/add-new-camper/[id]/pricing",
+      },
+      "SPECIFICATIONS": Object {
+        "KEY": "SPECIFICATIONS",
+        "META": Object {
+          "CAMPER_FIELD": "specificationDetail",
+          "MOBILE_NAME": Object {
+            "id": "addNewCamper.sidebarItemCamperDetails",
+          },
+          "ORDER": 1,
+          "SLUG": "specifications",
+          "STEP": 1,
+        },
+        "PATH": "/add-new-camper/[id]/specifications",
+      },
+    },
+    "BOOKINGS": Object {
+      "KEY": "BOOKINGS",
+      "PATH": "/account/bookings",
+    },
+    "CAMPERVAN_RENTAL": Object {
+      "BASE_PATH": "/campervan-rental",
+      "KEY": "CAMPERVAN_RENTAL",
+      "PATH": "/campervan-rental/[state]/[location]",
+    },
+    "CAMPERVAN_RENTALS": Object {
+      "KEY": "CAMPERVAN_RENTALS",
+      "PATH": "/campervan-rentals",
+    },
+    "CAMPER_DETAILS": Object {
+      "BASE_PATH": "/rv-rental",
+      "KEY": "CAMPER_DETAILS",
+      "PATH": "/rv-rental/[model]/[camper_id]",
+    },
+    "CHECKOUT": Object {
+      "PAYMENT": Object {
+        "KEY": "PAYMENT",
+        "PATH": "/checkout/[id]/payment",
+      },
+      "PERSONAL_INFORMATION": Object {
+        "KEY": "PERSONAL_INFORMATION",
+        "PATH": "/checkout/[id]/personal-information",
+      },
+      "PROTECTION_PLAN": Object {
+        "KEY": "PROTECTION_PLAN",
+        "PATH": "/checkout/[id]/protection-plan",
+      },
+      "TRIP_INFO_AND_EXTRAS": Object {
+        "KEY": "TRIP_INFO_AND_EXTRAS",
+        "PATH": "/checkout/[id]/trip-info-and-extras",
+      },
+    },
+    "CREATE_NEW_PASSWORD": Object {
+      "KEY": "CREATE_NEW_PASSWORD",
+      "PATH": "/create-new-password",
+    },
+    "INDEX": Object {
+      "KEY": "INDEX",
+      "PATH": "/",
+    },
+    "LOGIN": Object {
+      "KEY": "LOGIN",
+      "PATH": "/log_in",
+    },
+    "OWNER_DASHBOARD": Object {
+      "ALL_CAMPERS": Object {
+        "KEY": "ALL_CAMPERS",
+        "PATH": "/dashboard/campers",
+      },
+      "CALENDAR": Object {
+        "KEY": "CALENDAR",
+        "PATH": "/dashboard/calendar",
+      },
+      "EDIT_CAMPER": Object {
+        "ADDITIONAL_DOCUMENTS": Object {
+          "KEY": "ADDITIONAL_DOCUMENTS",
+          "META": Object {
+            "SLUG": "additional-documents",
+          },
+          "PATH": "/dashboard/edit-camper/additional-documents",
+        },
+        "ADDONS": Object {
+          "KEY": "ADDONS",
+          "META": Object {
+            "SLUG": "addons",
+          },
+          "PATH": "/dashboard/edit-camper/addons",
+        },
+        "AMENITIES": Object {
+          "KEY": "AMENITIES",
+          "META": Object {
+            "SLUG": "amenities",
+          },
+          "PATH": "/dashboard/edit-camper/amenities",
+        },
+        "DELIVERY": Object {
+          "KEY": "DELIVERY",
+          "META": Object {
+            "SLUG": "delivery",
+          },
+          "PATH": "/dashboard/edit-camper/delivery",
+        },
+        "DETAILS": Object {
+          "KEY": "DETAILS",
+          "META": Object {
+            "SLUG": "details",
+          },
+          "PATH": "/dashboard/edit-camper/details",
+        },
+        "INSURANCE": Object {
+          "KEY": "INSURANCE",
+          "META": Object {
+            "SLUG": "insurance",
+          },
+          "PATH": "/dashboard/edit-camper/insurance",
+        },
+        "PHOTOS": Object {
+          "KEY": "PHOTOS",
+          "META": Object {
+            "SLUG": "photos",
+          },
+          "PATH": "/dashboard/edit-camper/photos",
+        },
+        "POLICIES": Object {
+          "KEY": "POLICIES",
+          "META": Object {
+            "SLUG": "policies",
+          },
+          "PATH": "/dashboard/edit-camper/policies",
+        },
+        "PRICING_AND_AVAILABILITY": Object {
+          "KEY": "PRICING_AND_AVAILABILITY",
+          "META": Object {
+            "SLUG": "pricing-and-availability",
+          },
+          "PATH": "/dashboard/edit-camper/pricing-and-availability",
+        },
+        "RULES_AND_TRAVELS": Object {
+          "KEY": "RULES_AND_TRAVELS",
+          "META": Object {
+            "SLUG": "rules-and-travels",
+          },
+          "PATH": "/dashboard/edit-camper/rules-and-travels",
+        },
+        "SPECIFICATIONS": Object {
+          "KEY": "SPECIFICATIONS",
+          "META": Object {
+            "SLUG": "specifications",
+          },
+          "PATH": "/dashboard/edit-camper/specifications",
+        },
+        "TRIP_FEES": Object {
+          "KEY": "TRIP_FEES",
+          "META": Object {
+            "SLUG": "fees",
+          },
+          "PATH": "/dashboard/edit-camper/fees",
+        },
+      },
+      "KEY": "OWNER_DASHBOARD",
+      "MESSAGES": Object {
+        "KEY": "MESSAGES",
+        "PATH": "/dashboard/messages",
+      },
+      "PATH": "/dashboard",
+      "REPORTING": Object {
+        "KEY": "REPORTING",
+        "PATH": "/dashboard/reporting",
+      },
+      "RESERVATIONS": Object {
+        "KEY": "RESERVATIONS",
+        "PATH": "/dashboard/reservations",
+      },
+    },
+    "PRIVACY_POLICY": Object {
+      "KEY": "PRIVACY_POLICY",
+      "PATH": "/privacy-policy",
+    },
+    "RESET_PASSWORD": Object {
+      "KEY": "RESET_PASSWORD",
+      "PATH": "/reset-password",
+    },
+    "SEARCH_DESTINATIONS": Object {
+      "DATES": Object {
+        "KEY": "DATES",
+        "PATH": "/search-destinations/dates",
+      },
+      "DESTINATIONS": Object {
+        "KEY": "DESTINATIONS",
+        "PATH": "/search-destinations/destinations",
+      },
+      "RESULT_PAGE": Object {
+        "KEY": "RESULT_PAGE",
+        "PATH": "/search-destinations",
+      },
+    },
+    "SETTINGS": Object {
+      "ACCOUNT": Object {
+        "KEY": "ACCOUNT",
+        "PATH": "/settings/account",
+      },
+      "NOTIFICATIONS": Object {
+        "KEY": "NOTIFICATIONS",
+        "PATH": "/settings/notifications",
+      },
+      "PAYMENT": Object {
+        "KEY": "PAYMENT",
+        "PATH": "/settings/payment",
+      },
+      "PROFILE": Object {
+        "KEY": "PROFILE",
+        "PATH": "/settings/profile",
+      },
+    },
+    "SIGNUP": Object {
+      "KEY": "SIGNUP",
+      "PATH": "/sign_up",
+    },
+    "TERMS_OF_SERVICE": Object {
+      "KEY": "TERMS_OF_SERVICE",
+      "PATH": "/terms-of-service",
+    },
+  },
+}
+`;

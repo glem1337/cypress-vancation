@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubAmenities component tests matches snapshot 1`] = `
+<Fragment>
+  <Col
+    key="id"
+    lg={8}
+    md={12}
+  >
+    <div
+      className="van-details__details-card van-details__unavailable-item"
+    >
+      <img
+        alt=""
+        src="/path/to/some/icon"
+      />
+      <p>
+        2 x 
+        title
+      </p>
+      <TooltipIcon
+        iconClass="icon-info"
+        phrase="tooltip"
+      />
+    </div>
+  </Col>
+  <Col
+    key="id 2"
+    lg={8}
+    md={12}
+  >
+    <div
+      className="van-details__details-card"
+    >
+      <p>
+        2 x 
+        name
+      </p>
+    </div>
+  </Col>
+</Fragment>
+`;

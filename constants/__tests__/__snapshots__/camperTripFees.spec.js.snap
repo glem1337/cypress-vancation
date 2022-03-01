@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`camper trip fees constants matches snapshot 1`] = `
+Object {
+  "DEFAULT_VALUES": Object {
+    "GENERATOR": Object {
+      "INCLUDED": 4,
+      "OVERAGE": 5,
+    },
+    "MILEAGE": Object {
+      "INCLUDED": 150,
+      "OVERAGE": 0.5,
+    },
+  },
+}
+`;

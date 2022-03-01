@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TripFeesComponent component tests matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="main-listing-container"
+  >
+    <div
+      className="mb-16 mb-md-24"
+    >
+      <ProgressBar
+        content={
+          <Memo(FormattedMessage)
+            id="addNewCamper.ProgressBar"
+          />
+        }
+        percent={342}
+      />
+    </div>
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <CleaningsSection
+        cleaningAndPreparationFee=""
+      />
+      <Divider
+        className="mt-24"
+      />
+      <Row>
+        <Col
+          span={24}
+        >
+          <MileageSection
+            mode="unlimited"
+            onMilesModeChange={[MockFunction]}
+          />
+        </Col>
+      </Row>
+      <Divider
+        className="mt-24"
+      />
+      <Row>
+        <Col
+          span={24}
+        >
+          <GeneratorSection
+            hasGenerator={false}
+            mode="unlimited"
+            onGeneratorExistenceChange={[MockFunction]}
+            onGeneratorModeChange={[MockFunction]}
+          />
+        </Col>
+      </Row>
+      <Divider
+        className="mt-24"
+      />
+      <CustomFeesSection
+        addCustomFee={[MockFunction]}
+        customFees={Array []}
+        onFrequencyChanged={[MockFunction]}
+        removeCustomFee={[MockFunction]}
+      />
+    </ForwardRef(InternalForm)>
+    <withRouter(Connect(EstimatedEarningCard))
+      isSlim={true}
+    />
+  </div>
+  <AddNewCamperBtnForm
+    canSave={true}
+    isSubmitting={false}
+    onBackClick={[MockFunction]}
+    onSaveClick={[MockFunction]}
+    showGradientButton={true}
+    withBackBtn={true}
+  />
+</Fragment>
+`;
+
+exports[`TripFeesComponent component tests matches snapshot when camper does not exist 1`] = `
+<div
+  className="main-listing-container"
+>
+  <div
+    className="mb-16 mb-md-24"
+  >
+    <ProgressBar
+      content={
+        <Memo(FormattedMessage)
+          id="addNewCamper.ProgressBar"
+        />
+      }
+      percent={342}
+    />
+  </div>
+  <Row>
+    <Col
+      span={24}
+    >
+      <Skeleton
+        active={true}
+        avatar={false}
+        paragraph={true}
+        title={true}
+      />
+    </Col>
+  </Row>
+</div>
+`;

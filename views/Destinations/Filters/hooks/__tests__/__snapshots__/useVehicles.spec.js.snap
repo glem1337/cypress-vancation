@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useVehicles hook checks \`renderVehiclesWidget\` method 1`] = `
+<React.Fragment>
+  <Checkbox
+    checked={false}
+    className="main-checkbox-card"
+    onChange={[Function]}
+  >
+    <i
+      className="icon icon-activate-f main-checkbox-card__icon"
+    />
+    <div
+      className="d-flex flex-column flex-1"
+    >
+      <div
+        className="d-flex align-items-center mb-16"
+      >
+        <img
+          alt=""
+          src="/images/listing/Modern-Van.svg"
+        />
+        <span
+          className="text-subheader font-400 ml-8"
+        >
+          Unique Camper
+        </span>
+      </div>
+      <div
+        className="mr-40"
+      >
+        Skoolies, Ambulances and Other Unique Camper Conversions.
+      </div>
+    </div>
+  </Checkbox>
+  <Checkbox
+    checked={false}
+    className="main-checkbox-card"
+    onChange={[Function]}
+  >
+    <i
+      className="icon icon-activate-f main-checkbox-card__icon"
+    />
+    <div
+      className="d-flex flex-column flex-1"
+    >
+      <div
+        className="d-flex align-items-center mb-16"
+      >
+        <img
+          alt=""
+          src="/images/listing/Modern-Van.svg"
+        />
+        <span
+          className="text-subheader font-400 ml-8"
+        >
+          VW Bus
+        </span>
+      </div>
+      <div
+        className="mr-40"
+      >
+        Iconic and Classic. Westfalias, Vanagons, Eurovans & More Volkswagen Vans.
+      </div>
+    </div>
+  </Checkbox>
+  <Checkbox
+    checked={false}
+    className="main-checkbox-card"
+    onChange={[Function]}
+  >
+    <i
+      className="icon icon-activate-f main-checkbox-card__icon"
+    />
+    <div
+      className="d-flex flex-column flex-1"
+    >
+      <div
+        className="d-flex align-items-center mb-16"
+      >
+        <img
+          alt=""
+          src="/images/listing/Modern-Van.svg"
+        />
+        <span
+          className="text-subheader font-400 ml-8"
+        >
+          Vehicle Camper
+        </span>
+      </div>
+      <div
+        className="mr-40"
+      >
+        Truck Camper Rigs. Car, Minivan, Jeep and SUV conversions, typically with roof top tents.
+      </div>
+    </div>
+  </Checkbox>
+  <Checkbox
+    checked={false}
+    className="main-checkbox-card"
+    onChange={[Function]}
+  >
+    <i
+      className="icon icon-activate-f main-checkbox-card__icon"
+    />
+    <div
+      className="d-flex flex-column flex-1"
+    >
+      <div
+        className="d-flex align-items-center mb-16"
+      >
+        <img
+          alt=""
+          src="/images/listing/Modern-Van.svg"
+        />
+        <span
+          className="text-subheader font-400 ml-8"
+        >
+          Modern Van
+        </span>
+      </div>
+      <div
+        className="mr-40"
+      >
+        Sprinters, Transits, Promasters & More Fully Built Out Camper Vans.
+      </div>
+    </div>
+  </Checkbox>
+</React.Fragment>
+`;
+
+exports[`useVehicles hook matches snapshot 1`] = `
+Object {
+  "applyFilters": [Function],
+  "badge": undefined,
+  "checkFilterUpdates": [Function],
+  "clearFilters": [Function],
+  "filters": Array [],
+  "isChecked": [Function],
+  "onChangeHandler": [Function],
+  "renderVehiclesWidget": [Function],
+  "setFilters": [Function],
+  "vehicleTypes": Array [
+    Object {
+      "actualCashValue": 40000,
+      "description": "Skoolies, Ambulances and Other Unique Camper Conversions.",
+      "estimatedEarning": 1000,
+      "iconUrl": "https://vancation-api-staging-assets.s3.us-west-1.amazonaws.com/store/vehicletype/e966978f-b6eb-4751-bdb7-e160ed9487cf/icon/eeef67069b658ab4b051a22d3a128ab4.svg",
+      "id": "e966978f-b6eb-4751-bdb7-e160ed9487cf",
+      "name": "Unique Camper",
+    },
+    Object {
+      "actualCashValue": 35000,
+      "description": "Iconic and Classic. Westfalias, Vanagons, Eurovans & More Volkswagen Vans.",
+      "estimatedEarning": 900,
+      "iconUrl": "https://vancation-api-staging-assets.s3.us-west-1.amazonaws.com/store/vehicletype/76418300-edf1-475a-bd3c-34ba14723a0a/icon/ee7ec84b523ec774633950b3ca441ffe.svg",
+      "id": "76418300-edf1-475a-bd3c-34ba14723a0a",
+      "name": "VW Bus",
+    },
+    Object {
+      "actualCashValue": 35000,
+      "description": "Truck Camper Rigs. Car, Minivan, Jeep and SUV conversions, typically with roof top tents.",
+      "estimatedEarning": 750,
+      "iconUrl": "https://vancation-api-staging-assets.s3.us-west-1.amazonaws.com/store/vehicletype/fa58e13e-75d1-439f-a525-c337c4b48872/icon/859293aa737ffc99491fcae32786030f.svg",
+      "id": "fa58e13e-75d1-439f-a525-c337c4b48872",
+      "name": "Vehicle Camper",
+    },
+    Object {
+      "actualCashValue": 65000,
+      "description": "Sprinters, Transits, Promasters & More Fully Built Out Camper Vans.",
+      "estimatedEarning": 1400,
+      "iconUrl": "https://vancation-api-staging-assets.s3.us-west-1.amazonaws.com/store/vehicletype/def880bc-0e47-4af0-a26f-315099640df3/icon/36d5c37d87f3c669cee5652ec00220c9.svg",
+      "id": "def880bc-0e47-4af0-a26f-315099640df3",
+      "name": "Modern Van",
+    },
+  ],
+}
+`;

@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseDiscountComponent component tests matches snapshot 1`] = `
+<div
+  className="calendar-listing__side-main-item"
+>
+  <Button
+    className="ant-btn-slideout"
+    onClick={[MockFunction]}
+  >
+    <i
+      className="icon icon-discount"
+    />
+    <span>
+      <Memo(FormattedMessage)
+        id="shared.baseDiscounts"
+      />
+    </span>
+    <i
+      className="icon icon-right ml-auto"
+    />
+  </Button>
+  <div
+    className="calendar-listing__side-slideout calendar-listing__side-slideout--active"
+  >
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <div
+        className="calendar-listing__side-slideout__main"
+      >
+        <div
+          className="mb-16"
+        >
+          <BackButton
+            discardConfirm={[MockFunction]}
+            discardPrepare={[MockFunction]}
+            discardReject={[MockFunction]}
+            isPopoverVisible={true}
+          />
+        </div>
+        <h3
+          className="text-subheader mb-16"
+        >
+          <Memo(FormattedMessage)
+            id="shared.baseDiscounts"
+          />
+        </h3>
+        <Field
+          component={[Function]}
+          label={
+            Object {
+              "id": "shared.weeklyDiscount",
+            }
+          }
+          name="weeklyDiscountPercent"
+          placeholder="..."
+          tooltip={
+            Object {
+              "id": "addNewCamper.pricing.pricePerWeek",
+              "values": Object {
+                "price": "$111",
+              },
+            }
+          }
+          type="number"
+        >
+          <span
+            className="main-input__add-txt"
+          >
+            %
+          </span>
+        </Field>
+        <Field
+          component={[Function]}
+          label={
+            Object {
+              "id": "shared.monthlyDiscount",
+            }
+          }
+          name="monthlyDiscountPercent"
+          placeholder="..."
+          tooltip={
+            Object {
+              "id": "addNewCamper.pricing.pricePerMonth",
+              "values": Object {
+                "price": "$333",
+              },
+            }
+          }
+          type="number"
+        >
+          <span
+            className="main-input__add-txt"
+          >
+            %
+          </span>
+        </Field>
+      </div>
+      <FooterComponent
+        canSubmit={true}
+        discardConfirm={[MockFunction]}
+        discardPrepare={[MockFunction]}
+        discardReject={[MockFunction]}
+        isDiscardPopoverVisible={true}
+        isLoading={false}
+        isSavePopoverVisible={false}
+        submit={[MockFunction]}
+        submitBtnText={
+          Object {
+            "id": "shared.ok",
+          }
+        }
+        withSavePopover={false}
+        withSavePopoverWarning={false}
+      />
+    </ForwardRef(InternalForm)>
+  </div>
+</div>
+`;
+
+exports[`BaseDiscountComponent component tests matches snapshot when isRange equals false 1`] = `""`;

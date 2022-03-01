@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dashboard rules and travels constants matches snapshot 1`] = `
+Object {
+  "CUSTOM_RESTRICTION_KEYS": Object {
+    "ROADS": "customRestrictionRoads",
+    "RULES": "customRestrictionRules",
+    "TRAVELS": "customTravelRestrictions",
+  },
+  "CUSTOM_RESTRICTION_KINDS": Object {
+    "customRestrictionRoads": "customTravelRestriction",
+    "customRestrictionRules": "customRestrictionRule",
+    "customTravelRestrictions": "customTravelRestriction",
+  },
+  "CUSTOM_RESTRICTION_TYPES": Object {
+    "customRestrictionRoads": "CustomRestrictionRoad",
+    "customRestrictionRules": "CustomRestrictionRule",
+    "customTravelRestrictions": "CustomTravelRestriction",
+  },
+  "CUSTOM_RULE_MAX_NAME_LENGTH": 70,
+  "ROADS_CONFIG": Array [
+    Object {
+      "description": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.roads.fourWheel.description",
+      },
+      "disabled": false,
+      "icon": "/images/edit_listing/rules/4x4-Only-Roads.svg",
+      "name": "restrictionRoad.fourWheelRoad",
+      "title": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.roads.fourWheel.title",
+      },
+    },
+    Object {
+      "description": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.roads.offRoad.description",
+      },
+      "disabled": false,
+      "icon": "/images/edit_listing/rules/Off-Road.svg",
+      "name": "restrictionRoad.offRoad",
+      "title": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.roads.offRoad.title",
+      },
+    },
+    Object {
+      "description": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.roads.icyRoad.description",
+      },
+      "disabled": false,
+      "icon": "/images/edit_listing/rules/Snow-Icy-Road-Conditions.svg",
+      "name": "restrictionRoad.snowAndIceRoad",
+      "title": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.roads.icyRoad.title",
+      },
+    },
+    Object {
+      "description": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.roads.dirtyRoad.description",
+      },
+      "disabled": false,
+      "icon": "/images/edit_listing/rules/Dirt-Gravel-Roads.svg",
+      "name": "restrictionRoad.dirtyRoad",
+      "title": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.roads.dirtyRoad.title",
+      },
+    },
+  ],
+  "RULES_CONFIG": Array [
+    Object {
+      "description": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.rules.allowPets.description",
+      },
+      "disabled": false,
+      "icon": "/images/edit_listing/rules/Pets-Allowed.svg",
+      "name": "restrictionRule.allowPets",
+      "title": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.rules.allowPets.title",
+      },
+    },
+    Object {
+      "description": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.rules.smoking.description",
+      },
+      "disabled": false,
+      "icon": "/images/edit_listing/rules/Smoking-Allowed.svg",
+      "name": "restrictionRule.smoking",
+      "title": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.rules.smoking.title",
+      },
+    },
+    Object {
+      "description": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.rules.festivalApproved.description",
+      },
+      "disabled": false,
+      "icon": "/images/edit_listing/rules/Festival-Approved.svg",
+      "name": "restrictionRule.festivalApproved",
+      "title": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.rules.festivalApproved.title",
+      },
+    },
+  ],
+  "TRAVELS_CONFIG": Array [
+    Object {
+      "description": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.travels.mexico.description",
+      },
+      "disabled": true,
+      "icon": "/images/edit_listing/rules/Mexico.svg",
+      "name": "travelRestriction.mexico",
+      "title": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.travels.mexico.title",
+      },
+    },
+    Object {
+      "description": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.travels.canada.description",
+      },
+      "disabled": false,
+      "icon": "/images/edit_listing/rules/Canada.svg",
+      "name": "travelRestriction.canada",
+      "title": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.travels.canada.title",
+      },
+    },
+    Object {
+      "description": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.travels.burningMan.description",
+      },
+      "disabled": false,
+      "icon": "/images/edit_listing/rules/Burning-Man.svg",
+      "name": "travelRestriction.burningMan",
+      "title": Object {
+        "id": "dashboard.editCamper.rulesAndTravels.travels.burningMan.title",
+      },
+    },
+  ],
+}
+`;

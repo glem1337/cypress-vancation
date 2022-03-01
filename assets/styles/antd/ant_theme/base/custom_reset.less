@@ -1,0 +1,22 @@
+@mark-bg-color: #f2f4f5;
+@mark-border-color: #eee;
+@selection-bg-color: #ccf;
+@screen-xxl: 1455px;
+
+mark {
+  margin: 0 1px;
+  padding: 0.2em 0.4em;
+  font-size: 0.9em;
+  background: @mark-bg-color;
+  border: 1px solid @mark-border-color;
+  border-radius: 3px;
+}
+
+::selection {
+  color: white;
+  background: @selection-bg-color;
+}
+
+.ant-col-0 {
+  display: block;
+}

@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CamperDetails Component snapshot default props 1`] = `
+<Fragment>
+  <div
+    className="main-listing-container"
+  >
+    <div
+      className="mb-16 mb-md-24"
+    >
+      <ProgressBar
+        content={
+          <Memo(FormattedMessage)
+            id="addNewCamper.ProgressBar"
+          />
+        }
+        percent={23}
+      />
+    </div>
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <Row
+        gutter={24}
+      >
+        <Col
+          lg={16}
+        >
+          <h1
+            className="text-headline mb-8"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.camperDetails.startWithYour"
+            />
+          </h1>
+          <p
+            className="mb-16"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.camperDetails.camperOrRVIsMatch"
+            />
+          </p>
+          <div
+            className="text-subtitle"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.camperDetails.general"
+            />
+          </div>
+          <GeneralForm
+            builtCamper={Array []}
+            camperLength={
+              Array [
+                Object {
+                  "label": "10\`",
+                  "value": 10,
+                },
+                Object {
+                  "label": "10\`",
+                  "value": 10,
+                },
+              ]
+            }
+            handlerMake={[MockFunction]}
+            isSubmitting={false}
+            vehicleMake={Array []}
+            vehicleModel={Array []}
+            vehicleTypes={Array []}
+            years={
+              Array [
+                Object {
+                  "label": "1970\`",
+                  "value": 1970,
+                },
+                Object {
+                  "label": "1971\`",
+                  "value": 1971,
+                },
+              ]
+            }
+          />
+          <Divider />
+          <div
+            className="text-subtitle"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.camperDetails.technicalDetails"
+            />
+          </div>
+          <TechnicalDetailsForm
+            estimateEarningState={false}
+            isSubmitting={false}
+          />
+        </Col>
+        <Col
+          lg={8}
+          span={0}
+        >
+          <withRouter(Connect(EstimatedEarningCard)) />
+        </Col>
+      </Row>
+    </ForwardRef(InternalForm)>
+  </div>
+  <AddNewCamperBtnForm
+    canSave={false}
+    isSubmitting={false}
+    onSaveClick={[MockFunction]}
+    showGradientButton={false}
+    withBackBtn={false}
+  />
+</Fragment>
+`;

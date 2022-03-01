@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DragControl component tests matches snapshot 1`] = `
+<div
+  className="search-page__drag-control"
+  role="button"
+>
+  <Link
+    href="/campervan-rental/slug"
+  >
+    <a>
+      <span
+        className="font-600 in-black"
+      >
+        state
+      </span>
+    </a>
+  </Link>
+   -  location
+</div>
+`;
+
+exports[`DragControl component tests matches snapshot when \`location\` is undefined 1`] = `
+<div
+  className="search-page__drag-control"
+  role="button"
+>
+  <Link
+    href="/campervan-rental/slug"
+  >
+    <a>
+      <span
+        className="font-600 in-black"
+      >
+        state
+      </span>
+    </a>
+  </Link>
+</div>
+`;
+
+exports[`DragControl component tests matches snapshot when \`state\` is undefined 1`] = `
+<div
+  className="search-page__drag-control"
+  role="button"
+>
+  <span
+    className="font-600 in-black"
+  >
+    location
+  </span>
+</div>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fact component tests matches snapshot 1`] = `
+<div
+  className="search-page__results-fact test callNAme"
+>
+  <img
+    alt=""
+    className="search-page__results-fact-icon"
+    src="/images/Fun Fact.svg"
+  />
+  <p>
+    test
+  </p>
+</div>
+`;

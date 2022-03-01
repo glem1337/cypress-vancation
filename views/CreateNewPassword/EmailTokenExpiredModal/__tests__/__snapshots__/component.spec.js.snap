@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailTokenExpiredModal component tests matches snapshot 1`] = `
+<Modal
+  className="main-modal"
+  closable={false}
+  closeIcon={
+    <i
+      className="icon icon-cross main-close-btn"
+    />
+  }
+  footer={null}
+  maskClosable={false}
+  visible={true}
+>
+  <div
+    className="main-modal__container"
+  >
+    <div
+      className="main-modal__header"
+    >
+      <h2
+        className="main-modal__title"
+      >
+        <Memo(FormattedMessage)
+          id="emailTokenExpiredModal.title"
+        />
+      </h2>
+    </div>
+    <div
+      className="main-modal__body"
+    >
+      <div
+        className="mt-24 mb-24 text-align-center"
+      >
+        <img
+          alt="{Translation id: emailTokenExpiredModal.imgAlt}"
+          src="/images/auth/Reset_Password_Link_Expired.svg"
+        />
+      </div>
+      <p>
+        <Memo(FormattedMessage)
+          id="emailTokenExpiredModal.description"
+        />
+      </p>
+    </div>
+    <div
+      className="main-modal__footer"
+    >
+      <div
+        className="ml-auto"
+      >
+        <Link
+          href="/reset-password"
+        >
+          <a>
+            <Button
+              onClick={[MockFunction]}
+              size="large"
+              text={
+                Object {
+                  "id": "emailTokenExpiredModal.btnToResetPassword",
+                }
+              }
+              type="secondary"
+            />
+          </a>
+        </Link>
+      </div>
+    </div>
+  </div>
+</Modal>
+`;

@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CampersSliderMobile component tests matches snapshot 1`] = `
+<div
+  className="search-page__map-slider search-page__map-slider-extended"
+>
+  <Swiper
+    freeMode={true}
+    freeModeSticky={true}
+    loop={true}
+    onSlideChange={[MockFunction]}
+    slidesPerView="auto"
+    watchOverflow={true}
+  >
+    <SwiperSlide
+      className="swiper-slide"
+      key="a18f7338-c2b3-4cee-be4d-579c0a726c1a"
+    >
+      <Link
+        href="/rv-rental/clair-weimann/a18f7338-c2b3-4cee-be4d-579c0a726c1a"
+      >
+        <div
+          className="camper-card-preview camper-card-preview--small"
+          data-camper-id="a18f7338-c2b3-4cee-be4d-579c0a726c1a"
+        >
+          <div
+            className="camper-card-preview__image-wrap"
+          >
+            <div
+              className="camper-card-preview__img"
+            >
+              <img
+                alt=""
+              />
+            </div>
+            <div
+              className="camper-card-preview__card-tags"
+            >
+              <div>
+                <span
+                  className="ant-tag"
+                >
+                  <i
+                    className="icon icon-star-f in-red-1000"
+                  />
+                </span>
+                <span
+                  className="ant-tag"
+                >
+                  <i
+                    className="icon icon-flash-f in-yellow-1000"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              className="camper-card-preview__card-tag-glamper tag-glamper"
+            >
+              <img
+                alt=""
+                src="/images/profile/Diamond-White.svg"
+              />
+            </div>
+            <span
+              className="ant-tag camper-card-preview__card-tag-delivery"
+            >
+              <i
+                className="icon icon-delivery-f in-black"
+              />
+            </span>
+          </div>
+          <a
+            className="camper-card-preview__bottom"
+            href="#"
+          >
+            <div
+              className="camper-card-preview__bottom-title"
+            >
+              test
+            </div>
+            <div>
+              <p
+                className="text-caption text-uppercase"
+              >
+                Modern Van in Arkansas
+              </p>
+              <p
+                className="text-caption text-uppercase"
+              >
+                Vasya Clair Weimann
+              </p>
+            </div>
+            <div
+              className="d-flex justify-content-space-between mt-auto"
+            >
+              <div
+                className="d-flex align-items-center"
+              >
+                <img
+                  alt=""
+                  className="w-20"
+                  src="/images/listing/Like-Green.svg"
+                />
+                <span
+                  className="font-600 in-green-300 mr-2"
+                >
+                  100%
+                </span>
+              </div>
+              <div
+                className="in-black"
+              >
+                <span
+                  className="text-subheader font-700 mr-4"
+                >
+                  $0
+                </span>
+                <span
+                  className="text-caption"
+                >
+                  / night
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </Link>
+    </SwiperSlide>
+  </Swiper>
+</div>
+`;
+
+exports[`CampersSliderMobile component tests matches when \`activeCamperId\` is not present 1`] = `""`;
+
+exports[`CampersSliderMobile component tests matches when \`campers\` are not present 1`] = `""`;

@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShareSection component tests matches snapshot 1`] = `
+<div
+  className="van-details__images-actions van-details__images-actions-extended"
+>
+  <Button
+    className="mr-16 d-none"
+    icon={
+      <i
+        className="icon icon-heart font-20"
+      />
+    }
+    type="text"
+  >
+    <Memo(FormattedMessage)
+      id="shared.save"
+    />
+  </Button>
+  <Dropdown
+    className="mr-24"
+    disabled={false}
+    icon={
+      <Button
+        className="mr-16"
+        icon={
+          <i
+            className="icon icon-share font-20"
+          />
+        }
+        onClick={[MockFunction]}
+        type="text"
+      >
+        <Memo(FormattedMessage)
+          id="shared.share"
+        />
+      </Button>
+    }
+    on={
+      Array [
+        "click",
+      ]
+    }
+    overlayClassName="share-section__dropdown main-dropdown share-wrap"
+    placement="bottomRight"
+    visible={true}
+  >
+    <div
+      className="main-dropdown-wrap"
+    >
+      <div
+        className="main-dropdown__body"
+      >
+        <p
+          className="text-title"
+        >
+          <Memo(FormattedMessage)
+            id="shared.shareThisListing"
+          />
+        </p>
+        <div
+          className="share-wrap__inner"
+        >
+          <ForwardRef(ShareButton-facebook)
+            url="http://localhost/"
+          >
+            <span
+              className="share-item"
+            >
+              <span
+                className="share-icon-wrap share-icon-wrap--facebook"
+              >
+                <i
+                  className="icon icon-facebook"
+                />
+              </span>
+              Facebook
+            </span>
+          </ForwardRef(ShareButton-facebook)>
+          <ForwardRef(ShareButton-twitter)
+            url="http://localhost/"
+          >
+            <span
+              className="share-item"
+            >
+              <span
+                className="share-icon-wrap share-icon-wrap--twitter"
+              >
+                <i
+                  className="icon icon-twitter"
+                />
+              </span>
+              Twitter
+            </span>
+          </ForwardRef(ShareButton-twitter)>
+          <ForwardRef(ShareButton-pinterest)
+            media="https://main.photos.com"
+            url="http://localhost/"
+          >
+            <span
+              className="share-item"
+            >
+              <span
+                className="share-icon-wrap share-icon-wrap--pinterest"
+              >
+                <i
+                  className="icon icon-pinterest"
+                />
+              </span>
+              Pinterest
+            </span>
+          </ForwardRef(ShareButton-pinterest)>
+          <ForwardRef(ShareButton-linkedin)
+            url="http://localhost/"
+          >
+            <span
+              className="share-item"
+            >
+              <span
+                className="share-icon-wrap share-icon-wrap--linkedin"
+              >
+                <i
+                  className="icon icon-linkedin"
+                />
+              </span>
+              Linkedin
+            </span>
+          </ForwardRef(ShareButton-linkedin)>
+          <ForwardRef(ShareButton-email)
+            subject="Subject"
+            url="http://localhost/"
+          >
+            <span
+              className="share-item"
+            >
+              <span
+                className="share-icon-wrap share-icon-wrap--email"
+              >
+                <i
+                  className="icon icon-email-f"
+                />
+              </span>
+              <Memo(FormattedMessage)
+                id="shared.email"
+              />
+            </span>
+          </ForwardRef(ShareButton-email)>
+        </div>
+        <Button
+          className="w-100 mt-8"
+          icon={
+            <i
+              className="icon icon-Link"
+            />
+          }
+          onClick={[MockFunction]}
+          size="large"
+          type="secondary"
+        >
+          <span
+            className="copy-link"
+          >
+            <Memo(FormattedMessage)
+              id="shared.copyShareLink"
+            />
+          </span>
+        </Button>
+      </div>
+    </div>
+  </Dropdown>
+</div>
+`;
+
+exports[`ShareSection component tests matches snapshot when isUrlCopied equals true 1`] = `
+<span
+  className="copy-link"
+>
+  <Memo(FormattedMessage)
+    id="shared.copyShareLinkCopied"
+  />
+</span>
+`;

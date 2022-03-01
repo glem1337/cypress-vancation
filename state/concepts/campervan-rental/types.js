@@ -1,0 +1,19 @@
+const namespace = 'campervan-rentals';
+
+export const FETCH_STATE = `${namespace}/FETCH_STATE`;
+export const FETCH_STATE_LOCATION = `${namespace}/FETCH_STATE_LOCATION`;
+export const MAP_STATE_SLUG_TO_ID = `${namespace}/MAP_STATE_SLUG_TO_ID`;
+export const MAP_LOCATION_SLUG_TO_ID = `${namespace}/MAP_LOCATION_SLUG_TO_ID`;
+export const FETCH_NEARBY_DESTINATIONS = `${namespace}/FETCH_NEARBY_DESTINATIONS`;
+export const SET_NEARBY_DESTINATIONS_IDS = `${namespace}/SET_NEARBY_DESTINATIONS_IDS`;
+export const FETCH_EPICENTER_LOCATIONS = `${namespace}/FETCH_EPICENTER_LOCATIONS`;
+export const FETCH_HOME_STATES = `${namespace}/FETCH_HOME_STATES`;
+export const SET_SHOW_ALL_STATES = `${namespace}/SET_SHOW_ALL_STATES`;
+export const FETCH_FAVORITE_DESTINATION = `${namespace}/FETCH_FAVORITE_DESTINATION`;
+export const SET_SLIDE_FAVORITE_DESTINATION = `${namespace}/SET_SLIDE_FAVORITE_DESTINATION`;
+export const SET_FAVORITE_TOTAL = `${namespace}/SET_FAVORITE_TOTAL`;
+export const FETCH_CAMPERS = `${namespace}/FETCH_CAMPERS`;
+export const SET_CAMPER_IDS = `${namespace}/SET_CAMPER_IDS`;
+export const SET_CAMPERS_PAGE = `${namespace}/SET_CAMPERS_PAGE`;
+export const SET_CAMPERS_TOTAL = `${namespace}/SET_CAMPERS_TOTAL`;
+export const RESET_CAMPERS_DATA = `${namespace}/RESET_CAMPERS_DATA`;

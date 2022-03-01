@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListingPhotos component tests children match snapshot 1`] = `
+<Fragment>
+  <div
+    onBlur={null}
+    onClick={[Function]}
+    onDragEnter={[Function]}
+    onDragLeave={[Function]}
+    onDragOver={[Function]}
+    onDrop={[Function]}
+    onFocus={null}
+    onKeyDown={null}
+  >
+    <input
+      accept="image/jpeg, image/png, image/jpg"
+      autoComplete="off"
+      multiple={true}
+      onChange={[Function]}
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      tabIndex={-1}
+      type="file"
+    />
+    <xn
+      defaultCallbacks={
+        Object {
+          "onCountSlides": [Function],
+          "onLightboxClosed": [Function],
+          "onLightboxOpened": [Function],
+          "onSlideChange": [Function],
+        }
+      }
+      defaultOptions={
+        Object {
+          "buttons": Object {
+            "backgroundColor": "rgba(30,30,36,0.8)",
+            "iconColor": "rgba(255, 255, 255, 0.8)",
+            "iconPadding": "10px",
+            "showAutoplayButton": true,
+            "showCloseButton": true,
+            "showDownloadButton": true,
+            "showFullscreenButton": true,
+            "showNextButton": true,
+            "showPrevButton": true,
+            "showThumbnailsButton": true,
+            "size": "40px",
+          },
+          "caption": Object {
+            "captionAlignment": "start",
+            "captionColor": "#FFFFFF",
+            "captionContainerPadding": "20px 0 30px 0",
+            "captionFontFamily": "inherit",
+            "captionFontSize": "inherit",
+            "captionFontStyle": "inherit",
+            "captionFontWeight": "inherit",
+            "captionTextTransform": "inherit",
+            "showCaption": true,
+          },
+          "progressBar": Object {
+            "backgroundColor": "#f2f2f2",
+            "fillColor": "#000000",
+            "height": "3px",
+            "showProgressBar": true,
+          },
+          "settings": Object {
+            "autoplaySpeed": 3000,
+            "boxShadow": "none",
+            "disableKeyboardControls": false,
+            "disablePanzoom": false,
+            "disableWheelControls": false,
+            "downloadedFileName": "SRL-image",
+            "hideControlsAfter": false,
+            "lightboxTransitionSpeed": 0.3,
+            "lightboxTransitionTimingFunction": "linear",
+            "overlayColor": "rgba(30, 30, 30, 0.9)",
+            "slideAnimationType": "fade",
+            "slideSpringValues": Array [
+              300,
+              50,
+            ],
+            "slideTransitionSpeed": 0.6,
+            "slideTransitionTimingFunction": "linear",
+            "usingPreact": false,
+          },
+          "thumbnails": Object {
+            "showThumbnails": true,
+            "thumbnailsAlignment": "center",
+            "thumbnailsContainerBackgroundColor": "transparent",
+            "thumbnailsContainerPadding": "0",
+            "thumbnailsGap": "0 1px",
+            "thumbnailsIconColor": "#ffffff",
+            "thumbnailsOpacity": 0.4,
+            "thumbnailsPosition": "bottom",
+            "thumbnailsSize": Array [
+              "100px",
+              "80px",
+            ],
+          },
+        }
+      }
+      options={
+        Object {
+          "buttons": Object {
+            "showAutoplayButton": false,
+            "showDownloadButton": false,
+            "showFullscreenButton": false,
+            "showNextButton": false,
+            "showPrevButton": false,
+            "showThumbnailsButton": false,
+          },
+          "caption": Object {
+            "showCaption": false,
+          },
+          "settings": Object {
+            "disableKeyboardControls": true,
+            "disablePanzoom": true,
+            "disableWheelControls": true,
+            "lightboxTransitionSpeed": 0,
+            "slideTransitionSpeed": 0,
+          },
+          "thumbnails": Object {
+            "showThumbnails": false,
+          },
+        }
+      }
+    >
+      <div
+        className="camper-photo__sortable-section"
+        id="camper-photo__sortable-section"
+      >
+        <Photo
+          deletePhoto={[MockFunction]}
+          id="1"
+          key="1"
+          photo="test url"
+        />
+        <UploadButton
+          disabled={false}
+          uploadPhotos={[MockFunction]}
+        />
+      </div>
+    </xn>
+  </div>
+</Fragment>
+`;
+
+exports[`ListingPhotos component tests matches snapshot 1`] = `
+<withRouter(EditCamper)
+  canSave={true}
+  hasFooter={true}
+  isLoading={false}
+  leavePageMethod={[MockFunction]}
+  onSave={[MockFunction]}
+>
+  <div
+    className="container"
+  >
+    <Row>
+      <Col
+        lg={16}
+        span={24}
+      >
+        <h1
+          className="text-headline mb-8"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.form.photos.title"
+          />
+        </h1>
+        <p
+          className="mb-24"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.form.photos.subTitle"
+          />
+        </p>
+      </Col>
+      <Col
+        span={24}
+      >
+        <Dropzone
+          accept="image/jpeg, image/png, image/jpg"
+          disabled={false}
+          getFilesFromEvent={[Function]}
+          maxFiles={30}
+          maxSize={10485760}
+          minSize={0}
+          multiple={true}
+          noClick={true}
+          noDrag={false}
+          noDragEventsBubbling={false}
+          noKeyboard={true}
+          onDrop={[MockFunction]}
+          onDropRejected={[MockFunction]}
+          preventDropOnDocument={true}
+          validator={null}
+        >
+          <Component />
+        </Dropzone>
+      </Col>
+    </Row>
+  </div>
+</withRouter(EditCamper)>
+`;
+
+exports[`ListingPhotos component tests matches snapshot when camper does not exist 1`] = `
+<withRouter(EditCamper)
+  canSave={true}
+  hasFooter={true}
+  isLoading={false}
+  leavePageMethod={[MockFunction]}
+  onSave={[MockFunction]}
+>
+  <div
+    className="container"
+  >
+    <Row>
+      <Col
+        lg={16}
+        span={24}
+      >
+        <h1
+          className="text-headline mb-8"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.form.photos.title"
+          />
+        </h1>
+        <p
+          className="mb-24"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.form.photos.subTitle"
+          />
+        </p>
+      </Col>
+      <Col
+        span={24}
+      >
+        <Skeleton
+          active={true}
+          avatar={false}
+          paragraph={true}
+          title={true}
+        />
+      </Col>
+    </Row>
+  </div>
+</withRouter(EditCamper)>
+`;

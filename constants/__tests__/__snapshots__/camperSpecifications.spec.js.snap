@@ -1,0 +1,528 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`camperSpecifications constants matches snapshot 1`] = `
+Object {
+  "SPECIFICATIONS_VALIDATION_SCHEMA": Object {
+    "camperLocation": ObjectSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_excludedEdges": Array [],
+      "_nodes": Array [],
+      "_sortErrors": [Function],
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {
+        "geocoder": false,
+      },
+      "fields": Object {},
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "optional",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [
+        [Function],
+      ],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "object",
+    },
+    "drivetrain": StringSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_mutate": undefined,
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {
+        "required": true,
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "required",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [
+        [Function],
+      ],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "string",
+    },
+    "fuelType": StringSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_mutate": undefined,
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {
+        "required": true,
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "required",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [
+        [Function],
+      ],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "string",
+    },
+    "insideHeight": StringSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_mutate": undefined,
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {
+        "required": true,
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "required",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [
+        [Function],
+      ],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "string",
+    },
+    "length": NumberSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {
+        "max": true,
+        "min": true,
+        "required": true,
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "required",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [
+        [Function],
+        [Function],
+        [Function],
+      ],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "number",
+    },
+    "mileage": StringSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_mutate": undefined,
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {
+        "required": true,
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "required",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [
+        [Function],
+      ],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "string",
+    },
+    "modelNaming": StringSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_mutate": undefined,
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {
+        "required": true,
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "required",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [
+        [Function],
+      ],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "string",
+    },
+    "name": StringSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_mutate": undefined,
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {
+        "required": true,
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "required",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [
+        [Function],
+      ],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "string",
+    },
+    "seats": NumberSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {
+        "max": true,
+        "min": true,
+        "required": true,
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "required",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [
+        [Function],
+        [Function],
+        [Function],
+      ],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "number",
+    },
+    "sleeps": NumberSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {
+        "max": true,
+        "min": true,
+        "required": true,
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "required",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [
+        [Function],
+        [Function],
+        [Function],
+      ],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "number",
+    },
+    "stateRegistred": StringSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_mutate": undefined,
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {
+        "required": true,
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "required",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [
+        [Function],
+      ],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "string",
+    },
+    "transmission": StringSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_mutate": undefined,
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {
+        "required": true,
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "required",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [
+        [Function],
+      ],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "string",
+    },
+    "vehicleTypeName": StringSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_mutate": undefined,
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {
+        "required": true,
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "required",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [
+        [Function],
+      ],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "string",
+    },
+    "whoBuiltCamper": StringSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_mutate": undefined,
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {},
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "optional",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "string",
+    },
+    "year": StringSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_mutate": undefined,
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {
+        "required": true,
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "required",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [
+        [Function],
+      ],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "string",
+    },
+  },
+  "WATER_FORM_VALIDATION": Object {
+    "MAX": 60,
+    "MIN": 0,
+  },
+}
+`;

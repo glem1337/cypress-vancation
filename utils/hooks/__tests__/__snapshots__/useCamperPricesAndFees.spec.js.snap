@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useCamperPricesAndFees hook checks \`getDiscountTooltipData\` method default 1`] = `"{Translation id: camperDetails.book.modal.tooltip.averageNightlyRate}"`;
+
+exports[`useCamperPricesAndFees hook checks \`getDiscountTooltipData\` method monthly discount 1`] = `"{Translation id: camperDetails.book.modal.tooltip.monthlyDiscount}"`;
+
+exports[`useCamperPricesAndFees hook checks \`getDiscountTooltipData\` method weekly discount 1`] = `"{Translation id: camperDetails.book.modal.tooltip.weeklyDiscount}"`;
+
+exports[`useCamperPricesAndFees hook matches snapshot 1`] = `
+Object {
+  "addResizeObserver": [Function],
+  "camper": Object {
+    "camperPhotos": Array [
+      Object {
+        "photoUrl274": "http://photoUrl274/com?position=2",
+        "position": 2,
+      },
+      Object {
+        "photoUrl274": "http://photoUrl1100/com?position=1",
+        "position": 1,
+      },
+    ],
+    "minimalPrice": 233,
+    "specificationDetail": Object {
+      "modelNaming": "modelNaming",
+      "name": "name",
+    },
+  },
+  "camperPricingAndFees": Object {
+    "bookingDuration": 0,
+    "bookingNightlyRate": 0,
+    "costPerNight": 566,
+    "costPerNightWithDiscount": 566,
+    "feesProcessingPrice": 0,
+    "id": "cfdaa363-c3c4-4ecd-977b-9e0b8e838bf8",
+    "serviceFeePrice": 0,
+    "totalPrice": 0,
+    "tripFeesStructure": Object {
+      "table": Object {
+        "cleaning": 0,
+        "customFees": Array [
+          Object {
+            "table": Object {
+              "frequency": "per_day",
+              "name": "Test fee",
+              "price": "10.0",
+            },
+          },
+          Object {
+            "table": Object {
+              "frequency": "per_each",
+              "name": "Test fee",
+              "price": "20.0",
+            },
+          },
+        ],
+        "generatorTripFee": Object {
+          "table": Object {
+            "availableHours": 0,
+            "availableHoursFrequency": 0,
+            "overageFrequency": 0,
+            "overagePrice": 0,
+          },
+        },
+        "mileageTripFee": Object {
+          "table": Object {
+            "availableDays": 150,
+            "availableDaysFrequency": "per_day",
+            "overageFrequency": "per_mile",
+            "overagePrice": 0.5,
+          },
+        },
+      },
+    },
+  },
+  "campervanMake": "name",
+  "campervanModel": "modelNaming",
+  "closeModal": [Function],
+  "containerRef": Object {
+    "current": undefined,
+  },
+  "costPerNight": 566,
+  "fetchCamperPricingAndFees": [Function],
+  "handlers": Object {
+    "current": Object {
+      "resizeHandler": [Function],
+    },
+  },
+  "isCamperExist": true,
+  "isCamperPricingAndFeesFetching": false,
+  "isInstantBook": false,
+  "mainPhotoUrl": "http://photoUrl1100/com?position=1",
+  "pricingData": Object {
+    "costPerNight": 233,
+  },
+  "removeResizeObserver": [Function],
+  "tooltipData": "{Translation id: camperDetails.book.modal.tooltip.averageNightlyRate}",
+  "viewFeesAndProcessing": [Function],
+}
+`;
+
+exports[`useCamperPricesAndFees hook pricing date matches snapshot with camper and date range 1`] = `
+Object {
+  "bookingInfo": Object {
+    "string": "$566 x 0 {translation id: shared.night}",
+    "total": "$0",
+  },
+  "costPerNight": 566,
+  "feesProcessingPriceString": "$0",
+  "nightString": " / {translation id: shared.night}",
+  "totalPrice": 0,
+}
+`;
+
+exports[`useCamperPricesAndFees hook pricing date matches snapshot without camper and date range 1`] = `
+Object {
+  "costPerNight": 233,
+}
+`;

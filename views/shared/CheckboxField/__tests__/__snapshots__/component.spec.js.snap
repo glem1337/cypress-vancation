@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxField component matches snapshot with default props 1`] = `
+<Checkbox
+  checked={true}
+  label={null}
+  mixed={false}
+  name="fieldName"
+  onChange={[MockFunction]}
+  passThrough="prop"
+  value={true}
+/>
+`;

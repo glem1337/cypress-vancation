@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateRangeField component tests matches snapshot 1`] = `
+<div
+  className="main-date-range main-date-range--calendar-visible"
+>
+  <div
+    className="main-date-range__input-wrapper"
+    onClick={[MockFunction]}
+    role="button"
+  >
+    <FormItem
+      className="mb-0 w-100"
+      help={false}
+      validateStatus={false}
+    >
+      <div
+        className="departure-return__widget"
+      >
+        <div
+          className="departure-return__side"
+        >
+          <span
+            className="departure-return__title"
+          >
+            <Memo(FormattedMessage)
+              id="shared.startDate"
+            />
+          </span>
+          <span
+            className="departure-return__date"
+          >
+            2021-24-09
+          </span>
+        </div>
+        <div
+          className="departure-return__vr"
+        />
+        <div
+          className="departure-return__side"
+        >
+          <span
+            className="departure-return__title"
+          >
+            <Memo(FormattedMessage)
+              id="shared.endDate"
+            />
+          </span>
+          <span
+            className="departure-return__date"
+          >
+            2021-28-09
+          </span>
+        </div>
+      </div>
+    </FormItem>
+  </div>
+  <div
+    className="main-date-range__calendar"
+    id="main-date-range__calendar"
+  >
+    <Calendar
+      calendarType="US"
+      formatShortWeekday={[MockFunction]}
+      maxDate={+275760-09-13T00:00:00.000Z}
+      maxDetail="month"
+      minDate={0001-01-01T00:00:00.000Z}
+      minDetail="century"
+      onActiveStartDateChange={[MockFunction]}
+      onChange={[MockFunction]}
+      returnValue="start"
+      selectRange={true}
+      showDoubleView={true}
+      showNavigation={true}
+      showNeighboringMonth={true}
+      tileContent={[MockFunction]}
+      tileDisabled={[MockFunction]}
+    />
+    <Button
+      className="ml-md-20 mb-md-20"
+      onClick={[MockFunction]}
+      type="link"
+    >
+      <Memo(FormattedMessage)
+        id="shared.clear"
+      />
+    </Button>
+  </div>
+</div>
+`;

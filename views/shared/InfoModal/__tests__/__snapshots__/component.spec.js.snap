@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoModal component tests matches snapshot 1`] = `
+<Modal
+  className="main-modal"
+  closeIcon={null}
+  confirmLoading={false}
+  footer={null}
+  maskClosable={false}
+  okType="primary"
+  visible={true}
+  width={520}
+>
+  <div
+    className="main-modal__container"
+  >
+    <div
+      className="main-modal__header main-modal__header-extended"
+    >
+      <i
+        className="icon test color test view main-modal__header-icon "
+      />
+      <h2
+        className="main-modal__title"
+      >
+        test title
+      </h2>
+    </div>
+    <div
+      className="main-modal__body"
+    >
+      <p>
+        test subTitle
+      </p>
+    </div>
+    <div
+      className="main-modal__footer"
+    >
+      <div
+        className="ml-auto"
+      >
+        <BtnGradient
+          className="min-w-140"
+          isLoading={false}
+          onClick={[MockFunction]}
+          size="large"
+          text="Ok"
+        />
+      </div>
+    </div>
+  </div>
+</Modal>
+`;

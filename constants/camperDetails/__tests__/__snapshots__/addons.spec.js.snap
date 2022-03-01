@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addons camper details constants matches snapshot 1`] = `
+Object {
+  "DEFAULT_VISIBLE_ADDONS": Object {
+    "DESKTOP": 4,
+    "MOBILE": 3,
+  },
+  "MAX_DESCRIPTION_VISIBLE_SYMBOLS": 50,
+}
+`;

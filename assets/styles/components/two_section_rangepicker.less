@@ -1,0 +1,20 @@
+.two-section-rangepicker {
+  width: 100%;
+  height: 64px;
+  margin-bottom: 16px;
+  border-color: @gray350;
+
+  .ant-picker-range-separator {
+    &::after {
+      .make-centered-both();
+      content: '';
+      width: 1px;
+      height: 100%;
+      background-color: @gray300;
+    }
+
+    span {
+      display: none;
+    }
+  }
+}

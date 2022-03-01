@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RulesAndTravels component tests matches snapshot 1`] = `
+<withRouter(EditCamper)
+  canSave={true}
+  hasFooter={true}
+  isLoading={false}
+  leavePageMethod={[MockFunction]}
+  onSave={[MockFunction]}
+>
+  <div
+    className="container"
+  >
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <Row>
+        <Col
+          span={24}
+        >
+          <h1
+            className="text-headline mb-8"
+          >
+            <Memo(FormattedMessage)
+              id="dashboard.editCamper.rulesAndTravels.rules.title"
+            />
+          </h1>
+          <p
+            className="mb-24 text-color-gray"
+          >
+            <Memo(FormattedMessage)
+              id="dashboard.editCamper.rulesAndTravels.rules.description"
+            />
+          </p>
+        </Col>
+        <Col
+          span={24}
+        >
+          <Rules
+            config={
+              Array [
+                Object {
+                  "description": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.rules.allowPets.description",
+                  },
+                  "disabled": false,
+                  "icon": "/images/edit_listing/rules/Pets-Allowed.svg",
+                  "name": "restrictionRule.allowPets",
+                  "title": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.rules.allowPets.title",
+                  },
+                },
+                Object {
+                  "description": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.rules.smoking.description",
+                  },
+                  "disabled": false,
+                  "icon": "/images/edit_listing/rules/Smoking-Allowed.svg",
+                  "name": "restrictionRule.smoking",
+                  "title": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.rules.smoking.title",
+                  },
+                },
+                Object {
+                  "description": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.rules.festivalApproved.description",
+                  },
+                  "disabled": false,
+                  "icon": "/images/edit_listing/rules/Festival-Approved.svg",
+                  "name": "restrictionRule.festivalApproved",
+                  "title": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.rules.festivalApproved.title",
+                  },
+                },
+              ]
+            }
+          />
+        </Col>
+        <Divider />
+        <Col
+          span={24}
+        >
+          <CustomRules
+            btnText={
+              Object {
+                "id": "dashboard.editCamper.rulesAndTravels.customRules.btn",
+              }
+            }
+            items={Array []}
+            keyProp="customRestrictionRules"
+            label={
+              Object {
+                "id": "dashboard.editCamper.rulesAndTravels.customRules.label",
+              }
+            }
+            onAdd={[MockFunction]}
+            onRemove={[MockFunction]}
+            title={
+              Object {
+                "id": "dashboard.editCamper.rulesAndTravels.customRules.title",
+              }
+            }
+          />
+        </Col>
+        <Divider />
+        <Col
+          span={24}
+        >
+          <Rules
+            config={
+              Array [
+                Object {
+                  "description": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.travels.mexico.description",
+                  },
+                  "disabled": true,
+                  "icon": "/images/edit_listing/rules/Mexico.svg",
+                  "name": "travelRestriction.mexico",
+                  "title": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.travels.mexico.title",
+                  },
+                },
+                Object {
+                  "description": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.travels.canada.description",
+                  },
+                  "disabled": false,
+                  "icon": "/images/edit_listing/rules/Canada.svg",
+                  "name": "travelRestriction.canada",
+                  "title": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.travels.canada.title",
+                  },
+                },
+                Object {
+                  "description": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.travels.burningMan.description",
+                  },
+                  "disabled": false,
+                  "icon": "/images/edit_listing/rules/Burning-Man.svg",
+                  "name": "travelRestriction.burningMan",
+                  "title": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.travels.burningMan.title",
+                  },
+                },
+              ]
+            }
+          >
+            <h1
+              className="text-headline mb-8"
+            >
+              <Memo(FormattedMessage)
+                id="dashboard.editCamper.rulesAndTravels.travels.title"
+              />
+            </h1>
+            <p
+              className="mb-24 text-color-gray"
+            >
+              <Memo(FormattedMessage)
+                id="dashboard.editCamper.rulesAndTravels.travels.description"
+              />
+            </p>
+            <div
+              className="mb-24 text-subtitle"
+            >
+              <Memo(FormattedMessage)
+                id="shared.location"
+              />
+            </div>
+          </Rules>
+        </Col>
+        <Divider />
+        <Col
+          span={24}
+        >
+          <CustomRules
+            btnText={
+              Object {
+                "id": "dashboard.editCamper.rulesAndTravels.customTravels.btn",
+              }
+            }
+            items={Array []}
+            keyProp="customTravelRestrictions"
+            label={
+              Object {
+                "id": "dashboard.editCamper.rulesAndTravels.customTravels.label",
+              }
+            }
+            onAdd={[MockFunction]}
+            onRemove={[MockFunction]}
+            title={
+              Object {
+                "id": "dashboard.editCamper.rulesAndTravels.customTravels.title",
+              }
+            }
+          />
+        </Col>
+        <Divider />
+        <Col
+          span={24}
+        >
+          <Rules
+            config={
+              Array [
+                Object {
+                  "description": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.roads.fourWheel.description",
+                  },
+                  "disabled": false,
+                  "icon": "/images/edit_listing/rules/4x4-Only-Roads.svg",
+                  "name": "restrictionRoad.fourWheelRoad",
+                  "title": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.roads.fourWheel.title",
+                  },
+                },
+                Object {
+                  "description": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.roads.offRoad.description",
+                  },
+                  "disabled": false,
+                  "icon": "/images/edit_listing/rules/Off-Road.svg",
+                  "name": "restrictionRoad.offRoad",
+                  "title": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.roads.offRoad.title",
+                  },
+                },
+                Object {
+                  "description": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.roads.icyRoad.description",
+                  },
+                  "disabled": false,
+                  "icon": "/images/edit_listing/rules/Snow-Icy-Road-Conditions.svg",
+                  "name": "restrictionRoad.snowAndIceRoad",
+                  "title": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.roads.icyRoad.title",
+                  },
+                },
+                Object {
+                  "description": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.roads.dirtyRoad.description",
+                  },
+                  "disabled": false,
+                  "icon": "/images/edit_listing/rules/Dirt-Gravel-Roads.svg",
+                  "name": "restrictionRoad.dirtyRoad",
+                  "title": Object {
+                    "id": "dashboard.editCamper.rulesAndTravels.roads.dirtyRoad.title",
+                  },
+                },
+              ]
+            }
+          >
+            <div
+              className="mb-24 text-subtitle"
+            >
+              <Memo(FormattedMessage)
+                id="dashboard.editCamper.rulesAndTravels.roads.title"
+              />
+            </div>
+          </Rules>
+        </Col>
+        <Divider />
+        <Col
+          span={24}
+        >
+          <CustomRules
+            btnText={
+              Object {
+                "id": "dashboard.editCamper.rulesAndTravels.customRoads.btn",
+              }
+            }
+            items={Array []}
+            keyProp="customRestrictionRoads"
+            label={
+              Object {
+                "id": "dashboard.editCamper.rulesAndTravels.customRoads.label",
+              }
+            }
+            onAdd={[MockFunction]}
+            onRemove={[MockFunction]}
+            title={
+              Object {
+                "id": "dashboard.editCamper.rulesAndTravels.customRoads.title",
+              }
+            }
+          />
+        </Col>
+      </Row>
+    </ForwardRef(InternalForm)>
+  </div>
+</withRouter(EditCamper)>
+`;
+
+exports[`RulesAndTravels component tests when camper isn\`t exist 1`] = `
+<withRouter(EditCamper)
+  canSave={true}
+  hasFooter={true}
+  isLoading={false}
+  leavePageMethod={[MockFunction]}
+  onSave={[MockFunction]}
+>
+  <div
+    className="container"
+  >
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <Row>
+        <Col
+          span={24}
+        >
+          <h1
+            className="text-headline mb-8"
+          >
+            <Memo(FormattedMessage)
+              id="dashboard.editCamper.rulesAndTravels.rules.title"
+            />
+          </h1>
+          <p
+            className="mb-24 text-color-gray"
+          >
+            <Memo(FormattedMessage)
+              id="dashboard.editCamper.rulesAndTravels.rules.description"
+            />
+          </p>
+        </Col>
+        <Skeleton
+          active={true}
+          avatar={false}
+          paragraph={true}
+          title={true}
+        />
+      </Row>
+    </ForwardRef(InternalForm)>
+  </div>
+</withRouter(EditCamper)>
+`;

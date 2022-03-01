@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Map Component snapshot default props 1`] = `
+<div
+  className="main-listing-delivery__mapbox__wrapper-extended"
+  span={24}
+>
+  <ForwardRef
+    altitude={1.5}
+    asyncRender={false}
+    attributionControl={true}
+    bearing={0}
+    className=""
+    clickRadius={0}
+    container={<body />}
+    disableTokenWarning={false}
+    doubleClickZoom={true}
+    dragPan={true}
+    dragRotate={true}
+    eventRecognizerOptions={Object {}}
+    getCursor={[Function]}
+    height={400}
+    keyboard={true}
+    latitude={0}
+    longitude={0}
+    mapOptions={Object {}}
+    mapStyle="mapbox://styles/mapbox/streets-v11"
+    mapboxApiAccessToken="pk.askdaklsmdaslkndkjnUYYHiYSI6ImNrbm5xbzN4cTExMGasdasdasdasdlklmjUUHYHUYBYNUIUOI"
+    mapboxApiUrl="https://api.mapbox.com"
+    maxPitch={85}
+    maxZoom={24}
+    minPitch={0}
+    minZoom={0}
+    onClick={null}
+    onContextMenu={[Function]}
+    onError={[Function]}
+    onHover={null}
+    onLoad={[Function]}
+    onNativeClick={null}
+    onResize={[Function]}
+    onTransitionEnd={[Function]}
+    onTransitionInterrupt={[Function]}
+    onTransitionStart={[Function]}
+    onViewStateChange={null}
+    onViewportChange={[MockFunction]}
+    pitch={0}
+    preserveDrawingBuffer={false}
+    preventStyleDiffing={false}
+    reuseMaps={false}
+    scrollZoom={true}
+    style={null}
+    touchAction="none"
+    touchRotate={false}
+    touchZoom={true}
+    transitionDuration={300}
+    transitionEasing={[Function]}
+    transitionInterpolator={
+      LinearInterpolator {
+        "propNames": Array [
+          "longitude",
+          "latitude",
+          "zoom",
+          "bearing",
+          "pitch",
+        ],
+      }
+    }
+    transitionInterruption={1}
+    visibilityConstraints={
+      Object {
+        "maxPitch": 85,
+        "maxZoom": 24,
+        "minPitch": 0,
+        "minZoom": 0,
+      }
+    }
+    visible={true}
+    width={0}
+    zoom={10}
+  >
+    <Memo(Marker)
+      latitude={0}
+      longitude={0}
+      offsetLeft={-32}
+      offsetTop={-32}
+    >
+      <div
+        className="main-listing-delivery__mapbox__marker "
+      >
+        <img
+          alt="camper-type"
+          src="test.svg"
+          width={30}
+        />
+      </div>
+    </Memo(Marker)>
+    <Source
+      data={
+        Object {
+          "geometry": Object {
+            "coordinates": Array [
+              Array [
+                Array [
+                  0,
+                  0.01,
+                ],
+                Array [
+                  0,
+                  0.02,
+                ],
+                Array [
+                  0,
+                  0.03,
+                ],
+              ],
+            ],
+          },
+          "properties": Object {
+            "foo": "bar",
+          },
+          "type": "Feature",
+        }
+      }
+      id="delivery-camper"
+      type="geojson"
+    >
+      <Layer
+        id="delivery-camper-layer"
+        paint={
+          Object {
+            "fill-color": "rgba(0,165,181,0.38)",
+          }
+        }
+        type="fill"
+      />
+    </Source>
+    <Memo(Popup)
+      className="main-listing-delivery__mapbox__popup"
+      closeButton={false}
+      closeOnClick={false}
+      latitude={0}
+      longitude={0.005}
+    >
+      <Memo(FormattedMessage)
+        id="addNewCamper.delivery.deliveryMiles"
+        values={
+          Object {
+            "radius": "20",
+          }
+        }
+      />
+    </Memo(Popup)>
+  </ForwardRef>
+</div>
+`;

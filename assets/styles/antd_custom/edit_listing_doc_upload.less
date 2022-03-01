@@ -1,0 +1,42 @@
+.edit-listing-doc-upload {
+  display: flex;
+  flex-direction: column-reverse;
+
+  .ant-upload-list-item {
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid @main-input-border-color;
+    border-radius: @main-border-radius;
+  }
+
+  .ant-upload-list-item-info {
+    padding-left: 0;
+    background-color: @white !important;
+  }
+
+  .ant-upload-list-item-name {
+    .text-subheader();
+    font-weight: 400;
+  }
+
+  .ant-upload-list-text-container {
+    width: 100%;
+  }
+
+  .ant-upload-list-item-card-actions-btn {
+    opacity: 1 !important;
+  }
+
+  .ant-upload-list-item-card-actions-btn.ant-btn-sm {
+    &:extend(.ant-btn-secondary);
+    width: @btn-size-sm;
+    height: @btn-size-sm;
+  }
+
+  .ant-upload-list-item-progress,
+  .anticon-paper-clip {
+    display: none;
+  }
+}

@@ -1,0 +1,396 @@
+@ant-picker-cell-width: 36px;
+@ant-picker-cell-height: 36px;
+
+.ant-picker-header {
+  height: 52px;
+
+  &,
+  .ant-picker-header-view {
+    line-height: 52px !important;
+  }
+
+  .ant-picker-header-view {
+    .ant-picker-month-btn,
+    .ant-picker-year-btn {
+      color: @black;
+    }
+  }
+
+  .ant-picker-header-prev-btn,
+  .ant-picker-header-next-btn {
+    span {
+      &::before,
+      &::after {
+        border-top-width: 2px;
+        border-left-width: 2px;
+        border-color: @gray500;
+      }
+    }
+  }
+
+  .ant-picker-month-panel & {
+    button {
+      line-height: 52px;
+    }
+  }
+}
+
+.ant-picker-body {
+  padding: 0 12px 16px !important;
+
+  @media (max-width: @screen-lg) {
+    padding: 0 !important;
+  }
+
+  .ant-picker-content {
+    width: auto !important;
+
+    th {
+      height: 48px;
+      padding-left: 8px;
+      color: @gray700;
+      font-size: 12px;
+      line-height: 16px;
+
+      @media (min-width: @screen-xl) {
+        padding-left: 12px;
+      }
+    }
+
+    td {
+      color: @black;
+    }
+
+    tbody tr:not(:last-of-type) {
+      border-bottom: 16px solid transparent;
+    }
+  }
+
+  .ant-picker-cell {
+    font-size: 14px;
+    height: @ant-picker-cell-height;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    &::after {
+      content: '';
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      width: @ant-picker-cell-width;
+      height: 100%;
+      border-radius: 6px;
+      background-color: transparent;
+      transition: background-color @main-transition-duration;
+    }
+
+    &::before {
+      right: 0;
+      left: auto;
+      width: 16px !important;
+      height: 100%;
+    }
+
+    &:not(.ant-picker-cell-in-view) {
+      color: @gray700;
+      pointer-events: none;
+    }
+
+    &:hover:not(.ant-picker-cell-selected):not(.ant-picker-cell-range-start):not(.ant-picker-cell-range-end):not(.ant-picker-cell-range-hover-start):not(.ant-picker-cell-range-hover-end) {
+      &::after {
+        background-color: @blue1000;
+      }
+
+      .ant-picker-cell-inner {
+        background-color: transparent;
+        color: white;
+      }
+    }
+
+    .ant-picker-cell-inner {
+      position: relative;
+      min-width: @ant-picker-cell-width;
+      height: @ant-picker-cell-height;
+      padding-right: 14px;
+      box-sizing: content-box;
+      transition:
+        background @main-transition-duration,
+        border @main-transition-duration,
+        color @main-transition-duration;
+      line-height: @ant-picker-cell-height;
+
+      @media (min-width: @screen-xl) {
+        padding-right: 16px;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: @ant-picker-cell-width;
+        height: 100%;
+        border-radius: 6px;
+        border: 1px solid transparent;
+      }
+    }
+
+    &.ant-picker-cell-range-hover {
+      &:not(.ant-picker-cell-in-range) {
+        &::before {
+          background-color: @blue100 !important;
+        }
+
+        &-end {
+          color: white;
+        }
+      }
+
+      &.ant-picker-cell-range-hover-edge-start:not(.ant-picker-cell-in-view),
+      &.ant-picker-cell-range-hover-edge-end:not(.ant-picker-cell-in-view),
+      &.ant-picker-cell-range-hover-edge-end.ant-picker-cell-range-hover-edge-start:not(.ant-picker-cell-in-view) {
+        &::before {
+          background-color: transparent !important;
+        }
+      }
+    }
+  }
+
+  .ant-picker-cell-today:not(.ant-picker-cell-selected) .ant-picker-cell-inner {
+    background-color: transparent;
+    border: unset !important;
+
+    &::before {
+      border: none;
+    }
+
+    &::after {
+      border-color: @gray350;
+    }
+
+    &:hover,
+    &:focus {
+      border-color: @grey-100 !important;
+    }
+  }
+
+  .ant-picker-cell-in-range {
+    &.ant-picker-cell-in-view::before {
+      width: @ant-picker-cell-width;
+      height: @ant-picker-cell-height;
+      background-color: @blue100 !important;
+    }
+
+    &.ant-picker-cell-range-hover-start,
+    &.ant-picker-cell-range-hover-end {
+      width: @ant-picker-cell-width;
+      height: @ant-picker-cell-height;
+      overflow: hidden;
+
+      &::before {
+        background-color: transparent;
+      }
+    }
+  }
+
+  .ant-picker-cell-range-hover-start.ant-picker-cell-in-view,
+  .ant-picker-cell-range-hover-end.ant-picker-cell-in-view {
+    &:not(.ant-picker-cell-in-range):not(.ant-picker-cell-selected) {
+      color: @primary-color;
+      background-color: transparent;
+
+      &::before {
+        width: @ant-picker-cell-width;
+        height: @ant-picker-cell-height;
+      }
+
+      &::after {
+        display: none !important;
+      }
+
+      &:not(.ant-picker-cell-selected) {
+        color: white;
+      }
+
+      &.ant-picker-cell-range-end::after {
+        content: '' !important;
+        background-color: @blue1000;
+      }
+    }
+  }
+
+  .ant-picker-cell-in-view {
+    &::before {
+      width: 100% !important;
+    }
+
+    &.ant-picker-cell-selected .ant-picker-cell-inner,
+    &.ant-picker-cell-in-view.ant-picker-cell-range-start,
+    &.ant-picker-cell-range-end {
+      &::before {
+        background-color: @blue100 !important;
+      }
+
+      &::after {
+        background-color: @blue1000;
+      }
+
+      .ant-picker-cell-inner {
+        background-color: transparent;
+      }
+    }
+
+    &.ant-picker-cell-range-start .ant-picker-cell-inner {
+      color: white;
+    }
+
+    &.ant-picker-cell-range-end::before {
+      background-color: transparent !important;
+    }
+
+    &.ant-picker-cell-range-hover-start {
+      &::before {
+        background-color: @blue100 !important;
+      }
+
+      .ant-picker-cell-inner {
+        color: white;
+
+        &::after {
+          background-color: @blue1000;
+        }
+      }
+    }
+
+    &.ant-picker-cell-range-hover-end .ant-picker-cell-inner::after {
+      background-color: @blue1000;
+    }
+
+    &.ant-picker-cell-range-start.ant-picker-cell-range-start-single {
+      &::before {
+        background-color: transparent !important;
+      }
+
+      &.ant-picker-cell-range-hover-start::before {
+        background-color: @blue100 !important;
+      }
+    }
+
+    &.ant-picker-cell-in-range.ant-picker-cell-range-hover-start .ant-picker-cell-inner::after {
+      background-color: @blue1000;
+    }
+
+    &.ant-picker-cell-today .ant-picker-cell-inner::before {
+      border-color: transparent;
+      background-color: transparent !important;
+    }
+  }
+}
+
+.ant-picker-footer {
+  border-top: unset;
+  line-height: 43px;
+}
+
+.ant-picker-footer-extra {
+  padding-bottom: 8px;
+  padding-left: 20px;
+}
+
+.ant-picker-month-panel {
+  .ant-picker-cell {
+    width: auto;
+
+    &:nth-child(2) {
+      margin-right: 26px;
+      margin-left: 26px;
+    }
+  }
+
+  .ant-picker-cell-inner {
+    min-width: 68px !important;
+  }
+}
+
+.ant-picker-week-panel {
+  width: 317px;
+
+  .ant-picker-week-panel-row {
+    &:hover,
+    &:focus {
+      color: @black-primary-text !important;
+      background-color: @grey-100;
+    }
+  }
+
+  .ant-picker-week-panel-row-selected .ant-picker-cell {
+    background-color: @grey-100;
+
+    .ant-picker-cell-inner {
+      color: @black-primary-text;
+    }
+  }
+
+  .ant-picker-cell {
+    width: @ant-picker-cell-width !important;
+  }
+
+  .ant-picker-cell-week {
+    color: @black-secondary-text !important;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+}
+
+.ant-picker-panel-container {
+  box-shadow: @shadow3;
+}
+
+.ant-picker-header-view .ant-month-picker {
+  color: @black;
+}
+
+.ant-picker-panel {
+  border-bottom: unset;
+
+  @media (max-width: @screen-sm) {
+    &:last-of-type .ant-picker-header-next-btn {
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  @media (min-width: @screen-md) {
+    &:first-of-type {
+      padding-right: 24px;
+    }
+  }
+
+  @media (min-width: @screen-xl) {
+    &:first-of-type {
+      padding-right: 60px;
+    }
+  }
+}
+
+.ant-picker-range-arrow {
+  display: none !important;
+}
+
+.ant-picker-header-super-prev-btn,
+.ant-picker-header-super-next-btn,
+.ant-picker-active-bar {
+  display: none;
+}
+
+.ant-picker-date-panel {
+  width: auto !important;
+}
+
+.ant-picker-focused {
+  box-shadow: none;
+  border-color: @blue1000 !important;
+}

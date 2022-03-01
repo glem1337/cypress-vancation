@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useQuests hook checks \`renderQuestsWidget\` method 1`] = `
+<React.Fragment>
+  <div
+    className="d-flex justify-content-space-between mb-24"
+  >
+    <div
+      className="d-flex align-items-center"
+    >
+      <i
+        className="icon icon-bed in-gray-500"
+      />
+      <span
+        className="font-600 in-black ml-16"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.camperDetails.form.sleeps"
+        />
+      </span>
+      <Tooltip
+        arrowPointAtCenter={false}
+        autoAdjustOverflow={true}
+        mouseEnterDelay={0.1}
+        mouseLeaveDelay={0.1}
+        placement="top"
+        title={
+          <Memo(FormattedMessage)
+            id="campervan-rental.filter.sleeps.tooltip"
+          />
+        }
+      >
+        <i
+          className="icon icon-info-f main-tooltip-icon font-18"
+        />
+      </Tooltip>
+    </div>
+    <div
+      className="main-input-numeric"
+    >
+      <Input
+        className="mb-0"
+        readOnly={true}
+        type="number"
+        value={0}
+      />
+      <Button
+        className="main-input-numeric__control main-input-numeric__control--minus"
+        icon={
+          <i
+            className="icon icon-minus font-20"
+          />
+        }
+        onClick={[Function]}
+        shape="circle"
+        type="secondary"
+      />
+      <Button
+        className="main-input-numeric__control main-input-numeric__control--plus"
+        icon={
+          <i
+            className="icon icon-plus font-20"
+          />
+        }
+        onClick={[Function]}
+        shape="circle"
+        type="secondary"
+      />
+    </div>
+  </div>
+  <div
+    className="d-flex justify-content-space-between"
+  >
+    <div
+      className="d-flex align-items-center"
+    >
+      <i
+        className="icon icon-bed in-gray-500"
+      />
+      <span
+        className="font-600 in-black ml-16"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.camperDetails.form.seats"
+        />
+      </span>
+      <Tooltip
+        arrowPointAtCenter={false}
+        autoAdjustOverflow={true}
+        mouseEnterDelay={0.1}
+        mouseLeaveDelay={0.1}
+        placement="top"
+        title={
+          <Memo(FormattedMessage)
+            id="campervan-rental.filter.seats.tooltip"
+          />
+        }
+      >
+        <i
+          className="icon icon-info-f main-tooltip-icon font-18"
+        />
+      </Tooltip>
+    </div>
+    <div
+      className="main-input-numeric"
+    >
+      <Input
+        className="mb-0"
+        readOnly={true}
+        type="number"
+        value={0}
+      />
+      <Button
+        className="main-input-numeric__control main-input-numeric__control--minus"
+        icon={
+          <i
+            className="icon icon-minus font-20"
+          />
+        }
+        onClick={[Function]}
+        shape="circle"
+        type="secondary"
+      />
+      <Button
+        className="main-input-numeric__control main-input-numeric__control--plus"
+        icon={
+          <i
+            className="icon icon-plus font-20"
+          />
+        }
+        onClick={[Function]}
+        shape="circle"
+        type="secondary"
+      />
+    </div>
+  </div>
+</React.Fragment>
+`;
+
+exports[`useQuests hook matches snapshot 1`] = `
+Object {
+  "applyFilters": [Function],
+  "badge": 0,
+  "checkFilterUpdates": [Function],
+  "clearFilters": [Function],
+  "filters": Object {
+    "seats": 0,
+    "sleeps": 0,
+  },
+  "onIncreaseDecrease": [Function],
+  "renderQuestsWidget": [Function],
+}
+`;

@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DestinationsLandingPage container tests checks \`createRef\` instance method 1`] = `
+Object {
+  "footerComponentRef": null,
+  "intentComponentRef": null,
+  "mapComponentRef": null,
+  "test": "test",
+  "test1": 22,
+  "test2": Object {},
+  "viewMapButtonComponentRef": null,
+}
+`;
+
+exports[`DestinationsLandingPage container tests checks \`pageData\` instance method 1`] = `undefined`;
+
+exports[`DestinationsLandingPage container tests matches snapshot 1`] = `
+<DestinationsLandingPageComponent
+  areCampersFetching={false}
+  componentRefs={
+    Object {
+      "footerComponentRef": null,
+      "intentComponentRef": null,
+      "mapComponentRef": null,
+      "viewMapButtonComponentRef": null,
+    }
+  }
+  createRef={[Function]}
+  currentUser={
+    Object {
+      "createdAt": "2021-07-10T14:47:39.577Z",
+      "email": "test@com.my",
+      "emailVerified": false,
+      "id": "190ddf41-b281-40c0-b48f-7ee98caeacdc",
+      "user": Object {
+        "avatarUrl": null,
+        "createdAt": "2021-07-10T14:47:39.585Z",
+        "firstName": "Test",
+        "id": "653bbbf6-70ff-4adc-8c37-647f7bf447e6",
+        "lastName": "Test",
+        "updatedAt": "2021-07-10T14:47:39.585Z",
+      },
+    }
+  }
+  device={
+    Object {
+      "amazon": Object {
+        "device": false,
+        "phone": false,
+        "tablet": false,
+      },
+      "android": Object {
+        "device": false,
+        "phone": false,
+        "tablet": false,
+      },
+      "any": false,
+      "apple": Object {
+        "device": false,
+        "ipod": false,
+        "phone": false,
+        "tablet": false,
+        "universal": false,
+      },
+      "other": Object {
+        "blackberry": false,
+        "blackberry10": false,
+        "chrome": false,
+        "device": false,
+        "firefox": false,
+        "opera": false,
+      },
+      "phone": false,
+      "tablet": false,
+      "windows": Object {
+        "device": false,
+        "phone": false,
+        "tablet": false,
+      },
+    }
+  }
+  fetchCampers={[Function]}
+  isDesktop={true}
+  isMobile={false}
+  isTablet={false}
+  isTabletMapVisible={false}
+  onDragEnd={[Function]}
+  onTouchStart={[Function]}
+  onZoomEnd={[Function]}
+  pageData={null}
+  searchParams={
+    Object {
+      "location": Object {
+        "id": 1,
+        "latitude": 1,
+        "longitude": 2,
+      },
+    }
+  }
+  shouldShowSkeleton={false}
+  showMobileMap={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "logicMiddleware": Object {
+        "whenComplete": [MockFunction],
+      },
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  toggleTabletMap={[Function]}
+/>
+`;

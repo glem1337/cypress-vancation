@@ -1,0 +1,374 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BrowsePopular component snapshot 1`] = `
+<div>
+  <div
+    className="container"
+  >
+    <div
+      className="d-flex  mb-40 mb-md-60"
+    >
+      <h2
+        className="home-title-sec"
+      >
+        <Memo(FormattedMessage)
+          id="homePage.browsePopular"
+        />
+      </h2>
+    </div>
+    <div
+      className="main-slider-wrap main-slider-wrap--one home-popular-slider"
+    >
+      <Swiper
+        className="home-slider-pos pb-0"
+        loop={true}
+        pagination={
+          Object {
+            "type": "fraction",
+          }
+        }
+        spaceBetween={24}
+        watchOverflow={true}
+      >
+        <SwiperSlide
+          key="homePage.browserPopular.campervanRentalsAreAll"
+        >
+          <Row
+            className="h-100 pb-60 pb-md-80"
+          >
+            <Col
+              className="home-popular__item"
+              span={24}
+            >
+              <Row
+                className="h-100"
+                gutter={24}
+              >
+                <Col
+                  lg={
+                    Object {
+                      "offset": 2,
+                      "span": 6,
+                    }
+                  }
+                  md={12}
+                >
+                  <div
+                    className="home-popular__item-img"
+                  >
+                    <img
+                      alt=""
+                      src="/images/home/Popular_rv_shape.svg"
+                    />
+                    <img
+                      alt=""
+                      className="home-popular__item-img-car"
+                      src="/images/listing/Modern-Van.svg"
+                    />
+                  </div>
+                </Col>
+                <Col
+                  lg={
+                    Object {
+                      "offset": 2,
+                      "span": 12,
+                    }
+                  }
+                  md={12}
+                >
+                  <div
+                    className="d-flex align-items-flex-start flex-column h-100"
+                  >
+                    <p
+                      className="text-title-headline mb-8 mb-md-16"
+                    >
+                      {Translation id: homePage.browserPopular.title.campervans}
+                    </p>
+                    <p
+                      className="font-16 mb-24"
+                    >
+                      <Memo(FormattedMessage)
+                        id="homePage.browserPopular.campervanRentalsAreAll"
+                      />
+                    </p>
+                    <BtnGradient
+                      className="main-btn--sm-100 min-w-180 mt-auto"
+                      href=""
+                      isLoading={false}
+                      size="large"
+                      text={
+                        <Memo(FormattedMessage)
+                          id="homePage.browserPopular.browseCampervans"
+                        />
+                      }
+                    />
+                  </div>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </SwiperSlide>
+        <SwiperSlide
+          key="homePage.browserPopular.westfaliasEurovans"
+        >
+          <Row
+            className="h-100 pb-60 pb-md-80"
+          >
+            <Col
+              className="home-popular__item"
+              span={24}
+            >
+              <Row
+                className="h-100"
+                gutter={24}
+              >
+                <Col
+                  lg={
+                    Object {
+                      "offset": 2,
+                      "span": 6,
+                    }
+                  }
+                  md={12}
+                >
+                  <div
+                    className="home-popular__item-img"
+                  >
+                    <img
+                      alt=""
+                      src="/images/home/Popular_rv_shape.svg"
+                    />
+                    <img
+                      alt=""
+                      className="home-popular__item-img-car"
+                      src="/images/listing/VW-Bus.svg"
+                    />
+                  </div>
+                </Col>
+                <Col
+                  lg={
+                    Object {
+                      "offset": 2,
+                      "span": 12,
+                    }
+                  }
+                  md={12}
+                >
+                  <div
+                    className="d-flex align-items-flex-start flex-column h-100"
+                  >
+                    <p
+                      className="text-title-headline mb-8 mb-md-16"
+                    >
+                      {Translation id: homePage.browserPopular.title.vwBuses}
+                    </p>
+                    <p
+                      className="font-16 mb-24"
+                    >
+                      <Memo(FormattedMessage)
+                        id="homePage.browserPopular.westfaliasEurovans"
+                      />
+                    </p>
+                    <BtnGradient
+                      className="main-btn--sm-100 min-w-180 mt-auto"
+                      href=""
+                      isLoading={false}
+                      size="large"
+                      text={
+                        <Memo(FormattedMessage)
+                          id="homePage.browserPopular.browseVWBuses"
+                        />
+                      }
+                    />
+                  </div>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </SwiperSlide>
+        <SwiperSlide
+          key="homePage.browserPopular.ifYouAreLookingFor"
+        >
+          <Row
+            className="h-100 pb-60 pb-md-80"
+          >
+            <Col
+              className="home-popular__item"
+              span={24}
+            >
+              <Row
+                className="h-100"
+                gutter={24}
+              >
+                <Col
+                  lg={
+                    Object {
+                      "offset": 2,
+                      "span": 6,
+                    }
+                  }
+                  md={12}
+                >
+                  <div
+                    className="home-popular__item-img"
+                  >
+                    <img
+                      alt=""
+                      src="/images/home/Popular_rv_shape.svg"
+                    />
+                    <img
+                      alt=""
+                      className="home-popular__item-img-car"
+                      src="/images/listing/Unique-Camper.svg"
+                    />
+                  </div>
+                </Col>
+                <Col
+                  lg={
+                    Object {
+                      "offset": 2,
+                      "span": 12,
+                    }
+                  }
+                  md={12}
+                >
+                  <div
+                    className="d-flex align-items-flex-start flex-column h-100"
+                  >
+                    <p
+                      className="text-title-headline mb-8 mb-md-16"
+                    >
+                      {Translation id: homePage.browserPopular.title.uniqueCampers}
+                    </p>
+                    <p
+                      className="font-16 mb-24"
+                    >
+                      <Memo(FormattedMessage)
+                        id="homePage.browserPopular.ifYouAreLookingFor"
+                      />
+                    </p>
+                    <BtnGradient
+                      className="main-btn--sm-100 min-w-180 mt-auto"
+                      href=""
+                      isLoading={false}
+                      size="large"
+                      text={
+                        <Memo(FormattedMessage)
+                          id="homePage.browserPopular.browseUniqueCampers"
+                        />
+                      }
+                    />
+                  </div>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </SwiperSlide>
+        <SwiperSlide
+          key="homePage.browserPopular.doNotNeedLuxury"
+        >
+          <Row
+            className="h-100 pb-60 pb-md-80"
+          >
+            <Col
+              className="home-popular__item"
+              span={24}
+            >
+              <Row
+                className="h-100"
+                gutter={24}
+              >
+                <Col
+                  lg={
+                    Object {
+                      "offset": 2,
+                      "span": 6,
+                    }
+                  }
+                  md={12}
+                >
+                  <div
+                    className="home-popular__item-img"
+                  >
+                    <img
+                      alt=""
+                      src="/images/home/Popular_rv_shape.svg"
+                    />
+                    <img
+                      alt=""
+                      className="home-popular__item-img-car"
+                      src="/images/listing/Vehicle-Camper.svg"
+                    />
+                  </div>
+                </Col>
+                <Col
+                  lg={
+                    Object {
+                      "offset": 2,
+                      "span": 12,
+                    }
+                  }
+                  md={12}
+                >
+                  <div
+                    className="d-flex align-items-flex-start flex-column h-100"
+                  >
+                    <p
+                      className="text-title-headline mb-8 mb-md-16"
+                    >
+                      {Translation id: homePage.browserPopular.title.vehicleCamper}
+                    </p>
+                    <p
+                      className="font-16 mb-24"
+                    >
+                      <Memo(FormattedMessage)
+                        id="homePage.browserPopular.doNotNeedLuxury"
+                      />
+                    </p>
+                    <BtnGradient
+                      className="main-btn--sm-100 min-w-180 mt-auto"
+                      href=""
+                      isLoading={false}
+                      size="large"
+                      text={
+                        <Memo(FormattedMessage)
+                          id="homePage.browserPopular.browseVehicleCampers"
+                        />
+                      }
+                    />
+                  </div>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </SwiperSlide>
+      </Swiper>
+      <div
+        className="search-page__slider-nav"
+      >
+        <Button
+          icon={
+            <i
+              className="icon icon-left font-14"
+            />
+          }
+          onClick={[MockFunction]}
+          shape="circle"
+          type="secondary"
+        />
+        <Button
+          className="ml-16"
+          icon={
+            <i
+              className="icon icon-right font-14"
+            />
+          }
+          onClick={[MockFunction]}
+          shape="circle"
+          type="secondary"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

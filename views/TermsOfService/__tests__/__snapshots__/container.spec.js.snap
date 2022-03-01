@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TermsOfService container renders AuthSocial component 1`] = `
+<TermsOfService
+  currentUser={
+    Object {
+      "session": Object {
+        "currentUser": Object {
+          "email": "test@gmail.com",
+          "user": Object {
+            "avatarUrl": "test_url",
+            "firstName": "firstName_test",
+            "lastName": "lastName_test",
+          },
+        },
+      },
+    }
+  }
+  dispatch={[MockFunction]}
+  lastUpdatedDate="5/27/2021"
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;

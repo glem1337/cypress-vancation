@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputNumericField container tests matches snapshot 1`] = `
+<InputNumericField
+  asComponent={[Function]}
+  field={
+    Object {
+      "name": "name",
+      "value": 10,
+    }
+  }
+  form={
+    Object {
+      "setFieldValue": [MockFunction],
+    }
+  }
+  max={null}
+  min={0}
+  onDecrease={[Function]}
+  onIncrease={[Function]}
+  onMaxValueTrigger={null}
+/>
+`;

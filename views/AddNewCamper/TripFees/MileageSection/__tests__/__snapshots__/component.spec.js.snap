@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MileageSection component tests matches snapshot 1`] = `
+<Row
+  gutter={24}
+>
+  <Col
+    lg={16}
+  >
+    <div
+      className="mb-8 text-subheader font-700"
+    >
+      <Memo(FormattedMessage)
+        id="addNewCamper.tripFees.mileage.title"
+      />
+    </div>
+    <p
+      className="mb-24"
+    >
+      <Memo(FormattedMessage)
+        id="addNewCamper.tripFees.mileage.subTitle"
+      />
+    </p>
+    <FormItem
+      className="mb-0"
+    >
+      <Memo(ForwardRef)
+        className="radio_wrapper"
+        onChange={[MockFunction]}
+        size="large"
+        value="unlimited"
+      >
+        <div
+          className="mb-20"
+        >
+          <Radio
+            type="radio"
+            value="unlimited"
+          >
+            <span
+              className="ml-12"
+            >
+              <Memo(FormattedMessage)
+                id="addNewCamper.tripFees.mileage.unlimited"
+              />
+            </span>
+          </Radio>
+        </div>
+        <div>
+          <Radio
+            type="radio"
+            value="limited"
+          >
+            <span
+              className="ml-12"
+            >
+              <Memo(FormattedMessage)
+                id="addNewCamper.tripFees.mileage.limitNumber"
+              />
+            </span>
+          </Radio>
+        </div>
+      </Memo(ForwardRef)>
+    </FormItem>
+  </Col>
+</Row>
+`;
+
+exports[`MileageSection component tests matches snapshot for limited mode 1`] = `
+<Row
+  gutter={24}
+>
+  <Col
+    lg={16}
+  >
+    <div
+      className="mb-8 text-subheader font-700"
+    >
+      <Memo(FormattedMessage)
+        id="addNewCamper.tripFees.mileage.title"
+      />
+    </div>
+    <p
+      className="mb-24"
+    >
+      <Memo(FormattedMessage)
+        id="addNewCamper.tripFees.mileage.subTitle"
+      />
+    </p>
+    <FormItem
+      className="mb-0"
+    >
+      <Memo(ForwardRef)
+        className="radio_wrapper"
+        onChange={[MockFunction]}
+        size="large"
+        value="limited"
+      >
+        <div
+          className="mb-20"
+        >
+          <Radio
+            type="radio"
+            value="unlimited"
+          >
+            <span
+              className="ml-12"
+            >
+              <Memo(FormattedMessage)
+                id="addNewCamper.tripFees.mileage.unlimited"
+              />
+            </span>
+          </Radio>
+        </div>
+        <div>
+          <Radio
+            type="radio"
+            value="limited"
+          >
+            <span
+              className="ml-12"
+            >
+              <Memo(FormattedMessage)
+                id="addNewCamper.tripFees.mileage.limitNumber"
+              />
+            </span>
+          </Radio>
+        </div>
+      </Memo(ForwardRef)>
+    </FormItem>
+    <Row
+      className="mt-16"
+      gutter={
+        Array [
+          24,
+          16,
+        ]
+      }
+    >
+      <Col
+        md={12}
+      >
+        <div
+          className="main-input-wrap-addtxt-extended"
+        >
+          <Field
+            className="main-input__field"
+            component={[Function]}
+            formItemClasses="mb-0"
+            id="mileage.included"
+            label={
+              Object {
+                "id": "addNewCamper.tripFees.mileage.includedMiles",
+              }
+            }
+            name="mileage.included"
+            placeholder="0"
+            type="number"
+          />
+          <span
+            className="main-input__add-txt main-input__add-txt-ext"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.tripFees.perDay"
+            />
+          </span>
+        </div>
+      </Col>
+      <Col
+        md={12}
+      >
+        <div
+          className="main-input-wrap-addtxt-extended main-input-wrap-addtxt"
+        >
+          <Field
+            component={[Function]}
+            formItemClasses="mb-0"
+            id="mileage.overage"
+            label={
+              Object {
+                "id": "addNewCamper.tripFees.overageCharge",
+              }
+            }
+            name="mileage.overage"
+            placeholder="0"
+            prefix="$"
+            type="number"
+          />
+          <span
+            className="main-input__add-txt main-input__add-txt-ext"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.tripFees.perMile"
+            />
+          </span>
+        </div>
+      </Col>
+    </Row>
+  </Col>
+</Row>
+`;

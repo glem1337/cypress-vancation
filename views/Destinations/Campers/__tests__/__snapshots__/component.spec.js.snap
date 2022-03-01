@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Campers component tests matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="search-page__results-campers"
+    onMouseLeave={[MockFunction]}
+  >
+    <div
+      className="mb-24"
+      key="1"
+    >
+      <CollapsibleText>
+        <InnerHtmlField
+          WrapperTag="span"
+          html="test description"
+        />
+      </CollapsibleText>
+    </div>
+    <div
+      key="2"
+    >
+      <Divider
+        className="mt-24 mb-24"
+      />
+      <h2
+        className="text-headline mb-24"
+      >
+        test title
+      </h2>
+      <div
+        className="search-page__results-fact mb-24"
+        key="11"
+      >
+        <img
+          alt=""
+          className="search-page__results-fact-icon"
+          src="/images/Fun Fact.svg"
+        />
+        <InnerHtmlField
+          WrapperTag="span"
+          html="test text"
+        />
+      </div>
+    </div>
+    <div
+      className="search-page__results-fact mb-24"
+      key="3"
+    >
+      <img
+        alt=""
+        className="search-page__results-fact-icon"
+        src="/images/Fun Fact.svg"
+      />
+      <InnerHtmlField
+        WrapperTag="span"
+        html="test text"
+      />
+    </div>
+    <div
+      className="search-page__results-campers__grid mb-24"
+      key="4"
+    >
+      <CamperCard
+        camper={
+          Object {
+            "id": 11,
+          }
+        }
+        key="11"
+      />
+    </div>
+  </div>
+  <div
+    className="d-flex flex-column align-items-center mt-24 mt-md-40"
+  >
+    <Pagination
+      current={1}
+      onChange={[MockFunction]}
+      pageSize={20}
+      showSizeChanger={false}
+      total={200}
+    />
+    <div
+      className="mt-24"
+    >
+      <Memo(FormattedMessage)
+        id="search-destination.paginationPhrase"
+        values={
+          Object {
+            "page": 1,
+            "perPage": 20,
+            "total": 200,
+          }
+        }
+      />
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Campers component tests matches snapshot when isSearchResultsPage 1`] = `
+<Fragment>
+  <div
+    className="search-page__results-campers"
+    onMouseLeave={[MockFunction]}
+  >
+    <div
+      className="search-page__results-campers__grid"
+    >
+      <CamperCard
+        camper={
+          Object {
+            "id": 1,
+          }
+        }
+        key="1"
+      />
+      <CamperCard
+        camper={
+          Object {
+            "id": 2,
+          }
+        }
+        key="2"
+      />
+    </div>
+  </div>
+  <div
+    className="d-flex flex-column align-items-center mt-24 mt-md-40"
+  >
+    <Pagination
+      current={1}
+      onChange={[MockFunction]}
+      pageSize={20}
+      showSizeChanger={false}
+      total={200}
+    />
+    <div
+      className="mt-24"
+    >
+      <Memo(FormattedMessage)
+        id="search-destination.paginationPhrase"
+        values={
+          Object {
+            "page": 1,
+            "perPage": 20,
+            "total": 200,
+          }
+        }
+      />
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Campers component tests matches snapshot when isSearchResultsPage and there are campers 1`] = `
+<Fragment>
+  <div
+    className="search-page__results-campers"
+    onMouseLeave={[MockFunction]}
+  >
+    <div
+      className="search-page__results-campers__grid"
+    >
+      <CamperCard
+        camper={
+          Object {
+            "id": 1,
+          }
+        }
+        key="1"
+      />
+    </div>
+  </div>
+  <div
+    className="d-flex flex-column align-items-center mt-24 mt-md-40"
+  >
+    <Pagination
+      current={1}
+      onChange={[MockFunction]}
+      pageSize={20}
+      showSizeChanger={false}
+      total={200}
+    />
+    <div
+      className="mt-24"
+    >
+      <Memo(FormattedMessage)
+        id="search-destination.paginationPhrase"
+        values={
+          Object {
+            "page": 1,
+            "perPage": 20,
+            "total": 200,
+          }
+        }
+      />
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Campers component tests matches snapshot when isSearchResultsPage and there are no campers 1`] = `
+<Fragment>
+  <div
+    className="search-page__results-campers"
+    onMouseLeave={[MockFunction]}
+  >
+    <div
+      className="search-page__results-campers__grid"
+    />
+  </div>
+  <div
+    className="d-flex flex-column align-items-center mt-24 mt-md-40"
+  >
+    <Pagination
+      current={1}
+      onChange={[MockFunction]}
+      pageSize={20}
+      showSizeChanger={false}
+      total={200}
+    />
+    <div
+      className="mt-24"
+    >
+      <Memo(FormattedMessage)
+        id="search-destination.paginationPhrase"
+        values={
+          Object {
+            "page": 1,
+            "perPage": 20,
+            "total": 200,
+          }
+        }
+      />
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Campers component tests matches snapshot when there are no campers 1`] = `
+<Fragment>
+  <div
+    className="search-page__results-campers"
+    onMouseLeave={[MockFunction]}
+  >
+    <div
+      className="mb-24"
+      key="1"
+    >
+      <CollapsibleText>
+        <InnerHtmlField
+          WrapperTag="span"
+          html="test description"
+        />
+      </CollapsibleText>
+    </div>
+    <div
+      key="2"
+    >
+      <Divider
+        className="mt-24 mb-24"
+      />
+      <h2
+        className="text-headline mb-24"
+      >
+        test title
+      </h2>
+      <div
+        className="search-page__results-fact mb-24"
+        key="11"
+      >
+        <img
+          alt=""
+          className="search-page__results-fact-icon"
+          src="/images/Fun Fact.svg"
+        />
+        <InnerHtmlField
+          WrapperTag="span"
+          html="test text"
+        />
+      </div>
+    </div>
+    <div
+      className="search-page__results-fact mb-24"
+      key="3"
+    >
+      <img
+        alt=""
+        className="search-page__results-fact-icon"
+        src="/images/Fun Fact.svg"
+      />
+      <InnerHtmlField
+        WrapperTag="span"
+        html="test text"
+      />
+    </div>
+    <div
+      className="search-page__results-campers__grid mb-24"
+      key="4"
+    >
+      <CamperCard
+        camper={
+          Object {
+            "id": 11,
+          }
+        }
+        key="11"
+      />
+    </div>
+  </div>
+  <div
+    className="d-flex flex-column align-items-center mt-24 mt-md-40"
+  >
+    <Pagination
+      current={1}
+      onChange={[MockFunction]}
+      pageSize={20}
+      showSizeChanger={false}
+      total={200}
+    />
+    <div
+      className="mt-24"
+    >
+      <Memo(FormattedMessage)
+        id="search-destination.paginationPhrase"
+        values={
+          Object {
+            "page": 1,
+            "perPage": 20,
+            "total": 200,
+          }
+        }
+      />
+    </div>
+  </div>
+</Fragment>
+`;

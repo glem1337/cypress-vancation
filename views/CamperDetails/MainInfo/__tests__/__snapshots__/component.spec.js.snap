@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainInfo component tests matches snapshot 1`] = `
+<div
+  className="van-details__name-wrap"
+>
+  <h1
+    className="main-title mb-16"
+  >
+    Super camper name
+  </h1>
+  <div
+    className="van-details__tags-wrap"
+  >
+    <div
+      className="tag-glamper mr-8"
+    >
+      <img
+        alt=""
+        className="mr-4"
+        src="/images/profile/Diamond-White.svg"
+      />
+      <Memo(FormattedMessage)
+        id="shared.glamper"
+      />
+    </div>
+    <Tag
+      className="mr-8"
+      color="default"
+      icon={
+        <i
+          className="icon icon-delivery in-black"
+        />
+      }
+    >
+      <span
+        className="in-black"
+      >
+        <Memo(FormattedMessage)
+          id="camperDetails.mainInfo.tag.delivery"
+          values={
+            Object {
+              "miles": 123,
+            }
+          }
+        />
+      </span>
+    </Tag>
+    <Tag
+      className="mr-8"
+      color="default"
+      icon={
+        <img
+          alt=""
+          className="van-details__miles-tag"
+          src="/images/edit_listing/rules/Allow-Unlimited-Miles.svg"
+        />
+      }
+    >
+      <span
+        className="in-black"
+      >
+        <Memo(FormattedMessage)
+          id="camperDetails.mainInfo.tag.unlimitedMilesFree"
+        />
+      </span>
+    </Tag>
+  </div>
+  <div
+    className="d-flex align-items-center"
+  >
+    <div
+      className="profile-user-card__photo-rating-icon in-red-1000"
+    >
+      <img
+        alt=""
+        src="/images/Like - White.svg"
+      />
+    </div>
+    <p
+      className="mr-16 in-green-300 text-title in-red-1000"
+    >
+      50%
+    </p>
+  </div>
+</div>
+`;
+
+exports[`MainInfo component tests matches snapshot when camper is not existing 1`] = `
+<div
+  className="van-details__name-wrap van-details__name-wrap--skeleton"
+>
+  <SkeletonTitle
+    className=""
+    width={100}
+  />
+  <SkeletonTitle
+    className=""
+    width={100}
+  />
+  <SkeletonTitle
+    className=""
+    width={60}
+  />
+  <SkeletonTitle
+    className="mb-0"
+    width={35}
+  />
+</div>
+`;
+
+exports[`MainInfo component tests matches snapshot when milesCount is not null 1`] = `
+<div
+  className="van-details__name-wrap"
+>
+  <h1
+    className="main-title mb-16"
+  >
+    Super camper name
+  </h1>
+  <div
+    className="van-details__tags-wrap"
+  >
+    <div
+      className="tag-glamper mr-8"
+    >
+      <img
+        alt=""
+        className="mr-4"
+        src="/images/profile/Diamond-White.svg"
+      />
+      <Memo(FormattedMessage)
+        id="shared.glamper"
+      />
+    </div>
+    <Tag
+      className="mr-8"
+      color="default"
+      icon={
+        <i
+          className="icon icon-delivery in-black"
+        />
+      }
+    >
+      <span
+        className="in-black"
+      >
+        <Memo(FormattedMessage)
+          id="camperDetails.mainInfo.tag.delivery"
+          values={
+            Object {
+              "miles": 123,
+            }
+          }
+        />
+      </span>
+    </Tag>
+    <Tag
+      className="mr-8"
+      color="default"
+      icon={
+        <img
+          alt=""
+          className="van-details__miles-tag"
+          src="/images/edit_listing/rules/Allow-Unlimited-Miles.svg"
+        />
+      }
+    >
+      <span
+        className="in-black"
+      >
+        <Memo(FormattedMessage)
+          id="camperDetails.mainInfo.tag.limitedMilesCount"
+          values={
+            Object {
+              "miles": 345,
+            }
+          }
+        />
+      </span>
+    </Tag>
+  </div>
+  <div
+    className="d-flex align-items-center"
+  >
+    <div
+      className="profile-user-card__photo-rating-icon in-red-1000"
+    >
+      <img
+        alt=""
+        src="/images/Like - White.svg"
+      />
+    </div>
+    <p
+      className="mr-16 in-green-300 text-title in-red-1000"
+    >
+      50%
+    </p>
+  </div>
+</div>
+`;

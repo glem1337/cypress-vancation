@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`owner camper details constants matches snapshot 1`] = `
+Object {
+  "MAX_DESCRIPTION_VISIBLE_SYMBOLS": 180,
+  "MODAL_DESCRIPTION": Object {
+    "MAX": 2000,
+    "MIN": 2,
+  },
+  "RATING_BOUNDARIES": Object {
+    "HIGH": 90,
+    "LOW": 59,
+    "MIDDLE": Object {
+      "END": 79,
+      "START": 60,
+    },
+    "NORMAL": Object {
+      "END": 89,
+      "START": 80,
+    },
+  },
+}
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExportCalendarSection component tests matches snapshot 1`] = `
+<Fragment>
+  <Connect(ImportList)
+    camperId="camperId"
+  />
+  <Button
+    onClick={[MockFunction]}
+    text={
+      Object {
+        "id": "calendar.import.btn",
+      }
+    }
+    type="secondary"
+  />
+</Fragment>
+`;

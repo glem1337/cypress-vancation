@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PersonalInformation container tests checks mapPropsToValues configs 1`] = `
+Object {
+  "email": "",
+  "firstName": "",
+  "lastName": "",
+  "password": "",
+  "phoneNumber": "",
+  "redirectRoute": "/add-new-camper/id/specifications",
+}
+`;
+
+exports[`PersonalInformation container tests has validation schema 1`] = `
+Object {
+  "fields": Object {
+    "email": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "email",
+          "params": Object {
+            "regex": /\\^\\(\\(\\(\\[a-z\\]\\|\\\\d\\|\\[!#\\\\\\$%&'\\\\\\*\\\\\\+\\\\-\\\\/=\\\\\\?\\\\\\^_\`\\{\\\\\\|\\}~\\]\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\+\\(\\\\\\.\\(\\[a-z\\]\\|\\\\d\\|\\[!#\\\\\\$%&'\\\\\\*\\\\\\+\\\\-\\\\/=\\\\\\?\\\\\\^_\`\\{\\\\\\|\\}~\\]\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\+\\)\\*\\)\\|\\(\\(\\\\x22\\)\\(\\(\\(\\(\\\\x20\\|\\\\x09\\)\\*\\(\\\\x0d\\\\x0a\\)\\)\\?\\(\\\\x20\\|\\\\x09\\)\\+\\)\\?\\(\\(\\[\\\\x01-\\\\x08\\\\x0b\\\\x0c\\\\x0e-\\\\x1f\\\\x7f\\]\\|\\\\x21\\|\\[\\\\x23-\\\\x5b\\]\\|\\[\\\\x5d-\\\\x7e\\]\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\|\\(\\\\\\\\\\(\\[\\\\x01-\\\\x09\\\\x0b\\\\x0c\\\\x0d-\\\\x7f\\]\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\)\\)\\)\\*\\(\\(\\(\\\\x20\\|\\\\x09\\)\\*\\(\\\\x0d\\\\x0a\\)\\)\\?\\(\\\\x20\\|\\\\x09\\)\\+\\)\\?\\(\\\\x22\\)\\)\\)@\\(\\(\\(\\[a-z\\]\\|\\\\d\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\|\\(\\(\\[a-z\\]\\|\\\\d\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\(\\[a-z\\]\\|\\\\d\\|-\\|\\\\\\.\\|_\\|~\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\*\\(\\[a-z\\]\\|\\\\d\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\)\\)\\\\\\.\\)\\+\\(\\(\\[a-z\\]\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\|\\(\\(\\[a-z\\]\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\(\\[a-z\\]\\|\\\\d\\|-\\|\\\\\\.\\|_\\|~\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\*\\(\\[a-z\\]\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\)\\)\\$/i,
+          },
+        },
+        Object {
+          "name": "max",
+          "params": Object {
+            "max": 255,
+          },
+        },
+        Object {
+          "name": "required",
+          "params": undefined,
+        },
+      ],
+      "type": "string",
+    },
+    "firstName": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "max",
+          "params": Object {
+            "max": 255,
+          },
+        },
+        Object {
+          "name": "required",
+          "params": undefined,
+        },
+      ],
+      "type": "string",
+    },
+    "lastName": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "max",
+          "params": Object {
+            "max": 255,
+          },
+        },
+        Object {
+          "name": "required",
+          "params": undefined,
+        },
+      ],
+      "type": "string",
+    },
+    "password": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "min",
+          "params": Object {
+            "min": 6,
+          },
+        },
+        Object {
+          "name": "max",
+          "params": Object {
+            "max": 72,
+          },
+        },
+        Object {
+          "name": "required",
+          "params": undefined,
+        },
+      ],
+      "type": "string",
+    },
+    "phoneNumber": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "required",
+          "params": undefined,
+        },
+      ],
+      "type": "string",
+    },
+  },
+  "label": undefined,
+  "meta": undefined,
+  "notOneOf": Array [],
+  "oneOf": Array [],
+  "tests": Array [],
+  "type": "object",
+}
+`;
+
+exports[`PersonalInformation container tests matches snapshot 1`] = `
+<PersonalInformation
+  handleSubmit={[Function]}
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+  isFormValid={false}
+  isSubmitting={false}
+  isValid={true}
+  mapPropsToValues={[Function]}
+  onSubmit={[Function]}
+  resetForm={[MockFunction]}
+  setErrors={[MockFunction]}
+  setStatus={[MockFunction]}
+  setSubmitting={[MockFunction]}
+  setValues={[MockFunction]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  submitForm={[MockFunction]}
+  validateForm={[MockFunction]}
+  validationSchema={[Function]}
+  values={Object {}}
+/>
+`;

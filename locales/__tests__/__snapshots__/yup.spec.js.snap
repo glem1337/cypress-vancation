@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`yup translation ids match snapshot 1`] = `
+Object {
+  "mixed": Object {
+    "required": Object {
+      "id": "yup.mixed.required",
+    },
+  },
+  "number": Object {
+    "integer": Object {
+      "id": "yup.number.integer",
+    },
+    "moreThan": Object {
+      "id": "yup.number.moreThan",
+    },
+    "positive": Object {
+      "id": "yup.number.positive",
+    },
+  },
+  "string": Object {
+    "email": Object {
+      "id": "yup.string.email",
+    },
+    "max": [Function],
+    "min": [Function],
+    "url": Object {
+      "id": "yup.string.url",
+    },
+  },
+}
+`;
+
+exports[`yup translation ids string.max 1`] = `
+Object {
+  "id": "yup.string.max",
+  "values": Object {
+    "max": 42,
+  },
+}
+`;
+
+exports[`yup translation ids string.min 1`] = `
+Object {
+  "id": "yup.string.min",
+  "values": Object {
+    "min": 13,
+  },
+}
+`;

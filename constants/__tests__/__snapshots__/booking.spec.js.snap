@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`booking constants matches snapshot 1`] = `
+Object {
+  "BOOKING_STATUS": Object {
+    "CANCELLED": "canceled",
+    "CLAIM": "claim",
+    "CURRENT": "current",
+    "INQUIRY": "inquiry",
+    "PAST": "past",
+    "PENDING": "pending",
+    "UPCOMING": "upcoming",
+  },
+  "BOOKING_STATUS_DATA": Object {
+    "canceled": Object {
+      "color": "default",
+      "id": "shared.canceled",
+    },
+    "claim": Object {
+      "color": "default",
+      "id": "shared.claim",
+    },
+    "current": Object {
+      "color": "success",
+      "id": "shared.current",
+    },
+    "inquiry": Object {
+      "color": "blue",
+      "id": "shared.inquiry",
+    },
+    "past": Object {
+      "color": "default",
+      "id": "shared.past",
+    },
+    "pending": Object {
+      "color": "default",
+      "id": "shared.pending",
+    },
+    "upcoming": Object {
+      "color": "orange",
+      "id": "shared.upcoming",
+    },
+  },
+  "BOOKING_STATUS_ERROR": Object {
+    "color": "red",
+    "id": "shared.error",
+  },
+  "FETCH_USER_TYPE": Object {
+    "OWNER": "owner",
+    "RENTER": "user",
+  },
+  "LAST_MESSAGE_CHARACTERS_COUNT": 65,
+  "PAGINATION_SIZE": 20,
+}
+`;

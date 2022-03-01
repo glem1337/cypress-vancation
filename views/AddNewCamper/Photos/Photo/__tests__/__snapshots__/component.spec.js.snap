@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Photo component tests matches snapshot 1`] = `
+<div
+  className="camper-photo__uploaded-item"
+  id="is"
+  key="is"
+>
+  <img
+    alt=""
+    className="camper-photo__uploaded-image"
+    src="test url"
+  />
+  <div
+    className="camper-photo__delete-icon-wrapper"
+    onClick={[MockFunction]}
+    role="button"
+  >
+    <ForwardRef(DeleteOutlined)
+      className="camper-photo__delete-icon"
+    />
+  </div>
+  <div
+    className="camper-photo__main-label"
+  >
+    <Memo(FormattedMessage)
+      id="shared.main"
+    />
+  </div>
+</div>
+`;

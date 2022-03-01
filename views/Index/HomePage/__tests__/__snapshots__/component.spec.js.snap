@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index component Index default props snapshot 1`] = `
+<Fragment>
+  <Connect(UserHeader)
+    SearchSection={
+      <injectIntl(SearchSectionComponent)
+        isChooseDestinationVisible={true}
+        isStartInputVisible={true}
+        onStartInputFocus={[MockFunction]}
+      />
+    }
+    active=""
+  />
+  <div
+    className="home-wrap"
+    id="home-wrap"
+  >
+    <HeroPage
+      isChooseDestinationVisible={true}
+    />
+    <injectIntl(Works) />
+    <Connect(FavoriteDestinations) />
+    <injectIntl(BrowsePopular) />
+    <injectIntl(ListYourCampervan) />
+    <Connect(InstagramSection) />
+    <VanLife />
+    <Connect(Component) />
+    <Connect(WithFormik(DiscountCodes)) />
+  </div>
+  <Footer />
+</Fragment>
+`;

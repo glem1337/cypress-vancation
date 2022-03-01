@@ -1,0 +1,620 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GeneralFormComponent snapshot default props 1`] = `
+<Row
+  gutter={24}
+>
+  <Col
+    md={12}
+  >
+    <div
+      className="main-input"
+    >
+      <Field
+        as="select"
+        className="main-input__field"
+        component={[Function]}
+        disabled={false}
+        id="fieldMakeID"
+        items={
+          Array [
+            Object {
+              "label": "make_1",
+              "value": "make_1",
+            },
+            Object {
+              "label": "make_2",
+              "value": "make2",
+            },
+          ]
+        }
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.make",
+          }
+        }
+        name="name"
+        onSelect={[MockFunction]}
+        placeholder={
+          Object {
+            "id": "addNewCamper.camperDetails.form.selectMake",
+          }
+        }
+        showSearch={true}
+      />
+    </div>
+  </Col>
+  <Col
+    md={12}
+  >
+    <div
+      className="main-input"
+    >
+      <Field
+        className="main-input__field"
+        component={[Function]}
+        disabled={false}
+        id="fieldModalID"
+        items={
+          Array [
+            Object {
+              "label": "model_1",
+              "value": "model_1",
+            },
+            Object {
+              "label": "model_2",
+              "value": "model_2",
+            },
+          ]
+        }
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.Model",
+          }
+        }
+        name="modelNaming"
+        placeholder={
+          Object {
+            "id": "addNewCamper.camperDetails.form.selectModel",
+          }
+        }
+        showSearch={true}
+      />
+    </div>
+  </Col>
+  <Col
+    md={24}
+  >
+    <div
+      className="main-input"
+    >
+      <Field
+        className="main-input__field"
+        component={[Function]}
+        disabled={false}
+        id="fieldVehicleTypeID"
+        items={
+          Array [
+            Object {
+              "label": "types_1",
+              "value": "types_1",
+            },
+            Object {
+              "label": "types_2",
+              "value": "types_2",
+            },
+          ]
+        }
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.vehicleType",
+          }
+        }
+        name="vehicleTypeName"
+        placeholder={
+          Object {
+            "id": "addNewCamper.camperDetails.form.selectVehicleType",
+          }
+        }
+        renderItem={[Function]}
+      />
+    </div>
+  </Col>
+  <Col
+    md={12}
+  >
+    <div
+      className="main-input"
+    >
+      <Field
+        className="main-input__field"
+        component={[Function]}
+        disabled={false}
+        id="fieldYearID"
+        items={
+          Array [
+            Object {
+              "label": "1970\`",
+              "value": 1970,
+            },
+            Object {
+              "label": "1971\`",
+              "value": 1971,
+            },
+          ]
+        }
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.year",
+          }
+        }
+        name="year"
+        placeholder={
+          Object {
+            "id": "addNewCamper.camperDetails.form.selectYear",
+          }
+        }
+      />
+    </div>
+  </Col>
+  <Col
+    md={12}
+  >
+    <div
+      className="main-input"
+    >
+      <Field
+        className="main-input__field"
+        component={[Function]}
+        disabled={false}
+        id="fieldWhoBuiltCamperID"
+        items={
+          Array [
+            Object {
+              "label": "built_1",
+              "value": "built_1",
+            },
+            Object {
+              "label": "built_2",
+              "value": "built_2",
+            },
+          ]
+        }
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.whoBuiltYourCamper",
+          }
+        }
+        name="whoBuiltCamper"
+        placeholder={
+          Object {
+            "id": "addNewCamper.camperDetails.form.selectWhoBuiltYourCamper",
+          }
+        }
+        showSearch={true}
+      />
+    </div>
+  </Col>
+  <Col
+    md={12}
+  >
+    <div
+      className="main-input"
+    >
+      <Field
+        className="main-input__field"
+        component={[Function]}
+        disabled={false}
+        id="fieldLengthID"
+        items={
+          Array [
+            Object {
+              "label": "10\`",
+              "value": 10,
+            },
+            Object {
+              "label": "10\`",
+              "value": 10,
+            },
+          ]
+        }
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.length",
+          }
+        }
+        name="length"
+        numbersOnly={true}
+        placeholder={
+          Object {
+            "id": "addNewCamper.camperDetails.form.selectLength",
+          }
+        }
+        showSearch={true}
+        tooltip={
+          Object {
+            "id": "addNewCamper.camperDetails.form.length.tooltip",
+          }
+        }
+        type="number"
+      />
+    </div>
+  </Col>
+  <Col
+    md={12}
+  >
+    <div
+      className="main-input"
+    >
+      <Field
+        className="main-input__field"
+        component={[Function]}
+        disabled={false}
+        id="fieldInsideHeightID"
+        items={
+          Array [
+            Object {
+              "description": Object {
+                "id": "addNewCamper.camperDetails.from.insideStandingHeight",
+              },
+              "img": "/images/listing/High-Top.svg",
+              "label": Object {
+                "id": "addNewCamper.camperDetails.from.highTop",
+              },
+              "value": "hight_top",
+            },
+            Object {
+              "description": Object {
+                "id": "addNewCamper.camperDetails.from.lowInsideStandingHeightPoppedUp",
+              },
+              "img": "/images/listing/Pop-Top.svg",
+              "label": Object {
+                "id": "addNewCamper.camperDetails.from.popTop",
+              },
+              "value": "pop_top",
+            },
+            Object {
+              "description": Object {
+                "id": "addNewCamper.camperDetails.from.lowInsideStandingHeight",
+              },
+              "img": "/images/listing/Low-Top.svg",
+              "label": Object {
+                "id": "addNewCamper.camperDetails.from.lowTop",
+              },
+              "value": "low_top",
+            },
+            Object {
+              "description": Object {
+                "id": "addNewCamper.camperDetails.from.typicallyLowTopVehicle",
+              },
+              "img": "/images/listing/Roof-Top-Tent.svg",
+              "label": Object {
+                "id": "addNewCamper.camperDetails.from.roofTopTent",
+              },
+              "value": "roof_top",
+            },
+          ]
+        }
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.insideHeight",
+          }
+        }
+        name="insideHeight"
+        placeholder={
+          Object {
+            "id": "addNewCamper.camperDetails.form.selectInsideHeight",
+          }
+        }
+        renderItem={[Function]}
+      />
+    </div>
+  </Col>
+  <Col
+    md={12}
+  >
+    <div
+      className="main-input"
+    >
+      <Field
+        className="main-input__field"
+        component={[Function]}
+        disabled={false}
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.sleeps",
+          }
+        }
+        name="sleeps"
+        tooltip={
+          Object {
+            "id": "addNewCamper.camperDetails.form.howManyPeopleSleep",
+          }
+        }
+        type="number"
+      />
+    </div>
+  </Col>
+  <Col
+    md={12}
+  >
+    <div
+      className="main-input"
+    >
+      <Field
+        className="main-input__field"
+        component={[Function]}
+        disabled={false}
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.seats",
+          }
+        }
+        name="seats"
+        tooltip={
+          Object {
+            "id": "addNewCamper.camperDetails.form.numberOfSeats",
+          }
+        }
+        type="number"
+      />
+    </div>
+  </Col>
+  <Col
+    span={24}
+  >
+    <div
+      className="mb-16"
+    >
+      <Field
+        allowClear={true}
+        component={[Function]}
+        disabled={false}
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.from.camperLocation",
+          }
+        }
+        name="camperLocation"
+        placeholder={
+          Object {
+            "id": "addNewCamper.camperDetails.from.addCamperLocation",
+          }
+        }
+        prefix={
+          <i
+            className="icon icon-location"
+          />
+        }
+      />
+    </div>
+  </Col>
+  <Col
+    md={12}
+  >
+    <div
+      className="mb-20"
+    >
+      <Field
+        autoSave={false}
+        className="main-input__field"
+        component={[Function]}
+        disabled={false}
+        id="fieldRegistredID"
+        items={
+          Array [
+            Object {
+              "label": "Alabama",
+              "value": "Alabama",
+            },
+            Object {
+              "label": "Alaska",
+              "value": "Alaska",
+            },
+            Object {
+              "label": "Arizona",
+              "value": "Arizona",
+            },
+            Object {
+              "label": "Arkansas",
+              "value": "Arkansas",
+            },
+            Object {
+              "label": "California",
+              "value": "California",
+            },
+            Object {
+              "label": "Colorado",
+              "value": "Colorado",
+            },
+            Object {
+              "label": "Connecticut",
+              "value": "Connecticut",
+            },
+            Object {
+              "label": "Delaware",
+              "value": "Delaware",
+            },
+            Object {
+              "label": "Florida",
+              "value": "Florida",
+            },
+            Object {
+              "label": "Georgia",
+              "value": "Georgia",
+            },
+            Object {
+              "label": "Hawaii",
+              "value": "Hawaii",
+            },
+            Object {
+              "label": "Idaho",
+              "value": "Idaho",
+            },
+            Object {
+              "label": "Illinois",
+              "value": "Illinois",
+            },
+            Object {
+              "label": "Indiana",
+              "value": "Indiana",
+            },
+            Object {
+              "label": "Iowa",
+              "value": "Iowa",
+            },
+            Object {
+              "label": "Kansas",
+              "value": "Kansas",
+            },
+            Object {
+              "label": "Kentucky",
+              "value": "Kentucky",
+            },
+            Object {
+              "label": "Louisiana",
+              "value": "Louisiana",
+            },
+            Object {
+              "label": "Maine",
+              "value": "Maine",
+            },
+            Object {
+              "label": "Maryland",
+              "value": "Maryland",
+            },
+            Object {
+              "label": "Massachusetts",
+              "value": "Massachusetts",
+            },
+            Object {
+              "label": "Michigan",
+              "value": "Michigan",
+            },
+            Object {
+              "label": "Minnesota",
+              "value": "Minnesota",
+            },
+            Object {
+              "label": "Mississippi",
+              "value": "Mississippi",
+            },
+            Object {
+              "label": "Missouri",
+              "value": "Missouri",
+            },
+            Object {
+              "label": "Montana",
+              "value": "Montana",
+            },
+            Object {
+              "label": "Nebraska",
+              "value": "Nebraska",
+            },
+            Object {
+              "label": "Nevada",
+              "value": "Nevada",
+            },
+            Object {
+              "label": "New Hampshire",
+              "value": "New Hampshire",
+            },
+            Object {
+              "label": "New Jersey",
+              "value": "New Jersey",
+            },
+            Object {
+              "label": "New Mexico",
+              "value": "New Mexico",
+            },
+            Object {
+              "label": "North Carolina",
+              "value": "North Carolina",
+            },
+            Object {
+              "label": "North Dakota",
+              "value": "North Dakota",
+            },
+            Object {
+              "label": "Ohio",
+              "value": "Ohio",
+            },
+            Object {
+              "label": "Oklahoma",
+              "value": "Oklahoma",
+            },
+            Object {
+              "label": "Oregon",
+              "value": "Oregon",
+            },
+            Object {
+              "label": "Pennsylvania",
+              "value": "Pennsylvania",
+            },
+            Object {
+              "label": "Rhode Island",
+              "value": "Rhode Island",
+            },
+            Object {
+              "label": "South Carolina",
+              "value": "South Carolina",
+            },
+            Object {
+              "label": "South Dakota",
+              "value": "South Dakota",
+            },
+            Object {
+              "label": "Tennessee",
+              "value": "Tennessee",
+            },
+            Object {
+              "label": "Texas",
+              "value": "Texas",
+            },
+            Object {
+              "label": "Utah",
+              "value": "Utah",
+            },
+            Object {
+              "label": "Vermont",
+              "value": "Vermont",
+            },
+            Object {
+              "label": "Virginia",
+              "value": "Virginia",
+            },
+            Object {
+              "label": "Washington",
+              "value": "Washington",
+            },
+            Object {
+              "label": "West Virginia",
+              "value": "West Virginia",
+            },
+            Object {
+              "label": "Wisconsin",
+              "value": "Wisconsin",
+            },
+            Object {
+              "label": "Wyoming",
+              "value": "Wyoming",
+            },
+          ]
+        }
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.stateRegistered",
+          }
+        }
+        name="stateRegistred"
+        placeholder={
+          Object {
+            "id": "addNewCamper.camperDetails.form.selectStateRegistered",
+          }
+        }
+        showSearch={true}
+      />
+    </div>
+  </Col>
+</Row>
+`;

@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useNearbyDestinations hook checks \`handleResize\` method for desktop 1`] = `
+Object {
+  "loop": false,
+  "loopFillGroupWithBlank": true,
+  "pagination": Object {
+    "type": "fraction",
+  },
+  "slidesPerGroup": 4,
+  "slidesPerView": 4,
+  "spaceBetween": 24,
+  "watchOverflow": true,
+}
+`;
+
+exports[`useNearbyDestinations hook checks \`handleResize\` method for mobile 1`] = `
+Object {
+  "freeMode": true,
+  "freeModeSticky": true,
+  "loop": true,
+  "pagination": Object {
+    "type": "fraction",
+  },
+  "slidesPerView": "auto",
+  "watchOverflow": true,
+}
+`;
+
+exports[`useNearbyDestinations hook matches snapshot 1`] = `
+Object {
+  "constructDestinationLink": [Function],
+  "constructDestinationName": [Function],
+  "destinations": Array [
+    Object {
+      "id": "32fb2587-2dfb-40b9-9c81-584822b0ac7f",
+      "landingName": "New York",
+      "landingSlug": "new-york",
+      "landingType": "state_landing",
+      "latitude": 40.73061,
+      "longitude": -73.935242,
+      "mainPhotoUrl": "https://vancation-api-staging-assets.s3.us-west-1.amazonaws.com/store/statelanding/32fb2587-2dfb-40b9-9c81-584822b0ac7f/main_photo/61fd9bccd8fb04fe0dfb15688f474e6b.jpg",
+      "mainPhotoUrl360": "https://vancation-api-staging-assets.s3.us-west-1.amazonaws.com/store/statelanding/32fb2587-2dfb-40b9-9c81-584822b0ac7f/main_photo/61fd9bccd8fb04fe0dfb15688f474e6b.jpg",
+      "searchRadius": 4,
+      "stateName": "Ohio",
+      "stateSlug": "ohio",
+    },
+  ],
+  "fetchDestinations": [Function],
+  "handleResize": [Function],
+  "isDestinationsLoading": false,
+  "isMobileOptions": undefined,
+  "moveLeft": [Function],
+  "moveRight": [Function],
+  "searchParams": Object {
+    "dateRange": null,
+    "location": Object {
+      "id": 1,
+      "latitude": 1,
+      "longitude": 2,
+    },
+    "locationIntent": Object {
+      "id": 1,
+      "latitude": 1,
+      "longitude": 2,
+    },
+  },
+  "showPagination": false,
+  "swiperLayoutKey": "uuid/v4",
+  "swiperOptions": Object {
+    "loop": false,
+    "loopFillGroupWithBlank": true,
+    "pagination": Object {
+      "type": "fraction",
+    },
+    "slidesPerGroup": 4,
+    "slidesPerView": 4,
+    "spaceBetween": 24,
+    "watchOverflow": true,
+  },
+  "swiperRef": Object {
+    "current": Object {
+      "swiper": Object {
+        "slideNext": [MockFunction],
+        "slidePrev": [MockFunction],
+        "update": [MockFunction],
+      },
+    },
+  },
+}
+`;

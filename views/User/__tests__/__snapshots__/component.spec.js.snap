@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User component matches snapshot when canEdit is true 1`] = `
+<div
+  className="main-page"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="mb-16"
+    >
+      <Link
+        href="/users"
+      >
+        <a
+          className="link-btn mb-16"
+        >
+          <i
+            className="icon icon-arrow-left mr-4"
+          />
+          <Memo(FormattedMessage)
+            id="users.listOfUsers"
+          />
+        </a>
+      </Link>
+      <div
+        className="d-flex justify-content-space-between align-items-center"
+      >
+        <div
+          className="d-flex align-items-center"
+        >
+          <h1
+            className="text-headline mb-0 mr-12"
+          >
+            Johnie Doe
+          </h1>
+          <UserStatusBadge
+            user={
+              Object {
+                "active": false,
+                "firstName": "Johnie",
+                "id": "1",
+                "lastName": "Doe",
+                "roleName": "user",
+              }
+            }
+          />
+        </div>
+        <Link
+          as="/users/1/edit"
+          href="/users/[userId]/edit"
+        >
+          <Button
+            disabled={false}
+            icon="edit"
+            size="medium"
+            text={
+              Object {
+                "id": "shared.edit",
+              }
+            }
+          />
+        </Link>
+      </div>
+      <p
+        className="in-blue-600 mb-0"
+      >
+        <Memo(FormattedMessage)
+          id="users.roles.user"
+        />
+      </p>
+    </div>
+    <div
+      className="main-card"
+    >
+      <div
+        className="main-card__container"
+      >
+        <UserGeneral
+          editLink={
+            <UserEditLink
+              path=""
+              userId="1"
+            />
+          }
+          user={
+            Object {
+              "active": false,
+              "firstName": "Johnie",
+              "id": "1",
+              "lastName": "Doe",
+              "roleName": "user",
+            }
+          }
+        />
+        <UserLocation
+          editLink={
+            <UserEditLink
+              path=""
+              userId="1"
+            />
+          }
+          user={
+            Object {
+              "active": false,
+              "firstName": "Johnie",
+              "id": "1",
+              "lastName": "Doe",
+              "roleName": "user",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`User component matches snapshot when isSessionUser is true 1`] = `
+<div
+  className="main-page"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="mb-16"
+    >
+      <Link
+        href="/users"
+      >
+        <a
+          className="link-btn mb-16"
+        >
+          <i
+            className="icon icon-arrow-left mr-4"
+          />
+          <Memo(FormattedMessage)
+            id="users.listOfUsers"
+          />
+        </a>
+      </Link>
+      <div
+        className="d-flex justify-content-space-between align-items-center"
+      >
+        <div
+          className="d-flex align-items-center"
+        >
+          <h1
+            className="text-headline mb-0 mr-12"
+          >
+            Johnie Doe
+          </h1>
+          <span
+            className="in-gray-700 font-20 font-700 mr-16"
+          >
+            <Memo(FormattedMessage)
+              id="user.you"
+            />
+          </span>
+          <UserStatusBadge
+            user={
+              Object {
+                "active": false,
+                "firstName": "Johnie",
+                "id": "1",
+                "lastName": "Doe",
+                "roleName": "user",
+              }
+            }
+          />
+        </div>
+        <Link
+          as="/users/1/edit"
+          href="/users/[userId]/edit"
+        >
+          <Button
+            disabled={true}
+            icon="edit"
+            size="medium"
+            text={
+              Object {
+                "id": "shared.edit",
+              }
+            }
+          />
+        </Link>
+      </div>
+      <p
+        className="in-blue-600 mb-0"
+      >
+        <Memo(FormattedMessage)
+          id="users.roles.user"
+        />
+      </p>
+    </div>
+    <div
+      className="main-card"
+    >
+      <div
+        className="main-card__container"
+      >
+        <UserGeneral
+          editLink={false}
+          user={
+            Object {
+              "active": false,
+              "firstName": "Johnie",
+              "id": "1",
+              "lastName": "Doe",
+              "roleName": "user",
+            }
+          }
+        />
+        <UserLocation
+          editLink={false}
+          user={
+            Object {
+              "active": false,
+              "firstName": "Johnie",
+              "id": "1",
+              "lastName": "Doe",
+              "roleName": "user",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`User component matches snapshot with default props 1`] = `
+<div
+  className="main-page"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="mb-16"
+    >
+      <Link
+        href="/users"
+      >
+        <a
+          className="link-btn mb-16"
+        >
+          <i
+            className="icon icon-arrow-left mr-4"
+          />
+          <Memo(FormattedMessage)
+            id="users.listOfUsers"
+          />
+        </a>
+      </Link>
+      <div
+        className="d-flex justify-content-space-between align-items-center"
+      >
+        <div
+          className="d-flex align-items-center"
+        >
+          <h1
+            className="text-headline mb-0 mr-12"
+          >
+            Johnie Doe
+          </h1>
+          <UserStatusBadge
+            user={
+              Object {
+                "active": false,
+                "firstName": "Johnie",
+                "id": "1",
+                "lastName": "Doe",
+                "roleName": "user",
+              }
+            }
+          />
+        </div>
+        <Link
+          as="/users/1/edit"
+          href="/users/[userId]/edit"
+        >
+          <Button
+            disabled={true}
+            icon="edit"
+            size="medium"
+            text={
+              Object {
+                "id": "shared.edit",
+              }
+            }
+          />
+        </Link>
+      </div>
+      <p
+        className="in-blue-600 mb-0"
+      >
+        <Memo(FormattedMessage)
+          id="users.roles.user"
+        />
+      </p>
+    </div>
+    <div
+      className="main-card"
+    >
+      <div
+        className="main-card__container"
+      >
+        <UserGeneral
+          editLink={false}
+          user={
+            Object {
+              "active": false,
+              "firstName": "Johnie",
+              "id": "1",
+              "lastName": "Doe",
+              "roleName": "user",
+            }
+          }
+        />
+        <UserLocation
+          editLink={false}
+          user={
+            Object {
+              "active": false,
+              "firstName": "Johnie",
+              "id": "1",
+              "lastName": "Doe",
+              "roleName": "user",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

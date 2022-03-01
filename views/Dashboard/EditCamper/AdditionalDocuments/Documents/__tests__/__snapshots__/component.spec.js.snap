@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Documents component tests matches snapshot 1`] = `
+<Upload
+  accept=".pdf, .doc, .docx"
+  action=""
+  className="edit-listing-doc-upload"
+  data={Object {}}
+  disabled={false}
+  fileList={Array []}
+  listType="text"
+  multiple={true}
+  onChange={[MockFunction]}
+  onRemove={[MockFunction]}
+  showUploadList={
+    Object {
+      "removeIcon": <i
+        className="icon icon-cross"
+      />,
+      "showRemoveIcon": true,
+    }
+  }
+  supportServerRender={true}
+  type="select"
+>
+  <Button
+    className="mt-8"
+    disabled={false}
+    type="secondary"
+  >
+    <Memo(FormattedMessage)
+      id="dashboard.editCamper.documents.upload.btn"
+    />
+  </Button>
+</Upload>
+`;

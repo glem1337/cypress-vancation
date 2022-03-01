@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`camperPhotos constants matches snapshot 1`] = `
+Object {
+  "LIGHTBOX_OPTIONS": Object {
+    "buttons": Object {
+      "showAutoplayButton": false,
+      "showDownloadButton": false,
+      "showFullscreenButton": false,
+      "showNextButton": false,
+      "showPrevButton": false,
+      "showThumbnailsButton": false,
+    },
+    "caption": Object {
+      "showCaption": false,
+    },
+    "settings": Object {
+      "disableKeyboardControls": true,
+      "disablePanzoom": true,
+      "disableWheelControls": true,
+      "lightboxTransitionSpeed": 0,
+      "slideTransitionSpeed": 0,
+    },
+    "thumbnails": Object {
+      "showThumbnails": false,
+    },
+  },
+}
+`;

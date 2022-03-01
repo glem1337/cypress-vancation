@@ -1,0 +1,79 @@
+.main-account-wrap {
+  position: relative;
+  min-height: calc(100vh - @main-header-height - 1px);
+  padding-top: 16px;
+  background-color: @gray100;
+  overflow-x: hidden;
+
+  @media (min-width: @screen-md) {
+    padding-top: 24px;
+  }
+}
+
+.main-account-business {
+  height: calc(100vh - @footer-with-btn-height - @main-account-header-listing-height);
+  overflow-y: scroll;
+  background-color: @gray100;
+}
+
+.main-account__inner {
+  margin-top: 24px;
+
+  @media (min-width: @screen-lg) {
+    margin-top: 0;
+    margin-left: 80px;
+  }
+}
+
+.main-account__inner-with-footer {
+  margin-bottom: calc(@footer-with-btn-height + 40px);
+}
+
+.main-account-card {
+  margin-bottom: 16px;
+  padding: 24px;
+  border-radius: @main-border-radius;
+  background-color: white;
+  box-shadow: @shadow2;
+
+  @media (min-width: @screen-md) {
+    padding: 36px;
+  }
+}
+
+.main-account__profile-img {
+  .flex-center();
+  width: @main-avatar-size-lg;
+  height: @main-avatar-size-lg;
+  margin-right: auto;
+  margin-bottom: 16px;
+  margin-left: auto;
+  text-align: center;
+
+  @media (min-width: @screen-md) {
+    flex-shrink: 0;
+    margin-right: 36px;
+    margin-bottom: 0;
+  }
+}
+
+.main-account__day-input {
+  width: 60px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.main-account__signature-wrap {
+  overflow: hidden;
+  width: 100%;
+  height: 164px;
+  margin-bottom: 24px;
+
+  border-radius: @main-border-radius;
+  box-shadow: @shadow6;
+
+  @media (min-width: @screen-md) {
+    width: 320px;
+    height: 176px;
+  }
+}

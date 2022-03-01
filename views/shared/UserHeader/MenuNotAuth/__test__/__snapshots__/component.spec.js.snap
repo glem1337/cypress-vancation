@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserHeaderMenuMobileComponent matches snapshot 1`] = `
+<aside
+  className="main-account-menu false"
+>
+  <div
+    className="main-account-header"
+  >
+    <button
+      className="main-account-header-burger"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <i
+        className="icon icon-cross"
+      />
+    </button>
+    <Logo
+      bigLogoClassName="d-xxs-block"
+      isLink={true}
+      isWhite={false}
+      smallLogoClassName="d-none"
+    />
+  </div>
+  <div
+    className="main-account-menu__item mt-8"
+  >
+    <Link
+      href="/sign_up"
+    >
+      <a
+        className="main-account-menu__item-txt"
+        href="#"
+      >
+        <Memo(FormattedMessage)
+          id="shared.signUp"
+        />
+      </a>
+    </Link>
+  </div>
+  <div
+    className="main-account-menu__item"
+  >
+    <Link
+      href="/log_in"
+    >
+      <a
+        className="main-account-menu__item-txt"
+        href="#"
+      >
+        <Memo(FormattedMessage)
+          id="shared.logIn"
+        />
+      </a>
+    </Link>
+  </div>
+  <div
+    className="main-account-menu__item"
+  >
+    <Link
+      href="/add-new-camper/id/specifications"
+    >
+      <a
+        className="main-account-menu__item-txt in-blue-1000"
+      >
+        <Memo(FormattedMessage)
+          id="shared.listYourCamper"
+        />
+      </a>
+    </Link>
+  </div>
+  <Divider
+    className="mb-8"
+  />
+  <div
+    className="main-account-menu__item"
+  >
+    <span
+      className="main-account-menu__item-txt"
+    >
+      <Memo(FormattedMessage)
+        id="headerHeader.destinations"
+      />
+    </span>
+    <i
+      className="icon icon-right in-black font-16 ml-auto ml-md-0"
+    />
+  </div>
+  <div
+    className="main-account-menu__item"
+  >
+    <span
+      className="main-account-menu__item-txt"
+    >
+      <Memo(FormattedMessage)
+        id="userHeader.helpCenter"
+      />
+    </span>
+    <i
+      className="icon icon-right in-black font-16 ml-auto ml-md-0"
+    />
+  </div>
+</aside>
+`;
+
+exports[`UserHeaderMenuMobileComponent matches snapshot when currentUser === null 1`] = `""`;
+
+exports[`UserHeaderMenuMobileComponent matches snapshot when visible === true 1`] = `
+<aside
+  className="main-account-menu main-account-menu--open"
+>
+  <div
+    className="main-account-header"
+  >
+    <button
+      className="main-account-header-burger"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <i
+        className="icon icon-cross"
+      />
+    </button>
+    <Logo
+      bigLogoClassName="d-xxs-block"
+      isLink={true}
+      isWhite={false}
+      smallLogoClassName="d-none"
+    />
+  </div>
+  <div
+    className="main-account-menu__item mt-8"
+  >
+    <Link
+      href="/sign_up"
+    >
+      <a
+        className="main-account-menu__item-txt"
+        href="#"
+      >
+        <Memo(FormattedMessage)
+          id="shared.signUp"
+        />
+      </a>
+    </Link>
+  </div>
+  <div
+    className="main-account-menu__item"
+  >
+    <Link
+      href="/log_in"
+    >
+      <a
+        className="main-account-menu__item-txt"
+        href="#"
+      >
+        <Memo(FormattedMessage)
+          id="shared.logIn"
+        />
+      </a>
+    </Link>
+  </div>
+  <div
+    className="main-account-menu__item"
+  >
+    <Link
+      href="/add-new-camper/id/specifications"
+    >
+      <a
+        className="main-account-menu__item-txt in-blue-1000"
+      >
+        <Memo(FormattedMessage)
+          id="shared.listYourCamper"
+        />
+      </a>
+    </Link>
+  </div>
+  <Divider
+    className="mb-8"
+  />
+  <div
+    className="main-account-menu__item"
+  >
+    <span
+      className="main-account-menu__item-txt"
+    >
+      <Memo(FormattedMessage)
+        id="headerHeader.destinations"
+      />
+    </span>
+    <i
+      className="icon icon-right in-black font-16 ml-auto ml-md-0"
+    />
+  </div>
+  <div
+    className="main-account-menu__item"
+  >
+    <span
+      className="main-account-menu__item-txt"
+    >
+      <Memo(FormattedMessage)
+        id="userHeader.helpCenter"
+      />
+    </span>
+    <i
+      className="icon icon-right in-black font-16 ml-auto ml-md-0"
+    />
+  </div>
+</aside>
+`;

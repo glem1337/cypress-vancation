@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item component tests matches snapshot 1`] = `
+<li>
+  <div
+    className="d-flex align-items-center"
+    onClick={[MockFunction]}
+    role="button"
+  >
+    <div
+      className="main-dropdown__item-pic-listing"
+      style={
+        Object {
+          "backgroundImage": "url(\\"test.jpg\\")",
+        }
+      }
+    />
+    <span
+      className="text-clamp"
+    >
+      <FormattedOrRawMessage
+        message="test.label"
+      />
+    </span>
+    <div
+      className="master-view__menu-arrow"
+    >
+      <i
+        className="icon icon-down"
+      />
+    </div>
+  </div>
+</li>
+`;

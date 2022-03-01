@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalendarAvailability component tests matches snapshot 1`] = `
+<div
+  id="details-availability"
+>
+  <p
+    className="text-headline mb-24"
+  >
+    <Memo(FormattedMessage)
+      id="shared.availability"
+    />
+  </p>
+  <div
+    className="campervan-availability__calendar-wrapper campervan-availability__calendar-wrapper--loading"
+    id="campervan-availability__calendar-wrapper"
+  >
+    <Calendar
+      calendarType="US"
+      formatShortWeekday={[MockFunction]}
+      maxDate={+275760-09-13T00:00:00.000Z}
+      maxDetail="month"
+      minDate={0001-01-01T00:00:00.000Z}
+      minDetail="century"
+      onActiveStartDateChange={[MockFunction]}
+      onChange={[MockFunction]}
+      returnValue="start"
+      selectRange={true}
+      showDoubleView={true}
+      showNavigation={true}
+      showNeighboringMonth={true}
+      tileContent={[MockFunction]}
+      tileDisabled={[MockFunction]}
+      value={null}
+    />
+    <div
+      className="campervan-availability__calendar-loader-wrapper"
+    >
+      <Spin
+        className="search-page__spin"
+        indicator={
+          <ForwardRef(LoadingOutlined)
+            spin={true}
+            style={
+              Object {
+                "fontSize": 88,
+              }
+            }
+          />
+        }
+        size="default"
+        spinning={true}
+        wrapperClassName=""
+      />
+    </div>
+  </div>
+</div>
+`;

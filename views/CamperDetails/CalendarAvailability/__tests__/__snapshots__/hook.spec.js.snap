@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalendarAvailability useContainer hook matches snapshot 1`] = `
+Object {
+  "containerRef": Object {
+    "observe": [MockFunction],
+    "unobserve": [MockFunction],
+  },
+  "handleIntersect": [Function],
+  "searchParams": Object {
+    "dateRange": null,
+  },
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Options component tests matches snapshot 1`] = `
+<Fragment
+  key="some id"
+>
+  <Col
+    span={24}
+  >
+    <div
+      className="d-flex align-items-center mb-20 van-details__unavailable-item"
+    >
+      <img
+        alt=""
+        className="mr-12"
+        src="/path/to/some/icon"
+      />
+      <p
+        className="in-black font-600"
+      >
+        some title
+      </p>
+      <TooltipIcon
+        iconClass="icon-info-f font-24"
+        phrase="some tooltip"
+      />
+    </div>
+  </Col>
+  <Col
+    span={24}
+  >
+    <Row
+      className="pl-md-32"
+      gutter={24}
+    >
+      <SubAmenities
+        customAmenities={Array []}
+        items={
+          Array [
+            Object {
+              "id": "2",
+            },
+          ]
+        }
+      />
+    </Row>
+  </Col>
+</Fragment>
+`;

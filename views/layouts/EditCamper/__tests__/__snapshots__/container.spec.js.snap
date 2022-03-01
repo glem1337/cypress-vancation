@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditCamper container tests checks \`checkSidebarItemActivity\` instance method for 'ADDITIONAL_DOCUMENTS' key with '/dashboard/edit-camper/details' asPath prop 1`] = `false`;
+
+exports[`EditCamper container tests checks \`checkSidebarItemActivity\` instance method for 'ADDONS' key with '/dashboard/edit-camper/details' asPath prop 1`] = `false`;
+
+exports[`EditCamper container tests checks \`checkSidebarItemActivity\` instance method for 'AMENITIES' key with '/dashboard/edit-camper/details' asPath prop 1`] = `false`;
+
+exports[`EditCamper container tests checks \`checkSidebarItemActivity\` instance method for 'DELIVERY' key with '/dashboard/edit-camper/details' asPath prop 1`] = `false`;
+
+exports[`EditCamper container tests checks \`checkSidebarItemActivity\` instance method for 'DETAILS' key with '/dashboard/edit-camper/details' asPath prop 1`] = `true`;
+
+exports[`EditCamper container tests checks \`checkSidebarItemActivity\` instance method for 'INSURANCE' key with '/dashboard/edit-camper/details' asPath prop 1`] = `false`;
+
+exports[`EditCamper container tests checks \`checkSidebarItemActivity\` instance method for 'PHOTOS' key with '/dashboard/edit-camper/details' asPath prop 1`] = `false`;
+
+exports[`EditCamper container tests checks \`checkSidebarItemActivity\` instance method for 'POLICIES' key with '/dashboard/edit-camper/details' asPath prop 1`] = `false`;
+
+exports[`EditCamper container tests checks \`checkSidebarItemActivity\` instance method for 'PRICING_AND_AVAILABILITY' key with '/dashboard/edit-camper/details' asPath prop 1`] = `false`;
+
+exports[`EditCamper container tests checks \`checkSidebarItemActivity\` instance method for 'RULES_AND_TRAVELS' key with '/dashboard/edit-camper/details' asPath prop 1`] = `false`;
+
+exports[`EditCamper container tests checks \`checkSidebarItemActivity\` instance method for 'SPECIFICATIONS' key with '/dashboard/edit-camper/details' asPath prop 1`] = `false`;
+
+exports[`EditCamper container tests checks \`checkSidebarItemActivity\` instance method for 'TRIP_FEES' key with '/dashboard/edit-camper/details' asPath prop 1`] = `false`;
+
+exports[`EditCamper container tests checks \`sidebarItems\` instance getter 1`] = `
+Object {
+  "additional-documents": Object {
+    "active": false,
+    "name": Object {
+      "id": "dashboard.editCamper.sidebar.additionalDocuments.title",
+    },
+    "route": "/dashboard/edit-camper/additional-documents?camper=camper%20id",
+    "slug": "additional-documents",
+  },
+  "addons": Object {
+    "active": false,
+    "name": Object {
+      "id": "shared.addons",
+    },
+    "route": "/dashboard/edit-camper/addons?camper=camper%20id",
+    "slug": "addons",
+  },
+  "amenities": Object {
+    "active": false,
+    "name": Object {
+      "id": "shared.amenities",
+    },
+    "route": "/dashboard/edit-camper/amenities?camper=camper%20id",
+    "slug": "amenities",
+  },
+  "delivery": Object {
+    "active": false,
+    "name": Object {
+      "id": "dashboard.editCamper.sidebar.delivery.title",
+    },
+    "route": "/dashboard/edit-camper/delivery?camper=camper%20id",
+    "slug": "delivery",
+  },
+  "details": Object {
+    "active": true,
+    "name": Object {
+      "id": "dashboard.editCamper.sidebar.details.title",
+    },
+    "route": "/dashboard/edit-camper/details?camper=camper%20id",
+    "slug": "details",
+  },
+  "fees": Object {
+    "active": false,
+    "name": Object {
+      "id": "dashboard.editCamper.sidebar.tripFees.title",
+    },
+    "route": "/dashboard/edit-camper/fees?camper=camper%20id",
+    "slug": "fees",
+  },
+  "insurance": Object {
+    "active": false,
+    "name": Object {
+      "id": "dashboard.editCamper.sidebar.insurance.title",
+    },
+    "route": "/dashboard/edit-camper/insurance?camper=camper%20id",
+    "slug": "insurance",
+  },
+  "photos": Object {
+    "active": false,
+    "name": Object {
+      "id": "dashboard.editCamper.sidebar.photos.title",
+    },
+    "route": "/dashboard/edit-camper/photos?camper=camper%20id",
+    "slug": "photos",
+  },
+  "policies": Object {
+    "active": false,
+    "name": Object {
+      "id": "dashboard.editCamper.sidebar.policies.title",
+    },
+    "route": "/dashboard/edit-camper/policies?camper=camper%20id",
+    "slug": "policies",
+  },
+  "pricing-and-availability": Object {
+    "active": false,
+    "name": Object {
+      "id": "dashboard.editCamper.sidebar.priceAndAvailability.title",
+    },
+    "route": "/dashboard/edit-camper/pricing-and-availability?camper=camper%20id",
+    "slug": "details",
+  },
+  "rules-and-travels": Object {
+    "active": false,
+    "name": Object {
+      "id": "dashboard.editCamper.sidebar.rulesAndTravels.title",
+    },
+    "route": "/dashboard/edit-camper/rules-and-travels?camper=camper%20id",
+    "slug": "rules-and-travels",
+  },
+  "specifications": Object {
+    "active": false,
+    "name": Object {
+      "id": "dashboard.editCamper.sidebar.specifications.title",
+    },
+    "route": "/dashboard/edit-camper/specifications?camper=camper%20id",
+    "slug": "specifications",
+  },
+}
+`;
+
+exports[`EditCamper container tests matches snapshot 1`] = `
+<EditCamperLayout
+  activeItemSlug="details"
+  camperId="camperId"
+  canSave={true}
+  hasFooter={false}
+  isLoading={false}
+  leavePageMethod={[MockFunction]}
+  onSave={[MockFunction]}
+  onSidebarItemClick={[Function]}
+  onSidebarMobileChange={[Function]}
+  router={
+    Object {
+      "asPath": "/dashboard/edit-camper/details",
+      "pathname": "some pathname",
+      "query": Object {
+        "camper": "camper id",
+      },
+    }
+  }
+  showGradientButton={true}
+  sidebarItems={
+    Array [
+      Object {
+        "active": false,
+        "name": Object {
+          "id": "dashboard.editCamper.sidebar.priceAndAvailability.title",
+        },
+        "route": "/dashboard/edit-camper/pricing-and-availability?camper=camper%20id",
+        "slug": "details",
+      },
+      Object {
+        "active": true,
+        "name": Object {
+          "id": "dashboard.editCamper.sidebar.details.title",
+        },
+        "route": "/dashboard/edit-camper/details?camper=camper%20id",
+        "slug": "details",
+      },
+      Object {
+        "active": false,
+        "name": Object {
+          "id": "dashboard.editCamper.sidebar.photos.title",
+        },
+        "route": "/dashboard/edit-camper/photos?camper=camper%20id",
+        "slug": "photos",
+      },
+      Object {
+        "active": false,
+        "name": Object {
+          "id": "shared.amenities",
+        },
+        "route": "/dashboard/edit-camper/amenities?camper=camper%20id",
+        "slug": "amenities",
+      },
+      Object {
+        "active": false,
+        "name": Object {
+          "id": "dashboard.editCamper.sidebar.specifications.title",
+        },
+        "route": "/dashboard/edit-camper/specifications?camper=camper%20id",
+        "slug": "specifications",
+      },
+      Object {
+        "active": false,
+        "name": Object {
+          "id": "shared.addons",
+        },
+        "route": "/dashboard/edit-camper/addons?camper=camper%20id",
+        "slug": "addons",
+      },
+      Object {
+        "active": false,
+        "name": Object {
+          "id": "dashboard.editCamper.sidebar.insurance.title",
+        },
+        "route": "/dashboard/edit-camper/insurance?camper=camper%20id",
+        "slug": "insurance",
+      },
+      Object {
+        "active": false,
+        "name": Object {
+          "id": "dashboard.editCamper.sidebar.tripFees.title",
+        },
+        "route": "/dashboard/edit-camper/fees?camper=camper%20id",
+        "slug": "fees",
+      },
+      Object {
+        "active": false,
+        "name": Object {
+          "id": "dashboard.editCamper.sidebar.delivery.title",
+        },
+        "route": "/dashboard/edit-camper/delivery?camper=camper%20id",
+        "slug": "delivery",
+      },
+      Object {
+        "active": false,
+        "name": Object {
+          "id": "dashboard.editCamper.sidebar.rulesAndTravels.title",
+        },
+        "route": "/dashboard/edit-camper/rules-and-travels?camper=camper%20id",
+        "slug": "rules-and-travels",
+      },
+      Object {
+        "active": false,
+        "name": Object {
+          "id": "dashboard.editCamper.sidebar.policies.title",
+        },
+        "route": "/dashboard/edit-camper/policies?camper=camper%20id",
+        "slug": "policies",
+      },
+      Object {
+        "active": false,
+        "name": Object {
+          "id": "dashboard.editCamper.sidebar.additionalDocuments.title",
+        },
+        "route": "/dashboard/edit-camper/additional-documents?camper=camper%20id",
+        "slug": "additional-documents",
+      },
+    ]
+  }
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <div />
+</EditCamperLayout>
+`;

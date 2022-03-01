@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropdownItem component matches snapshot when disabled is true 1`] = `
+<button
+  className="main-dropdown__item"
+  disabled={true}
+  onClick={[MockFunction]}
+  type="button"
+>
+  <span>
+    <Memo(FormattedMessage)
+      id="item.text"
+    />
+  </span>
+</button>
+`;
+
+exports[`DropdownItem component matches snapshot when isHidden true 1`] = `""`;
+
+exports[`DropdownItem component matches snapshot with default props 1`] = `
+<button
+  className="main-dropdown__item"
+  disabled={false}
+  onClick={[MockFunction]}
+  type="button"
+>
+  <span>
+    <Memo(FormattedMessage)
+      id="item.text"
+    />
+  </span>
+</button>
+`;
+
+exports[`DropdownItem component matches snapshot with icon 1`] = `
+<button
+  className="main-dropdown__item"
+  disabled={false}
+  onClick={[MockFunction]}
+  type="button"
+>
+  <span>
+    <span
+      className="icon mr-12 in-gray-600 icon-live-preview"
+    />
+    <Memo(FormattedMessage)
+      id="item.text"
+    />
+  </span>
+</button>
+`;
+
+exports[`DropdownItem component matches snapshot with label 1`] = `
+<button
+  className="main-dropdown__item main-dropdown__item--separated"
+  disabled={false}
+  onClick={[MockFunction]}
+  type="button"
+>
+  <span
+    className="main-dropdown__item-container"
+  >
+    <span
+      className="main-dropdown__item-label"
+    >
+      <Memo(FormattedMessage)
+        id="shared.ok"
+      />
+    </span>
+    <span
+      className="main-dropdown__item-wrap"
+    >
+      <Memo(FormattedMessage)
+        id="item.text"
+      />
+    </span>
+  </span>
+</button>
+`;
+
+exports[`DropdownItem component matches snapshot with label and icon 1`] = `
+<button
+  className="main-dropdown__item main-dropdown__item--separated"
+  disabled={false}
+  onClick={[MockFunction]}
+  type="button"
+>
+  <span
+    className="main-dropdown__item-container"
+  >
+    <span
+      className="main-dropdown__item-label"
+    >
+      <Memo(FormattedMessage)
+        id="shared.ok"
+      />
+    </span>
+    <span
+      className="main-dropdown__item-wrap"
+    >
+      <span
+        className="icon mr-12 in-gray-600"
+      />
+      <Memo(FormattedMessage)
+        id="item.text"
+      />
+    </span>
+  </span>
+</button>
+`;

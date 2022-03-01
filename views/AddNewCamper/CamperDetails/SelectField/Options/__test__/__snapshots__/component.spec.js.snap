@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Option snapshot default props 1`] = `
+<Option
+  key="10"
+  label={
+    <FormattedOrRawMessage
+      message="test.label"
+    />
+  }
+  value={10}
+>
+  <FormattedOrRawMessage
+    message="test.label"
+  />
+</Option>
+`;

@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Vehicle component tests matches snapshot 1`] = `
+<Popover
+  content={
+    <div
+      className="search-page__filters-popover--vehicle"
+    >
+      <div
+        className="search-page__filters-popover__main"
+      >
+        <div
+          className="search-page__filters-popover__grid search-page__filters-popover__grid--vehicle"
+        >
+          renderVehiclesWidget
+        </div>
+      </div>
+      <FilterPopoverFooter
+        applyFilters={[MockFunction]}
+        clearFilters={[MockFunction]}
+      />
+    </div>
+  }
+  getPopupContainer={[MockFunction]}
+  mouseEnterDelay={0.1}
+  mouseLeaveDelay={0.1}
+  overlayClassName="ant-popover-filters"
+  overlayStyle={Object {}}
+  placement="bottomLeft"
+  trigger="click"
+  visible={true}
+>
+  <Button
+    className="ant-btn-outline-gray search-page__filters-btn search-page__filters-btn--active"
+    icon={
+      <i
+        className="icon icon-camper mr-8"
+      />
+    }
+  >
+    <Memo(FormattedMessage)
+      id="addNewCamper.camperDetails.form.vehicleType"
+    />
+    <span
+      className="main-account-header__item-counter--blue"
+    >
+      2
+    </span>
+  </Button>
+</Popover>
+`;
+
+exports[`Vehicle component tests matches snapshot without vehicleTypes 1`] = `
+<Popover
+  content={
+    <Skeleton
+      active={true}
+      avatar={false}
+      paragraph={true}
+      title={true}
+    />
+  }
+  getPopupContainer={[MockFunction]}
+  mouseEnterDelay={0.1}
+  mouseLeaveDelay={0.1}
+  overlayClassName="ant-popover-filters"
+  overlayStyle={Object {}}
+  placement="bottomLeft"
+  trigger="click"
+  visible={true}
+>
+  <Button
+    className="ant-btn-outline-gray search-page__filters-btn search-page__filters-btn--active"
+    icon={
+      <i
+        className="icon icon-camper mr-8"
+      />
+    }
+  >
+    <Memo(FormattedMessage)
+      id="addNewCamper.camperDetails.form.vehicleType"
+    />
+    <span
+      className="main-account-header__item-counter--blue"
+    >
+      2
+    </span>
+  </Button>
+</Popover>
+`;

@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyResult component tests matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="d-flex d-md-none d-lg-flex justify-content-space-between mt-16 mt-lg-0 mb-16"
+  >
+    <div
+      className="d-none d-md-block"
+    >
+      <Link
+        href="/campervan-rental/slug"
+      >
+        <a>
+          <span
+            className="font-600 in-black"
+          >
+            state
+          </span>
+        </a>
+      </Link>
+       - location
+    </div>
+    <span
+      className="ml-auto mr-auto mr-lg-0"
+    >
+      <Memo(FormattedMessage)
+        id="campervan-rental.campersFound"
+        values={
+          Object {
+            "count": 0,
+          }
+        }
+      />
+    </span>
+  </div>
+  <div
+    className="search-page__results-empty"
+  >
+    <div
+      className="text-headline mb-16"
+    >
+      <Memo(FormattedMessage)
+        id="campervan-rental.empty.title"
+      />
+    </div>
+    <div>
+      <Memo(FormattedMessage)
+        id="campervan-rental.empty.subTitle"
+        values={
+          Object {
+            "location": "location",
+          }
+        }
+      />
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`EmptyResult component tests matches snapshot when campers exist 1`] = `""`;
+
+exports[`EmptyResult component tests matches snapshot when isAnyFilterApplied equals true 1`] = `
+<Fragment>
+  <div
+    className="search-page__results-info pt-0"
+  >
+    <div
+      className="d-flex d-md-none d-lg-flex justify-content-space-between"
+    >
+      <div
+        className="d-none d-md-block"
+      >
+        <span
+          className="font-600 in-black"
+        >
+          <Memo(FormattedMessage)
+            id="search-destination.campersNear"
+          />
+           location
+          , state
+        </span>
+      </div>
+      <span
+        className="ml-auto mr-auto mr-lg-0"
+      >
+        <Memo(FormattedMessage)
+          id="campervan-rental.campersFound"
+          values={
+            Object {
+              "count": 0,
+            }
+          }
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    className="search-page__results-empty"
+  >
+    <div
+      className="text-headline mb-16"
+    >
+      <Memo(FormattedMessage)
+        id="search-destination.empty.filter.title"
+      />
+    </div>
+    <div>
+      <Memo(FormattedMessage)
+        id="search-destination.empty.filter.description"
+      />
+    </div>
+    <GradientButton
+      className="min-w-140 mt-24"
+      onClick={[MockFunction]}
+      size="large"
+      text={
+        Object {
+          "id": "shared.clearFilters",
+        }
+      }
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`EmptyResult component tests matches snapshot when isSearchResultsPage equals true 1`] = `
+<Fragment>
+  <div
+    className="search-page__results-info pt-0"
+  >
+    <div
+      className="d-flex d-md-none d-lg-flex justify-content-space-between"
+    >
+      <div
+        className="d-none d-md-block"
+      >
+        <span
+          className="font-600 in-black"
+        >
+          <Memo(FormattedMessage)
+            id="search-destination.campersNear"
+          />
+           location
+          , state
+        </span>
+      </div>
+      <span
+        className="ml-auto mr-auto mr-lg-0"
+      >
+        <Memo(FormattedMessage)
+          id="campervan-rental.campersFound"
+          values={
+            Object {
+              "count": 0,
+            }
+          }
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    className="search-page__results-empty"
+  >
+    <div
+      className="text-headline mb-16"
+    >
+      <Memo(FormattedMessage)
+        id="search-destination.empty.title"
+      />
+    </div>
+    <div>
+      <Memo(FormattedMessage)
+        id="search-destination.empty.description"
+      />
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`EmptyResult component tests matches snapshot when location does not exist 1`] = `
+<Fragment>
+  <div
+    className="d-flex d-md-none d-lg-flex justify-content-space-between mt-16 mt-lg-0 mb-16"
+  >
+    <div
+      className="d-none d-md-block"
+    >
+      <Link
+        href="/campervan-rental/slug"
+      >
+        <a>
+          <span
+            className="font-600 in-black"
+          >
+            state
+          </span>
+        </a>
+      </Link>
+    </div>
+    <span
+      className="ml-auto mr-auto mr-lg-0"
+    >
+      <Memo(FormattedMessage)
+        id="campervan-rental.campersFound"
+        values={
+          Object {
+            "count": 0,
+          }
+        }
+      />
+    </span>
+  </div>
+  <div
+    className="search-page__results-empty"
+  >
+    <div
+      className="text-headline mb-16"
+    >
+      <Memo(FormattedMessage)
+        id="campervan-rental.empty.title"
+      />
+    </div>
+    <div>
+      <Memo(FormattedMessage)
+        id="campervan-rental.empty.subTitle"
+        values={
+          Object {
+            "location": "state",
+          }
+        }
+      />
+    </div>
+  </div>
+</Fragment>
+`;

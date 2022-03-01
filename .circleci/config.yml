@@ -1,0 +1,124 @@
+defaults: &defaults
+  working_directory: ~/nextjs-boilerplate
+  docker:
+    - image: circleci/node
+
+caches:
+  - &yarn_cache nextjs-boilerplate-{{ checksum "yarn.lock" }}
+  - &next_cache nextjs-boilerplate-next-{{ checksum "yarn.lock" }}
+
+references:
+  restore_next_cache: &restore_next_cache
+    restore_cache:
+      keys:
+        - *next_cache
+
+  save_next_cache: &save_next_cache
+    save_cache:
+      name: Save nextjs build cache
+      key: *next_cache
+      paths:
+        - .next/cache/
+
+  restore_yarn_cache: &restore_yarn_cache
+    restore_cache:
+      keys:
+        - *yarn_cache
+
+  yarn_install: &yarn_install
+    run:
+        name: Installing packages
+        command: yarn install
+
+  save_yarn_cache: &save_yarn_cache
+    save_cache:
+      name: Save Yarn Package Cache
+      key: *yarn_cache
+      paths:
+        - ~/.cache
+
+  build_frontend_server: &build_frontend_server
+    run:
+      name: Build frontend server
+      command: |
+        rm -rf pages/stubs
+        yarn build
+
+version: 2
+
+jobs:
+  linters:
+    <<: *defaults
+
+    steps:
+      - checkout
+
+      - <<: *restore_yarn_cache
+      - <<: *yarn_install
+      - <<: *save_yarn_cache
+
+      - run:
+          name: Running JS linters
+          command: yarn lint
+      - run:
+          name: Running LESS linters
+          command: yarn lint:less
+
+  tests:
+    <<: *defaults
+
+    steps:
+      - checkout
+
+      - <<: *restore_yarn_cache
+      - <<: *yarn_install
+      - <<: *save_yarn_cache
+
+      - run:
+          name: Running tests
+          command: yarn test:circle
+
+      - store_artifacts:
+          name: Saving Jest coverage
+          path: ~/nextjs-boilerplate/coverage/lcov-report
+          destination: /jest-coverage
+
+  cypress:
+    <<: *defaults
+
+    steps:
+      - checkout
+
+      - run:
+          name: Installing dependencies
+          command: |
+            sudo apt update
+            sudo apt-get install cmake xvfb libgbm-dev libgtk2.0-0 libgtk-3-0 libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2 libxtst6 xauth
+      - <<: *restore_yarn_cache
+      - <<: *yarn_install
+      - <<: *save_yarn_cache
+
+      - <<: *restore_next_cache
+      - <<: *build_frontend_server
+      - <<: *save_next_cache
+
+      - run:
+          name: Starting frontend server
+          command: yarn start
+          background: true
+
+      - run:
+          name: Running cypress tests
+          command: yarn cypress run
+
+      - store_artifacts:
+          name: Saving Cypress screenshots
+          path: ~/nextjs-boilerplate/cypress/screenshots
+          destination: /cypress-screenshots
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - linters
+      - tests

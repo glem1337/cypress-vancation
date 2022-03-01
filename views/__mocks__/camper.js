@@ -1,0 +1,236 @@
+export default {
+  id: 'a18f7338-c2b3-4cee-be4d-579c0a726c1a',
+  name: 'test',
+  description: 'desc',
+  status: 'draft',
+  insurance: 'pending',
+  place: 'Astoria, New York, New York 11102, United States',
+  publicId: '111',
+  estimatedEarning: 1200.0,
+  vehicleTypeIconUrl: 'test.svg',
+  vehicleTypeName: 'Modern Van',
+  placeId: 'neighborhood.290416',
+  longitude: -73.93030000000002,
+  latitude: 40.772,
+  glamper: true,
+  owner: {
+    id: '74a9c587-7b78-4aa5-ba93-ba3d310be127',
+    account: {
+      createdAt: '2021-07-09T13:39:26.587Z',
+      drivingLicenceVerified: false,
+      email: 'kateryna.sessa+owner@rubygarage.org',
+      emailVerified: false,
+      id: '12563773-6e8f-4861-8abd-82a78632c6ac',
+      user: {
+        avatarUrl: null,
+        createdAt: '2021-07-09T13:39:26.590Z',
+        firstName: 'Kat',
+        id: '77015afb-71e3-4b94-a9cb-69a97dc6b358',
+        lastName: 'Kat',
+        updatedAt: '2021-07-09T13:39:26.590Z',
+      },
+    },
+    type: 'owner',
+    avatarUrl: null,
+    averageRating: null,
+    businessTitle: null,
+    campersCount: 25,
+    createdAt: 'Member since July 2021',
+    description: 'description',
+    email: null,
+    idVerified: false,
+  },
+  specificationDetail: {
+    drivetrain: '4x4',
+    fuelType: 'electric',
+    insideHeight: 'low_top',
+    length: '67.89',
+    modelNaming: 'Clair Weimann',
+    name: 'Katelyn Lowe',
+    seats: 1,
+    sleeps: 1,
+    stateRegistred: 'Arkansas',
+    transmission: 'automatice',
+    year: 1585,
+    mileage: 'Under 50,000',
+    whoBuiltCamper: 'Vasya',
+  },
+  pricingInfo: {
+    id: '74a9c587-7b78-4aa5-ba93-ba3d310be127',
+  },
+  camperRule: {
+    id: '74a9c587-7b78-4aa5-ba93-ba3d310be127',
+    bookingApprovalPolicy: 'instant_book',
+    cancellationPolicy: 'easy_going',
+  },
+  deliveryInformation: {
+    id: '74a9c587-7b78-4aa5-ba93-ba3d310be127',
+    pickup: true,
+  },
+  camperPhotos: [{
+    id: '74a9c587-7b78-4aa5-ba93-ba3d310be127',
+    photoUrl1100: 'photoUrl1100',
+  }],
+  insuranceInfo: {
+    id: '74a9c587-7b78-4aa5-ba93-ba3d310be127',
+  },
+  tripFee: {
+    id: '74a9c587-7b78-4aa5-ba93-ba3d310be127',
+    cleaning: 1,
+    dumpingFee: 2,
+    flue: 3,
+    lateDropOff: 4,
+    customFees: [
+      {
+        id: 'id',
+        name: 'name',
+        price: 5,
+        frequency: 'per_day',
+      },
+    ],
+    tripFeeMileage: {
+      limit: true,
+      available: 6,
+      overage: 7,
+    },
+    tripFeeGenerator: {
+      limit: true,
+      available: 8,
+      overage: 9,
+    },
+  },
+  blockedPeriods: [],
+  pricingPeriods: [],
+  externalCalendars: [],
+  camperCalendar: {
+    id: 'e1db81b1-8ad5-4e88-9c99-f5c9020148eb',
+    externalCalendars: [],
+    blockedPeriods: [
+      {
+        id: '56ceb535-322f-42c6-8dcd-a88ad59000f3',
+        startDate: '2021-08-05',
+        endDate: '2021-08-06',
+      },
+      {
+        id: '17a32ec0-a486-4247-910c-6c0c57ba6ec3',
+        startDate: '2021-08-25',
+        endDate: '2021-08-25',
+      },
+      {
+        id: '2c7bbaef-6b00-494f-b005-6a762e90c785',
+        startDate: '2021-07-28',
+        endDate: '2021-07-28',
+      },
+    ],
+    pricingPeriods: [
+      {
+        id: '8aa92a51-ef00-4dc6-8b84-2820869b9278',
+        startDate: '2021-07-28',
+        endDate: '2021-07-28',
+        price: '33.0',
+      },
+      {
+        id: '248ba38e-e18a-467c-996b-36aa4bd73e85',
+        startDate: '2021-07-29',
+        endDate: '2021-07-30',
+        price: '320.0',
+      },
+    ],
+    customDiscountPeriods: [
+      {
+        id: 'ffb3f0cc-4513-4fdc-81d0-03587232d9ee',
+        startDate: '2021-07-27',
+        endDate: '2021-07-28',
+        weeklyDiscountPercent: 15,
+        monthlyDiscountPercent: 23,
+      },
+      {
+        id: 'a070339d-7058-4769-8e16-814084c6bfe3',
+        startDate: '2021-07-28',
+        endDate: '2021-07-28',
+        weeklyDiscountPercent: 15,
+        monthlyDiscountPercent: 23,
+      },
+      {
+        id: 'aba16cba-5873-4273-8172-816b276a2db7',
+        startDate: '2021-07-28',
+        endDate: '2021-07-28',
+        weeklyDiscountPercent: 44,
+        monthlyDiscountPercent: 44,
+      },
+      {
+        id: '586016b9-d351-4ca1-ac8a-373e7e3b8832',
+        startDate: '2021-07-29',
+        endDate: '2021-07-29',
+        weeklyDiscountPercent: 15,
+        monthlyDiscountPercent: 33,
+      },
+    ],
+  },
+  camperAddition: {
+    amenityHealthSafetyItems: [
+      {
+        healthSafety: {
+          id: '74a9c587-7b78-4aa5-ba93-ba3d310be127',
+          iconUrl: 'path/to/icon/url',
+          name: 'name',
+        },
+      },
+    ],
+    restrictionRule: {
+      allowPets: false,
+      smoking: false,
+      festivalApproved: false,
+    },
+    customRestrictionRules: [
+      {
+        id: '74a9c587-7b78-4aa5-ba93-ba3d310be127',
+        active: true,
+        name: 'name',
+      },
+    ],
+    travelRestriction: {
+      mexico: false,
+      canada: true,
+      burningMan: false,
+    },
+    customTravelRestrictions: [
+      {
+        id: '74a9c587-7b78-4aa5-ba93-ba3d310be127',
+        active: true,
+        name: 'name',
+      },
+    ],
+    restrictionRoad: {
+      fourWheelRoad: false,
+      offRoad: false,
+      snowAndIceRoad: false,
+      dirtryRoad: true,
+    },
+    customRestrictionRoads: [
+      {
+        id: '74a9c587-7b78-4aa5-ba93-ba3d310be127',
+        active: true,
+        name: 'name',
+      },
+    ],
+    camperQuestions: [
+      {
+        id: '74a9c587-7b78-4aa5-ba93-ba3d310be127',
+        text: 'test',
+        required: true,
+      },
+    ],
+    customTravelAccessories: [
+      {
+        active: true,
+        description: '',
+        id: 'dd477886-ec22-4da9-ba4c-08627f35fb1a',
+        maxAmount: '2.0',
+        name: 'Bike Rack',
+        price: '1.0',
+        priceUnit: 'each',
+      },
+    ],
+  },
+};

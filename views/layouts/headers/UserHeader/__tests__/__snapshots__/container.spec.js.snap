@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserHeader container renders UserHeader component 1`] = `
+<UserHeaderComponent
+  currentUser={null}
+  isAccountWidgetVisible={false}
+  onAccountWidgetToggle={[Function]}
+  onSidebarToggle={[MockFunction]}
+/>
+`;

@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DestinationsLandingPageComponent component tests matches snapshot for desktop 1`] = `
+<Fragment>
+  <SeoInfo />
+  <Connect(UserHeader)
+    SearchSection={<SearchSection />}
+    currentUser={
+      Object {
+        "createdAt": "2021-07-10T14:47:39.577Z",
+        "email": "test@com.my",
+        "emailVerified": false,
+        "id": "190ddf41-b281-40c0-b48f-7ee98caeacdc",
+        "user": Object {
+          "avatarUrl": null,
+          "createdAt": "2021-07-10T14:47:39.585Z",
+          "firstName": "Test",
+          "id": "653bbbf6-70ff-4adc-8c37-647f7bf447e6",
+          "lastName": "Test",
+          "updatedAt": "2021-07-10T14:47:39.585Z",
+        },
+      }
+    }
+    groupItems={true}
+    headerClassNames="main-account-header"
+  />
+  <Filters />
+  <MobileView />
+  <div
+    className="search-page__wrap"
+    id="search-page__wrap"
+  >
+    <DestinationsLandingPageDesktop
+      areMobileFiltersVisible={true}
+      createRef={[MockFunction]}
+      currentUser={
+        Object {
+          "createdAt": "2021-07-10T14:47:39.577Z",
+          "email": "test@com.my",
+          "emailVerified": false,
+          "id": "190ddf41-b281-40c0-b48f-7ee98caeacdc",
+          "user": Object {
+            "avatarUrl": null,
+            "createdAt": "2021-07-10T14:47:39.585Z",
+            "firstName": "Test",
+            "id": "653bbbf6-70ff-4adc-8c37-647f7bf447e6",
+            "lastName": "Test",
+            "updatedAt": "2021-07-10T14:47:39.585Z",
+          },
+        }
+      }
+      isDesktop={true}
+      isDesktopMapVisible={true}
+      isMobile={false}
+      isSearchResultsPage={false}
+      isTablet={false}
+      isTabletMapVisible={false}
+      onDragEnd={[MockFunction]}
+      onScrollHandler={[MockFunction]}
+      onTouchStart={[MockFunction]}
+      onZoomEnd={[MockFunction]}
+      pageData={
+        Object {
+          "coordinates": Object {
+            "latitude": 40.7306,
+            "longitude": -73.9866,
+            "searchRadius": 5,
+          },
+          "fanFacts": Object {},
+          "id": 12345,
+          "mainInfo": Object {
+            "locationName": "New York",
+            "stateName": "NY",
+            "stateSlug": "new-york",
+          },
+          "nearbyDestinations": Object {
+            "isVisible": false,
+          },
+          "topLocations": Object {},
+        }
+      }
+      shouldShowSkeleton={false}
+      showMobileMap={[MockFunction]}
+      toggleDesktopMapVisibility={[MockFunction]}
+      toggleMobileFilter={[MockFunction]}
+      toggleTabletMap={[MockFunction]}
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`DestinationsLandingPageComponent component tests matches snapshot for mobile 1`] = `
+<Fragment>
+  <SeoInfo />
+  <Connect(UserHeader)
+    SearchSection={<SearchSection />}
+    currentUser={
+      Object {
+        "createdAt": "2021-07-10T14:47:39.577Z",
+        "email": "test@com.my",
+        "emailVerified": false,
+        "id": "190ddf41-b281-40c0-b48f-7ee98caeacdc",
+        "user": Object {
+          "avatarUrl": null,
+          "createdAt": "2021-07-10T14:47:39.585Z",
+          "firstName": "Test",
+          "id": "653bbbf6-70ff-4adc-8c37-647f7bf447e6",
+          "lastName": "Test",
+          "updatedAt": "2021-07-10T14:47:39.585Z",
+        },
+      }
+    }
+    groupItems={true}
+    headerClassNames="main-account-header"
+  />
+  <Filters />
+  <MobileView />
+  <div
+    className="search-page__wrap"
+    id="search-page__wrap"
+  >
+    <DestinationsLandingPageMobile
+      areMobileFiltersVisible={true}
+      createRef={[MockFunction]}
+      currentUser={
+        Object {
+          "createdAt": "2021-07-10T14:47:39.577Z",
+          "email": "test@com.my",
+          "emailVerified": false,
+          "id": "190ddf41-b281-40c0-b48f-7ee98caeacdc",
+          "user": Object {
+            "avatarUrl": null,
+            "createdAt": "2021-07-10T14:47:39.585Z",
+            "firstName": "Test",
+            "id": "653bbbf6-70ff-4adc-8c37-647f7bf447e6",
+            "lastName": "Test",
+            "updatedAt": "2021-07-10T14:47:39.585Z",
+          },
+        }
+      }
+      isDesktop={false}
+      isDesktopMapVisible={true}
+      isMobile={true}
+      isSearchResultsPage={false}
+      isTablet={false}
+      isTabletMapVisible={false}
+      onDragEnd={[MockFunction]}
+      onScrollHandler={[MockFunction]}
+      onTouchStart={[MockFunction]}
+      onZoomEnd={[MockFunction]}
+      pageData={
+        Object {
+          "coordinates": Object {
+            "latitude": 40.7306,
+            "longitude": -73.9866,
+            "searchRadius": 5,
+          },
+          "fanFacts": Object {},
+          "id": 12345,
+          "mainInfo": Object {
+            "locationName": "New York",
+            "stateName": "NY",
+            "stateSlug": "new-york",
+          },
+          "nearbyDestinations": Object {
+            "isVisible": false,
+          },
+          "topLocations": Object {},
+        }
+      }
+      shouldShowSkeleton={false}
+      showMobileMap={[MockFunction]}
+      toggleDesktopMapVisibility={[MockFunction]}
+      toggleMobileFilter={[MockFunction]}
+      toggleTabletMap={[MockFunction]}
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`DestinationsLandingPageComponent component tests matches snapshot for tablet 1`] = `
+<Fragment>
+  <SeoInfo />
+  <Connect(UserHeader)
+    SearchSection={<SearchSection />}
+    currentUser={
+      Object {
+        "createdAt": "2021-07-10T14:47:39.577Z",
+        "email": "test@com.my",
+        "emailVerified": false,
+        "id": "190ddf41-b281-40c0-b48f-7ee98caeacdc",
+        "user": Object {
+          "avatarUrl": null,
+          "createdAt": "2021-07-10T14:47:39.585Z",
+          "firstName": "Test",
+          "id": "653bbbf6-70ff-4adc-8c37-647f7bf447e6",
+          "lastName": "Test",
+          "updatedAt": "2021-07-10T14:47:39.585Z",
+        },
+      }
+    }
+    groupItems={true}
+    headerClassNames="main-account-header"
+  />
+  <Filters />
+  <MobileView />
+  <div
+    className="search-page__wrap"
+    id="search-page__wrap"
+  >
+    <DestinationsLandingPageTablet
+      areMobileFiltersVisible={true}
+      createRef={[MockFunction]}
+      currentUser={
+        Object {
+          "createdAt": "2021-07-10T14:47:39.577Z",
+          "email": "test@com.my",
+          "emailVerified": false,
+          "id": "190ddf41-b281-40c0-b48f-7ee98caeacdc",
+          "user": Object {
+            "avatarUrl": null,
+            "createdAt": "2021-07-10T14:47:39.585Z",
+            "firstName": "Test",
+            "id": "653bbbf6-70ff-4adc-8c37-647f7bf447e6",
+            "lastName": "Test",
+            "updatedAt": "2021-07-10T14:47:39.585Z",
+          },
+        }
+      }
+      isDesktop={false}
+      isDesktopMapVisible={true}
+      isMobile={false}
+      isSearchResultsPage={false}
+      isTablet={true}
+      isTabletMapVisible={false}
+      onDragEnd={[MockFunction]}
+      onScrollHandler={[MockFunction]}
+      onTouchStart={[MockFunction]}
+      onZoomEnd={[MockFunction]}
+      pageData={
+        Object {
+          "coordinates": Object {
+            "latitude": 40.7306,
+            "longitude": -73.9866,
+            "searchRadius": 5,
+          },
+          "fanFacts": Object {},
+          "id": 12345,
+          "mainInfo": Object {
+            "locationName": "New York",
+            "stateName": "NY",
+            "stateSlug": "new-york",
+          },
+          "nearbyDestinations": Object {
+            "isVisible": false,
+          },
+          "topLocations": Object {},
+        }
+      }
+      shouldShowSkeleton={false}
+      showMobileMap={[MockFunction]}
+      toggleDesktopMapVisibility={[MockFunction]}
+      toggleMobileFilter={[MockFunction]}
+      toggleTabletMap={[MockFunction]}
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`DestinationsLandingPageComponent component tests matches snapshot when shouldShowSkeleton 1`] = `
+<div
+  className="search-page_skeleton-container"
+>
+  <Connect(UserHeader)
+    currentUser={null}
+  />
+  <div
+    className="ml-20 mb-20 mt-20 d-flex flex-1"
+  >
+    <Skeleton
+      active={true}
+      avatar={false}
+      paragraph={true}
+      title={true}
+    />
+  </div>
+  <Footer />
+</div>
+`;

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddNewCamperLayoutComponent component tests current user is not empty 1`] = `
+<div
+  className="main-wrap"
+>
+  <Sidebar
+    items={
+      Array [
+        Object {
+          "active": true,
+          "name": Object {
+            "id": "test",
+          },
+        },
+      ]
+    }
+    mobileData={
+      Object {
+        "name": Object {
+          "id": "test",
+        },
+        "step": 2,
+      }
+    }
+    onItemClick={[MockFunction]}
+    onSidebarClose={[MockFunction]}
+  />
+  <div
+    className="main-listing container"
+  >
+    <div />
+  </div>
+  <StickyHelpButton
+    className="main-help-btn-fixed--listing"
+    icon="icon-question-f"
+  />
+</div>
+`;

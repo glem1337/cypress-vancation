@@ -1,0 +1,19 @@
+.main-help-btn-fixed {
+  position: fixed;
+  z-index: @main-listing-footer-z-index;
+  right: 16px;
+  bottom: 16px;
+  width: 48px;
+  height: 48px;
+  box-shadow: @shadow3;
+
+  &::after {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media (min-width: @screen-md) {
+    right: 24px;
+    bottom: 24px;
+  }
+}

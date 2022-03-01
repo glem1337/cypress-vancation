@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackButton component tests checks popup container 1`] = `""`;
+
+exports[`BackButton component tests matches snapshot 1`] = `
+<Popover
+  content={
+    <div>
+      <div
+        className="d-flex align-items-center"
+      >
+        <i
+          className="icon icon-alert font-18 in-yellow-1000 mr-4"
+        />
+        <span
+          className="text-caption"
+        >
+          <Memo(FormattedMessage)
+            id="calendar.discard.question"
+          />
+        </span>
+      </div>
+      <div
+        className="d-flex justify-content-flex-end mt-16"
+      >
+        <Button
+          className="mr-8"
+          onClick={[MockFunction]}
+          size="small"
+          type="text"
+        >
+          <Memo(FormattedMessage)
+            id="shared.no"
+          />
+        </Button>
+        <BtnGradient
+          className=""
+          isLoading={false}
+          onClick={[MockFunction]}
+          size="small"
+          text={
+            <Memo(FormattedMessage)
+              id="shared.yes"
+            />
+          }
+        />
+      </div>
+    </div>
+  }
+  getPopupContainer={[Function]}
+  mouseEnterDelay={0.1}
+  mouseLeaveDelay={0.1}
+  overlayStyle={Object {}}
+  placement="top"
+  trigger="click"
+  visible={true}
+>
+  <Button
+    className="ant-btn-link ant-btn-flat pl-0 pr-0"
+    onClick={[MockFunction]}
+  >
+    <i
+      className="icon icon-left-edge"
+    />
+    <span>
+      <Memo(FormattedMessage)
+        id="shared.back"
+      />
+    </span>
+  </Button>
+</Popover>
+`;

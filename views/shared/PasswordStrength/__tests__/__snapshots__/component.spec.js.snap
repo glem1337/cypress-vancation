@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PasswordStrength component matches snapshot with empty password 1`] = `
+<Fragment>
+  <div
+    className="main-input__scale"
+  />
+  <InputHelp
+    icon={null}
+    text={
+      Object {
+        "id": "passwordStrength.useMinPasswordLength",
+      }
+    }
+    type={null}
+  />
+</Fragment>
+`;
+
+exports[`PasswordStrength component matches snapshot with short password 1`] = `
+<Fragment>
+  <div
+    className="main-input__scale main-input__scale--step-one"
+  />
+  <InputHelp
+    icon={null}
+    text={
+      Object {
+        "id": "passwordStrength.useMinPasswordLength",
+      }
+    }
+    type="danger"
+  />
+</Fragment>
+`;
+
+exports[`PasswordStrength component matches snapshot with strong password 1`] = `
+<Fragment>
+  <div
+    className="main-input__scale main-input__scale--step-three"
+  />
+  <InputHelp
+    icon="success"
+    text={
+      Object {
+        "id": "passwordStrength.yourPasswordIsStrong",
+      }
+    }
+    type="success"
+  />
+</Fragment>
+`;
+
+exports[`PasswordStrength component matches snapshot with valid password 1`] = `
+<Fragment>
+  <div
+    className="main-input__scale main-input__scale--step-two"
+  />
+  <InputHelp
+    icon={null}
+    text={
+      Object {
+        "id": "passwordStrength.youCanUseUppercase",
+      }
+    }
+    type="warning"
+  />
+</Fragment>
+`;

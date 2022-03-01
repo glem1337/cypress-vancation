@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExpandIcon component tests matches snapshot default 1`] = `
+<Button
+  className=""
+  icon={
+    <i
+      className="icon font-12 in-blue-1000 icon-down"
+    />
+  }
+  shape="circle"
+  size="small"
+  type="secondary"
+/>
+`;
+
+exports[`ExpandIcon component tests matches snapshot when isActive === true 1`] = `
+<Button
+  className="border-none"
+  icon={
+    <i
+      className="icon font-12 in-blue-1000 icon-up"
+    />
+  }
+  shape="circle"
+  size="small"
+  type=""
+/>
+`;

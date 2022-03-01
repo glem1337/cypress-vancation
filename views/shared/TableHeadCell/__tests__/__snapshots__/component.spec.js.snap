@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableHeadCell component matches snapshot when sortParams key matches sortKey 1`] = `
+<th
+  className=""
+>
+  <button
+    type="button"
+  >
+    <span
+      className="va-middle"
+    >
+      <Memo(FormattedMessage)
+        id="fake.text"
+      />
+    </span>
+    <i
+      className="main-table__sorter-icon icon icon-arrow-down-long in-blue-gray-600"
+    />
+  </button>
+</th>
+`;
+
+exports[`TableHeadCell component matches snapshot with default props 1`] = `
+<th
+  className=""
+>
+  <button
+    type="button"
+  >
+    <span
+      className="va-middle"
+    >
+      <Memo(FormattedMessage)
+        id="fake.text"
+      />
+    </span>
+    <i
+      className="main-table__sorter-icon icon icon-arrow-down-long"
+    />
+  </button>
+</th>
+`;
+
+exports[`TableHeadCell component matches snapshot with when direction is desc 1`] = `
+<th
+  className=""
+>
+  <button
+    type="button"
+  >
+    <span
+      className="va-middle"
+    >
+      <Memo(FormattedMessage)
+        id="fake.text"
+      />
+    </span>
+    <i
+      className="main-table__sorter-icon icon icon-arrow-up-long in-blue-gray-600"
+    />
+  </button>
+</th>
+`;
+
+exports[`TableHeadCell component matches snapshot without sortKey 1`] = `
+<th
+  className=""
+>
+  <button
+    type="button"
+  >
+    <span
+      className="va-middle"
+    >
+      <Memo(FormattedMessage)
+        id="fake.text"
+      />
+    </span>
+  </button>
+</th>
+`;

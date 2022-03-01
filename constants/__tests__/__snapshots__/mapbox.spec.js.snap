@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mapbox constants matches snapshot 1`] = `
+Object {
+  "ACCESS_TOKEN_MAPBOX": "pk.askdaklsmdaslkndkjnUYYHiYSI6ImNrbm5xbzN4cTExMGasdasdasdasdlklmjUUHYHUYBYNUIUOI",
+  "API_MAPBOX": "https://api.mapbox.com",
+  "CAMPERVAN_RENTAL": Object {
+    "MAP_ZOOM": 15,
+  },
+  "COUNTRY_DEFAULT_MAPBOX": "us",
+  "DEFAULT_COORDINATES_MAPBOX": Object {
+    "latitude": 34.0544,
+    "longitude": -118.2439,
+  },
+  "DELIVERY_DEFAULT_VALUES": Object {
+    "costPerMile": 1,
+    "distance": 1,
+    "minFee": 1,
+    "pickup": false,
+    "rate": "free",
+  },
+  "FORMAT_JSON_MAPBOX": ".json",
+  "MAIN_STYLE_MAPBOX": "mapbox://styles/mapbox/streets-v11",
+  "MAX_COST_PER_MILE_DELIVERY": 100,
+  "MAX_DISTANCE_DELIVERY": 100,
+  "MAX_FEE_DELIVERY": 100,
+  "MIN_COST_PER_MILE_DELIVERY": 1,
+  "MIN_DISTANCE_DELIVERY": 1,
+  "MIN_FEE_DELIVERY": 1,
+  "OPTIONS_CIRCLE_DELIVERY": Object {
+    "steps": 100,
+    "units": "miles",
+  },
+  "TYPE_DELIVERY": Array [
+    "free",
+    "rates",
+  ],
+  "VERSION_MAPBOX": "v5",
+}
+`;

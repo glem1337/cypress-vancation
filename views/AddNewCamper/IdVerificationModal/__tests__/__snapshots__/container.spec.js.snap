@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IdVerificationModal container tests matches snapshot 1`] = `
+<IdVerificationModal
+  hideModal={[Function]}
+  isUserVerified={false}
+  navigateToHomePage={[Function]}
+  router={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;

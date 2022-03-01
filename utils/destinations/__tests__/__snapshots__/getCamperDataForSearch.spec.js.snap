@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test getCamperDataForSearch helper 1`] = `
+Object {
+  "cost": "$0",
+  "costPeriod": "/ night",
+  "id": "a18f7338-c2b3-4cee-be4d-579c0a726c1a",
+  "isBooked": false,
+  "isGlamper": true,
+  "isHighDemand": false,
+  "isInstantBook": true,
+  "isNew": true,
+  "makeModel": "Vasya Clair Weimann",
+  "model": "Clair Weimann",
+  "modelNaming": "Clair Weimann",
+  "name": "test",
+  "rating": "100%",
+  "seats": 1,
+  "sleeps": 1,
+  "vehicleTypeName": "Modern Van in Arkansas",
+}
+`;

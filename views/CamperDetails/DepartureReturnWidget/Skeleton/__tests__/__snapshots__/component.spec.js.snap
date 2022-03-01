@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skeleton component tests matches snapshot 1`] = `
+<div
+  className="van-details__sticky-card van-details__sticky-card--skeleton"
+>
+  <div
+    className="van-details__sticky-card-header"
+  >
+    <div
+      className="flex-1 mr-32"
+    >
+      <SkeletonTitle
+        className=""
+        width={100}
+      />
+      <SkeletonText
+        className="mb-0"
+        rows={1}
+      />
+    </div>
+    <div
+      className="van-details__sticky-card-header-img"
+    />
+  </div>
+  <div
+    className="van-details__sticky-card-body"
+  >
+    <SkeletonTitle
+      className=""
+      width={100}
+    />
+    <SkeletonText
+      rows={3}
+    />
+    <Divider
+      className="mt-16 mb-16"
+    />
+    <SkeletonTitle
+      className="h-20"
+      width={100}
+    />
+    <SkeletonTitle
+      className="mb-0"
+      width={100}
+    />
+  </div>
+</div>
+`;

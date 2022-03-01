@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pricing container tests checks mapPropsToValues configs 1`] = `
+Object {
+  "costPerNight": 280,
+  "costomizialeNightCost": false,
+  "minimalNightStay": "2",
+  "monthlyDiscount": false,
+  "monthlyDiscountPercent": 33,
+  "weekNightPrice": Object {
+    "friday_price": "320",
+    "monday_price": "250",
+    "saturday_price": "320",
+    "sunday_price": "250",
+    "thursday_price": "250",
+    "tuesday_price": "250",
+    "wednesday_price": "250",
+  },
+  "weeklyDiscount": false,
+  "weeklyDiscountPercent": 15,
+}
+`;
+
+exports[`Pricing container tests checks validationSchema configs 1`] = `[Function]`;
+
+exports[`Pricing container tests matches snapshot 1`] = `
+<Pricing
+  camperCompleteness={44}
+  camperId="test id"
+  dirty={true}
+  enableReinitialize={true}
+  errors={Object {}}
+  handleSubmit={[MockFunction]}
+  hideModal={[Function]}
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+  isCamperExist={true}
+  isLoading={true}
+  isValid={true}
+  mapPropsToValues={[Function]}
+  monthlyDiscountPercentPrice={1176}
+  onBackButtonClick={[Function]}
+  onCustomizableNightCostChange={[Function]}
+  onMonthlyDiscountChange={[Function]}
+  onSubmit={[Function]}
+  onWeeklyDiscountChange={[Function]}
+  pricingInfo={
+    Object {
+      "costPerNight": 280,
+      "costomizialeNightCost": false,
+      "minimalNightStay": "2",
+      "monthlyDiscount": false,
+      "monthlyDiscountPercent": 33,
+      "weekNightPrice": Object {
+        "friday_price": "320",
+        "monday_price": "250",
+        "saturday_price": "320",
+        "sunday_price": "250",
+        "thursday_price": "250",
+        "tuesday_price": "250",
+        "wednesday_price": "250",
+      },
+      "weeklyDiscount": false,
+      "weeklyDiscountPercent": 15,
+    }
+  }
+  router={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  setFieldValue={[MockFunction]}
+  setFormikState={[MockFunction]}
+  setLeavePageMethod={[Function]}
+  showModal={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "logicMiddleware": Object {
+        "whenComplete": [MockFunction],
+      },
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  touched={Object {}}
+  validateForm={[MockFunction]}
+  validationSchema={[Function]}
+  values={
+    Object {
+      "costPerNight": 280,
+      "costomizialeNightCost": false,
+      "monthlyDiscount": false,
+      "monthlyDiscountPercent": 15,
+      "weekNightPrice": Object {},
+      "weeklyDiscount": false,
+      "weeklyDiscountPercent": 280,
+    }
+  }
+  weeklyDiscountPercentPrice={5488}
+/>
+`;

@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TripFeesComponent component tests matches snapshot 1`] = `
+<withRouter(EditCamper)
+  canSave={true}
+  hasFooter={true}
+  isLoading={false}
+  leavePageMethod={[MockFunction]}
+  onSave={[MockFunction]}
+>
+  <div
+    className="container"
+  >
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <Row>
+        <Col
+          span={24}
+        >
+          <CleaningsSection
+            cleaningAndPreparationFee=""
+          />
+        </Col>
+        <Divider
+          className="mt-24"
+        />
+        <Col
+          span={24}
+        >
+          <MileageSection
+            mode="unlimited"
+            onMilesModeChange={[MockFunction]}
+          />
+        </Col>
+        <Divider
+          className="mt-24"
+        />
+        <Col
+          span={24}
+        >
+          <GeneratorSection
+            hasGenerator={false}
+            mode="unlimited"
+            onGeneratorExistenceChange={[MockFunction]}
+            onGeneratorModeChange={[MockFunction]}
+          />
+        </Col>
+        <Divider
+          className="mt-24"
+        />
+        <Col
+          span={24}
+        >
+          <DumpingSection
+            formatMessage={[Function]}
+          />
+        </Col>
+        <Divider
+          className="mt-24"
+        />
+        <Col
+          span={24}
+        >
+          <CustomFeesSection
+            addCustomFee={[MockFunction]}
+            customFees={Array []}
+            onFrequencyChanged={[MockFunction]}
+            removeCustomFee={[MockFunction]}
+          />
+        </Col>
+      </Row>
+    </ForwardRef(InternalForm)>
+  </div>
+</withRouter(EditCamper)>
+`;
+
+exports[`TripFeesComponent component tests matches snapshot when camper does not exist 1`] = `
+<withRouter(EditCamper)
+  canSave={true}
+  hasFooter={true}
+  isLoading={false}
+  leavePageMethod={[MockFunction]}
+  onSave={[MockFunction]}
+>
+  <div
+    className="container"
+  >
+    <Skeleton
+      active={true}
+      avatar={false}
+      paragraph={true}
+      title={true}
+    />
+  </div>
+</withRouter(EditCamper)>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchList container renders SearchList component 1`] = `
+<SearchListComponent
+  className=""
+  defaultValue=""
+  filterEntities={[MockFunction]}
+  onChange={[Function]}
+  onClear={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  value=""
+/>
+`;

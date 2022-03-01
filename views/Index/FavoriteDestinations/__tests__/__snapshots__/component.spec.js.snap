@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FavoriteDestinations component default props snapshot 1`] = `
+<div
+  className="home__favorite"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="home__favorite-inner"
+    >
+      <Row>
+        <Col
+          md={20}
+          xl={16}
+        >
+          <h2
+            className="home-title-sec mb-16"
+          >
+            <Memo(FormattedMessage)
+              id="homePage.favoriteDestinations.title"
+            />
+          </h2>
+        </Col>
+        <Col
+          md={20}
+          span={22}
+          xl={14}
+        >
+          <p
+            className="text-subheader text-color-gray font-400"
+          >
+            <Memo(FormattedMessage)
+              id="homePage.favoriteDestinations.subtitle"
+            />
+          </p>
+        </Col>
+      </Row>
+      <div
+        className="main-slider-wrap main-slider-wrap--one"
+      >
+        <Swiper
+          className="home-slider-pos"
+          key="uuid"
+          onSlideChange={[MockFunction]}
+        >
+          <SwiperSlide
+            key="test.parent.id"
+          >
+            <Slide
+              slide={
+                Array [
+                  Object {
+                    "id": "test.id",
+                    "img": "test.svg",
+                    "locationName": "location 1",
+                    "locationSlug": "location-1",
+                    "parentId": "test.parent.id",
+                    "state": "state 1",
+                    "stateSlug": "state-1",
+                  },
+                  Object {
+                    "id": "test.id",
+                    "img": "test.svg",
+                    "locationName": "location 2",
+                    "locationSlug": "location-2",
+                    "state": "state 1",
+                    "stateSlug": "state-1",
+                  },
+                  Object {
+                    "id": "test.id",
+                    "img": "test.svg",
+                    "locationName": "location 3",
+                    "locationSlug": "location-3",
+                    "state": "state 1",
+                    "stateSlug": "state-1",
+                  },
+                  Object {
+                    "id": "test.id",
+                    "img": "test.svg",
+                    "locationName": "location 4",
+                    "locationSlug": "location-4",
+                    "state": "state 1",
+                    "stateSlug": "state-1",
+                  },
+                ]
+              }
+            />
+          </SwiperSlide>
+        </Swiper>
+        <div
+          className="swiper-pagination swiper-pagination-fraction"
+        >
+          1
+           / 
+          3
+        </div>
+        <div
+          className="search-page__slider-nav"
+        >
+          <Button
+            className="button-prev"
+            icon={
+              <i
+                className="icon icon-left font-14"
+              />
+            }
+            onClick={[MockFunction]}
+            shape="circle"
+            type="secondary"
+          />
+          <Button
+            className="ml-16 button-next"
+            icon={
+              <i
+                className="icon icon-right font-14"
+              />
+            }
+            loading={false}
+            onClick={[MockFunction]}
+            shape="circle"
+            type="secondary"
+          />
+        </div>
+      </div>
+      <Divider
+        className="mt-0 mb-0"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FavoriteDestinations component isFetchedAllLocations = true, snapshot 1`] = `
+<div
+  className="home__favorite"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="home__favorite-inner"
+    >
+      <Row>
+        <Col
+          md={20}
+          xl={16}
+        >
+          <h2
+            className="home-title-sec mb-16"
+          >
+            <Memo(FormattedMessage)
+              id="homePage.favoriteDestinations.title"
+            />
+          </h2>
+        </Col>
+        <Col
+          md={20}
+          span={22}
+          xl={14}
+        >
+          <p
+            className="text-subheader text-color-gray font-400"
+          >
+            <Memo(FormattedMessage)
+              id="homePage.favoriteDestinations.subtitle"
+            />
+          </p>
+        </Col>
+      </Row>
+      <div
+        className="main-slider-wrap main-slider-wrap--one"
+      >
+        <Swiper
+          className="home-slider-pos"
+          key="uuid"
+          onSlideChange={[MockFunction]}
+        >
+          <SwiperSlide
+            key="test.parent.id"
+          >
+            <Slide
+              slide={
+                Array [
+                  Object {
+                    "id": "test.id",
+                    "img": "test.svg",
+                    "locationName": "location 1",
+                    "locationSlug": "location-1",
+                    "parentId": "test.parent.id",
+                    "state": "state 1",
+                    "stateSlug": "state-1",
+                  },
+                  Object {
+                    "id": "test.id",
+                    "img": "test.svg",
+                    "locationName": "location 2",
+                    "locationSlug": "location-2",
+                    "state": "state 1",
+                    "stateSlug": "state-1",
+                  },
+                  Object {
+                    "id": "test.id",
+                    "img": "test.svg",
+                    "locationName": "location 3",
+                    "locationSlug": "location-3",
+                    "state": "state 1",
+                    "stateSlug": "state-1",
+                  },
+                  Object {
+                    "id": "test.id",
+                    "img": "test.svg",
+                    "locationName": "location 4",
+                    "locationSlug": "location-4",
+                    "state": "state 1",
+                    "stateSlug": "state-1",
+                  },
+                ]
+              }
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SlideSkeleton
+              amountLocationOnSlide={4}
+            />
+          </SwiperSlide>
+        </Swiper>
+        <div
+          className="swiper-pagination swiper-pagination-fraction"
+        >
+          1
+           / 
+          3
+        </div>
+        <div
+          className="search-page__slider-nav"
+        >
+          <Button
+            className="button-prev"
+            icon={
+              <i
+                className="icon icon-left font-14"
+              />
+            }
+            onClick={[MockFunction]}
+            shape="circle"
+            type="secondary"
+          />
+          <Button
+            className="ml-16 button-next"
+            icon={
+              <i
+                className="icon icon-right font-14"
+              />
+            }
+            loading={false}
+            onClick={[MockFunction]}
+            shape="circle"
+            type="secondary"
+          />
+        </div>
+      </div>
+      <Divider
+        className="mt-0 mb-0"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FavoriteDestinations component matches snapshot when photos are not defined 1`] = `""`;

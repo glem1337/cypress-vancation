@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Insurance container tests matches snapshot 1`] = `
+<Insurance
+  camperCompleteness={22}
+  camperId="test_camper_id"
+  createInsuranceInfo={[Function]}
+  isCamperExist={true}
+  isLoading={true}
+  onBackButtonClick={[Function]}
+  onSaveButtonClick={[Function]}
+  router={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  setLeavePageMethod={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "logicMiddleware": Object {
+        "whenComplete": [MockFunction],
+      },
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;

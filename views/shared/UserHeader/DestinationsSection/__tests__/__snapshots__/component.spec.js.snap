@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DestinationSection component tests matches snapshot 1`] = `
+<div
+  className="main-account-header__item ml-auto"
+>
+  <span
+    className="mr-4 main-account-header__item-txt"
+  >
+    <Memo(FormattedMessage)
+      id="headerHeader.destinations"
+    />
+  </span>
+  <i
+    className="icon icon-down in-black font-16"
+  />
+</div>
+`;
+
+exports[`DestinationSection component tests matches snapshot when is not visible 1`] = `""`;

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RemoveDocumentModal component tests matches snapshot 1`] = `
+<Modal
+  className="main-modal"
+  closable={false}
+  closeIcon={
+    <i
+      className="icon icon-cross main-close-btn"
+    />
+  }
+  footer={null}
+  maskClosable={true}
+  onClose={[MockFunction]}
+  visible={true}
+>
+  <div
+    className="main-modal__container"
+  >
+    <div
+      className="main-modal__header"
+    >
+      <h2
+        className="main-modal__title pr-24"
+      >
+        <Memo(FormattedMessage)
+          id="dashboard.editCamper.documents.modal.title"
+        />
+      </h2>
+    </div>
+    <div
+      className="main-modal__body"
+    >
+      <p>
+        <Memo(FormattedMessage)
+          id="dashboard.editCamper.documents.modal.description"
+        />
+      </p>
+    </div>
+    <div
+      className="main-modal__footer justify-content-flex-end"
+    >
+      <Button
+        disabled={false}
+        onClick={[MockFunction]}
+        size="large"
+        type="text"
+      >
+        <Memo(FormattedMessage)
+          id="shared.cancel"
+        />
+      </Button>
+      <GradientButton
+        className="min-w-140 ml-16"
+        disabled={false}
+        loading={false}
+        onClick={[MockFunction]}
+        size="large"
+        text={
+          Object {
+            "id": "shared.ok",
+          }
+        }
+      />
+    </div>
+  </div>
+</Modal>
+`;

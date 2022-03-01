@@ -1,0 +1,95 @@
+[
+  {
+    "name": "web-server",
+    "image": "${web_server_ecr_repo}:${environment}",
+    "environment": [
+      {
+        "name": "NODE_ENV",
+        "value": "staging"
+      }
+    ],
+    "mountPoints": [
+      {
+        "containerPath": "/app/public/static",
+        "sourceVolume": "static"
+      }
+    ],
+    "portMappings": [
+      {
+        "hostPort": 80,
+        "containerPort": 8080,
+        "protocol": "tcp"
+      },
+      {
+        "hostPort": 443,
+        "containerPort": 8443,
+        "protocol": "tcp"
+      }
+    ],
+    "links": [
+      "app"
+    ],
+    "healthCheck": {
+      "command": [
+        "CMD-SHELL",
+        "service nginx status || exit 1"
+      ],
+      "interval": 30,
+      "retries": 3,
+      "timeout": 5
+    },
+    "logConfiguration": {
+      "logDriver": "awslogs",
+      "options": {
+        "awslogs-group": "${log_group}",
+        "awslogs-region": "${log_region}",
+        "awslogs-stream-prefix": "${environment}"
+      }
+    }
+  },
+
+  {
+    "name": "app",
+    "image": "${app_ecr_repo}:${environment}",
+    "command": ["pm2-runtime", "start", "ecosystem.config.js"],
+    "environment": [
+      {
+        "name": "NODE_ENV",
+        "value": "staging"
+      },
+      {
+        "name": "API_HOST",
+        "value": "http://staging-api.vancation.com"
+      }
+    ],
+    "mountPoints": [
+      {
+        "containerPath": "/app/public/static",
+        "sourceVolume": "static"
+      }
+    ],
+    "portMappings": [
+      {
+        "containerPort": 4000,
+        "protocol": "tcp"
+      }
+    ],
+    "healthCheck": {
+      "command": [
+        "CMD-SHELL",
+        "curl -f http://localhost:4000 || exit 1"
+      ],
+      "interval": 300,
+      "retries": 3,
+      "timeout": 20
+    },
+    "logConfiguration": {
+      "logDriver": "awslogs",
+      "options": {
+        "awslogs-group": "${log_group}",
+        "awslogs-region": "${log_region}",
+        "awslogs-stream-prefix": "${environment}"
+      }
+    }
+  }
+]

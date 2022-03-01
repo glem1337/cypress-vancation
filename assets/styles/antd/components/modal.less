@@ -1,0 +1,29 @@
+.ant-modal-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ant-modal-content {
+  @media (max-width: @screen-md - 1px) {
+    border-bottom-right-radius: unset;
+    border-bottom-left-radius: unset;
+  }
+}
+
+.ant-modal-close {
+  top: 2px;
+}
+
+.ant-modal-close-x {
+  color: @gray500;
+  transition: color 0.3s;
+
+  &:hover {
+    color: @black;
+  }
+
+  svg {
+    display: none;
+  }
+}

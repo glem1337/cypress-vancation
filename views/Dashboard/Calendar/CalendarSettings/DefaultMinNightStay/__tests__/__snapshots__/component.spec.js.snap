@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DefaultMinNightStay component tests matches snapshot 1`] = `
+<div
+  className="calendar-listing__side-main-item"
+>
+  <Button
+    className="ant-btn-slideout"
+    onClick={[MockFunction]}
+  >
+    <i
+      className="icon icon-moon"
+    />
+    <span>
+      <Memo(FormattedMessage)
+        id="shared.defaultMinNightStay"
+      />
+    </span>
+    <i
+      className="icon icon-right ml-auto"
+    />
+  </Button>
+  <div
+    className="calendar-listing__side-slideout calendar-listing__side-slideout--active"
+  >
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <div
+        className="calendar-listing__side-slideout__main"
+      >
+        <div
+          className="mb-16"
+        >
+          <BackButton
+            discardConfirm={[MockFunction]}
+            discardPrepare={[MockFunction]}
+            discardReject={[MockFunction]}
+            isPopoverVisible={true}
+          />
+        </div>
+        <h3
+          className="text-subheader mb-8"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.pricing.nightStayTitle"
+          />
+        </h3>
+        <p
+          className="mb-16"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.pricing.whatIsTheMinNumberNights"
+          />
+        </p>
+        <Field
+          className="main-input__field"
+          component={[Function]}
+          formItemClasses="mb-0"
+          items={
+            Array [
+              Object {
+                "label": Object {
+                  "id": "addNewCamper.pricing.countOfNights",
+                  "values": Object {
+                    "count": 1,
+                  },
+                },
+                "value": 1,
+              },
+              Object {
+                "label": Object {
+                  "id": "addNewCamper.pricing.countOfNights",
+                  "values": Object {
+                    "count": 2,
+                  },
+                },
+                "value": 2,
+              },
+              Object {
+                "label": Object {
+                  "id": "addNewCamper.pricing.countOfNights",
+                  "values": Object {
+                    "count": 3,
+                  },
+                },
+                "value": 3,
+              },
+              Object {
+                "label": Object {
+                  "id": "addNewCamper.pricing.countOfNights",
+                  "values": Object {
+                    "count": 4,
+                  },
+                },
+                "value": 4,
+              },
+              Object {
+                "label": Object {
+                  "id": "addNewCamper.pricing.countOfNights",
+                  "values": Object {
+                    "count": 5,
+                  },
+                },
+                "value": 5,
+              },
+              Object {
+                "label": Object {
+                  "id": "addNewCamper.pricing.countOfNights",
+                  "values": Object {
+                    "count": 6,
+                  },
+                },
+                "value": 6,
+              },
+              Object {
+                "label": Object {
+                  "id": "addNewCamper.pricing.countOfNights",
+                  "values": Object {
+                    "count": 7,
+                  },
+                },
+                "value": 7,
+              },
+              Object {
+                "label": Object {
+                  "id": "addNewCamper.pricing.countOfNights",
+                  "values": Object {
+                    "count": 8,
+                  },
+                },
+                "value": 8,
+              },
+              Object {
+                "label": Object {
+                  "id": "addNewCamper.pricing.countOfNights",
+                  "values": Object {
+                    "count": 9,
+                  },
+                },
+                "value": 9,
+              },
+              Object {
+                "label": Object {
+                  "id": "addNewCamper.pricing.countOfNights",
+                  "values": Object {
+                    "count": 10,
+                  },
+                },
+                "value": 10,
+              },
+            ]
+          }
+          label={
+            Object {
+              "id": "addNewCamper.pricing.nights",
+            }
+          }
+          name="minimalNightStay"
+          optionLabelProp="label"
+          placeholder={
+            Object {
+              "id": "shared.select",
+            }
+          }
+        />
+      </div>
+      <FooterComponent
+        canSubmit={true}
+        discardConfirm={[MockFunction]}
+        discardPrepare={[MockFunction]}
+        discardReject={[MockFunction]}
+        isDiscardPopoverVisible={true}
+        isLoading={true}
+        isSavePopoverVisible={true}
+        saveConfirm={[MockFunction]}
+        savePrepare={[MockFunction]}
+        saveReject={[MockFunction]}
+        submit={[MockFunction]}
+        submitBtnText={
+          Object {
+            "id": "shared.save",
+          }
+        }
+        withSavePopover={true}
+        withSavePopoverWarning={true}
+      />
+    </ForwardRef(InternalForm)>
+  </div>
+</div>
+`;

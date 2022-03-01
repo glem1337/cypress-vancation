@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserLayout container renders UserLayout component 1`] = `
+<UserLayoutComponent
+  currentUser={
+    Object {
+      "createdAt": "2021-04-28T22:05:02.002Z",
+      "email": "eugene@rubygarage.org",
+      "emailVerified": false,
+      "id": "1",
+      "user": Object {
+        "account": [Circular],
+        "createdAt": "2021-04-28T22:05:02.075Z",
+        "firstName": "Eugene",
+        "id": "f5f49917-2a1e-472d-85ba-691624b2c0b8",
+        "lastName": "Petrenko",
+        "updatedAt": "2021-04-28T22:05:02.075Z",
+      },
+    }
+  }
+  dispatch={[MockFunction]}
+  isGray={false}
+  isSidebarVisible={false}
+  onSidebarToggle={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  wrapClassName={null}
+>
+  <div>
+    Test Child
+  </div>
+</UserLayoutComponent>
+`;

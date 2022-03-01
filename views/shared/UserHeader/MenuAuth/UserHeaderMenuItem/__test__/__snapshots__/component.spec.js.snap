@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserHeaderMenuItemComponent UserDropdownComponent default props snapshot 1`] = `
+<Fragment>
+  <a
+    className="main-dropdown__item"
+    href="/add-new-camper/[id]/specifications"
+    target="_blank"
+  >
+    <Memo(FormattedMessage)
+      id="test_contentId"
+    />
+  </a>
+</Fragment>
+`;
+
+exports[`UserHeaderMenuItemComponent UserDropdownComponent targetBlankItems empty array snapshot 1`] = `
+<Fragment>
+  <Link
+    href="/add-new-camper/[id]/specifications"
+    key="test_contentId"
+  >
+    <a
+      className="main-dropdown__item"
+    >
+      <Memo(FormattedMessage)
+        id="test_contentId"
+      />
+    </a>
+  </Link>
+</Fragment>
+`;

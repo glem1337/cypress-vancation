@@ -1,0 +1,104 @@
+.main-account-header--listing {
+  position: sticky;
+  top: 0;
+  z-index: @edit-list-header-z-index;
+  display: block;
+
+  @media (min-width: @screen-lg) {
+    padding-bottom: 0;
+  }
+
+  .ant-select {
+    max-width: 320px;
+    margin-left: auto;
+  }
+}
+
+.main-account-header-notif--listing {
+  margin-left: auto;
+
+  @media (max-width: @screen-lg - 1px) {
+    .ant-badge {
+      margin-right: 0;
+    }
+  }
+
+  @media (min-width: @screen-lg) {
+    .ant-badge {
+      transition: background-color @main-transition-duration;
+
+      &:hover {
+        background-color: @gray200;
+      }
+    }
+  }
+}
+
+.main-dropdown__item-pic-listing {
+  .flex-center();
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+  overflow: hidden;
+  border-radius: @main-border-radius;
+  background: @gray500 no-repeat center/cover;
+
+  img {
+    .img-fit();
+  }
+}
+
+.master-view__menu.ant-collapse {
+  border-bottom: 8px solid @gray100;
+
+  .ant-collapse-item {
+    .ant-collapse-header {
+      .text-body();
+      padding: 16px;
+      padding-right: 56px;
+      border-radius: 0;
+      color: @black;
+      .media-up(md; {
+        padding-right: 32px;
+        padding-left: 32px;
+      });
+    }
+
+    .ant-collapse-content {
+      color: @black;
+    }
+
+    .ant-collapse-content-box {
+      padding: 0;
+    }
+  }
+
+  .ant-collapse-item-active .master-view__menu-arrow .icon {
+    transform: rotateX(180deg);
+  }
+}
+
+.master-view__menu-arrow {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+  color: @gray500;
+
+  .icon {
+    display: block;
+    transition: transform @main-transition-props;
+  }
+}
+
+.master-view__menu-list {
+  li {
+    padding: 16px;
+    border-top: 1px solid @gray300;
+    .media-up(md; {
+      padding-right: 32px;
+      padding-left: 32px;
+    });
+  }
+}

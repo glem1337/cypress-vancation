@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmModal component matches snapshot with default props 1`] = `
+<Modal
+  className="main-modal d-block"
+  closable={false}
+  closeIcon={
+    <i
+      className="icon icon-cross main-close-btn"
+    />
+  }
+  footer={null}
+  maskClosable={true}
+  onClose={[MockFunction]}
+  visible={true}
+>
+  <div
+    className="main-modal__container d-block"
+  >
+    <div
+      className="main-modal__header"
+    >
+      <h2
+        className="main-modal__title"
+      >
+        <Memo(FormattedMessage)
+          id="fake.title"
+        />
+      </h2>
+      <button
+        className="main-modal__close icon icon-cross"
+        onClick={[MockFunction]}
+        type="button"
+      />
+    </div>
+    <div
+      className="main-modal__body"
+    >
+      <p
+        className=""
+        key="fake.bodyText"
+      >
+        <Memo(FormattedMessage)
+          id="fake.bodyText"
+        />
+      </p>
+      <p
+        className="mb-0"
+        key="fake.text"
+      >
+        <Memo(FormattedMessage)
+          id="fake.text"
+        />
+      </p>
+    </div>
+    <div
+      className="main-modal__footer"
+    >
+      <div>
+        <Button
+          className="main-modal__footer-action"
+          kind="flat"
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "fake.dismissText",
+            }
+          }
+        />
+        <Button
+          className="main-modal__footer-action"
+          disabled={false}
+          kind={null}
+          onClick={[MockFunction]}
+          text={
+            Object {
+              "id": "fake.submitText",
+            }
+          }
+          type="submit"
+        />
+      </div>
+    </div>
+  </div>
+</Modal>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserStatusBadge component matches snapshot when is active 1`] = `
+<div
+  className="main-badge bg-green-500 in-white"
+>
+  <Memo(FormattedMessage)
+    id="profileStatus.active"
+  />
+</div>
+`;
+
+exports[`UserStatusBadge component matches snapshot with default props 1`] = `
+<div
+  className="main-badge bg-orange-600 in-white"
+>
+  <Memo(FormattedMessage)
+    id="profileStatus.deactivated"
+  />
+</div>
+`;

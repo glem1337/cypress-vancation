@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slide component matches snapshot 1`] = `
+<div
+  className="home__favorite-dest-slider-wrap"
+>
+  <Link
+    href="/campervan-rental/state-1/location-1"
+    key="test.id"
+  >
+    <a
+      className="home__favorite-dest-slider-item"
+    >
+      <div
+        className="home__favorite-dest-slider-img"
+      >
+        <img
+          alt=""
+          src="test.svg"
+        />
+      </div>
+      <p
+        className="text-subtitle mb-4"
+      >
+        location 1
+      </p>
+      <p
+        className="text-caption text-color-gray"
+      >
+        state 1
+      </p>
+    </a>
+  </Link>
+</div>
+`;
+
+exports[`Slide component matches snapshot when is mobile 1`] = `
+<Fragment>
+  <Link
+    href="/campervan-rental/state-1/location-1"
+    key="test.id"
+  >
+    <a
+      className="home__favorite-dest-slider-item"
+    >
+      <div
+        className="home__favorite-dest-slider-img"
+      >
+        <img
+          alt=""
+          src="test.svg"
+        />
+      </div>
+      <p
+        className="text-subtitle mb-4"
+      >
+        location 1
+      </p>
+      <p
+        className="text-caption text-color-gray"
+      >
+        state 1
+      </p>
+    </a>
+  </Link>
+</Fragment>
+`;

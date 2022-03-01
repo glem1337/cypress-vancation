@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InstagramSectionComponent component tests matches snapshot 1`] = `
+<div
+  className="home-inner-wrap"
+>
+  <div
+    className="container"
+  >
+    <h2
+      className="home-title-sec mb-8"
+    >
+      <Memo(FormattedMessage)
+        id="homePage.instagram.title"
+      />
+    </h2>
+    <p
+      className="text-title mb-16 font-400"
+    >
+      <Memo(FormattedMessage)
+        id="homePage.instagram.subTitle"
+      />
+    </p>
+    <div
+      className="mb-40 mb-md-60"
+    >
+      <Row>
+        <Col
+          span={16}
+        >
+          <a
+            className="d-inline-flex align-items-center"
+            href="https://www.instagram.com/govancation/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <div
+              className="home-insta-link"
+            >
+              <i
+                className="icon icon-instagram in-white font-20"
+              />
+            </div>
+            <p
+              className="text-title font-400"
+            >
+              @GoVancation
+            </p>
+          </a>
+        </Col>
+      </Row>
+    </div>
+    <div
+      className="main-slider-wrap"
+    >
+      <Swiper
+        className="home-slider-pos"
+        key="uuid"
+        onInit={[MockFunction]}
+        onReachEnd={[MockFunction]}
+        watchSlidesProgress={true}
+      >
+        <SwiperSlide
+          key="1"
+        >
+          <a
+            rel="noreferrer"
+            target="_blank"
+          >
+            <div
+              className="home-insta__img"
+            >
+              <Spin
+                className="search-page__spin"
+                indicator={
+                  <ForwardRef(LoadingOutlined)
+                    spin={true}
+                  />
+                }
+                size="default"
+                spinning={true}
+                wrapperClassName=""
+              />
+              <img
+                alt=""
+              />
+            </div>
+          </a>
+        </SwiperSlide>
+      </Swiper>
+      <div
+        className="search-page__slider-nav"
+      >
+        <Button
+          disabled={false}
+          icon={
+            <i
+              className="icon icon-left font-14"
+            />
+          }
+          onClick={[MockFunction]}
+          shape="circle"
+          type="secondary"
+        />
+        <Button
+          className="ml-16"
+          icon={
+            <i
+              className="icon icon-right font-14"
+            />
+          }
+          onClick={[MockFunction]}
+          shape="circle"
+          type="secondary"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`InstagramSectionComponent component tests matches snapshot when photos are not existed 1`] = `
+<div
+  className="home-inner-wrap"
+/>
+`;

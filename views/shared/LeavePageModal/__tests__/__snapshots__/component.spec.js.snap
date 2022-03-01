@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LeavePageModal component tests matches snapshot 1`] = `
+<Modal
+  className="main-modal"
+  closeIcon={null}
+  confirmLoading={false}
+  footer={null}
+  maskClosable={false}
+  okType="primary"
+  visible={true}
+  width={520}
+>
+  <div
+    className="main-modal__container"
+  >
+    <div
+      className="main-modal__header main-modal__header-extended"
+    >
+      <h2
+        className="main-modal__title"
+      >
+        <Memo(FormattedMessage)
+          id="shared.leavePage"
+        />
+      </h2>
+    </div>
+    <div
+      className="main-modal__body"
+    >
+      <p>
+        <Memo(FormattedMessage)
+          id="shared.leavePageConfirmation"
+        />
+      </p>
+    </div>
+    <div
+      className="main-modal__footer"
+    >
+      <div
+        className="ml-auto"
+      >
+        <Button
+          onClick={[MockFunction]}
+          size="large"
+          type="text"
+        >
+          <Memo(FormattedMessage)
+            id="shared.discard"
+          />
+        </Button>
+        <BtnGradient
+          className="min-w-140 ml-16"
+          isLoading={false}
+          onClick={[MockFunction]}
+          size="large"
+          text="{Translation id: shared.save}"
+        />
+      </div>
+    </div>
+  </div>
+</Modal>
+`;

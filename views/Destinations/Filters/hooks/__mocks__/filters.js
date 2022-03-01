@@ -1,0 +1,18 @@
+export default {
+  uuid: null,
+  seats: null,
+  sleeps: null,
+  priceStart: null,
+  priceEnd: null,
+  vehicles: null,
+  delivery: null,
+  glamper: null,
+  rating: null,
+  allowPets: null,
+  allowSmoking: null,
+  festivalApproved: null,
+  allowUnlimitedMiles: null,
+  insideHeight: null,
+  standardAmenities: null,
+  luxuryAmenities: null,
+};

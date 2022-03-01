@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NearbyLocations component tests matches snapshot default 1`] = `
+<div
+  className="mb-24 mb-md-36"
+>
+  <p
+    className="text-headline mb-24 mb-md-40"
+  >
+    <Memo(FormattedMessage)
+      id="shared.exploreCamperRentalsNearby"
+    />
+  </p>
+  <Row
+    gutter={24}
+  >
+    <Col
+      key="1"
+      md={8}
+      span={12}
+      xl={4}
+    >
+      <a
+        className="main-link d-inline-block mb-16 mb-md-24 text-subheader font-400"
+        href="/campervan-rental/stateSlug/landingSlug"
+        rel="noreferrer"
+        target="_blank"
+      >
+        landingName
+      </a>
+    </Col>
+  </Row>
+</div>
+`;
+
+exports[`NearbyLocations component tests matches snapshot when loading 1`] = `
+<div
+  className="mb-24 mb-md-36"
+>
+  <SkeletonTitle
+    className=""
+    width={100}
+  />
+  <SkeletonText
+    rows={2}
+  />
+</div>
+`;
+
+exports[`NearbyLocations component tests matches snapshot when locations aren\`t present 1`] = `""`;

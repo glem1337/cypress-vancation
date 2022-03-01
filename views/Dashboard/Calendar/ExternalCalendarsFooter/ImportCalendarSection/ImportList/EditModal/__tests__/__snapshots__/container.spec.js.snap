@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditModal container tests has validation schema 1`] = `
+Object {
+  "fields": Object {
+    "link": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "required",
+          "params": undefined,
+        },
+        Object {
+          "name": "isICALFormat",
+          "params": undefined,
+        },
+        Object {
+          "name": "url",
+          "params": Object {
+            "regex": /\\^\\(\\(https\\?\\|ftp\\):\\)\\?\\\\/\\\\/\\(\\(\\(\\(\\[a-z\\]\\|\\\\d\\|-\\|\\\\\\.\\|_\\|~\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\|\\(%\\[\\\\da-f\\]\\{2\\}\\)\\|\\[!\\\\\\$&'\\\\\\(\\\\\\)\\\\\\*\\\\\\+,;=\\]\\|:\\)\\*@\\)\\?\\(\\(\\(\\\\d\\|\\[1-9\\]\\\\d\\|1\\\\d\\\\d\\|2\\[0-4\\]\\\\d\\|25\\[0-5\\]\\)\\\\\\.\\(\\\\d\\|\\[1-9\\]\\\\d\\|1\\\\d\\\\d\\|2\\[0-4\\]\\\\d\\|25\\[0-5\\]\\)\\\\\\.\\(\\\\d\\|\\[1-9\\]\\\\d\\|1\\\\d\\\\d\\|2\\[0-4\\]\\\\d\\|25\\[0-5\\]\\)\\\\\\.\\(\\\\d\\|\\[1-9\\]\\\\d\\|1\\\\d\\\\d\\|2\\[0-4\\]\\\\d\\|25\\[0-5\\]\\)\\)\\|\\(\\(\\(\\[a-z\\]\\|\\\\d\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\|\\(\\(\\[a-z\\]\\|\\\\d\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\(\\[a-z\\]\\|\\\\d\\|-\\|\\\\\\.\\|_\\|~\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\*\\(\\[a-z\\]\\|\\\\d\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\)\\)\\\\\\.\\)\\+\\(\\(\\[a-z\\]\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\|\\(\\(\\[a-z\\]\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\(\\[a-z\\]\\|\\\\d\\|-\\|\\\\\\.\\|_\\|~\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\*\\(\\[a-z\\]\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\)\\)\\\\\\.\\?\\)\\(:\\\\d\\*\\)\\?\\)\\(\\\\/\\(\\(\\(\\[a-z\\]\\|\\\\d\\|-\\|\\\\\\.\\|_\\|~\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\|\\(%\\[\\\\da-f\\]\\{2\\}\\)\\|\\[!\\\\\\$&'\\\\\\(\\\\\\)\\\\\\*\\\\\\+,;=\\]\\|:\\|@\\)\\+\\(\\\\/\\(\\(\\[a-z\\]\\|\\\\d\\|-\\|\\\\\\.\\|_\\|~\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\|\\(%\\[\\\\da-f\\]\\{2\\}\\)\\|\\[!\\\\\\$&'\\\\\\(\\\\\\)\\\\\\*\\\\\\+,;=\\]\\|:\\|@\\)\\*\\)\\*\\)\\?\\)\\?\\(\\\\\\?\\(\\(\\(\\[a-z\\]\\|\\\\d\\|-\\|\\\\\\.\\|_\\|~\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\|\\(%\\[\\\\da-f\\]\\{2\\}\\)\\|\\[!\\\\\\$&'\\\\\\(\\\\\\)\\\\\\*\\\\\\+,;=\\]\\|:\\|@\\)\\|\\[\\\\uE000-\\\\uF8FF\\]\\|\\\\/\\|\\\\\\?\\)\\*\\)\\?\\(\\\\#\\(\\(\\(\\[a-z\\]\\|\\\\d\\|-\\|\\\\\\.\\|_\\|~\\|\\[\\\\u00A0-\\\\uD7FF\\\\uF900-\\\\uFDCF\\\\uFDF0-\\\\uFFEF\\]\\)\\|\\(%\\[\\\\da-f\\]\\{2\\}\\)\\|\\[!\\\\\\$&'\\\\\\(\\\\\\)\\\\\\*\\\\\\+,;=\\]\\|:\\|@\\)\\|\\\\/\\|\\\\\\?\\)\\*\\)\\?\\$/i,
+          },
+        },
+      ],
+      "type": "string",
+    },
+    "name": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [
+        Object {
+          "name": "required",
+          "params": undefined,
+        },
+      ],
+      "type": "string",
+    },
+  },
+  "label": undefined,
+  "meta": undefined,
+  "notOneOf": Array [],
+  "oneOf": Array [],
+  "tests": Array [],
+  "type": "object",
+}
+`;
+
+exports[`EditModal container tests matches snapshot 1`] = `
+<ContextProvider
+  value={null}
+>
+  <WithFormik(ImportModal)
+    isLoading={true}
+    isValid={true}
+    onClose={[MockFunction]}
+    onSubmit={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [MockFunction],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  />
+</ContextProvider>
+`;

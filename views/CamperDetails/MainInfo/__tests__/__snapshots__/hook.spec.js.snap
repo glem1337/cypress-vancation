@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainInfo useContainer hook matches snapshot 1`] = `
+Object {
+  "camper": Object {
+    "amenities": Array [],
+    "deliveryInformation": Object {
+      "distance": 22,
+    },
+    "raiting": 100,
+    "tripFee": Object {
+      "tripFeeMileage": Object {
+        "available": 23,
+        "limit": true,
+      },
+    },
+  },
+  "deliveryDistance": 22,
+  "isOffGridCapableExist": false,
+  "milesCount": 23,
+  "milesLimited": true,
+  "ratingColors": Object {
+    "background": "background-green-300",
+    "text": "in-green-1000",
+  },
+}
+`;
+
+exports[`MainInfo useContainer hook matches snapshot with '59' rating 1`] = `
+Object {
+  "background": "background-red-1000",
+  "text": "in-red-1000",
+}
+`;
+
+exports[`MainInfo useContainer hook matches snapshot with '60' rating 1`] = `
+Object {
+  "background": "background-yellow-1000",
+  "text": "in-yellow-1000",
+}
+`;
+
+exports[`MainInfo useContainer hook matches snapshot with '79' rating 1`] = `
+Object {
+  "background": "background-yellow-1000",
+  "text": "in-yellow-1000",
+}
+`;
+
+exports[`MainInfo useContainer hook matches snapshot with '80' rating 1`] = `
+Object {
+  "background": "background-green-300",
+  "text": "in-green-300",
+}
+`;
+
+exports[`MainInfo useContainer hook matches snapshot with '89' rating 1`] = `
+Object {
+  "background": "background-green-300",
+  "text": "in-green-300",
+}
+`;
+
+exports[`MainInfo useContainer hook matches snapshot with Off grid capable system 1`] = `
+Object {
+  "camper": Object {
+    "amenities": Array [
+      Object {
+        "amenityOptions": Array [
+          Object {
+            "configurationAmenityOption": Object {
+              "title": "Off Grid Capable System",
+            },
+          },
+        ],
+        "configurationAmenity": Object {
+          "title": "Power System",
+        },
+      },
+    ],
+    "deliveryInformation": Object {
+      "distance": 22,
+    },
+    "raiting": 100,
+    "tripFee": Object {
+      "tripFeeMileage": Object {
+        "available": 23,
+        "limit": true,
+      },
+    },
+  },
+  "deliveryDistance": 22,
+  "isOffGridCapableExist": true,
+  "milesCount": 23,
+  "milesLimited": true,
+  "ratingColors": Object {
+    "background": "background-green-300",
+    "text": "in-green-1000",
+  },
+}
+`;

@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImportModal component tests matches snapshot 1`] = `
+<Modal
+  className="main-modal"
+  closable={false}
+  closeIcon={
+    <i
+      className="icon icon-cross main-close-btn"
+    />
+  }
+  footer={null}
+  maskClosable={true}
+  visible={true}
+>
+  <div
+    className="main-modal__container"
+  >
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <div
+        className="main-modal__header"
+      >
+        <h2
+          className="main-modal__title"
+        >
+          <Memo(FormattedMessage)
+            id="calendar.import.modal.title"
+          />
+        </h2>
+      </div>
+      <div
+        className="main-modal__body"
+      >
+        <Field
+          component={[Function]}
+          id="name"
+          label={
+            Object {
+              "id": "calendar.import.modal.labelName",
+            }
+          }
+          name="name"
+        />
+        <Field
+          className="mb-0"
+          component={[Function]}
+          formItemClasses="mb-0"
+          id="link"
+          label={
+            Object {
+              "id": "calendar.import.modal.labelUrl",
+            }
+          }
+          name="link"
+          type="url"
+        />
+      </div>
+      <div
+        className="main-modal__footer justify-content-flex-end"
+      >
+        <Button
+          className="mr-16"
+          disabled={false}
+          onClick={[MockFunction]}
+          size="large"
+          type="text"
+        >
+          <Memo(FormattedMessage)
+            id="shared.cancel"
+          />
+        </Button>
+        <BtnGradient
+          className="min-w-140"
+          disabled={false}
+          isLoading={false}
+          loading={false}
+          onClick={[MockFunction]}
+          size="large"
+          text={
+            Object {
+              "id": "calendar.import.modal.btn",
+            }
+          }
+        />
+      </div>
+    </ForwardRef(InternalForm)>
+  </div>
+</Modal>
+`;

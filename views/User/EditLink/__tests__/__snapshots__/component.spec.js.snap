@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserEditLink component matches snapshot with default props 1`] = `
+<Link
+  as="/users/1/edit/test"
+  href="/users/[userId]/edit/test"
+>
+  <span
+    className="icon icon-edit-pencil in-gray-600 c-pointer"
+  />
+</Link>
+`;

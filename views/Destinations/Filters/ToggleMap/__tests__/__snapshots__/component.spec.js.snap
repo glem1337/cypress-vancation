@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToggleMap component tests matches snapshot 1`] = `
+<div
+  className="d-flex align-items-center ml-auto"
+>
+  <span
+    className="mr-8"
+  >
+    <Memo(FormattedMessage)
+      id="shared.mapView"
+    />
+  </span>
+  <Switch
+    defaultChecked={true}
+    onChange={[MockFunction]}
+  />
+</div>
+`;
+
+exports[`ToggleMap component tests matches snapshot when isSearchResultsPage equals false 1`] = `""`;

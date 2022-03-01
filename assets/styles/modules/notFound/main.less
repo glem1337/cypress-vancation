@@ -1,0 +1,46 @@
+.not-found__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 16px;
+  .media-up(md; {
+    padding-top: 160px;
+    padding-bottom: 160px;
+  });
+  .media-up(lg; {
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-top: 180px;
+    padding-bottom: 180px;
+  });
+}
+
+.not-found__img {
+  width: 140px;
+  margin-bottom: 24px;
+  .media-up(md; {
+    width: 220px;
+    margin-bottom: 32px;
+  });
+  .media-up(lg; {
+    width: 410px;
+    margin-bottom: 0;
+  });
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.not-found__txt {
+  text-align: center;
+  .media-up(md; {
+    max-width: 520px;
+  });
+  .media-up(lg; {
+    text-align: left;
+    margin-right: 132px;
+  });
+}

@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResultsInfo component tests matches snapshot 1`] = `
+<div
+  className="d-flex d-md-none d-lg-flex justify-content-space-between mt-16 mt-lg-0 mb-16 "
+>
+  <div
+    className="d-none d-md-block"
+  >
+    <Link
+      href="/campervan-rental/slug"
+    >
+      <a>
+        <span
+          className="font-600 in-black"
+        >
+          state
+        </span>
+      </a>
+    </Link>
+     - location
+  </div>
+  <span
+    className="ml-auto mr-auto mr-lg-0"
+  >
+    <Memo(FormattedMessage)
+      id="campervan-rental.campersFound"
+      values={
+        Object {
+          "count": 22,
+        }
+      }
+    />
+  </span>
+</div>
+`;
+
+exports[`SearchResultsInfo component tests matches snapshot when areExisted equals false 1`] = `""`;
+
+exports[`SearchResultsInfo component tests matches snapshot when areFetched equals false 1`] = `""`;
+
+exports[`SearchResultsInfo component tests matches snapshot when isSearchResultsPage equals true 1`] = `
+<div
+  className="d-flex d-md-none d-lg-flex justify-content-space-between "
+>
+  <div
+    className="d-none d-md-block"
+  >
+    <span
+      className="font-600 in-black"
+    >
+      <Memo(FormattedMessage)
+        id="search-destination.campersNear"
+      />
+       location
+      , state
+    </span>
+  </div>
+  <span
+    className="ml-auto mr-auto mr-lg-0"
+  >
+    <Memo(FormattedMessage)
+      id="campervan-rental.campersFound"
+      values={
+        Object {
+          "count": 22,
+        }
+      }
+    />
+  </span>
+</div>
+`;
+
+exports[`SearchResultsInfo component tests matches snapshot when location does not exist 1`] = `
+<div
+  className="d-flex d-md-none d-lg-flex justify-content-space-between mt-16 mt-lg-0 mb-16 "
+>
+  <div
+    className="d-none d-md-block"
+  >
+    <Link
+      href="/campervan-rental/slug"
+    >
+      <a>
+        <span
+          className="font-600 in-black"
+        >
+          state
+        </span>
+      </a>
+    </Link>
+  </div>
+  <span
+    className="ml-auto mr-auto mr-lg-0"
+  >
+    <Memo(FormattedMessage)
+      id="campervan-rental.campersFound"
+      values={
+        Object {
+          "count": 22,
+        }
+      }
+    />
+  </span>
+</div>
+`;

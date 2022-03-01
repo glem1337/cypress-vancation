@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox component matches snapshot with default props 1`] = `
+<Checkbox
+  indeterminate={false}
+>
+  <Memo(FormattedMessage)
+    id="test.checkbox"
+  />
+</Checkbox>
+`;
+
+exports[`Checkbox component matches snapshot with string \`label\` 1`] = `
+<Checkbox
+  indeterminate={false}
+>
+  Fake label
+</Checkbox>
+`;

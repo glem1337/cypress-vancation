@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useGlamperOnly hook checks \`renderGlamperOnlyWidget\` method 1`] = `
+<React.Fragment>
+  <span
+    className="font-600 mr-12"
+  >
+    <Memo(FormattedMessage)
+      id="campervan-rental.filter.glampersOnly"
+    />
+  </span>
+  <Switch
+    checked={false}
+    onChange={[Function]}
+    size="small"
+  />
+</React.Fragment>
+`;
+
+exports[`useGlamperOnly hook matches snapshot 1`] = `
+Object {
+  "isGlamper": null,
+  "onChangeHandler": [Function],
+  "renderGlamperOnlyWidget": [Function],
+}
+`;

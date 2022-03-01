@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabItem component snapshot 1`] = `
+<Row>
+  <Col
+    className="home-ideas-next-trip__normal-item"
+    key="test.id"
+    md={8}
+    span={12}
+    xl={4}
+  >
+    <Link
+      href="test.link"
+    >
+      <a
+        className="d-inline-block mb-24"
+      >
+        <p
+          className="mb-4 text-subheader font-400"
+        >
+          test.title
+        </p>
+        <p
+          className="text-color-gray"
+        >
+          test.subtitle
+        </p>
+      </a>
+    </Link>
+  </Col>
+</Row>
+`;

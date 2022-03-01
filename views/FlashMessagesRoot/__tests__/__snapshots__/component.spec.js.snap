@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessagesRootComponent component tests matches snapshot 1`] = `
+<Fragment>
+  <Message
+    duration={3}
+    hideMessage={[MockFunction]}
+    id="1"
+    intl={
+      Object {
+        "formatMessage": [Function],
+      }
+    }
+    key="1"
+    messageTitle={Object {}}
+    messageType="success"
+  />
+</Fragment>
+`;

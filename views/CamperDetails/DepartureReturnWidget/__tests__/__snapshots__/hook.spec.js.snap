@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DepartureReturnWidget useContainer hook matches snapshot 1`] = `
+Object {
+  "calendarRef": Object {
+    "current": undefined,
+  },
+  "clearDateRange": [MockFunction],
+  "dateStrings": Object {
+    "departure": "",
+    "return": "",
+  },
+  "formatShortWeekday": [MockFunction],
+  "handlers": Object {
+    "current": Object {
+      "handleClickOutside": [Function],
+      "scrollHandler": [Function],
+    },
+  },
+  "isCalendarFetching": false,
+  "isCamperFetching": false,
+  "onActiveStartDateChange": [MockFunction],
+  "onClickHandler": [Function],
+  "onDateRangeChangeHandler": [Function],
+  "searchParams": Object {
+    "dateRange": null,
+  },
+  "tileContent": [MockFunction],
+  "tileDisabled": [MockFunction],
+  "wrapperRef": Object {
+    "current": undefined,
+  },
+}
+`;

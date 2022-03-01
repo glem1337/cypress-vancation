@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersTableHead component matches snapshot with default props 1`] = `
+<thead>
+  <tr>
+    <th />
+    <Connect(UsersTableCellHead)
+      className="employee-table__name"
+      sortKey="name"
+      text={
+        Object {
+          "id": "usersTable.name",
+        }
+      }
+    />
+    <Connect(UsersTableCellHead)
+      className="employee-table__position"
+      text={
+        Object {
+          "id": "usersTable.role",
+        }
+      }
+    />
+    <Connect(UsersTableCellHead)
+      className="employee-table__status"
+      text={
+        Object {
+          "id": "usersTable.status",
+        }
+      }
+    />
+    <th />
+  </tr>
+</thead>
+`;

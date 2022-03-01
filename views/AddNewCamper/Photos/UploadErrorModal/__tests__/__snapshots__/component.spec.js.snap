@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadErrorModal component tests matches snapshot 1`] = `
+<Modal
+  className="main-modal"
+  closeIcon={null}
+  confirmLoading={false}
+  footer={null}
+  maskClosable={false}
+  okType="primary"
+  visible={true}
+  width={520}
+>
+  <div
+    className="main-modal__container"
+  >
+    <div
+      className="main-modal__header"
+    >
+      <h2
+        className="main-modal__title"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.photo.uploadError.title"
+        />
+      </h2>
+    </div>
+    <div
+      className="main-modal__body text-align-center"
+    >
+      <img
+        alt=""
+        className="mb-md-24"
+        src="/images/Error.svg"
+      />
+      <p>
+        <Memo(FormattedMessage)
+          id="addNewCamper.photo.uploadError.subTitle"
+        />
+      </p>
+    </div>
+    <div
+      className="main-modal__footer"
+    >
+      <div
+        className="ml-auto"
+      >
+        <BtnGradient
+          className="min-w-160 ml-16"
+          isLoading={false}
+          onClick={[MockFunction]}
+          size="large"
+          text={
+            <Memo(FormattedMessage)
+              id="shared.ok"
+            />
+          }
+        />
+      </div>
+    </div>
+  </div>
+</Modal>
+`;

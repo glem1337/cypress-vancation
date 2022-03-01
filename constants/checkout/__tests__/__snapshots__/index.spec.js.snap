@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`general checkout constants match snapshot 1`] = `
+Object {
+  "CHECKOUT_ROUTE_BY_STATUS": Object {
+    "log_in": Object {
+      "KEY": "PERSONAL_INFORMATION",
+      "PATH": "/checkout/[id]/personal-information",
+    },
+    "payment": Object {
+      "KEY": "PAYMENT",
+      "PATH": "/checkout/[id]/payment",
+    },
+    "protection_plan": Object {
+      "KEY": "PROTECTION_PLAN",
+      "PATH": "/checkout/[id]/protection-plan",
+    },
+    "trip_info_extras": Object {
+      "KEY": "TRIP_INFO_AND_EXTRAS",
+      "PATH": "/checkout/[id]/trip-info-and-extras",
+    },
+  },
+  "CHECKOUT_STATUS_KEYS": Object {
+    "PAYMENT": "payment",
+    "PERSONAL_INFORMATION": "log_in",
+    "PROTECTION_PLAN": "protection_plan",
+    "TRIP_INFO_AND_EXTRAS": "trip_info_extras",
+  },
+  "CHECKOUT_STEPS": Array [
+    Object {
+      "id": "shared.personalInformation",
+    },
+    Object {
+      "id": "shared.tripInfoAndExtras",
+    },
+    Object {
+      "id": "shared.protectionPlan",
+    },
+    Object {
+      "id": "shared.payment",
+    },
+  ],
+  "CHECKOUT_STEP_BY_STATUS": Object {
+    "log_in": 0,
+    "payment": 3,
+    "protection_plan": 2,
+    "trip_info_extras": 1,
+  },
+}
+`;

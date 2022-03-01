@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AskQuestionModal component tests matches snapshot default 1`] = `
+<Modal
+  className="main-modal"
+  closable={false}
+  closeIcon={
+    <i
+      className="icon icon-cross main-close-btn"
+    />
+  }
+  footer={null}
+  maskClosable={true}
+  onClose={[MockFunction]}
+  visible={true}
+>
+  <ForwardRef(InternalForm)
+    layout="vertical"
+  >
+    <div
+      className="main-modal__container"
+    >
+      <div
+        className="main-modal__header"
+      >
+        <h2
+          className="main-modal__title"
+        >
+          <Memo(FormattedMessage)
+            id="shared.askQuestion"
+          />
+        </h2>
+      </div>
+      <div
+        className="main-modal__body"
+      >
+        <Field
+          blockedPeriods={
+            Object {
+              "2021-09-24": true,
+            }
+          }
+          component={[Function]}
+          name="dateRange"
+          onActiveStartDateChange={[MockFunction]}
+        />
+        <FormItem
+          className="mt-16 mb-0"
+        >
+          <div
+            className="main-input-textarea-wrap mb-0"
+          >
+            <Field
+              asComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                }
+              }
+              component={[Function]}
+              id="description"
+              name="description"
+              placeholder={
+                Object {
+                  "id": "shared.askQuestionName",
+                  "values": Object {
+                    "name": "Title placeholder",
+                  },
+                }
+              }
+              rows={5}
+              tooltip={
+                Object {
+                  "id": "validations.characterCurrentMax",
+                  "values": Object {
+                    "current": 11,
+                    "max": 2000,
+                  },
+                }
+              }
+            />
+          </div>
+        </FormItem>
+      </div>
+      <div
+        className="main-modal__footer"
+      >
+        <div
+          className="ml-auto"
+        >
+          <Button
+            disabled={true}
+            onClick={[MockFunction]}
+            size="large"
+            type="text"
+          >
+            <Memo(FormattedMessage)
+              id="shared.cancel"
+            />
+          </Button>
+          <BtnGradient
+            className="min-w-140 ml-16"
+            disabled={true}
+            isLoading={true}
+            onClick={[MockFunction]}
+            size="large"
+            text={
+              Object {
+                "id": "shared.send",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </ForwardRef(InternalForm)>
+</Modal>
+`;
+
+exports[`AskQuestionModal component tests matches snapshot when form invalid 1`] = `
+<Modal
+  className="main-modal"
+  closable={false}
+  closeIcon={
+    <i
+      className="icon icon-cross main-close-btn"
+    />
+  }
+  footer={null}
+  maskClosable={true}
+  onClose={[MockFunction]}
+  visible={true}
+>
+  <ForwardRef(InternalForm)
+    layout="vertical"
+  >
+    <div
+      className="main-modal__container"
+    >
+      <div
+        className="main-modal__header"
+      >
+        <h2
+          className="main-modal__title"
+        >
+          <Memo(FormattedMessage)
+            id="shared.askQuestion"
+          />
+        </h2>
+      </div>
+      <div
+        className="main-modal__body"
+      >
+        <Field
+          blockedPeriods={
+            Object {
+              "2021-09-24": true,
+            }
+          }
+          component={[Function]}
+          name="dateRange"
+          onActiveStartDateChange={[MockFunction]}
+        />
+        <FormItem
+          className="mt-16 mb-0"
+        >
+          <div
+            className="main-input-textarea-wrap mb-0"
+          >
+            <Field
+              asComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "render": [Function],
+                }
+              }
+              component={[Function]}
+              id="description"
+              name="description"
+              placeholder={
+                Object {
+                  "id": "shared.askQuestionName",
+                  "values": Object {
+                    "name": "Title placeholder",
+                  },
+                }
+              }
+              rows={5}
+              tooltip={
+                Object {
+                  "id": "validations.characterCurrentMax",
+                  "values": Object {
+                    "current": 11,
+                    "max": 2000,
+                  },
+                }
+              }
+            />
+          </div>
+        </FormItem>
+      </div>
+      <div
+        className="main-modal__footer"
+      >
+        <div
+          className="ml-auto"
+        >
+          <Button
+            disabled={true}
+            onClick={[MockFunction]}
+            size="large"
+            type="text"
+          >
+            <Memo(FormattedMessage)
+              id="shared.cancel"
+            />
+          </Button>
+          <Button
+            className="min-w-140 ml-16"
+            onClick={[MockFunction]}
+            size="large"
+          >
+            <Memo(FormattedMessage)
+              id="shared.send"
+            />
+          </Button>
+        </div>
+      </div>
+    </div>
+  </ForwardRef(InternalForm)>
+</Modal>
+`;

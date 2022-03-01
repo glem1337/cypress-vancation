@@ -1,0 +1,31 @@
+@card-offset: 16px;
+
+.chat-list__card {
+  margin: @card-offset;
+  padding: @card-offset;
+  background-color: white;
+  border-radius: @main-border-radius;
+  box-shadow: @shadow6;
+  border: 1px solid transparent;
+  transition: border-color @main-transition-duration, box-shadow @main-transition-duration;
+  cursor: pointer;
+
+  &:hover {
+    border-color: @blue1000;
+  }
+
+  &.active {
+    border-color: @blue1000;
+    box-shadow: 0 0 0 4px @box-shadow-color;
+  }
+
+  .ant-badge {
+    width: @main-avatar-size-xs;
+    height: @main-avatar-size-xs;
+  }
+
+  .ant-divider {
+    width: calc(100% + 2 * @card-offset);
+    margin: @card-offset -@card-offset;
+  }
+}

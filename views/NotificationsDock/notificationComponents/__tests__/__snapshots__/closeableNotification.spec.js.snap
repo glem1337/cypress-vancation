@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`closeableNotification matches snapshot 1`] = `
+<MockedNotification
+  closeAfterDelay={true}
+  context="context"
+  hideNotification={[MockFunction]}
+  id="id"
+  kind="success"
+  onClose={[Function]}
+/>
+`;

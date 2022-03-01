@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useDestinationPageStats hook matches snapshot 1`] = `
+Object {
+  "areCampersFetching": false,
+  "campers": Array [
+    Object {
+      "id": 1,
+    },
+  ],
+  "clearAllFilters": [Function],
+  "isAnyFilterApplied": false,
+  "isDesktopMapVisible": true,
+  "isSearchResultsPage": false,
+  "toggleDesktopMapVisibility": [Function],
+}
+`;

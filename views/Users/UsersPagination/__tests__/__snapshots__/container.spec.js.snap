@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersPagination container matches snapshot 1`] = `
+<Pagination
+  currentPage={1}
+  onChange={[Function]}
+  pageCount={10}
+/>
+`;

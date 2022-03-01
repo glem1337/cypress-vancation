@@ -1,0 +1,573 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CamperCard component tests matches snapshot 1`] = `
+<div
+  className="camper-card-preview"
+  onMouseEnter={[MockFunction]}
+  role="button"
+>
+  <div
+    className="camper-card-preview__image-wrap"
+  >
+    <div
+      className="camper-card-preview__img"
+    >
+      <Swiper
+        loop={false}
+        nested={true}
+        pagination={
+          Object {
+            "clickable": true,
+            "type": "bullets",
+          }
+        }
+        watchOverflow={true}
+      >
+        <SwiperSlide
+          key="1"
+        >
+          <img
+            alt=""
+            src="test photoUrl360"
+          />
+        </SwiperSlide>
+      </Swiper>
+    </div>
+    <div
+      className="camper-card-preview__card-tags"
+    >
+      <Tag
+        icon={
+          <i
+            className="icon icon-star-f in-red-1000"
+          />
+        }
+      >
+        <Memo(FormattedMessage)
+          id="shared.new"
+        />
+        !
+      </Tag>
+      <Tag
+        icon={
+          <i
+            className="icon icon-flash-f in-yellow-1000"
+          />
+        }
+      >
+        <Memo(FormattedMessage)
+          id="shared.instantBook"
+        />
+      </Tag>
+    </div>
+    <div
+      className="camper-card-preview__card-tag-glamper tag-glamper"
+    >
+      <img
+        alt=""
+        className="mr-4"
+        src="/images/profile/Diamond-White.svg"
+      />
+      <Memo(FormattedMessage)
+        id="shared.glamper"
+      />
+    </div>
+    <Tag
+      className="camper-card-preview__card-tag-delivery"
+      icon={
+        <i
+          className="icon icon-delivery-f in-black"
+        />
+      }
+    >
+      <Memo(FormattedMessage)
+        id="shared.delivery"
+      />
+    </Tag>
+  </div>
+  <div
+    className="camper-card-preview__bottom"
+  >
+    <div
+      className="mb-8 text-subtitle font-700 text-truncate"
+    >
+      test
+    </div>
+    <div
+      className="mb-16"
+    >
+      <p
+        className="text-uppercase"
+      >
+        Modern Van in Arkansas
+      </p>
+      <p
+        className="text-uppercase"
+      >
+        Vasya Clair Weimann
+      </p>
+    </div>
+    <div
+      className="d-flex align-items-center"
+    >
+      <div>
+        <i
+          className="icon icon-bed in-gray-500 mr-12"
+        />
+        <span
+          className="mr-4"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.camperDetails.form.sleeps"
+          />
+        </span>
+        <span
+          className="in-black"
+        >
+          1
+        </span>
+      </div>
+      <div
+        className="mr-8 ml-8"
+      >
+        •
+      </div>
+      <div>
+        <i
+          className="icon icon-seats in-gray-500 mr-12"
+        />
+        <span
+          className="mr-4"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.camperDetails.form.seats"
+          />
+        </span>
+        <span
+          className="in-black"
+        >
+          1
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex align-items-flex-end justify-content-space-between mt-auto"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <img
+          alt=""
+          src="/images/listing/Like-Green.svg"
+        />
+        <span
+          className="text-subheader font-700 in-green-300 mr-4"
+        >
+          100%
+        </span>
+      </div>
+      <div
+        className="in-black"
+      >
+        <span
+          className="mr-4 text-title"
+        >
+          $0
+        </span>
+        <span>
+          / night
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CamperCard component tests matches snapshot when camperPhotos length equals more than one 1`] = `
+<div
+  className="camper-card-preview"
+  onMouseEnter={[MockFunction]}
+  role="button"
+>
+  <div
+    className="camper-card-preview__image-wrap"
+  >
+    <div
+      className="camper-card-preview__img"
+    >
+      <Swiper
+        loop={true}
+        nested={true}
+        pagination={
+          Object {
+            "clickable": true,
+            "type": "bullets",
+          }
+        }
+        watchOverflow={true}
+      >
+        <SwiperSlide
+          key="1"
+        >
+          <img
+            alt=""
+            src="test photoUrl360"
+          />
+        </SwiperSlide>
+        <SwiperSlide
+          key="2"
+        >
+          <img
+            alt=""
+            src="test photoUrl360"
+          />
+        </SwiperSlide>
+      </Swiper>
+      <Button
+        className="swiper-nav-btn swiper-nav-btn-prev"
+        icon={
+          <i
+            className="icon icon-left font-12"
+          />
+        }
+        onClick={[MockFunction]}
+        shape="circle"
+        size="small"
+      />
+      <Button
+        className="swiper-nav-btn swiper-nav-btn-next"
+        icon={
+          <i
+            className="icon icon-right font-12"
+          />
+        }
+        onClick={[MockFunction]}
+        shape="circle"
+        size="small"
+      />
+    </div>
+    <div
+      className="camper-card-preview__card-tags"
+    >
+      <Tag
+        icon={
+          <i
+            className="icon icon-star-f in-red-1000"
+          />
+        }
+      >
+        <Memo(FormattedMessage)
+          id="shared.new"
+        />
+        !
+      </Tag>
+      <Tag
+        icon={
+          <i
+            className="icon icon-flash-f in-yellow-1000"
+          />
+        }
+      >
+        <Memo(FormattedMessage)
+          id="shared.instantBook"
+        />
+      </Tag>
+    </div>
+    <div
+      className="camper-card-preview__card-tag-glamper tag-glamper"
+    >
+      <img
+        alt=""
+        className="mr-4"
+        src="/images/profile/Diamond-White.svg"
+      />
+      <Memo(FormattedMessage)
+        id="shared.glamper"
+      />
+    </div>
+    <Tag
+      className="camper-card-preview__card-tag-delivery"
+      icon={
+        <i
+          className="icon icon-delivery-f in-black"
+        />
+      }
+    >
+      <Memo(FormattedMessage)
+        id="shared.delivery"
+      />
+    </Tag>
+  </div>
+  <div
+    className="camper-card-preview__bottom"
+  >
+    <div
+      className="mb-8 text-subtitle font-700 text-truncate"
+    >
+      test
+    </div>
+    <div
+      className="mb-16"
+    >
+      <p
+        className="text-uppercase"
+      >
+        Modern Van in Arkansas
+      </p>
+      <p
+        className="text-uppercase"
+      >
+        Vasya Clair Weimann
+      </p>
+    </div>
+    <div
+      className="d-flex align-items-center"
+    >
+      <div>
+        <i
+          className="icon icon-bed in-gray-500 mr-12"
+        />
+        <span
+          className="mr-4"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.camperDetails.form.sleeps"
+          />
+        </span>
+        <span
+          className="in-black"
+        >
+          1
+        </span>
+      </div>
+      <div
+        className="mr-8 ml-8"
+      >
+        •
+      </div>
+      <div>
+        <i
+          className="icon icon-seats in-gray-500 mr-12"
+        />
+        <span
+          className="mr-4"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.camperDetails.form.seats"
+          />
+        </span>
+        <span
+          className="in-black"
+        >
+          1
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex align-items-flex-end justify-content-space-between mt-auto"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <img
+          alt=""
+          src="/images/listing/Like-Green.svg"
+        />
+        <span
+          className="text-subheader font-700 in-green-300 mr-4"
+        >
+          100%
+        </span>
+      </div>
+      <div
+        className="in-black"
+      >
+        <span
+          className="mr-4 text-title"
+        >
+          $0
+        </span>
+        <span>
+          / night
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CamperCard component tests matches snapshot when areCampersFetching 1`] = `
+<div
+  className="camper-card-preview"
+>
+  <div
+    className="camper-card-preview__image-wrap"
+  >
+    <div
+      className="camper-card-preview__img camper-card-preview__img-skeleton"
+    >
+      <Skeleton
+        active={true}
+        avatar={false}
+        paragraph={true}
+        title={true}
+      />
+    </div>
+  </div>
+  <div
+    className="camper-card-preview__bottom"
+  >
+    <div
+      className="mb-8 text-subtitle font-700 text-truncate"
+    >
+      test
+    </div>
+    <div
+      className="mb-16"
+    >
+      <p
+        className="text-uppercase"
+      >
+        Modern Van in Arkansas
+      </p>
+      <p
+        className="text-uppercase"
+      >
+        Vasya Clair Weimann
+      </p>
+    </div>
+    <div
+      className="d-flex align-items-center"
+    >
+      <div>
+        <i
+          className="icon icon-bed in-gray-500 mr-12"
+        />
+        <span
+          className="mr-4"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.camperDetails.form.sleeps"
+          />
+        </span>
+        <span
+          className="in-black"
+        >
+          1
+        </span>
+      </div>
+      <div
+        className="mr-8 ml-8"
+      >
+        •
+      </div>
+      <div>
+        <i
+          className="icon icon-seats in-gray-500 mr-12"
+        />
+        <span
+          className="mr-4"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.camperDetails.form.seats"
+          />
+        </span>
+        <span
+          className="in-black"
+        >
+          1
+        </span>
+      </div>
+    </div>
+    <div
+      className="d-flex align-items-flex-end justify-content-space-between mt-auto"
+    >
+      <div
+        className="d-flex align-items-center"
+      >
+        <img
+          alt=""
+          src="/images/listing/Like-Green.svg"
+        />
+        <span
+          className="text-subheader font-700 in-green-300 mr-4"
+        >
+          100%
+        </span>
+      </div>
+      <div
+        className="in-black"
+      >
+        <span
+          className="mr-4 text-title"
+        >
+          $0
+        </span>
+        <span>
+          / night
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CamperCard component tests when camperData.isHighDemand equals true 1`] = `
+<div
+  className="camper-card-preview__card-tags"
+>
+  <Tag
+    icon={
+      <i
+        className="icon icon-star-f in-red-1000"
+      />
+    }
+  >
+    <Memo(FormattedMessage)
+      id="shared.new"
+    />
+    !
+  </Tag>
+  <Tag
+    icon={
+      <i
+        className="icon icon-flash-f in-yellow-1000"
+      />
+    }
+  >
+    <Memo(FormattedMessage)
+      id="shared.instantBook"
+    />
+  </Tag>
+</div>
+`;
+
+exports[`CamperCard component tests when camperData.isHighDemand equals true 2`] = `
+<div
+  className="camper-card-preview__card-tags"
+>
+  <Tag
+    icon={
+      <i
+        className="icon icon-star-f in-red-1000"
+      />
+    }
+  >
+    <Memo(FormattedMessage)
+      id="shared.new"
+    />
+    !
+  </Tag>
+  <Tag
+    icon={
+      <i
+        className="icon icon-long-up in-black"
+      />
+    }
+  >
+    <Memo(FormattedMessage)
+      id="shared.highDemand"
+    />
+  </Tag>
+</div>
+`;

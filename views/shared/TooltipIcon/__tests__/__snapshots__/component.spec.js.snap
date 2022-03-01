@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TooltipIcon component tests matches snapshot 1`] = `
+<Tooltip
+  className={null}
+  icon={
+    <i
+      className="icon main-tooltip-icon icon-info"
+    />
+  }
+  isShown={true}
+  on={
+    Array [
+      "hover",
+      "click",
+    ]
+  }
+  overlayClassName="main-tooltip"
+  placement="top"
+  transitionName=""
+>
+  example
+</Tooltip>
+`;

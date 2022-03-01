@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListingPhotos container tests checks \`checkMainButtonVisibility\` instance method 1`] = `
+<div
+  id="camper-photo__sortable-section"
+>
+  
+      
+  <div
+    class="camper-photo__uploaded-item"
+    id="a7fdb017-edaa-460a-9080-9ae188fcb29e"
+  >
+    
+          
+    <div
+      class="camper-photo__delete-icon-wrapper"
+      role="button"
+    />
+    
+          
+    <div
+      class="camper-photo__main-label camper-photo__main-label--visible"
+    >
+      Main
+    </div>
+    
+      
+  </div>
+  
+      
+  <div
+    class="camper-photo__uploaded-item"
+    id="651a8073-50c9-4d5a-ad55-9c1e1f8e872e"
+  >
+    
+        
+    <img
+      alt=""
+      class="camper-photo__uploaded-image"
+      src="..."
+      srl_elementid="1"
+    />
+    
+        
+    <div
+      class="camper-photo__delete-icon-wrapper"
+      role="button"
+    />
+    
+        
+    <div
+      class="camper-photo__main-label"
+    >
+      Main
+    </div>
+    
+      
+  </div>
+  
+      
+  <div
+    class="camper-photo__upload-button"
+    id="camper-photo__upload-button"
+    role="button"
+  >
+    
+        
+    <div
+      class="camper-photo__upload-inner-wrapper"
+    >
+      
+          
+      <div
+        class="camper-photo__upload-text"
+      >
+        Upload Image
+      </div>
+      
+        
+    </div>
+    
+      
+  </div>
+  
+    
+</div>
+`;
+
+exports[`ListingPhotos container tests checks \`checkUploadButtonPosition\` instance method when sort container exists with children 1`] = `
+<div
+  id="camper-photo__sortable-section"
+>
+  <div
+    id="test"
+  >
+    2
+  </div>
+  <div
+    id="camper-photo__upload-button"
+  >
+    1
+  </div>
+</div>
+`;
+
+exports[`ListingPhotos container tests checks \`checkUploadButtonPosition\` instance method when sort container exists without children 1`] = `
+<div
+  id="camper-photo__sortable-section"
+/>
+`;
+
+exports[`ListingPhotos container tests matches snapshot 1`] = `
+<ListingPhotos
+  camperId="camperId"
+  camperPhotos={
+    Array [
+      Object {
+        "camper": Object {
+          "id": "0aebbaa8-5006-483b-962c-82fe01ed581f",
+          "status": "draft",
+        },
+        "id": 1,
+        "mainPhoto": true,
+        "photo": "http://.../uploads/store/camperphoto",
+      },
+      Object {
+        "camper": Object {
+          "id": "0aebbaa8-5006-483b-962c-82fe01ed581f",
+          "status": "draft",
+        },
+        "id": 2,
+        "mainPhoto": false,
+        "photo": "http://.../uploads/store/camperphoto",
+      },
+    ]
+  }
+  createBatchCamperPhotos={[Function]}
+  dataApiSuccess={[Function]}
+  dataDelete={[Function]}
+  deleteCamperPhoto={[Function]}
+  deletePhoto={[Function]}
+  dropzoneRef={
+    Object {
+      "current": null,
+    }
+  }
+  handleSubmit={[Function]}
+  hideModal={[Function]}
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+  isCamperExist={true}
+  isLoading={false}
+  leavePagePrepare={[Function]}
+  onDropHandler={[Function]}
+  onDropRejected={[Function]}
+  photos={
+    Array [
+      Object {
+        "camper": Object {
+          "id": "0aebbaa8-5006-483b-962c-82fe01ed581f",
+          "status": "draft",
+        },
+        "id": 1,
+        "mainPhoto": true,
+        "photo": "http://.../uploads/store/camperphoto",
+      },
+      Object {
+        "camper": Object {
+          "id": "0aebbaa8-5006-483b-962c-82fe01ed581f",
+          "status": "draft",
+        },
+        "id": 2,
+        "mainPhoto": false,
+        "photo": "http://.../uploads/store/camperphoto",
+      },
+    ]
+  }
+  router={
+    Object {
+      "push": [MockFunction],
+      "query": Object {
+        "main": "mainPhoto",
+      },
+      "replace": [MockFunction],
+    }
+  }
+  showMessage={[Function]}
+  showModal={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "logicMiddleware": Object {
+        "whenComplete": [MockFunction],
+      },
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  uploadPhotos={[Function]}
+/>
+`;

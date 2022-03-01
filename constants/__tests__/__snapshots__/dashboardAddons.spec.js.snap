@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dashboard addons constants matches snapshot 1`] = `
+Object {
+  "CUSTOM_DESCRIPTION_MAX_TEXT_LENGTH": 255,
+  "DESCRIPTION_MAX_TEXT_LENGTH": 50,
+  "MAX_AMOUNT_VALIDATIONS": Object {
+    "MAX": 20,
+    "MIN": 1,
+  },
+  "PRICE_MAX_VALUE": 1000,
+  "PRICE_UNIT_OPTIONS": Array [
+    Object {
+      "label": Object {
+        "id": "shared.each",
+      },
+      "value": "each",
+    },
+    Object {
+      "label": Object {
+        "id": "shared.perDay",
+      },
+      "value": "per day",
+    },
+  ],
+  "PRICE_UNIT_TYPES": Object {
+    "EACH": "each",
+    "PER_DAY": "per day",
+  },
+}
+`;

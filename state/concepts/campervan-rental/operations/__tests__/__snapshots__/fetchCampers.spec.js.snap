@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetchCampers has valid attributes 1`] = `
+Object {
+  "cancelType": undefined,
+  "debounce": 1000,
+  "latest": true,
+  "name": undefined,
+  "process": [Function],
+  "processOptions": Object {
+    "dispatchMultiple": true,
+  },
+  "throttle": 0,
+  "transform": undefined,
+  "type": "campervan-rentals/FETCH_CAMPERS",
+  "validate": undefined,
+  "warnTimeout": 60000,
+}
+`;

@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Options component tests matches snapshot 1`] = `
+<Fragment
+  key="1"
+>
+  <Col
+    span={24}
+  >
+    <div
+      className="d-flex align-items-center mb-20"
+    >
+      <Field
+        asComponent={[Function]}
+        component={[Function]}
+        name="amenities[1]configurationAmenityOptions[0]state"
+      />
+      <img
+        alt=""
+        className="mr-12 ml-12"
+      />
+      <span>
+        title
+      </span>
+      <TooltipIcon
+        iconClass="icon-info-f font-24"
+        phrase="tooltip"
+      />
+    </div>
+  </Col>
+</Fragment>
+`;
+
+exports[`Options component tests when items configurationSubAmenities present and state === true 1`] = `
+<Fragment
+  key="1"
+>
+  <Col
+    span={24}
+  >
+    <div
+      className="d-flex align-items-center mb-20"
+    >
+      <Field
+        asComponent={[Function]}
+        component={[Function]}
+        name="amenities[1]configurationAmenityOptions[0]state"
+      />
+      <img
+        alt=""
+        className="mr-12 ml-12"
+      />
+      <span>
+        title
+      </span>
+      <TooltipIcon
+        iconClass="icon-info-f font-24"
+        phrase="tooltip"
+      />
+    </div>
+  </Col>
+  <Col
+    key="1"
+    lg={6}
+    md={8}
+  >
+    <FormItem>
+      <Field
+        asComponent={[Function]}
+        component={[Function]}
+        name="amenities[1]configurationAmenityOptions[0]configurationSubAmenities[0]state"
+        title="title"
+        tooltip="tooltip"
+      />
+    </FormItem>
+  </Col>
+</Fragment>
+`;

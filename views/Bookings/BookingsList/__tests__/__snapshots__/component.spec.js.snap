@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookingsList component tests matches snapshot 1`] = `
+<div
+  className="chat-list chat-list--scrolled"
+>
+  <div
+    className="chat-list__header"
+  >
+    <div
+      className="d-flex align-items-center mr-auto"
+    >
+      <p
+        className="text-headline mr-8"
+      >
+        <Memo(FormattedMessage)
+          id="shared.inbox"
+        />
+      </p>
+      <span
+        className="main-account-header__item-counter"
+      >
+        2
+      </span>
+    </div>
+    <div>
+      <Button
+        className="chat-list-filter-btn"
+        icon={
+          <i
+            className="icon icon-search"
+          />
+        }
+        onClick={[MockFunction]}
+        size="small"
+      />
+      <div
+        className="chat-list__search-input chat-list__search-input--open"
+      >
+        <Input
+          allowClear={true}
+          prefix={
+            <i
+              className="icon icon-search"
+            />
+          }
+          type="text"
+        />
+        <Button
+          className="chat-list__search-input-btn"
+          icon={
+            <i
+              className="icon icon-cross in-gray-500"
+            />
+          }
+          onClick={[MockFunction]}
+          size="large"
+        />
+      </div>
+      <Button
+        className="chat-list-filter-btn"
+        icon={
+          <i
+            className="icon icon-filter"
+          />
+        }
+        size="small"
+      />
+    </div>
+  </div>
+  <div>
+    <BookingCard
+      id={1}
+      isFirst={true}
+      key="1"
+    />
+    <BookingCard
+      id={2}
+      isFirst={false}
+      key="2"
+    />
+    <div
+      className="d-flex flex-column align-items-flex-end mt-24 mr-20 mt-md-40"
+    >
+      <Pagination
+        current={1}
+        onChange={[MockFunction]}
+        pageSize={20}
+        showSizeChanger={false}
+        total={22}
+      />
+    </div>
+  </div>
+</div>
+`;

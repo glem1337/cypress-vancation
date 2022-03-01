@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserSidebar component matches snapshot when activeCategory: null 1`] = `
+<nav
+  className="main-nav"
+>
+  <ul
+    className="main-nav__list"
+  >
+    <li
+      className="main-nav__item"
+    >
+      <Link
+        href="#"
+      >
+        <a
+          className="main-nav__item-link"
+        >
+          <i
+            className="main-nav__item-link-icon icon icon-calendar-o"
+          />
+          <span
+            className="main-nav__item-link-name"
+          >
+            <Memo(FormattedMessage)
+              id="sidebar.example"
+            />
+          </span>
+        </a>
+      </Link>
+    </li>
+    <li
+      className="main-nav__item"
+    >
+      <Link
+        href="#"
+      >
+        <a
+          className="main-nav__item-link"
+        >
+          <i
+            className="main-nav__item-link-icon icon icon-group-o"
+          />
+          <span
+            className="main-nav__item-link-name"
+          >
+            <Memo(FormattedMessage)
+              id="sidebar.example"
+            />
+          </span>
+        </a>
+      </Link>
+    </li>
+  </ul>
+</nav>
+`;

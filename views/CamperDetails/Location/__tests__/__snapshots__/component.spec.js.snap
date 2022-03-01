@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Location component tests matches snapshot 1`] = `
+<div
+  className="d-flex flex-column"
+  id="details-location"
+>
+  <div
+    className="container w-100"
+  >
+    <Row>
+      <Col
+        span={24}
+      >
+        <div
+          className="d-md-flex justify-content-space-between mb-24"
+        >
+          <p
+            className="text-headline mb-16 mb-md-0 font-700"
+          >
+            <Memo(FormattedMessage)
+              id="shared.location"
+            />
+          </p>
+          <div
+            className="d-flex align-items-center"
+          >
+            <img
+              alt=""
+              className="mr-12"
+              src="/images/listing/Modern-Van.svg"
+            />
+            <p
+              className="font-600"
+            >
+              vehicleTypeName
+               in 
+              <span
+                className="in-blue-1000"
+              >
+                Place
+              </span>
+            </p>
+          </div>
+        </div>
+      </Col>
+    </Row>
+  </div>
+  <ForwardRef
+    altitude={1.5}
+    asyncRender={false}
+    attributionControl={true}
+    bearing={0}
+    className=""
+    container={<body />}
+    disableTokenWarning={false}
+    height="400px"
+    latitude={1}
+    longitude={2}
+    mapOptions={Object {}}
+    mapStyle="mapbox://styles/mapbox/streets-v11"
+    mapboxApiAccessToken="pk.askdaklsmdaslkndkjnUYYHiYSI6ImNrbm5xbzN4cTExMGasdasdasdasdlklmjUUHYHUYBYNUIUOI"
+    mapboxApiUrl="https://api.mapbox.com"
+    onError={[Function]}
+    onLoad={[Function]}
+    onResize={[Function]}
+    pitch={0}
+    preserveDrawingBuffer={false}
+    preventStyleDiffing={false}
+    reuseMaps={false}
+    style={null}
+    visibilityConstraints={
+      Object {
+        "maxPitch": 85,
+        "maxZoom": 24,
+        "minPitch": 0,
+        "minZoom": 0,
+      }
+    }
+    visible={true}
+    width="100%"
+    zoom={5}
+  >
+    <Memo(Marker)
+      latitude={1}
+      longitude={2}
+      offsetLeft={-32}
+      offsetTop={-32}
+    >
+      <div
+        className="main-listing-delivery__mapbox__marker"
+      >
+        <img
+          alt="camper-type"
+          src="vehicleTypeIconUrl"
+          width={30}
+        />
+      </div>
+    </Memo(Marker)>
+    <Source
+      data={
+        Object {
+          "id": 1,
+        }
+      }
+      id="delivery-camper"
+      type="geojson"
+    >
+      <Layer
+        id="delivery-camper-layer"
+        paint={
+          Object {
+            "fill-color": "rgba(0,165,181,0.38)",
+          }
+        }
+        type="fill"
+      />
+    </Source>
+  </ForwardRef>
+</div>
+`;
+
+exports[`Location component tests matches snapshot without coordinates 1`] = `""`;

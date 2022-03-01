@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChooseDestinationWidget container tests checks \`destinations\` instance getter when destinationsFromMapBox does not present 1`] = `
+Array [
+  Object {
+    "id": "shared.exploreCampervansNearYour",
+    "latitude": null,
+    "longitude": null,
+    "placeId": undefined,
+    "placeName": "{Translation id: shared.exploreCampervansNearYour}",
+    "searchRadius": 120,
+    "type": "mapbox_feature",
+  },
+  Object {
+    "id": "shared.explorePopularDestinations",
+    "type": "shared.explorePopularDestinations",
+  },
+  Object {
+    "id": 1,
+  },
+]
+`;
+
+exports[`ChooseDestinationWidget container tests checks \`destinations\` instance getter when destinationsFromMapBox present 1`] = `
+Array [
+  Object {
+    "id": 2,
+  },
+  Object {
+    "id": "mapbox",
+  },
+]
+`;
+
+exports[`ChooseDestinationWidget container tests checks \`destinations\` instance getter when is loading 1`] = `
+Array [
+  Object {
+    "id": "loader",
+    "type": "loader",
+  },
+]
+`;
+
+exports[`ChooseDestinationWidget container tests checks \`formatShortWeekday\` instance method 1`] = `"Su"`;
+
+exports[`ChooseDestinationWidget container tests checks \`listHeight\` instance getter when destinationsFromMapBox does not present 1`] = `198`;
+
+exports[`ChooseDestinationWidget container tests checks \`listHeight\` instance getter when destinationsFromMapBox present 1`] = `132`;
+
+exports[`ChooseDestinationWidget container tests checks \`tileContent\` instance method 1`] = `
+<div
+  className="choose-destination__calendar-cell"
+>
+  <div
+    className="choose-destination__calendar-inner-cell"
+  >
+    20
+  </div>
+</div>
+`;
+
+exports[`ChooseDestinationWidget container tests matches snapshot 1`] = `
+<ChooseDestinationWidgetComponent
+  chooseDestinationRef={
+    Object {
+      "current": null,
+    }
+  }
+  chooseRangeRef={
+    Object {
+      "current": null,
+    }
+  }
+  clearDateRange={[Function]}
+  clearDestinations={[Function]}
+  currentCoordinates={
+    Object {
+      "isLocationRequested": true,
+      "latitude": null,
+      "longitude": null,
+    }
+  }
+  currentLocation={
+    Object {
+      "latitude": null,
+      "longitude": null,
+    }
+  }
+  currentLocationError={[Function]}
+  currentLocationSuccess={[Function]}
+  dateRange={null}
+  destinationValue={null}
+  destinations={
+    Array [
+      Object {
+        "id": "loader",
+        "type": "loader",
+      },
+    ]
+  }
+  destinationsByCoords={
+    Array [
+      Object {
+        "id": 1,
+      },
+    ]
+  }
+  destinationsByQuery={
+    Array [
+      Object {
+        "id": 2,
+      },
+    ]
+  }
+  destinationsFromMapBox={
+    Array [
+      Object {
+        "id": 3,
+      },
+    ]
+  }
+  focusOnMount={false}
+  formatShortWeekday={[Function]}
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+  isFetchingByCoords={true}
+  isFetchingByQuery={true}
+  isMobile={false}
+  isPairMonthVisible={true}
+  isRangePickerVisible={false}
+  listHeight={132}
+  onDateRangeChanged={[Function]}
+  onDestinationsChange={[Function]}
+  onDestinationsFocus={[Function]}
+  onDestinationsSearch={[Function]}
+  onMobileSelectFocus={[Function]}
+  onRangeFocus={[Function]}
+  onRangeInputChange={[Function]}
+  rangeInputValue={null}
+  router={
+    Object {
+      "push": [MockFunction],
+      "replace": [MockFunction],
+    }
+  }
+  searchDestination={[Function]}
+  searchDestinationParams={
+    Object {
+      "dateRange": null,
+      "location": null,
+      "locationIntent": Object {
+        "id": 1,
+      },
+    }
+  }
+  searchDestinations={[Function]}
+  searchDestinationsByCoordinates={[Function]}
+  searchDestinationsByQuery={[Function]}
+  setDestinationsMapBoxIds={[Function]}
+  setSearchDestinationDates={[Function]}
+  setSearchDestinationLocationIntent={[Function]}
+  size="large"
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  tileContent={[Function]}
+  tileDisabled={[Function]}
+/>
+`;

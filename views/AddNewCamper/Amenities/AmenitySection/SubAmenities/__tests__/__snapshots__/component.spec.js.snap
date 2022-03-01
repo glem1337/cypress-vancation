@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubAmenities component tests matches snapshot 1`] = `
+<Col
+  key="1"
+  lg={6}
+  md={8}
+>
+  <FormItem>
+    <Field
+      asComponent={[Function]}
+      component={[Function]}
+      name="amenities[1]configurationSubAmenities[0]state"
+      title="King Bed"
+    />
+  </FormItem>
+</Col>
+`;
+
+exports[`SubAmenities component tests when item maxQuantity !== 0 1`] = `
+<Col
+  key="1"
+  lg={12}
+  md={12}
+>
+  <FormItem>
+    <Field
+      asComponent={[Function]}
+      component={[Function]}
+      name="amenities[1]configurationSubAmenities[0]state"
+      title="King Bed"
+    >
+      <Field
+        component={[Function]}
+        max={10}
+        min={1}
+        name="amenities[1]configurationSubAmenities[0]quantity"
+        onMaxValueTrigger={[MockFunction]}
+      />
+    </Field>
+  </FormItem>
+</Col>
+`;
+
+exports[`SubAmenities component tests when items isn\`t present 1`] = `""`;

@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchSectionComponent component tests matches snapshot 1`] = `
+<div
+  className="choose-destination__search-section"
+>
+  <div
+    className="choose-destination__start-search-wrapper"
+  >
+    <Input
+      className="choose-destination__start-search"
+      onFocus={[MockFunction]}
+      placeholder="{Translation id: shared.startYourSearch}"
+      prefix={
+        <i
+          className="icon icon-search in-gray-500"
+        />
+      }
+      type="text"
+    />
+    <Button
+      className="main-btn--gradient ant-btn-icon-only choose-destination__start-search-button"
+      icon={
+        <i
+          className="icon icon-search font-20"
+        />
+      }
+      shape="circle"
+      size="small"
+    >
+      <span
+        className="main-btn__gradient-inner"
+      />
+    </Button>
+  </div>
+  <withGeolocationRequest(Connect(injectIntl(withRouter(ChooseDestinationWidget))))
+    focusOnMount={true}
+    size="small"
+  />
+</div>
+`;
+
+exports[`SearchSectionComponent component tests matches snapshot when isChooseDestinationVisible equals false 1`] = `
+<div
+  className="choose-destination__search-section"
+>
+  <div
+    className="choose-destination__start-search-wrapper"
+  >
+    <Input
+      className="choose-destination__start-search"
+      onFocus={[MockFunction]}
+      placeholder="{Translation id: shared.startYourSearch}"
+      prefix={
+        <i
+          className="icon icon-search in-gray-500"
+        />
+      }
+      type="text"
+    />
+    <Button
+      className="main-btn--gradient ant-btn-icon-only choose-destination__start-search-button"
+      icon={
+        <i
+          className="icon icon-search font-20"
+        />
+      }
+      shape="circle"
+      size="small"
+    >
+      <span
+        className="main-btn__gradient-inner"
+      />
+    </Button>
+  </div>
+</div>
+`;

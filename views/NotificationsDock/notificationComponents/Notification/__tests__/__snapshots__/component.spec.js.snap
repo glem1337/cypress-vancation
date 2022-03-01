@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification component matches snapshot when isCloseable is false 1`] = `
+<Alert
+  className="notification-list__item"
+  hasNoIcon={false}
+  isDiscardable={false}
+  message={
+    Object {
+      "id": "some.value",
+    }
+  }
+  onDiscard={[MockFunction]}
+  type="error"
+/>
+`;
+
+exports[`Notification component matches snapshot with "error" kind 1`] = `
+<Alert
+  className="notification-list__item"
+  hasNoIcon={false}
+  isDiscardable={true}
+  message={
+    Object {
+      "id": "some.value",
+    }
+  }
+  onDiscard={[MockFunction]}
+  type="error"
+/>
+`;
+
+exports[`Notification component matches snapshot with "success" kind 1`] = `
+<Alert
+  className="notification-list__item"
+  hasNoIcon={false}
+  isDiscardable={true}
+  message={
+    Object {
+      "id": "some.value",
+    }
+  }
+  onDiscard={[MockFunction]}
+  type="success"
+/>
+`;

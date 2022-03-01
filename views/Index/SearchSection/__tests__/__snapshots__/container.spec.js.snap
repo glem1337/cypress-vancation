@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchSection container tests matches snapshot 1`] = `
+<SearchSectionComponent
+  destinationsInputRef={Object {}}
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+  isChooseDestinationVisible={true}
+  isStartInputVisible={true}
+  onStartInputFocus={[MockFunction]}
+/>
+`;

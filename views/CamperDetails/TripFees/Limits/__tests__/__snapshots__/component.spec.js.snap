@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Limits component tests matches snapshot 1`] = `
+<Col
+  className="mb-24 mb-md-0"
+  md={12}
+>
+  <p
+    className="text-headline mb-24"
+  >
+    <Memo(FormattedMessage)
+      id="camperDetails.tripFees.limits.title"
+    />
+  </p>
+  <div
+    className="d-flex align-items-center mb-10"
+  >
+    <img
+      alt=""
+      className="mr-10"
+      src="/images/edit_listing/rules/Allow-Unlimited-Miles.svg"
+    />
+    <p
+      className="text-subheader font-700 text-capitalize"
+    >
+      <Memo(FormattedMessage)
+        id="shared.miles"
+      />
+      :
+    </p>
+  </div>
+  <ul
+    className="van-details__dotted-list pl-10 pl-md-40 mb-24"
+  >
+    <li
+      className="in-black"
+    >
+      1
+       
+      <Memo(FormattedMessage)
+        id="camperDetails.tripFees.miles.perDay"
+      />
+    </li>
+    <li
+      className="in-black"
+    >
+      <Memo(FormattedMessage)
+        id="camperDetails.tripFees.miles.overage"
+        values={
+          Object {
+            "cost": "$2",
+          }
+        }
+      />
+    </li>
+  </ul>
+  <div
+    className="d-flex align-items-center mb-10"
+  >
+    <i
+      className="icon icon-flash-f mr-10 in-black"
+    />
+    <p
+      className="text-subheader font-700"
+    >
+      <Memo(FormattedMessage)
+        id="camperDetails.tripFees.generator.title"
+      />
+      :
+    </p>
+  </div>
+  <ul
+    className="van-details__dotted-list pl-10 pl-md-40"
+  >
+    <li
+      className="in-black"
+    >
+      3
+       
+      <Memo(FormattedMessage)
+        id="camperDetails.tripFees.generator.perDay"
+      />
+    </li>
+    <li
+      className="in-black"
+    >
+      <Memo(FormattedMessage)
+        id="camperDetails.tripFees.generator.overage"
+        values={
+          Object {
+            "cost": "$4",
+          }
+        }
+      />
+    </li>
+  </ul>
+</Col>
+`;

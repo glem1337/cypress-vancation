@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseDiscount container tests checks mapPropsToValues configs 1`] = `
+Object {
+  "costPerNight": 280,
+  "costomizialeNightCost": false,
+  "monthlyDiscount": true,
+  "monthlyDiscountPercent": "",
+  "weekNightPrice": Object {
+    "friday_price": "320",
+    "monday_price": "250",
+    "saturday_price": "320",
+    "sunday_price": "250",
+    "thursday_price": "250",
+    "tuesday_price": "250",
+    "wednesday_price": "250",
+  },
+  "weeklyDiscount": true,
+  "weeklyDiscountPercent": "",
+}
+`;
+
+exports[`BaseDiscount container tests has validation schema 1`] = `
+Object {
+  "fields": Object {
+    "monthlyDiscountPercent": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [],
+      "type": "number",
+    },
+    "weeklyDiscountPercent": Object {
+      "label": undefined,
+      "meta": undefined,
+      "notOneOf": Array [],
+      "oneOf": Array [],
+      "tests": Array [],
+      "type": "number",
+    },
+  },
+  "label": undefined,
+  "meta": undefined,
+  "notOneOf": Array [],
+  "oneOf": Array [],
+  "tests": Array [],
+  "type": "object",
+}
+`;
+
+exports[`BaseDiscount container tests matches snapshot 1`] = `
+<BaseDiscountComponent
+  checkOpenedState={[MockFunction]}
+  closeAllPopovers={[MockFunction]}
+  closePopover={[MockFunction]}
+  closePopoversAndBack={[MockFunction]}
+  closePopoversAndSave={[MockFunction]}
+  enableReinitialize={true}
+  handleSubmit={[Function]}
+  isBackPopoverVisible={false}
+  isDiscardPopoverVisible={false}
+  isLoading={true}
+  isOpened={false}
+  isRange={false}
+  isSavePopoverVisible={false}
+  isSubmitting={false}
+  isValid={true}
+  mapPropsToValues={[Function]}
+  monthlyDiscountPercentPrice={NaN}
+  onSubmit={[Function]}
+  pricingInfo={
+    Object {
+      "costPerNight": 280,
+      "costomizialeNightCost": false,
+      "minimalNightStay": "2",
+      "monthlyDiscount": false,
+      "monthlyDiscountPercent": 33,
+      "weekNightPrice": Object {
+        "friday_price": "320",
+        "monday_price": "250",
+        "saturday_price": "320",
+        "sunday_price": "250",
+        "thursday_price": "250",
+        "tuesday_price": "250",
+        "wednesday_price": "250",
+      },
+      "weeklyDiscount": false,
+      "weeklyDiscountPercent": 15,
+    }
+  }
+  selectedSlots={
+    Object {
+      "end": 2000-02-20T00:00:00.000Z,
+      "slots": Array [
+        2000-02-20T00:00:00.000Z,
+      ],
+      "start": 2000-02-20T00:00:00.000Z,
+      "uuid": "uuid",
+    }
+  }
+  setFieldValue={[MockFunction]}
+  showPopover={[MockFunction]}
+  showPopoverOrBack={[MockFunction]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  submitForm={[MockFunction]}
+  toggleOpenedState={[MockFunction]}
+  validationSchema={[Function]}
+  values={
+    Object {
+      "isOpened": true,
+    }
+  }
+  weeklyDiscountPercentPrice={NaN}
+/>
+`;

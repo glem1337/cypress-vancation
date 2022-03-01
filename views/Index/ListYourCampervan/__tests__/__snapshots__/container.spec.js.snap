@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListYourCampervan container snapshot 1`] = `
+<ListYourCampervan
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+/>
+`;

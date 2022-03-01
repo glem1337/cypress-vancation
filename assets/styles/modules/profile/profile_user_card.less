@@ -1,0 +1,73 @@
+.profile-user-card {
+  margin-bottom: 40px;
+  padding: 40px 24px;
+  border-radius: @main-border-radius;
+  box-shadow: @shadow5;
+
+  @media (min-width: @screen-lg) {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+}
+
+.profile-user-card__photo {
+  position: relative;
+  width: @main-avatar-size-lg;
+  height: @main-avatar-size-lg;
+  margin-right: auto;
+  margin-bottom: 8px;
+  margin-left: auto;
+
+  img {
+    border-radius: 50%;
+  }
+}
+
+.profile-user-card__photo-approve {
+  .flex-center();
+  position: absolute;
+  top: 8px;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: @shadow2;
+
+  i {
+    color: @azure1000;
+  }
+}
+
+.profile-user-card__photo-rating {
+  .flex-center-y();
+  position: absolute;
+  right: -40px;
+  bottom: 0;
+  padding: 4px 12px 4px 4px;
+  border-radius: 24px;
+  background-color: white;
+  box-shadow: @shadow2;
+}
+
+.profile-user-card__photo-rating-icon {
+  .flex-center();
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+  background-color: @green1000;
+  border-radius: 50%;
+}
+
+.profile-user-card__info-card {
+  text-align: center;
+
+  @media (min-width: @screen-md) and (max-width: @screen-lg - 1px) {
+    text-align: left;
+  }
+}
+
+.profile-user-card__txt {
+  .expand-txt(80px);
+}

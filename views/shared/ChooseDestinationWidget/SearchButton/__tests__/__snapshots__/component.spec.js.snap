@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchButton component tests matches snapshot 1`] = `
+<Button
+  className="main-btn--gradient ant-btn-icon-only d-none d-md-inline-block choose-destination__search_btn"
+  icon={
+    <i
+      className="icon icon-search"
+    />
+  }
+  onClick={[MockFunction]}
+  shape="circle"
+  size="large"
+>
+  <span
+    className="main-btn__gradient-inner"
+  />
+</Button>
+`;

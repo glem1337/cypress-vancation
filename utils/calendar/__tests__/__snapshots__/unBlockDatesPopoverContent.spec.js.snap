@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`unBlockDatesPopoverContent helper 1`] = `
+<div>
+  <div
+    className="d-flex align-items-center"
+  >
+    <i
+      className="icon icon-alert font-18 in-yellow-1000 mr-4"
+    />
+    <span
+      className="text-caption"
+    >
+      <Memo(FormattedMessage)
+        id="calendar.unblockDates.question"
+      />
+    </span>
+  </div>
+  <div
+    className="d-flex justify-content-flex-end mt-16"
+  >
+    <Button
+      className="mr-8"
+      onClick={[MockFunction]}
+      size="small"
+      type="text"
+    >
+      <Memo(FormattedMessage)
+        id="shared.no"
+      />
+    </Button>
+    <BtnGradient
+      className=""
+      isLoading={false}
+      onClick={[MockFunction]}
+      size="small"
+      text={
+        <Memo(FormattedMessage)
+          id="shared.yes"
+        />
+      }
+    />
+  </div>
+</div>
+`;

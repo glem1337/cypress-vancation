@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useSearchDestinationsHeader hook checks \`hideHeaderSmallInputs\` method 1`] = `
+Object {
+  "isChooseDestinationBigVisible": true,
+  "isChooseDestinationSmallVisible": false,
+  "isStartInputVisible": false,
+}
+`;
+
+exports[`useSearchDestinationsHeader hook checks \`onStartInputFocus\` method 1`] = `
+Object {
+  "isChooseDestinationBigVisible": false,
+  "isChooseDestinationSmallVisible": true,
+  "isStartInputVisible": false,
+}
+`;
+
+exports[`useSearchDestinationsHeader hook checks \`scrollHandler\` method with hide small inputs condition 1`] = `
+Object {
+  "hideHeaderInputsCondition": true,
+  "showHeaderInputsCondition": false,
+}
+`;
+
+exports[`useSearchDestinationsHeader hook checks \`scrollHandler\` method with show small inputs condition 1`] = `
+Object {
+  "hideHeaderInputsCondition": false,
+  "showHeaderInputsCondition": true,
+}
+`;
+
+exports[`useSearchDestinationsHeader hook checks \`showHeaderSmallInputs\` method with search params 1`] = `
+Object {
+  "isChooseDestinationBigVisible": false,
+  "isChooseDestinationSmallVisible": true,
+  "isStartInputVisible": false,
+}
+`;
+
+exports[`useSearchDestinationsHeader hook checks \`showHeaderSmallInputs\` method without search params 1`] = `
+Object {
+  "isChooseDestinationBigVisible": false,
+  "isChooseDestinationSmallVisible": false,
+  "isStartInputVisible": true,
+}
+`;
+
+exports[`useSearchDestinationsHeader hook matches snapshot 1`] = `
+Object {
+  "detectStartInputVisibility": [Function],
+  "headerRef": Object {
+    "current": null,
+  },
+  "hideHeaderSmallInputs": [Function],
+  "isChooseDestinationBigVisible": true,
+  "isChooseDestinationSmallVisible": false,
+  "isStartInputVisible": false,
+  "onStartInputFocus": [Function],
+  "scrollHandler": [Function],
+  "showHeaderSmallInputs": [Function],
+  "state": Object {
+    "isChooseDestinationBigVisible": true,
+    "isChooseDestinationSmallVisible": false,
+    "isStartInputVisible": false,
+  },
+  "unmount": [Function],
+}
+`;

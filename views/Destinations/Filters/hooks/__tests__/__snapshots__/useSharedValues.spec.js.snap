@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useSharedValues hook checks \`getPopupContainer\` method 1`] = `null`;
+
+exports[`useSharedValues hook matches snapshot 1`] = `
+Object {
+  "areCampersFetching": true,
+  "campersTotal": 22,
+  "clearAllFilters": [Function],
+  "getPopupContainer": [Function],
+  "persistedFilters": Object {
+    "allowPets": null,
+    "allowSmoking": null,
+    "allowUnlimitedMiles": null,
+    "delivery": null,
+    "festivalApproved": null,
+    "glamper": null,
+    "insideHeight": null,
+    "luxuryAmenities": null,
+    "priceEnd": null,
+    "priceStart": null,
+    "rating": null,
+    "seats": null,
+    "sleeps": null,
+    "standardAmenities": null,
+    "uuid": null,
+    "vehicles": null,
+  },
+  "tipFormatter": [Function],
+}
+`;

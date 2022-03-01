@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomFee component tests matches snapshot 1`] = `
+<div
+  className="custom-acc-wrap custom-fee-wrap custom-fee-wrap-extended"
+>
+  <div
+    className="flex-1 mb-16 mb-md-0"
+  >
+    <Field
+      className="main-input__field w-100"
+      component={[Function]}
+      formItemClasses="mb-0"
+      id="customFees.test id.name"
+      label={
+        Object {
+          "id": "shared.feeName",
+        }
+      }
+      name="customFees.test id.name"
+    />
+  </div>
+  <div
+    className="d-flex"
+  >
+    <div
+      className="custom-acc-wrap__sec-input flex-1"
+    >
+      <div
+        className="main-input-wrap-addtxt"
+      >
+        <Field
+          className="w-100 custom-acc-wrap__price"
+          component={[Function]}
+          formItemClasses="mb-0"
+          id="customFees.test id.price"
+          label={
+            Object {
+              "id": "shared.price",
+            }
+          }
+          name="customFees.test id.price"
+          placeholder="0"
+          prefix="$"
+          type="number"
+        />
+      </div>
+    </div>
+    <FormItem
+      className="flex-1 mb-0"
+    >
+      <ForwardRef(InternalSelect)
+        className="main-input__field main-input__field--no-label"
+        defaultValue="per_day"
+        name="fieldName"
+        onChange={[MockFunction]}
+        optionLabelProp="label"
+        value="per_each"
+      >
+        <Option
+          className="p-0"
+          label={
+            <Memo(FormattedMessage)
+              id="addNewCamper.tripFees.perEach"
+            />
+          }
+          value="per_each"
+        >
+          <li
+            className="main-dropdown__item"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.tripFees.perEach"
+            />
+          </li>
+        </Option>
+        <Option
+          className="p-0"
+          label={
+            <Memo(FormattedMessage)
+              id="addNewCamper.tripFees.perDay"
+            />
+          }
+          value="per_day"
+        >
+          <li
+            className="main-dropdown__item"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.tripFees.perDay"
+            />
+          </li>
+        </Option>
+      </ForwardRef(InternalSelect)>
+    </FormItem>
+  </div>
+  <div
+    className="custom-acc-wrap__close"
+  >
+    <Button
+      icon={
+        <i
+          className="icon icon-cross"
+        />
+      }
+      onClick={[MockFunction]}
+      type="secondary"
+    />
+  </div>
+</div>
+`;

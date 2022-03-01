@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component matches snapshot with default props 1`] = `
+<Button
+  onClick={[MockFunction]}
+>
+  <Memo(FormattedMessage)
+    id="test.button"
+  />
+</Button>
+`;
+
+exports[`Button component matches snapshot with string \`text\` 1`] = `
+<Button
+  onClick={[MockFunction]}
+>
+  Fake text
+</Button>
+`;

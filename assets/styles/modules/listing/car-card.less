@@ -1,0 +1,214 @@
+.car-card-wrap {
+  position: fixed;
+  z-index: @main-listing-footer-z-index;
+  width: 278px;
+  bottom: calc(@footer-with-btn-height + 16px);
+  left: @gap-xs;
+
+  @media (min-width: @screen-md) {
+    width: 656px;
+    left: @gap-md;
+  }
+
+  @media (min-width: @screen-lg) {
+    position: static;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+  }
+}
+
+.car-card-wrap--float {
+  position: sticky;
+  bottom: 96px;
+  left: 0;
+  max-width: 1020px;
+  height: auto;
+  margin-top: auto;
+  padding-bottom: 16px;
+
+  @media (min-width: @screen-lg) {
+    width: 100%;
+  }
+
+  .car-card {
+    flex-direction: row;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: space-between;
+  }
+
+  .car-card__img {
+    width: 58px;
+    height: auto;
+    margin-right: 16px;
+    margin-bottom: 0;
+  }
+
+  .car-card__title {
+    .text-subheader();
+    margin-bottom: 4px;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .car-card__total-wrap {
+    width: auto;
+    margin-top: 0;
+    padding: 10px 16px;
+
+    @media (min-width: @screen-lg) {
+      margin-left: auto;
+    }
+  }
+
+  .car-card__total-title {
+    .text-caption();
+  }
+
+  .car-card__total-price {
+    .text-subheader();
+    font-weight: 400;
+  }
+
+  .car-card__total-txt {
+    .text-caption();
+    margin-top: 0;
+  }
+
+  .car-card__button {
+    display: block;
+  }
+}
+
+.car-card {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px 16px 16px;
+  border-radius: @main-border-radius;
+  box-shadow: @shadow6;
+  background-color: @gray200;
+
+  @media (min-width: @screen-md) {
+    align-items: center;
+  }
+
+  @media (max-width: @screen-lg) {
+    justify-content: space-between;
+  }
+
+  @media (min-width: @screen-lg) {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-top: 166px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+.car-card__img {
+  width: 58px;
+  height: auto;
+  margin-right: 16px;
+
+  @media (min-width: @screen-lg) {
+    width: 192px;
+    margin-right: unset;
+    margin-bottom: 24px;
+  }
+}
+
+.car-card__title {
+  .text-subheader();
+  margin-bottom: 4px;
+  font-weight: 700;
+
+  @media (min-width: @screen-lg) {
+    .text-headline();
+    margin-bottom: 8px;
+    text-align: center;
+  }
+}
+
+.car-card__txt {
+  max-width: 172px;
+  margin-bottom: 16px;
+
+  @media (min-width: @screen-md) {
+    max-width: 260px;
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: @screen-lg) {
+    max-width: unset;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+.car-card__total-wrap {
+  padding: 10px 16px;
+  background-color: white;
+  border-radius: @main-border-radius;
+  box-shadow: @shadow6;
+
+  @media (min-width: @screen-lg) {
+    width: 100%;
+    margin-top: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  span {
+    white-space: nowrap;
+  }
+}
+
+.car-card__total-title {
+  .text-caption();
+  margin-bottom: 4px;
+
+  @media (min-width: @screen-lg) {
+    .text-body();
+  }
+}
+
+.car-card__total-price {
+  .text-subheader();
+  margin-right: 4px;
+  font-weight: 400;
+
+  @media (min-width: @screen-lg) {
+    .text-title();
+  }
+}
+
+.car-card__total-txt {
+  .text-body();
+  margin-top: 4px;
+}
+
+.car-card__button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: @gray500;
+  transition: color @main-transition-duration;
+
+  @media (min-width: @screen-md) {
+    position: static;
+    margin-left: 24px;
+
+    &:hover {
+      color: @black;
+    }
+  }
+
+  @media (min-width: @screen-lg) {
+    display: none;
+  }
+}

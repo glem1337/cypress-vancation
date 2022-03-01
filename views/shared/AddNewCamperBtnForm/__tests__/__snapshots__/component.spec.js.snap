@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddNewCamperBtnForm component tests matches snapshot 1`] = `
+<div
+  className="main-listing__footer"
+>
+  <div
+    className="main-listing__footer-container"
+  >
+    <BtnGradient
+      className="min-w-160 ml-auto"
+      disabled={false}
+      isLoading={false}
+      loading={false}
+      onClick={[MockFunction]}
+      size="large"
+      text="{Translation id: shared.saveAndContinue}"
+    />
+  </div>
+</div>
+`;
+
+exports[`AddNewCamperBtnForm component tests matches snapshot when withBackBtn === true 1`] = `
+<div
+  className="main-listing__footer"
+>
+  <div
+    className="main-listing__footer-container"
+  >
+    <BackBtn
+      className=""
+      onClick={[MockFunction]}
+      text="{Translation id: shared.back}"
+    />
+    <BtnGradient
+      className="min-w-160 ml-auto"
+      disabled={false}
+      isLoading={false}
+      loading={false}
+      onClick={[MockFunction]}
+      size="large"
+      text="{Translation id: shared.saveAndContinue}"
+    />
+  </div>
+</div>
+`;

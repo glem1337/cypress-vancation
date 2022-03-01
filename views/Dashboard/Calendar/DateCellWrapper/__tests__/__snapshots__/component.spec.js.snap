@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateCellWrapperComponent component tests matches snapshot 1`] = `
+<div
+  className="dashboard-calendar__cell-wrapper dashboard-calendar__cell-wrapper--weekend dashboard-calendar__cell-wrapper--selected"
+>
+  <div />
+  <p
+    className="dashboard-calendar__cell-day"
+  >
+    12
+  </p>
+  <div
+    className="dashboard-calendar__cell-this-day-wrapper  d-none"
+  >
+    <p
+      className="dashboard-calendar__cell-this-day"
+    >
+      12
+    </p>
+  </div>
+  <p
+    className="dashboard-calendar__cell-price"
+  >
+    $123
+  </p>
+</div>
+`;

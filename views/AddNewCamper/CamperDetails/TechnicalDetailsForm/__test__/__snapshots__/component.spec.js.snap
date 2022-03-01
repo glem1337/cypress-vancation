@@ -1,0 +1,397 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TechnicalDetailsFormComponent snapshot default props 1`] = `
+<Row
+  gutter={24}
+>
+  <Col
+    md={12}
+  >
+    <div
+      className="main-input"
+    >
+      <Field
+        className="main-input__field"
+        component={[Function]}
+        disabled={false}
+        id="fieldTransmissionID"
+        items={
+          Array [
+            Object {
+              "label": Object {
+                "id": "shared.automatic",
+              },
+              "value": "automatic",
+            },
+            Object {
+              "label": Object {
+                "id": "shared.manual",
+              },
+              "value": "manual",
+            },
+          ]
+        }
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.transmission",
+          }
+        }
+        name="transmission"
+        placeholder={
+          Object {
+            "id": "addNewCamper.camperDetails.form.selectTransmission",
+          }
+        }
+      />
+    </div>
+  </Col>
+  <Col
+    md={12}
+  >
+    <div
+      className="main-input"
+    >
+      <Field
+        className="main-input__field"
+        component={[Function]}
+        disabled={false}
+        id="fieldMileageID"
+        items={
+          Array [
+            Object {
+              "label": "Under 50,000",
+              "value": "Under 50,000",
+            },
+            Object {
+              "label": "50,001 - 90,000",
+              "value": "50,001 - 90,000",
+            },
+            Object {
+              "label": "90,001 - 130,000",
+              "value": "90,001 - 130,000",
+            },
+            Object {
+              "label": "130,001 - 200,000",
+              "value": "130,001 - 200,000",
+            },
+            Object {
+              "label": "200,001+",
+              "value": "200,001+",
+            },
+          ]
+        }
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.currentMileage",
+          }
+        }
+        name="mileage"
+        placeholder={
+          Object {
+            "id": "addNewCamper.camperDetails.form.selectCurrentMileage",
+          }
+        }
+      />
+    </div>
+  </Col>
+  <Col
+    md={12}
+  >
+    <div
+      className="main-input"
+    >
+      <Field
+        className="main-input__field"
+        component={[Function]}
+        disabled={false}
+        id="fieldFuelTypeID"
+        items={
+          Array [
+            Object {
+              "label": Object {
+                "id": "shared.diesel",
+              },
+              "value": "diesel",
+            },
+            Object {
+              "label": Object {
+                "id": "shared.gas",
+              },
+              "value": "gas",
+            },
+            Object {
+              "label": Object {
+                "id": "shared.electric",
+              },
+              "value": "electric",
+            },
+          ]
+        }
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.fuelType",
+          }
+        }
+        name="fuelType"
+        optionLabelProp="label"
+        placeholder={
+          Object {
+            "id": "addNewCamper.camperDetails.form.selectFuelType",
+          }
+        }
+      />
+    </div>
+  </Col>
+  <Col
+    md={12}
+  >
+    <div
+      className="main-input"
+    >
+      <Field
+        className="main-input__field"
+        component={[Function]}
+        disabled={false}
+        id="fieldDrivetrainID"
+        items={
+          Array [
+            Object {
+              "label": Object {
+                "id": "shared.RWD",
+              },
+              "value": "rwd",
+            },
+            Object {
+              "label": Object {
+                "id": "shared.FWD",
+              },
+              "value": "fwd",
+            },
+            Object {
+              "label": Object {
+                "id": "shared.4X4",
+              },
+              "value": "4x4",
+            },
+            Object {
+              "label": Object {
+                "id": "shared.WD",
+              },
+              "value": "wd",
+            },
+          ]
+        }
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.drivetrain",
+          }
+        }
+        name="drivetrain"
+        placeholder={
+          Object {
+            "id": "addNewCamper.camperDetails.form.selectDrivetrain",
+          }
+        }
+      />
+    </div>
+  </Col>
+</Row>
+`;
+
+exports[`TechnicalDetailsFormComponent snapshot isSubmitting = true 1`] = `
+<Row
+  gutter={24}
+>
+  <Col
+    md={12}
+  >
+    <div
+      className="main-input"
+    >
+      <Field
+        className="main-input__field"
+        component={[Function]}
+        disabled={true}
+        id="fieldTransmissionID"
+        items={
+          Array [
+            Object {
+              "label": Object {
+                "id": "shared.automatic",
+              },
+              "value": "automatic",
+            },
+            Object {
+              "label": Object {
+                "id": "shared.manual",
+              },
+              "value": "manual",
+            },
+          ]
+        }
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.transmission",
+          }
+        }
+        name="transmission"
+        placeholder={
+          Object {
+            "id": "addNewCamper.camperDetails.form.selectTransmission",
+          }
+        }
+      />
+    </div>
+  </Col>
+  <Col
+    md={12}
+  >
+    <div
+      className="main-input"
+    >
+      <Field
+        className="main-input__field"
+        component={[Function]}
+        disabled={true}
+        id="fieldMileageID"
+        items={
+          Array [
+            Object {
+              "label": "Under 50,000",
+              "value": "Under 50,000",
+            },
+            Object {
+              "label": "50,001 - 90,000",
+              "value": "50,001 - 90,000",
+            },
+            Object {
+              "label": "90,001 - 130,000",
+              "value": "90,001 - 130,000",
+            },
+            Object {
+              "label": "130,001 - 200,000",
+              "value": "130,001 - 200,000",
+            },
+            Object {
+              "label": "200,001+",
+              "value": "200,001+",
+            },
+          ]
+        }
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.currentMileage",
+          }
+        }
+        name="mileage"
+        placeholder={
+          Object {
+            "id": "addNewCamper.camperDetails.form.selectCurrentMileage",
+          }
+        }
+      />
+    </div>
+  </Col>
+  <Col
+    md={12}
+  >
+    <div
+      className="main-input"
+    >
+      <Field
+        className="main-input__field"
+        component={[Function]}
+        disabled={true}
+        id="fieldFuelTypeID"
+        items={
+          Array [
+            Object {
+              "label": Object {
+                "id": "shared.diesel",
+              },
+              "value": "diesel",
+            },
+            Object {
+              "label": Object {
+                "id": "shared.gas",
+              },
+              "value": "gas",
+            },
+            Object {
+              "label": Object {
+                "id": "shared.electric",
+              },
+              "value": "electric",
+            },
+          ]
+        }
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.fuelType",
+          }
+        }
+        name="fuelType"
+        optionLabelProp="label"
+        placeholder={
+          Object {
+            "id": "addNewCamper.camperDetails.form.selectFuelType",
+          }
+        }
+      />
+    </div>
+  </Col>
+  <Col
+    md={12}
+  >
+    <div
+      className="main-input"
+    >
+      <Field
+        className="main-input__field"
+        component={[Function]}
+        disabled={true}
+        id="fieldDrivetrainID"
+        items={
+          Array [
+            Object {
+              "label": Object {
+                "id": "shared.RWD",
+              },
+              "value": "rwd",
+            },
+            Object {
+              "label": Object {
+                "id": "shared.FWD",
+              },
+              "value": "fwd",
+            },
+            Object {
+              "label": Object {
+                "id": "shared.4X4",
+              },
+              "value": "4x4",
+            },
+            Object {
+              "label": Object {
+                "id": "shared.WD",
+              },
+              "value": "wd",
+            },
+          ]
+        }
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.drivetrain",
+          }
+        }
+        name="drivetrain"
+        placeholder={
+          Object {
+            "id": "addNewCamper.camperDetails.form.selectDrivetrain",
+          }
+        }
+      />
+    </div>
+  </Col>
+</Row>
+`;

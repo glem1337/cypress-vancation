@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputNumericField component tests matches snapshot 1`] = `
+<div
+  className="main-input-numeric"
+>
+  <Input
+    name="name"
+    readOnly={true}
+    type="number"
+    value={1}
+  />
+  <Button
+    className="main-input-numeric__control main-input-numeric__control--minus"
+    icon={
+      <i
+        className="icon icon-minus font-20"
+      />
+    }
+    onClick={[MockFunction]}
+    shape="circle"
+    type="secondary"
+  />
+  <Button
+    className="main-input-numeric__control main-input-numeric__control--plus"
+    icon={
+      <i
+        className="icon icon-plus font-20"
+      />
+    }
+    onClick={[MockFunction]}
+    shape="circle"
+    type="secondary"
+  />
+</div>
+`;

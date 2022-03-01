@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Policies component tests matches snapshots default 1`] = `
+<Col
+  className="mb-24 mb-md-0"
+  md={12}
+>
+  <p
+    className="text-headline mb-24"
+  >
+    <Memo(FormattedMessage)
+      id="shared.policies"
+    />
+  </p>
+  <p
+    className="mb-8"
+  >
+    <Memo(FormattedMessage)
+      id="addNewCamper.policies.cancellationTitle"
+    />
+  </p>
+  <p
+    className="text-subheader mb-8 in-blue-1000 font-400"
+  >
+    <Memo(FormattedMessage)
+      id="title.id"
+    />
+  </p>
+  <p
+    className="mb-24"
+  >
+    <Memo(FormattedMessage)
+      id="description.id"
+    />
+  </p>
+  <Row
+    gutter={24}
+  >
+    <Col
+      span={12}
+    >
+      <p
+        className="mb-8"
+      >
+        <Memo(FormattedMessage)
+          id="shared.minStay"
+        />
+      </p>
+      <p
+        className="text-subheader font-700"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.pricing.countOfNights"
+          values={
+            Object {
+              "count": 2,
+            }
+          }
+        />
+      </p>
+    </Col>
+    <Col
+      span={12}
+    >
+      <div
+        className="d-flex mb-8"
+      >
+        <p>
+          <Memo(FormattedMessage)
+            id="addNewCamper.insurance.refundable.title"
+          />
+        </p>
+        <TooltipIcon
+          iconClass="icon-info-f"
+          phrase={
+            <Memo(FormattedMessage)
+              id="camperDetails.policies.tooltip"
+              values={
+                Object {
+                  "price": "$2500",
+                }
+              }
+            />
+          }
+        />
+      </div>
+      <p
+        className="text-subheader font-700"
+      >
+        $
+        2500
+      </p>
+    </Col>
+  </Row>
+</Col>
+`;
+
+exports[`Policies component tests matches snapshots when camper doesnt exist 1`] = `
+<Col
+  className="mb-24 mb-md-0"
+  md={12}
+>
+  <div
+    className="skeleton__title w-100"
+  />
+  <SkeletonText
+    rows={2}
+  />
+  <Row
+    gutter={24}
+  >
+    <Col
+      span={12}
+    >
+      <div
+        className="skeleton__title w-100"
+      />
+      <SkeletonText
+        rows={2}
+      />
+    </Col>
+    <Col
+      span={12}
+    >
+      <div
+        className="skeleton__title w-100"
+      />
+      <SkeletonText
+        rows={2}
+      />
+    </Col>
+  </Row>
+</Col>
+`;
+
+exports[`Policies component tests matches snapshots when doesnt initialized 1`] = `
+<Col
+  className="mb-24 mb-md-0"
+  md={12}
+>
+  <p
+    className="text-headline mb-24"
+  >
+    <Memo(FormattedMessage)
+      id="shared.policies"
+    />
+  </p>
+  <p
+    className="mb-8"
+  >
+    <Memo(FormattedMessage)
+      id="addNewCamper.policies.cancellationTitle"
+    />
+  </p>
+  <p
+    className="text-subheader mb-8 in-blue-1000 font-400"
+  >
+    <Memo(FormattedMessage)
+      id="title.id"
+    />
+  </p>
+  <p
+    className="mb-24"
+  >
+    <Memo(FormattedMessage)
+      id="description.id"
+    />
+  </p>
+  <Row
+    gutter={24}
+  >
+    <Col
+      span={12}
+    >
+      <p
+        className="mb-8"
+      >
+        <Memo(FormattedMessage)
+          id="shared.minStay"
+        />
+      </p>
+      <p
+        className="text-subheader font-700"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.pricing.countOfNights"
+          values={
+            Object {
+              "count": 2,
+            }
+          }
+        />
+      </p>
+    </Col>
+    <Col
+      span={12}
+    >
+      <div
+        className="d-flex mb-8"
+      >
+        <p>
+          <Memo(FormattedMessage)
+            id="addNewCamper.insurance.refundable.title"
+          />
+        </p>
+        <TooltipIcon
+          iconClass="icon-info-f"
+          phrase={
+            <Memo(FormattedMessage)
+              id="camperDetails.policies.tooltip"
+              values={
+                Object {
+                  "price": "$2500",
+                }
+              }
+            />
+          }
+        />
+      </div>
+      <p
+        className="text-subheader font-700"
+      >
+        $
+        2500
+      </p>
+    </Col>
+  </Row>
+</Col>
+`;
+
+exports[`Policies component tests matches snapshots when loading 1`] = `
+<Col
+  className="mb-24 mb-md-0"
+  md={12}
+>
+  <div
+    className="skeleton__title w-100"
+  />
+  <SkeletonText
+    rows={2}
+  />
+  <Row
+    gutter={24}
+  >
+    <Col
+      span={12}
+    >
+      <div
+        className="skeleton__title w-100"
+      />
+      <SkeletonText
+        rows={2}
+      />
+    </Col>
+    <Col
+      span={12}
+    >
+      <div
+        className="skeleton__title w-100"
+      />
+      <SkeletonText
+        rows={2}
+      />
+    </Col>
+  </Row>
+</Col>
+`;

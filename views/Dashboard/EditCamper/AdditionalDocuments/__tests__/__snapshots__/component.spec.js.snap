@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdditionalDocuments component tests matches snapshot 1`] = `
+<withRouter(EditCamper)
+  canSave={false}
+  hasFooter={true}
+  isLoading={true}
+  leavePageMethod={[MockFunction]}
+  onSave={[MockFunction]}
+>
+  <div
+    className="container"
+  >
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <Row>
+        <Col
+          lg={16}
+        >
+          <h2
+            className="text-headline mb-8"
+          >
+            <Memo(FormattedMessage)
+              id="dashboard.editCamper.documents.title"
+            />
+          </h2>
+          <p
+            className="mb-24"
+          >
+            <Memo(FormattedMessage)
+              id="dashboard.editCamper.documents.description"
+            />
+          </p>
+        </Col>
+        <Col
+          lg={16}
+        >
+          <Documents
+            documents={Array []}
+            onRemove={[MockFunction]}
+            validateFiles={[MockFunction]}
+          />
+        </Col>
+        <Col
+          span={24}
+        >
+          <Divider
+            className="mt-24 mb-24"
+          />
+        </Col>
+        <Col
+          lg={16}
+        >
+          <Questions
+            onAdd={[MockFunction]}
+            onRemove={[MockFunction]}
+            questions={Array []}
+          />
+        </Col>
+      </Row>
+    </ForwardRef(InternalForm)>
+  </div>
+</withRouter(EditCamper)>
+`;
+
+exports[`AdditionalDocuments component tests matches snapshot when camper does not exist 1`] = `
+<withRouter(EditCamper)
+  canSave={false}
+  hasFooter={true}
+  isLoading={true}
+  leavePageMethod={[MockFunction]}
+  onSave={[MockFunction]}
+>
+  <div
+    className="container"
+  >
+    <Skeleton
+      active={true}
+      avatar={false}
+      paragraph={true}
+      title={true}
+    />
+  </div>
+</withRouter(EditCamper)>
+`;

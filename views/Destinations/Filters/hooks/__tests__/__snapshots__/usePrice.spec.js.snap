@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`usePrice hook checks \`renderPriceWidget\` method 1`] = `
+<React.Fragment>
+  <div
+    className="d-flex align-items-center justify-content-space-between mb-24 w-280"
+  >
+    <div
+      className="w-120"
+    >
+      <div
+        className="font-12 mb-4"
+      >
+        <Memo(FormattedMessage)
+          id="shared.from"
+        />
+      </div>
+      <Input
+        autoComplete="off"
+        className="mb-0"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value="$0"
+      />
+    </div>
+    <div
+      className="search-page__filters-popover__line"
+    />
+    <div
+      className="w-120"
+    >
+      <div
+        className="font-12 mb-4"
+      >
+        <Memo(FormattedMessage)
+          id="shared.to"
+        />
+      </div>
+      <Input
+        autoComplete="off"
+        className="mb-0"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="text"
+        value="$500+"
+      />
+    </div>
+  </div>
+  <Slider
+    max={500}
+    onChange={[Function]}
+    range={true}
+    tipFormatter={[Function]}
+    value={
+      Array [
+        0,
+        500,
+      ]
+    }
+  />
+</React.Fragment>
+`;
+
+exports[`usePrice hook matches snapshot 1`] = `
+Object {
+  "applyFilters": [Function],
+  "checkFilterUpdates": [Function],
+  "clearFilters": [Function],
+  "filters": Object {
+    "priceEnd": "$500+",
+    "priceStart": "$0",
+  },
+  "onBlurHandler": [Function],
+  "onChangePrice": [Function],
+  "onChangePriceBySlider": [Function],
+  "prepareInitialValue": [Function],
+  "priceString": null,
+  "rangeValue": Array [
+    0,
+    500,
+  ],
+  "renderPriceWidget": [Function],
+  "setFilters": [Function],
+}
+`;

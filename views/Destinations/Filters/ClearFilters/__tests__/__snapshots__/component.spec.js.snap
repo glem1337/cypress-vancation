@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClearFilters component tests matches snapshot 1`] = `""`;
+
+exports[`ClearFilters component tests matches snapshot when isAnyFilterApplied equals true 1`] = `
+<Fragment>
+  <Divider
+    type="vertical"
+  />
+  <Button
+    onClick={[MockFunction]}
+    size="large"
+    type="simple-text"
+  >
+    <Memo(FormattedMessage)
+      id="shared.clearFilters"
+    />
+  </Button>
+</Fragment>
+`;

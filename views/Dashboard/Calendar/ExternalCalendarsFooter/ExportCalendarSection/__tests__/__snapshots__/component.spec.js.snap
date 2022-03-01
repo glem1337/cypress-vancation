@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExportCalendarSection component tests matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="mb-24"
+  >
+    <p
+      className="mb-24"
+    >
+      <Memo(FormattedMessage)
+        id="calendar.export.title"
+      />
+    </p>
+    <Button
+      disabled={false}
+      loading={false}
+      onClick={[MockFunction]}
+      text={
+        Object {
+          "id": "calendar.export.btn",
+        }
+      }
+      type="secondary"
+    />
+  </div>
+  <div>
+    <p
+      className="mb-24"
+    >
+      <Memo(FormattedMessage)
+        id="calendar.export.description"
+      />
+    </p>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert component matches snapshot with \`hasNoIcon\` 1`] = `
+<div
+  className="main-alert main-alert--error"
+  data-cy="alert"
+>
+  <p
+    className="main-alert__text font-600"
+  >
+    <FormattedOrRawMessage
+      message="Test message"
+    />
+  </p>
+</div>
+`;
+
+exports[`Alert component matches snapshot with \`isDiscardable\` 1`] = `
+<div
+  className="main-alert main-alert--error"
+  data-cy="alert"
+>
+  <i
+    className="main-alert__icon icon icon-info"
+  />
+  <p
+    className="main-alert__text font-600"
+  >
+    <FormattedOrRawMessage
+      message="Test message"
+    />
+  </p>
+  <button
+    className="main-alert__close"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    <i
+      className="icon icon-cross"
+    />
+  </button>
+</div>
+`;
+
+exports[`Alert component matches snapshot with \`type: error\` 1`] = `
+<div
+  className="main-alert main-alert--error"
+  data-cy="alert"
+>
+  <i
+    className="main-alert__icon icon icon-info"
+  />
+  <p
+    className="main-alert__text font-600"
+  >
+    <FormattedOrRawMessage
+      message="Test message"
+    />
+  </p>
+</div>
+`;
+
+exports[`Alert component matches snapshot with \`type: success\` 1`] = `
+<div
+  className="main-alert main-alert--success"
+  data-cy="alert"
+>
+  <i
+    className="main-alert__icon icon icon-checked"
+  />
+  <p
+    className="main-alert__text font-600"
+  >
+    <FormattedOrRawMessage
+      message="Test message"
+    />
+  </p>
+</div>
+`;
+
+exports[`Alert component matches snapshot with default props 1`] = `
+<div
+  className="main-alert main-alert--error"
+  data-cy="alert"
+>
+  <i
+    className="main-alert__icon icon icon-info"
+  />
+  <p
+    className="main-alert__text font-600"
+  >
+    <FormattedOrRawMessage
+      message="Test message"
+    />
+  </p>
+</div>
+`;

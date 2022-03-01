@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutLayout component tests matches snapshot default 1`] = `
+<ForwardRef(InternalForm)
+  layout="vertical"
+>
+  <div
+    className="checkout__wrap"
+  >
+    <div />
+    <main
+      className="checkout__main"
+    >
+      <div
+        className="container"
+      >
+        <Row
+          gutter={24}
+        >
+          <Col
+            lg={16}
+          >
+            <div
+              className="checkout__form"
+            >
+              Foo
+              <div
+                className="d-none d-lg-flex align-items-center justify-content-space-between mt-48"
+              >
+                <Button
+                  className="ant-btn-link ant-btn-flat pl-0 pr-0"
+                  icon={
+                    <i
+                      className="icon icon-left-edge"
+                    />
+                  }
+                  onClick={[MockFunction]}
+                >
+                  <Memo(FormattedMessage)
+                    id="shared.back"
+                  />
+                </Button>
+                <BtnGradient
+                  className="min-w-140"
+                  isLoading={false}
+                  size="large"
+                  text={
+                    Object {
+                      "id": "shared.continue",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </div>
+    </main>
+    <Footer
+      btnText={
+        Object {
+          "id": "shared.continue",
+        }
+      }
+      onBack={[MockFunction]}
+      price={375}
+      showBackBtn={true}
+    />
+  </div>
+</ForwardRef(InternalForm)>
+`;
+
+exports[`CheckoutLayout component tests matches snapshot when showBackBtn is equal false 1`] = `
+<ForwardRef(InternalForm)
+  layout="vertical"
+>
+  <div
+    className="checkout__wrap"
+  >
+    <div />
+    <main
+      className="checkout__main"
+    >
+      <div
+        className="container"
+      >
+        <Row
+          gutter={24}
+        >
+          <Col
+            lg={16}
+          >
+            <div
+              className="checkout__form"
+            >
+              Foo
+              <div
+                className="d-none d-lg-flex align-items-center justify-content-space-between mt-48"
+              >
+                <BtnGradient
+                  className="min-w-140 ml-auto"
+                  isLoading={false}
+                  size="large"
+                  text={
+                    Object {
+                      "id": "shared.continue",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </div>
+    </main>
+    <Footer
+      btnText={
+        Object {
+          "id": "shared.continue",
+        }
+      }
+      onBack={[MockFunction]}
+      price={375}
+      showBackBtn={false}
+    />
+  </div>
+</ForwardRef(InternalForm)>
+`;

@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CamperDetails component tests matches snapshot 1`] = `
+<div
+  className="van-details-wrap van-details-wrap--scrolled"
+>
+  <Connect(UserHeader)
+    SearchSection={
+      <injectIntl(SearchSectionComponent)
+        camperPhoto="camperPhoto"
+        destinationsInputRef={Object {}}
+        isChooseDestinationVisible={true}
+        isStartInputVisible={true}
+        onStartInputFocus={[MockFunction]}
+      />
+    }
+    active="active"
+    groupItems={true}
+  />
+  <NavHeader />
+  <div>
+    <Photos />
+    <div
+      className="container"
+    >
+      <Row>
+        <Col
+          xl={16}
+        >
+          <Memo(MainInfo) />
+          <Connect(Specifications)
+            camperId="camperId"
+          />
+          <Divider
+            className="mt-24 mt-md-40 mb-24 mb-md-40"
+          />
+          <Connect(Amenities)
+            camperId="camperId"
+          />
+          <Divider
+            className="mt-24 mt-md-40 mb-24 mb-md-40"
+          />
+          <Connect(WithIntersectionObserver)
+            camperId="camperId"
+          />
+          <Divider
+            className="mt-24 mt-md-40 mb-24 mb-md-40"
+          />
+          <Row
+            gutter={24}
+          >
+            <Connect(WithIntersectionObserver)
+              camperId="camperId"
+            />
+            <Connect(HealthAndSafety)
+              camperId="camperId"
+            />
+          </Row>
+          <Divider
+            className="mt-24 mt-md-40 mb-24 mb-md-40"
+          />
+          <Connect(TripFees)
+            camperId="camperId"
+          />
+          <Divider
+            className="mt-24 mt-md-40 mb-24 mb-md-40"
+          />
+          <Connect(WithIntersectionObserver)
+            camperId="camperId"
+          />
+          <CalendarAvailability />
+        </Col>
+        <Col
+          xl={8}
+        >
+          <Memo(CamperPricesCard) />
+        </Col>
+      </Row>
+      <Divider
+        className="mt-24 mt-md-40 mb-24 mb-md-40"
+      />
+    </div>
+    <Memo(Location) />
+    <div
+      className="container"
+    >
+      <Divider
+        className="mt-24 mt-md-40 mb-24 mb-md-40"
+      />
+      <Connect(WithIntersectionObserver)
+        camperId="camperId"
+      />
+      <Divider
+        className="mt-24 mt-md-40 mb-24 mb-md-40"
+      />
+      <Connect(WithIntersectionObserver)
+        camperId="camperId"
+      />
+    </div>
+  </div>
+  <Footer />
+  <StickyCardBottom />
+</div>
+`;

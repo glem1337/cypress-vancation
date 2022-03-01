@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useMobileHeaderInfo hook matches snapshot 1`] = `
+Object {
+  "areDateExisting": false,
+  "datesString": "{Translation id: shared.addDates}",
+  "isLocationExisting": true,
+  "locationString": undefined,
+}
+`;

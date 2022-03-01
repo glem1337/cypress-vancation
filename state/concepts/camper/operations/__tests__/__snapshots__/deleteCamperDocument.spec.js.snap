@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`deleteCamperDocument has valid attributes 1`] = `
+Object {
+  "cancelType": undefined,
+  "debounce": 0,
+  "latest": true,
+  "name": undefined,
+  "process": [Function],
+  "processOptions": Object {
+    "dispatchMultiple": true,
+  },
+  "throttle": 0,
+  "transform": undefined,
+  "type": "camper/DELETE_CAMPER_DOCUMENT",
+  "validate": undefined,
+  "warnTimeout": 60000,
+}
+`;

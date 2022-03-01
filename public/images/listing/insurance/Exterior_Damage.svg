@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icn / Custom / Exterior Damage</title>
+    <g id="Icn-/-Custom-/-Exterior-Damage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M12.249522,6.87505914 C12.249522,10.6720044 15.3274336,13.7500367 19.1242299,13.7500367 C20.1505902,13.7500367 21.1244184,13.5251114 21.9991152,13.1218621 L21.9991502,18 C21.9991502,20.209139 20.2082892,22 17.9991502,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,6.00006525 C2,3.79092625 3.790861,2.00006525 6,2.00006525 L14.2768761,1.99995542 C13.0246922,3.24515341 12.249522,4.96957737 12.249522,6.87505914 Z" id="Combined-Shape" fill="#CEF8FB"></path>
+        <polygon id="Path-3" fill="#00A5B5" points="17 12 21 6 19 6 19 2 15 8 17 8"></polygon>
+    </g>
+</svg>

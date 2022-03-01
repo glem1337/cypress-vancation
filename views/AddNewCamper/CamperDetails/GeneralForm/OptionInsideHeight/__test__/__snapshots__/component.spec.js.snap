@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OptionInsideHeight component snapshot default props 1`] = `
+<Option
+  key="10"
+  label={
+    <FormattedOrRawMessage
+      message="test.label"
+    />
+  }
+  value={10}
+>
+  <li
+    className="main-dropdown__item align-items-flex-start"
+  >
+    <img
+      alt=""
+      className="mr-8"
+      src="test.img"
+      width={32}
+    />
+    <div>
+      <div
+        className="mb-4 in-black"
+      >
+        <FormattedOrRawMessage
+          message="test.label"
+        />
+      </div>
+      <p
+        className="text-caption pre-wrap"
+      >
+        <FormattedOrRawMessage
+          message="test.description"
+        />
+      </p>
+    </div>
+  </li>
+</Option>
+`;

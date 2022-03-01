@@ -1,0 +1,50 @@
+@nav-header-z-index: 3;
+
+.van-details__nav-header {
+  display: none;
+
+  @media (min-width: @screen-md) {
+    display: block;
+    position: fixed;
+    z-index: @nav-header-z-index;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 16px;
+    background-color: white;
+    box-shadow: @shadow2;
+    transition: opacity 0.2s;
+  }
+
+  .van-details__images-actions {
+    position: static;
+    margin-left: 24px;
+
+    .ant-btn {
+      box-shadow: @shadow6;
+    }
+  }
+}
+
+.van-details__nav-header-card {
+  .flex-center-y;
+  justify-content: flex-end;
+  flex: 1;
+  margin-top: -16px;
+  transition: opacity 0.1s;
+}
+
+.van-details__nav-header-card--hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.van-details__nav-title {
+  .text-title;
+  .text-truncate;
+  max-width: 484px;
+  margin-bottom: 20px;
+  .media-up(lg; {
+    max-width: 625px;
+  });
+}

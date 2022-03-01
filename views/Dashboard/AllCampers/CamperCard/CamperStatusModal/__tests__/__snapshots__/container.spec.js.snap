@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CamperStatusModal container tests matches snapshot 1`] = `
+<CamperStatusModal
+  camperId="camperId"
+  handleSubmit={[Function]}
+  isLoading={false}
+  onClose={[MockFunction]}
+  onSubmit={[Function]}
+  status="published"
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;

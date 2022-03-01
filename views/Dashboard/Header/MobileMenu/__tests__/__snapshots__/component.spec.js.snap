@@ -1,0 +1,580 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MobileMenu component tests matches snapshot 1`] = `
+<aside
+  className="main-account-menu main-account-menu--open"
+>
+  <div
+    className="main-account-header"
+  >
+    <button
+      className="main-account-header-burger"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <i
+        className="icon icon-cross"
+      />
+    </button>
+    <div>
+      <a
+        href="/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img
+          alt=""
+          src="/images/logo/logo-circle.svg"
+        />
+      </a>
+    </div>
+    <div
+      className="main-account-header__title"
+    >
+      <Memo(FormattedMessage)
+        id="shared.ownerDashboard"
+      />
+    </div>
+  </div>
+  <withRouter(Connect(DropdownCampers))
+    isMobileMode={true}
+  />
+  <div
+    className="master-view-menu-button-after"
+  />
+  <div>
+    <Link
+      href={
+        Object {
+          "pathname": "/dashboard/messages",
+          "query": Object {
+            "camper": "camperId",
+          },
+        }
+      }
+      key="MESSAGES"
+    >
+      <li
+        className="main-account-menu__item"
+      >
+        <span
+          className="main-account-menu__item-txt"
+        >
+          <Memo(FormattedMessage)
+            id="headerHeader.messages"
+          />
+        </span>
+        <span
+          className="main-account-header__item-counter"
+        >
+          2
+        </span>
+      </li>
+    </Link>
+    <Link
+      href={
+        Object {
+          "pathname": "/dashboard/calendar",
+          "query": Object {
+            "camper": "camperId",
+          },
+        }
+      }
+      key="CALENDAR"
+    >
+      <li
+        className="main-account-menu__item"
+      >
+        <span
+          className="main-account-menu__item-txt"
+        >
+          <Memo(FormattedMessage)
+            id="shared.calendar"
+          />
+        </span>
+      </li>
+    </Link>
+    <Link
+      href={
+        Object {
+          "pathname": "/dashboard/reservations",
+          "query": Object {
+            "camper": "camperId",
+          },
+        }
+      }
+      key="RESERVATIONS"
+    >
+      <li
+        className="main-account-menu__item"
+      >
+        <span
+          className="main-account-menu__item-txt"
+        >
+          <Memo(FormattedMessage)
+            id="shared.reservations"
+          />
+        </span>
+        <span
+          className="main-account-header__item-counter"
+        >
+          2
+        </span>
+      </li>
+    </Link>
+    <Link
+      href={
+        Object {
+          "pathname": "/dashboard/reporting",
+          "query": Object {
+            "camper": "camperId",
+          },
+        }
+      }
+      key="REPORTING"
+    >
+      <li
+        className="main-account-menu__item"
+      >
+        <span
+          className="main-account-menu__item-txt"
+        >
+          <Memo(FormattedMessage)
+            id="shared.reporting"
+          />
+        </span>
+      </li>
+    </Link>
+    <Link
+      href={
+        Object {
+          "pathname": "/dashboard/campers",
+          "query": Object {
+            "camper": "camperId",
+          },
+        }
+      }
+      key="ALL_CAMPERS"
+    >
+      <li
+        className="main-account-menu__item"
+      >
+        <span
+          className="main-account-menu__item-txt"
+        >
+          <Memo(FormattedMessage)
+            id="shared.viewAllCampers"
+          />
+        </span>
+      </li>
+    </Link>
+    <Link
+      href={
+        Object {
+          "pathname": "/dashboard/edit-camper/pricing-and-availability",
+          "query": Object {
+            "camper": "camperId",
+          },
+        }
+      }
+      key="PRICING_AND_AVAILABILITY"
+    >
+      <li
+        className="main-account-menu__item"
+      >
+        <span
+          className="main-account-menu__item-txt"
+        >
+          <Memo(FormattedMessage)
+            id="shared.editCamper"
+          />
+        </span>
+      </li>
+    </Link>
+  </div>
+  <Divider
+    className="mb-8"
+  />
+  <div
+    className="main-account-menu__user"
+  >
+    <Avatar
+      className="mr-12"
+      shape="circle"
+      size="default"
+      src="test_url"
+    >
+      FL
+    </Avatar>
+    <div>
+      <div
+        className="main-account-menu__user-name"
+      >
+        firstName_test lastName_test
+      </div>
+      <div
+        className="main-account-menu__user-email"
+      >
+        test@gmail.com
+      </div>
+    </div>
+  </div>
+  <Divider
+    className="mb-8"
+  />
+  <div
+    className="d-flex flex-column flex-grow-1"
+  >
+    <Link
+      href="/add-new-camper/id/specifications"
+      key="shared.listYourCamper"
+    >
+      <a
+        className="main-dropdown__item in-blue-1000"
+        rel="noreferer"
+        target="_blank"
+      >
+        <Memo(FormattedMessage)
+          id="shared.listYourCamper"
+        />
+      </a>
+    </Link>
+    <a
+      className="main-dropdown__item text-color-gray"
+      rel="noreferer"
+      target="_blank"
+    >
+      <Memo(FormattedMessage)
+        id="headerHeader.itemHelpFaq"
+      />
+    </a>
+    <a
+      className="main-dropdown__item text-color-gray"
+      rel="noreferer"
+      target="_blank"
+    >
+      <Memo(FormattedMessage)
+        id="headerHeader.viewBusinessProfile"
+      />
+    </a>
+    <a
+      className="main-dropdown__item text-color-gray"
+      rel="noreferer"
+      target="_blank"
+    >
+      <Memo(FormattedMessage)
+        id="settingLayout.itemNotifications"
+      />
+    </a>
+    <a
+      className="main-dropdown__item text-color-gray"
+      rel="noreferer"
+      target="_blank"
+    >
+      <Memo(FormattedMessage)
+        id="headerHeader.payoutPreferences"
+      />
+    </a>
+    <button
+      className="main-dropdown__item in-gray-700"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <i
+        className="icon icon-log-out in-gray-500 mr-8"
+      />
+      <Memo(FormattedMessage)
+        id="headerHeader.logout"
+      />
+    </button>
+  </div>
+</aside>
+`;
+
+exports[`MobileMenu component tests when isCampersListVisible === false 1`] = `
+<aside
+  className="main-account-menu main-account-menu--open"
+>
+  <div
+    className="main-account-header"
+  >
+    <button
+      className="main-account-header-burger"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <i
+        className="icon icon-cross"
+      />
+    </button>
+    <div>
+      <a
+        href="/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img
+          alt=""
+          src="/images/logo/logo-circle.svg"
+        />
+      </a>
+    </div>
+    <div
+      className="main-account-header__title"
+    >
+      <Memo(FormattedMessage)
+        id="shared.ownerDashboard"
+      />
+    </div>
+  </div>
+  <div
+    className="master-view-menu-button-after"
+  />
+  <div>
+    <Link
+      href={
+        Object {
+          "pathname": "/dashboard/messages",
+          "query": Object {
+            "camper": "camperId",
+          },
+        }
+      }
+      key="MESSAGES"
+    >
+      <li
+        className="main-account-menu__item"
+      >
+        <span
+          className="main-account-menu__item-txt"
+        >
+          <Memo(FormattedMessage)
+            id="headerHeader.messages"
+          />
+        </span>
+        <span
+          className="main-account-header__item-counter"
+        >
+          2
+        </span>
+      </li>
+    </Link>
+    <Link
+      href={
+        Object {
+          "pathname": "/dashboard/calendar",
+          "query": Object {
+            "camper": "camperId",
+          },
+        }
+      }
+      key="CALENDAR"
+    >
+      <li
+        className="main-account-menu__item"
+      >
+        <span
+          className="main-account-menu__item-txt"
+        >
+          <Memo(FormattedMessage)
+            id="shared.calendar"
+          />
+        </span>
+      </li>
+    </Link>
+    <Link
+      href={
+        Object {
+          "pathname": "/dashboard/reservations",
+          "query": Object {
+            "camper": "camperId",
+          },
+        }
+      }
+      key="RESERVATIONS"
+    >
+      <li
+        className="main-account-menu__item"
+      >
+        <span
+          className="main-account-menu__item-txt"
+        >
+          <Memo(FormattedMessage)
+            id="shared.reservations"
+          />
+        </span>
+        <span
+          className="main-account-header__item-counter"
+        >
+          2
+        </span>
+      </li>
+    </Link>
+    <Link
+      href={
+        Object {
+          "pathname": "/dashboard/reporting",
+          "query": Object {
+            "camper": "camperId",
+          },
+        }
+      }
+      key="REPORTING"
+    >
+      <li
+        className="main-account-menu__item"
+      >
+        <span
+          className="main-account-menu__item-txt"
+        >
+          <Memo(FormattedMessage)
+            id="shared.reporting"
+          />
+        </span>
+      </li>
+    </Link>
+    <Link
+      href={
+        Object {
+          "pathname": "/dashboard/campers",
+          "query": Object {
+            "camper": "camperId",
+          },
+        }
+      }
+      key="ALL_CAMPERS"
+    >
+      <li
+        className="main-account-menu__item"
+      >
+        <span
+          className="main-account-menu__item-txt"
+        >
+          <Memo(FormattedMessage)
+            id="shared.viewAllCampers"
+          />
+        </span>
+      </li>
+    </Link>
+    <Link
+      href={
+        Object {
+          "pathname": "/dashboard/edit-camper/pricing-and-availability",
+          "query": Object {
+            "camper": "camperId",
+          },
+        }
+      }
+      key="PRICING_AND_AVAILABILITY"
+    >
+      <li
+        className="main-account-menu__item"
+      >
+        <span
+          className="main-account-menu__item-txt"
+        >
+          <Memo(FormattedMessage)
+            id="shared.editCamper"
+          />
+        </span>
+      </li>
+    </Link>
+  </div>
+  <Divider
+    className="mb-8"
+  />
+  <div
+    className="main-account-menu__user"
+  >
+    <Avatar
+      className="mr-12"
+      shape="circle"
+      size="default"
+      src="test_url"
+    >
+      FL
+    </Avatar>
+    <div>
+      <div
+        className="main-account-menu__user-name"
+      >
+        firstName_test lastName_test
+      </div>
+      <div
+        className="main-account-menu__user-email"
+      >
+        test@gmail.com
+      </div>
+    </div>
+  </div>
+  <Divider
+    className="mb-8"
+  />
+  <div
+    className="d-flex flex-column flex-grow-1"
+  >
+    <Link
+      href="/add-new-camper/id/specifications"
+      key="shared.listYourCamper"
+    >
+      <a
+        className="main-dropdown__item in-blue-1000"
+        rel="noreferer"
+        target="_blank"
+      >
+        <Memo(FormattedMessage)
+          id="shared.listYourCamper"
+        />
+      </a>
+    </Link>
+    <a
+      className="main-dropdown__item text-color-gray"
+      rel="noreferer"
+      target="_blank"
+    >
+      <Memo(FormattedMessage)
+        id="headerHeader.itemHelpFaq"
+      />
+    </a>
+    <a
+      className="main-dropdown__item text-color-gray"
+      rel="noreferer"
+      target="_blank"
+    >
+      <Memo(FormattedMessage)
+        id="headerHeader.viewBusinessProfile"
+      />
+    </a>
+    <a
+      className="main-dropdown__item text-color-gray"
+      rel="noreferer"
+      target="_blank"
+    >
+      <Memo(FormattedMessage)
+        id="settingLayout.itemNotifications"
+      />
+    </a>
+    <a
+      className="main-dropdown__item text-color-gray"
+      rel="noreferer"
+      target="_blank"
+    >
+      <Memo(FormattedMessage)
+        id="headerHeader.payoutPreferences"
+      />
+    </a>
+    <button
+      className="main-dropdown__item in-gray-700"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <i
+        className="icon icon-log-out in-gray-500 mr-8"
+      />
+      <Memo(FormattedMessage)
+        id="headerHeader.logout"
+      />
+    </button>
+  </div>
+</aside>
+`;

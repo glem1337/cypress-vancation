@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddonCard container tests matches snapshot 1`] = `
+<AddonCard
+  allDescriptionVisible={false}
+  description="description"
+  iconUrl="url"
+  name="name"
+  price="50"
+  priceUnit="per day"
+  toggleDescription={[Function]}
+  visibleDescription="description"
+/>
+`;

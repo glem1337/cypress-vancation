@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SmallSwitchCard component tests matches snapshot 1`] = `
+<div
+  className="edit-list-switch-card"
+>
+  <div
+    className="d-flex align-items-center w-100"
+    onClick={[MockFunction]}
+    role="button"
+  >
+    <img
+      alt=""
+      className="edit-list-switch-card__icon"
+      src="icon"
+    />
+    <p
+      className="edit-list-switch-card__title"
+    >
+      title
+    </p>
+    <div
+      className="d-inline-flex align-items-center ml-auto"
+    >
+      <Switch
+        checked={false}
+        disabled={false}
+        onChange={[MockFunction]}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SmallSwitchCard component tests when description is object 1`] = `
+<div
+  className="edit-list-switch-card"
+>
+  <div
+    className="d-flex align-items-center w-100"
+    onClick={[MockFunction]}
+    role="button"
+  >
+    <img
+      alt=""
+      className="edit-list-switch-card__icon"
+      src="icon"
+    />
+    <p
+      className="edit-list-switch-card__title"
+    >
+      <Memo(FormattedMessage)
+        id="title"
+      />
+    </p>
+    <div
+      className="d-inline-flex align-items-center ml-auto"
+    >
+      <Switch
+        checked={false}
+        disabled={false}
+        onChange={[MockFunction]}
+      />
+    </div>
+  </div>
+  <div
+    className="edit-list-switch-card__inner w-100 pt-0"
+  >
+    <p
+      className="edit-list-switch-card__inner-txt"
+    >
+      <Memo(FormattedMessage)
+        id="description"
+      />
+    </p>
+  </div>
+</div>
+`;
+
+exports[`SmallSwitchCard component tests when title is object 1`] = `
+<div
+  className="edit-list-switch-card"
+>
+  <div
+    className="d-flex align-items-center w-100"
+    onClick={[MockFunction]}
+    role="button"
+  >
+    <img
+      alt=""
+      className="edit-list-switch-card__icon"
+      src="icon"
+    />
+    <p
+      className="edit-list-switch-card__title"
+    >
+      <Memo(FormattedMessage)
+        id="title"
+      />
+    </p>
+    <div
+      className="d-inline-flex align-items-center ml-auto"
+    >
+      <Switch
+        checked={false}
+        disabled={false}
+        onChange={[MockFunction]}
+      />
+    </div>
+  </div>
+</div>
+`;

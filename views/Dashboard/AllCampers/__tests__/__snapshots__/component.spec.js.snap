@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardAllCampersComponent component tests matches snapshot 1`] = `
+<Fragment>
+  <Connect(Header)
+    activeTabKey="ALL_CAMPERS"
+  />
+  <div
+    className="main-account-wrap--listing"
+    id="main-account-wrap-master"
+  >
+    <div
+      className="container w-100"
+    >
+      <div
+        className="d-flex align-items-center justify-content-space-between mb-24"
+      >
+        <div
+          className="text-headline"
+        >
+          <Memo(FormattedMessage)
+            id="shared.campers"
+          />
+        </div>
+        <a
+          href="/add-new-camper/id/specifications"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <BtnGradient
+            className=""
+            isLoading={false}
+            text={
+              Object {
+                "id": "shared.listYourCamper",
+              }
+            }
+          />
+        </a>
+      </div>
+      <div
+        className="master-view-wrap"
+      >
+        <div
+          className="d-flex align-items-center relative mb-16"
+        >
+          <Search
+            onChange={[MockFunction]}
+          />
+          <FilterStatus
+            onStatusChange={[MockFunction]}
+            status="all"
+          />
+        </div>
+        <div>
+          <div
+            className="master-view-card-table-header"
+          >
+            <div
+              className="mr-auto"
+            >
+              <Memo(FormattedMessage)
+                id="shared.camper"
+              />
+            </div>
+            <div
+              className="master-view-card__id"
+            >
+              <Memo(FormattedMessage)
+                id="shared.id"
+              />
+            </div>
+            <div
+              className="master-view-card__status"
+            >
+              <Memo(FormattedMessage)
+                id="shared.status"
+              />
+            </div>
+            <div
+              className="master-view-card__insurance"
+            >
+              <Memo(FormattedMessage)
+                id="shared.insurance"
+              />
+            </div>
+            <div
+              className="master-view-card__options"
+            />
+          </div>
+          <Connect(CamperCard)
+            description="Isuzu Box Van Conversion fwd"
+            id="0a91a2b1-3501-4c71-ae07-eae3d280f861"
+            img="https://vancation-api-staging-assets.s3.us-west-1.amazonaws.com/store/camperphoto/54b394d3-d9ef-4698-acb0-0799932f1add/photo/585ec167567095de53f90cbcd0eb31b3.jpg"
+            key="0a91a2b1-3501-4c71-ae07-eae3d280f861"
+            modelNaming="Box Van Conversion"
+            place="Unique Camper in New York"
+            publicId="9544432"
+            rating={100}
+            status="draft"
+            title="camper first"
+          />
+          <Connect(CamperCard)
+            description="Volkswagen California 6.1 4x4"
+            id="22b70626-9334-4855-8ee4-d0e5d1d0192b"
+            img="/images/camper-default.jpg"
+            key="22b70626-9334-4855-8ee4-d0e5d1d0192b"
+            modelNaming="California 6.1"
+            place="VW Bus in Los Angeles, California, United States"
+            publicId="1147333"
+            rating={100}
+            status="draft"
+            title="Volkswagen California 6.1 4x4 VW Bus in Los Angeles, California, United States"
+          />
+        </div>
+        <div
+          className="d-flex"
+        >
+          <Pagination
+            className="master-view-pagination mr-auto ml-auto mr-md-0"
+            current={1}
+            disabled={false}
+            hideOnSinglePage={true}
+            onChange={[MockFunction]}
+            pageSize={10}
+            showLessItems={true}
+            showSizeChanger={false}
+            total={1}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <Footer />
+</Fragment>
+`;

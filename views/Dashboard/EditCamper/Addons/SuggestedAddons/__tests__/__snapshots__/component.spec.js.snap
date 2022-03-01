@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SuggestedAddons component tests matches snapshot 1`] = `
+<Col
+  key="id"
+  span={24}
+>
+  <Col
+    lg={16}
+  >
+    <Field
+      asComponent={[Function]}
+      component={[Function]}
+      componentProps={
+        Object {
+          "icon": "iconUrl",
+          "showChildren": true,
+          "title": "name",
+        }
+      }
+      name="addons[0].active"
+    >
+      <Field
+        component={[Function]}
+        formItemClasses="w-100"
+        label={
+          Object {
+            "id": "shared.description",
+          }
+        }
+        name="addons[0].description"
+      />
+      <div
+        className="edit-list-switch-card__input-fields"
+      >
+        <Field
+          component={[Function]}
+          formItemClasses="edit-list-switch-card__small-input mb-0"
+          label={
+            Object {
+              "id": "shared.price",
+            }
+          }
+          name="addons[0].price"
+          prefix="$"
+          type="number"
+        />
+        <Field
+          className="main-input__field main-input__field--no-label"
+          component={[Function]}
+          formItemClasses="mb-0"
+          items={
+            Array [
+              Object {
+                "label": Object {
+                  "id": "shared.each",
+                },
+                "value": "each",
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.perDay",
+                },
+                "value": "per day",
+              },
+            ]
+          }
+          name="addons[0].priceUnit"
+        />
+        <Field
+          component={[Function]}
+          formItemClasses="mb-0"
+          label={
+            Object {
+              "id": "shared.maxQuantity",
+            }
+          }
+          name="addons[0].maxAmount"
+          type="number"
+        />
+      </div>
+    </Field>
+  </Col>
+</Col>
+`;
+
+exports[`SuggestedAddons component tests when items active is false 1`] = `
+<Col
+  key="id"
+  span={24}
+>
+  <Col
+    lg={16}
+  >
+    <Field
+      asComponent={[Function]}
+      component={[Function]}
+      componentProps={
+        Object {
+          "icon": "iconUrl",
+          "showChildren": false,
+          "title": "name",
+        }
+      }
+      name="addons[0].active"
+    />
+  </Col>
+</Col>
+`;

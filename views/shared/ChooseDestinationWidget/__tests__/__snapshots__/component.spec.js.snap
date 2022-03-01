@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChooseDestinationWidgetComponent component tests matches snapshot 1`] = `
+<div
+  className="choose-destination"
+>
+  <div
+    className="choose-destination__select-wrapper w-100"
+  >
+    <i
+      className="icon icon-search in-gray-500"
+    />
+    <ForwardRef(InternalSelect)
+      autoComplete="off"
+      className="choose-destination-location main-input__field choose-destination__select-wrapper"
+      dropdownClassName="d-none"
+      listHeight={0}
+      onFocus={[MockFunction]}
+      placeholder="{Translation id: shared.whereAreYouGoing}"
+      showSearch={true}
+      value="test"
+    />
+  </div>
+</div>
+`;
+
+exports[`ChooseDestinationWidgetComponent component tests matches snapshot when isMobile equals false 1`] = `
+<div
+  className="choose-destination"
+>
+  <div
+    className="choose-destination__select-wrapper"
+  >
+    <i
+      className="icon icon-search in-gray-500"
+    />
+    <ForwardRef(InternalSelect)
+      allowClear={true}
+      className="main-input__field choose-destination__location--big"
+      dropdownClassName="choose-destination__destination-popup"
+      dropdownMatchSelectWidth={false}
+      filterOption={false}
+      getPopupContainer={[Function]}
+      id="choose-destination__destination-input"
+      listHeight={100}
+      onClear={[MockFunction]}
+      onFocus={[MockFunction]}
+      onSearch={[MockFunction]}
+      placeholder="{Translation id: shared.whereAreYouGoing}"
+      showAction={
+        Array [
+          "focus",
+          "click",
+        ]
+      }
+      showSearch={true}
+      value="test"
+    >
+      <Option
+        key="1"
+      >
+        <div
+          className="d-flex align-items-center"
+        >
+          <div
+            className="main-dropdown__item-home-search"
+          >
+            <img
+              alt=""
+              src="/images/home/LocationBack.svg"
+            />
+            <i
+              className="icon icon-location-f in-black font-16 location"
+            />
+          </div>
+          <span>
+            <Spin
+              indicator={
+                <ForwardRef(LoadingOutlined)
+                  spin={true}
+                  style={
+                    Object {
+                      "fontSize": 24,
+                    }
+                  }
+                />
+              }
+              size="default"
+              spinning={true}
+              wrapperClassName=""
+            />
+          </span>
+        </div>
+      </Option>
+      <Option
+        key="shared.exploreCampervansNearYour"
+      >
+        <div
+          className="d-flex align-items-center"
+          role="button"
+        >
+          <div
+            className="main-dropdown__item-home-search"
+          >
+            <img
+              alt=""
+              src="/images/home/LocationBack.svg"
+            />
+            <i
+              className="icon icon-location-f in-black font-16 location"
+            />
+          </div>
+          <span>
+            <Memo(FormattedMessage)
+              id="shared.exploreCampervansNearYour"
+            />
+          </span>
+        </div>
+      </Option>
+      <Option
+        key="shared.explorePopularDestinations"
+      >
+        <div
+          className="d-flex align-items-center"
+          role="button"
+        >
+          <div
+            className="main-dropdown__item-home-search"
+          >
+            <img
+              alt=""
+              src="/images/home/LocationBack.svg"
+            />
+            <i
+              className="icon icon-location-f in-black font-16 location"
+            />
+          </div>
+          <span>
+            <Memo(FormattedMessage)
+              id="shared.explorePopularDestinations"
+            />
+          </span>
+        </div>
+      </Option>
+      <Option
+        key="4"
+      >
+        <div
+          className="d-flex align-items-center"
+          role="button"
+        >
+          <div
+            className="main-dropdown__item-home-search"
+          >
+            <img
+              alt=""
+              src="mainPhotoUrl360"
+            />
+          </div>
+          <span>
+            test
+          </span>
+        </div>
+      </Option>
+      <Option
+        key="5"
+      >
+        <div
+          className="d-flex align-items-center"
+          role="button"
+        >
+          <div
+            className="main-dropdown__item-home-search"
+          >
+            <i
+              className="icon icon-city in-black"
+            />
+          </div>
+          <span>
+            test
+          </span>
+        </div>
+      </Option>
+    </ForwardRef(InternalSelect)>
+  </div>
+  <div
+    className="choose-destination__range_input-wrapper"
+  >
+    <i
+      className="icon icon-calendar in-gray-500"
+    />
+    <ForwardRef(InternalSelect)
+      allowClear={true}
+      autoComplete="off"
+      className="main-input__field choose-destination__range_input choose-destination__dates--big"
+      dropdownClassName="d-none"
+      id="choose-destination__calendar-input"
+      listHeight={0}
+      onChange={[MockFunction]}
+      onClear={[MockFunction]}
+      onFocus={[MockFunction]}
+      placeholder="{Translation id: shared.whenIsYourTrip}"
+      value="test"
+    />
+  </div>
+  <SearchButton
+    onClick={[MockFunction]}
+  />
+  <div
+    className="choose-destination__calendar-wrapper"
+    id="choose-destination__calendar-wrapper"
+  >
+    <Calendar
+      formatShortWeekday={[MockFunction]}
+      maxDate={+275760-09-13T00:00:00.000Z}
+      maxDetail="month"
+      minDate={0001-01-01T00:00:00.000Z}
+      minDetail="century"
+      onChange={[MockFunction]}
+      returnValue="start"
+      selectRange={true}
+      showDoubleView={true}
+      showNavigation={true}
+      showNeighboringMonth={true}
+      tileContent={[MockFunction]}
+      tileDisabled={[MockFunction]}
+      value={null}
+    />
+    <div
+      className="choose-destination__clear-section mb-20 ml-20"
+    >
+      <span
+        onClick={[MockFunction]}
+        role="button"
+      >
+        <Memo(FormattedMessage)
+          id="shared.clear"
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ChooseDestinationWidgetComponent component tests select matches snapshot 1`] = `""`;

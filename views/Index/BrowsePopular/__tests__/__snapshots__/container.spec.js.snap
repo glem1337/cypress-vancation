@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BrowsePopular component snapshot 1`] = `
+<BrowsePopular
+  breakpoints={
+    Object {
+      "1200": Object {
+        "freeMode": false,
+      },
+      "768": Object {
+        "spaceBetween": 32,
+      },
+    }
+  }
+  handlerNext={[Function]}
+  handlerPrev={[Function]}
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+  swiperRef={
+    Object {
+      "current": Object {
+        "swiper": Object {
+          "slideNext": [MockFunction],
+          "slidePrev": [MockFunction],
+        },
+      },
+    }
+  }
+/>
+`;

@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WaterForm component tests matches snapshot 1`] = `
+<Row
+  gutter={24}
+>
+  <Col
+    md={12}
+  >
+    <div
+      className="main-input-wrap-addtxt"
+    >
+      <Field
+        className="main-input__field"
+        component={[Function]}
+        disabled={true}
+        id="freshWater"
+        label={
+          Object {
+            "id": "addNewCamper.camperDetails.form.freshWater.title",
+          }
+        }
+        name="freshWater"
+        type="number"
+      >
+        <span
+          className="main-input__add-txt"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.camperDetails.form.water.dimension"
+          />
+        </span>
+      </Field>
+    </div>
+  </Col>
+  <Col
+    md={12}
+  >
+    <div
+      className="d-flex align-items-center relative"
+    >
+      <div
+        className="main-input-wrap-addtxt flex-grow-1"
+      >
+        <Field
+          className="main-input__field"
+          component={[Function]}
+          disabled={true}
+          id="grayWater"
+          label={
+            Object {
+              "id": "addNewCamper.camperDetails.form.grayWater.title",
+            }
+          }
+          name="grayWater"
+          type="number"
+        >
+          <span
+            className="main-input__add-txt"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.camperDetails.form.water.dimension"
+            />
+          </span>
+        </Field>
+        <TooltipIcon
+          className="edit-list__float-tooltip"
+          iconClass="icon-info-f"
+          phrase="some phrase"
+        />
+      </div>
+    </div>
+  </Col>
+</Row>
+`;

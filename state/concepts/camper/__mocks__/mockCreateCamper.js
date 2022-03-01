@@ -1,0 +1,48 @@
+// eslint-disable-next-line import/prefer-default-export
+export const mockedCreateCamper = {
+  data: {
+    id: 'f327957f-ae56-43aa-a9a2-93fc7ec7d2b1',
+    type: 'specification_detail',
+    attributes: {
+      camper_location: 'sdfsdfsdf',
+      drivetrain: '4x4',
+      fuel_type: 'diesel',
+      inside_height: 'low_top',
+      length: '86.9',
+      model_naming: 'Thao Mitchell',
+      name: 'Jonie Altenwerth',
+      seats: 1,
+      sleeps: 1,
+      state_registred: 'California',
+      transmission: 'manual',
+      year: 2019,
+      mileage: 'Under 50,000',
+      fresh_water: null,
+      gray_water: null,
+    },
+    relationships: { camper: { data: { id: '7b86b9e2-804a-4ed9-a322-e057e3bf0ea0', type: 'camper' } } },
+  },
+  included: [{
+    id: '7b86b9e2-804a-4ed9-a322-e057e3bf0ea0',
+    type: 'camper',
+    attributes: {
+      name: null,
+      description: null,
+      status: 'draft',
+      insurance: 'pending',
+      place: 'sdfsdfsdf',
+      public_id: '1349772',
+    },
+    relationships: {
+      owner: { data: { id: '46764fad-a7bf-437b-80e0-e333b21d8547', type: 'owner' } },
+      specification_detail: { data: { id: 'f327957f-ae56-43aa-a9a2-93fc7ec7d2b1', type: 'specification_detail' } },
+      pricing_info: { data: null },
+      camper_policy: { data: null },
+      delivery_information: { data: null },
+      camper_photos: { data: [] },
+      blocked_periods: { data: [] },
+      pricing_periods: { data: [] },
+      external_calendars: { data: [] },
+    },
+  }],
+};

@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalendarAvailability component tests matches snapshot 1`] = `
+<div
+  className="calendar-listing__side-main-item"
+>
+  <Button
+    className="ant-btn-slideout"
+    onClick={[MockFunction]}
+  >
+    <i
+      className="icon icon-calendar-check"
+    />
+    <span>
+      <Memo(FormattedMessage)
+        id="shared.calendarAvailability"
+      />
+    </span>
+    <i
+      className="icon icon-right ml-auto"
+    />
+  </Button>
+  <div
+    className="calendar-listing__side-slideout calendar-listing__side-slideout--active"
+  >
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <div
+        className="calendar-listing__side-slideout__main"
+      >
+        <div
+          className="mb-16"
+        >
+          <BackButton
+            discardConfirm={[MockFunction]}
+            discardPrepare={[MockFunction]}
+            discardReject={[MockFunction]}
+            isPopoverVisible={false}
+          />
+        </div>
+        <h3
+          className="text-subheader mb-8"
+        >
+          <Memo(FormattedMessage)
+            id="shared.calendarAvailability"
+          />
+        </h3>
+        <p
+          className="mb-16"
+        >
+          <Memo(FormattedMessage)
+            id="calendar.specifyAvailability"
+          />
+        </p>
+        <Field
+          className="main-input__field"
+          component={[Function]}
+          formItemClasses="mb-0"
+          items={
+            Array [
+              Object {
+                "label": Object {
+                  "id": "shared.countMonth",
+                  "values": Object {
+                    "count": 3,
+                  },
+                },
+                "value": 3,
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.countMonth",
+                  "values": Object {
+                    "count": 6,
+                  },
+                },
+                "value": 6,
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.countMonth",
+                  "values": Object {
+                    "count": 12,
+                  },
+                },
+                "value": 12,
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.countMonth",
+                  "values": Object {
+                    "count": 24,
+                  },
+                },
+                "value": 24,
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.countMonth",
+                  "values": Object {
+                    "count": 36,
+                  },
+                },
+                "value": 36,
+              },
+            ]
+          }
+          label={
+            Object {
+              "id": "shared.period",
+            }
+          }
+          name="countMonth"
+          optionLabelProp="label"
+          placeholder={
+            Object {
+              "id": "shared.select",
+            }
+          }
+        />
+      </div>
+      <FooterComponent
+        canSubmit={true}
+        discardConfirm={[MockFunction]}
+        discardPrepare={[MockFunction]}
+        discardReject={[MockFunction]}
+        isDiscardPopoverVisible={false}
+        isLoading={true}
+        isSavePopoverVisible={true}
+        saveConfirm={[MockFunction]}
+        savePrepare={[MockFunction]}
+        saveReject={[MockFunction]}
+        submit={[MockFunction]}
+        submitBtnText={
+          Object {
+            "id": "shared.save",
+          }
+        }
+        withSavePopover={true}
+        withSavePopoverWarning={false}
+      />
+    </ForwardRef(InternalForm)>
+  </div>
+</div>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainInfo component tests matches snapshot 1`] = `
+<Fragment>
+  <h1
+    className="text-headline"
+  >
+    <InnerHtmlField
+      WrapperTag="span"
+      html="title"
+    />
+  </h1>
+  <p
+    className="search-page__subtitle-info"
+  >
+    <InnerHtmlField
+      WrapperTag="span"
+      html="subTitle"
+    />
+  </p>
+</Fragment>
+`;

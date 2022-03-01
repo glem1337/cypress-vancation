@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessagesRoot container tests matches snapshot 1`] = `
+<FlashMessageRootComponent
+  hideMessage={[Function]}
+  intl={
+    Object {
+      "formatMessage": [Function],
+    }
+  }
+  messages={
+    Object {
+      "1": Object {
+        "duration": 3,
+        "id": "1",
+        "messageTitle": Object {},
+        "messageType": "success",
+      },
+      "2": Object {
+        "duration": 3,
+        "id": "2",
+        "messageTitle": Object {},
+        "messageType": "error",
+      },
+    }
+  }
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Object {
+              "flash-messages": Object {
+                "1": Object {
+                  "duration": 3,
+                  "id": "1",
+                  "messageTitle": Object {},
+                  "messageType": "success",
+                },
+                "2": Object {
+                  "duration": 3,
+                  "id": "2",
+                  "messageTitle": Object {},
+                  "messageType": "error",
+                },
+              },
+            },
+          },
+        ],
+      },
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;

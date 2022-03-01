@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationsDock component renders with PLAIN_NOTIFICATION 1`] = `
+<div
+  className="notification-list"
+>
+  <closeableNotification(Notification)
+    closeAfterDelay={true}
+    context="general"
+    hideNotification={[MockFunction]}
+    id="general_123"
+    isCloseable={true}
+    key="general_123"
+    kind="success"
+    messageObject={
+      Object {
+        "id": "some.value",
+      }
+    }
+    notificationType="PLAIN_NOTIFICATION"
+  />
+</div>
+`;

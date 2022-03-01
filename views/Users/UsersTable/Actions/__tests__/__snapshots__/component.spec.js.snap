@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersTableActions component matches snapshot when isCurrentUser is true 1`] = `
+<td
+  className="main-table__action"
+>
+  <div
+    className="relative"
+  >
+    <DropdownMenu
+      className="main-dropdown-btn"
+      disabled={true}
+      icon={
+        <button
+          type="button"
+        >
+          <i
+            className="main-dropdown-btn__icon icon icon-options"
+          />
+        </button>
+      }
+      menuClassName="main-table-menu main-dropdown"
+    >
+      <DropdownItem
+        className={null}
+        disabled={false}
+        icon={null}
+        isHidden={false}
+        label={null}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.edit",
+          }
+        }
+      />
+      <DropdownItem
+        className={null}
+        disabled={false}
+        icon={null}
+        isHidden={true}
+        label={null}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.activate",
+          }
+        }
+      />
+      <DropdownItem
+        className={null}
+        disabled={false}
+        icon={null}
+        isHidden={false}
+        label={null}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.deactivate",
+          }
+        }
+      />
+      <DropdownItem
+        className={null}
+        disabled={false}
+        icon={null}
+        isHidden={false}
+        label={null}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.remove",
+          }
+        }
+      />
+    </DropdownMenu>
+  </div>
+</td>
+`;
+
+exports[`UsersTableActions component matches snapshot when user deactivated 1`] = `
+<td
+  className="main-table__action"
+>
+  <div
+    className="relative"
+  >
+    <DropdownMenu
+      className="main-dropdown-btn"
+      disabled={true}
+      icon={
+        <button
+          type="button"
+        >
+          <i
+            className="main-dropdown-btn__icon icon icon-options"
+          />
+        </button>
+      }
+      menuClassName="main-table-menu main-dropdown"
+    >
+      <DropdownItem
+        className={null}
+        disabled={false}
+        icon={null}
+        isHidden={false}
+        label={null}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.edit",
+          }
+        }
+      />
+      <DropdownItem
+        className={null}
+        disabled={false}
+        icon={null}
+        isHidden={false}
+        label={null}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.activate",
+          }
+        }
+      />
+      <DropdownItem
+        className={null}
+        disabled={false}
+        icon={null}
+        isHidden={true}
+        label={null}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.deactivate",
+          }
+        }
+      />
+      <DropdownItem
+        className={null}
+        disabled={false}
+        icon={null}
+        isHidden={false}
+        label={null}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.remove",
+          }
+        }
+      />
+    </DropdownMenu>
+  </div>
+</td>
+`;
+
+exports[`UsersTableActions component matches snapshot when user has role workspace_owner 1`] = `
+<td
+  className="main-table__action"
+>
+  <div
+    className="relative"
+  >
+    <DropdownMenu
+      className="main-dropdown-btn"
+      disabled={true}
+      icon={
+        <button
+          type="button"
+        >
+          <i
+            className="main-dropdown-btn__icon icon icon-options"
+          />
+        </button>
+      }
+      menuClassName="main-table-menu main-dropdown"
+    >
+      <DropdownItem
+        className={null}
+        disabled={false}
+        icon={null}
+        isHidden={false}
+        label={null}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.edit",
+          }
+        }
+      />
+      <DropdownItem
+        className={null}
+        disabled={false}
+        icon={null}
+        isHidden={true}
+        label={null}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.activate",
+          }
+        }
+      />
+      <DropdownItem
+        className={null}
+        disabled={false}
+        icon={null}
+        isHidden={false}
+        label={null}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.deactivate",
+          }
+        }
+      />
+      <DropdownItem
+        className={null}
+        disabled={false}
+        icon={null}
+        isHidden={false}
+        label={null}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.remove",
+          }
+        }
+      />
+    </DropdownMenu>
+  </div>
+</td>
+`;
+
+exports[`UsersTableActions component matches snapshot with default props 1`] = `
+<td
+  className="main-table__action"
+>
+  <div
+    className="relative"
+  >
+    <DropdownMenu
+      className="main-dropdown-btn"
+      disabled={true}
+      icon={
+        <button
+          type="button"
+        >
+          <i
+            className="main-dropdown-btn__icon icon icon-options"
+          />
+        </button>
+      }
+      menuClassName="main-table-menu main-dropdown"
+    >
+      <DropdownItem
+        className={null}
+        disabled={false}
+        icon={null}
+        isHidden={false}
+        label={null}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.edit",
+          }
+        }
+      />
+      <DropdownItem
+        className={null}
+        disabled={false}
+        icon={null}
+        isHidden={true}
+        label={null}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.activate",
+          }
+        }
+      />
+      <DropdownItem
+        className={null}
+        disabled={false}
+        icon={null}
+        isHidden={false}
+        label={null}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.deactivate",
+          }
+        }
+      />
+      <DropdownItem
+        className={null}
+        disabled={false}
+        icon={null}
+        isHidden={false}
+        label={null}
+        onClick={[MockFunction]}
+        text={
+          Object {
+            "id": "shared.remove",
+          }
+        }
+      />
+    </DropdownMenu>
+  </div>
+</td>
+`;

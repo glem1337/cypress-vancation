@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthSocial container renders AuthSocial component 1`] = `
+<AuthSocialComponent
+  handlerFacebook={[Function]}
+  handlerGoogle={[Function]}
+/>
+`;

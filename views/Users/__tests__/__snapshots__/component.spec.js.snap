@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Users component matches snapshot when users empty 1`] = `
+<div
+  className="main-page d-block flex-basis-auto"
+>
+  <Connect(NotificationsDock) />
+  <div
+    className="main-page__header"
+  >
+    <h1
+      className="font-700 mb-0 font-transition"
+    >
+      <span
+        className="mr-12"
+      >
+        <Memo(FormattedMessage)
+          id="users.title"
+        />
+      </span>
+      <span
+        className="in-gray-700"
+      >
+        20
+      </span>
+    </h1>
+    <Button
+      className="main-page__invite-btn min-w-96"
+      icon="plus"
+      onClick={[Function]}
+      size="medium"
+      text={
+        Object {
+          "id": "users.add",
+        }
+      }
+      type="submit"
+    />
+  </div>
+  <div
+    className="main-backdrop flex-grow-0"
+  >
+    <div
+      className="main-page__filter"
+    >
+      <SearchList
+        defaultValue=""
+        filterEntities={[MockFunction]}
+      />
+      <Connect(WithFormik(UsersFilters)) />
+    </div>
+  </div>
+  <NoSearchResult />
+  <Connect(UsersPagination) />
+</div>
+`;
+
+exports[`Users component matches snapshot when users empty and loading is true 1`] = `
+<div
+  className="main-page d-block flex-basis-auto"
+>
+  <Connect(NotificationsDock) />
+  <div
+    className="main-page__header"
+  >
+    <h1
+      className="font-700 mb-0 font-transition"
+    >
+      <span
+        className="mr-12"
+      >
+        <Memo(FormattedMessage)
+          id="users.title"
+        />
+      </span>
+      <span
+        className="in-gray-700"
+      >
+        20
+      </span>
+    </h1>
+    <Button
+      className="main-page__invite-btn min-w-96"
+      icon="plus"
+      onClick={[Function]}
+      size="medium"
+      text={
+        Object {
+          "id": "users.add",
+        }
+      }
+      type="submit"
+    />
+  </div>
+  <div
+    className="main-backdrop mb-16"
+  >
+    <div
+      className="main-page__filter"
+    >
+      <SearchList
+        defaultValue=""
+        filterEntities={[MockFunction]}
+      />
+      <Connect(WithFormik(UsersFilters)) />
+    </div>
+  </div>
+  <Connect(UsersPagination) />
+</div>
+`;
+
+exports[`Users component matches snapshot when users present and loading is true 1`] = `
+<div
+  className="main-page d-block flex-basis-auto"
+>
+  <Connect(NotificationsDock) />
+  <div
+    className="main-page__header"
+  >
+    <h1
+      className="font-700 mb-0 font-transition"
+    >
+      <span
+        className="mr-12"
+      >
+        <Memo(FormattedMessage)
+          id="users.title"
+        />
+      </span>
+      <span
+        className="in-gray-700"
+      >
+        20
+      </span>
+    </h1>
+    <Button
+      className="main-page__invite-btn min-w-96"
+      icon="plus"
+      onClick={[Function]}
+      size="medium"
+      text={
+        Object {
+          "id": "users.add",
+        }
+      }
+      type="submit"
+    />
+  </div>
+  <div
+    className="main-backdrop mb-16"
+  >
+    <div
+      className="main-page__filter"
+    >
+      <SearchList
+        defaultValue=""
+        filterEntities={[MockFunction]}
+      />
+      <Connect(WithFormik(UsersFilters)) />
+    </div>
+    <UsersTable
+      users={
+        Array [
+          Object {
+            "id": "id",
+          },
+        ]
+      }
+    />
+  </div>
+  <Connect(UsersPagination) />
+</div>
+`;
+
+exports[`Users component matches snapshot with default props 1`] = `
+<div
+  className="main-page d-block flex-basis-auto"
+>
+  <Connect(NotificationsDock) />
+  <div
+    className="main-page__header"
+  >
+    <h1
+      className="font-700 mb-0 font-transition"
+    >
+      <span
+        className="mr-12"
+      >
+        <Memo(FormattedMessage)
+          id="users.title"
+        />
+      </span>
+      <span
+        className="in-gray-700"
+      >
+        20
+      </span>
+    </h1>
+    <Button
+      className="main-page__invite-btn min-w-96"
+      icon="plus"
+      onClick={[Function]}
+      size="medium"
+      text={
+        Object {
+          "id": "users.add",
+        }
+      }
+      type="submit"
+    />
+  </div>
+  <div
+    className="main-backdrop mb-16"
+  >
+    <div
+      className="main-page__filter"
+    >
+      <SearchList
+        defaultValue=""
+        filterEntities={[MockFunction]}
+      />
+      <Connect(WithFormik(UsersFilters)) />
+    </div>
+    <UsersTable
+      users={
+        Array [
+          Object {
+            "id": "id",
+          },
+        ]
+      }
+    />
+  </div>
+  <Connect(UsersPagination) />
+</div>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackBtn component tests matches snapshot 1`] = `
+<span
+  className="main-btn-simple "
+>
+  <Button
+    className="p-0"
+    icon={
+      <i
+        className="icon icon-left-edge in-gray-700"
+      />
+    }
+    onClick={[MockFunction]}
+    type="link"
+  >
+    <span>
+      test
+    </span>
+  </Button>
+</span>
+`;

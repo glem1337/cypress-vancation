@@ -1,0 +1,74 @@
+.ant-radio-wrapper.radio-review {
+  .flex-center();
+  position: relative;
+  z-index: 0;
+  width: 96px;
+  height: 96px;
+  margin-right: 12px;
+  margin-left: 12px;
+  border-radius: 50%;
+
+  &::after {
+    .make-centered-both();
+    content: '';
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border-radius: 50%;
+    transition: opacity @main-transition-duration;
+  }
+
+  &:hover:after {
+    opacity: 1;
+  }
+
+  &.radio-review--good {
+    &::after {
+      &:extend(.light-background--green);
+    }
+    .radio-review__inner {
+      background-color: @green1000;
+    }
+  }
+  &.radio-review--normal {
+    &::after {
+      &:extend(.light-background--yellow);
+    }
+
+    .radio-review__inner {
+      background-color: @yellow1000;
+    }
+  }
+  &.radio-review--bad {
+    &::after {
+      &:extend(.light-background--red);
+    }
+
+    .radio-review__inner {
+      background-color: @red1000;
+      img {
+        transform: scaleY(-1);
+      }
+    }
+  }
+
+  .ant-radio {
+    display: none;
+  }
+
+  &.ant-radio-wrapper-checked::after {
+    opacity: 1;
+  }
+}
+.radio-review__inner {
+  .flex-center();
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+
+  img {
+    width: 40px;
+    height: 40px;
+  }
+}

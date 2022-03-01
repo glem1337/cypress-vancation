@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MetaComponent useContainer hook matches snapshot 1`] = `
+Object {
+  "openGraph": Object {
+    "description": null,
+    "image": null,
+    "siteName": null,
+    "title": null,
+    "type": null,
+    "url": null,
+  },
+  "twitter": Object {
+    "card": null,
+    "image": null,
+  },
+}
+`;

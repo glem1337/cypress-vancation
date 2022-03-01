@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs component tests matches snapshot 1`] = `
+<div
+  className="main-account-header__bottom"
+>
+  <div
+    className="container"
+  >
+    <ul
+      className="d-flex"
+    >
+      <Link
+        href={
+          Object {
+            "pathname": "/dashboard/messages",
+            "query": Object {
+              "camper": "camperId",
+            },
+          }
+        }
+        key="MESSAGES"
+      >
+        <li
+          className="main-account-header__item active"
+        >
+          <span
+            className="main-account-header__item-txt"
+          >
+            <Memo(FormattedMessage)
+              id="headerHeader.messages"
+            />
+          </span>
+          <span
+            className="main-account-header__item-counter"
+          >
+            2
+          </span>
+        </li>
+      </Link>
+      <Link
+        href={
+          Object {
+            "pathname": "/dashboard/calendar",
+            "query": Object {
+              "camper": "camperId",
+            },
+          }
+        }
+        key="CALENDAR"
+      >
+        <li
+          className="main-account-header__item"
+        >
+          <span
+            className="main-account-header__item-txt"
+          >
+            <Memo(FormattedMessage)
+              id="shared.calendar"
+            />
+          </span>
+        </li>
+      </Link>
+      <Link
+        href={
+          Object {
+            "pathname": "/dashboard/reservations",
+            "query": Object {
+              "camper": "camperId",
+            },
+          }
+        }
+        key="RESERVATIONS"
+      >
+        <li
+          className="main-account-header__item"
+        >
+          <span
+            className="main-account-header__item-txt"
+          >
+            <Memo(FormattedMessage)
+              id="shared.reservations"
+            />
+          </span>
+          <span
+            className="main-account-header__item-counter"
+          >
+            2
+          </span>
+        </li>
+      </Link>
+      <Link
+        href={
+          Object {
+            "pathname": "/dashboard/reporting",
+            "query": Object {
+              "camper": "camperId",
+            },
+          }
+        }
+        key="REPORTING"
+      >
+        <li
+          className="main-account-header__item"
+        >
+          <span
+            className="main-account-header__item-txt"
+          >
+            <Memo(FormattedMessage)
+              id="shared.reporting"
+            />
+          </span>
+        </li>
+      </Link>
+      <Link
+        href={
+          Object {
+            "pathname": "/dashboard/campers",
+            "query": Object {
+              "camper": "camperId",
+            },
+          }
+        }
+        key="ALL_CAMPERS"
+      >
+        <li
+          className="main-account-header__item"
+        >
+          <span
+            className="main-account-header__item-txt"
+          >
+            <Memo(FormattedMessage)
+              id="shared.viewAllCampers"
+            />
+          </span>
+        </li>
+      </Link>
+      <Link
+        href={
+          Object {
+            "pathname": "/dashboard/edit-camper/pricing-and-availability",
+            "query": Object {
+              "camper": "camperId",
+            },
+          }
+        }
+        key="PRICING_AND_AVAILABILITY"
+      >
+        <li
+          className="main-account-header__item"
+        >
+          <span
+            className="main-account-header__item-txt"
+          >
+            <Memo(FormattedMessage)
+              id="shared.editCamper"
+            />
+          </span>
+        </li>
+      </Link>
+    </ul>
+  </div>
+</div>
+`;

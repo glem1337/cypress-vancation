@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputMessage component matches snapshot with \`icon: alert\` 1`] = `
+<p
+  className="main-input__message"
+>
+  <i
+    className="main-input__message-icon icon icon-alert"
+  />
+  <FormattedOrRawMessage
+    message={
+      Object {
+        "id": "test.message",
+      }
+    }
+  />
+</p>
+`;
+
+exports[`InputMessage component matches snapshot with \`icon: close\` 1`] = `
+<p
+  className="main-input__message"
+>
+  <i
+    className="main-input__message-icon icon icon-close"
+  />
+  <FormattedOrRawMessage
+    message={
+      Object {
+        "id": "test.message",
+      }
+    }
+  />
+</p>
+`;
+
+exports[`InputMessage component matches snapshot with \`icon: info\` 1`] = `
+<p
+  className="main-input__message"
+>
+  <i
+    className="main-input__message-icon icon icon-info"
+  />
+  <FormattedOrRawMessage
+    message={
+      Object {
+        "id": "test.message",
+      }
+    }
+  />
+</p>
+`;
+
+exports[`InputMessage component matches snapshot with \`icon: null\` 1`] = `
+<p
+  className="main-input__message"
+>
+  <i
+    className="main-input__message-icon icon"
+  />
+  <FormattedOrRawMessage
+    message={
+      Object {
+        "id": "test.message",
+      }
+    }
+  />
+</p>
+`;
+
+exports[`InputMessage component matches snapshot with \`icon: tick\` 1`] = `
+<p
+  className="main-input__message"
+>
+  <i
+    className="main-input__message-icon icon icon-tick"
+  />
+  <FormattedOrRawMessage
+    message={
+      Object {
+        "id": "test.message",
+      }
+    }
+  />
+</p>
+`;
+
+exports[`InputMessage component matches snapshot with default props 1`] = `
+<p
+  className="main-input__message"
+>
+  <i
+    className="main-input__message-icon icon"
+  />
+  <FormattedOrRawMessage
+    message={
+      Object {
+        "id": "test.message",
+      }
+    }
+  />
+</p>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyResult useContainer hook matches snapshot 1`] = `
+Object {
+  "areExisted": true,
+  "areFetched": false,
+  "location": "locationName",
+  "slug": "slug",
+  "state": "state",
+  "total": 222,
+}
+`;

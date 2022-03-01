@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NearbyDestinations component tests matches snapshot 1`] = `
+<Fragment>
+  <Divider
+    className="mt-24 mt-md-40 mb-24 mb-md-40"
+  />
+  <div
+    className="main-slider-container"
+  >
+    <h2
+      className="text-headline mb-24"
+    >
+      <Memo(FormattedMessage)
+        id="campervan-rental.nearbyDestinations"
+      />
+    </h2>
+    <div
+      className="main-slider-wrap"
+    >
+      <Swiper
+        className="search-page__slider"
+        key="swiperLayoutKey"
+      >
+        <SwiperSlide
+          key="32fb2587-2dfb-40b9-9c81-584822b0ac7f"
+        >
+          <Spin
+            className="search-page__spin"
+            indicator={
+              <ForwardRef(LoadingOutlined)
+                spin={true}
+              />
+            }
+            size="default"
+            spinning={true}
+            wrapperClassName=""
+          />
+          <Link>
+            <a
+              className="search-page__card"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                alt=""
+                src="https://vancation-api-staging-assets.s3.us-west-1.amazonaws.com/store/statelanding/32fb2587-2dfb-40b9-9c81-584822b0ac7f/main_photo/61fd9bccd8fb04fe0dfb15688f474e6b.jpg"
+              />
+              <h3
+                className="search-page__card-title"
+              />
+            </a>
+          </Link>
+        </SwiperSlide>
+      </Swiper>
+      <div
+        className="search-page__slider-nav"
+      >
+        <Button
+          icon={
+            <i
+              className="icon icon-left font-14"
+            />
+          }
+          onClick={[MockFunction]}
+          shape="circle"
+          type="secondary"
+        />
+        <Button
+          className="ml-16"
+          icon={
+            <i
+              className="icon icon-right font-14"
+            />
+          }
+          onClick={[MockFunction]}
+          shape="circle"
+          type="secondary"
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`NearbyDestinations component tests matches snapshot when isDestinationsLoading equals true 1`] = `""`;

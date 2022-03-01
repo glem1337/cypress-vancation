@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Photos component tests matches snapshot 1`] = `
+<div
+  className="van-details__images"
+  id="details-photos"
+>
+  <InternalPreviewGroup>
+    <div
+      className="van-details__big-img img-scale-hover"
+    >
+      <Image
+        alt=""
+        onClick={[MockFunction]}
+        preview={false}
+        src="photoUrl1100"
+      />
+    </div>
+    <div
+      className="van-details__small-imgs"
+    >
+      <div
+        className="van-details__big-img img-scale-hover"
+        key="2"
+      >
+        <Image
+          alt=""
+          onClick={[MockFunction]}
+          preview={false}
+          src="photoUrl1100"
+        />
+      </div>
+    </div>
+  </InternalPreviewGroup>
+  <div
+    className="van-details__images-more"
+    onClick={[MockFunction]}
+    role="button"
+  >
+    <p>
+      +3
+    </p>
+    <p>
+      photos
+    </p>
+  </div>
+  <ShareSection />
+</div>
+`;
+
+exports[`Photos component tests matches snapshot when isCamperFetching equals true 1`] = `
+<div
+  className="van-details__images van-details__images--skeleton"
+  id="details-photos"
+>
+  <div
+    className="van-details__big-img img-scale-hover"
+  />
+  <div
+    className="van-details__small-imgs"
+  >
+    <div
+      className="van-details__small-img img-scale-hover"
+    />
+    <div
+      className="van-details__small-img img-scale-hover"
+    />
+    <div
+      className="van-details__small-img img-scale-hover"
+    />
+    <div
+      className="van-details__small-img img-scale-hover"
+    />
+  </div>
+  <div
+    className="van-details__images-more"
+    onClick={[MockFunction]}
+    role="button"
+  >
+    <p>
+      +3
+    </p>
+    <p>
+      photos
+    </p>
+  </div>
+</div>
+`;

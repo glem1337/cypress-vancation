@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FavoriteDestinations component snapshot 1`] = `
+<FavoriteDestinations
+  amountLocation={1}
+  amountLocationOnSlide={4}
+  amountSlides={3}
+  currentSlide={1}
+  currentSnapIndex={1}
+  handlerNext={[Function]}
+  handlerPrev={[Function]}
+  handlerSlide={[Function]}
+  isFetchingAllLocations={true}
+  isLoading={false}
+  showPagination={true}
+  slides={
+    Array [
+      Array [
+        Object {
+          "id": "96696312-de55-4185-84ab-0350d51405ae",
+          "img": "https://text.com.test_1.jpg",
+          "locationName": "Good place",
+          "locationSlug": "good-place",
+          "parentId": "uuid/v4",
+          "state": "New York",
+          "stateSlug": "new-york",
+        },
+      ],
+    ]
+  }
+  swiperLayoutKey="uuid/v4"
+  swiperProps={
+    Object {
+      "lazy": Object {
+        "loadPrevNext": true,
+      },
+      "loop": true,
+      "spaceBetween": 24,
+      "watchOverflow": true,
+    }
+  }
+  swiperRef={
+    Object {
+      "current": Object {
+        "swiper": Object {
+          "realIndex": 1,
+          "slideNext": [MockFunction],
+          "slidePrev": [MockFunction],
+          "update": [MockFunction],
+        },
+      },
+    }
+  }
+/>
+`;

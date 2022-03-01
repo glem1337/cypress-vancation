@@ -1,0 +1,31 @@
+.chat-filter-sidebar {
+  .ant-drawer-close {
+    display: none;
+  }
+
+  .ant-drawer-header {
+    padding: 8px @inner-offset;
+    border-color: @gray300;
+  }
+
+  .ant-drawer-body {
+    display: flex;
+    flex-direction: column;
+    padding-right: @inner-offset;
+    padding-left: @inner-offset;
+  }
+
+  .ant-drawer-content-wrapper {
+    width: 100% !important;
+    box-shadow: @shadow1;
+
+    @media (min-width: @screen-md) {
+      width: @chat-list-width-lg !important;
+    }
+  }
+}
+
+.chat-filter-sidebar__item {
+  .flex-center-y();
+  height: 40px;
+}

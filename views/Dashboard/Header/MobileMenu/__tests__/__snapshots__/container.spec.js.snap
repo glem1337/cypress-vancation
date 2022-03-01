@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MobileMenu container tests matches snapshot 1`] = `
+<MobileMenu
+  activeKey="REPORTING"
+  camperId="test-id"
+  closeMobileMenu={[MockFunction]}
+  currentUser={null}
+  hideItem="ALL_CAMPERS"
+  isCampersListVisible={true}
+  isVisible={true}
+  router={
+    Object {
+      "query": Object {
+        "camper": "test-id",
+      },
+    }
+  }
+  signOut={[MockFunction]}
+/>
+`;

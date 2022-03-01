@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rules component tests matches snapshot 1`] = `
+<Row>
+  <Col
+    span={24}
+  >
+    Foo
+  </Col>
+  <Col
+    key="name"
+    span={24}
+  >
+    <Col
+      lg={16}
+    >
+      <Field
+        asComponent={[Function]}
+        component={[Function]}
+        componentProps={
+          Object {
+            "description": "description",
+            "disabled": false,
+            "icon": "name",
+            "title": "title",
+          }
+        }
+        name="name"
+      />
+    </Col>
+  </Col>
+</Row>
+`;

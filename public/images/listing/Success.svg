@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Illustration / Success</title>
+    <g id="Illustration-/-Success" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(40.000000, 40.000000)">
+            <circle id="Oval-5" fill="#CFF8EB" cx="60" cy="60" r="60"></circle>
+            <path d="M88.6136684,34.9060905 C90.8746722,32.4835864 94.6714054,32.3526646 97.0939095,34.6136684 C99.5164136,36.8746722 99.6473354,40.6714054 97.3863316,43.0939095 L55.3863316,88.0939095 C53.1926678,90.4442636 49.5362735,90.647844 47.0952518,88.5555396 L26.0952518,70.5555396 C23.5792967,68.3990067 23.2879275,64.6112068 25.4444604,62.0952518 C27.6009933,59.5792967 31.3887932,59.2879275 33.9047482,61.4444604 L50.5379565,75.7014961 L88.6136684,34.9060905 Z" id="Path-92" fill="#36C697"></path>
+        </g>
+    </g>
+</svg>

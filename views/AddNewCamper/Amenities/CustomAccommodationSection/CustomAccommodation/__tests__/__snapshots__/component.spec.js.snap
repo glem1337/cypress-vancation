@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomAccommodation component tests matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="custom-acc-wrap"
+  >
+    <label
+      className="main-input__label w-100"
+      htmlFor="amenities[0]configurationCustomAmenities[0]name"
+    >
+      <Memo(FormattedMessage)
+        id="shared.name"
+      />
+    </label>
+    <div
+      className="flex-grow-1 mb-16 mb-md-0"
+    >
+      <Field
+        className="main-input__field w-100"
+        component={[Function]}
+        formItemClasses="mb-0"
+        id="amenities[0]configurationCustomAmenities[0]name"
+        name="amenities[0]configurationCustomAmenities[0]name"
+      />
+    </div>
+    <Field
+      className="mb-0"
+      component={[Function]}
+      id="amenities[0]configurationCustomAmenities[0]quantity"
+      max={5}
+      min={1}
+      name="amenities[0]configurationCustomAmenities[0]quantity"
+      onMaxValueTrigger={[MockFunction]}
+      wrapperClassname="custom-acc-wrap__sec-input align-self-start"
+    />
+    <div
+      className="custom-acc-wrap__close"
+    >
+      <Button
+        icon={
+          <i
+            className="icon icon-cross"
+          />
+        }
+        onClick={[MockFunction]}
+        type="secondary"
+      />
+    </div>
+  </div>
+</Fragment>
+`;

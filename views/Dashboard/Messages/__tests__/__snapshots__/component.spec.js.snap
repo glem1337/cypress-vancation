@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashBoardMessagesComponent component tests matches snapshot 1`] = `
+<Fragment>
+  <Connect(Header)
+    activeTabKey="MESSAGES"
+  />
+  <div
+    className="main-account-wrap--listing"
+    id="main-account-wrap-master"
+  >
+    Messages
+  </div>
+  <Footer />
+</Fragment>
+`;

@@ -1,0 +1,35 @@
+.main-btn--gradient {
+  overflow: hidden;
+  color: @white !important;
+  border: none;
+  background: @gradient1 !important;
+
+  &:disabled {
+    color: @gray500 !important;
+    background: @disable-back-color !important;
+    border-color: @disable-back-color !important;
+
+    .main-btn__gradient-inner {
+      background: transparent !important;
+    }
+  }
+}
+
+.ant-btn .main-btn__gradient-content {
+  z-index: 1;
+  position: relative;
+}
+
+.ant-btn .main-btn__gradient-inner {
+  display: none;
+
+  @media (min-width: @screen-lg) {
+    .make-centered-both();
+    position: absolute !important;
+    z-index: 0;
+    display: block;
+    width: 120%;
+    height: 100%;
+    background: @gradient4;
+  }
+}

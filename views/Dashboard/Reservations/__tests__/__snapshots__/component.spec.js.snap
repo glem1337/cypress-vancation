@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardReservationsComponent component tests matches snapshot 1`] = `
+<Fragment>
+  <Connect(Header)
+    activeTabKey="RESERVATIONS"
+  />
+  <div
+    className="main-account-wrap--listing"
+    id="main-account-wrap-master"
+  >
+    Reservations
+  </div>
+  <Footer />
+</Fragment>
+`;

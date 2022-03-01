@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Amenities component tests matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="main-listing-container"
+  >
+    <div
+      className="mb-16 mb-md-24"
+    >
+      <ProgressBar
+        content={
+          <Memo(FormattedMessage)
+            id="addNewCamper.ProgressBar"
+          />
+        }
+        percent={44}
+      />
+    </div>
+    <ForwardRef(InternalForm)>
+      <Row>
+        <Col
+          span={24}
+        >
+          <h1
+            className="text-headline mb-8"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.amenities.title"
+            />
+          </h1>
+          <p
+            className="mb-24"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.amenities.subTitle"
+            />
+          </p>
+          <AmenitySection
+            handleSwitchChange={[MockFunction]}
+            icon={null}
+            index={0}
+            items={
+              Array [
+                Object {
+                  "icon": "/images/listing/amenities-svg/climate_control/ceiling-fan.svg",
+                  "id": "1",
+                  "state": false,
+                  "title": "Сeiling fan",
+                },
+              ]
+            }
+            onMaxAccommodationQuantityCallback={[MockFunction]}
+            options={
+              Array [
+                Object {
+                  "configurationSubAmenities": Array [
+                    Object {
+                      "icon": "/images/listing/amenities-svg/climate_control/ceiling-fan.svg",
+                      "id": "1",
+                      "state": false,
+                      "title": "Сeiling fan",
+                    },
+                  ],
+                  "icon": "/images/listing/amenities-svg/climate_control/ceiling-fan.svg",
+                  "id": "1",
+                  "state": false,
+                  "title": "Сeiling fan",
+                },
+              ]
+            }
+            title="Climate control"
+            withDivider={false}
+          />
+        </Col>
+      </Row>
+    </ForwardRef(InternalForm)>
+    <withRouter(Connect(EstimatedEarningCard))
+      isSlim={true}
+    />
+  </div>
+  <AddNewCamperBtnForm
+    canSave={true}
+    isSubmitting={false}
+    onBackClick={[MockFunction]}
+    onSaveClick={[MockFunction]}
+    showGradientButton={true}
+    withBackBtn={true}
+  />
+</Fragment>
+`;
+
+exports[`Amenities component tests matches snapshot when camper does not exist 1`] = `
+<div
+  className="main-listing-container"
+>
+  <div
+    className="mb-16 mb-md-24"
+  >
+    <ProgressBar
+      content={
+        <Memo(FormattedMessage)
+          id="addNewCamper.ProgressBar"
+        />
+      }
+      percent={44}
+    />
+  </div>
+  <Row>
+    <Col
+      lg={24}
+    >
+      <h1
+        className="text-headline mb-8"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.amenities.title"
+        />
+      </h1>
+      <p
+        className="mb-24"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.amenities.subTitle"
+        />
+      </p>
+    </Col>
+  </Row>
+  <Row
+    gutter={24}
+  >
+    <Skeleton
+      active={true}
+      avatar={false}
+      paragraph={true}
+      title={true}
+    />
+  </Row>
+</div>
+`;

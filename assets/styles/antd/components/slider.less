@@ -1,0 +1,41 @@
+.ant-slider {
+  .ant-slider-handle {
+    margin-top: -8px;
+    border-width: 3px;
+    box-sizing: content-box;
+
+    &.ant-slider-handle-click-focused {
+      box-shadow: none;
+    }
+
+    &:hover,
+    &:focus {
+      border-color: white;
+    }
+  }
+
+  .ant-slider-dot {
+    top: -3px;
+    width: 6px;
+    height: 6px;
+    border-color: white;
+    background-color: @grey-200;
+    box-sizing: content-box;
+
+    &.ant-slider-dot-active {
+      background-color: @primary-color;
+    }
+  }
+
+  .ant-slider-mark-text {
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  &.ant-slider-disabled {
+    .ant-slider-handle {
+      background-color: @grey-800;
+      border-color: white !important;
+    }
+  }
+}

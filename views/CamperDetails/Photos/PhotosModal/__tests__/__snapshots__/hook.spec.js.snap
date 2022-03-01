@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhotosModal useContainer hook matches snapshot 1`] = `
+Object {
+  "hideModal": [Function],
+  "isDesktop": false,
+  "moveLeft": [Function],
+  "moveRight": [Function],
+  "scrollToActiveIndex": [Function],
+  "slideToActiveIndex": [Function],
+  "swiperRef": Object {
+    "current": Object {
+      "swiper": Object {
+        "slideNext": [MockFunction],
+        "slidePrev": [MockFunction],
+        "slideTo": [MockFunction],
+        "update": [MockFunction],
+      },
+    },
+  },
+}
+`;

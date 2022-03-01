@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mapbox selectors geocoderListSelector() returns geocoder list 1`] = `
+Array [
+  Object {
+    "id": "poi.257698094326",
+    "latitude": 37.23116,
+    "longitude": -76.646441,
+    "place": "Das Festhaus - Busch Gardens, 1 Busch Gardens Blvd, Williamsburg, Virginia 23185, United States",
+  },
+]
+`;

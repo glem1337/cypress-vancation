@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VehicleInfoSection component tests matches snapshot 1`] = `
+<Fragment>
+  <Col
+    lg={16}
+  >
+    <h2
+      className="text-subheader mb-8"
+    >
+      <Memo(FormattedMessage)
+        id="dashboard.editCamper.insurance.vehicleInfo.title"
+      />
+    </h2>
+    <p
+      className="mb-16"
+    >
+      <Memo(FormattedMessage)
+        id="dashboard.editCamper.insurance.vehicleInfo.description"
+      />
+    </p>
+  </Col>
+  <Col
+    md={12}
+  >
+    <Field
+      component={[Function]}
+      id="vinNumber"
+      label={
+        Object {
+          "id": "dashboard.editCamper.insurance.vin.label",
+        }
+      }
+      name="vinNumber"
+    />
+  </Col>
+  <Col
+    md={16}
+  >
+    <Alert
+      className="mb-24"
+      icon={
+        <i
+          className="icon icon-idea"
+        />
+      }
+      message={
+        <Memo(FormattedMessage)
+          id="dashboard.editCamper.insurance.vehicleInfo.alert"
+        />
+      }
+      showIcon={true}
+      type="warning"
+    />
+  </Col>
+  <div
+    className="w-100"
+  />
+  <Col
+    lg={8}
+    md={12}
+  >
+    <Field
+      autoSave={false}
+      className="main-input__field"
+      component={[Function]}
+      disabled={true}
+      id="stateRegistered"
+      items={
+        Array [
+          Object {
+            "label": "Alabama",
+            "value": "Alabama",
+          },
+          Object {
+            "label": "Alaska",
+            "value": "Alaska",
+          },
+          Object {
+            "label": "Arizona",
+            "value": "Arizona",
+          },
+          Object {
+            "label": "Arkansas",
+            "value": "Arkansas",
+          },
+          Object {
+            "label": "California",
+            "value": "California",
+          },
+          Object {
+            "label": "Colorado",
+            "value": "Colorado",
+          },
+          Object {
+            "label": "Connecticut",
+            "value": "Connecticut",
+          },
+          Object {
+            "label": "Delaware",
+            "value": "Delaware",
+          },
+          Object {
+            "label": "Florida",
+            "value": "Florida",
+          },
+          Object {
+            "label": "Georgia",
+            "value": "Georgia",
+          },
+          Object {
+            "label": "Hawaii",
+            "value": "Hawaii",
+          },
+          Object {
+            "label": "Idaho",
+            "value": "Idaho",
+          },
+          Object {
+            "label": "Illinois",
+            "value": "Illinois",
+          },
+          Object {
+            "label": "Indiana",
+            "value": "Indiana",
+          },
+          Object {
+            "label": "Iowa",
+            "value": "Iowa",
+          },
+          Object {
+            "label": "Kansas",
+            "value": "Kansas",
+          },
+          Object {
+            "label": "Kentucky",
+            "value": "Kentucky",
+          },
+          Object {
+            "label": "Louisiana",
+            "value": "Louisiana",
+          },
+          Object {
+            "label": "Maine",
+            "value": "Maine",
+          },
+          Object {
+            "label": "Maryland",
+            "value": "Maryland",
+          },
+          Object {
+            "label": "Massachusetts",
+            "value": "Massachusetts",
+          },
+          Object {
+            "label": "Michigan",
+            "value": "Michigan",
+          },
+          Object {
+            "label": "Minnesota",
+            "value": "Minnesota",
+          },
+          Object {
+            "label": "Mississippi",
+            "value": "Mississippi",
+          },
+          Object {
+            "label": "Missouri",
+            "value": "Missouri",
+          },
+          Object {
+            "label": "Montana",
+            "value": "Montana",
+          },
+          Object {
+            "label": "Nebraska",
+            "value": "Nebraska",
+          },
+          Object {
+            "label": "Nevada",
+            "value": "Nevada",
+          },
+          Object {
+            "label": "New Hampshire",
+            "value": "New Hampshire",
+          },
+          Object {
+            "label": "New Jersey",
+            "value": "New Jersey",
+          },
+          Object {
+            "label": "New Mexico",
+            "value": "New Mexico",
+          },
+          Object {
+            "label": "North Carolina",
+            "value": "North Carolina",
+          },
+          Object {
+            "label": "North Dakota",
+            "value": "North Dakota",
+          },
+          Object {
+            "label": "Ohio",
+            "value": "Ohio",
+          },
+          Object {
+            "label": "Oklahoma",
+            "value": "Oklahoma",
+          },
+          Object {
+            "label": "Oregon",
+            "value": "Oregon",
+          },
+          Object {
+            "label": "Pennsylvania",
+            "value": "Pennsylvania",
+          },
+          Object {
+            "label": "Rhode Island",
+            "value": "Rhode Island",
+          },
+          Object {
+            "label": "South Carolina",
+            "value": "South Carolina",
+          },
+          Object {
+            "label": "South Dakota",
+            "value": "South Dakota",
+          },
+          Object {
+            "label": "Tennessee",
+            "value": "Tennessee",
+          },
+          Object {
+            "label": "Texas",
+            "value": "Texas",
+          },
+          Object {
+            "label": "Utah",
+            "value": "Utah",
+          },
+          Object {
+            "label": "Vermont",
+            "value": "Vermont",
+          },
+          Object {
+            "label": "Virginia",
+            "value": "Virginia",
+          },
+          Object {
+            "label": "Washington",
+            "value": "Washington",
+          },
+          Object {
+            "label": "West Virginia",
+            "value": "West Virginia",
+          },
+          Object {
+            "label": "Wisconsin",
+            "value": "Wisconsin",
+          },
+          Object {
+            "label": "Wyoming",
+            "value": "Wyoming",
+          },
+        ]
+      }
+      label={
+        Object {
+          "id": "addNewCamper.camperDetails.form.stateRegistered",
+        }
+      }
+      name="stateRegistered"
+      placeholder={
+        Object {
+          "id": "addNewCamper.camperDetails.form.selectStateRegistered",
+        }
+      }
+      showSearch={true}
+    />
+  </Col>
+  <Col
+    lg={8}
+    md={12}
+  >
+    <Field
+      component={[Function]}
+      id="licensePlate"
+      label={
+        Object {
+          "id": "dashboard.editCamper.insurance.licensePlate.label",
+        }
+      }
+      name="licensePlate"
+    />
+  </Col>
+</Fragment>
+`;

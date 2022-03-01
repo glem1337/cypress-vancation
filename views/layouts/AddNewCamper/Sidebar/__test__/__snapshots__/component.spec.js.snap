@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar component test current user is not empty 1`] = `
+<aside
+  className="main-listing-sidebar"
+>
+  <div
+    className="main-listing-sidebar__close"
+    onClick={[MockFunction]}
+    role="button"
+  >
+    <i
+      className="icon icon-cross"
+    />
+  </div>
+  <div>
+    <div
+      className="main-listing-sidebar__title"
+    >
+      <Memo(FormattedMessage)
+        id="addNewCamper.NewCamper"
+      />
+    </div>
+    <div
+      className="d-none d-lg-block"
+    >
+      <a
+        className="main-listing-sidebar__item main-listing-sidebar__item--active"
+        key="test"
+        role="button"
+      >
+        <div
+          className="main-listing-sidebar__item-numb"
+        >
+          1
+        </div>
+        <Memo(FormattedMessage)
+          id="test"
+        />
+      </a>
+    </div>
+    <div
+      className="d-flex d-lg-none align-items-center"
+    >
+      <span
+        className="mr-4 font-600"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.mobileStepStart"
+          values={
+            Object {
+              "count": 2,
+            }
+          }
+        />
+      </span>
+      <span>
+        <Memo(FormattedMessage)
+          id="addNewCamper.mobileStepFinish"
+          values={
+            Object {
+              "count": 1,
+            }
+          }
+        />
+         - 
+        <Memo(FormattedMessage)
+          id="test"
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    className="main-listing-sidebar__footer"
+  >
+    <div
+      className="main-listing-support-icon"
+    >
+      <i
+        className="icon icon-question-f in-blue-1000 font-20"
+      />
+    </div>
+    <div>
+      <p
+        className="text-caption mb-4"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.HelperTitle"
+        />
+      </p>
+      <a
+        className="font-600 in-white"
+        href="tel:+1 766-732-6732"
+      >
+        +1 766-732-6732
+      </a>
+    </div>
+  </div>
+</aside>
+`;

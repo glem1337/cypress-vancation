@@ -1,0 +1,352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersTableRow component matches snapshot when deactivated 1`] = `
+<tr
+  className=""
+>
+  <td
+    className="main-table__userpic"
+  >
+    <div
+      className="op-03"
+    >
+      <AvatarComponent
+        avatarClassName={null}
+        imageSize="small"
+        sizeClassName={null}
+        user={
+          Object {
+            "active": false,
+            "avatarUrls": Object {
+              "small": "http://example.com/avatar",
+            },
+            "email": "test@example.com",
+            "firstName": "Bob",
+            "id": "1",
+            "invited": false,
+            "lastName": "Doe",
+            "roleName": "user",
+          }
+        }
+      />
+    </div>
+  </td>
+  <td>
+    <p
+      className="text-subheader mb-0"
+    >
+      Bob Doe
+    </p>
+    <span
+      className="in-blue-gray-300"
+    >
+      test@example.com
+    </span>
+  </td>
+  <td>
+    <p
+      className="text-body in-blue-600 in-gray-500"
+    >
+      <Memo(FormattedMessage)
+        id="users.roles.user"
+      />
+    </p>
+  </td>
+  <td>
+    <UserStatusBadge
+      user={
+        Object {
+          "active": false,
+          "avatarUrls": Object {
+            "small": "http://example.com/avatar",
+          },
+          "email": "test@example.com",
+          "firstName": "Bob",
+          "id": "1",
+          "invited": false,
+          "lastName": "Doe",
+          "roleName": "user",
+        }
+      }
+    />
+  </td>
+  <Connect(UsersTableActions)
+    user={
+      Object {
+        "active": false,
+        "avatarUrls": Object {
+          "small": "http://example.com/avatar",
+        },
+        "email": "test@example.com",
+        "firstName": "Bob",
+        "id": "1",
+        "invited": false,
+        "lastName": "Doe",
+        "roleName": "user",
+      }
+    }
+  />
+</tr>
+`;
+
+exports[`UsersTableRow component matches snapshot with default props 1`] = `
+<tr
+  className=""
+>
+  <td
+    className="main-table__userpic"
+  >
+    <div
+      className=""
+    >
+      <AvatarComponent
+        avatarClassName={null}
+        imageSize="small"
+        sizeClassName={null}
+        user={
+          Object {
+            "active": true,
+            "avatarUrls": Object {
+              "small": "http://example.com/avatar",
+            },
+            "email": "test@example.com",
+            "firstName": "Bob",
+            "id": "1",
+            "lastName": "Doe",
+            "roleName": "user",
+          }
+        }
+      />
+    </div>
+  </td>
+  <td>
+    <p
+      className="text-subheader mb-0"
+    >
+      Bob Doe
+    </p>
+    <span
+      className="in-blue-gray-300"
+    >
+      test@example.com
+    </span>
+  </td>
+  <td>
+    <p
+      className="text-body in-blue-600"
+    >
+      <Memo(FormattedMessage)
+        id="users.roles.user"
+      />
+    </p>
+  </td>
+  <td>
+    <UserStatusBadge
+      user={
+        Object {
+          "active": true,
+          "avatarUrls": Object {
+            "small": "http://example.com/avatar",
+          },
+          "email": "test@example.com",
+          "firstName": "Bob",
+          "id": "1",
+          "lastName": "Doe",
+          "roleName": "user",
+        }
+      }
+    />
+  </td>
+  <Connect(UsersTableActions)
+    user={
+      Object {
+        "active": true,
+        "avatarUrls": Object {
+          "small": "http://example.com/avatar",
+        },
+        "email": "test@example.com",
+        "firstName": "Bob",
+        "id": "1",
+        "lastName": "Doe",
+        "roleName": "user",
+      }
+    }
+  />
+</tr>
+`;
+
+exports[`UsersTableRow component matches snapshot with onClick 1`] = `
+<tr
+  className="c-pointer"
+  onClick={[MockFunction]}
+>
+  <td
+    className="main-table__userpic"
+  >
+    <div
+      className=""
+    >
+      <AvatarComponent
+        avatarClassName={null}
+        imageSize="small"
+        sizeClassName={null}
+        user={
+          Object {
+            "active": true,
+            "avatarUrls": Object {
+              "small": "http://example.com/avatar",
+            },
+            "email": "test@example.com",
+            "firstName": "Bob",
+            "id": "1",
+            "lastName": "Doe",
+            "roleName": "user",
+          }
+        }
+      />
+    </div>
+  </td>
+  <td>
+    <p
+      className="text-subheader mb-0"
+    >
+      Bob Doe
+    </p>
+    <span
+      className="in-blue-gray-300"
+    >
+      test@example.com
+    </span>
+  </td>
+  <td>
+    <p
+      className="text-body in-blue-600"
+    >
+      <Memo(FormattedMessage)
+        id="users.roles.user"
+      />
+    </p>
+  </td>
+  <td>
+    <UserStatusBadge
+      user={
+        Object {
+          "active": true,
+          "avatarUrls": Object {
+            "small": "http://example.com/avatar",
+          },
+          "email": "test@example.com",
+          "firstName": "Bob",
+          "id": "1",
+          "lastName": "Doe",
+          "roleName": "user",
+        }
+      }
+    />
+  </td>
+  <Connect(UsersTableActions)
+    user={
+      Object {
+        "active": true,
+        "avatarUrls": Object {
+          "small": "http://example.com/avatar",
+        },
+        "email": "test@example.com",
+        "firstName": "Bob",
+        "id": "1",
+        "lastName": "Doe",
+        "roleName": "user",
+      }
+    }
+  />
+</tr>
+`;
+
+exports[`UsersTableRow component matches snapshot without avatarUrl 1`] = `
+<tr
+  className=""
+>
+  <td
+    className="main-table__userpic"
+  >
+    <div
+      className=""
+    >
+      <AvatarComponent
+        avatarClassName={null}
+        imageSize="small"
+        sizeClassName={null}
+        user={
+          Object {
+            "active": true,
+            "avatarUrl": null,
+            "avatarUrls": Object {
+              "small": "http://example.com/avatar",
+            },
+            "email": "test@example.com",
+            "firstName": "Bob",
+            "id": "1",
+            "lastName": "Doe",
+            "roleName": "user",
+          }
+        }
+      />
+    </div>
+  </td>
+  <td>
+    <p
+      className="text-subheader mb-0"
+    >
+      Bob Doe
+    </p>
+    <span
+      className="in-blue-gray-300"
+    >
+      test@example.com
+    </span>
+  </td>
+  <td>
+    <p
+      className="text-body in-blue-600"
+    >
+      <Memo(FormattedMessage)
+        id="users.roles.user"
+      />
+    </p>
+  </td>
+  <td>
+    <UserStatusBadge
+      user={
+        Object {
+          "active": true,
+          "avatarUrl": null,
+          "avatarUrls": Object {
+            "small": "http://example.com/avatar",
+          },
+          "email": "test@example.com",
+          "firstName": "Bob",
+          "id": "1",
+          "lastName": "Doe",
+          "roleName": "user",
+        }
+      }
+    />
+  </td>
+  <Connect(UsersTableActions)
+    user={
+      Object {
+        "active": true,
+        "avatarUrl": null,
+        "avatarUrls": Object {
+          "small": "http://example.com/avatar",
+        },
+        "email": "test@example.com",
+        "firstName": "Bob",
+        "id": "1",
+        "lastName": "Doe",
+        "roleName": "user",
+      }
+    }
+  />
+</tr>
+`;

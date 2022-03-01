@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomAddons component tests matches snapshot 1`] = `
+<div
+  className="mb-40"
+>
+  <Col
+    lg={16}
+  >
+    <Row
+      gutter={24}
+    >
+      <Col
+        span={24}
+      >
+        <div
+          className="mb-24 text-subheader font-400"
+        >
+          <Memo(FormattedMessage)
+            id="dashboard.editCamper.addons.custom.title"
+          />
+        </div>
+      </Col>
+      <Col
+        span={24}
+      >
+        <div
+          className="custom-add-wrap custom-add-wrap--addons"
+          key="id"
+        >
+          <div
+            className="flex-grow-1"
+          >
+            <Field
+              component={[Function]}
+              label={
+                Object {
+                  "id": "dashboard.editCamper.addons.custom.nameLabel",
+                }
+              }
+              name="customAddons[0].name"
+            />
+            <Field
+              component={[Function]}
+              label={
+                Object {
+                  "id": "shared.description",
+                }
+              }
+              name="customAddons[0].description"
+            />
+            <div
+              className="edit-list-switch-card__input-fields"
+            >
+              <Field
+                component={[Function]}
+                formItemClasses="edit-list-switch-card__small-input mb-0"
+                label={
+                  Object {
+                    "id": "shared.price",
+                  }
+                }
+                name="customAddons[0].price"
+                prefix="$"
+                type="number"
+              />
+              <Field
+                className="main-input__field main-input__field--no-label"
+                component={[Function]}
+                formItemClasses="mb-0"
+                items={
+                  Array [
+                    Object {
+                      "label": Object {
+                        "id": "shared.each",
+                      },
+                      "value": "each",
+                    },
+                    Object {
+                      "label": Object {
+                        "id": "shared.perDay",
+                      },
+                      "value": "per day",
+                    },
+                  ]
+                }
+                name="customAddons[0].priceUnit"
+              />
+              <Field
+                component={[Function]}
+                formItemClasses="mb-0"
+                label={
+                  Object {
+                    "id": "shared.maxQuantity",
+                  }
+                }
+                name="customAddons[0].maxAmount"
+                type="number"
+              />
+            </div>
+          </div>
+          <div
+            className="ml-16 ml-md-24"
+          >
+            <Field
+              component={[Function]}
+              name="customAddons[0].active"
+            />
+          </div>
+          <div
+            className="custom-acc-wrap__close"
+          >
+            <Button
+              icon={
+                <i
+                  className="icon icon-cross"
+                />
+              }
+              type="secondary"
+            />
+          </div>
+        </div>
+      </Col>
+      <Col
+        span={24}
+      >
+        <Button
+          onClick={[MockFunction]}
+          type="secondary"
+        >
+          <Memo(FormattedMessage)
+            id="dashboard.editCamper.addons.custom.btn"
+          />
+        </Button>
+      </Col>
+    </Row>
+  </Col>
+</div>
+`;

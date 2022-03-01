@@ -1,0 +1,7 @@
+@font-sizes: 12, 14, 16, 18, 20, 24, 32;
+
+each(@font-sizes, {
+  .font-@{value} {
+    font-size: (@value * 1px) !important;
+  }
+});

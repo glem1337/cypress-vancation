@@ -1,0 +1,78 @@
+.auth-main {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 16px;
+
+  @media (min-width: @screen-md) {
+    padding: 40px 80px 24px;
+  }
+}
+
+.auth-main__header {
+  .flex-center-y;
+  margin-bottom: 24px;
+
+  @media (min-width: @screen-md) {
+    margin-bottom: 40px;
+  }
+
+  @media (min-width: @screen-lg) {
+    margin-bottom: 40px;
+  }
+}
+
+.auth-main__header-reset {
+  margin-bottom: 24px;
+
+  @media (min-width: @screen-md) {
+    margin-bottom: 80px;
+  }
+}
+
+.auth-main__container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  @media (min-width: @screen-lg) {
+    max-width: 820px;
+  }
+}
+
+.auth-main__btn-wrap {
+  margin-top: 12px;
+  margin-bottom: 16px;
+  text-align: right;
+}
+
+.auth-main-social-btn {
+  margin-bottom: 16px;
+  padding: 12px;
+  color: @black;
+  border-radius: @main-border-radius;
+  transition: background-color @main-transition-duration;
+  box-shadow: @shadow6;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+
+  &:hover:not(:disabled) {
+    background-color: @blue100;
+  }
+
+  &:focus:not(:disabled),
+  &:active:not(:disabled) {
+    background-color: @blue200;
+  }
+}
+
+.auth--login .auth-main__header {
+  @media (min-width: @screen-md) {
+    margin-bottom: 120px;
+  }
+
+  @media (min-width: @screen-lg) {
+    margin-bottom: 128px;
+  }
+}

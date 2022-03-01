@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`users constants matches snapshot 1`] = `
+Object {
+  "SETTING_LAYOUT_ITEMS": Array [
+    Object {
+      "contentId": "settingLayout.itemProfile",
+      "icon": "profile",
+      "key": "PROFILE",
+      "path": "/settings/profile",
+    },
+    Object {
+      "contentId": "settingLayout.itemAccount",
+      "icon": "account",
+      "key": "ACCOUNT",
+      "path": "/settings/account",
+    },
+  ],
+}
+`;

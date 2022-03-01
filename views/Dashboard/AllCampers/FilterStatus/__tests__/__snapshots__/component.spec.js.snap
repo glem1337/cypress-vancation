@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterStatus component tests matches snapshot 1`] = `
+<Dropdown
+  className="ml-8 master-view-filter-wrap"
+  disabled={false}
+  icon={
+    <div>
+      <Button
+        className="d-none d-md-block"
+        icon={
+          <i
+            className="icon icon-filter mr-8 in-gray-500"
+          />
+        }
+        size="large"
+        type="text"
+      >
+        <span
+          className="in-gray-700"
+        >
+          <Memo(FormattedMessage)
+            id="dashboard.allCampers.filterByStatus.all"
+          />
+        </span>
+      </Button>
+      <Button
+        className="d-md-none"
+        icon={
+          <i
+            className="icon icon-filter in-gray-500"
+          />
+        }
+        size="large"
+        type="text"
+      />
+    </div>
+  }
+  on={
+    Array [
+      "click",
+    ]
+  }
+  overlayClassName="min-w-180"
+  placement="bottomRight"
+>
+  <div
+    className="main-dropdown-wrap"
+  >
+    <div
+      className="main-dropdown__body"
+    >
+      <div
+        className="main-dropdown__item-title"
+      >
+        <Memo(FormattedMessage)
+          id="dashboard.allCampers.filterByStatus.title"
+        />
+      </div>
+      <Field
+        component={[Function]}
+        name="status"
+        radioGroupProps={
+          Object {
+            "className": "w-100",
+            "onChange": [MockFunction],
+            "size": "large",
+          }
+        }
+      >
+        <div
+          className="main-dropdown__item"
+        >
+          <Radio
+            type="radio"
+            value="all"
+          >
+            <span
+              className="ml-12"
+            >
+              <Memo(FormattedMessage)
+                id="shared.all"
+              />
+            </span>
+          </Radio>
+        </div>
+        <div
+          className="main-dropdown__item"
+        >
+          <Radio
+            type="radio"
+            value="published"
+          >
+            <span
+              className="ml-12"
+            >
+              <Memo(FormattedMessage)
+                id="shared.published"
+              />
+            </span>
+          </Radio>
+        </div>
+        <div
+          className="main-dropdown__item"
+        >
+          <Radio
+            type="radio"
+            value="unpublished"
+          >
+            <span
+              className="ml-12"
+            >
+              <Memo(FormattedMessage)
+                id="shared.unpublished"
+              />
+            </span>
+          </Radio>
+        </div>
+        <div
+          className="main-dropdown__item"
+        >
+          <Radio
+            type="radio"
+            value="on_moderation"
+          >
+            <span
+              className="ml-12"
+            >
+              <Memo(FormattedMessage)
+                id="shared.onModeration"
+              />
+            </span>
+          </Radio>
+        </div>
+        <div
+          className="main-dropdown__item"
+        >
+          <Radio
+            type="radio"
+            value="draft"
+          >
+            <span
+              className="ml-12"
+            >
+              <Memo(FormattedMessage)
+                id="shared.draft"
+              />
+            </span>
+          </Radio>
+        </div>
+        <div
+          className="main-dropdown__item"
+        >
+          <Radio
+            type="radio"
+            value="deactivated"
+          >
+            <span
+              className="ml-12"
+            >
+              <Memo(FormattedMessage)
+                id="shared.deactivated"
+              />
+            </span>
+          </Radio>
+        </div>
+      </Field>
+    </div>
+  </div>
+</Dropdown>
+`;

@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserHeader component matches snapshot 1`] = `
+<header
+  className="main-header"
+>
+  <button
+    className="main-header__menu-switcher"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    <i
+      className="icon icon-menu relative"
+    />
+  </button>
+  <a
+    className="main-header__logo"
+    href="/"
+  >
+    <img
+      alt=""
+      src="/images/logo/logo.png"
+    />
+  </a>
+  <div
+    className="d-flex"
+  >
+    <button
+      className="main-header__notifications"
+      type="button"
+    >
+      <i
+        className="icon icon-notification-o"
+      />
+    </button>
+    <Dropdown
+      className={null}
+      disabled={false}
+      icon={
+        <button
+          className="main-header__account"
+          type="button"
+        >
+          <AvatarComponent
+            avatarClassName="main-header__account-image"
+            imageSize="original"
+            sizeClassName="main-userpic--sm"
+            user={
+              Object {
+                "avatarUrls": Object {
+                  "original": "original-avatar.jpeg",
+                  "small": "small-avatar.jpeg",
+                },
+                "city": "New York",
+                "country": "United States",
+                "email": "owner@example.com",
+                "firstName": "Fname",
+                "id": "1",
+                "lastName": "Lname",
+              }
+            }
+          />
+          <i
+            className="icon icon-arrow-down relative"
+          />
+        </button>
+      }
+      on={
+        Array [
+          "click",
+        ]
+      }
+      onVisibleChange={[MockFunction]}
+      overlayClassName=""
+      visible={false}
+    >
+      Account data
+    </Dropdown>
+  </div>
+</header>
+`;
+
+exports[`UserHeader component matches snapshot when currentUser has no avatar 1`] = `
+<header
+  className="main-header"
+>
+  <button
+    className="main-header__menu-switcher"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    <i
+      className="icon icon-menu relative"
+    />
+  </button>
+  <a
+    className="main-header__logo"
+    href="/"
+  >
+    <img
+      alt=""
+      src="/images/logo/logo.png"
+    />
+  </a>
+  <div
+    className="d-flex"
+  >
+    <button
+      className="main-header__notifications"
+      type="button"
+    >
+      <i
+        className="icon icon-notification-o"
+      />
+    </button>
+    <Dropdown
+      className={null}
+      disabled={false}
+      icon={
+        <button
+          className="main-header__account"
+          type="button"
+        >
+          <AvatarComponent
+            avatarClassName="main-header__account-image"
+            imageSize="original"
+            sizeClassName="main-userpic--sm"
+            user={
+              Object {
+                "avatarUrls": null,
+                "city": "New York",
+                "country": "United States",
+                "email": "owner@example.com",
+                "firstName": "Fname",
+                "id": "1",
+                "lastName": "Lname",
+              }
+            }
+          />
+          <i
+            className="icon icon-arrow-down relative"
+          />
+        </button>
+      }
+      on={
+        Array [
+          "click",
+        ]
+      }
+      onVisibleChange={[MockFunction]}
+      overlayClassName=""
+      visible={false}
+    >
+      Account data
+    </Dropdown>
+  </div>
+</header>
+`;
+
+exports[`UserHeader component matches snapshot when currentUser is null 1`] = `
+<header
+  className="main-header"
+>
+  <button
+    className="main-header__menu-switcher"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    <i
+      className="icon icon-menu relative"
+    />
+  </button>
+  <a
+    className="main-header__logo"
+    href="/"
+  >
+    <img
+      alt=""
+      src="/images/logo/logo.png"
+    />
+  </a>
+  <div
+    className="d-flex"
+  >
+    <button
+      className="main-header__notifications"
+      type="button"
+    >
+      <i
+        className="icon icon-notification-o"
+      />
+    </button>
+    <Dropdown
+      className={null}
+      disabled={false}
+      icon={
+        <button
+          className="main-header__account"
+          type="button"
+        >
+          <i
+            className="icon icon-arrow-down relative"
+          />
+        </button>
+      }
+      on={
+        Array [
+          "click",
+        ]
+      }
+      onVisibleChange={[MockFunction]}
+      overlayClassName=""
+      visible={false}
+    >
+      Account data
+    </Dropdown>
+  </div>
+</header>
+`;
+
+exports[`UserHeader component matches snapshot when isAccountWidgetVisible true 1`] = `
+<header
+  className="main-header"
+>
+  <button
+    className="main-header__menu-switcher"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    <i
+      className="icon icon-menu relative"
+    />
+  </button>
+  <a
+    className="main-header__logo"
+    href="/"
+  >
+    <img
+      alt=""
+      src="/images/logo/logo.png"
+    />
+  </a>
+  <div
+    className="d-flex"
+  >
+    <button
+      className="main-header__notifications"
+      type="button"
+    >
+      <i
+        className="icon icon-notification-o"
+      />
+    </button>
+    <Dropdown
+      className={null}
+      disabled={false}
+      icon={
+        <button
+          className="main-header__account"
+          type="button"
+        >
+          <AvatarComponent
+            avatarClassName="main-header__account-image"
+            imageSize="original"
+            sizeClassName="main-userpic--sm"
+            user={
+              Object {
+                "avatarUrls": Object {
+                  "original": "original-avatar.jpeg",
+                  "small": "small-avatar.jpeg",
+                },
+                "city": "New York",
+                "country": "United States",
+                "email": "owner@example.com",
+                "firstName": "Fname",
+                "id": "1",
+                "lastName": "Lname",
+              }
+            }
+          />
+          <i
+            className="icon icon-arrow-up relative"
+          />
+        </button>
+      }
+      on={
+        Array [
+          "click",
+        ]
+      }
+      onVisibleChange={[MockFunction]}
+      overlayClassName=""
+      visible={true}
+    >
+      Account data
+    </Dropdown>
+  </div>
+</header>
+`;

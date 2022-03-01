@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Health and Safety selectors amenityHealthAndSafetyItemsSelector() 1`] = `
+Array [
+  Object {
+    "active": true,
+    "amenityHealthSafetyItemId": "0484bad5-49f1-4dbc-aba1-a543a4b98314",
+    "icon": "memory://healthsafety/c04526f7-186d-4b88-a8e3-62d3cdc5873b/icon/d9a02d0d8c4e09520f3545688e74e9a4.svg",
+    "id": "c04526f7-186d-4b88-a8e3-62d3cdc5873b",
+    "title": "Colette Koepp",
+  },
+  Object {
+    "active": false,
+    "amenityHealthSafetyItemId": null,
+    "icon": "memory://healthsafety/f3ec9870-9775-4df0-a87f-f3281e195f52/icon/a70150fbb8b8d820856ab2113a4fe4ed.svg",
+    "id": "f3ec9870-9775-4df0-a87f-f3281e195f52",
+    "title": "Antoine Dooley",
+  },
+]
+`;
+
+exports[`Health and Safety selectors selectedHealthAndSafetyItemsSelector() 1`] = `
+Object {
+  "7c08c638-0823-449a-a696-4749421bd830": Object {
+    "active": true,
+    "id": "d393e647-4c7a-42f7-9fdb-9d5eab9b977f",
+  },
+  "80875471-87e6-42f9-82ac-d2c3ee4c300e": Object {
+    "active": true,
+    "id": "2e9c8816-fbb2-48bf-9d17-885ffe1aa86a",
+  },
+  "c04526f7-186d-4b88-a8e3-62d3cdc5873b": Object {
+    "active": true,
+    "id": "0484bad5-49f1-4dbc-aba1-a543a4b98314",
+  },
+}
+`;

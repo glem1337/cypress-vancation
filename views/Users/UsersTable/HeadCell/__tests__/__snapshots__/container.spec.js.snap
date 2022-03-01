@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersTableCellHead container renders UsersTableCellHead component 1`] = `
+<TableHeadCell
+  className=""
+  fetchUsers={[Function]}
+  onSort={[Function]}
+  setSortOrder={[Function]}
+  sortKey={null}
+  sortParams={
+    Object {
+      "direction": "desc",
+      "sortKey": "name",
+    }
+  }
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  text={
+    Object {
+      "id": "shared.ok",
+    }
+  }
+/>
+`;

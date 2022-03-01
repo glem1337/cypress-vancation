@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DefaultNightRate component tests matches snapshot 1`] = `
+<div
+  className="calendar-listing__side-main-item"
+>
+  <Button
+    className="ant-btn-slideout"
+    onClick={[MockFunction]}
+  >
+    <i
+      className="icon icon-price"
+    />
+    <span>
+      <Memo(FormattedMessage)
+        id="shared.defaultNightlyRate"
+      />
+    </span>
+    <i
+      className="icon icon-right ml-auto"
+    />
+  </Button>
+  <div
+    className="calendar-listing__side-slideout calendar-listing__side-slideout--active"
+  >
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <div
+        className="calendar-listing__side-slideout__main"
+      >
+        <div
+          className="mb-16"
+        >
+          <BackButton
+            discardConfirm={[MockFunction]}
+            discardPrepare={[MockFunction]}
+            discardReject={[MockFunction]}
+            isPopoverVisible={true}
+          />
+        </div>
+        <h3
+          className="text-subheader mb-16"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.pricing.nightlyRateTitle"
+          />
+        </h3>
+        <Field
+          component={[Function]}
+          disabled={true}
+          label={
+            Object {
+              "id": "addNewCamper.pricing.costPerNight",
+            }
+          }
+          name="costPerNight"
+          prefix="$"
+          type="number"
+        >
+          <span
+            className="main-input__add-txt"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.pricing.perNight"
+            />
+          </span>
+        </Field>
+        <div
+          className="d-flex align-items-center mb-16"
+        >
+          <Switch
+            checked={true}
+            onChange={[MockFunction]}
+          />
+          <span
+            className="ml-8"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.pricing.customizeByNightOfTheWeek"
+            />
+          </span>
+        </div>
+        <Field
+          component={[Function]}
+          id="weeklyPrice.monday_price"
+          key="monday_price"
+          label={
+            Object {
+              "id": "days.monday",
+            }
+          }
+          name="weeklyPrice.monday_price"
+          prefix="$"
+          type="number"
+        >
+          <span
+            className="main-input__add-txt"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.pricing.perNight"
+            />
+          </span>
+        </Field>
+        <Field
+          component={[Function]}
+          id="weeklyPrice.tuesday_price"
+          key="tuesday_price"
+          label={
+            Object {
+              "id": "days.tuesday",
+            }
+          }
+          name="weeklyPrice.tuesday_price"
+          prefix="$"
+          type="number"
+        >
+          <span
+            className="main-input__add-txt"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.pricing.perNight"
+            />
+          </span>
+        </Field>
+        <Field
+          component={[Function]}
+          id="weeklyPrice.wednesday_price"
+          key="wednesday_price"
+          label={
+            Object {
+              "id": "days.wednesday",
+            }
+          }
+          name="weeklyPrice.wednesday_price"
+          prefix="$"
+          type="number"
+        >
+          <span
+            className="main-input__add-txt"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.pricing.perNight"
+            />
+          </span>
+        </Field>
+        <Field
+          component={[Function]}
+          id="weeklyPrice.thursday_price"
+          key="thursday_price"
+          label={
+            Object {
+              "id": "days.thursday",
+            }
+          }
+          name="weeklyPrice.thursday_price"
+          prefix="$"
+          type="number"
+        >
+          <span
+            className="main-input__add-txt"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.pricing.perNight"
+            />
+          </span>
+        </Field>
+        <Field
+          component={[Function]}
+          id="weeklyPrice.friday_price"
+          key="friday_price"
+          label={
+            Object {
+              "id": "days.friday",
+            }
+          }
+          name="weeklyPrice.friday_price"
+          prefix="$"
+          type="number"
+        >
+          <span
+            className="main-input__add-txt"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.pricing.perNight"
+            />
+          </span>
+        </Field>
+        <Field
+          component={[Function]}
+          id="weeklyPrice.saturday_price"
+          key="saturday_price"
+          label={
+            Object {
+              "id": "days.saturday",
+            }
+          }
+          name="weeklyPrice.saturday_price"
+          prefix="$"
+          type="number"
+        >
+          <span
+            className="main-input__add-txt"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.pricing.perNight"
+            />
+          </span>
+        </Field>
+        <Field
+          component={[Function]}
+          id="weeklyPrice.sunday_price"
+          key="sunday_price"
+          label={
+            Object {
+              "id": "days.sunday",
+            }
+          }
+          name="weeklyPrice.sunday_price"
+          prefix="$"
+          type="number"
+        >
+          <span
+            className="main-input__add-txt"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.pricing.perNight"
+            />
+          </span>
+        </Field>
+      </div>
+      <FooterComponent
+        canSubmit={true}
+        discardConfirm={[MockFunction]}
+        discardPrepare={[MockFunction]}
+        discardReject={[MockFunction]}
+        isDiscardPopoverVisible={true}
+        isLoading={true}
+        isSavePopoverVisible={true}
+        saveConfirm={[MockFunction]}
+        savePrepare={[MockFunction]}
+        saveReject={[MockFunction]}
+        submit={[MockFunction]}
+        submitBtnText={
+          Object {
+            "id": "shared.save",
+          }
+        }
+        withSavePopover={true}
+        withSavePopoverWarning={true}
+      />
+    </ForwardRef(InternalForm)>
+  </div>
+</div>
+`;

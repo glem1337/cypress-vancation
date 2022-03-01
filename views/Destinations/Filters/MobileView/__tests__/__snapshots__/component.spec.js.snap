@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MobileView component tests matches snapshot 1`] = `
+<aside
+  className="search-page__filters-mob"
+>
+  <div
+    className="search-page__filters-mob__header"
+  >
+    <div>
+      <span
+        className="text-title"
+      >
+        <Memo(FormattedMessage)
+          id="shared.filter"
+        />
+      </span>
+    </div>
+    <Button
+      icon={
+        <i
+          className="icon icon-cross"
+        />
+      }
+      onClick={[Function]}
+      shape="circle"
+      size="large"
+      type="secondary"
+    />
+  </div>
+  <div
+    className="search-page__filters-mob__main"
+  >
+    <div
+      className="search-page__filters-mob__item"
+    >
+      <h3
+        className="text-headline mb-24"
+      >
+        <Memo(FormattedMessage)
+          id="shared.guests"
+        />
+      </h3>
+      renderQuestsWidget
+    </div>
+    <Divider
+      className="mt-24 mb-24"
+    />
+    <div
+      className="search-page__filters-mob__item"
+    >
+      <h3
+        className="text-headline mb-24"
+      >
+        <Memo(FormattedMessage)
+          id="shared.price"
+        />
+      </h3>
+      renderPriceWidget
+    </div>
+    <Divider
+      className="mt-24 mb-24"
+    />
+    <div
+      className="search-page__filters-mob__item"
+    >
+      <h3
+        className="text-headline mb-24"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.camperDetails.form.vehicleType"
+        />
+      </h3>
+      <div
+        className="search-page__filters-popover__grid search-page__filters-popover__grid--vehicle"
+      >
+        renderVehiclesWidget
+      </div>
+    </div>
+    <div
+      className="search-page__filters-mob__item mt-24 mb-24"
+    >
+      <div
+        className="search-page__filters-toggle search-page__filters-toggle--inactive"
+      >
+        <div
+          className="search-page__filters-toggle-inner"
+        >
+          renderGlamperOnlyWidget
+        </div>
+      </div>
+    </div>
+    <Divider
+      className="mt-24 mb-24"
+    />
+    <div
+      className="search-page__filters-mob__item"
+    >
+      <h3
+        className="text-headline mb-24"
+      >
+        <Memo(FormattedMessage)
+          id="shared.delivery"
+        />
+      </h3>
+      renderDeliveryWidget
+    </div>
+    <Divider
+      className="mt-24 mb-24"
+    />
+    <div
+      className="search-page__filters-mob__item"
+    >
+      <h3
+        className="text-headline mb-24"
+      >
+        <Memo(FormattedMessage)
+          id="shared.moreFilters"
+        />
+      </h3>
+      <div
+        className="mb-24"
+      >
+        <div
+          className="in-black font-600 mb-24"
+        >
+          <Memo(FormattedMessage)
+            id="shared.standardAmenities"
+          />
+        </div>
+        <div
+          className="search-page__filters-popover__column"
+        >
+          renderStandardAmenities
+        </div>
+      </div>
+      <div
+        className="mb-24"
+      >
+        <div
+          className="in-black font-600 mb-24"
+        >
+          <Memo(FormattedMessage)
+            id="shared.luxuryAmenities"
+          />
+        </div>
+        <div
+          className="search-page__filters-popover__column"
+        >
+          renderLuxuryAmenities
+        </div>
+      </div>
+      <div
+        className="mb-24"
+      >
+        <div
+          className="in-black font-600 mb-24"
+        >
+          <Memo(FormattedMessage)
+            id="shared.insideHeight"
+          />
+          <Tooltip
+            arrowPointAtCenter={false}
+            autoAdjustOverflow={true}
+            mouseEnterDelay={0.1}
+            mouseLeaveDelay={0.1}
+            placement="top"
+            title={
+              <Memo(FormattedMessage)
+                id="shared.ok"
+              />
+            }
+          >
+            <i
+              className="icon icon-info-f main-tooltip-icon font-18"
+            />
+          </Tooltip>
+        </div>
+        <div
+          className="search-page__filters-mob__input-row"
+        >
+          renderInsideHeight
+        </div>
+      </div>
+      <div
+        className="mb-24"
+      >
+        <div
+          className="in-black font-600 mb-24"
+        >
+          <Memo(FormattedMessage)
+            id="shared.rules"
+          />
+        </div>
+        <div
+          className="search-page__filters-popover__column"
+        >
+          renderRules
+        </div>
+      </div>
+      <div>
+        <div
+          className="in-black font-600 mb-24"
+        >
+          <Memo(FormattedMessage)
+            id="shared.minimumRating"
+          />
+        </div>
+        renderRating
+      </div>
+    </div>
+  </div>
+  <div
+    className="search-page__filters-mob__footer"
+  >
+    <GradientButton
+      className={null}
+      disabled={false}
+      loading={false}
+      onClick={[Function]}
+      size="large"
+      text={
+        Object {
+          "id": "campervan-rental.filter.showVehiclesCount",
+          "values": Object {
+            "count": 44,
+          },
+        }
+      }
+    />
+  </div>
+</aside>
+`;

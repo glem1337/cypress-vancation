@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomAccommodationSection component tests matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="mb-24 text-subheader font-400"
+  >
+    <Memo(FormattedMessage)
+      id="addNewCamper.amenities.customAccommodation"
+    />
+  </div>
+  <Row
+    gutter={24}
+    key="1"
+  >
+    <Col
+      span={24}
+    >
+      <Row
+        gutter={24}
+      >
+        <Col
+          lg={12}
+        >
+          <CustomAccommodation
+            amenityIndex={1}
+            index={0}
+            onMaxCustomAccommodationQuantityCallback={[MockFunction]}
+            onRemove={[MockFunction]}
+          />
+        </Col>
+      </Row>
+    </Col>
+  </Row>
+  <Button
+    type="secondary"
+  >
+    <Memo(FormattedMessage)
+      id="addNewCamper.amenities.addCustomBed"
+    />
+  </Button>
+</Fragment>
+`;
+
+exports[`CustomAccommodationSection component tests when items isn\`t present 1`] = `
+<Fragment>
+  <div
+    className="mb-24 text-subheader font-400"
+  >
+    <Memo(FormattedMessage)
+      id="addNewCamper.amenities.customAccommodation"
+    />
+  </div>
+  <Button
+    type="secondary"
+  >
+    <Memo(FormattedMessage)
+      id="addNewCamper.amenities.addCustomBed"
+    />
+  </Button>
+</Fragment>
+`;

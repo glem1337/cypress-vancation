@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDropdown container tests checks \`getPopupContainer\` instance method 1`] = `
+<div
+  id="main-account-header__user"
+/>
+`;
+
+exports[`UserDropdown container tests matches snapshot 1`] = `
+<UserDropdown
+  active="account"
+  currentUser={
+    Object {
+      "email": "test-email",
+      "user": Object {
+        "avatarUrl": "test_url",
+        "firstName": "firstName",
+        "lastName": "lastName",
+      },
+    }
+  }
+  getPopupContainer={[Function]}
+  handlerSignOut={[MockFunction]}
+  onVisibleChange={[MockFunction]}
+  visible={false}
+/>
+`;

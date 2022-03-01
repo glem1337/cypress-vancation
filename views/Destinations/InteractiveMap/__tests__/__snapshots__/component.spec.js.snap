@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InteractiveMapMobile component tests matches snapshot 1`] = `
+<div
+  className="search-page__map-mob search-page__map-mob--show"
+  id="search-page__map-mob"
+>
+  <Button
+    className="search-page__map-mob__close search-page__map-mob__control"
+    icon={
+      <i
+        className="icon icon-cross in-gray-500"
+      />
+    }
+    onClick={[MockFunction]}
+    size="large"
+    type="text"
+  />
+  <div
+    className="search-page__map-mob__toggle search-page__map-mob__control"
+  >
+    <Checkbox
+      defaultChecked={true}
+      onChange={[MockFunction]}
+    >
+      <Memo(FormattedMessage)
+        id="campervan-rental.searchAsIMoveTheMap"
+      />
+    </Checkbox>
+  </div>
+  <Button
+    className="search-page__map-mob__filters search-page__map-mob__control"
+    icon={
+      <i
+        className="icon icon-filter in-gray-500"
+      />
+    }
+    onClick={[MockFunction]}
+    size="large"
+    type="text"
+  />
+  <CampersSliderMobile />
+</div>
+`;

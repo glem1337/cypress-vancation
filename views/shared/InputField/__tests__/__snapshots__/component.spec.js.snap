@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputField component matches snapshot when field has error but untouched 1`] = `
+<FormItem
+  className="classname"
+  help={null}
+  label={null}
+  validateStatus={false}
+>
+  <Input
+    name="fieldName"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="{Translation id: fake.placeholder}"
+    type="text"
+    value={true}
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot when field has status 1`] = `
+<FormItem
+  className="classname"
+  help={null}
+  label={null}
+>
+  <Input
+    name="fieldName"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="{Translation id: fake.placeholder}"
+    type="text"
+    value={true}
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot when field is touched and has error 1`] = `
+<FormItem
+  className="classname"
+  help={
+    <InputHelp
+      icon={null}
+      text={
+        Object {
+          "id": "test.error",
+        }
+      }
+      type="danger"
+    />
+  }
+  label={null}
+  validateStatus="error"
+>
+  <Input
+    name="fieldName"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="{Translation id: fake.placeholder}"
+    type="text"
+    value={true}
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot when field is touched but has no error 1`] = `
+<FormItem
+  className="classname"
+  help={null}
+  label={null}
+>
+  <Input
+    name="fieldName"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="{Translation id: fake.placeholder}"
+    type="text"
+    value={true}
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot when field tooltip not empty 1`] = `
+<FormItem
+  className="classname"
+  help={
+    <InputHelp
+      icon={null}
+      text={
+        Object {
+          "id": "text.test",
+        }
+      }
+      type={null}
+    />
+  }
+  label={null}
+>
+  <Input
+    name="fieldName"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="{Translation id: fake.placeholder}"
+    type="text"
+    value={true}
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot with \`disabled\` 1`] = `
+<FormItem
+  className="classname"
+  help={null}
+  label={null}
+>
+  <Input
+    disabled={true}
+    name="fieldName"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="{Translation id: fake.placeholder}"
+    type="text"
+    value={true}
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot with \`icon\` 1`] = `
+<FormItem
+  className="classname"
+  help={null}
+  label={null}
+>
+  <Input
+    icon="icontype"
+    name="fieldName"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="{Translation id: fake.placeholder}"
+    type="text"
+    value={true}
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot with \`id\` 1`] = `
+<FormItem
+  className="classname"
+  help={null}
+  label={null}
+>
+  <Input
+    id="test-id"
+    name="fieldName"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="{Translation id: fake.placeholder}"
+    type="text"
+    value={true}
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot with \`label\` 1`] = `
+<FormItem
+  className="classname"
+  help={null}
+  label={
+    <span
+      className="main-input__label"
+    >
+      <Memo(FormattedMessage)
+        id="test.fieldLabel"
+      />
+    </span>
+  }
+>
+  <Input
+    name="fieldName"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="{Translation id: fake.placeholder}"
+    type="text"
+    value={true}
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot with \`type: password\` 1`] = `
+<FormItem
+  className="classname"
+  help={null}
+  label={null}
+>
+  <Input
+    name="fieldName"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="{Translation id: fake.placeholder}"
+    type="password"
+    value={true}
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot with default props 1`] = `
+<FormItem
+  className="classname"
+  help={null}
+  label={null}
+>
+  <Input
+    name="fieldName"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="{Translation id: fake.placeholder}"
+    type="text"
+    value={true}
+  />
+</FormItem>
+`;
+
+exports[`InputField component matches snapshot with string placeholder 1`] = `
+<FormItem
+  className="classname"
+  help={null}
+  label={null}
+>
+  <Input
+    name="fieldName"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    passThrough="prop"
+    placeholder="Fake placeholder"
+    type="text"
+    value={true}
+  />
+</FormItem>
+`;

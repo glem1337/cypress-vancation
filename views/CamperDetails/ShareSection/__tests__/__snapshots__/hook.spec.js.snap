@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShareSection useContainer hook matches snapshot 1`] = `
+Object {
+  "copyUrlToClipBoard": [Function],
+  "handlers": Object {
+    "current": Object {
+      "handleClickOutside": [Function],
+    },
+  },
+  "isDropDownVisible": false,
+  "isUrlCopied": false,
+  "sharedEmailData": Object {
+    "subject": "{Translation id: camperDetails.share.email.subject}",
+    "url": "Test name http://localhost/",
+  },
+  "sharedSocialData": Object {
+    "mainPhoto": "http://photoUrl1100/com?position=1",
+    "url": "http://localhost/",
+  },
+  "toggleDropdownVisibility": [Function],
+}
+`;

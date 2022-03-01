@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExploreCamperRentalsNearby component tests matches snapshot 1`] = `
+<div
+  data-container-for="Explore camper rentals nearby"
+  style={
+    Object {
+      "marginTop": -40,
+    }
+  }
+>
+  <div
+    className="container-fluid background-white pt-24 pt-md-40"
+  >
+    <Divider
+      className="mt-0 mb-24 mb-md-40"
+    />
+    <h2
+      className="text-headline mb-24 mb-md-40"
+    >
+      <Memo(FormattedMessage)
+        id="shared.exploreCamperRentalsNearby"
+      />
+    </h2>
+    <ul
+      className="search-page__column-list"
+    >
+      <Link
+        href="constructDestinationLink"
+        key="1"
+      >
+        <a
+          rel="noreferrer"
+          target="_blank"
+        >
+          <li>
+            Alaska
+          </li>
+        </a>
+      </Link>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`ExploreCamperRentalsNearby component tests matches snapshot when campers exist 1`] = `""`;
+
+exports[`ExploreCamperRentalsNearby component tests matches snapshot when isSearchResultsPage equals false 1`] = `""`;

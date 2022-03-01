@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SmallSwitchCard container tests matches snapshot 1`] = `
+<SmallSwitchCard
+  checked={false}
+  description={null}
+  disabled={false}
+  icon="icon"
+  onCardClick={[Function]}
+  onChange={[MockFunction]}
+  showChildren={false}
+  title="title"
+/>
+`;

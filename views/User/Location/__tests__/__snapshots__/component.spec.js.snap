@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserLocation component matches snapshot with default props 1`] = `
+<div
+  className="employee-profile__card-section"
+  data-cy="profile-location"
+>
+  <p
+    className="employee-profile__card-section-title"
+  >
+    <span
+      className="mr-8"
+    >
+      <Memo(FormattedMessage)
+        id="user.location"
+      />
+    </span>
+  </p>
+  <p
+    className="employee-profile__text mb-8"
+  >
+    <Memo(FormattedMessage)
+      id="user.country"
+      values={
+        Object {
+          "country": "Ukraine",
+        }
+      }
+    />
+  </p>
+  <p
+    className="employee-profile__text"
+  >
+    <Memo(FormattedMessage)
+      id="user.city"
+      values={
+        Object {
+          "city": "Dnepr",
+        }
+      }
+    />
+  </p>
+</div>
+`;
+
+exports[`UserLocation component matches snapshot with editLink 1`] = `
+<div
+  className="employee-profile__card-section"
+  data-cy="profile-location"
+>
+  <p
+    className="employee-profile__card-section-title"
+  >
+    <span
+      className="mr-8"
+    >
+      <Memo(FormattedMessage)
+        id="user.location"
+      />
+    </span>
+    <a>
+      Edit Link
+    </a>
+  </p>
+  <p
+    className="employee-profile__text mb-8"
+  >
+    <Memo(FormattedMessage)
+      id="user.country"
+      values={
+        Object {
+          "country": "Ukraine",
+        }
+      }
+    />
+  </p>
+  <p
+    className="employee-profile__text"
+  >
+    <Memo(FormattedMessage)
+      id="user.city"
+      values={
+        Object {
+          "city": "Dnepr",
+        }
+      }
+    />
+  </p>
+</div>
+`;

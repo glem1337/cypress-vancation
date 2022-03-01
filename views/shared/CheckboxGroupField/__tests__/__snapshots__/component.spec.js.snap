@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxGroupField component matches snapshot with \`className\` 1`] = `
+<Fragment>
+  <p
+    className=""
+  >
+    <Memo(FormattedMessage)
+      id="fake.title"
+    />
+  </p>
+  <div
+    className="className"
+  >
+    <CheckboxField
+      className={null}
+      field={
+        Object {
+          "name": "name",
+          "onChange": [MockFunction],
+          "value": true,
+        }
+      }
+      form={
+        Object {
+          "setFieldValue": [MockFunction],
+        }
+      }
+      key="value1"
+      name="name"
+    />
+    <CheckboxField
+      className={null}
+      field={
+        Object {
+          "name": "name",
+          "onChange": [MockFunction],
+          "value": true,
+        }
+      }
+      form={
+        Object {
+          "setFieldValue": [MockFunction],
+        }
+      }
+      key="value2"
+      name="name"
+    />
+    <CheckboxField
+      className={null}
+      field={
+        Object {
+          "name": "name",
+          "onChange": [MockFunction],
+          "value": true,
+        }
+      }
+      form={
+        Object {
+          "setFieldValue": [MockFunction],
+        }
+      }
+      key="value3"
+      name="name"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`CheckboxGroupField component matches snapshot with \`titleClassName\` 1`] = `
+<Fragment>
+  <p
+    className="titleClassName"
+  >
+    <Memo(FormattedMessage)
+      id="fake.title"
+    />
+  </p>
+  <div
+    className=""
+  >
+    <CheckboxField
+      className={null}
+      field={
+        Object {
+          "name": "name",
+          "onChange": [MockFunction],
+          "value": true,
+        }
+      }
+      form={
+        Object {
+          "setFieldValue": [MockFunction],
+        }
+      }
+      key="value1"
+      name="name"
+    />
+    <CheckboxField
+      className={null}
+      field={
+        Object {
+          "name": "name",
+          "onChange": [MockFunction],
+          "value": true,
+        }
+      }
+      form={
+        Object {
+          "setFieldValue": [MockFunction],
+        }
+      }
+      key="value2"
+      name="name"
+    />
+    <CheckboxField
+      className={null}
+      field={
+        Object {
+          "name": "name",
+          "onChange": [MockFunction],
+          "value": true,
+        }
+      }
+      form={
+        Object {
+          "setFieldValue": [MockFunction],
+        }
+      }
+      key="value3"
+      name="name"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`CheckboxGroupField component matches snapshot with default props 1`] = `
+<Fragment>
+  <p
+    className=""
+  >
+    <Memo(FormattedMessage)
+      id="fake.title"
+    />
+  </p>
+  <div
+    className=""
+  >
+    <CheckboxField
+      className={null}
+      field={
+        Object {
+          "name": "name",
+          "onChange": [MockFunction],
+          "value": true,
+        }
+      }
+      form={
+        Object {
+          "setFieldValue": [MockFunction],
+        }
+      }
+      key="value1"
+      name="name"
+    />
+    <CheckboxField
+      className={null}
+      field={
+        Object {
+          "name": "name",
+          "onChange": [MockFunction],
+          "value": true,
+        }
+      }
+      form={
+        Object {
+          "setFieldValue": [MockFunction],
+        }
+      }
+      key="value2"
+      name="name"
+    />
+    <CheckboxField
+      className={null}
+      field={
+        Object {
+          "name": "name",
+          "onChange": [MockFunction],
+          "value": true,
+        }
+      }
+      form={
+        Object {
+          "setFieldValue": [MockFunction],
+        }
+      }
+      key="value3"
+      name="name"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`CheckboxGroupField component matches snapshot without title 1`] = `
+<Fragment>
+  <div
+    className=""
+  >
+    <CheckboxField
+      className={null}
+      field={
+        Object {
+          "name": "name",
+          "onChange": [MockFunction],
+          "value": true,
+        }
+      }
+      form={
+        Object {
+          "setFieldValue": [MockFunction],
+        }
+      }
+      key="value1"
+      name="name"
+    />
+    <CheckboxField
+      className={null}
+      field={
+        Object {
+          "name": "name",
+          "onChange": [MockFunction],
+          "value": true,
+        }
+      }
+      form={
+        Object {
+          "setFieldValue": [MockFunction],
+        }
+      }
+      key="value2"
+      name="name"
+    />
+    <CheckboxField
+      className={null}
+      field={
+        Object {
+          "name": "name",
+          "onChange": [MockFunction],
+          "value": true,
+        }
+      }
+      form={
+        Object {
+          "setFieldValue": [MockFunction],
+        }
+      }
+      key="value3"
+      name="name"
+    />
+  </div>
+</Fragment>
+`;

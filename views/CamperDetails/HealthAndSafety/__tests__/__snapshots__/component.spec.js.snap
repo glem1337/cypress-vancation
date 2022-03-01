@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HealthAndSafety component tests matches snapshots default 1`] = `
+<Col
+  md={12}
+>
+  <p
+    className="text-headline mb-24"
+  >
+    <Memo(FormattedMessage)
+      id="dashboard.editCamper.amenities.healthAndSafety.title"
+    />
+  </p>
+  <Rules
+    allItemsVisible={true}
+    defaultVisibleCount={4}
+    onToggle={[MockFunction]}
+    totalItems={3}
+    visibleItems={
+      Array [
+        Object {
+          "icon": "path/to/icon",
+          "id": 1,
+          "title": "title",
+        },
+      ]
+    }
+  />
+</Col>
+`;
+
+exports[`HealthAndSafety component tests matches snapshots when camper doesnt exist 1`] = `
+<Col
+  md={12}
+>
+  <div
+    className="skeleton__title w-100"
+  />
+  <SkeletonText
+    rows={4}
+  />
+</Col>
+`;
+
+exports[`HealthAndSafety component tests matches snapshots when items aren\`t present 1`] = `""`;
+
+exports[`HealthAndSafety component tests matches snapshots when loading 1`] = `
+<Col
+  md={12}
+>
+  <div
+    className="skeleton__title w-100"
+  />
+  <SkeletonText
+    rows={4}
+  />
+</Col>
+`;

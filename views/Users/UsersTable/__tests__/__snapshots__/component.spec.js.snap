@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersTable component matches snapshot with default props 1`] = `
+<div
+  className="main-table-container"
+>
+  <div
+    className="main-table-container__shadow"
+  />
+  <table
+    className="main-table employee-table"
+  >
+    <UsersTableHead />
+    <tbody>
+      <UsersTableRow
+        key="1"
+        user={
+          Object {
+            "active": true,
+            "avatarUrls": Object {
+              "small": "http://example.com/avatar",
+            },
+            "email": "test@example.com",
+            "firstName": "Fname",
+            "id": "1",
+            "invited": true,
+            "lastName": "Lname",
+          }
+        }
+      />
+      <Link
+        as="/users/2"
+        href="/users/[userId]"
+        key="2"
+      >
+        <UsersTableRow
+          user={
+            Object {
+              "active": false,
+              "avatarUrls": Object {
+                "small": "http://example.com/avatar",
+              },
+              "email": "test@example.com",
+              "firstName": "Fname",
+              "id": "2",
+              "invited": false,
+              "lastName": "Lname",
+            }
+          }
+        />
+      </Link>
+    </tbody>
+  </table>
+</div>
+`;

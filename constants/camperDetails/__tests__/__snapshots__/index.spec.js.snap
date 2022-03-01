@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`general camper details constants match snapshot 1`] = `
+Object {
+  "CUSTOM_FEES_FREQUENCY_TYPES": Object {
+    "PER_DAY": "per_day",
+    "PER_EACH": "per_each",
+    "PER_HOUR": "per_hour",
+  },
+  "CUSTOM_FEE_FREQUENCY_BY_TYPE": Object {
+    "per_day": Object {
+      "id": "addNewCamper.tripFees.perDay",
+    },
+    "per_each": Object {
+      "id": "addNewCamper.tripFees.perEach",
+    },
+    "per_hour": Object {
+      "id": "addNewCamper.tripFees.perHour",
+    },
+  },
+  "DEFAULT_VISIBLE_DETAILS": Object {
+    "DESKTOP": 8,
+    "MOBILE": 3,
+  },
+  "DETAILS_CONFIG": Array [
+    Object {
+      "icon": "details_camp/Sleeps",
+      "id": "sleeps",
+      "title": Object {
+        "id": "addNewCamper.camperDetails.form.sleeps",
+      },
+    },
+    Object {
+      "icon": "details_camp/Seats",
+      "id": "seats",
+      "title": Object {
+        "id": "addNewCamper.camperDetails.form.seats",
+      },
+      "tooltip": Object {
+        "id": "addNewCamper.camperDetails.form.seats",
+      },
+    },
+    Object {
+      "config": Object {
+        "hight_top": Object {
+          "icon": "/images/listing/High-Top.svg",
+          "value": Object {
+            "id": "addNewCamper.camperDetails.from.highTop",
+          },
+        },
+        "low_top": Object {
+          "icon": "/images/listing/Low-Top.svg",
+          "value": Object {
+            "id": "addNewCamper.camperDetails.from.lowTop",
+          },
+        },
+        "pop_top": Object {
+          "icon": "/images/listing/Pop-Top.svg",
+          "value": Object {
+            "id": "addNewCamper.camperDetails.from.popTop",
+          },
+        },
+        "roof_top": Object {
+          "icon": "/images/listing/Roof-Top-Tent.svg",
+          "value": Object {
+            "id": "addNewCamper.camperDetails.from.roofTopTent",
+          },
+        },
+      },
+      "icon": "listing/High-Top",
+      "id": "insideHeight",
+      "title": Object {
+        "id": "addNewCamper.camperDetails.form.insideHeight",
+      },
+    },
+    Object {
+      "icon": "details_camp/Length",
+      "id": "length",
+      "title": Object {
+        "id": "addNewCamper.camperDetails.form.length",
+      },
+    },
+    Object {
+      "classes": "text-capitalize",
+      "icon": "details_camp/Transmission",
+      "id": "transmission",
+      "title": Object {
+        "id": "addNewCamper.camperDetails.form.transmission",
+      },
+    },
+    Object {
+      "icon": "edit_listing/rules/Allow-Unlimited-Miles",
+      "id": "mileage",
+      "title": Object {
+        "id": "shared.currentMileage",
+      },
+    },
+    Object {
+      "classes": "text-capitalize",
+      "icon": "details_camp/Fuel-Type",
+      "id": "fuelType",
+      "title": Object {
+        "id": "addNewCamper.camperDetails.form.fuelType",
+      },
+    },
+    Object {
+      "classes": "text-uppercase",
+      "icon": "edit_listing/rules/4x4-Only-Roads",
+      "id": "drivetrain",
+      "title": Object {
+        "id": "addNewCamper.camperDetails.form.drivetrain",
+      },
+    },
+    Object {
+      "dimensions": Object {
+        "id": "addNewCamper.camperDetails.form.water.dimension",
+      },
+      "icon": "details_camp/Fresh-Water",
+      "id": "freshWater",
+      "title": Object {
+        "id": "addNewCamper.camperDetails.form.freshWater.title",
+      },
+    },
+    Object {
+      "dimensions": Object {
+        "id": "addNewCamper.camperDetails.form.water.dimension",
+      },
+      "icon": "details_camp/Gray-Water",
+      "id": "grayWater",
+      "title": Object {
+        "id": "addNewCamper.camperDetails.form.grayWater.title",
+      },
+    },
+  ],
+  "MAX_DESCRIPTION_VISIBLE_SYMBOLS": 350,
+}
+`;

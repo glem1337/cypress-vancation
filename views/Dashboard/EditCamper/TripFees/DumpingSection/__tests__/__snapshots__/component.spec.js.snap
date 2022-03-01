@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DumpingSection component tests matches snapshot 1`] = `
+<Row
+  gutter={24}
+>
+  <Col
+    lg={16}
+  >
+    <div
+      className="mb-8 text-subheader font-700"
+    >
+      <Memo(FormattedMessage)
+        id="addNewCamper.tripFees.title"
+      />
+    </div>
+    <p
+      className="mb-16"
+    >
+      <Memo(FormattedMessage)
+        id="dashboard.editCamper.tripFees.dumping.description"
+      />
+    </p>
+    <Row
+      gutter={
+        Array [
+          24,
+          16,
+        ]
+      }
+    >
+      <Col
+        md={12}
+      >
+        <div
+          className="main-input-wrap-addtxt d-flex align-items-center"
+        >
+          <div
+            className="flex-grow-1"
+          >
+            <Field
+              component={[Function]}
+              formItemClasses="mb-0"
+              label={
+                Object {
+                  "id": "dashboard.editCamper.tripFees.dumping.dumpingFee.label",
+                }
+              }
+              name="dumpingFee"
+              prefix="$"
+              type="number"
+            />
+          </div>
+          <TooltipIcon
+            className="edit-list__float-tooltip"
+            iconClass="icon-info-f"
+            phrase="phrase"
+          />
+        </div>
+      </Col>
+      <div
+        className="w-100"
+      />
+      <Col
+        md={12}
+      >
+        <div
+          className="main-input-wrap-addtxt"
+        >
+          <Field
+            component={[Function]}
+            formItemClasses="mb-0"
+            label={
+              Object {
+                "id": "dashboard.editCamper.tripFees.dumping.flue.label",
+              }
+            }
+            name="flue"
+            prefix="$"
+            type="number"
+          >
+            <span
+              className="main-input__add-txt"
+            >
+              <Memo(FormattedMessage)
+                id="shared.perQuarterTank"
+              />
+            </span>
+          </Field>
+        </div>
+      </Col>
+      <div
+        className="w-100"
+      />
+      <Col
+        md={12}
+      >
+        <div
+          className="main-input-wrap-addtxt d-flex align-items-center"
+        >
+          <div
+            className="flex-grow-1"
+          >
+            <Field
+              component={[Function]}
+              formItemClasses="mb-0"
+              label={
+                Object {
+                  "id": "dashboard.editCamper.tripFees.dumping.lateDropOff.label",
+                }
+              }
+              name="lateDropOff"
+              prefix="$"
+              type="number"
+            >
+              <span
+                className="main-input__add-txt"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.tripFees.perHour"
+                />
+              </span>
+            </Field>
+          </div>
+          <TooltipIcon
+            className="edit-list__float-tooltip"
+            iconClass="icon-info-f"
+            phrase="phrase"
+          />
+        </div>
+      </Col>
+    </Row>
+  </Col>
+</Row>
+`;

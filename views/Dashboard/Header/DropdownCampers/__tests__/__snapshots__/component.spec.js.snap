@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropdownCampers component tests component prop dropdownRender snapshot 1`] = `""`;
+
+exports[`DropdownCampers component tests matches snapshot 1`] = `
+<ForwardRef(InternalSelect)
+  className="main-input__field d-none d-lg-block"
+  defaultValue="master-view"
+  disabled={false}
+  getPopupContainer={[Function]}
+  id="master-view-select"
+  loading={false}
+  name="fieldName"
+  onSelect={[MockFunction]}
+  optionLabelProp="label"
+  value="0a91a2b1-3501-4c71-ae07-eae3d280f861"
+>
+  <Option
+    key="0a91a2b1-3501-4c71-ae07-eae3d280f861"
+    label={
+      <FormattedOrRawMessage
+        message="camper first"
+      />
+    }
+    value="0a91a2b1-3501-4c71-ae07-eae3d280f861"
+  >
+    <li
+      className="main-dropdown__item p-0"
+    >
+      <div
+        className="main-dropdown__item-pic-listing"
+        style={
+          Object {
+            "backgroundImage": "url(\\"https://vancation-api-staging-assets.s3.us-west-1.amazonaws.com/store/camperphoto/54b394d3-d9ef-4698-acb0-0799932f1add/photo/585ec167567095de53f90cbcd0eb31b3.jpg\\")",
+          }
+        }
+      />
+      <div
+        className="d-flex justify-content-center flex-column line-height-base overflow-hidden"
+      >
+        <span
+          className="overflow-hidden text-overflow-ellipsis"
+        >
+          <FormattedOrRawMessage
+            message="camper first"
+          />
+        </span>
+        <span
+          className="font-style-italic"
+        >
+          9544432
+        </span>
+      </div>
+    </li>
+  </Option>
+  <Option
+    key="22b70626-9334-4855-8ee4-d0e5d1d0192b"
+    label={
+      <FormattedOrRawMessage
+        message="Volkswagen California 6.1 4x4 VW Bus in Los Angeles, California, United States"
+      />
+    }
+    value="22b70626-9334-4855-8ee4-d0e5d1d0192b"
+  >
+    <li
+      className="main-dropdown__item p-0"
+    >
+      <div
+        className="main-dropdown__item-pic-listing"
+        style={
+          Object {
+            "backgroundImage": "url(\\"/images/camper-default.jpg\\")",
+          }
+        }
+      />
+      <div
+        className="d-flex justify-content-center flex-column line-height-base overflow-hidden"
+      >
+        <span
+          className="overflow-hidden text-overflow-ellipsis"
+        >
+          <FormattedOrRawMessage
+            message="Volkswagen California 6.1 4x4 VW Bus in Los Angeles, California, United States"
+          />
+        </span>
+        <span
+          className="font-style-italic"
+        >
+          1147333
+        </span>
+      </div>
+    </li>
+  </Option>
+</ForwardRef(InternalSelect)>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainPhoto component tests matches snapshot 1`] = `
+<div
+  className="search-page__results-img"
+>
+  <img
+    alt=""
+    src="test url"
+  />
+</div>
+`;
+
+exports[`MainPhoto component tests matches snapshot when url is not present 1`] = `""`;

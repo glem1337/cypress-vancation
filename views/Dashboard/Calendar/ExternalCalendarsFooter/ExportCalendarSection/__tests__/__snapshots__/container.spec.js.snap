@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExportCalendarSection container tests matches snapshot 1`] = `
+<ContextProvider
+  value={null}
+>
+  <ExportCalendarSection
+    camperId="camperId"
+    createCamperCalendarExportLink={[Function]}
+    isLoading={true}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [MockFunction],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  />
+</ContextProvider>
+`;

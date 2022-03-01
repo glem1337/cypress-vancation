@@ -1,0 +1,343 @@
+@inner-text-z-index: 2;
+@after-z-index: 1;
+@disable-outline-color: #f0f3f7;
+@danger-background-color: #3a0505;
+
+.ant-btn {
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    content: none;
+  }
+
+  .icon {
+    font-size: 24px;
+  }
+
+  .icon,
+  span:not([class]) {
+    position: relative;
+    z-index: @inner-text-z-index;
+  }
+
+  .anticon {
+    width: 18px;
+  }
+
+  &:hover:not(:disabled) {
+    color: @blue1000;
+    background-color: @blue100;
+    border-color: transparent;
+  }
+
+  &:focus:not(:disabled),
+  &:active:not(:disabled) {
+    color: @blue1000;
+    background-color: @blue200;
+    border-color: transparent;
+  }
+
+  &.ant-btn-loading {
+    background-color: @primary-disabled;
+    border-color: @primary-disabled;
+    color: @primary-color;
+
+    .anticon-loading {
+      color: @primary-color;
+    }
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &:not(.ant-btn-icon-only) > .icon + span {
+    margin-left: 8px;
+  }
+
+  > span {
+    vertical-align: middle;
+  }
+}
+
+.ant-btn-sm:not(.ant-btn-circle):not(.ant-btn-icon-only) {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.ant-btn-circle {
+  min-width: unset;
+}
+
+// Secondary button
+.ant-btn-secondary {
+  background-color: @blue100;
+  color: @blue1000;
+  border-color: @blue100;
+
+  &:hover:not(:disabled) {
+    background-color: @blue200;
+  }
+
+  &:focus:not(:disabled),
+  &:active:not(:disabled) {
+    background-color: @blue100;
+  }
+
+  &:disabled {
+    border-color: get-color(gray, 500) !important;
+  }
+}
+// Accent (Danger) button
+.ant-btn-danger,
+.ant-btn-dangerous {
+  color: @white !important;
+  background-color: @red1000 !important;
+
+  &::after {
+    .make-centered-both();
+    z-index: @after-z-index;
+    content: '';
+    display: block !important;
+    width: 110%;
+    height: 110%;
+    background-color: transparent;
+    transition: background-color @main-transition-duration;
+  }
+
+  &:hover:not(:disabled)::after {
+    background-color: rgba(@danger-background-color, 0.1);
+  }
+
+  &:focus:not(:disabled)::after,
+  &:active:not(:disabled)::after {
+    background-color: rgba(black, 0.25);
+  }
+
+  &.ant-btn-loading {
+    color: @pink-1000;
+
+    .anticon-loading {
+      color: @white;
+    }
+  }
+}
+// Delete button
+.ant-btn-delete {
+  color: @red1000;
+  background-color: @red100;
+  border-color: @red100;
+
+  &:hover:not(:disabled) {
+    color: @red1000 !important;
+    background-color: @red200 !important;
+    border-color: @red100;
+  }
+
+  &:focus:not(:disabled),
+  &:active:not(:disabled) {
+    color: @red1000 !important;
+    background-color: @red100 !important;
+    border-color: @red100;
+  }
+}
+// Territory button
+.ant-btn-text {
+  background-color: white;
+  color: @text-color-gray;
+
+  &:hover:not(:disabled) {
+    background: @gray100;
+    color: @text-color-gray;
+  }
+
+  &:focus:not(:disabled),
+  &:active:not(:disabled) {
+    background: @gray200;
+    color: @text-color-gray;
+  }
+}
+// Territory button
+.ant-btn-simple-text {
+  padding-right: 0;
+  padding-left: 0;
+  background-color: transparent;
+  color: @text-color-gray;
+  border: unset !important;
+
+  span {
+    text-decoration: underline;
+  }
+
+  &:hover:not(:disabled) {
+    background: transparent;
+    color: @black;
+  }
+
+  &:focus:not(:disabled),
+  &:active:not(:disabled) {
+    background: transparent;
+    color: @black;
+  }
+}
+// Link button
+.ant-btn-link {
+  color: @gray700;
+
+  &:hover:not(:disabled) {
+    background: transparent;
+    color: @gray900;
+  }
+
+  &:focus:not(:disabled),
+  &:active:not(:disabled) {
+    background: transparent;
+    color: @gray900;
+  }
+}
+// Link accent button
+.ant-btn-main-link {
+  height: auto;
+  padding: 0;
+  background-color: transparent;
+  border-color: transparent;
+  color: @blue1000;
+
+  &:hover:not(:disabled) {
+    background-color: transparent;
+    border-color: transparent;
+    color: @body-color;
+  }
+
+  &:focus:not(:disabled),
+  &:active:not(:disabled) {
+    background-color: transparent;
+    border-color: transparent;
+    color: @body-color;
+  }
+}
+// Danger outline
+.ant-btn-danger-outline {
+  color: @red1000;
+  border-color: @red1000;
+
+  &:hover:not(:disabled) {
+    color: @red1000;
+    background-color: @red200;
+    border-color: transparent;
+  }
+
+  &:focus:not(:disabled),
+  &:active:not(:disabled) {
+    color: @red1000;
+    background-color: @red100;
+    border-color: transparent;
+  }
+}
+// Outline gray button
+.ant-btn-outline-gray {
+  border-color: @gray350;
+  color: @text-color-gray;
+
+  &:disabled {
+    background-color: white;
+  }
+
+  &:hover:not(:disabled) {
+    background-color: @gray100;
+    border-color: transparent;
+    color: @text-color-gray;
+  }
+
+  &:focus:not(:disabled),
+  &:active:not(:disabled) {
+    background-color: @gray200;
+    color: @text-color-gray;
+  }
+}
+// Control button
+.ant-btn-control {
+  background-color: white;
+  border-color: transparent;
+  color: @gray700;
+  box-shadow: @shadow6;
+
+  &:hover:not(:disabled),
+  &:focus:not(:disabled),
+  &:active:not(:disabled) {
+    background-color: white;
+    color: @gray700;
+  }
+}
+// Close button
+.ant-btn-close {
+  background: none;
+  border: none;
+  color: @gray500;
+
+  &:hover:not(:disabled),
+  &:focus:not(:disabled),
+  &:active:not(:disabled) {
+    background: none;
+    border: none;
+    color: @black;
+  }
+}
+// Settings button
+.ant-btn-settings {
+  width: unset;
+  height: unset;
+  padding: 0;
+  border: none;
+  background: none;
+  color: @gray500;
+
+  &:hover:not(:disabled),
+  &:focus:not(:disabled),
+  &:active:not(:disabled) {
+    background: none;
+    border: none;
+    color: @black;
+  }
+}
+
+.ant-btn-flat {
+  height: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  &.ant-btn-icon-only {
+    width: auto;
+  }
+}
+
+// Slideout settings button
+.ant-btn-slideout {
+  .flex-center-y();
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  background: none;
+  border: none;
+  color: @black;
+  font-weight: 400;
+  white-space: nowrap;
+
+  .icon {
+    color: @gray500;
+    transition: color @main-transition-props;
+  }
+
+  &:hover:not(:disabled),
+  &:focus:not(:disabled),
+  &:active:not(:disabled) {
+    background: none;
+    border: none;
+    color: @black;
+
+    .icon {
+      color: @gray900;
+    }
+  }
+}

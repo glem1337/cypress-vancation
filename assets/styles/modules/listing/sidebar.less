@@ -1,0 +1,124 @@
+@sidebar-width: 260px;
+
+.main-listing-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  flex: none;
+  padding: @gap-xs;
+  background-color: @primary-dark;
+  color: white;
+  .media-up(md; {
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-right: @gap-md;
+    padding-left: @gap-md;
+  });
+
+  @media (min-width: @screen-lg) {
+    flex-direction: column;
+    align-items: flex-start;
+    width: @sidebar-width;
+    height: 100vh;
+    padding: 24px 24px 16px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 100px;
+      left: 0;
+      width: 100%;
+      height: 320px;
+      background: url('/images/listing/listing-sidebar.svg') no-repeat center center/contain;
+    }
+  }
+}
+
+.main-listing-sidebar--key {
+  &::after {
+    bottom: 20px;
+    background-image: url('/images/key.svg');
+  }
+}
+
+.main-listing-sidebar__close {
+  .flex-center();
+  flex: none;
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+  background-color: @blue100;
+  border-radius: 50%;
+  .media-up(lg; {
+    margin-right: 0;
+    margin-bottom: 60px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: white;
+    }
+  });
+
+  .icon {
+    color: @blue1000;
+  }
+}
+
+.main-listing-sidebar__title {
+  .text-subheader();
+  margin-bottom: 4px;
+  color: white;
+  font-weight: 700;
+
+  @media (min-width: @screen-lg) {
+    margin-bottom: 32px;
+  }
+}
+
+.main-listing-sidebar__item {
+  .flex-center-y();
+  margin-bottom: 24px;
+  color: rgba(white, 0.75);
+}
+
+.main-listing-sidebar__item--active {
+  color: white;
+
+  .main-listing-sidebar__item-numb {
+    background-color: white;
+    color: @blue-1000;
+  }
+}
+
+.main-listing-sidebar__item-numb {
+  .flex-center();
+  flex: none;
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+  border-radius: 50%;
+  background-color: rgba(white, 0.2);
+}
+
+.main-listing-sidebar__footer {
+  .flex-center-y();
+  width: 100%;
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: @main-border-radius;
+  background-color: rgba(white, 0.24);
+  .media-up(md; {
+    width: auto;
+    margin-top: 0;
+    margin-left: auto;
+  });
+  .media-up(lg; {
+    align-self: center;
+    margin-top: auto;
+    margin-right: -8px;
+    margin-left: -8px;
+  });
+}

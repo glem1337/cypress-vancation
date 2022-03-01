@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchSection useContainer hook matches snapshot 1`] = `
+Object {
+  "expandMobileHeader": [Function],
+  "onClickHandler": [Function],
+}
+`;

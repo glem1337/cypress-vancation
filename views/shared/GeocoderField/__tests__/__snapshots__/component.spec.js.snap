@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GeocoderField component default props snapshot 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon={null}
+      text={
+        Object {
+          "id": "fake.tooltip",
+        }
+      }
+      type={null}
+    />
+  }
+  label={
+    <span
+      className="main-input__label"
+    >
+      <Memo(FormattedMessage)
+        id="test.fieldLabel"
+      />
+    </span>
+  }
+>
+  <ForwardRef(AutoComplete)
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onSearch={[MockFunction]}
+    onSelect={[MockFunction]}
+    options={Array []}
+    value="defaultValue"
+  >
+    <Input
+      placeholder="{Translation id: fake.placeholder}"
+      type="text"
+      value=""
+    />
+  </ForwardRef(AutoComplete)>
+</FormItem>
+`;
+
+exports[`GeocoderField component when field is touched and has error snapshot 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon={null}
+      text={
+        Object {
+          "id": "test.error",
+        }
+      }
+      type="danger"
+    />
+  }
+  label={
+    <span
+      className="main-input__label"
+    >
+      <Memo(FormattedMessage)
+        id="test.fieldLabel"
+      />
+    </span>
+  }
+  validateStatus="error"
+>
+  <ForwardRef(AutoComplete)
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onSearch={[MockFunction]}
+    onSelect={[MockFunction]}
+    options={Array []}
+    value="defaultValue"
+  >
+    <Input
+      placeholder="{Translation id: fake.placeholder}"
+      type="text"
+      value=""
+    />
+  </ForwardRef(AutoComplete)>
+</FormItem>
+`;
+
+exports[`GeocoderField component when field is touched but has no error snapshot 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon={null}
+      text={
+        Object {
+          "id": "fake.tooltip",
+        }
+      }
+      type={null}
+    />
+  }
+  label={
+    <span
+      className="main-input__label"
+    >
+      <Memo(FormattedMessage)
+        id="test.fieldLabel"
+      />
+    </span>
+  }
+>
+  <ForwardRef(AutoComplete)
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onSearch={[MockFunction]}
+    onSelect={[MockFunction]}
+    options={Array []}
+    value="defaultValue"
+  >
+    <Input
+      placeholder="{Translation id: fake.placeholder}"
+      type="text"
+      value=""
+    />
+  </ForwardRef(AutoComplete)>
+</FormItem>
+`;
+
+exports[`GeocoderField component with "disabled" snapshot 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon={null}
+      text={
+        Object {
+          "id": "fake.tooltip",
+        }
+      }
+      type={null}
+    />
+  }
+  label={
+    <span
+      className="main-input__label"
+    >
+      <Memo(FormattedMessage)
+        id="test.fieldLabel"
+      />
+    </span>
+  }
+>
+  <ForwardRef(AutoComplete)
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onSearch={[MockFunction]}
+    onSelect={[MockFunction]}
+    options={Array []}
+    value="defaultValue"
+  >
+    <Input
+      disabled={true}
+      placeholder="{Translation id: fake.placeholder}"
+      type="text"
+      value=""
+    />
+  </ForwardRef(AutoComplete)>
+</FormItem>
+`;
+
+exports[`GeocoderField component with "field value" snapshot 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon={null}
+      text={
+        Object {
+          "id": "fake.tooltip",
+        }
+      }
+      type={null}
+    />
+  }
+  label={
+    <span
+      className="main-input__label"
+    >
+      <Memo(FormattedMessage)
+        id="test.fieldLabel"
+      />
+    </span>
+  }
+>
+  <ForwardRef(AutoComplete)
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onSearch={[MockFunction]}
+    onSelect={[MockFunction]}
+    options={Array []}
+    value="defaultValue"
+  >
+    <Input
+      placeholder="{Translation id: fake.placeholder}"
+      type="text"
+      value=""
+    />
+  </ForwardRef(AutoComplete)>
+</FormItem>
+`;
+
+exports[`GeocoderField component with string placeholder snapshot 1`] = `
+<FormItem
+  help={
+    <InputHelp
+      icon={null}
+      text={
+        Object {
+          "id": "fake.tooltip",
+        }
+      }
+      type={null}
+    />
+  }
+  label={
+    <span
+      className="main-input__label"
+    >
+      <Memo(FormattedMessage)
+        id="test.fieldLabel"
+      />
+    </span>
+  }
+>
+  <ForwardRef(AutoComplete)
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onSearch={[MockFunction]}
+    onSelect={[MockFunction]}
+    options={Array []}
+    value="defaultValue"
+  >
+    <Input
+      placeholder="Fake placeholder"
+      type="text"
+      value=""
+    />
+  </ForwardRef(AutoComplete)>
+</FormItem>
+`;

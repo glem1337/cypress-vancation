@@ -1,0 +1,54 @@
+.main-date-range {
+  position: relative;
+
+  .ant-form-item-has-error {
+    .departure-return__widget {
+      border-color: @red1000;
+    }
+
+    .departure-return__vr {
+      background: @red1000;
+    }
+  }
+}
+
+.main-date-range__input-wrapper {
+  .flex-center-y();
+}
+
+.main-date-range--calendar-visible {
+  .main-date-range__calendar {
+    display: block;
+
+    @media only screen and (min-width: 768px) {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+      transform: translate(-50%, 0) scale(1);
+    }
+  }
+}
+
+.main-date-range__calendar {
+  background-color: @white;
+  z-index: 5;
+  width: 100%;
+  display: none;
+  margin-top: 16px;
+
+  @media only screen and (min-width: 768px) {
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    width: 150%;
+    transform: translate(-50%, -10%) scale(0.8);
+    visibility: hidden;
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.2s ease-out;
+    display: block;
+    border-radius: 6px;
+    box-shadow: 2px 2px 0 rgba(82, 97, 115, 0.1);
+    margin-top: 0;
+  }
+}

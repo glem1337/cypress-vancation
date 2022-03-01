@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Policies component tests matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="main-listing-container"
+  >
+    <div
+      className="mb-16 mb-md-24"
+    >
+      <ProgressBar
+        content={
+          <Memo(FormattedMessage)
+            id="addNewCamper.ProgressBar"
+          />
+        }
+        percent={324}
+      />
+    </div>
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <Row>
+        <Col
+          span={24}
+        >
+          <h1
+            className="text-headline mb-8"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.policies.title"
+            />
+          </h1>
+          <p
+            className="mb-24"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.policies.subTitle"
+            />
+          </p>
+          <div
+            className="mb-24 text-subheader font-700"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.policies.bookingTitle"
+            />
+          </div>
+        </Col>
+        <Col>
+          <Row>
+            <Col
+              lg={12}
+            >
+              <FormItem>
+                <Field
+                  component={[Function]}
+                  name="booking_approval_policy"
+                  radioGroupProps={
+                    Object {
+                      "size": "large",
+                    }
+                  }
+                >
+                  <Radio
+                    className="main-listing-radio"
+                    type="radio"
+                    value="instant_book"
+                  >
+                    <span>
+                      <span
+                        className="main-listing-radio__title"
+                      >
+                        <i
+                          className="icon icon-flash-f in-yellow-1000 mr-12"
+                        />
+                        <div
+                          className="d-inline-flex align-items-center flex-wrap"
+                        >
+                          <span
+                            className="mr-8"
+                          >
+                            <Memo(FormattedMessage)
+                              id="addNewCamper.policies.instantBookTitle"
+                            />
+                          </span>
+                          <Tag
+                            className="mt-8 mt-md-0 ml-0"
+                            color="cyan"
+                            icon={
+                              <i
+                                className="icon icon-like-f"
+                              />
+                            }
+                          >
+                            <Memo(FormattedMessage)
+                              id="shared.vancationRecommended"
+                            />
+                          </Tag>
+                        </div>
+                      </span>
+                      <p
+                        className="text-body"
+                      >
+                        <Memo(FormattedMessage)
+                          id="addNewCamper.policies.instantBookDescription"
+                        />
+                      </p>
+                    </span>
+                  </Radio>
+                  <Radio
+                    className="main-listing-radio"
+                    type="radio"
+                    value="review"
+                  >
+                    <span>
+                      <span
+                        className="main-listing-radio__title"
+                      >
+                        <Memo(FormattedMessage)
+                          id="addNewCamper.policies.reviewTitle"
+                        />
+                      </span>
+                      <p
+                        className="text-body"
+                      >
+                        <Memo(FormattedMessage)
+                          id="addNewCamper.policies.reviewDescription"
+                        />
+                      </p>
+                    </span>
+                  </Radio>
+                </Field>
+              </FormItem>
+            </Col>
+          </Row>
+        </Col>
+        <Divider />
+        <div
+          className="mb-24 text-subheader font-700"
+        >
+          <Memo(FormattedMessage)
+            id="addNewCamper.policies.cancellationTitle"
+          />
+          <TooltipIcon
+            iconClass="icon-info-f font-24"
+            phrase="{Translation id: addNewCamper.policies.cancellationTooltip}"
+          />
+        </div>
+        <Col>
+          <Row>
+            <Col
+              lg={12}
+            >
+              <FormItem>
+                <Field
+                  component={[Function]}
+                  name="cancellation_policy"
+                  radioGroupProps={
+                    Object {
+                      "size": "large",
+                    }
+                  }
+                >
+                  <Radio
+                    className="main-listing-radio"
+                    type="radio"
+                    value="easy_going"
+                  >
+                    <span>
+                      <span
+                        className="main-listing-radio__title"
+                      >
+                        <div
+                          className="d-inline-flex align-items-center flex-wrap"
+                        >
+                          <span
+                            className="mr-32 mr-md-8"
+                          >
+                            <Memo(FormattedMessage)
+                              id="addNewCamper.policies.easyTitle"
+                            />
+                          </span>
+                          <Tag
+                            className="ml-0"
+                            color="cyan"
+                            icon={
+                              <i
+                                className="icon icon-like-f"
+                              />
+                            }
+                          >
+                            <Memo(FormattedMessage)
+                              id="shared.vancationRecommended"
+                            />
+                          </Tag>
+                        </div>
+                      </span>
+                      <p
+                        className="text-body"
+                      >
+                        <Memo(FormattedMessage)
+                          id="addNewCamper.policies.easyDescription"
+                        />
+                      </p>
+                    </span>
+                  </Radio>
+                  <Radio
+                    className="main-listing-radio"
+                    type="radio"
+                    value="firm_but_fair"
+                  >
+                    <span>
+                      <span
+                        className="main-listing-radio__title"
+                      >
+                        <Memo(FormattedMessage)
+                          id="addNewCamper.policies.firmTitle"
+                        />
+                      </span>
+                      <p
+                        className="text-body"
+                      >
+                        <Memo(FormattedMessage)
+                          id="addNewCamper.policies.firmDescription"
+                        />
+                      </p>
+                    </span>
+                  </Radio>
+                  <Radio
+                    className="main-listing-radio"
+                    type="radio"
+                    value="by_the_book"
+                  >
+                    <span>
+                      <span
+                        className="main-listing-radio__title"
+                      >
+                        <Memo(FormattedMessage)
+                          id="addNewCamper.policies.bookTitle"
+                        />
+                      </span>
+                      <p
+                        className="text-body"
+                      >
+                        <Memo(FormattedMessage)
+                          id="addNewCamper.policies.bookDescription"
+                        />
+                      </p>
+                    </span>
+                  </Radio>
+                </Field>
+              </FormItem>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+    </ForwardRef(InternalForm)>
+    <withRouter(Connect(EstimatedEarningCard))
+      isSlim={true}
+    />
+  </div>
+  <AddNewCamperBtnForm
+    canSave={true}
+    isSubmitting={false}
+    onBackClick={[MockFunction]}
+    onSaveClick={[MockFunction]}
+    showGradientButton={true}
+    withBackBtn={true}
+  />
+</Fragment>
+`;
+
+exports[`Policies component tests matches snapshot when camper does not exist 1`] = `
+<div
+  className="main-listing-container"
+>
+  <div
+    className="mb-16 mb-md-24"
+  >
+    <ProgressBar
+      content={
+        <Memo(FormattedMessage)
+          id="addNewCamper.ProgressBar"
+        />
+      }
+      percent={324}
+    />
+  </div>
+  <Row>
+    <Col
+      span={24}
+    >
+      <h1
+        className="text-headline mb-8"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.policies.title"
+        />
+      </h1>
+    </Col>
+    <Col
+      span={24}
+    >
+      <Skeleton
+        active={true}
+        avatar={false}
+        paragraph={true}
+        title={true}
+      />
+    </Col>
+  </Row>
+</div>
+`;

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EstimatedEarningCard Component snapshot default props 1`] = `
+<div
+  className="car-card-wrap d-none d-md-block"
+>
+  <div
+    className="car-card"
+  >
+    <img
+      alt="test_name"
+      className="car-card__img"
+      src="test_iconUrl"
+    />
+    <div>
+      <div
+        className="car-card__title"
+      >
+        test_name
+      </div>
+      <p
+        className="car-card__txt"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.sprintersTransitsPromasters"
+        />
+      </p>
+    </div>
+    <div
+      className="car-card__total-wrap"
+    >
+      <p
+        className="car-card__total-title"
+      >
+        <Memo(FormattedMessage)
+          id="addNewCamper.estimatedEarnings"
+        />
+      </p>
+      <div
+        className="d-flex align-items-center"
+      >
+        <span
+          className="car-card__total-price"
+        >
+          $1200
+        </span>
+        <span
+          className="car-card__total-txt"
+        >
+           / 
+          <Memo(FormattedMessage)
+            id="shared.perWeek"
+          />
+        </span>
+      </div>
+    </div>
+    <button
+      className="car-card__button"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <i
+        className="icon icon-cross"
+      />
+    </button>
+  </div>
+</div>
+`;

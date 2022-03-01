@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDropdown component tests matches snapshot 1`] = `
+<Dropdown
+  className={null}
+  disabled={false}
+  icon={
+    <div
+      className="relative"
+      id="main-account-header__user"
+    >
+      <Avatar
+        className="d-none d-lg-block c-pointer"
+        shape="circle"
+        size="default"
+        src="test_url"
+      >
+        FL
+      </Avatar>
+    </div>
+  }
+  on={
+    Array [
+      "click",
+    ]
+  }
+  overlayClassName="main-dropdown"
+  placement="bottomRight"
+>
+  <div
+    className="main-dropdown-wrap"
+  >
+    <div
+      className="main-dropdown__body"
+    >
+      <div
+        className="main-dropdown__item pt-8 pb-16"
+      >
+        <Avatar
+          className="mr-12"
+          shape="circle"
+          size="large"
+          src="test_url"
+        >
+          FL
+        </Avatar>
+        <div>
+          <div
+            className="text-subheader "
+          >
+            firstName_test lastName_test
+          </div>
+          <div
+            className="text-caption text-color-gray"
+          >
+            test@gmail.com
+          </div>
+        </div>
+      </div>
+      <Link
+        href="/add-new-camper/id/specifications"
+        key="shared.listYourCamper"
+      >
+        <a
+          className="main-dropdown__item in-blue-1000"
+          rel="noreferer"
+          target="_blank"
+        >
+          <Memo(FormattedMessage)
+            id="shared.listYourCamper"
+          />
+        </a>
+      </Link>
+      <a
+        className="main-dropdown__item text-color-gray"
+        rel="noreferer"
+        target="_blank"
+      >
+        <Memo(FormattedMessage)
+          id="headerHeader.itemHelpFaq"
+        />
+      </a>
+      <a
+        className="main-dropdown__item text-color-gray"
+        rel="noreferer"
+        target="_blank"
+      >
+        <Memo(FormattedMessage)
+          id="headerHeader.viewBusinessProfile"
+        />
+      </a>
+      <a
+        className="main-dropdown__item text-color-gray"
+        rel="noreferer"
+        target="_blank"
+      >
+        <Memo(FormattedMessage)
+          id="settingLayout.itemNotifications"
+        />
+      </a>
+      <a
+        className="main-dropdown__item text-color-gray"
+        rel="noreferer"
+        target="_blank"
+      >
+        <Memo(FormattedMessage)
+          id="headerHeader.payoutPreferences"
+        />
+      </a>
+      <button
+        className="main-dropdown__item in-gray-700"
+        onClick={[MockFunction]}
+        type="button"
+      >
+        <i
+          className="icon icon-log-out in-gray-500 mr-8"
+        />
+        <Memo(FormattedMessage)
+          id="headerHeader.logout"
+        />
+      </button>
+    </div>
+  </div>
+</Dropdown>
+`;
+
+exports[`UserDropdown component tests matches snapshot when user is null 1`] = `""`;

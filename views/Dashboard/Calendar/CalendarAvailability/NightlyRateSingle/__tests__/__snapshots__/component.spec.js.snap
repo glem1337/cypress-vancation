@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NightlyRateSingleComponent component tests matches isRange equals false 1`] = `
+<div
+  className="calendar-listing__side-main-item"
+>
+  <Button
+    className="ant-btn-slideout"
+    onClick={[MockFunction]}
+  >
+    <i
+      className="icon icon-price"
+    />
+    <span>
+      <Memo(FormattedMessage)
+        id="shared.nightlyRate"
+      />
+    </span>
+    <i
+      className="icon icon-right ml-auto"
+    />
+  </Button>
+  <div
+    className="calendar-listing__side-slideout calendar-listing__side-slideout--active"
+  >
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <div
+        className="calendar-listing__side-slideout__main"
+      >
+        <div
+          className="mb-16"
+        >
+          <BackButton
+            discardConfirm={[MockFunction]}
+            discardPrepare={[MockFunction]}
+            discardReject={[MockFunction]}
+            isPopoverVisible={true}
+          />
+        </div>
+        <h3
+          className="text-subheader mb-16"
+        >
+          <Memo(FormattedMessage)
+            id="shared.nightlyRate"
+          />
+        </h3>
+        <Field
+          component={[Function]}
+          label={
+            Object {
+              "id": "addNewCamper.pricing.costPerNight",
+            }
+          }
+          name="costPerNight"
+          prefix="$"
+          type="number"
+        >
+          <span
+            className="main-input__add-txt"
+          >
+            <Memo(FormattedMessage)
+              id="addNewCamper.pricing.perNight"
+            />
+          </span>
+        </Field>
+      </div>
+      <FooterComponent
+        canSubmit={true}
+        discardConfirm={[MockFunction]}
+        discardPrepare={[MockFunction]}
+        discardReject={[MockFunction]}
+        isDiscardPopoverVisible={true}
+        isLoading={false}
+        isSavePopoverVisible={false}
+        submit={[MockFunction]}
+        submitBtnText={
+          Object {
+            "id": "shared.ok",
+          }
+        }
+        withSavePopover={false}
+        withSavePopoverWarning={false}
+      />
+    </ForwardRef(InternalForm)>
+  </div>
+</div>
+`;
+
+exports[`NightlyRateSingleComponent component tests matches snapshot 1`] = `""`;

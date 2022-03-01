@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExternalCalendarsFooter container tests matches snapshot 1`] = `
+<ExternalCalendarsFooter
+  camperId="camperId"
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  toggleCalendarFooter={[Function]}
+  toggleFooter={[Function]}
+/>
+`;

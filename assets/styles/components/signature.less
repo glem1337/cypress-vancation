@@ -1,0 +1,31 @@
+.main-modal .m-signature-pad {
+  position: relative;
+  width: 344px;
+  height: 300px;
+  border-radius: @main-border-radius;
+  background-color: @white;
+  box-shadow: @shadow6;
+
+  &::after {
+    .make-centered-both();
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: @gray300;
+  }
+
+  @media (min-width: @screen-md) {
+    width: 412px;
+    height: 360px;
+  }
+}
+
+.m-signature-pad--body,
+.m-signature-pad--body canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.m-signature-pad--footer {
+  display: none;
+}

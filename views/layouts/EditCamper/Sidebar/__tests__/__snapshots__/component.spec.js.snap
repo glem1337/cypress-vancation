@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar component tests matches snapshot 1`] = `
+<Fragment>
+  <SidebarDesktop
+    items={
+      Array [
+        Object {
+          "active": true,
+          "name": Object {
+            "id": "test",
+          },
+        },
+      ]
+    }
+    onItemClick={[MockFunction]}
+  />
+  <SidebarMobile
+    activeItemSlug="details"
+    items={
+      Array [
+        Object {
+          "active": true,
+          "name": Object {
+            "id": "test",
+          },
+        },
+      ]
+    }
+    onChange={[MockFunction]}
+  />
+</Fragment>
+`;

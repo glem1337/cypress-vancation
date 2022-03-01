@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomToolbarComponent component tests matches snapshot 1`] = `
+<div
+  className="calendar-listing__head dashboard-calendar__header"
+>
+  <div
+    className="d-flex align-items-center"
+  >
+    <Button
+      className=""
+      shape="circle"
+      size="small"
+      type="secondary"
+    >
+      <i
+        className="icon icon-left font-14"
+      />
+    </Button>
+    <div
+      className="text-subheader font-700 ml-16 mr-16 dashboard-calendar__select-none"
+    >
+      <span>
+        August
+      </span>
+      <span
+        className="text-color-gray font-400 ml-8"
+      >
+        2000
+      </span>
+    </div>
+    <Button
+      className=""
+      shape="circle"
+      size="small"
+      type="secondary"
+    >
+      <i
+        className="icon icon-right font-14"
+      />
+    </Button>
+  </div>
+  <div
+    className="calendar-listing__head-pricing dashboard-calendar__select-none"
+  >
+    <Dropdown
+      mouseEnterDelay={0.15}
+      mouseLeaveDelay={0.1}
+      overlay={
+        <Menu>
+          <MenuItem>
+            <a
+              href="#"
+              onClick={[MockFunction]}
+            >
+              <Memo(FormattedMessage)
+                id="shared.defaultSettings"
+              />
+            </a>
+          </MenuItem>
+          <MenuItem>
+            <a
+              href="#"
+              onClick={[MockFunction]}
+            >
+              <Memo(FormattedMessage)
+                id="calendar.footer.title"
+              />
+            </a>
+          </MenuItem>
+        </Menu>
+      }
+      placement="bottomRight"
+      trigger={
+        Array [
+          "click",
+        ]
+      }
+    >
+      <Button
+        className="d-lg-none"
+        icon={
+          <i
+            className="icon icon-settings"
+          />
+        }
+        type="settings"
+      />
+    </Dropdown>
+    <a
+      className="d-none d-lg-block font-600"
+      href="#"
+      onClick={[MockFunction]}
+    >
+      <Memo(FormattedMessage)
+        id="shared.defaultSettings"
+      />
+    </a>
+  </div>
+</div>
+`;

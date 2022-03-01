@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StickyHelpButton component tests matches snapshot 1`] = `
+<Button
+  className="main-help-btn-fixed border-none test-class-name"
+  icon={
+    <i
+      className="icon test-icon in-blue-1000"
+    />
+  }
+  shape="circle"
+/>
+`;

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TripFees component tests matches snapshot 1`] = `
+<Row
+  gutter={24}
+>
+  <Limits
+    availableGeneratorHours={3}
+    availableMiles={1}
+    hasGenerator={true}
+    isGeneratorLimited={true}
+    isMileageLimited={true}
+    overageGenerator={4}
+    overageMiles={2}
+  />
+  <OwnerFees
+    cleaningFee={5}
+    customFees={
+      Array [
+        Object {
+          "id": "1",
+        },
+      ]
+    }
+    dumpingFee={6}
+    fuelFee={7}
+    lateDropOff={8}
+  />
+</Row>
+`;
+
+exports[`TripFees component tests matches snapshot when camper doesn\`t exist 1`] = `
+<Row
+  gutter={24}
+>
+  <Col
+    className="mb-24 mb-md-0"
+    md={12}
+  >
+    <div
+      className="skeleton__title w-100"
+    />
+    <SkeletonText
+      rows={3}
+    />
+  </Col>
+  <Col
+    md={12}
+  >
+    <div
+      className="skeleton__title w-100"
+    />
+    <SkeletonText
+      rows={3}
+    />
+  </Col>
+</Row>
+`;

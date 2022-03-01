@@ -1,0 +1,32 @@
+.btns-group {
+  .flex-center-y();
+  background-color: @gray200;
+  border-radius: @main-border-radius;
+
+  .ant-btn {
+    flex: 1;
+    margin: 4px;
+    background-color: transparent;
+    border-color: transparent;
+    color: @gray700;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: transparent;
+      color: @black;
+    }
+  }
+}
+
+.btns-group-active.ant-btn {
+  background-color: white;
+  color: @black;
+  box-shadow: @shadow6;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: white;
+  }
+}

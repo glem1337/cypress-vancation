@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthSocial component snapshot 1`] = `
+<Fragment>
+  <Col
+    md={12}
+    span={24}
+  >
+    <y
+      accessType="online"
+      buttonText={
+        <Memo(FormattedMessage)
+          id="auth.continueWithGoogle"
+        />
+      }
+      className="auth-main-social-btn"
+      clientId="test-key-google"
+      cookiePolicy="single_host_origin"
+      disabledStyle={
+        Object {
+          "opacity": 0.6,
+        }
+      }
+      fetchBasicProfile={true}
+      icon={true}
+      isSignedIn={false}
+      onRequest={[Function]}
+      onSuccess={[MockFunction]}
+      prompt=""
+      render={[Function]}
+      scope="profile email"
+      tag="button"
+      theme="light"
+      type="button"
+      uxMode="popup"
+    />
+  </Col>
+  <Col
+    md={12}
+    span={24}
+  >
+    <t
+      appId="test-key-facebook"
+      callback={[MockFunction]}
+      cssClass="auth-main-social-btn"
+      fields="name,email,picture"
+      icon={
+        <img
+          alt="logo Facebook"
+          className="mr-12"
+          src="/images/Facebook.svg"
+        />
+      }
+      size="metro"
+      tag="button"
+      textButton={
+        <Memo(FormattedMessage)
+          id="auth.continueWithFacebook"
+        />
+      }
+      typeButton="button"
+    />
+  </Col>
+</Fragment>
+`;

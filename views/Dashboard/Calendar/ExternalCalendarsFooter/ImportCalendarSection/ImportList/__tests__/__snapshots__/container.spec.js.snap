@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImportList container tests matches snapshot 1`] = `
+<ImportList
+  camperId="camperId"
+  items={
+    Array [
+      Object {
+        "id": "id",
+        "link": "link",
+        "name": "name",
+      },
+    ]
+  }
+  onEdit={[Function]}
+  onRemove={[Function]}
+  showModal={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;

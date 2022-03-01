@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserHeaderMenuMobileComponent matches snapshot 1`] = `
+<aside
+  className="main-account-menu"
+>
+  <div
+    className="main-account-header"
+  >
+    <button
+      className="main-account-header-burger"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <i
+        className="icon icon-cross"
+      />
+    </button>
+    <div
+      className="d-lg-none mr-16"
+    >
+      <Logo
+        bigLogoClassName="d-xxs-block"
+        isLink={true}
+        isWhite={false}
+        smallLogoClassName="d-none"
+      />
+    </div>
+  </div>
+  <div
+    className="main-account-menu__user"
+  >
+    <Avatar
+      className="mr-12"
+      shape="circle"
+      size="default"
+      src="test_url"
+    >
+      FL
+    </Avatar>
+    <div
+      className="flex-1 overflow-hidden"
+    >
+      <div
+        className="main-account-menu__user-name text-truncate"
+      >
+        firstName lastName
+      </div>
+      <div
+        className="main-account-menu__user-email text-truncate"
+      >
+        test-email
+      </div>
+    </div>
+  </div>
+  <Divider
+    className="mb-8"
+  />
+  <div>
+    <Link
+      href="/dashboard/campers"
+    >
+      <div
+        className="main-account-menu__item"
+      >
+        <span
+          className="main-account-menu__item-txt"
+        >
+          <Memo(FormattedMessage)
+            id="shared.ownerDashboard"
+          />
+        </span>
+      </div>
+    </Link>
+    <div
+      className="main-account-menu__item"
+    >
+      <span
+        className="main-account-menu__item-txt"
+      >
+        <Memo(FormattedMessage)
+          id="headerHeader.destinations"
+        />
+      </span>
+      <i
+        className="icon icon-right in-black font-16 ml-auto ml-md-0"
+      />
+    </div>
+    <Link
+      href="/account/bookings"
+    >
+      <div
+        className="main-account-menu__item"
+      >
+        <span
+          className="main-account-menu__item-txt"
+        >
+          <Memo(FormattedMessage)
+            id="headerHeader.messages"
+          />
+        </span>
+        <span
+          className="main-account-header__item-counter"
+        >
+          2
+        </span>
+      </div>
+    </Link>
+    <div
+      className="main-account-menu__item"
+    >
+      <span
+        className="main-account-menu__item-txt"
+      >
+        <Memo(FormattedMessage)
+          id="headerHeader.notifications"
+        />
+      </span>
+      <span
+        className="main-account-header__item-counter"
+      >
+        2
+      </span>
+    </div>
+  </div>
+  <Divider
+    className="mb-8"
+  />
+  <div
+    className="d-flex flex-column flex-grow-1"
+  >
+    <UserHeaderMenuItem
+      active="account"
+      contentId="headerHeader.itemAccount"
+      itMenu={true}
+      key="ACCOUNT"
+      keyPage="ACCOUNT"
+      path="/settings/account"
+      targetBlankItems={
+        Array [
+          "SPECIFICATIONS",
+        ]
+      }
+    />
+    <UserHeaderMenuItem
+      active="account"
+      contentId="headerHeader.itemTrips"
+      itMenu={true}
+      key="trips"
+      keyPage="trips"
+      path="/trips"
+      targetBlankItems={
+        Array [
+          "SPECIFICATIONS",
+        ]
+      }
+    />
+    <UserHeaderMenuItem
+      active="account"
+      contentId="headerHeader.itemFavorites"
+      itMenu={true}
+      key="favorites"
+      keyPage="favorites"
+      path="/favorites"
+      targetBlankItems={
+        Array [
+          "SPECIFICATIONS",
+        ]
+      }
+    />
+    <UserHeaderMenuItem
+      active="account"
+      contentId="headerHeader.itemHelpFaq"
+      itMenu={true}
+      key="help"
+      keyPage="help"
+      path="/help"
+      targetBlankItems={
+        Array [
+          "SPECIFICATIONS",
+        ]
+      }
+    />
+    <UserHeaderMenuItem
+      active="account"
+      contentId="shared.listYourCamper"
+      itMenu={true}
+      key="SPECIFICATIONS"
+      keyPage="SPECIFICATIONS"
+      path="/add-new-camper/id/specifications"
+      targetBlankItems={
+        Array [
+          "SPECIFICATIONS",
+        ]
+      }
+    />
+  </div>
+  <button
+    className="main-dropdown__item in-gray-700"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    <i
+      className="icon icon-log-out in-gray-700 mr-8"
+    />
+    <Memo(FormattedMessage)
+      id="headerHeader.logout"
+    />
+  </button>
+</aside>
+`;
+
+exports[`UserHeaderMenuMobileComponent matches snapshot when currentUser is null 1`] = `""`;
+
+exports[`UserHeaderMenuMobileComponent matches snapshot when showOwnersDashboardBtn is equal false 1`] = `""`;

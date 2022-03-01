@@ -1,0 +1,7 @@
+@positions: absolute, fixed, relative, static, inherit;
+
+each(@positions, {
+  .position-@{value} {
+    position: @value !important;
+  }
+});

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RemoveModal container tests matches snapshot 1`] = `
+<RemoveModal
+  calendarId="calendarId"
+  camperId="camperId"
+  handleSubmit={[Function]}
+  isLoading={false}
+  onClose={[MockFunction]}
+  onDelete={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;

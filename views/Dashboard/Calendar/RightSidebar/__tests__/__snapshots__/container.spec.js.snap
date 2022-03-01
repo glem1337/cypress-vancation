@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RightSidebar container tests matches snapshot 1`] = `
+<RightSidebar
+  camperId="camperId"
+  closeRightSidebar={[Function]}
+  isAvailabilityVisible={true}
+  isSettingsVisible={true}
+  selectedDatesString="Feb 20"
+  selectedSlots={
+    Object {
+      "end": 2000-02-20T00:00:00.000Z,
+      "slots": Array [
+        2000-02-20T00:00:00.000Z,
+      ],
+      "start": 2000-02-20T00:00:00.000Z,
+      "uuid": "uuid",
+    }
+  }
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;

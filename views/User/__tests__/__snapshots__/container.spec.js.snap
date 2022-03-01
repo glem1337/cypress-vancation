@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User container renders User component 1`] = `
+<UserComponent
+  canEdit={true}
+  currentUser={
+    Object {
+      "id": "id",
+    }
+  }
+  dispatch={[MockFunction]}
+  isSessionUser={false}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  user={
+    Object {
+      "about": "",
+      "city": "",
+      "country": "",
+      "firstName": "",
+      "lastName": "",
+      "timezone": "",
+    }
+  }
+  userId="userId"
+/>
+`;

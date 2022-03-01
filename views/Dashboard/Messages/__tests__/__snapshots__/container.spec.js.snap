@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashBoardMessages container matches snapshot 1`] = `
+<DashBoardMessagesComponent
+  currentUser={
+    Object {
+      "session": Object {
+        "currentUser": Object {
+          "email": "test@gmail.com",
+          "user": Object {
+            "avatarUrl": "test_url",
+            "firstName": "firstName_test",
+            "lastName": "lastName_test",
+          },
+        },
+      },
+    }
+  }
+  dispatch={[MockFunction]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;

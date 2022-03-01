@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlertEmail Component snapshot 1`] = `
+<Alert
+  className="mt-16 mb-0"
+  icon={
+    <i
+      className="icon icon-alert"
+    />
+  }
+  message={
+    <div>
+      Foo
+    </div>
+  }
+  showIcon={true}
+  type="warning"
+/>
+`;

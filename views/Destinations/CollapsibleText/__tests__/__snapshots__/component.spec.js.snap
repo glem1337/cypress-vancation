@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CollapsibleText component tests matches snapshot 1`] = `
+<div
+  className="search-page__collapsible"
+>
+  <div
+    className="search-page__collapsible-text"
+  >
+    <p>
+      test
+    </p>
+  </div>
+  <Button
+    className="ant-btn-flat mt-4"
+    onClick={[MockFunction]}
+    type="simple-text"
+  >
+    <Memo(FormattedMessage)
+      id="shared.showMore"
+    />
+  </Button>
+</div>
+`;

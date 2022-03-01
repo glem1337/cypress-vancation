@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeroPage component snapshot 1`] = `
+<Fragment>
+  <div
+    className="home__first-block-wrap"
+  >
+    <div
+      className="container"
+    >
+      <h1
+        className="home-title"
+      >
+        {Translation id: homePage.title}
+      </h1>
+      <p
+        className="home-txt"
+      >
+        <Memo(FormattedMessage)
+          id="homePage.discoverAndBookAmazingCampervans"
+        />
+      </p>
+    </div>
+    <div
+      className="choose-destination-home-wrapper"
+      id="choose-destination-home-wrapper"
+    >
+      <withGeolocationRequest(Connect(injectIntl(withRouter(ChooseDestinationWidget)))) />
+    </div>
+  </div>
+  <div
+    className="container home__pluses-card-wrap"
+  >
+    <Row
+      gutter={24}
+    >
+      <Col
+        className="home__pluses-card"
+        key="homePage.heroPageCard.customerSupport"
+        xl={8}
+      >
+        <div
+          className="home__pluses-card-inner"
+        >
+          <div
+            className="home__pluses-card-icon light-background--green"
+          >
+            <img
+              alt=""
+              src="/images/home/Question.svg"
+            />
+          </div>
+          <div>
+            <p
+              className="mb-8 text-subheader"
+            >
+              <Memo(FormattedMessage)
+                id="homePage.heroPageCard.customerSupport"
+              />
+            </p>
+            <p>
+              <Memo(FormattedMessage)
+                id="homePage.heroPageCard.stubDescription"
+              />
+            </p>
+          </div>
+        </div>
+      </Col>
+      <Col
+        className="home__pluses-card"
+        key="homePage.heroPageCard.fullyInsured"
+        xl={8}
+      >
+        <div
+          className="home__pluses-card-inner"
+        >
+          <div
+            className="home__pluses-card-icon light-background--yellow"
+          >
+            <img
+              alt=""
+              src="/images/home/Shield.svg"
+            />
+          </div>
+          <div>
+            <p
+              className="mb-8 text-subheader"
+            >
+              <Memo(FormattedMessage)
+                id="homePage.heroPageCard.fullyInsured"
+              />
+            </p>
+            <p>
+              <Memo(FormattedMessage)
+                id="homePage.heroPageCard.stubDescription"
+              />
+            </p>
+          </div>
+        </div>
+      </Col>
+      <Col
+        className="home__pluses-card"
+        key="homePage.heroPageCard.includedRoadside"
+        xl={8}
+      >
+        <div
+          className="home__pluses-card-inner"
+        >
+          <div
+            className="home__pluses-card-icon light-background--red"
+          >
+            <img
+              alt=""
+              src="/images/home/Phone.svg"
+            />
+          </div>
+          <div>
+            <p
+              className="mb-8 text-subheader"
+            >
+              <Memo(FormattedMessage)
+                id="homePage.heroPageCard.includedRoadside"
+              />
+            </p>
+            <p>
+              <Memo(FormattedMessage)
+                id="homePage.heroPageCard.stubDescription"
+              />
+            </p>
+          </div>
+        </div>
+      </Col>
+    </Row>
+  </div>
+</Fragment>
+`;

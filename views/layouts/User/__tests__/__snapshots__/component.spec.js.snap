@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserLayout component matches snapshot when currentUser has role administrator 1`] = `
+<div
+  className="app-wrap"
+>
+  <UserHeader
+    currentUser={
+      Object {
+        "avatarUrls": Object {
+          "original": "original-avatar.jpeg",
+          "small": "small-avatar.jpeg",
+        },
+        "city": "New York",
+        "country": "United States",
+        "email": "owner@example.com",
+        "firstName": "Fname",
+        "id": "1",
+        "lastName": "Lname",
+        "roleName": "administrator",
+      }
+    }
+    onSidebarToggle={[MockFunction]}
+  />
+  <div
+    className="app-wrap__content"
+  >
+    <div
+      className="app-wrap__sidebar"
+    >
+      <aside
+        className="sidebar "
+      >
+        <div
+          className="main-separator d-lg-none"
+        />
+        <UserSidebarComponent />
+      </aside>
+    </div>
+    <div
+      className="app-wrap__main"
+    >
+      <div
+        className="app-wrap__viewport "
+        data-scroll="main"
+      >
+        <div>
+          Test Child
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sidebar-backdrop d-lg-none "
+    onClick={[MockFunction]}
+    role="button"
+  />
+</div>
+`;
+
+exports[`UserLayout component matches snapshot when currentUser is null 1`] = `
+<div
+  className="app-wrap"
+>
+  <UserHeader
+    currentUser={null}
+    onSidebarToggle={[MockFunction]}
+  />
+  <div
+    className="app-wrap__content"
+  >
+    <div
+      className="app-wrap__sidebar"
+    >
+      <aside
+        className="sidebar "
+      >
+        <div
+          className="main-separator d-lg-none"
+        />
+        <UserSidebarComponent />
+      </aside>
+    </div>
+    <div
+      className="app-wrap__main"
+    >
+      <div
+        className="app-wrap__viewport "
+        data-scroll="main"
+      >
+        <div>
+          Test Child
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sidebar-backdrop d-lg-none "
+    onClick={[MockFunction]}
+    role="button"
+  />
+</div>
+`;
+
+exports[`UserLayout component matches snapshot when isSidebarVisible and isGray 1`] = `
+<div
+  className="app-wrap"
+>
+  <UserHeader
+    currentUser={
+      Object {
+        "avatarUrls": Object {
+          "original": "original-avatar.jpeg",
+          "small": "small-avatar.jpeg",
+        },
+        "city": "New York",
+        "country": "United States",
+        "email": "owner@example.com",
+        "firstName": "Fname",
+        "id": "1",
+        "lastName": "Lname",
+      }
+    }
+    onSidebarToggle={[MockFunction]}
+  />
+  <div
+    className="app-wrap__content"
+  >
+    <div
+      className="app-wrap__sidebar"
+    >
+      <aside
+        className="sidebar sidebar--visible"
+      >
+        <div
+          className="main-separator d-lg-none"
+        />
+        <UserSidebarComponent />
+      </aside>
+    </div>
+    <div
+      className="app-wrap__main"
+    >
+      <div
+        className="app-wrap__viewport app-wrap__viewport--gray"
+        data-scroll="main"
+      >
+        <div>
+          Test Child
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sidebar-backdrop d-lg-none sidebar-backdrop--visible"
+    onClick={[MockFunction]}
+    role="button"
+  />
+</div>
+`;
+
+exports[`UserLayout component matches snapshot with defaultProps snapshot 1`] = `
+<div
+  className="app-wrap"
+>
+  <UserHeader
+    currentUser={
+      Object {
+        "avatarUrls": Object {
+          "original": "original-avatar.jpeg",
+          "small": "small-avatar.jpeg",
+        },
+        "city": "New York",
+        "country": "United States",
+        "email": "owner@example.com",
+        "firstName": "Fname",
+        "id": "1",
+        "lastName": "Lname",
+      }
+    }
+    onSidebarToggle={[MockFunction]}
+  />
+  <div
+    className="app-wrap__content"
+  >
+    <div
+      className="app-wrap__sidebar"
+    >
+      <aside
+        className="sidebar "
+      >
+        <div
+          className="main-separator d-lg-none"
+        />
+        <UserSidebarComponent />
+      </aside>
+    </div>
+    <div
+      className="app-wrap__main"
+    >
+      <div
+        className="app-wrap__viewport "
+        data-scroll="main"
+      >
+        <div>
+          Test Child
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sidebar-backdrop d-lg-none "
+    onClick={[MockFunction]}
+    role="button"
+  />
+</div>
+`;
+
+exports[`UserLayout component matches snapshot with wrapClassName 1`] = `
+<div
+  className="app-wrap"
+>
+  <UserHeader
+    currentUser={
+      Object {
+        "avatarUrls": Object {
+          "original": "original-avatar.jpeg",
+          "small": "small-avatar.jpeg",
+        },
+        "city": "New York",
+        "country": "United States",
+        "email": "owner@example.com",
+        "firstName": "Fname",
+        "id": "1",
+        "lastName": "Lname",
+      }
+    }
+    onSidebarToggle={[MockFunction]}
+  />
+  <div
+    className="app-wrap__content"
+  >
+    <div
+      className="app-wrap__sidebar"
+    >
+      <aside
+        className="sidebar "
+      >
+        <div
+          className="main-separator d-lg-none"
+        />
+        <UserSidebarComponent />
+      </aside>
+    </div>
+    <div
+      className="app-wrap__main wrapClassName"
+    >
+      <div
+        className="app-wrap__viewport "
+        data-scroll="main"
+      >
+        <div>
+          Test Child
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sidebar-backdrop d-lg-none "
+    onClick={[MockFunction]}
+    role="button"
+  />
+</div>
+`;

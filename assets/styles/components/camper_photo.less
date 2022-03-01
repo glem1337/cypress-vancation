@@ -1,0 +1,178 @@
+@upload-inner-card-offset: 8px;
+@photo-width: 160px;
+@photo-width-md: 218px;
+@photo-width-xl: 236px;
+
+.camper-photo__dropzone-container {
+  .flex-center-x();
+  width: 100%;
+}
+
+.camper-photo__sortable-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, @photo-width);
+  gap: 16px;
+  position: relative;
+
+  .media-up(md; {
+    grid-template-columns: repeat(auto-fill, @photo-width-md);
+    gap: 24px;
+  });
+
+  .media-up(xl; {
+    grid-template-columns: repeat(auto-fill, @photo-width-xl);
+  });
+}
+
+.camper-photo__sortable-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.camper-photo__uploaded-item {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  width: @photo-width;
+  height: @photo-width;
+  border-radius: @main-border-radius;
+  cursor: pointer;
+  user-select: none;
+  overflow: hidden;
+
+  .media-up(md; {
+    width: @photo-width-md;
+    height: @photo-width-md;
+  });
+
+  .media-up(xl; {
+    width: @photo-width-xl;
+    height: @photo-width-xl;
+  });
+}
+
+.camper-photo__uploaded-image {
+  width: @photo-width;
+  height: @photo-width;
+  object-fit: cover;
+
+  .media-up(md; {
+    width: @photo-width-md;
+    height: @photo-width-md;
+  });
+
+  .media-up(xl; {
+    width: @photo-width-xl;
+    height: @photo-width-xl;
+  });
+}
+
+.camper-photo__upload-button {
+  .flex-center();
+  z-index: 2;
+  width: calc(@photo-width + 1px);
+  height: calc(@photo-width + 1px);
+  background-color: @blue100;
+  border-radius: @main-border-radius;
+  color: @blue1000;
+  transition: background-color @main-transition-props;
+  cursor: pointer;
+  user-select: none;
+
+  .media-up(md; {
+    width: calc(@photo-width-md + 1px);
+    height: calc(@photo-width-md + 1px);
+  });
+
+  .media-up(xl; {
+    width: calc(@photo-width-xl + 1px);
+    height: calc(@photo-width-xl + 1px);
+
+    &:hover {
+      background-color: @blue200;
+    }
+  });
+}
+
+.camper-photo__upload-button--disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.camper-photo__upload-inner-wrapper {
+  .flex-center();
+  flex-direction: column;
+  width: calc(@photo-width - @upload-inner-card-offset);
+  height: calc(@photo-width - @upload-inner-card-offset);
+  border: 1px dashed @blue1000;
+  border-radius: @main-border-radius;
+
+  .media-up(md; {
+    width: calc(@photo-width-md - @upload-inner-card-offset);
+    height: calc(@photo-width-md - @upload-inner-card-offset);
+  });
+
+  .media-up(xl; {
+    width: calc(@photo-width-xl - @upload-inner-card-offset);
+    height: calc(@photo-width-xl - @upload-inner-card-offset);
+  });
+}
+
+.camper-photo__upload-text {
+  .text-caption();
+  margin-top: 8px;
+  color: @blue1000;
+}
+
+.camper-photo__sortable-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.camper-photo__delete-icon-wrapper {
+  .flex-center();
+  position: absolute;
+  z-index: 3;
+  top: 8px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: @shadow6;
+}
+
+.camper-photo__delete-icon {
+  color: @gray500;
+  font-size: 18px;
+}
+
+.camper-photo__main-label {
+  .text-caption();
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 44px;
+  height: 24px;
+  background-color: white;
+  color: @black;
+  border-radius: @main-border-radius;
+}
+
+.camper-photo__main-label--visible {
+  display: flex !important;
+}
+
+.camper-photo__lightbox-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding-bottom: 0;
+
+  .car-card-wrap--float {
+    padding-top: 16px;
+  }
+}

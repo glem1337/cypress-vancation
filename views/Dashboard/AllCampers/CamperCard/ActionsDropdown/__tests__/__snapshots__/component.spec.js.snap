@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionsDropdown component tests matches snapshot 1`] = `
+<Dropdown
+  className={null}
+  disabled={false}
+  icon={
+    <i
+      className="icon icon-overflow in-gray-500 c-pointer"
+    />
+  }
+  on={
+    Array [
+      "click",
+    ]
+  }
+  overlayClassName="min-w-180"
+  placement="bottomRight"
+>
+  <div
+    className="main-dropdown-wrap"
+  >
+    <div
+      className="main-dropdown__body"
+    >
+      <div
+        className="main-dropdown__item in-black c-pointer"
+        onClick={[MockFunction]}
+        role="button"
+      >
+        <i
+          className="icon icon-unpublish in-gray-500 mr-8"
+        />
+        <Memo(FormattedMessage)
+          id="shared.unpublish"
+        />
+      </div>
+      <div
+        className="main-dropdown__item in-black c-pointer"
+        onClick={[MockFunction]}
+        role="button"
+      >
+        <i
+          className="icon icon-eye in-gray-500 mr-8"
+        />
+        <Memo(FormattedMessage)
+          id="shared.preview"
+        />
+      </div>
+      <div
+        className="main-dropdown__item in-black c-pointer"
+        onClick={[MockFunction]}
+        role="button"
+      >
+        <i
+          className="icon icon-delete in-gray-500 mr-8"
+        />
+        <Memo(FormattedMessage)
+          id="shared.remove"
+        />
+      </div>
+    </div>
+  </div>
+</Dropdown>
+`;
+
+exports[`ActionsDropdown component tests when camper status === unpublished 1`] = `
+<Dropdown
+  className={null}
+  disabled={false}
+  icon={
+    <i
+      className="icon icon-overflow in-gray-500 c-pointer"
+    />
+  }
+  on={
+    Array [
+      "click",
+    ]
+  }
+  overlayClassName="min-w-180"
+  placement="bottomRight"
+>
+  <div
+    className="main-dropdown-wrap"
+  >
+    <div
+      className="main-dropdown__body"
+    >
+      <div
+        className="main-dropdown__item in-black c-pointer"
+        onClick={[MockFunction]}
+        role="button"
+      >
+        <i
+          className="icon icon-publish in-gray-500 mr-8"
+        />
+        <Memo(FormattedMessage)
+          id="shared.publish"
+        />
+      </div>
+      <div
+        className="main-dropdown__item in-black c-pointer"
+        onClick={[MockFunction]}
+        role="button"
+      >
+        <i
+          className="icon icon-delete in-gray-500 mr-8"
+        />
+        <Memo(FormattedMessage)
+          id="shared.remove"
+        />
+      </div>
+    </div>
+  </div>
+</Dropdown>
+`;

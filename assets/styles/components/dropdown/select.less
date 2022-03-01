@@ -1,0 +1,51 @@
+.main-input__field {
+  &.ant-select {
+    padding-right: 0;
+    padding-left: 0;
+
+    .ant-select-selection-search {
+      top: 50%;
+      transform: translateY(-50%);
+      right: 45px;
+    }
+
+    .ant-select-selection-item {
+      line-height: @main-input-height;
+    }
+  }
+
+  &.ant-select-focused {
+    border-color: @blue1000;
+  }
+
+  &__select-load {
+    .anticon-loading.anticon-spin {
+      &::before {
+        display: none;
+      }
+    }
+
+    .ant-select-arrow .anticon svg {
+      display: inline-block;
+      vertical-align: initial;
+      fill: @primary-hover;
+    }
+  }
+}
+
+.ant-form-item-has-error .main-input__field.ant-select:not(.ant-select-disabled):not(.ant-select-customize-input) .ant-select-selector {
+  border: 1px solid @red1000;
+}
+
+.ant-form-item-has-error .ant-select.main-input__field,
+.ant-form-item-has-error .ant-select.main-input__field:hover,
+.ant-form-item-has-error .ant-select.main-input__field:focus {
+  border-color: transparent;
+}
+
+.main-input-phone {
+  max-width: 116px;
+  width: 100%;
+  margin-right: 8px;
+  margin-bottom: 0;
+}

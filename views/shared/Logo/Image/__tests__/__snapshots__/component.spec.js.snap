@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image component matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="d-none d-md-block foo"
+  >
+    <img
+      alt=""
+      src="/images/logo/logo-colored.svg"
+    />
+  </div>
+  <div
+    className="d-md-none bar"
+  >
+    <img
+      alt=""
+      src="/images/logo/logo-hand.svg"
+    />
+  </div>
+</Fragment>
+`;

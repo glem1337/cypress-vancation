@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateNewPassword component tests matches snapshot 1`] = `
+<Fragment>
+  <Row
+    justify="center"
+  >
+    <Col
+      lg={12}
+      md={23}
+    >
+      <div
+        className="text-align-center"
+      >
+        <h1
+          className="main-title"
+        >
+          <Memo(FormattedMessage)
+            id="createNewPassword.title"
+          />
+        </h1>
+        <p
+          className="mb-24 mb-md-40"
+        >
+          <Memo(FormattedMessage)
+            id="createNewPassword.description"
+          />
+        </p>
+      </div>
+    </Col>
+  </Row>
+  <Row
+    justify="center"
+  >
+    <Col
+      lg={8}
+      md={14}
+    >
+      <ForwardRef(InternalForm)
+        layout="vertical"
+      >
+        <Row
+          gutter={24}
+        >
+          <Col
+            span={24}
+          >
+            <Field
+              autoComplete="new-password"
+              component={[Function]}
+              label={
+                Object {
+                  "id": "shared.password",
+                }
+              }
+              name="password"
+              withPasswordStrength={true}
+            />
+          </Col>
+          <Col
+            span={24}
+          >
+            <div
+              className="d-flex align-items-center justify-content-space-between"
+            >
+              <Link
+                href="/log_in"
+              >
+                <a>
+                  <BackBtn
+                    className=""
+                    text={
+                      <Memo(FormattedMessage)
+                        id="shared.backToLogin"
+                      />
+                    }
+                  />
+                </a>
+              </Link>
+              <Button
+                className="min-w-160"
+                disabled={false}
+                loading={false}
+                onClick={[MockFunction]}
+                size="large"
+                text={
+                  Object {
+                    "id": "shared.submit",
+                  }
+                }
+              />
+            </div>
+          </Col>
+        </Row>
+      </ForwardRef(InternalForm)>
+    </Col>
+  </Row>
+</Fragment>
+`;
+
+exports[`CreateNewPassword component tests when isFormValid 1`] = `
+<Fragment>
+  <Row
+    justify="center"
+  >
+    <Col
+      lg={12}
+      md={23}
+    >
+      <div
+        className="text-align-center"
+      >
+        <h1
+          className="main-title"
+        >
+          <Memo(FormattedMessage)
+            id="createNewPassword.title"
+          />
+        </h1>
+        <p
+          className="mb-24 mb-md-40"
+        >
+          <Memo(FormattedMessage)
+            id="createNewPassword.description"
+          />
+        </p>
+      </div>
+    </Col>
+  </Row>
+  <Row
+    justify="center"
+  >
+    <Col
+      lg={8}
+      md={14}
+    >
+      <ForwardRef(InternalForm)
+        layout="vertical"
+      >
+        <Row
+          gutter={24}
+        >
+          <Col
+            span={24}
+          >
+            <Field
+              autoComplete="new-password"
+              component={[Function]}
+              label={
+                Object {
+                  "id": "shared.password",
+                }
+              }
+              name="password"
+              withPasswordStrength={true}
+            />
+          </Col>
+          <Col
+            span={24}
+          >
+            <div
+              className="d-flex align-items-center justify-content-space-between"
+            >
+              <Link
+                href="/log_in"
+              >
+                <a>
+                  <BackBtn
+                    className=""
+                    text={
+                      <Memo(FormattedMessage)
+                        id="shared.backToLogin"
+                      />
+                    }
+                  />
+                </a>
+              </Link>
+              <GradientButton
+                className="min-w-160"
+                disabled={false}
+                loading={false}
+                onClick={[MockFunction]}
+                size="large"
+                text={
+                  Object {
+                    "id": "shared.submit",
+                  }
+                }
+              />
+            </div>
+          </Col>
+        </Row>
+      </ForwardRef(InternalForm)>
+    </Col>
+  </Row>
+</Fragment>
+`;
+
+exports[`CreateNewPassword component tests when status present 1`] = `
+<Fragment>
+  <Row
+    justify="center"
+  >
+    <Col
+      lg={12}
+      md={23}
+    >
+      <div
+        className="text-align-center"
+      >
+        <h1
+          className="main-title"
+        >
+          <Memo(FormattedMessage)
+            id="createNewPassword.title"
+          />
+        </h1>
+        <p
+          className="mb-24 mb-md-40"
+        >
+          <Memo(FormattedMessage)
+            id="createNewPassword.description"
+          />
+        </p>
+      </div>
+    </Col>
+  </Row>
+  <Row
+    justify="center"
+  >
+    <Col
+      lg={8}
+      md={14}
+    >
+      <Alert
+        className={null}
+        hasNoIcon={false}
+        icon={
+          <i
+            className="icon icon-info"
+          />
+        }
+        isDiscardable={false}
+        message="Invalid email token"
+        onDiscard={null}
+        showIcon={true}
+        type="error"
+      />
+      <ForwardRef(InternalForm)
+        layout="vertical"
+      >
+        <Row
+          gutter={24}
+        >
+          <Col
+            span={24}
+          >
+            <Field
+              autoComplete="new-password"
+              component={[Function]}
+              label={
+                Object {
+                  "id": "shared.password",
+                }
+              }
+              name="password"
+              withPasswordStrength={true}
+            />
+          </Col>
+          <Col
+            span={24}
+          >
+            <div
+              className="d-flex align-items-center justify-content-space-between"
+            >
+              <Link
+                href="/log_in"
+              >
+                <a>
+                  <BackBtn
+                    className=""
+                    text={
+                      <Memo(FormattedMessage)
+                        id="shared.backToLogin"
+                      />
+                    }
+                  />
+                </a>
+              </Link>
+              <Button
+                className="min-w-160"
+                disabled={false}
+                loading={false}
+                onClick={[MockFunction]}
+                size="large"
+                text={
+                  Object {
+                    "id": "shared.submit",
+                  }
+                }
+              />
+            </div>
+          </Col>
+        </Row>
+      </ForwardRef(InternalForm)>
+    </Col>
+  </Row>
+</Fragment>
+`;

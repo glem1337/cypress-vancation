@@ -1,0 +1,33 @@
+@progress-height: 20px;
+
+.ant-progress {
+  height: @progress-height;
+}
+
+.ant-progress-small .ant-progress-bg {
+  height: 4px !important;
+}
+
+.ant-progress-outer {
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
+.ant-progress-success-bg,
+.ant-progress-bg {
+  background: @gradient2;
+}
+
+.ant-progress-text {
+  .make-centered-y();
+  .text-caption();
+  left: 0;
+}
+
+.ant-progress-inner {
+  display: block;
+}
+
+.ant-progress-bg {
+  height: @progress-height !important;
+}

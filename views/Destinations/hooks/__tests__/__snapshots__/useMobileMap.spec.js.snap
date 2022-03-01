@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useMobileMap hook matches snapshot 1`] = `
+Object {
+  "addResizeHandler": [Function],
+  "checkScrollPositionForMobileDevices": [Function],
+  "correctIntentComponentHeight": [Function],
+  "getScreenOrientation": [Function],
+  "isMobileMapVisible": false,
+  "onTouchStartMobileMap": [Function],
+  "toggleMapMobileDevices": [Function],
+  "toggleMobileMap": [Function],
+}
+`;

@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomRules component tests matches snapshot 1`] = `
+<div
+  className="mb-40"
+>
+  <Col
+    lg={16}
+  >
+    <Row
+      gutter={24}
+    >
+      <Col
+        span={24}
+      >
+        <div
+          className="mb-24 text-subheader font-400"
+        >
+          <Memo(FormattedMessage)
+            id="title"
+          />
+        </div>
+      </Col>
+      <Col
+        span={24}
+      >
+        <div
+          className="custom-add-wrap"
+          key="1"
+        >
+          <div
+            className="flex-grow-1"
+          >
+            <Field
+              component={[Function]}
+              id="prop[0].name"
+              label={
+                Object {
+                  "id": "label",
+                }
+              }
+              name="prop[0].name"
+            />
+          </div>
+          <div
+            className="d-inline-flex align-items-center ml-24"
+          >
+            <Field
+              component={[Function]}
+              id="prop[0].active"
+              name="prop[0].active"
+            />
+          </div>
+          <div
+            className="custom-acc-wrap__close"
+          >
+            <Button
+              icon={
+                <i
+                  className="icon icon-cross"
+                />
+              }
+              type="secondary"
+            />
+          </div>
+        </div>
+      </Col>
+      <Col
+        span={24}
+      >
+        <Button
+          type="secondary"
+        >
+          <Memo(FormattedMessage)
+            id="btnText"
+          />
+        </Button>
+      </Col>
+    </Row>
+  </Col>
+</div>
+`;

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VanLife component snapshot 1`] = `
+<div
+  className="home-vanlife-wrap"
+>
+  <div
+    className="container"
+  >
+    <Row
+      gutter={24}
+    >
+      <Col
+        span={24}
+      >
+        <h2
+          className="home-title-sec mb-24 mb-md-40"
+        >
+          <Memo(FormattedMessage)
+            id="homePage.vanLive.whatIsVanLife"
+          />
+        </h2>
+      </Col>
+      <Col
+        xl={10}
+      >
+        <p
+          className="text-subheader font-400"
+        >
+          <Memo(FormattedMessage)
+            id="homePage.vanLive.vanLifeReallyIsNot"
+          />
+        </p>
+      </Col>
+      <Col
+        xl={
+          Object {
+            "offset": 2,
+            "span": 10,
+          }
+        }
+      >
+        <p
+          className="text-subheader font-400"
+        >
+          <Memo(FormattedMessage)
+            id="homePage.vanLive.vancationWasBuiltByVanLifers"
+          />
+        </p>
+      </Col>
+    </Row>
+  </div>
+</div>
+`;

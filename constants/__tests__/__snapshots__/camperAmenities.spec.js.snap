@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`camperAmenities constants matches snapshot 1`] = `
+Object {
+  "AMENITIES_VALIDATION_SCHEMA": ArraySchema {
+    "_blacklist": ReferenceSet {
+      "list": Set {},
+      "refs": Map {},
+    },
+    "_blacklistError": undefined,
+    "_typeError": [Function],
+    "_whitelist": ReferenceSet {
+      "list": Set {},
+      "refs": Map {},
+    },
+    "_whitelistError": undefined,
+    "conditions": Array [],
+    "deps": Array [],
+    "exclusiveTests": Object {},
+    "innerType": ObjectSchema {
+      "_blacklist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_blacklistError": undefined,
+      "_excludedEdges": Array [],
+      "_nodes": Array [
+        "configurationCustomAmenities",
+      ],
+      "_sortErrors": [Function],
+      "_typeError": [Function],
+      "_whitelist": ReferenceSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_whitelistError": undefined,
+      "conditions": Array [],
+      "deps": Array [],
+      "exclusiveTests": Object {},
+      "fields": Object {
+        "configurationCustomAmenities": ArraySchema {
+          "_blacklist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_blacklistError": undefined,
+          "_typeError": [Function],
+          "_whitelist": ReferenceSet {
+            "list": Set {},
+            "refs": Map {},
+          },
+          "_whitelistError": undefined,
+          "conditions": Array [],
+          "deps": Array [],
+          "exclusiveTests": Object {},
+          "innerType": ObjectSchema {
+            "_blacklist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_blacklistError": undefined,
+            "_excludedEdges": Array [],
+            "_nodes": Array [
+              "name",
+            ],
+            "_sortErrors": [Function],
+            "_typeError": [Function],
+            "_whitelist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_whitelistError": undefined,
+            "conditions": Array [],
+            "deps": Array [],
+            "exclusiveTests": Object {},
+            "fields": Object {
+              "name": StringSchema {
+                "_blacklist": ReferenceSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "_blacklistError": undefined,
+                "_mutate": undefined,
+                "_typeError": [Function],
+                "_whitelist": ReferenceSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "_whitelistError": undefined,
+                "conditions": Array [],
+                "deps": Array [],
+                "exclusiveTests": Object {
+                  "max": true,
+                  "min": true,
+                  "required": true,
+                },
+                "spec": Object {
+                  "abortEarly": true,
+                  "nullable": false,
+                  "presence": "required",
+                  "recursive": true,
+                  "strict": false,
+                  "strip": false,
+                },
+                "tests": Array [
+                  [Function],
+                  [Function],
+                  [Function],
+                ],
+                "transforms": Array [
+                  [Function],
+                ],
+                "type": "string",
+              },
+            },
+            "spec": Object {
+              "abortEarly": true,
+              "nullable": false,
+              "presence": "optional",
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": Array [],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "object",
+          },
+          "spec": Object {
+            "abortEarly": true,
+            "nullable": false,
+            "presence": "optional",
+            "recursive": true,
+            "strict": false,
+            "strip": false,
+          },
+          "tests": Array [],
+          "transforms": Array [
+            [Function],
+          ],
+          "type": "array",
+        },
+      },
+      "spec": Object {
+        "abortEarly": true,
+        "nullable": false,
+        "presence": "optional",
+        "recursive": true,
+        "strict": false,
+        "strip": false,
+      },
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "object",
+    },
+    "spec": Object {
+      "abortEarly": true,
+      "nullable": false,
+      "presence": "optional",
+      "recursive": true,
+      "strict": false,
+      "strip": false,
+    },
+    "tests": Array [],
+    "transforms": Array [
+      [Function],
+    ],
+    "type": "array",
+  },
+  "CAMPER_AMENITIES_CONFIG": Object {
+    "ACCOMMODATION_TITLE": "Accomodation",
+    "MAX_CUSTOM_ACCOMMODATIONS": 10,
+    "MAX_CUSTOM_ACCOMMODATION_NAME_LENGTH": 50,
+    "MAX_CUSTOM_ACCOMMODATION_QUANTITY": 5,
+    "MIN_CUSTOM_ACCOMMODATION_NAME_LENGTH": 2,
+    "MIN_QUANTITY": 1,
+  },
+  "CAMPER_AMENITIES_INCLUSIONS": Array [
+    "amenities",
+    "amenities.sub_amenities",
+    "amenities.configuration_amenity",
+    "amenities.configuration_amenity.configuration_sub_amenities",
+    "amenities.amenity_options",
+    "amenities.configuration_amenity.configuration_amenity_options",
+    "amenities.amenity_options.sub_amenities",
+    "amenities.custom_amenities",
+    "amenities.configuration_amenity.configuration_amenity_options.configuration_sub_amenities",
+  ],
+  "CAMPER_AMENITY_OPTION_TYPES": Object {
+    "CHECKBOX": "checkbox",
+    "TOGGLER": "toggler",
+  },
+  "FETCH_CAMPER_AMENITIES_INCLUSIONS": Array [
+    "configuration_sub_amenities",
+    "configuration_amenity_options.configuration_sub_amenities",
+  ],
+}
+`;

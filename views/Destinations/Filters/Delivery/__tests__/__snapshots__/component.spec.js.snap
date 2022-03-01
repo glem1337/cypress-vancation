@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Delivery component tests matches snapshot 1`] = `
+<Popover
+  content={
+    <div
+      className="search-page__filters-popover--delivery"
+    >
+      <div
+        className="search-page__filters-popover__main"
+      >
+        true
+      </div>
+      <FilterPopoverFooter
+        applyFilters={[MockFunction]}
+        clearFilters={[MockFunction]}
+      />
+    </div>
+  }
+  getPopupContainer={[MockFunction]}
+  mouseEnterDelay={0.1}
+  mouseLeaveDelay={0.1}
+  overlayClassName="ant-popover-filters"
+  overlayStyle={Object {}}
+  placement="bottomLeft"
+  trigger="click"
+  visible={true}
+>
+  <Button
+    className="ant-btn-outline-gray search-page__filters-btn search-page__filters-btn--active"
+    icon={
+      <i
+        className="icon icon-delivery mr-8"
+      />
+    }
+  >
+    <Memo(FormattedMessage)
+      id="shared.delivery"
+    />
+    <span
+      className="main-account-header__item-counter--blue"
+    >
+      1
+    </span>
+  </Button>
+</Popover>
+`;

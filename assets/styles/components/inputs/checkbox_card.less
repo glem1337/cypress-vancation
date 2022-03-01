@@ -1,0 +1,50 @@
+.main-checkbox-card {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 16px;
+  padding-right: 12px;
+  border: 1px solid @gray400;
+  border-radius: @main-border-radius;
+  transition: border-color @main-transition-props, box-shadow @main-transition-props;
+
+  &::after {
+    display: none;
+  }
+
+  .ant-checkbox {
+    display: none;
+  }
+
+  &:hover,
+  &:focus {
+    border-color: @blue1000;
+  }
+
+  &.ant-checkbox-wrapper-checked {
+    border-color: @blue1000;
+    box-shadow: 0 0 0 4px @blue300;
+
+    .main-checkbox-card__icon {
+      opacity: 1;
+    }
+  }
+
+  .ant-checkbox + span {
+    padding: 0;
+  }
+
+  & + & {
+    margin: 0;
+  }
+}
+
+.main-checkbox-card__icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: @blue1000;
+  font-size: 22px;
+  opacity: 0;
+  transition: opacity @main-transition-props;
+}

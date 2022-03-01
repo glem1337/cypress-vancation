@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchDates container tests checks \`createMinMonth\` instance method 1`] = `"2000-02-01T00:00:00.000Z"`;
+
+exports[`SearchDates container tests checks \`formatShortWeekday\` instance method 1`] = `"Su"`;
+
+exports[`SearchDates container tests checks \`tileContent\` instance method 1`] = `
+<div
+  className="choose-destination__calendar-cell"
+>
+  <div
+    className="choose-destination__calendar-inner-cell"
+  >
+    20
+  </div>
+</div>
+`;
+
+exports[`SearchDates container tests matches snapshot 1`] = `
+<SearchDatesComponent
+  activeStartDate={2000-02-01T00:00:00.000Z}
+  clearDateRange={[Function]}
+  dateRange={null}
+  formatShortWeekday={[Function]}
+  loadNextMonth={[Function]}
+  loadPrevMonth={[Function]}
+  onClose={[Function]}
+  onDateRangeChanged={[Function]}
+  router={
+    Object {
+      "back": [MockFunction],
+      "replace": [MockFunction],
+    }
+  }
+  search={[Function]}
+  searchDestination={[Function]}
+  searchDestinationParams={
+    Object {
+      "dateRange": null,
+      "location": null,
+    }
+  }
+  setSearchDestinationDates={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  tileContent={[Function]}
+  tileDisabled={[Function]}
+/>
+`;

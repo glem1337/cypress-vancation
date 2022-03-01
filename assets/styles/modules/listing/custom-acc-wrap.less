@@ -1,0 +1,168 @@
+@custom-photo-width: 124px;
+@custom-photo-width-md: 140px;
+@custom-photo-width-xl: 144px;
+
+.custom-acc-wrap {
+  .flex-center-y();
+  flex-wrap: wrap;
+  position: relative;
+  margin-right: 48px;
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: @gray100;
+  border-radius: @main-border-radius;
+  box-shadow: @shadow6;
+
+  &:last-of-type {
+    margin-bottom: 24px;
+  }
+
+  .ant-input {
+    flex-grow: 1;
+
+    @media (min-width: @screen-md) {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (min-width: @screen-md) {
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+
+    .main-input__field {
+      width: 140px;
+    }
+  }
+
+  @media (min-width: @screen-lg) {
+    margin-right: 0;
+  }
+}
+
+.custom-acc-wrap__main-input {
+  width: auto;
+}
+
+.custom-acc-wrap__price {
+  padding-right: 12px !important;
+}
+
+.custom-acc-wrap__sec-input {
+  margin-right: 0;
+
+  @media (min-width: @screen-md) {
+    margin-left: 16px;
+  }
+}
+
+.custom-acc-wrap__close {
+  position: absolute;
+  top: 0;
+  right: calc(-@btn-size-sm - 8px);
+}
+
+.custom-fee-wrap {
+  display: block;
+  .media-up(md; {
+    display: flex;
+  });
+
+  .custom-acc-wrap__sec-input {
+    max-width: 107px;
+    margin-right: 16px;
+
+    @media (min-width: @screen-md) {
+      max-width: 120px;
+    }
+  }
+}
+
+.custom-fee-wrap-extended {
+  align-items: flex-start;
+  .media-up(md; {
+    flex-wrap: nowrap;
+  });
+}
+
+.custom-damage-wrap {
+  .custom-acc-wrap__sec-input {
+    @media (min-width: @screen-md) {
+      width: 140px;
+    }
+  }
+
+  .camper-photo__sortable-section {
+    grid-template-columns: repeat(2, @custom-photo-width);
+
+    .media-up(md; {
+      grid-template-columns: repeat(3, @custom-photo-width-md);
+      column-gap: 16px;
+    });
+
+    .media-up(xl; {
+      grid-template-columns: repeat(4, @custom-photo-width-xl);
+    });
+  }
+
+  .camper-photo__uploaded-item {
+    width: @custom-photo-width;
+    height: @custom-photo-width;
+
+    .media-up(md; {
+      width: @custom-photo-width-md;
+      height: @custom-photo-width-md;
+      margin-bottom: 16px;
+    });
+
+    .media-up(xl; {
+      width: @custom-photo-width-xl;
+      height: @custom-photo-width-xl;
+    });
+  }
+
+  .camper-photo__uploaded-image {
+    width: @custom-photo-width;
+    height: @custom-photo-width;
+
+    .media-up(md; {
+      width: @custom-photo-width-md;
+      height: @custom-photo-width-md;
+    });
+
+    .media-up(xl; {
+      width: @custom-photo-width-xl;
+      height: @custom-photo-width-xl;
+    });
+  }
+
+  .camper-photo__upload-button {
+    width: calc(@custom-photo-width + 1px);
+    height: calc(@custom-photo-width + 1px);
+
+    .media-up(md; {
+      width: calc(@custom-photo-width-md + 1px);
+      height: calc(@custom-photo-width-md + 1px);
+    });
+
+    .media-up(xl; {
+      width: calc(@custom-photo-width-xl + 1px);
+      height: calc(@custom-photo-width-xl + 1px);
+    });
+  }
+
+  .camper-photo__upload-inner-wrapper {
+    width: calc(@custom-photo-width - @upload-inner-card-offset);
+    height: calc(@custom-photo-width - @upload-inner-card-offset);
+
+    .media-up(md; {
+      width: calc(@custom-photo-width-md - @upload-inner-card-offset);
+      height: calc(@custom-photo-width-md - @upload-inner-card-offset);
+    });
+
+    .media-up(xl; {
+      width: calc(@custom-photo-width-xl - @upload-inner-card-offset);
+      height: calc(@custom-photo-width-xl - @upload-inner-card-offset);
+    });
+  }
+}

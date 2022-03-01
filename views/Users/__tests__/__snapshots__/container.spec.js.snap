@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Users container renders Users component 1`] = `
+<UsersComponent
+  filterUsers={[Function]}
+  isLoading={false}
+  onInvitationModalOpen={[Function]}
+  searchQuery=""
+  showModal={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  totalCount={10}
+  users={Array []}
+/>
+`;

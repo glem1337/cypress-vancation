@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PreparationTimeComponent component tests matches snapshot 1`] = `
+<div
+  className="calendar-listing__side-main-item"
+>
+  <Button
+    className="ant-btn-slideout"
+    onClick={[MockFunction]}
+  >
+    <i
+      className="icon icon-time"
+    />
+    <span>
+      <Memo(FormattedMessage)
+        id="shared.preparationTime"
+      />
+    </span>
+    <i
+      className="icon icon-right ml-auto"
+    />
+  </Button>
+  <div
+    className="calendar-listing__side-slideout calendar-listing__side-slideout--active"
+  >
+    <ForwardRef(InternalForm)
+      layout="vertical"
+    >
+      <div
+        className="calendar-listing__side-slideout__main"
+      >
+        <div
+          className="mb-16"
+        >
+          <BackButton
+            discardConfirm={[MockFunction]}
+            discardPrepare={[MockFunction]}
+            discardReject={[MockFunction]}
+            isPopoverVisible={false}
+          />
+        </div>
+        <h3
+          className="text-subheader mb-8"
+        >
+          <Memo(FormattedMessage)
+            id="shared.preparationTime"
+          />
+        </h3>
+        <p
+          className="mb-16"
+        >
+          <Memo(FormattedMessage)
+            id="calendar.preparationTimeDescription"
+          />
+        </p>
+        <Field
+          className="main-input__field"
+          component={[Function]}
+          formItemClasses="mb-0"
+          items={
+            Array [
+              Object {
+                "label": Object {
+                  "id": "shared.countDays",
+                  "values": Object {
+                    "count": 0,
+                  },
+                },
+                "value": 0.1,
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.countDays",
+                  "values": Object {
+                    "count": 1,
+                  },
+                },
+                "value": 1,
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.countDays",
+                  "values": Object {
+                    "count": 2,
+                  },
+                },
+                "value": 2,
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.countDays",
+                  "values": Object {
+                    "count": 3,
+                  },
+                },
+                "value": 3,
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.countDays",
+                  "values": Object {
+                    "count": 4,
+                  },
+                },
+                "value": 4,
+              },
+              Object {
+                "label": Object {
+                  "id": "shared.countDays",
+                  "values": Object {
+                    "count": 5,
+                  },
+                },
+                "value": 5,
+              },
+            ]
+          }
+          label={
+            Object {
+              "id": "shared.days",
+            }
+          }
+          name="time"
+          optionLabelProp="label"
+          placeholder={
+            Object {
+              "id": "shared.select",
+            }
+          }
+        />
+      </div>
+      <FooterComponent
+        canSubmit={true}
+        discardConfirm={[MockFunction]}
+        discardPrepare={[MockFunction]}
+        discardReject={[MockFunction]}
+        isDiscardPopoverVisible={false}
+        isLoading={true}
+        isSavePopoverVisible={true}
+        saveConfirm={[MockFunction]}
+        savePrepare={[MockFunction]}
+        saveReject={[MockFunction]}
+        submit={[MockFunction]}
+        submitBtnText={
+          Object {
+            "id": "shared.save",
+          }
+        }
+        withSavePopover={true}
+        withSavePopoverWarning={false}
+      />
+    </ForwardRef(InternalForm)>
+  </div>
+</div>
+`;

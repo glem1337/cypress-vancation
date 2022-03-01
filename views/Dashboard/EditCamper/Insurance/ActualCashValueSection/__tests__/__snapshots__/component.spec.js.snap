@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActualCashValueSection component tests matches snapshot 1`] = `
+<Fragment>
+  <Col
+    lg={8}
+    md={12}
+  >
+    <h2
+      className="d-flex align-items-center text-subheader mb-16"
+    >
+      <Memo(FormattedMessage)
+        id="dashboard.editCamper.insurance.actualCashValue.title"
+      />
+      <TooltipIcon
+        iconClass="icon-info-f"
+        phrase={
+          <Memo(FormattedMessage)
+            id="dashboard.editCamper.insurance.actualCashValue.tooltip"
+          />
+        }
+      />
+    </h2>
+    <div
+      className="main-input-wrap-addtxt"
+    >
+      <Field
+        component={[Function]}
+        id="actualCashValue"
+        name="actualCashValue"
+        prefix="$"
+        type="number"
+      />
+    </div>
+  </Col>
+  <div
+    className="w-100"
+  />
+  <Col
+    lg={16}
+  >
+    <Alert
+      className="mb-0"
+      icon={
+        <i
+          className="icon icon-idea"
+        />
+      }
+      message={
+        <Memo(FormattedMessage)
+          id="dashboard.editCamper.insurance.actualCashValue.alert"
+        />
+      }
+      showIcon={true}
+      type="warning"
+    />
+  </Col>
+</Fragment>
+`;
+
+exports[`ActualCashValueSection component tests matches snapshot when actualCashValue does not exist 1`] = `
+<Fragment>
+  <Col
+    lg={8}
+    md={12}
+  >
+    <h2
+      className="d-flex align-items-center text-subheader mb-16"
+    >
+      <Memo(FormattedMessage)
+        id="dashboard.editCamper.insurance.actualCashValue.title"
+      />
+      <TooltipIcon
+        iconClass="icon-info-f"
+        phrase={
+          <Memo(FormattedMessage)
+            id="dashboard.editCamper.insurance.actualCashValue.tooltip"
+          />
+        }
+      />
+    </h2>
+    <div
+      className="main-input-wrap-addtxt"
+    >
+      <Field
+        component={[Function]}
+        id="actualCashValue"
+        name="actualCashValue"
+        prefix="$"
+        type="number"
+      />
+    </div>
+  </Col>
+</Fragment>
+`;

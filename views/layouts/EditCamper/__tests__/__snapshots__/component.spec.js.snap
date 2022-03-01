@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditCamperLayout component tests matches snapshot 1`] = `
+<Fragment>
+  <Connect(Header)
+    activeTabKey="DETAILS"
+  />
+  <div
+    className="edit-list-wrap"
+  >
+    <Sidebar
+      activeItemSlug="details"
+      items={Array []}
+      onItemClick={[MockFunction]}
+      onSidebarMobileChange={[MockFunction]}
+    />
+    <div
+      className="edit-list-wrap__inner"
+    >
+      <div />
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`EditCamperLayout component tests matches snapshot when showGradientButton equals false 1`] = `
+<Button
+  className="ml-auto min-w-140"
+  loading={false}
+  onClick={[MockFunction]}
+  size="large"
+>
+  <Memo(FormattedMessage)
+    id="shared.save"
+  />
+</Button>
+`;
+
+exports[`EditCamperLayout component tests when hasFooter === true 1`] = `
+<Fragment>
+  <Connect(Header)
+    activeTabKey="DETAILS"
+  />
+  <div
+    className="edit-list-wrap"
+  >
+    <Sidebar
+      activeItemSlug="details"
+      items={Array []}
+      onItemClick={[MockFunction]}
+      onSidebarMobileChange={[MockFunction]}
+    />
+    <div
+      className="edit-list-wrap__inner edit-list-wrap__inner--has-footer"
+    >
+      <div />
+    </div>
+    <div
+      className="main-listing__footer"
+    >
+      <div
+        className="main-listing__footer-container"
+      >
+        <BtnGradient
+          className="ml-auto min-w-140"
+          disabled={true}
+          isLoading={false}
+          onClick={[MockFunction]}
+          size="large"
+          text={
+            Object {
+              "id": "shared.save",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

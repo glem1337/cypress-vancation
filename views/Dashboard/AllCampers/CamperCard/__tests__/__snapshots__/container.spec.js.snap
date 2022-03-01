@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CamperCard container tests matches snapshot 1`] = `
+<CamperCard
+  description="description"
+  id="camperId"
+  img={null}
+  insurance={null}
+  modelNaming="modelNaming"
+  onEdit={[Function]}
+  onPreview={[Function]}
+  onPublish={[Function]}
+  onRemove={[Function]}
+  onUnpublish={[Function]}
+  place="place"
+  publicId="publicId"
+  rating={100}
+  showModal={[Function]}
+  status="status"
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  title="title"
+/>
+`;

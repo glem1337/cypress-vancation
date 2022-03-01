@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rules component tests matches snapshot 1`] = `
+<Fragment>
+  <div
+    className="d-flex align-items-center mb-16 van-details__unavailable-item"
+    key="titleId"
+  >
+    <img
+      alt=""
+      className="mr-12 edit-list-switch-card__icon"
+      src="/path/to/icon"
+    />
+    <p
+      className="in-black"
+    >
+      <FormattedOrRawMessage
+        message={
+          Object {
+            "id": "titleId",
+          }
+        }
+      />
+    </p>
+  </div>
+  <a
+    className="main-link in-blue-1000 font-600"
+    onClick={[MockFunction]}
+    role="button"
+  >
+    <Memo(FormattedMessage)
+      id="shared.showAllCount"
+      values={
+        Object {
+          "count": 1,
+        }
+      }
+    />
+  </a>
+</Fragment>
+`;

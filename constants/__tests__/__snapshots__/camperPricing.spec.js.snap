@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`camperPricing constants matches snapshot 1`] = `
+Object {
+  "MAX_COST_PER_NIGHT": 100000,
+  "MINIMAL_NIGHT_STAY_OPTIONS": Array [
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 1,
+        },
+      },
+      "value": 1,
+    },
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 2,
+        },
+      },
+      "value": 2,
+    },
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 3,
+        },
+      },
+      "value": 3,
+    },
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 4,
+        },
+      },
+      "value": 4,
+    },
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 5,
+        },
+      },
+      "value": 5,
+    },
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 6,
+        },
+      },
+      "value": 6,
+    },
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 7,
+        },
+      },
+      "value": 7,
+    },
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 8,
+        },
+      },
+      "value": 8,
+    },
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 9,
+        },
+      },
+      "value": 9,
+    },
+    Object {
+      "label": Object {
+        "id": "addNewCamper.pricing.countOfNights",
+        "values": Object {
+          "count": 10,
+        },
+      },
+      "value": 10,
+    },
+  ],
+  "MIN_COST_PER_NIGHT": 0.01,
+  "MONTHLY_DISCOUNT_BOUNDARIES": Object {
+    "MAX": 99,
+    "MIN": 1,
+  },
+  "PRICING_INFO_DEFAULT_VALUES": Object {
+    "costomizialeNightCost": false,
+    "minimalNightStay": 2,
+    "monthlyDiscount": false,
+    "monthlyDiscountPercent": 33,
+    "weeklyDiscount": false,
+    "weeklyDiscountPercent": 15,
+  },
+  "PRICING_INFO_DEFAULT_VALUES_BY_VEHICLE_TYPE": Object {
+    "Modern Van": Object {
+      "costPerNight": 280,
+      "costomizialeNightCost": false,
+      "minimalNightStay": 2,
+      "monthlyDiscount": false,
+      "monthlyDiscountPercent": 33,
+      "weekNightPrice": Object {
+        "friday_price": 320,
+        "monday_price": 250,
+        "saturday_price": 320,
+        "sunday_price": 250,
+        "thursday_price": 250,
+        "tuesday_price": 250,
+        "wednesday_price": 250,
+      },
+      "weeklyDiscount": false,
+      "weeklyDiscountPercent": 15,
+    },
+    "Unique Camper": Object {
+      "costPerNight": 140,
+      "costomizialeNightCost": false,
+      "minimalNightStay": 2,
+      "monthlyDiscount": false,
+      "monthlyDiscountPercent": 33,
+      "weekNightPrice": Object {
+        "friday_price": 180,
+        "monday_price": 110,
+        "saturday_price": 180,
+        "sunday_price": 110,
+        "thursday_price": 110,
+        "tuesday_price": 110,
+        "wednesday_price": 110,
+      },
+      "weeklyDiscount": false,
+      "weeklyDiscountPercent": 15,
+    },
+    "VW Bus": Object {
+      "costPerNight": 170,
+      "costomizialeNightCost": false,
+      "minimalNightStay": 2,
+      "monthlyDiscount": false,
+      "monthlyDiscountPercent": 33,
+      "weekNightPrice": Object {
+        "friday_price": 210,
+        "monday_price": 140,
+        "saturday_price": 210,
+        "sunday_price": 140,
+        "thursday_price": 140,
+        "tuesday_price": 140,
+        "wednesday_price": 140,
+      },
+      "weeklyDiscount": false,
+      "weeklyDiscountPercent": 15,
+    },
+    "Vehicle Camper": Object {
+      "costPerNight": 90,
+      "costomizialeNightCost": false,
+      "minimalNightStay": 2,
+      "monthlyDiscount": false,
+      "monthlyDiscountPercent": 33,
+      "weekNightPrice": Object {
+        "friday_price": 130,
+        "monday_price": 60,
+        "saturday_price": 130,
+        "sunday_price": 60,
+        "thursday_price": 60,
+        "tuesday_price": 60,
+        "wednesday_price": 60,
+      },
+      "weeklyDiscount": false,
+      "weeklyDiscountPercent": 15,
+    },
+  },
+  "VEHICLE_DEFAULT_VALUES": Object {
+    "MODERN_VAN": "Modern Van",
+    "UNIQUE": "Unique Camper",
+    "VEHICLE": "Vehicle Camper",
+    "VW_BUS": "VW Bus",
+  },
+  "WEEKLY_DISCOUNT_BOUNDARIES": Object {
+    "MAX": 99,
+    "MIN": 1,
+  },
+  "WEEK_NIGHT_PRICE_DAYS": Array [
+    Object {
+      "DAY": Object {
+        "id": "days.monday",
+      },
+      "NAME": "monday_price",
+    },
+    Object {
+      "DAY": Object {
+        "id": "days.tuesday",
+      },
+      "NAME": "tuesday_price",
+    },
+    Object {
+      "DAY": Object {
+        "id": "days.wednesday",
+      },
+      "NAME": "wednesday_price",
+    },
+    Object {
+      "DAY": Object {
+        "id": "days.thursday",
+      },
+      "NAME": "thursday_price",
+    },
+    Object {
+      "DAY": Object {
+        "id": "days.friday",
+      },
+      "NAME": "friday_price",
+    },
+    Object {
+      "DAY": Object {
+        "id": "days.saturday",
+      },
+      "NAME": "saturday_price",
+    },
+    Object {
+      "DAY": Object {
+        "id": "days.sunday",
+      },
+      "NAME": "sunday_price",
+    },
+  ],
+}
+`;

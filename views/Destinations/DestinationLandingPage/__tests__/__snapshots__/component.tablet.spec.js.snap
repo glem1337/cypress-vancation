@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DestinationsLandingPageTablet component tests matches snapshot 1`] = `
+<Fragment>
+  <Connect(InteractiveMapMobile)
+    createMapOnMount={true}
+    isVisible={true}
+    onDragEnd={[MockFunction]}
+    onZoomEnd={[MockFunction]}
+    toggleTabletMap={[MockFunction]}
+  />
+  <ViewMapButton
+    isVisible={false}
+    onClick={[MockFunction]}
+  />
+  <ContentContainer
+    MapSection={null}
+    NearbyDestinationsSection={<NearbyDestinations />}
+    ResultsSection={
+      <div
+        className="search-page__results"
+      >
+        <div
+          className="search-page__results-info"
+        >
+          <SearchResultsInfo
+            additionalClassNames="mt-10"
+          />
+          <EmptyResult />
+          <MainPhoto />
+          <MainInfo />
+          <Memo(Connect(TopLocations)) />
+        </div>
+        <div
+          className="search-page__results-campers"
+        >
+          <div
+            className="search-page__results-text mt-24 mb-24"
+          >
+            <Description />
+            <FanFacts />
+          </div>
+          <Campers />
+        </div>
+      </div>
+    }
+    isDesktopMapVisible={true}
+  />
+  <Footer
+    innerRef={[MockFunction]}
+  />
+</Fragment>
+`;

@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CamperDetails Component matches snapshot 1`] = `
+<withRouter(EditCamper)
+  canSave={false}
+  hasFooter={true}
+  isLoading={false}
+  leavePageMethod={[MockFunction]}
+  onSave={[MockFunction]}
+>
+  <div
+    className="container"
+  >
+    <Row>
+      <Col
+        lg={16}
+      >
+        <Row
+          gutter={24}
+        >
+          <Col
+            span={24}
+          >
+            <h1
+              className="text-headline mb-8"
+            >
+              <Memo(FormattedMessage)
+                id="addNewCamper.camperDetails.startWithYour"
+              />
+            </h1>
+            <p
+              className="mb-16"
+            >
+              <Memo(FormattedMessage)
+                id="addNewCamper.camperDetails.camperOrRVIsMatch"
+              />
+            </p>
+          </Col>
+        </Row>
+      </Col>
+      <ForwardRef(InternalForm)
+        layout="vertical"
+      >
+        <Col
+          lg={16}
+        >
+          <Row
+            gutter={24}
+          >
+            <Col
+              span={24}
+            >
+              <GeneralForm
+                builtCamper={Array []}
+                camperLength={
+                  Array [
+                    Object {
+                      "label": "10\`",
+                      "value": 10,
+                    },
+                    Object {
+                      "label": "10\`",
+                      "value": 10,
+                    },
+                  ]
+                }
+                handlerMake={[MockFunction]}
+                isSubmitting={false}
+                vehicleMake={Array []}
+                vehicleModel={Array []}
+                vehicleTypes={Array []}
+                years={
+                  Array [
+                    Object {
+                      "label": "1970\`",
+                      "value": 1970,
+                    },
+                    Object {
+                      "label": "1971\`",
+                      "value": 1971,
+                    },
+                  ]
+                }
+              />
+            </Col>
+          </Row>
+        </Col>
+        <Divider />
+        <Col
+          lg={16}
+        >
+          <Row
+            gutter={24}
+          >
+            <Col
+              span={24}
+            >
+              <div
+                className="text-subtitle"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.camperDetails.technicalDetails"
+                />
+              </div>
+              <TechnicalDetailsForm
+                estimateEarningState={false}
+                isSubmitting={false}
+              />
+            </Col>
+          </Row>
+        </Col>
+        <Divider />
+        <Col
+          lg={16}
+        >
+          <Row
+            gutter={24}
+          >
+            <Col
+              span={24}
+            >
+              <div
+                className="text-subtitle"
+              >
+                <Memo(FormattedMessage)
+                  id="addNewCamper.camperDetails.water.title"
+                />
+              </div>
+              <WaterForm
+                formatMessage={[Function]}
+                isSubmitting={false}
+              />
+            </Col>
+          </Row>
+        </Col>
+      </ForwardRef(InternalForm)>
+    </Row>
+  </div>
+</withRouter(EditCamper)>
+`;
+
+exports[`CamperDetails Component when camper isn\`t exist 1`] = `
+<withRouter(EditCamper)
+  canSave={false}
+  hasFooter={true}
+  isLoading={false}
+  leavePageMethod={[MockFunction]}
+  onSave={[MockFunction]}
+>
+  <div
+    className="container"
+  >
+    <Row>
+      <Col
+        lg={16}
+      >
+        <Row
+          gutter={24}
+        >
+          <Col
+            span={24}
+          >
+            <h1
+              className="text-headline mb-8"
+            >
+              <Memo(FormattedMessage)
+                id="addNewCamper.camperDetails.startWithYour"
+              />
+            </h1>
+            <p
+              className="mb-16"
+            >
+              <Memo(FormattedMessage)
+                id="addNewCamper.camperDetails.camperOrRVIsMatch"
+              />
+            </p>
+          </Col>
+        </Row>
+      </Col>
+      <Skeleton
+        active={true}
+        avatar={false}
+        paragraph={true}
+        title={true}
+      />
+    </Row>
+  </div>
+</withRouter(EditCamper)>
+`;

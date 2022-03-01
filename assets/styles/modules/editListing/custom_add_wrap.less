@@ -1,0 +1,47 @@
+.custom-add-wrap {
+  .custom-acc-wrap();
+  align-items: flex-start;
+  padding-right: 16px !important;
+  padding-bottom: 0 !important;
+
+  @media (max-width: @screen-lg - 1px) {
+    flex-wrap: nowrap;
+  }
+
+  .ant-input {
+    @media (min-width: @screen-md) {
+      margin-bottom: 16px;
+    }
+  }
+
+  .main-input__field {
+    width: 100%;
+  }
+}
+
+.custom-add-wrap--question {
+  flex-direction: column;
+  padding-bottom: 16px !important;
+
+  .ant-input {
+    margin-bottom: 0 !important;
+  }
+}
+
+.custom-add-wrap--addons {
+  flex-wrap: nowrap;
+  padding-bottom: 16px !important;
+  .media-up(md; {
+    padding-bottom: 24px !important;
+  });
+
+  .edit-list-switch-card__input-fields {
+    .media-down(md; {
+      grid-template-columns: 1fr 102px;
+    });
+  }
+
+  .ant-input {
+    margin-bottom: 0;
+  }
+}

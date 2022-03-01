@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalendarSettingsComponent component tests matches snapshot 1`] = `
+<Fragment>
+  <withPopovers((Connect(WithFormik(DefaultNightRate)))
+    camperId="camperId"
+  />
+  <withPopovers((Connect(WithFormik(BaseDiscount)))
+    camperId="camperId"
+  />
+  <withPopovers((Connect(WithFormik(DefaultMinNightStay)))
+    camperId="camperId"
+  />
+  <withPopovers((Connect(WithFormik(CalendarAvailability)))
+    camperId="camperId"
+  />
+  <withPopovers((Connect(WithFormik(PreparationTime)))
+    camperId="camperId"
+  />
+  <withPopovers((Connect(WithFormik(PickUpTime)))
+    camperId="camperId"
+  />
+</Fragment>
+`;

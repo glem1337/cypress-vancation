@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserHeader container renders UserHeader component 1`] = `
+<UserHeaderComponent
+  SearchSection={null}
+  accountDropdownVisible={false}
+  active="account"
+  areItemsGrouped={false}
+  currentUser={
+    Object {
+      "session": Object {
+        "currentUser": Object {
+          "email": "test@gmail.com",
+          "user": Object {
+            "avatarUrl": "test_url",
+            "firstName": "firstName_test",
+            "lastName": "lastName_test",
+          },
+        },
+      },
+    }
+  }
+  fetchOwnerProfile={[Function]}
+  groupItems={false}
+  handlerSignOut={[Function]}
+  headerClassNames={null}
+  isAccountDropdownVisible={false}
+  isMobileHeaderExpanded={true}
+  isMobileMenuVisible={false}
+  isUserLoggedIn={true}
+  mobileMenuVisible={false}
+  onAccountDropdownToggle={[Function]}
+  onMobileMenuClose={[Function]}
+  onMobileMenuOpen={[Function]}
+  ownerProfile={
+    Object {
+      "avatarUrl": null,
+      "averageRating": null,
+      "businessTitle": null,
+      "campersCount": 14,
+      "createdAt": "Member since July 2021",
+      "description": null,
+      "email": null,
+      "idVerified": false,
+    }
+  }
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [MockFunction],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  userSignOut={[Function]}
+/>
+`;
