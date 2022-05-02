@@ -81,7 +81,7 @@
     "@zeit/next-sass": "^1.0.1",
     "antd": "^4.16.13",
     "antd-img-crop": "^3.16.0",
-    "autoprefixer": "^10.3.1",
+    "autoprefixer": "^10.4.6",
     "axios": "^0.21.4",
     "babel-loader": "^8.2.2",
     "babel-plugin-dynamic-import-node": "^2.3.3",
